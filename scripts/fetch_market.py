@@ -21,8 +21,8 @@ def fetch_snapshot() -> list[dict]:
         try:
             t = yf.Ticker(ticker)
             info = t.fast_info
-            price = info.get("last_price")
-            prev_close = info.get("previous_close")
+            price = info.get("lastPrice")
+            prev_close = info.get("previousClose")
             change_pct = None
             if price is not None and prev_close:
                 change_pct = round((price - prev_close) / prev_close * 100, 2)
