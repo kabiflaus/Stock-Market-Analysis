@@ -1,47 +1,53 @@
 {
-  "fetched_at": "2026-07-21T11:53:56.385807+00:00",
+  "fetched_at": "2026-07-21T12:04:23.776984+00:00",
   "rows": [
     {
       "label": "Nasdaq Futures",
       "ticker": "NQ=F",
       "price": null,
       "prev_close": null,
-      "change_pct": null
+      "change_pct": null,
+      "error": "Too Many Requests. Rate limited. Try after a while."
     },
     {
       "label": "S&P 500 Futures",
       "ticker": "ES=F",
       "price": null,
       "prev_close": null,
-      "change_pct": null
+      "change_pct": null,
+      "error": "Too Many Requests. Rate limited. Try after a while."
     },
     {
       "label": "DAX",
       "ticker": "^GDAXI",
       "price": null,
       "prev_close": null,
-      "change_pct": null
+      "change_pct": null,
+      "error": "Too Many Requests. Rate limited. Try after a while."
     },
     {
       "label": "KOSPI",
       "ticker": "^KS11",
       "price": null,
       "prev_close": null,
-      "change_pct": null
+      "change_pct": null,
+      "error": "Too Many Requests. Rate limited. Try after a while."
     },
     {
       "label": "Oracle (ORCL)",
       "ticker": "ORCL",
       "price": null,
       "prev_close": null,
-      "change_pct": null
+      "change_pct": null,
+      "error": "Too Many Requests. Rate limited. Try after a while."
     },
     {
       "label": "Meta (META)",
       "ticker": "META",
       "price": null,
       "prev_close": null,
-      "change_pct": null
+      "change_pct": null,
+      "error": "Too Many Requests. Rate limited. Try after a while."
     }
   ]
 }

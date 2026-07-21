@@ -35,6 +35,13 @@
     "published": "2026-07-21T10:21:52+00:00"
   },
   {
+    "label": "Nasdaq",
+    "title": "Stock Market Today: Dow Jones, Nasdaq 100 Futures Rise as Tech Stocks Lead the Rally—Nebius, Archer, IREN - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVGc2UElicGV5VjNEbkR4ZGhfNGNNb2ZsNWZ1c3E5aGFTUkRWSFdRTVp0U3RsN3JqT2tIVXROekZ0TmdxRmlaSFhPUklTVEl1QkU1R2RVbDRUdW00WEdaaDJRUjZmeVI0WHViYTlET0l3Sks1VkRyTGhXVDZxSXhZTUZDOFBzdVFRQnRTY25MZ00wSTgtNnpTWW9tdXVCRFlwSUZHSzFTTkpVRDJBQkdsdFkyODgwaFR3YXlDYUxvYWxzZWROeVJJNjBZcERIYXlyZVdpSzRIQWxoeE9JazV5WmJ0SFNDUUhfMmxIZnJOUlRVVTRiNHhxbHJtYw?oc=5",
+    "source": "Benzinga",
+    "published": "2026-07-21T10:18:17+00:00"
+  },
+  {
     "label": "S&P 500",
     "title": "Stock futures are higher as Wall Street awaits latest earnings report: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XLTNzMWtVbDdoSXZNQllWbm5QbU5Eb0ZISWlMb3E3SHdJWWxkcUk2bWVBR2F2UWczSzg1LW43Wk4wZDBHRWNDRXh1REFhMEtvZWdyQ1lpV0ZlYi1jb0l6cVVlaFdSTktfWGh1RlRpd0hxbnFzdFZF0gF8QVVfeXFMTWlHUmFxaUZ4Q3BUeEtZcy1ZUjgzZzNHRGY3bXhHTmdTb2Q3Um9YZ19hbWN2cWl6ellJekdKSmFOdlV1R1JCRC1MeHJhQzJIOVlhbEtQajBJeTNvaXFiQWs5bDhENWNHSUV5OXEybVY0enFWcHV2M1BmRXRBLQ?oc=5",
@@ -42,7 +49,7 @@
     "published": "2026-07-21T10:08:00+00:00"
   },
   {
-    "label": "Nasdaq",
+    "label": "S&P 500",
     "title": "Stock Futures Rise as Market's AI Worries Ease - Barron's",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDdEUVZrTHIxVjlTM1lqbDlkZF96NFFGOXVmV3VmcHVqLTJnMUl4UHMzWExCendjRzd1eEh3OHhxb1hVX1lZbVVkaEFreHo5akJnbXQ3a2NxYU1DSzgxbFgtX21NeEhNOG9WQU9FNC1pZjM3UksxTkRPa3BNMXAtOVRkdmZZbzk5Tk1FNW5zc2FIaThLTUd0ZllTbi12bEZGX1gtS19fbkI4RVpkemI0Qy1jdjMxakxreDlsYjlKa3YyN3RwLUR5T20tZzNTRFQyaklueU5ldw?oc=5",
     "source": "Barron's",
@@ -57,9 +64,9 @@
   },
   {
     "label": "DAX",
-    "title": "WA5NHK • DE000WA5NHK7 • Aktueller Kurs Knock-Out-Optionsschein auf DAX - Onvista",
+    "title": "WA5NHK • DE000WA5NHK7 • Aktueller Kurs Knock-Out-Optionsschein auf DAX - OnVista",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Mb3RrUDZGd0pmdlpHVmx6NmNpTGttTTFjTGdIRHU2N1ZrVjU0YlIxeTQxZEd3YXltTVhIODd4YUhHaDJJVTFXcnEwcXltOG5MQkJHX0pLN24zbEtTenRVSE5xT1RDdXBnQnEtV3lKMW9hX3F0eG5aalBiZEc?oc=5",
-    "source": "Onvista",
+    "source": "OnVista",
     "published": "2026-07-21T08:28:10+00:00"
   },
   {
@@ -67,7 +74,7 @@
     "title": "Why South Korea's stock market is driving wild Wall Street swings - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT3lwbVNYOTlEQ2xTcXEyVjZYcGF4N1ZDWGVMUHYybHc2QjF4Nm13Ti1nT1lONmtVOWtkUlFTMk1ESno4bklNUzZsVDAtcFRVSlJBaWdESmhzLWRwUENKWkdTaEF6YTBEZk01ZllyZHNSTU8tQW1TZlBpeXJnaXhHU0tTZEY1V3R1cWRvNWFoMl9PeWRldTdLcEF4RERTanla?oc=5",
     "source": "Business Insider",
-    "published": "2026-07-21T08:09:00+00:00"
+    "published": "2026-07-21T08:09:55+00:00"
   },
   {
     "label": "Meta",
@@ -80,6 +87,13 @@
     "label": "S&P 500",
     "title": "U.S. stocks set to rise after chip stocks rebound - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNYjlxd0ZqLUV6NGJoc2ZMeTRxbzQ0bTQyQ3F0LTI0a3g1WDFXdFZpM1I3Wkd1aVVKbGpZbkRMNXNFMXpVcHZocUdCNG1iZjhNdElmc0w4dnhXWDFxU2FZb3RRRzRsRlNibkp4VGtJR0NCZmg1TG5YdDAwRHpVSFMwS1BsWjVSdGIxUWlKTUpxUG5JcFdMb0g5WkxhcW44R29hUVkyTDVDQXNqU2ZKSmRqak9jUk5zdnJacTJRbXpUVWQyell4akhtWmc4MWhkTjBBMHZyWUp4VVdyOWJWaUhlbllnVnBUQ2M3NmEzU2NsUHpFUHY3WkdTNVQydGxzc1dpVlk2VTlmQmwwMk82T1dZcmgyQW5nUlpDTkpnWEItU3dhaU5XVWEw?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-07-21T07:38:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "U.S. stocks set to rise after chip stocks rebound - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOTnlVOEFDeG1RVWY0ZVpmTWtsNEpzc0diQ2ZKWGwyNDRoQkZxcWphTmtlZnFpWWlBTmVxc1IzbExERnNOaHFBdWNibTF4ekFBVTFfTjRGVkVIamdWSzlHUGg4RnN3MmVHNzdva0hjV0htSzcwVWViVkJocjNORjBNQUVnOGVkR18yQTRkWkpwcU80QjBDQTJwbll4V05teElFNXQ1NEQ2OC1hXzFFbUlNZUJwMy1ZNXNQeGZFWTE1bno0RlVyQnVfZGV5cHlWLWVZMzFCX2pRd1VlRDl1Qm9rTTF2V1pORWZ3OTd2TEpwcHRjcGktZTlVbHI3cGxFdi1GQWdYbmtYYTg5LVF0eFpwaG9tRmllbDZwUEE?oc=5",
     "source": "MarketWatch",
     "published": "2026-07-21T07:38:00+00:00"
   },
@@ -141,9 +155,9 @@
   },
   {
     "label": "DAX",
-    "title": "DAX® - Doppeltes Kaufsignal wirkt nur kurz - Onvista",
+    "title": "DAX® - Doppeltes Kaufsignal wirkt nur kurz - OnVista",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWENVbFF3NG1Wd1o0Ni1IbzRIT0VVN01xM3VZT1hCRFdTbWNHMTBDXy04Zlg5ai14Sl9BaF92c1hvWnF6MnpORTh3d21GUFdpMDZ5T0ptV3pTM05mUFNybTJNdzlKNXl3ZE0yU1o1dWQ3Y1I0ODFHMnI2ZHgxQmYtR1c0N0p6QVV3Y3ZXRmJYNTkzQ3NUc0R3?oc=5",
-    "source": "Onvista",
+    "source": "OnVista",
     "published": "2026-07-20T21:20:00+00:00"
   },
   {
