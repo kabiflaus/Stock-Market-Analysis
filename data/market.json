@@ -1,26 +1,26 @@
 {
-  "fetched_at": "2026-07-21T12:19:32.945082+00:00",
+  "fetched_at": "2026-07-21T14:18:42.037062+00:00",
   "rows": [
     {
       "label": "Nasdaq Futures",
       "ticker": "NQ=F",
-      "price": 29184.25,
+      "price": 29087.75,
       "prev_close": 29225.75,
-      "change_pct": -0.14
+      "change_pct": -0.47
     },
     {
       "label": "S&P 500 Futures",
       "ticker": "ES=F",
-      "price": 7518.5,
+      "price": 7516.25,
       "prev_close": 7577.75,
-      "change_pct": -0.78
+      "change_pct": -0.81
     },
     {
       "label": "DAX",
       "ticker": "^GDAXI",
-      "price": 24903.62,
+      "price": 24861.54,
       "prev_close": 25147.03,
-      "change_pct": -0.97
+      "change_pct": -1.14
     },
     {
       "label": "KOSPI",
@@ -32,16 +32,16 @@
     {
       "label": "Oracle (ORCL)",
       "ticker": "ORCL",
-      "price": 121.38,
-      "prev_close": 131.54,
-      "change_pct": -7.72
+      "price": 125.25,
+      "prev_close": 127.94,
+      "change_pct": -2.1
     },
     {
       "label": "Meta (META)",
       "ticker": "META",
-      "price": 645.85,
-      "prev_close": 656.73,
-      "change_pct": -1.66
+      "price": 646.1,
+      "prev_close": 661.04,
+      "change_pct": -2.26
     }
   ]
 }
