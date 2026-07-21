@@ -30,3 +30,32 @@ MARKET_TICKERS = {
     "Oracle (ORCL)": "ORCL",
     "Meta (META)": "META",
 }
+
+# Diese Ticker stehen oben als "US-Futures / Vorboerse" (beantworten: wie
+# wird der Handelstag eroeffnen). Alle anderen MARKET_TICKERS-Eintraege
+# laufen unter "Indizes & Einzelwerte".
+PREMARKET_TICKERS = ["Nasdaq Futures", "S&P 500 Futures"]
+
+# Schlagzeilen, die eines dieser Woerter enthalten, bekommen ein "Wichtig"-
+# Tag und werden innerhalb ihrer Sektion nach oben sortiert. Case-insensitive,
+# reiner Substring-Match - bewusst simpel, kein NLP.
+PRIORITY_KEYWORDS = [
+    "fed", "federal reserve", "zinsen", "rate cut", "rate hike", "cpi",
+    "inflation", "earnings", "quartalszahlen", "guidance", "prognose",
+    "ceasefire", "krieg", "war", "hormuz", "circuit breaker", "crash",
+    "einbruch", "capex", "export control", "chip ban", "downgrade",
+    "upgrade", "bankruptcy", "insolvenz", "warnung", "profit warning",
+]
+
+# Quellen, die rausgefiltert werden (case-insensitive Substring-Match auf
+# das "source"-Feld). Das sind ueberwiegend SEO-/Meinungs-Content-Muehlen,
+# die bei populaeren Einzelaktien (Oracle, Meta) taeglich viele Artikel
+# ohne echten Nachrichtenwert produzieren und dadurch den zeitlich
+# sortierten Feed dominieren. Reine Wire-/Primaerquellen (Reuters, Bloomberg,
+# CNBC, WSJ, Barron's, MarketWatch, Yahoo Finance, FAZ, Handelsblatt etc.)
+# bleiben bewusst drin.
+BLOCKED_SOURCES = [
+    "motley fool", "seeking alpha", "tipranks", "benzinga", "tradingkey",
+    "gurufocus", "smartkarma", "barchart.com", "stocktwits", "finviz",
+    "24/7 wall st", "thestreet.com", "zacks",
+]
