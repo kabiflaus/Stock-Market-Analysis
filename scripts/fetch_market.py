@@ -5,21 +5,28 @@ Momentaufnahme in data/market.json. Reine Zahlen, keine Interpretation.
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 
 import yfinance as yf
+from curl_cffi import requests as cffi_requests
 
 sys.path.insert(0, os.path.dirname(__file__))
 from config import MARKET_TICKERS
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "market.json")
 
+# Yahoo blockt/drosselt Cloud-/Rechenzentrums-IPs (z.B. GitHub Actions) auf
+# Basis des TLS-Fingerprints. curl_cffi imitiert einen echten Chrome-Browser
+# und umgeht das - Standard-Workaround in der yfinance-Community.
+SESSION = cffi_requests.Session(impersonate="chrome")
+
 
 def fetch_snapshot() -> list[dict]:
     rows = []
     for label, ticker in MARKET_TICKERS.items():
         try:
-            t = yf.Ticker(ticker)
+            t = yf.Ticker(ticker, session=SESSION)
             info = t.fast_info
             price = info.get("lastPrice")
             prev_close = info.get("previousClose")
@@ -40,6 +47,7 @@ def fetch_snapshot() -> list[dict]:
                 "price": None, "prev_close": None, "change_pct": None,
                 "error": str(e),
             })
+        time.sleep(1.5)  # Burst-Anfragen vermeiden, die Yahoo eher als Bot erkennt
     return rows
 
 
