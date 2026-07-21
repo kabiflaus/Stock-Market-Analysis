@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T12:04:23.776984+00:00",
+  "fetched_at": "2026-07-21T12:15:32.042204+00:00",
   "rows": [
     {
       "label": "Nasdaq Futures",
@@ -7,7 +7,7 @@
       "price": null,
       "prev_close": null,
       "change_pct": null,
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "error": "'currentTradingPeriod'"
     },
     {
       "label": "S&P 500 Futures",
@@ -15,7 +15,7 @@
       "price": null,
       "prev_close": null,
       "change_pct": null,
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "error": "'currentTradingPeriod'"
     },
     {
       "label": "DAX",
@@ -23,7 +23,7 @@
       "price": null,
       "prev_close": null,
       "change_pct": null,
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "error": "'currentTradingPeriod'"
     },
     {
       "label": "KOSPI",
@@ -31,7 +31,7 @@
       "price": null,
       "prev_close": null,
       "change_pct": null,
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "error": "'currentTradingPeriod'"
     },
     {
       "label": "Oracle (ORCL)",
@@ -39,7 +39,7 @@
       "price": null,
       "prev_close": null,
       "change_pct": null,
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "error": "'currentTradingPeriod'"
     },
     {
       "label": "Meta (META)",
@@ -47,7 +47,7 @@
       "price": null,
       "prev_close": null,
       "change_pct": null,
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "error": "'currentTradingPeriod'"
     }
   ]
 }
