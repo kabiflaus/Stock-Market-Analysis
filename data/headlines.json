@@ -1,10 +1,31 @@
 [
   {
+    "label": "Nasdaq",
+    "title": "Dow pops 300 points boosted by earnings; chipmakers rise: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XLTNzMWtVbDdoSXZNQllWbm5QbU5Eb0ZISWlMb3E3SHdJWWxkcUk2bWVBR2F2UWczSzg1LW43Wk4wZDBHRWNDRXh1REFhMEtvZWdyQ1lpV0ZlYi1jb0l6cVVlaFdSTktfWGh1RlRpd0hxbnFzdFZF0gF8QVVfeXFMTWlHUmFxaUZ4Q3BUeEtZcy1ZUjgzZzNHRGY3bXhHTmdTb2Q3Um9YZ19hbWN2cWl6ellJekdKSmFOdlV1R1JCRC1MeHJhQzJIOVlhbEtQajBJeTNvaXFiQWs5bDhENWNHSUV5OXEybVY0enFWcHV2M1BmRXRBLQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-07-21T18:49:00+00:00"
+  },
+  {
+    "label": "Oracle",
+    "title": "What's Going on With Oracle Stock Tuesday? - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeVhrV1ZIVEpnaWpFZm1MN0pQa0lQM0lsTUtVSEhhVURxd2M5YnRPZDhxM0lCQ3NzSElrektTX2J6V2g3WnJTblBoN3FRVVpERG5NMWpuenlXUXJsU21VbUk2VDRDZXBYZmREWlcxaFRabkhESFRXY3J0RzBfREV4LWdVOUpMb2ZMUlJuMmxFT0dQVDg1WUEtZzZjWVN6N3l1cWYtSFNn?oc=5",
+    "source": "Benzinga",
+    "published": "2026-07-21T18:36:57+00:00"
+  },
+  {
     "label": "Meta",
     "title": "Why This Analyst Just Put a $1,000 Price Tag on Meta Stock - Barron's",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IQ3k2S1ZBczRuSXRMWmdQNEFLRi13WS1rU2FJSkU3VEp5eGtqVUwwa05kX2NlUE9OdHFjZi0wRFotekZxX3UxMjM2aWh3ZlNsWG5hWEZ0NnJHbjR3Z3llUFE4U0hEQkVXQktVdm80Mmg5dw?oc=5",
     "source": "Barron's",
     "published": "2026-07-21T18:00:00+00:00"
+  },
+  {
+    "label": "Oracle",
+    "title": "ORCL Stock Gains Nearly 4% — Why Mizuho Sees 164% Upside Despite Oracle’s 38% YTD Slump - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQS1B5c3pBX1YwTHYzR0d4VHZ4VEhkWlBtcGh3VXFYTnh6N0FleS1YTWJaQkJEREVBa3UxSUN3OV9JeVNMXzROWGR4b2tiWWFSSVZUTjNVTmd5NHprZUxybWc0SUZkamxWSWlqYVIxUVFybUpLcENUQlpnRGxZZGdfMEdQOXRUc1BlM09LLUtPRi1TSHlmblZNak1NZmZmbWxlSllscTU1RncxUmx1ZUNGNjZYaXNsOUdLN2FFOEpZeHhrY2kwSHh4MUdwTUsyWUhVM1BiOV9wX1R4LXE4TmtJTHdTVzZlVU45d3pVMUpYcUMzU3FZX2xyY1hDR1dnUQ?oc=5",
+    "source": "Stocktwits",
+    "published": "2026-07-21T17:42:22+00:00"
   },
   {
     "label": "Oracle",
@@ -21,11 +42,11 @@
     "published": "2026-07-21T17:20:03+00:00"
   },
   {
-    "label": "Nasdaq",
-    "title": "Stocks are higher, boosted by chipmakers and strong earnings: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XLTNzMWtVbDdoSXZNQllWbm5QbU5Eb0ZISWlMb3E3SHdJWWxkcUk2bWVBR2F2UWczSzg1LW43Wk4wZDBHRWNDRXh1REFhMEtvZWdyQ1lpV0ZlYi1jb0l6cVVlaFdSTktfWGh1RlRpd0hxbnFzdFZF0gF8QVVfeXFMTWlHUmFxaUZ4Q3BUeEtZcy1ZUjgzZzNHRGY3bXhHTmdTb2Q3Um9YZ19hbWN2cWl6ellJekdKSmFOdlV1R1JCRC1MeHJhQzJIOVlhbEtQajBJeTNvaXFiQWs5bDhENWNHSUV5OXEybVY0enFWcHV2M1BmRXRBLQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-07-21T15:56:00+00:00"
+    "label": "DAX",
+    "title": "DAX: Zurück über 25.000 Punkte – Chip-Aktien geben Vollgas - Der Aktionär",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdkd2WmxxWGdhenpxWjhqNndKRV9xbjJrZ3BvV0hvOWtoUDhuTE9SZV9ILXZVeVY2TThMbVRFZklIZUxZSUlzck9RSDFlOW01ZUczTTFVX0dDY2hvSWVjWWx1QnBxZlBGdDkyRDFLazRnSlBRWHhvdWVRUjJZN1hoVFNLVTg3R3dvYTZ2RVVLbHlZYW1xUUF0XzhQd0padUt3VkVHN2thbHRRSE5SRUNaOXJmaV8?oc=5",
+    "source": "Der Aktionär",
+    "published": "2026-07-21T17:12:30+00:00"
   },
   {
     "label": "DAX",
@@ -117,6 +138,13 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iRFhOOGlaVlg3V2tCZ0hwR3BmazJXLWRya2ZKN3YyVnMxTzlZQlRWRl9sNTh0U3AxZWUySEowaEVWRmszUlNZRHIxM1RHRXd0cWN2RHZNbXgwa1FQRXduckRxanU2blpUY1pPM1ctSFF0S0RDVlRILXJJZw?oc=5",
     "source": "Wallstreet Online",
     "published": "2026-07-21T11:16:40+00:00"
+  },
+  {
+    "label": "Meta",
+    "title": "Meta and Shopify: Analyst Lifts Price Target on One Stock but Downgrades the Other - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX0pKZjdFUklwZXBTMTdMa01Qck9SSkZ6WDZhcmxadWQzd19ycXRNaUdKVTJSUzc1XzFZZjZlTVhueGxzR05lNG5uSzNkbWROZjA4c3JhVGJKaFRsVVFDejNod2NzclRHeUtmT0NZTmRLRzVYWUJjVzZLZjUzY0pUSHdKX1BiQXRhbTJSVGpJSldwbEdtX1VzN1JsUWVUZGxqUlFqUjhlR3ctWHE4amxoOHdodVB0dC1CMmtr?oc=5",
+    "source": "TipRanks",
+    "published": "2026-07-21T10:53:21+00:00"
   },
   {
     "label": "S&P 500",
@@ -238,6 +266,13 @@
     "published": "2026-07-21T04:07:30+00:00"
   },
   {
+    "label": "Meta",
+    "title": "Meta Stock's Rebound Made Mark Zuckerberg the World's Fifth-Richest Person at $222 Billion - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQkNTTURuZUttQU1VbVV3U0RiUEsxNkZ2NUxDa0JJZF9RY29DU1JRWTNCN3hqTkRnM3NrcmhUZVdvYmFjejJNQjVQV0VhOXo1UWs3WHNmWmw3eHM0bXlydUVsZ0pjX0RZMXlNb2E3OHZ4ejl4NTUzWUpWak5hRU1EQU1aNjA1dFkyWWVvcUJ2MFRsdTR4bjZHSw?oc=5",
+    "source": "The Motley Fool",
+    "published": "2026-07-21T02:00:00+00:00"
+  },
+  {
     "label": "S&P 500",
     "title": "Nasdaq, S&P 500 Futures Rise As Chip Rally Counters Iran Jitters Ahead Of Big Tech Earnings: Why IREN, ACHR, TSLA, BA Stocks Are Drawing Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZVdHM3NvMmRXc2dnUVFSVlRWcWJpN3U2bDU5Nk9fSThfWEJOekQweW8ta3FIRnZqUlh2bTVSSWlHUjJibktRbEN2aG9ybkNMV1NRSFQ0X1VDWUJ3MTBnZjd2aUhUcXo0Rmpfcnk4d29lb0pid1kxemVHTlNHamMxa0lvNUV1VmVVRC1LaVNiQ1ZNa1Va?oc=5",
@@ -264,6 +299,13 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaW01b1Z3ZVVXRDk5WFVjeV9lajBSa2hhbkR4XzFtWjlvYjZmZlZ2bjhHbU9iMzZrRjREUVh6SlU2cHJwQlhoam5WNDhfQ3dBV0tRZllQa0F5UC1CZkIyUmx3SE9xMjNuRER6aW5qQjZoUG5TU25GTTNVaHBUM1BGQnN0SGJuSjN2UHJmZGtGOEZuTFBiRUl1SWdmbVZub3B5ZUlpckxOcTI4Zw?oc=5",
     "source": "GuruFocus",
     "published": "2026-07-20T22:15:06+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq rally fizzles as chip stock momentum fades, oil rises - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2ZVWlFvSkNRM3pBSzN6Vy1scXBZQzNfUGZXenUzTHNSSWtTVURVVUk1S1RQYWxTVEJOb2t6WG1LOEFMVXNuVWVndUdYZnNfb21KSVdmT2tJQ1lRXzVuWVliX3YwLWk3VDVGdU9BMUJYR3YxM0xOSHlwUlgtRDB3cjEzdWJ4ejRneUpxM2ZsMGRDMDVTODdWTlNERERUaGc3R2E2cHNwaUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-07-20T22:14:59+00:00"
   },
   {
     "label": "Oracle",
@@ -315,13 +357,6 @@
     "published": "2026-07-20T18:52:25+00:00"
   },
   {
-    "label": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq mixed as chip stocks rise in wait for Big Tech earnings - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2ZVWlFvSkNRM3pBSzN6Vy1scXBZQzNfUGZXenUzTHNSSWtTVURVVUk1S1RQYWxTVEJOb2t6WG1LOEFMVXNuVWVndUdYZnNfb21KSVdmT2tJQ1lRXzVuWVliX3YwLWk3VDVGdU9BMUJYR3YxM0xOSHlwUlgtRDB3cjEzdWJ4ejRneUpxM2ZsMGRDMDVTODdWTlNERERUaGc3R2E2cHNwaUQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-07-20T17:29:00+00:00"
-  },
-  {
     "label": "DAX",
     "title": "DAX ohne Wille zum Zieleinlauf - Wallstreet Online",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSl9QeGdfOFJGN21pTEkwanRJbmRQdGlsdkVLd3pvU0R3SEVMUk5lRXR4RktBQm8tUWtEMjY4QTYzWEpOMzZiODY3bDVOZTZzeDI0TFo0YUcyaUJ1QVVqNXpBR1lMZUdvV3RmZno5Z00yYVo0VW05S1hkQzRoNF9fMVBGYVhLMUFUcEI1bmI2ZFR2MDBtY0lQZXlQdXk?oc=5",
@@ -334,6 +369,13 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVUFCREtiLXZvemVmNmFTbGFRN250QjdNOEpGb0VWczAtdHFMTllTdEpyVTBhT011ZmxQblctYU5KU1llNkt4eTlZYXJVcHBsT0dDY2c1VndEcmczbTZJMUk1ZzEwZUlmaFE5OEVsOUFMdF9OWndVanF4UFNvTTVxSG1qb0xsNHlvNkk4OV9BNmRjbDlaMTBQRnVKb3N0SG8?oc=5",
     "source": "Benzinga",
     "published": "2026-07-20T17:25:23+00:00"
+  },
+  {
+    "label": "Meta",
+    "title": "Why Is Meta Platforms Stock Gaining Monday? - Meta Platforms (NASDAQ:META) - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQS19KRVRfRTNMVGdBdWY2SGxGOTBmRGdHR01VczJyS1l6OHR4d3k0Nk5uWHNubFBDU1MtUjVIeXgxLXZMeXJXWkdfdWdVcm1mMjI2RE9USk9GaUZFUlZtczdFQnBuTnUtMVpwREFEYTRONG1NdEt4WVFfR05sOVppdjNDNzdGMHk2LUdhSllzcHotNFg5Rm9GQnRMaXZPU3dMb3JDTVBiQnh5NFRRc3g5RHJySkhzNEZiMWVSMnpSYXVmTDJw?oc=5",
+    "source": "Benzinga",
+    "published": "2026-07-20T17:06:42+00:00"
   },
   {
     "label": "DAX",
@@ -453,6 +495,13 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRjBLTUhCcWJxQ2VNdmpyc0xic0l1dlBTeFoxeGtKNnBIWlZMR1otX1VQaE1mRDM2aDdZeEdnOTcyXy1wSDY1N0JiLWFXQ3A5NVE2ZlhPZXd6Wml0UDBLaW9QUmJlY1hxUG1Ha1llc2ltSGJsNW03NW8wQVV5aXVHNmtUMFdxLU9mMmxlRVRvRWFudWJ4UVE?oc=5",
     "source": "Fortune",
     "published": "2026-07-19T14:52:00+00:00"
+  },
+  {
+    "label": "Meta",
+    "title": "Mark Zuckerberg's Meta and Other Hyperscalers Face a Major Bottleneck. Here Are 2 Industrial Stocks That Will Benefit - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZk5HUUo4RThvQ1duOVEwOGxSOXhiOVZUZ2hNVGFyVTBaQTV2OUF6OVJiRGZSWkUyQ285WjY5dV9YS2lReWExZjRKb2RfT2RDeGVlVFVlSnc4T3M5bnpGTGF0aGhJMWVzSFZOLWlMZXMya3dzdmN3R1JYWmpQQl9SaHYzZ3VtRDZ6bUR4TFkwaUlfZUhKNlUw?oc=5",
+    "source": "The Motley Fool",
+    "published": "2026-07-19T02:15:00+00:00"
   },
   {
     "label": "Meta",
