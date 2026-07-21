@@ -13,7 +13,7 @@ from urllib.parse import quote
 import feedparser
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import NEWS_QUERIES, MAX_ITEMS_PER_QUERY, RETENTION_DAYS
+from config import NEWS_QUERIES, MAX_ITEMS_PER_QUERY, RETENTION_DAYS, BLOCKED_SOURCES
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "headlines.json")
 
@@ -34,6 +34,11 @@ def parse_time(entry) -> str:
     return dt.isoformat()
 
 
+def is_blocked(source: str) -> bool:
+    source_lower = source.lower()
+    return any(blocked in source_lower for blocked in BLOCKED_SOURCES)
+
+
 def fetch_all() -> list[dict]:
     items = []
     for query in NEWS_QUERIES:
@@ -48,6 +53,10 @@ def fetch_all() -> list[dict]:
             source = ""
             if getattr(entry, "source", None):
                 source = getattr(entry.source, "title", "") or ""
+
+            if is_blocked(source):
+                continue
+
             items.append({
                 "label": query["label"],
                 "title": entry.get("title", "").strip(),
