@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morgen-Feed</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    background: #0d0f12; color: #e7e9ea; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0; padding: 16px; max-width: 720px; margin-inline: auto;
+  }
+  h1 { font-size: 1.3rem; margin: 0 0 4px; }
+  .updated { color: #8b98a5; font-size: 0.8rem; margin-bottom: 20px; }
+  .tickers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 28px; }
+  .ticker-card { background: #16191d; border: 1px solid #2a2f34; border-radius: 10px; padding: 10px 12px; }
+  .ticker-label { font-size: 0.75rem; color: #8b98a5; }
+  .ticker-price { font-size: 1.05rem; font-weight: 600; }
+  .chg { font-size: 0.85rem; font-weight: 600; }
+  .chg.up { color: #3fb950; }
+  .chg.down { color: #f85149; }
+  .chg.neutral { color: #8b98a5; }
+  .headline { border-bottom: 1px solid #22262b; padding: 12px 0; }
+  .headline a { color: #e7e9ea; text-decoration: none; font-size: 0.95rem; display: block; margin-top: 4px; }
+  .headline a:hover { text-decoration: underline; }
+  .tag { display: inline-block; background: #1f6feb22; color: #58a6ff; font-size: 0.7rem;
+          padding: 2px 7px; border-radius: 999px; }
+  .meta { color: #6e7681; font-size: 0.75rem; margin-top: 4px; }
+</style>
+</head>
+<body>
+  <h1>Morgen-Feed</h1>
+  <div class="updated">Seite generiert: 21.07.2026 13:53 &middot; Kurse zuletzt: 13:53</div>
+
+  <div class="tickers">
+    
+    <div class="ticker-card">
+      <div class="ticker-label">Nasdaq Futures</div>
+      <div class="ticker-price">n/a</div>
+      <span class="chg neutral">n/a</span>
+    </div>
+
+    <div class="ticker-card">
+      <div class="ticker-label">S&P 500 Futures</div>
+      <div class="ticker-price">n/a</div>
+      <span class="chg neutral">n/a</span>
+    </div>
+
+    <div class="ticker-card">
+      <div class="ticker-label">DAX</div>
+      <div class="ticker-price">n/a</div>
+      <span class="chg neutral">n/a</span>
+    </div>
+
+    <div class="ticker-card">
+      <div class="ticker-label">KOSPI</div>
+      <div class="ticker-price">n/a</div>
+      <span class="chg neutral">n/a</span>
+    </div>
+
+    <div class="ticker-card">
+      <div class="ticker-label">Oracle (ORCL)</div>
+      <div class="ticker-price">n/a</div>
+      <span class="chg neutral">n/a</span>
+    </div>
+
+    <div class="ticker-card">
+      <div class="ticker-label">Meta (META)</div>
+      <div class="ticker-price">n/a</div>
+      <span class="chg neutral">n/a</span>
+    </div>
+  </div>
+
+  <div class="headlines">
+    
+    <div class="headline">
+      <span class="tag">S&P 500</span>
+      <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9ScG9tUjZWaUlWS1pfQXNyUXJ0bnJ0eVFyZVZ1SUdzTFVHQ0FSU2dSay1FdG9oenpYTWRpaDlqZWNSWHFvU00zT1QzcUo5ZW9EbFByTHJnVTVmc290dFRIUExpeGg2dldiLXJZaV8tdWJPT00?oc=5" target="_blank" rel="noopener">Chip stocks rebound, earnings beat as Iran ceasefire talks begin - qz.com</a>
+      <div class="meta">qz.com &middot; 21.07. 13:32</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">S&P 500</span>
+      <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNd2JsaTNWWTFmZl9heFFWZjRqY3JHUWpfQmlicVBERE1CS3J2cEMwUDFHNzlfZllQUzdpMFlzR2xLRHRHZjdiQThFdkhaNU9KUU9Qdm9sZjZjbTh0Wi02U3Nob2dhOE1PNHZkcno4RjlFR2lXX1lCbEdBcWprMkg2RVc1NDk2MEFCdzhwbDZtLXlXeEthS2trQ2ZSWXdueHdJVmJDczJ1RWdPY2c4eXJ3WUQzNHVIREU?oc=5" target="_blank" rel="noopener">S&P 500 Futures Up in Premarket Trading; First Citizens Bcshs A, Equifax Lag - Barron's</a>
+      <div class="meta">Barron's &middot; 21.07. 13:30</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">DAX</span>
+      <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9iRFhOOGlaVlg3V2tCZ0hwR3BmazJXLWRya2ZKN3YyVnMxTzlZQlRWRl9sNTh0U3AxZWUySEowaEVWRmszUlNZRHIxM1RHRXd0cWN2RHZNbXgwa1FQRXduckRxanU2blpUY1pPM1ctSFF0S0RDVlRILXJJZw?oc=5" target="_blank" rel="noopener">DAX - Warnende Tageskerze - Wallstreet Online</a>
+      <div class="meta">Wallstreet Online &middot; 21.07. 13:16</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">DAX</span>
+      <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNRTd0TGdlN254eEpXX0ZpRFFJeFR5eXQ1bk84LU92MHpZWlRkN2pnQUN4aE5MMlZHTGRvcGJ5Z19Od2RYLVJHcndQc0RFalRrZWY2U1RqeEJEQ09RSW1aWm1SS2tSOWtPaFQxMm9WZXdpNmpYMU05N1NkQVRkclp4bzJRMGcyLTV3U0t1X21odXk?oc=5" target="_blank" rel="noopener">Dax legt am Mittag zu – ZEW-Index deutlich verbessert - Presse Augsburg</a>
+      <div class="meta">Presse Augsburg &middot; 21.07. 12:22</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">KOSPI</span>
+      <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmWjlLOXQ5XzRvZGN3dlZCcHh4ZlRrYmZnZlBxdXdyU3JXandGYi1QVldFclJIR05aejdLejZWZnJnSHlObVlyMFNVMlh6Q0tuWjM0?oc=5" target="_blank" rel="noopener">South Korea Stock Market Circuit Breaker Events: Occur Approximately Once Every Less Than 4 Days - 36 Kr</a>
+      <div class="meta">36 Kr &middot; 21.07. 12:21</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">S&P 500</span>
+      <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1XLTNzMWtVbDdoSXZNQllWbm5QbU5Eb0ZISWlMb3E3SHdJWWxkcUk2bWVBR2F2UWczSzg1LW43Wk4wZDBHRWNDRXh1REFhMEtvZWdyQ1lpV0ZlYi1jb0l6cVVlaFdSTktfWGh1RlRpd0hxbnFzdFZF0gF8QVVfeXFMTWlHUmFxaUZ4Q3BUeEtZcy1ZUjgzZzNHRGY3bXhHTmdTb2Q3Um9YZ19hbWN2cWl6ellJekdKSmFOdlV1R1JCRC1MeHJhQzJIOVlhbEtQajBJeTNvaXFiQWs5bDhENWNHSUV5OXEybVY0enFWcHV2M1BmRXRBLQ?oc=5" target="_blank" rel="noopener">Stock futures are higher as Wall Street awaits latest earnings report: Live updates - CNBC</a>
+      <div class="meta">CNBC &middot; 21.07. 12:08</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Nasdaq</span>
+      <a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDdEUVZrTHIxVjlTM1lqbDlkZF96NFFGOXVmV3VmcHVqLTJnMUl4UHMzWExCendjRzd1eEh3OHhxb1hVX1lZbVVkaEFreHo5akJnbXQ3a2NxYU1DSzgxbFgtX21NeEhNOG9WQU9FNC1pZjM3UksxTkRPa3BNMXAtOVRkdmZZbzk5Tk1FNW5zc2FIaThLTUd0ZllTbi12bEZGX1gtS19fbkI4RVpkemI0Qy1jdjMxakxreDlsYjlKa3YyN3RwLUR5T20tZzNTRFQyaklueU5ldw?oc=5" target="_blank" rel="noopener">Stock Futures Rise as Market's AI Worries Ease - Barron's</a>
+      <div class="meta">Barron's &middot; 21.07. 10:58</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">S&P 500</span>
+      <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0t0NC1oZFVxY2t6bmFBaTJMcjJscFdqYWh5WC1iTURmemdubXg2QVlTbXNvODFES1cyMGdNU2UzZ25oUjhfQUxlTWlWUG0yT3V3TWtoTHdNaEF0cTZSRUFjTmhEbzVJdzFrelNNdTVNbkV6ajVJd3lrbGh1N1pXVW4zQ29uVzQyRUxKZVU4WUFCR2xyZ24ycEc5ekNaVmpYcHZpWlN6bVAzQQ?oc=5" target="_blank" rel="noopener">Stock market today: Nasdaq leads Dow, S&P 500 futures higher as chip stocks revive - Yahoo Finance</a>
+      <div class="meta">Yahoo Finance &middot; 21.07. 10:46</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">DAX</span>
+      <a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE9Mb3RrUDZGd0pmdlpHVmx6NmNpTGttTTFjTGdIRHU2N1ZrVjU0YlIxeTQxZEd3YXltTVhIODd4YUhHaDJJVTFXcnEwcXltOG5MQkJHX0pLN24zbEtTenRVSE5xT1RDdXBnQnEtV3lKMW9hX3F0eG5aalBiZEc?oc=5" target="_blank" rel="noopener">WA5NHK • DE000WA5NHK7 • Aktueller Kurs Knock-Out-Optionsschein auf DAX - Onvista</a>
+      <div class="meta">Onvista &middot; 21.07. 10:28</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">KOSPI</span>
+      <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPT3lwbVNYOTlEQ2xTcXEyVjZYcGF4N1ZDWGVMUHYybHc2QjF4Nm13Ti1nT1lONmtVOWtkUlFTMk1ESno4bklNUzZsVDAtcFRVSlJBaWdESmhzLWRwUENKWkdTaEF6YTBEZk01ZllyZHNSTU8tQW1TZlBpeXJnaXhHU0tTZEY1V3R1cWRvNWFoMl9PeWRldTdLcEF4RERTanla?oc=5" target="_blank" rel="noopener">Why South Korea's stock market is driving wild Wall Street swings - Business Insider</a>
+      <div class="meta">Business Insider &middot; 21.07. 10:09</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Meta</span>
+      <a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxOenRfRDAzY0tIYlNyQVE0NkNUV2pUblRUcVR3Vm9OQk5TMUlBOFBUSGRqVVhTVmVRbnNVUDZoXzdSdGlMZTV4N2s1bElLNWtLVHhLd2FrdG1vSFo4RmRGcXk3MlEyRk1GQ0JpXzNZSFJ6Z2pkSE9NTFNWaWpERTRoRzlKT2tlUW9QQmZUNDFZb01fU0RnM0JFSFk4ZWQ0U1I1eWdReko5ZXN5XzBySS02aTkzVFdxQ0ZVYkxmdHEwNml4R2dPZ1lB?oc=5" target="_blank" rel="noopener">Meta Platforms: Vertical Integration Is The Play - Reiterating Strong Buy (Earnings Preview) - Seeking Alpha</a>
+      <div class="meta">Seeking Alpha &middot; 21.07. 10:07</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">S&P 500</span>
+      <a href="https://news.google.com/rss/articles/CBMipwJBVV95cUxNYjlxd0ZqLUV6NGJoc2ZMeTRxbzQ0bTQyQ3F0LTI0a3g1WDFXdFZpM1I3Wkd1aVVKbGpZbkRMNXNFMXpVcHZocUdCNG1iZjhNdElmc0w4dnhXWDFxU2FZb3RRRzRsRlNibkp4VGtJR0NCZmg1TG5YdDAwRHpVSFMwS1BsWjVSdGIxUWlKTUpxUG5JcFdMb0g5WkxhcW44R29hUVkyTDVDQXNqU2ZKSmRqak9jUk5zdnJacTJRbXpUVWQyell4akhtWmc4MWhkTjBBMHZyWUp4VVdyOWJWaUhlbllnVnBUQ2M3NmEzU2NsUHpFUHY3WkdTNVQydGxzc1dpVlk2VTlmQmwwMk82T1dZcmgyQW5nUlpDTkpnWEItU3dhaU5XVWEw?oc=5" target="_blank" rel="noopener">U.S. stocks set to rise after chip stocks rebound - MarketWatch</a>
+      <div class="meta">MarketWatch &middot; 21.07. 09:38</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">DAX</span>
+      <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMXVnRVcyRTNlWks2SVhtTm5ZQTY5VTFvMU5kc002UkpucmkxZGw2SVp3UHJRN2pJd3NPX0JpRjhxbzVjNHJBejRuRnM5cTNlS0tBczk2VXc5UkVvc3NlMkI5dXZuQ0FIbF9Tb0pPdTgyZTFIeWFZc0ZCbkNRcmxIUEpOczF4WWN3OFFV?oc=5" target="_blank" rel="noopener">DAX – Bullen legen Basis für eine neue Aufwärtswelle - Wallstreet Online</a>
+      <div class="meta">Wallstreet Online &middot; 21.07. 08:53</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">DAX</span>
+      <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVTRMV0ZkNUpQNXFIZmVPRUVxMVpQdFV2ajZjVEpHZ2ZEQ0RacEY1Z2RFcHN3V05fRjlCbGlOdTMzVTlIQUI4MUdsRS1wOHZVWlYtRVBwZ05jakZMd0JXWDV5VGpHT1NDSXh3aEJ1QVpMU2EtYlo2cGlXNEVqaEYtT21fbUx6TVZyYkpCNG5ESENPeHFiU0lLcnhMQm1LVUdtVEpsaUNqQkIwcW1KdzAwQmNoVWJocHF1b0Fv?oc=5" target="_blank" rel="noopener">Dax-Hausse: Chancen in untypischen Aufwärtstrends - FAZ</a>
+      <div class="meta">FAZ &middot; 21.07. 07:30</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">S&P 500</span>
+      <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxPZVdHM3NvMmRXc2dnUVFSVlRWcWJpN3U2bDU5Nk9fSThfWEJOekQweW8ta3FIRnZqUlh2bTVSSWlHUjJibktRbEN2aG9ybkNMV1NRSFQ0X1VDWUJ3MTBnZjd2aUhUcXo0Rmpfcnk4d29lb0pid1kxemVHTlNHamMxa0lvNUV1VmVVRC1LaVNiQ1ZNa1Va?oc=5" target="_blank" rel="noopener">Nasdaq, S&P 500 Futures Rise As Chip Rally Counters Iran Jitters Ahead Of Big Tech Earnings: Why IREN, ACHR, TSLA, BA Stocks Are Drawing Focus - Yahoo Finance</a>
+      <div class="meta">Yahoo Finance &middot; 21.07. 03:43</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">S&P 500</span>
+      <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOcXl6elpTREJHVW1LdEhRRWFsU0J0ZHNORTYyTVVjMldfWF9pSGRBeEp1eVdRX0JpbGpTMThONnd6bC0tUDRKU0N6YUJWSC1LSzAtdmF4a1dZYS0zWGhVYjZZNnAwUjJUeDBoRi1tekl4MzJpeHdoZndkWWdXOEo2a2diU1p0SHc?oc=5" target="_blank" rel="noopener">Stock Market News, July 20, 2026: Chip Stocks Pare Gains as S&P 500 Finishes Lower - WSJ</a>
+      <div class="meta">WSJ &middot; 21.07. 02:40</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Meta</span>
+      <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNbWdmT2tQcFpyeUR3dzB6MGtoTWRFTERjenhoNGV1anhheGcwbmpQWElwM2d5ZHBVRHYzajhRaXpTUHU4SFlPZFI2OU9WSmF2MzFrd25OQzBuOVdOQVFNYUtaeXBHT0g1NzRKTDE4R2VfVkh4M3VEcjFic29PYmxZd3FWdWpPQ1pJSUFLd2xEYTNtaXMxSC1EOURBcHExWWJMT0QwbERTQ0c3a2xiWDRsc3dlMA?oc=5" target="_blank" rel="noopener">Cathie Wood’s ARK sells Shopify stock, buys Meta Platforms - Investing.com</a>
+      <div class="meta">Investing.com &middot; 21.07. 02:34</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Oracle</span>
+      <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaW01b1Z3ZVVXRDk5WFVjeV9lajBSa2hhbkR4XzFtWjlvYjZmZlZ2bjhHbU9iMzZrRjREUVh6SlU2cHJwQlhoam5WNDhfQ3dBV0tRZllQa0F5UC1CZkIyUmx3SE9xMjNuRER6aW5qQjZoUG5TU25GTTNVaHBUM1BGQnN0SGJuSjN2UHJmZGtGOEZuTFBiRUl1SWdmbVZub3B5ZUlpckxOcTI4Zw?oc=5" target="_blank" rel="noopener">Oracle Corp (ORCL) Shares Fall 4.0% -- What GF Score of 88 Tells Investors - GuruFocus</a>
+      <div class="meta">GuruFocus &middot; 21.07. 00:15</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Oracle</span>
+      <a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNkRzWklZYmJnZDR1NGJFSkZ5bUxkRkdXcnhBMkJNaVhnTDRjREIzS0hTN215d09ueEp2ZW5kd0ExbjJ1Si1ucjFCSzlzRHRmbjVmT2p1MmFfUEtrVkFLSXkzUmJVMUQ2X0prZUVYbVp5Wm1ENUk5eW9tcHFvREN1UjlPRXN2MWVYRHE2aHpLYUFOVUNVdVV0eFdPamowY1VBOEo1S2cwaVZsZkM3VmRjNDB6MTBTcFlfaWNYZGhEVU1wb3VldzdfMm1jT0RhT2ROcWc?oc=5" target="_blank" rel="noopener">Oracle Corporation's stock price dips to $121.38, marking a 3.98% decline: Time to buy or bail? - Smartkarma</a>
+      <div class="meta">Smartkarma &middot; 20.07. 23:38</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">S&P 500</span>
+      <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBYeExLS3Y0Ql9SOVd0OU9NTzhXT2FFQlZBLWJ4a0lHMGppV2JhSXJLRkRISThLUnR3Qk02YkJ4MGhSUExRVTlDQ2o2SnpnekYxY2JQYkVKeXQwUlBUendpMmljY2xqellZV29iU2w4OHI4Q0ZCeTZZ0gF8QVVfeXFMT2ZYeFo3cXFTRUJ5Nnh2WGVKMVBhWlFPRXdMR1ZRempPbXZJcllFYnVIbGcxZ2FKOFhTT1RFdWQ0XzFDMEJNaUxFR2RvTm82NkFoYUh4WElmWWxiTnhJM0E0M3RsY01jclFFWHduRGZuMDBvQUlINHhHZFhkMA?oc=5" target="_blank" rel="noopener">S&P 500 closes slightly lower on Monday, weighed down by rising oil prices - CNBC</a>
+      <div class="meta">CNBC &middot; 20.07. 23:29</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">DAX</span>
+      <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQWENVbFF3NG1Wd1o0Ni1IbzRIT0VVN01xM3VZT1hCRFdTbWNHMTBDXy04Zlg5ai14Sl9BaF92c1hvWnF6MnpORTh3d21GUFdpMDZ5T0ptV3pTM05mUFNybTJNdzlKNXl3ZE0yU1o1dWQ3Y1I0ODFHMnI2ZHgxQmYtR1c0N0p6QVV3Y3ZXRmJYNTkzQ3NUc0R3?oc=5" target="_blank" rel="noopener">DAX® - Doppeltes Kaufsignal wirkt nur kurz - Onvista</a>
+      <div class="meta">Onvista &middot; 20.07. 23:20</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Meta</span>
+      <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQYWM5bDNQTmdSQ2NUWkVjSnlYbXJyZ194Vk41RWtIWjZpcU5YcGhkTHJ5d3ByOUFBV0UzQ1dtalE1WlNGZWVoVWpjbE5IdWoyQ2JraU1QdjVnanRIZTdaMzJXdllIaG1qQ0hKQXdnbHh4VUc5UjAweEJUUFFFdXplTkFhdVhiOU03SzNTaVNkLWNCTEFZUU1NNA?oc=5" target="_blank" rel="noopener">Broadcom Stock Has Jumped Just 7% in 2026. This Move by Meta Platforms Could Supercharge the Stock in the Second Half - The Motley Fool</a>
+      <div class="meta">The Motley Fool &middot; 20.07. 22:53</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Oracle</span>
+      <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNZUFHbTRqYmtrcFhNbkIyMFJUN09XRWRIVlQ0MTQ3M1J1eVpFQWRMOXJSUC1vdXQ4NURqeUVCRzVuUUMxT3RiZ3VBQnNmRlBoNzZsWEJGSl9hQzQxTGdqLVFOUXkxUEZuQU9uWDFxY3Fxc3V5OEFTYWJpTGVucmZxdXM1YVQzbmdTdWIzbDFLMXBmX0Y2bExxTjEzTVBIcXVyVXA4YzJYRjk5LXZ3c1pUcjJRWFIyZVFQYWZvREs5a0M0T1BkdXc?oc=5" target="_blank" rel="noopener">Oracle Corp. stock underperforms Monday when compared to competitors - MarketWatch</a>
+      <div class="meta">MarketWatch &middot; 20.07. 22:30</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Fed / Makro</span>
+      <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxPT0NLcXJQNG5BVnA5NXVacUJ3UDFVaTFVNS0zSWhIejA2TlVJaXA3WmVJRnJpQXZCSktvMEwxUXNQMGtBVGJMYkQta3JyY0xmcWxlaHg1azZsa091SXVqZkV1eGsxVFFrLUJ0Q1E5TVhiMUotMkFSYkE1U3BoNkhqZG5kYi14azAwQk9FQXhZSzl0aXBycURHUXZmZjVUTzhMZm4tQV91dE45SXE3cnBhQWNFeFFWeERwaHRTVjV0MGljUQ?oc=5" target="_blank" rel="noopener">4 Discounted PEG Value Picks Following the June CPI Inflation Report - TradingView</a>
+      <div class="meta">TradingView &middot; 20.07. 21:00</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Meta</span>
+      <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQZE15dDgybmFzSVd0VDZzeXRrRTE3UTJrcnFBRFJVUmhLbl9iRm1qVm9WVG9vOHFMYkVWNWxfVUc2dmJnb3hMWkZmaWp5RmlZVVhvaFZWdENqU3Z0dmVOYmxwM1RESUlCUDJRclBNcHZuUUdSMk41cmJEX0JNSHhBY01Tdkg2YXdYVEQ2a21OOHRyak1BNmlKMVF5M2JpS1RjbFpjbWZZYl9BVDI4Y2JsUktHQWhrNzFvaERwYw?oc=5" target="_blank" rel="noopener">Zuckerberg Is Quietly Turning Meta Into A Compute Provider Ahead Of Q2 Earnings (META) - Seeking Alpha</a>
+      <div class="meta">Seeking Alpha &middot; 20.07. 20:52</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Nasdaq</span>
+      <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2ZVWlFvSkNRM3pBSzN6Vy1scXBZQzNfUGZXenUzTHNSSWtTVURVVUk1S1RQYWxTVEJOb2t6WG1LOEFMVXNuVWVndUdYZnNfb21KSVdmT2tJQ1lRXzVuWVliX3YwLWk3VDVGdU9BMUJYR3YxM0xOSHlwUlgtRDB3cjEzdWJ4ejRneUpxM2ZsMGRDMDVTODdWTlNERERUaGc3R2E2cHNwaUQ?oc=5" target="_blank" rel="noopener">Stock market today: Dow, S&P 500, Nasdaq mixed as chip stocks rise in wait for Big Tech earnings - Yahoo Finance</a>
+      <div class="meta">Yahoo Finance &middot; 20.07. 19:29</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">DAX</span>
+      <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOSl9QeGdfOFJGN21pTEkwanRJbmRQdGlsdkVLd3pvU0R3SEVMUk5lRXR4RktBQm8tUWtEMjY4QTYzWEpOMzZiODY3bDVOZTZzeDI0TFo0YUcyaUJ1QVVqNXpBR1lMZUdvV3RmZno5Z00yYVo0VW05S1hkQzRoNF9fMVBGYVhLMUFUcEI1bmI2ZFR2MDBtY0lQZXlQdXk?oc=5" target="_blank" rel="noopener">DAX ohne Wille zum Zieleinlauf - Wallstreet Online</a>
+      <div class="meta">Wallstreet Online &middot; 20.07. 19:28</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Oracle</span>
+      <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNVUFCREtiLXZvemVmNmFTbGFRN250QjdNOEpGb0VWczAtdHFMTllTdEpyVTBhT011ZmxQblctYU5KU1llNkt4eTlZYXJVcHBsT0dDY2c1VndEcmczbTZJMUk1ZzEwZUlmaFE5OEVsOUFMdF9OWndVanF4UFNvTTVxSG1qb0xsNHlvNkk4OV9BNmRjbDlaMTBQRnVKb3N0SG8?oc=5" target="_blank" rel="noopener">Why Is Oracle Stock Falling on Monday? - Benzinga</a>
+      <div class="meta">Benzinga &middot; 20.07. 19:25</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Meta</span>
+      <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNV0ZPMEN0bV8yaUlqUUxwb3hDOC1aeGlGRlZWNUNlemRuMVFXMzlZTThPODdzTWx2SElONV8zR3NONGV0ZnpyNWZaUEpKZ1pCSGFTVDNyN05wX2VFNVVVNEZEZEdudHZIYmNDM1l5MXF0NWQycTlldF9CMDRqZE9MMXpHZmoxVFpXMlpoUnJoM3BOLU9FUDF2Y3hrUXhpanNWeHJYMw?oc=5" target="_blank" rel="noopener">Meta’s AI Ambitions Keep Expanding. Is META Stock Keeping Up? - 24/7 Wall St.</a>
+      <div class="meta">24/7 Wall St. &middot; 20.07. 17:30</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Oracle</span>
+      <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeDc0bThTTGpYQmsxSkZWbC1NN1pqb3d2VV9FV0tLYm1aUWtZWVd4YnhRS3RKSGtlS1dXQ0l0aFZGV3JNcG4xZXFPd1NiQksyR01mX3dkeXlqdEpFZzMtdXVsa182WWFVRWJCNXdJelpONFJCWUVWaE42QlBBR2JTWC14OEdDUmhRYTNF?oc=5" target="_blank" rel="noopener">Oracle Corp Stock (ORCL) Moved Down by 3.59% on Jul 20: Facts Behind the Movement - TradingKey</a>
+      <div class="meta">TradingKey &middot; 20.07. 16:15</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">KOSPI</span>
+      <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1DSXdaWml4Mk5VWDBKaFRtUTNockVKb0k3TEFUR0JDdjVDQUF3aTdVLTk3ZHAzS0JfSEhPNTcyZVZSVl9kM3didk5FaGFDa2FlRUJRVHpsN3hJMFJ4ZGpnc1Z5bjdjenJYQzJ4WUZrUmtoWnlqbGtTS2Fn?oc=5" target="_blank" rel="noopener">Korea’s leading fund managers urge calm as Kospi slides into bear market - KED Global</a>
+      <div class="meta">KED Global &middot; 20.07. 15:29</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">KOSPI</span>
+      <a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxQTXFDQXN1ellDbDE1c3NMb1U5TEFTb3hhd1VYdFlvWGRRMFoyLXM3OV9rd3VkeWhmX3BfbklZaWZXLU9GOVFEYXQtNVlLbElsaGtKVENRZGl6dDhoMUh5LUpjeVdLbnJEaEpHZ1M0TWFyMVEtS2d5aC1GQTNGakFFMDFkd1FwZXNCdTI2a0I1MF8yYlV2NG44ejZqSC1OUTM0dUhNNXd1Qmg0b0V1SmxET2g5eFZTUEtJM0RXalVfWVh1aGx3VTRzeW9WaVY?oc=5" target="_blank" rel="noopener">Korean stock volatility comes to America. Can Wall Street take the heat? - Reuters</a>
+      <div class="meta">Reuters &middot; 20.07. 15:18</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Nasdaq</span>
+      <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE5STkhqS2N3QmJ1aTUtQ1dYS3hRZU5vT1RabEVPODFsUWEwT2lNcEdnNmhUYWxlZ1h1SkpNQnhBRXQ2bDJ0YmpxQm1Fcw?oc=5" target="_blank" rel="noopener">Futures Nasdaq 100 Chart Daily - Finviz</a>
+      <div class="meta">Finviz &middot; 20.07. 15:08</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Nasdaq</span>
+      <a href="https://news.google.com/rss/articles/CBMijwJBVV95cUxQblRLbmRrWDJUTVFFZHU5dlFGT2FDaS02d2ozNTRjM0tXYmlIeG1hSWtPZXBrRTR0NVg1Nm1mcUVwMVI1U0swanRfamlqZS04WWFONGIxYXYtS0ZhM2M1LXlHdUxpOEhfN3BESGduNmljWGJvNUs1b2NLXzlDeXNyMzlBS256SUhyVHg1cld5QWZvbVpPMjgyV3k2dnhhZ0JlejRHQTZlSjQwTWhXZ0pxZkVJQUpIel9tX2JRVkRzdXoyMUhRbEk2UWJFdVpadzF1TFBZVGtqSGxWVTR1al9LcmpsV1o4THFQZVFUUlUwVkZPbWV4OFpyWS1JNnRKN2JsWDZRSWVaT09fSVBMaXdN?oc=5" target="_blank" rel="noopener">Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Gain as Trump Says Iran is 'Very, Very Badly Damaged - Benzinga</a>
+      <div class="meta">Benzinga &middot; 20.07. 14:43</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Meta</span>
+      <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOeFVvWGl3cGZYdWJ2TjZwbGg3bFc1T1N2NHN0ejBZbm82eUtpYjFUbHJFMW9jMUx3RkFwWlFEMzRsajhsanYtRUlCdTBDNEZ2WEFxZVFLdktWQ2w4R2VkR05HSzhXbTRDV09iaGNWNkRPZXpXMVhfd3dUWi1xQjNIbXlUckdMTDNMNnBiZk1ZOA?oc=5" target="_blank" rel="noopener">Meta Platforms: Multiple Paths To Ride AI Boom (NASDAQ:META) - Seeking Alpha</a>
+      <div class="meta">Seeking Alpha &middot; 20.07. 14:00</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">KOSPI</span>
+      <a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxQYndkbjR3eG9oMDVFUXZ2ZzVxRFlDcFBnZTJua1J2NENVZGk3LXo1M1JGSkVGMlZhNk9wdFBCS19WWGNSekpGaGhsa2RmZHhST1d1R3NLU3VOSGhQWlVlcVYtTkJ5NTlKdFFGUXlCclZRUUtZTUtvVGczOThZcTdwY0d0Wjg1R1d4bzRSdHFoT0d0MU5wTFpzNXdSODgwWWV1Ui02SDZ2cDNlRF9CR2FkR3ZYS2drU3ljNEM3OXFpYmthVk5Ici13d25n?oc=5" target="_blank" rel="noopener">Why South Korea’s Stock Index Is More Volatile Than Bitcoin - Bloomberg.com</a>
+      <div class="meta">Bloomberg.com &middot; 20.07. 12:54</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">DAX</span>
+      <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ1NscjhPc2xPWFEtV3lHRHREN3hpbV85dHc3VjlpMGZJSlNTekF1M0RNUzhjTlRrRUFUU1BoZlpHdDlsbFk2QS1ySzNfR1loVkRVdGozSTVfRFRNN2JwalByTVlUdUZ6eXJNU3g1eFJONFNVR0xGb2NRX095bWVZZkxPSkxGNlVE?oc=5" target="_blank" rel="noopener">DAX - Erwarteter weiterer Hochlauf noch nicht vom Tisch - Wallstreet Online</a>
+      <div class="meta">Wallstreet Online &middot; 20.07. 12:34</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Meta</span>
+      <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOeFU1bDgtbjcycjhzSm0xSFo4VkpEQzlXQ2I4dzduYXp6WFJCTlFZZ3pUNUVpN0poNmttX3FKSVRtMkx4VWFPYWd4TFNEWE1fejk2YkdUU0c3S21HUmdOOHQ4clFtdjRkR0ZBQ3otcHljS2pNRnV2b213T2hUZ0xyRDB3b1ZHTlM3djBSOUFZSHdlU25IYjY1QkxUbVI?oc=5" target="_blank" rel="noopener">Meta Platforms Looks Set to Abandon a $174 Billion Investment to Fuel Its AI Ambitions - Yahoo Finance</a>
+      <div class="meta">Yahoo Finance &middot; 20.07. 11:26</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">KOSPI</span>
+      <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNM2J1MkZ2UVl3bU84RWRfajlFYXU5V1dFdXAtTEY5MGRzVmN4SWc5QkVOT0lINmhhOWw2d3NsbDd1Wk16QS05ZDEydXNMbVVlNUl4OWlkand2U1dtNkM0N21oNUxEeVBmSU4zZUxmbnNIcFh3QkVPWjFtSVVOSjJMTE1ib0JZMWhxbnRrOGFxOXN2SmJZYmlPdmFaS2p2NDQ?oc=5" target="_blank" rel="noopener">KOSPI Falls Over 4% as Trading Resumes After Holiday, Deepening Bear Market - Yahoo Finance</a>
+      <div class="meta">Yahoo Finance &middot; 20.07. 05:01</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">KOSPI</span>
+      <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPRjBLTUhCcWJxQ2VNdmpyc0xic0l1dlBTeFoxeGtKNnBIWlZMR1otX1VQaE1mRDM2aDdZeEdnOTcyXy1wSDY1N0JiLWFXQ3A5NVE2ZlhPZXd6Wml0UDBLaW9QUmJlY1hxUG1Ha1llc2ltSGJsNW03NW8wQVV5aXVHNmtUMFdxLU9mMmxlRVRvRWFudWJ4UVE?oc=5" target="_blank" rel="noopener">Korea’s AI-heavy market now sets the tone for global stocks - Fortune</a>
+      <div class="meta">Fortune &middot; 19.07. 16:52</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Meta</span>
+      <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNbTNLRFVCcm9GY3Q1QWdRZGdPam1Qai1TM2pjaGUwQWw1a0F0TVdWQmNLbGhKMXRzV0RTRGthd0VEZ09RdGlEdERYM0xfYkdPZDdhQTBWNmlVY0s3R2xhM082LU82bEk3NHZ5WHpzcVZfZGVfUUlTNDRveThyX2xYN2ZMN0E2RUw4VzgyWWhTckVpZw?oc=5" target="_blank" rel="noopener">Meta Platforms Is Up 21% This Month, and Here Is What's Driving the Surge - The Motley Fool</a>
+      <div class="meta">The Motley Fool &middot; 18.07. 22:30</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Nasdaq</span>
+      <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOUTlGcjJuRTZoRXpSR1dqLXRBV3NtSjZRNmRMR3FKMUw1NjRvSDY0X2Q1eF9hZTRYUVB3V1JncGVONkZJTXdGS1hidHk5S29uRzlMZU50cms2Y3JOT21FeFhWS3lHdzktYkdSU010WEtadzRCR3JyZjZTTWQ0WllRTWx2bENRSW8?oc=5" target="_blank" rel="noopener">Stock Market News, July 17, 2026: Nasdaq Drops as Chip Selloff Deepens - WSJ</a>
+      <div class="meta">WSJ &middot; 18.07. 02:40</div>
+    </div>
+
+    <div class="headline">
+      <span class="tag">Oracle</span>
+      <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNNDA4TTZ4dlJTYzZzSGZVY1RXbUtaRFhIX0JPdGFrMDlCR2tFZXM1ODl4a3l5dnVtRDBDdmdXVk01djJYUVQwaVZrRmxXbXV3VjJ4X2thUFRIYXFWRGJjanJsTzZYOXFRQnp2endMQTBYV2pHdWhvSlJnYTJnSDdoQkd5V2FKc1BQMEtxRGtkOGNKajBzekFYd0gtWnFra1k4b2pZZUhB?oc=5" target="_blank" rel="noopener">Why Oracle's recent credit downgrade could be a warning sign for stocks - Business Insider</a>
+      <div class="meta">Business Insider &middot; 17.07. 19:32</div>
+    </div>
+  </div>
+</body>
+</html>
