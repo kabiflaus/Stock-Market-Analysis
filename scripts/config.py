@@ -1,3 +1,4 @@
+cat > /home/claude/marktfeed/scripts/config.py << 'PYEOF'
 # -----------------------------------------------------------------------
 # Zentrale Konfiguration. Hier passt du an, was gesammelt wird.
 # -----------------------------------------------------------------------
@@ -12,7 +13,11 @@ NEWS_QUERIES = [
     {"label": "DAX", "query": "DAX Index", "hl": "de-DE", "gl": "DE"},
     {"label": "KOSPI", "query": "KOSPI index Korea", "hl": "en-US", "gl": "US"},
     {"label": "Fed / Makro", "query": "Federal Reserve CPI inflation report", "hl": "en-US", "gl": "US"},
-    {"label": "AI-Sektor", "query": "AI chip stocks Nvidia CoreWeave capex", "hl": "en-US", "gl": "US"},
+    {"label": "Chips & AI", "query": "AI chip stocks Nvidia semiconductor capex", "hl": "en-US", "gl": "US"},
+    {"label": "ETFs", "query": "ETF inflows outflows index fund", "hl": "en-US", "gl": "US"},
+    {"label": "Healthcare", "query": "healthcare pharma stocks news", "hl": "en-US", "gl": "US"},
+    {"label": "Rüstung", "query": "defense stocks military spending", "hl": "en-US", "gl": "US"},
+    {"label": "Energie & Rohstoffe", "query": "oil price OPEC energy commodities", "hl": "en-US", "gl": "US"},
 ]
 
 # Wie viele Schlagzeilen pro Suche maximal übernommen werden
@@ -21,24 +26,31 @@ MAX_ITEMS_PER_QUERY = 8
 # Wie lange Schlagzeilen im Feed bleiben, bevor sie rausfallen (Tage)
 RETENTION_DAYS = 4
 
-# Yahoo-Finance-Ticker für die Kurs-/Futures-Übersicht oben auf der Seite
-MARKET_TICKERS = {
-    "Nasdaq Futures": "NQ=F",
-    "S&P 500 Futures": "ES=F",
-    "DAX": "^GDAXI",
-    "KOSPI": "^KS11",
-    "Oracle (ORCL)": "ORCL",
-    "Meta (META)": "META",
+# Ticker, gruppiert nach Anzeige-Sektion auf der Seite.
+# "US-Futures (Vorboerse)"  -> beantwortet: wie eroeffnet der Handelstag
+# "Globale Indizes"          -> ein Leitindex pro grossem Markt
+# "Deine Positionen"         -> deine aktiven Short-Positionen
+TICKER_GROUPS = {
+    "US-Futures (Vorbörse)": {
+        "Nasdaq Futures": "NQ=F",
+        "S&P 500 Futures": "ES=F",
+    },
+    "Globale Indizes": {
+        "S&P 500 (USA)": "^GSPC",
+        "DAX (Deutschland)": "^GDAXI",
+        "Nikkei 225 (Japan)": "^N225",
+        "FTSE 100 (UK)": "^FTSE",
+        "KOSPI (Südkorea)": "^KS11",
+        "Hang Seng (Hongkong)": "^HSI",
+    },
+    "Deine Positionen": {
+        "Oracle (ORCL)": "ORCL",
+        "Meta (META)": "META",
+    },
 }
 
-# Diese Ticker stehen oben als "US-Futures / Vorboerse" (beantworten: wie
-# wird der Handelstag eroeffnen). Alle anderen MARKET_TICKERS-Eintraege
-# laufen unter "Indizes & Einzelwerte".
-PREMARKET_TICKERS = ["Nasdaq Futures", "S&P 500 Futures"]
-
 # Schlagzeilen, die eines dieser Woerter enthalten, bekommen ein "Wichtig"-
-# Tag und werden innerhalb ihrer Sektion nach oben sortiert. Case-insensitive,
-# reiner Substring-Match - bewusst simpel, kein NLP.
+# Badge. Case-insensitive, reiner Substring-Match - bewusst simpel, kein NLP.
 PRIORITY_KEYWORDS = [
     "fed", "federal reserve", "zinsen", "rate cut", "rate hike", "cpi",
     "inflation", "earnings", "quartalszahlen", "guidance", "prognose",
@@ -59,3 +71,5 @@ BLOCKED_SOURCES = [
     "gurufocus", "smartkarma", "barchart.com", "stocktwits", "finviz",
     "24/7 wall st", "thestreet.com", "zacks",
 ]
+PYEOF
+python3 -c "import ast; ast.parse(open('/home/claude/marktfeed/scripts/config.py').read()); print('Syntax ok')"
