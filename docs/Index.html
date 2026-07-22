@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Morgen-Feed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <button class="refresh-btn" onclick="location.href = location.pathname + '?t=' + Date.now();">↻ Aktualisieren</button>
+  </div>
+  <h1 class="site-title">Morgen-Feed</h1>
+  <div class="updated" id="updated-line">Lädt...</div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-view="markets">Markets</button>
+    <button class="tab-btn" data-view="invest">Invest</button>
+  </div>
+
+  <!-- ============ MARKETS ============ -->
+  <div id="view-markets" class="view">
+    <div class="pills" id="pills-markets"></div>
+
+    <div class="section" id="futures-section">
+      <h2>US-Futures (Vorbörse)</h2>
+      <div class="tickers"></div>
+    </div>
+
+    <div class="section" id="global-indices-section">
+      <h2>Globale Indizes</h2>
+      <div class="tickers"></div>
+    </div>
+
+    <div id="position-sections"></div>
+
+    <div class="headlines" id="headlines-markets"></div>
+    <button id="more-btn" style="display:none">Mehr anzeigen</button>
+  </div>
+
+  <!-- ============ INVEST ============ -->
+  <div id="view-invest" class="view" style="display:none">
+    <div class="pills" id="pills-invest"></div>
+
+    <div class="section" id="invest-etf-section">
+      <div class="etf-cards"></div>
+    </div>
+
+    <div id="invest-holdings"></div>
+
+    <div class="headlines" id="headlines-invest"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
