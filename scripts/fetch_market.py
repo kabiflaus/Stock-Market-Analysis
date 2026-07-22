@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from curl_cffi import requests as cffi_requests
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import TICKER_GROUPS
+from config import TICKER_GROUPS, SECTOR_POSITIONS, PERSONAL_ETFS
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "market.json")
 
@@ -26,13 +26,23 @@ SESSION = cffi_requests.Session(impersonate="chrome")
 
 CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
 
-# Alle Ticker aus allen Gruppen zusammen, fuer den eigentlichen Abruf.
-# Die Gruppenzuordnung selbst passiert erst beim Rendern in build_page.py.
-ALL_TICKERS = {
+# Gruppen-Ticker (Futures/Globale Indizes) - Label != Ticker-Symbol
+GROUP_TICKERS = {
     label: ticker
     for group in TICKER_GROUPS.values()
     for label, ticker in group.items()
 }
+
+# Alle Einzel-Ticker aus Sektor-Positionen + persoenlichen ETFs, dedupliziert.
+# Hier ist Label == Ticker-Symbol selbst (Anzeigename kommt aus TICKER_NAMES
+# in build_page.py).
+_position_tickers = set()
+for _tickers in SECTOR_POSITIONS.values():
+    _position_tickers.update(_tickers)
+for _tickers in PERSONAL_ETFS.values():
+    _position_tickers.update(_tickers)
+
+ALL_TICKERS = {**GROUP_TICKERS, **{t: t for t in _position_tickers}}
 
 
 def fetch_ticker(ticker: str) -> tuple[float | None, float | None]:
