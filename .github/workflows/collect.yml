@@ -2,10 +2,13 @@ name: Marktfeed sammeln
 
 on:
   schedule:
-    # laeuft jede volle Stunde (UTC). Deckt 22:30-08:00 MEZ/MESZ ab,
-    # sammelt aber bewusst rund um die Uhr - die Seite zeigt die letzten
-    # RETENTION_DAYS Tage, du scrollst dir morgens die relevante Zeitspanne raus.
-    - cron: "15 * * * *"
+    # Feste Laufzeiten, umgerechnet fuer MESZ (UTC+2, Sommerzeit).
+    # Im Winter (MEZ, UTC+1) verschieben sich die Zeiten um -1h relativ
+    # zur deutschen Uhrzeit - dann muessen die Werte um 1h erhoeht werden.
+    - cron: "0 3 * * *"    # 05:00 MESZ
+    - cron: "0 5 * * *"    # 07:00 MESZ
+    - cron: "30 12 * * *"  # 14:30 MESZ
+    - cron: "0 20 * * *"   # 22:00 MESZ
   workflow_dispatch: {}   # erlaubt manuellen Start über den "Actions"-Tab
 
 permissions:
