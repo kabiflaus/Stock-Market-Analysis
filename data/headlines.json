@@ -1,10 +1,87 @@
 [
   {
+    "label": "DAX",
+    "title": "Aktien Frankfurt: Dax legt weiter zu - Iran-Krieg und Ölpreis bleiben im Blick - T-Online",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQX3BGal8zcnFCZmdFQWx1OUd5T2tXVGhWYkQyOGpqbXBwR01EU3prVDZKVkJfOC0tUHdFOVNzWVEzZlJ4TUFtMEN4Tzl6UWVtOWZDYUdFNHdNMERQYVFvXy03UERDaWZBd2V1VmdBWS1fY0hQSDlqek14MlNIa3dSUExoY2RPSVFIUk84NXpYUm9OSXc5a3BUQzFzcXJxa0J3V3E5Q09tUzZzUTY2ZXdvRU0yYmZZRnR2TjJ1WEZyYzVEZjhBeC1Gc1FnODU4RHZ1dFhPY1kzU28?oc=5",
+    "source": "T-Online",
+    "published": "2026-07-22T13:08:00+00:00"
+  },
+  {
     "label": "Nasdaq",
-    "title": "Stock futures fall as investors gear up for more earnings: Live updates - CNBC",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures slide with Alphabet, Tesla earnings on deck - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWElvb2NRVkVZT1RIYlhmTDg4X0d2LThPSW5zSWZvZVdtbENkTzFlcUVmX21ZRTVDYzJ0YTdvbnRkbmdlcUNNY1EydkZ3dnlpbWVYX0Q1T2w2X1lMdjRwejJGNmxwaU4zczRYU1pWS19YMm5GNG5NZmtPaGJkSF8yN1VCOFZzb1JrdHA3NFQzb2Nmc1lnXzhUR1hIbm40Z05sYnRmSF9pc1liYXVZUkdsMXh0UzJIb2h1bWdrbjJXaGY?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-07-22T12:57:45+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "title": "Stock futures slip as oil prices jump, traders gear up for more earnings: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnWVpRdDA3N19hRFZ5YXlwMFpUSV9YSFoySmxBZ0hpd3hwSjA5RVBxYzRLeHpnaVRIMG5kRXRQQy1vRzVobFNNOWZEVkw5Q0ZMNUlzek1tLXdIeEtXdUI3dmtUMjhOaUo3dzB4UWdMNi1ubE9YUXQ40gF8QVVfeXFMTm5PVndmalk3d08zMTFyTGxydGJRM0pnUmVhcGxFNkZoYWNEaDVqQ2lxRjlXLXJGSndsUjFKWlV2N09sQWVpRmR2cmIyODB3YjdVY2JBUHpHWGJ5ejRMM2stZ0RyT3NYWkNleF9MMXRmOXNtaDM3TkdXMWJVcw?oc=5",
     "source": "CNBC",
-    "published": "2026-07-22T07:13:00+00:00"
+    "published": "2026-07-22T12:51:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "Dow Jones Futures Fall As Oil Prices Jump; Two AI Earnings Movers With Google, Tesla Due - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeTllWk5peEtlSnVEOG1jd2tQQUxnTXl3ZE9kdW91cXQxdlFXdW42M01qM2V1TFB3MDU4RVVVX2s0VmhRVWowckhpalNnc1RWa3JFdXlzeFVnVS14TklNS3AxRUMyMm9TMklWWkEyTlhRemZ6RWZSMVFXbmVqUTZkeDVacmdrblZBZWlqbEdmd0ZObFB4M3dtVXBXcmdISE5jX3lIdDE2SmRCbGJ6eXdnb25CYndXQWMzOUYxcA?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-07-22T12:12:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "S&P 500 Futures Decline in Premarket Trading; Super Micro Computer, FTAI Aviation Lead - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSWplUTExNlh1RlRCdVloMDFsS1k1UElOOHp2eDhtaXdOMndMRGl1RV8zU0lxVHJxSldaREQtQzlJN2h5V2F3NjlsU0F3Q1B4TGhnRHhJUGstQ3FHUzc5RndWMWFOSm44Y0ZxNHpUcmI4YjNOb2ZBd0paWk1rNS1admxVVmdTRFpZU0ZPdWZYYm13a2ZmVFhab09jMTV1QnBTa0pvcXllLS1MaTZJWGZDc0plVUFualJfYkFaSjNhTVVhVG5X?oc=5",
+    "source": "Barron's",
+    "published": "2026-07-22T11:30:00+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "DAX erobert 25.000 Punkte zurück - Wallstreet Online",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTHVKVkhfZHVuTGt5NDEwTFpncTJab3ZXSmVUSFRiR1ZxUUJPMno2eDNYclpTeUhialFsQk54NGhOWDdjQTQ2SW90TTFkOWRXcWtvSnZoN2o4cHpjY0RMaU4yU2Vid3V5cHVGSnFJNzNlempiU3l6d0hSYjRHeHduczBsRQ?oc=5",
+    "source": "Wallstreet Online",
+    "published": "2026-07-22T11:30:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "title": "Nasdaq futures slump ahead of Big Tech earnings: 5 things to know before market opens - Invezz",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbU9ZSTBkY0xMMGozWkZxcnZzZlNBbVdkU29SX0dJUFdJVGRRMXZiV2ptd015eU1mRFpvSG9DeGZ5QkQ4WHpjM1hNenhadUdyRzFjWlRKNUFGell0ZnI1SklZbFBXSVhKVFItck9FMjRBZE1WeVhyWDAtSU5QcWNXenozT1RHUHI5dmx4MlVrRzMyMkZLZzlCMktDVlloUndSVWVKTTE1c3JFbURyX2w0YlF0cndIYW9kTzM0OQ?oc=5",
+    "source": "Invezz",
+    "published": "2026-07-22T11:28:57+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "Börse: Airbus und Gea Aktie im Dax mit Kursrallye, Bilanz von Alphabet am Abend - Manager Magazin",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOelczLWhwVXBVb3BJZ3Fua21IMGJnaFQyU0xobmdZNWtrWlczQlZta3Z0TTJCcW1SZDdPMGRoQ1J5eHRqaVZ2XzVPM1FGUmxDeHpCUkF2QlUtWnhkQkxIX0NFT1NhZFFFVVlRM1BYbGhjVlNtT2kzSng3N2dzT19MODFmLTdxaWRxMURiUTJad1FBbVZwRnFuXzNDUll2NnpLRmw2c3FVbVZXV1pGTlZNU05NeWdUbFB6ZFdJXw?oc=5",
+    "source": "Manager Magazin",
+    "published": "2026-07-22T10:29:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "Stock Futures Fall as Inflation Fears Resurface - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcjVhNzlKVXh0dG5zaTJuQ0RxbjRuNmJ4S1dlOTVlblBXSk5FelNqUjVXa0JjTnh6bUNIbGwyeFlzOFJwaFNDQmZ0NDdPbHc5eFVoV1VWMVE4QzBFSGV0UEh2ZEJ0VG5KWlVmODRXNUxDdlJ1SmRTODNmVkJjSEd0NTZhT1dQMG5FZmgwRTBVSk1aNkN3MGEwdk1CaktnYWJHZUpDOUljaWdyaS1BRDJBWWhqSmNGX1ZDZEtMS0xIU1h6QXhxbk5zamF0bWdCaGdOeldhYTY1VVk?oc=5",
+    "source": "Barron's",
+    "published": "2026-07-22T09:15:47+00:00"
+  },
+  {
+    "label": "KOSPI",
+    "title": "Kospi fails to reclaim 7,000 despite strong foreign buying; Robot stocks surge - KED Global",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9uMTBWWWNzTTBqemRfbXZhMXZKeVAta1dfdThhY1dQb0FYZGtRYUNrYWRkSTJRTU1XVWI5S0VrelJHNi12czFqMEFNU3d1a0x2MFA1TnZLY2tZVTlRMEUwLVVLUEdhemJTRGlKZk9DS1RJUnNscU82RHBR?oc=5",
+    "source": "KED Global",
+    "published": "2026-07-22T09:08:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "Nasdaq, S&P 500 Futures Slip Ahead Of TSLA, GOOGL Earnings: Why SMCI, INTC, SLS, BATL, OKLO, RKLB Are In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPamFoQldpYzFGMGdscnk3dEhnT3pOSUdGbUUyWjIyMW8yS1FxLWlldUVhWXQ3YXlOZUtoUFBFOWVKOWZRb0NBakZGWjM0ZXVQd0MwclprbHZMYVo1VEw5U3lhcEY1UDdqVGFyRnViUHg3ZjFPV1VrbWxTZDlaVEtsU2JzNkdWWEpXdXhnVW1iWjkyVTVw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-07-22T08:30:11+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "UQ9TXX • DE000UQ9TXX0 • Aktueller Kurs Knock-Out-Optionsschein auf DAX - Onvista",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zUXVBTUVSc0k2VmxwaVpmSVYzYjhWU2NJTG56M0pXcUNfQTg5SGdQbnhnckdfLVAzaGZzZXlqTmNNdlRsQkdyS3NCMTZvUHAtVHVHSHFCUWxLZTBhNDFjNTdTSjhZQ1QwRVdfYkJIVW9hZDVFQTZfYWNhbnQ?oc=5",
+    "source": "Onvista",
+    "published": "2026-07-22T07:59:36+00:00"
   },
   {
     "label": "DAX",
@@ -19,20 +96,6 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTi1LaDU0dnY3RWljUEJDaHFYTlFoZlp1cHRRR1B4MmtLNkZXb2t5RFJ5cURXOWZ5Tmo0WlZfWDVkaHBnX29ZeXBRNWZWd2RLdDB6dUhTUFZJa2c0eXh1el9fRnRGQnRfdXNjZ1ZVeEV5TDRZT0lLUUtKUzJKc0QydjZoV29LeHBtTk9lZ18taDdNU0hY?oc=5",
     "source": "Bloomberg.com",
     "published": "2026-07-22T05:59:00+00:00"
-  },
-  {
-    "label": "DAX",
-    "title": "Börse: Tech Aktien und Dax im Plus - Manager Magazin",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOelczLWhwVXBVb3BJZ3Fua21IMGJnaFQyU0xobmdZNWtrWlczQlZta3Z0TTJCcW1SZDdPMGRoQ1J5eHRqaVZ2XzVPM1FGUmxDeHpCUkF2QlUtWnhkQkxIX0NFT1NhZFFFVVlRM1BYbGhjVlNtT2kzSng3N2dzT19MODFmLTdxaWRxMURiUTJad1FBbVZwRnFuXzNDUll2NnpLRmw2c3FVbVZXV1pGTlZNU05NeWdUbFB6ZFdJXw?oc=5",
-    "source": "Manager Magazin",
-    "published": "2026-07-22T05:55:00+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "title": "Futures: AI Server Maker Jumps Late; Google, Tesla Due - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeTllWk5peEtlSnVEOG1jd2tQQUxnTXl3ZE9kdW91cXQxdlFXdW42M01qM2V1TFB3MDU4RVVVX2s0VmhRVWowckhpalNnc1RWa3JFdXlzeFVnVS14TklNS3AxRUMyMm9TMklWWkEyTlhRemZ6RWZSMVFXbmVqUTZkeDVacmdrblZBZWlqbEdmd0ZObFB4M3dtVXBXcmdISE5jX3lIdDE2SmRCbGJ6eXdnb25CYndXQWMzOUYxcA?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-07-22T05:33:00+00:00"
   },
   {
     "label": "Healthcare",
@@ -348,19 +411,5 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYUxFdkNEcV9RWHZZX2JJTVFtNjQ1dFRUMG5qRmRtZ082SXR1anBwcEJGQkg0NzA0dkRZQk5XLW5tMmpYTm05UHh0LXlYbzI1dnF6X1J0bXVDeFpGYkw4UlNndDJzc1pfZkZhaGo5T0RLMU1LYzlaUDNoaXhpYTFwbGlHSldyQzdJU2M4UTE2MUJOdkFhdXYzamo5MThmaV9vMEQyMkd0ZG9rVFJGYnFNMmtJUkdCQkhwSW44UEsyQnhyZFJXdUdLWmNJSUgwQdIB0wFBVV95cUxOMUNqUk5YbS1YRGRsWnNqcWRJOXZocmV5OFZ0N3V6a3VMN1Z0YkNfYzBFTGZhTG5mVnZEUnRRa2tscWpaVzRWMnNjQ01QVGIycV9WdV9hMG05NVNTQUhkOFV5RVVRaHNaOXpZZEJMUG9sZlBoVkNsbWljVS13dm1lSFpka0lCTEVEQXY0UjljaVlQdnRuRDN3a3BLdmFSLXY0QTh3NUs3UGw2T2o0S3BkOVJkcXMzZHpxaWtHZTFpcjFUMzM0R0hpZTlGWk16NzVjZUlN?oc=5",
     "source": "simplywall.st",
     "published": "2026-07-18T19:29:44+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "title": "Stock Futures Drop as Tech Selloff Gathers Pace - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQWVHLWJyMEZmZllISmVYWjRvWHU0Szg2NEJsbk8tZi0wMC1VaEpNM3FXRERXN0ZYRnQxRk1nQlBPbU5YOU1HUHQ0Z3E0d25OeC1rbHFkZFFER2dRdEotaVhETVUxODZsblhrdVZMbTFoaGdYTkVac1A4akhYTGZraVRsQ05jUnhyc28yYzlDdWg4QnZYZEVPS0NRUC1iYkZ6TUxuYlQyVHNhNW1zUmVaaDBpNWdSLU9JQzJFR1MzMkR3am9xbllqNk8xV0V0ajNsa1RscWt3cG0?oc=5",
-    "source": "Barron's",
-    "published": "2026-07-18T13:06:00+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "title": "Why are Defense Stocks Surging Amidst Global Turmoil - Kavout | AI",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV1VkenVnSGVISUNqZWFJQ3RRc1NpMWU3Zm5ZZnpTMzgweGNKRXgwRlRpeUpLdEVQWWowYWxCelMzZ3J1anFLOGtuY3VEN2tmSkZoT2hmRngyNHRycWFqa05TZk9XYXFuaFRzeXpFd3dkc1JSTzYxbGM1T1NYUTdHcHNoVUY1UjVSY0IwSEVQM2w?oc=5",
-    "source": "Kavout | AI",
-    "published": "2026-07-18T07:57:48+00:00"
   }
 ]
