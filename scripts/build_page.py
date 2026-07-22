@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import TICKER_GROUPS, PRIORITY_KEYWORDS
+from config import TICKER_GROUPS, PRIORITY_KEYWORDS, TICKER_FLAGS, SECTOR_TICKER_MAP
 
 BASE = os.path.dirname(__file__)
 HEADLINES_PATH = os.path.join(BASE, "..", "data", "headlines.json")
@@ -23,8 +23,7 @@ BERLIN = ZoneInfo("Europe/Berlin")
 # werden als Pille gerendert.
 SECTOR_ORDER = [
     "Fed / Makro", "Chips & AI", "ETFs", "Healthcare", "Rüstung",
-    "Energie & Rohstoffe", "Oracle", "Meta", "Nasdaq", "S&P 500",
-    "DAX", "KOSPI",
+    "Energie & Rohstoffe", "Konsumgüter", "Nasdaq", "S&P 500", "DAX", "KOSPI",
 ]
 
 MAX_VISIBLE = 10
@@ -51,7 +50,7 @@ def is_priority(title: str) -> bool:
     return any(kw in t for kw in PRIORITY_KEYWORDS)
 
 
-def market_row_html(row: dict) -> str:
+def market_row_html(row: dict, group_name: str) -> str:
     change = row.get("change_pct")
     if change is None:
         change_html = '<span class="chg neutral">n/a</span>'
@@ -61,9 +60,25 @@ def market_row_html(row: dict) -> str:
         change_html = f'<span class="chg {cls}">{sign}{change}%</span>'
     price = row.get("price")
     price_str = f"{price:,.2f}" if price is not None else "n/a"
+    label = row["label"]
+    flag = TICKER_FLAGS.get(label, "")
+
+    # Nur die "Globale Indizes"-Karten sind sektor-filterbar. Fuer alle
+    # Sektoren, in deren SECTOR_TICKER_MAP dieser Ticker auftaucht, wird das
+    # Label im data-sectors-Attribut gesammelt (space-getrennt fuer JS).
+    sector_attr = ""
+    if group_name == "Globale Indizes":
+        relevant_for = [
+            sector for sector, tickers in SECTOR_TICKER_MAP.items()
+            if label in tickers
+        ]
+        sector_attr = f' data-sectors="{esc("|".join(relevant_for))}"'
+
+    filterable_class = " filterable" if group_name == "Globale Indizes" else ""
+
     return f"""
-      <div class="ticker-card">
-        <div class="ticker-label">{esc(row['label'])}</div>
+      <div class="ticker-card{filterable_class}"{sector_attr}>
+        <div class="ticker-label">{flag} {esc(label)}</div>
         <div class="ticker-price">{price_str}</div>
         {change_html}
       </div>"""
@@ -75,11 +90,12 @@ def ticker_group_html(rows_by_label: dict) -> str:
         cards = []
         for label in tickers:
             row = rows_by_label.get(label, {"label": label, "price": None, "change_pct": None})
-            cards.append(market_row_html(row))
+            cards.append(market_row_html(row, group_name))
+        section_class = " tickers-global" if group_name == "Globale Indizes" else ""
         sections.append(f"""
     <div class="section">
       <h2>{esc(group_name)}</h2>
-      <div class="tickers">{''.join(cards)}
+      <div class="tickers{section_class}">{''.join(cards)}
       </div>
     </div>""")
     return "\n".join(sections)
@@ -166,7 +182,16 @@ def main():
     color: #8b98a5; font-weight: 600; margin: 0 0 10px;
   }}
   .tickers {{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }}
-  .ticker-card {{ background: #16191d; border: 1px solid #2a2f34; border-radius: 10px; padding: 10px 12px; }}
+  .ticker-card {{
+    background: #16191d; border: 1px solid #2a2f34; border-radius: 10px; padding: 10px 12px;
+    transition: opacity 0.35s ease, transform 0.35s ease, max-height 0.35s ease,
+                padding 0.35s ease, margin 0.35s ease;
+    max-height: 100px; overflow: hidden;
+  }}
+  .ticker-card.dimmed {{
+    opacity: 0; transform: scale(0.92); max-height: 0; padding-top: 0; padding-bottom: 0;
+    border-width: 0; pointer-events: none;
+  }}
   .ticker-label {{ font-size: 0.75rem; color: #8b98a5; }}
   .ticker-price {{ font-size: 1.05rem; font-weight: 600; }}
   .chg {{ font-size: 0.85rem; font-weight: 600; }}
@@ -212,6 +237,7 @@ def main():
 <script>
   const pills = document.querySelectorAll('.pill');
   const headlines = document.querySelectorAll('.headline');
+  const tickerCards = document.querySelectorAll('.ticker-card.filterable');
   const moreBtn = document.getElementById('more-btn');
   let expanded = false;
   let currentFilter = 'Alle';
@@ -223,6 +249,16 @@ def main():
       const hiddenByLimit = (currentFilter === 'Alle') && (i >= {MAX_VISIBLE}) && !expanded;
       h.style.display = hiddenByLimit ? 'none' : '';
     }});
+
+    tickerCards.forEach(card => {{
+      if (currentFilter === 'Alle') {{
+        card.classList.remove('dimmed');
+        return;
+      }}
+      const sectors = (card.dataset.sectors || '').split('|');
+      card.classList.toggle('dimmed', !sectors.includes(currentFilter));
+    }});
+
     if (moreBtn) {{
       moreBtn.style.display = (currentFilter === 'Alle' && !expanded) ? 'block' : 'none';
     }}
