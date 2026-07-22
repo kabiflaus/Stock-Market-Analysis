@@ -41,7 +41,16 @@
     color: #8b98a5; font-weight: 600; margin: 0 0 10px;
   }
   .tickers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-  .ticker-card { background: #16191d; border: 1px solid #2a2f34; border-radius: 10px; padding: 10px 12px; }
+  .ticker-card {
+    background: #16191d; border: 1px solid #2a2f34; border-radius: 10px; padding: 10px 12px;
+    transition: opacity 0.35s ease, transform 0.35s ease, max-height 0.35s ease,
+                padding 0.35s ease, margin 0.35s ease;
+    max-height: 100px; overflow: hidden;
+  }
+  .ticker-card.dimmed {
+    opacity: 0; transform: scale(0.92); max-height: 0; padding-top: 0; padding-bottom: 0;
+    border-width: 0; pointer-events: none;
+  }
   .ticker-label { font-size: 0.75rem; color: #8b98a5; }
   .ticker-price { font-size: 1.05rem; font-weight: 600; }
   .chg { font-size: 0.85rem; font-weight: 600; }
@@ -70,19 +79,19 @@
     <button class="refresh-btn" onclick="location.href = location.pathname + '?t=' + Date.now();">↻ Aktualisieren</button>
   </div>
   <h1 class="site-title">Morgen-Feed</h1>
-  <div class="updated">Seite generiert: 22.07.2026 02:15 &middot; Kurse zuletzt: 02:14</div>
+  <div class="updated">Seite generiert: 22.07.2026 02:32 &middot; Kurse zuletzt: 02:32</div>
 
   <div class="pills">
     <button class="pill active" data-label="Alle">Alle</button>
 <button class="pill" data-label="Fed / Makro">Fed / Makro</button>
 <button class="pill" data-label="Healthcare">Healthcare</button>
 <button class="pill" data-label="Rüstung">Rüstung</button>
-<button class="pill" data-label="Oracle">Oracle</button>
-<button class="pill" data-label="Meta">Meta</button>
 <button class="pill" data-label="Nasdaq">Nasdaq</button>
 <button class="pill" data-label="S&amp;P 500">S&amp;P 500</button>
 <button class="pill" data-label="DAX">DAX</button>
 <button class="pill" data-label="KOSPI">KOSPI</button>
+<button class="pill" data-label="Oracle">Oracle</button>
+<button class="pill" data-label="Meta">Meta</button>
   </div>
 
   
@@ -90,66 +99,50 @@
       <h2>US-Futures (Vorbörse)</h2>
       <div class="tickers">
       <div class="ticker-card">
-        <div class="ticker-label">Nasdaq Futures</div>
-        <div class="ticker-price">29,322.25</div>
-        <span class="chg up">+0.33%</span>
+        <div class="ticker-label"> Nasdaq Futures</div>
+        <div class="ticker-price">29,316.75</div>
+        <span class="chg up">+0.31%</span>
       </div>
       <div class="ticker-card">
-        <div class="ticker-label">S&amp;P 500 Futures</div>
-        <div class="ticker-price">7,546.50</div>
-        <span class="chg down">-0.41%</span>
+        <div class="ticker-label"> S&amp;P 500 Futures</div>
+        <div class="ticker-price">7,543.75</div>
+        <span class="chg down">-0.45%</span>
       </div>
       </div>
     </div>
 
     <div class="section">
       <h2>Globale Indizes</h2>
-      <div class="tickers">
-      <div class="ticker-card">
-        <div class="ticker-label">S&amp;P 500 (USA)</div>
+      <div class="tickers tickers-global">
+      <div class="ticker-card filterable" data-sectors="Fed / Makro|Chips &amp; AI|ETFs|Healthcare|Rüstung|Energie &amp; Rohstoffe|Konsumgüter|Nasdaq|S&amp;P 500">
+        <div class="ticker-label">🇺🇸 S&amp;P 500 (USA)</div>
         <div class="ticker-price">7,509.20</div>
         <span class="chg down">-0.46%</span>
       </div>
-      <div class="ticker-card">
-        <div class="ticker-label">DAX (Deutschland)</div>
+      <div class="ticker-card filterable" data-sectors="ETFs|Healthcare|Rüstung|Konsumgüter|DAX">
+        <div class="ticker-label">🇩🇪 DAX (Deutschland)</div>
         <div class="ticker-price">25,011.35</div>
         <span class="chg down">-0.54%</span>
       </div>
-      <div class="ticker-card">
-        <div class="ticker-label">Nikkei 225 (Japan)</div>
-        <div class="ticker-price">66,232.19</div>
-        <span class="chg down">-3.66%</span>
+      <div class="ticker-card filterable" data-sectors="ETFs|Konsumgüter">
+        <div class="ticker-label">🇯🇵 Nikkei 225 (Japan)</div>
+        <div class="ticker-price">67,235.86</div>
+        <span class="chg down">-2.2%</span>
       </div>
-      <div class="ticker-card">
-        <div class="ticker-label">FTSE 100 (UK)</div>
+      <div class="ticker-card filterable" data-sectors="ETFs|Healthcare|Rüstung|Energie &amp; Rohstoffe">
+        <div class="ticker-label">🇬🇧 FTSE 100 (UK)</div>
         <div class="ticker-price">10,585.91</div>
         <span class="chg up">+0.54%</span>
       </div>
-      <div class="ticker-card">
-        <div class="ticker-label">KOSPI (Südkorea)</div>
-        <div class="ticker-price">6,747.95</div>
-        <span class="chg down">-1.59%</span>
+      <div class="ticker-card filterable" data-sectors="Chips &amp; AI|ETFs|KOSPI">
+        <div class="ticker-label">🇰🇷 KOSPI (Südkorea)</div>
+        <div class="ticker-price">7,133.97</div>
+        <span class="chg up">+4.04%</span>
       </div>
-      <div class="ticker-card">
-        <div class="ticker-label">Hang Seng (Hongkong)</div>
+      <div class="ticker-card filterable" data-sectors="Chips &amp; AI|ETFs|Energie &amp; Rohstoffe">
+        <div class="ticker-label">🇭🇰 Hang Seng (Hongkong)</div>
         <div class="ticker-price">25,132.29</div>
         <span class="chg up">+3.25%</span>
-      </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Deine Positionen</h2>
-      <div class="tickers">
-      <div class="ticker-card">
-        <div class="ticker-label">Oracle (ORCL)</div>
-        <div class="ticker-price">127.05</div>
-        <span class="chg down">-0.7%</span>
-      </div>
-      <div class="ticker-card">
-        <div class="ticker-label">Meta (META)</div>
-        <div class="ticker-price">643.81</div>
-        <span class="chg down">-2.61%</span>
       </div>
       </div>
     </div>
@@ -414,6 +407,7 @@
 <script>
   const pills = document.querySelectorAll('.pill');
   const headlines = document.querySelectorAll('.headline');
+  const tickerCards = document.querySelectorAll('.ticker-card.filterable');
   const moreBtn = document.getElementById('more-btn');
   let expanded = false;
   let currentFilter = 'Alle';
@@ -425,6 +419,16 @@
       const hiddenByLimit = (currentFilter === 'Alle') && (i >= 10) && !expanded;
       h.style.display = hiddenByLimit ? 'none' : '';
     });
+
+    tickerCards.forEach(card => {
+      if (currentFilter === 'Alle') {
+        card.classList.remove('dimmed');
+        return;
+      }
+      const sectors = (card.dataset.sectors || '').split('|');
+      card.classList.toggle('dimmed', !sectors.includes(currentFilter));
+    });
+
     if (moreBtn) {
       moreBtn.style.display = (currentFilter === 'Alle' && !expanded) ? 'block' : 'none';
     }
