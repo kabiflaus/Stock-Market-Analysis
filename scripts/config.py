@@ -1,4 +1,3 @@
-cat > /home/claude/marktfeed/scripts/config.py << 'PYEOF'
 # -----------------------------------------------------------------------
 # Zentrale Konfiguration. Hier passt du an, was gesammelt wird.
 # -----------------------------------------------------------------------
@@ -71,5 +70,3 @@ BLOCKED_SOURCES = [
     "gurufocus", "smartkarma", "barchart.com", "stocktwits", "finviz",
     "24/7 wall st", "thestreet.com", "zacks",
 ]
-PYEOF
-python3 -c "import ast; ast.parse(open('/home/claude/marktfeed/scripts/config.py').read()); print('Syntax ok')"
