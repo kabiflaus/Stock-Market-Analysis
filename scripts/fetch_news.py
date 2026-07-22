@@ -15,7 +15,7 @@ import feedparser
 sys.path.insert(0, os.path.dirname(__file__))
 from config import NEWS_QUERIES, MAX_ITEMS_PER_QUERY, RETENTION_DAYS, BLOCKED_SOURCES
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "headlines.json")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "headlines.json")
 
 
 def build_url(query: dict) -> str:
