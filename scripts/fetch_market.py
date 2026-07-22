@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from curl_cffi import requests as cffi_requests
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import MARKET_TICKERS
+from config import TICKER_GROUPS
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "market.json")
 
@@ -25,6 +25,14 @@ DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "market.json")
 SESSION = cffi_requests.Session(impersonate="chrome")
 
 CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
+
+# Alle Ticker aus allen Gruppen zusammen, fuer den eigentlichen Abruf.
+# Die Gruppenzuordnung selbst passiert erst beim Rendern in build_page.py.
+ALL_TICKERS = {
+    label: ticker
+    for group in TICKER_GROUPS.values()
+    for label, ticker in group.items()
+}
 
 
 def fetch_ticker(ticker: str) -> tuple[float | None, float | None]:
@@ -49,7 +57,7 @@ def fetch_ticker(ticker: str) -> tuple[float | None, float | None]:
 
 def fetch_snapshot() -> list[dict]:
     rows = []
-    for label, ticker in MARKET_TICKERS.items():
+    for label, ticker in ALL_TICKERS.items():
         try:
             price, prev_close = fetch_ticker(ticker)
             change_pct = None
