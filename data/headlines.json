@@ -1,5 +1,19 @@
 [
   {
+    "label": "DAX",
+    "title": "DAX: Airbus zieht den Index - Börse Global",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LZEh4S1MwM01SZEExRUF2WHE2QlFFY0dzYWptRE8tSjZ3UzNjQUJHVEJxNUs5WHpDRzM3Tm9FMi1EQ09oYng1QzhtTG5hUVNtSG1wSEVEMlBUUWxyYlEtRWN3bzNfN3RUaWg2b0UyYw?oc=5",
+    "source": "Börse Global",
+    "published": "2026-07-22T20:57:27+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "S&P 500 closes little changed as higher oil prices keep stocks under pressure: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnWVpRdDA3N19hRFZ5YXlwMFpUSV9YSFoySmxBZ0hpd3hwSjA5RVBxYzRLeHpnaVRIMG5kRXRQQy1vRzVobFNNOWZEVkw5Q0ZMNUlzek1tLXdIeEtXdUI3dmtUMjhOaUo3dzB4UWdMNi1ubE9YUXQ40gF8QVVfeXFMTm5PVndmalk3d08zMTFyTGxydGJRM0pnUmVhcGxFNkZoYWNEaDVqQ2lxRjlXLXJGSndsUjFKWlV2N09sQWVpRmR2cmIyODB3YjdVY2JBUHpHWGJ5ejRMM2stZ0RyT3NYWkNleF9MMXRmOXNtaDM3TkdXMWJVcw?oc=5",
+    "source": "CNBC",
+    "published": "2026-07-22T20:20:00+00:00"
+  },
+  {
     "label": "Fed / Makro",
     "title": "June PPI and CPI show cooling inflation, Fed rate hike odds rise - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSEQ5TE5wclVlQndkalo4WXhDd0Vyc0NHRU9DRkwtVWNZSmxTeHFScURmTDQyVGdEdXE4Y0U1M0N2U3dfcDJpNzRuOEdxZHpBdk1FeFBrUlBmTVJzV1JCa25YQ0dfUWN1RWp5dTNqQjBaYXB1djlPRUNuNXRxaEdXMGhSWHdNbVJwYVpYTXZNUjVLaDA3QkE?oc=5",
@@ -12,6 +26,13 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV1o3MHV2OEpOUWYxLXpVS3lObURzZ21xYU9fbU94NmNqMHJwalcxbkl4WVc4aEFQV1hkUHByd3ROdEtyWXJpaVVsX2ZjTDJQUkdDdUNLZW1WUkhXenIteUlBWm1kWXI1UTBIbVk4dnJRU2tyRkhCLWFVWUxtVjl0d1h2a25iSWwtZ0x3NVY3djl6azlLWm1WWXdLYnZDSmR2NERPWA?oc=5",
     "source": "Wallstreet Online",
     "published": "2026-07-22T17:55:27+00:00"
+  },
+  {
+    "label": "Amundi Stoxx Europe 600",
+    "title": "Europe's STOXX 600 closes at two-week high; Randstad soars - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWU9ia3FsTElGM1RsbFMxRkJYeFQ1RUVPcGJsbnBndEdWTE82Z2U4a0lzQll1V3dkRHYwYXBiQ0FPcmxxcl9IVDNKaUJneEtGNDY4ajhaTTNVeElJOHBnREI5eWY4QTQyRFUxa3BTTUwxSXlLemR6MmtqZVNfZDFYSnNGSklkdmlMSF90bDM2ZWk1dmYtRlUtV0NTVUZlUmkzUDQ4YjhLNnZoQVJvY2w4T0pJbUV6LUlpQ0g4SVNjNTZZUQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-07-22T16:34:13+00:00"
   },
   {
     "label": "DAX",
@@ -63,13 +84,6 @@
     "published": "2026-07-22T12:57:45+00:00"
   },
   {
-    "label": "Nasdaq",
-    "title": "Stock futures slip as oil prices jump, traders gear up for more earnings: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnWVpRdDA3N19hRFZ5YXlwMFpUSV9YSFoySmxBZ0hpd3hwSjA5RVBxYzRLeHpnaVRIMG5kRXRQQy1vRzVobFNNOWZEVkw5Q0ZMNUlzek1tLXdIeEtXdUI3dmtUMjhOaUo3dzB4UWdMNi1ubE9YUXQ40gF8QVVfeXFMTm5PVndmalk3d08zMTFyTGxydGJRM0pnUmVhcGxFNkZoYWNEaDVqQ2lxRjlXLXJGSndsUjFKWlV2N09sQWVpRmR2cmIyODB3YjdVY2JBUHpHWGJ5ejRMM2stZ0RyT3NYWkNleF9MMXRmOXNtaDM3TkdXMWJVcw?oc=5",
-    "source": "CNBC",
-    "published": "2026-07-22T12:51:00+00:00"
-  },
-  {
     "label": "S&P 500",
     "title": "Dow Jones Futures Fall As Oil Prices Jump; Two AI Earnings Movers With Google, Tesla Due - Investor's Business Daily",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeTllWk5peEtlSnVEOG1jd2tQQUxnTXl3ZE9kdW91cXQxdlFXdW42M01qM2V1TFB3MDU4RVVVX2s0VmhRVWowckhpalNnc1RWa3JFdXlzeFVnVS14TklNS3AxRUMyMm9TMklWWkEyTlhRemZ6RWZSMVFXbmVqUTZkeDVacmdrblZBZWlqbEdmd0ZObFB4M3dtVXBXcmdISE5jX3lIdDE2SmRCbGJ6eXdnb25CYndXQWMzOUYxcA?oc=5",
@@ -103,6 +117,13 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOelczLWhwVXBVb3BJZ3Fua21IMGJnaFQyU0xobmdZNWtrWlczQlZta3Z0TTJCcW1SZDdPMGRoQ1J5eHRqaVZ2XzVPM1FGUmxDeHpCUkF2QlUtWnhkQkxIX0NFT1NhZFFFVVlRM1BYbGhjVlNtT2kzSng3N2dzT19MODFmLTdxaWRxMURiUTJad1FBbVZwRnFuXzNDUll2NnpLRmw2c3FVbVZXV1pGTlZNU05NeWdUbFB6ZFdJXw?oc=5",
     "source": "Manager Magazin",
     "published": "2026-07-22T10:29:00+00:00"
+  },
+  {
+    "label": "Amundi Stoxx Europe 600",
+    "title": "Energy shares push up Europe’s STOXX 600; investors watch Middle East, Big Tech results - WTAQ",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNmtpSWFwbDRORFpzc0Zwa01zdVdKYzI5U1gxWGdybU9kbnF2bTctVzdzSm45aVJueUR0SVFNZnh2R0tHLVBqNlI2M0Fxdjg2cGk4SXdhTWxGbTZxd2Z5ZWh4STh2cWY0SWFwU1c3d1Q1bDUyeV9CY3pWWHRCOGxEcTdwRVRDcDFzZXppbGJGMVJKMThPZG4xVWpoZTRYSE9PZmZ1eHZzd0FiSVd2ZEp5Zg?oc=5",
+    "source": "WTAQ",
+    "published": "2026-07-22T09:24:20+00:00"
   },
   {
     "label": "S&P 500",
@@ -173,6 +194,13 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50bEx5QW44bDJUbGd0LUktYXBGQW9CUmk3WEZJY1dVVDlkaGxlRWxtaUVnT0c0UGJTalBreFZzZk1sSFRhbk1PQzV3NlZOUFpxdmNNRmthekdrWGZiYTVhaGRpUUxBVVpTVURJS3RBbThTWUhPb0E?oc=5",
     "source": "finance.biggo.com",
     "published": "2026-07-21T22:25:00+00:00"
+  },
+  {
+    "label": "Amundi Stoxx Europe 600",
+    "title": "European Stocks Bounce Back As Tech Beats Oil Jitters - Finimize",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNamJfWVEwYXFlQnpaR1ZMdEFMOTl0QlVTcGtRLWs1S2VqNzJuRlliUDNxT2lraVNDM2d2WlNYWEU1aDZpMzNVT3RaSWNwQ2I4UFZTcGNaVnNPa3Jja3dkZnZFUE5jZFVfaHRock1venVsVkNJRkx3WnRUZTdvVno5SVpJTm56WVFzN1E?oc=5",
+    "source": "Finimize",
+    "published": "2026-07-21T21:32:28+00:00"
   },
   {
     "label": "Nasdaq",
@@ -343,6 +371,13 @@
     "published": "2026-07-21T00:34:53+00:00"
   },
   {
+    "label": "iShares Global Clean Energy",
+    "title": "The Ultimate Guide to Solar Energy: Everything You Need to Know in 2026 and Beyond - CarbonCredits.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWtwSUxwSWdhMGtPVmJNQ3FWdjNMRllYeGRWcVlwQmx2bUZ2UThka1hld0szSFE0YV9IV0NtWTRRcEV1OEFDdWRVMjZYcUItUEhGXzhvSWhReXFiSWd4aF9lb1pGbThRckxZQ3pKVER4ZF81UHJ5b1UxQ2d6ZjNNZVE1bklWNW5kZEZ0djhRQ2FzYW9sX2tjREdEWTB6OWNUeXUtVWdMVno4djJQ?oc=5",
+    "source": "CarbonCredits.com",
+    "published": "2026-07-20T22:26:08+00:00"
+  },
+  {
     "label": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq rally fizzles as chip stock momentum fades, oil rises - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2ZVWlFvSkNRM3pBSzN6Vy1scXBZQzNfUGZXenUzTHNSSWtTVURVVUk1S1RQYWxTVEJOb2t6WG1LOEFMVXNuVWVndUdYZnNfb21KSVdmT2tJQ1lRXzVuWVliX3YwLWk3VDVGdU9BMUJYR3YxM0xOSHlwUlgtRDB3cjEzdWJ4ejRneUpxM2ZsMGRDMDVTODdWTlNERERUaGc3R2E2cHNwaUQ?oc=5",
@@ -376,6 +411,13 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPT0NLcXJQNG5BVnA5NXVacUJ3UDFVaTFVNS0zSWhIejA2TlVJaXA3WmVJRnJpQXZCSktvMEwxUXNQMGtBVGJMYkQta3JyY0xmcWxlaHg1azZsa091SXVqZkV1eGsxVFFrLUJ0Q1E5TVhiMUotMkFSYkE1U3BoNkhqZG5kYi14azAwQk9FQXhZSzl0aXBycURHUXZmZjVUTzhMZm4tQV91dE45SXE3cnBhQWNFeFFWeERwaHRTVjV0MGljUQ?oc=5",
     "source": "TradingView",
     "published": "2026-07-20T19:00:00+00:00"
+  },
+  {
+    "label": "Amundi Stoxx Europe 600",
+    "title": "European shares tick lower as investors assess US-Iran jitters; tech earnings loom - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOW85SFJGQjcyd1RaMDNkVU9BYkVDZWNnVW4zb09sbGdxYUJVV2ZvcnFWcjJTaU90WHVaLVB2LTJjc1hLd0xQaWlwMmNCTW43d2RpbXpkSDVJUWNLYmdjeld3UV8xSFgtZmpBbjNFX0dJS3ZHT19KbXBDNTE4S0NGZk5SY1hTVWNtaEg0ZnhxWk1Pb18tYll0QjNHaExyUHU5TUs3dkE0S3FOMHluN2RuMW9PSHpvUlpWYUlvRUUwM1U1N090N3VzNDRYblFuUnM?oc=5",
+    "source": "marketscreener.com",
+    "published": "2026-07-20T16:52:23+00:00"
   },
   {
     "label": "KOSPI",

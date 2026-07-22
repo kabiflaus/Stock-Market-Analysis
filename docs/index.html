@@ -26,7 +26,16 @@
     font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-size: 2.4rem;
     text-align: center; margin: 4px 0 2px; letter-spacing: -0.01em;
   }
-  .updated { color: #8b98a5; font-size: 0.8rem; text-align: center; margin-bottom: 22px; }
+  .updated { color: #8b98a5; font-size: 0.8rem; text-align: center; margin-bottom: 18px; }
+
+  .tabs { display: flex; gap: 8px; justify-content: center; margin-bottom: 22px; }
+  .tab-btn {
+    background: transparent; color: #8b98a5; border: 1px solid #2a2f34;
+    border-radius: 10px; padding: 9px 26px; font-size: 0.95rem; font-weight: 700;
+  }
+< truncated lines 204-215 >
+}
+  .tab-btn.active { background: #e7e9ea; color: #0d0f12; border-color: #e7e9ea; }
 
   .pills { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-bottom: 28px; }
   .pill {
@@ -38,6 +47,9 @@
   .section { margin-bottom: 26px; }
   .section h2 {
     font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em;
+    color: #8b98a5; font-weight: 600; margin: 0 0 10px;
+  }
+  .tickers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
     color: #8b98a5; font-weight: 600; margin: 0 0 10px;
   }
   .tickers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
@@ -57,6 +69,17 @@
   .chg.up { color: #3fb950; }
   .chg.down { color: #f85149; }
   .chg.neutral { color: #8b98a5; }
+
+  .section.fading { transition: opacity 0.3s ease; }
+
+  .etf-cards { display: grid; grid-template-columns: 1fr; gap: 8px; }
+  .etf-card {
+    background: #16191d; border: 1px solid #2a2f34; border-radius: 12px; padding: 16px;
+    transition: opacity 0.35s ease, transform 0.35s ease, max-height 0.35s ease;
+  }
+  .etf-card.dimmed { opacity: 0; transform: scale(0.95); max-height: 0; padding: 0; border-width: 0; pointer-events: none; }
+  .etf-name { font-size: 1rem; font-weight: 700; }
+  .etf-hint { font-size: 0.75rem; color: #6e7681; margin-top: 4px; }
 
   .headlines { margin-top: 8px; }
   .headline { border-bottom: 1px solid #22262b; padding: 12px 0; }
@@ -79,69 +102,75 @@
     <button class="refresh-btn" onclick="location.href = location.pathname + '?t=' + Date.now();">↻ Aktualisieren</button>
   </div>
   <h1 class="site-title">Morgen-Feed</h1>
-  <div class="updated">Seite generiert: 22.07.2026 22:59 &middot; Kurse zuletzt: 22:59</div>
+  <div class="updated">Seite generiert: 23.07.2026 00:27 &middot; Kurse zuletzt: 00:24</div>
 
-  <div class="pills">
-    <button class="pill active" data-label="Alle">Alle</button>
+  <div class="tabs">
+    <button class="tab-btn active" data-view="markets">Markets</button>
+    <button class="tab-btn" data-view="invest">Invest</button>
+  </div>
+
+  <!-- ============ MARKETS ============ -->
+  <div id="view-markets" class="view">
+    <div class="pills" id="pills-markets">
+      <button class="pill active" data-label="Alle">Alle</button>
 <button class="pill" data-label="Fed / Makro">Fed / Makro</button>
 <button class="pill" data-label="Chips &amp; AI">Chips &amp; AI</button>
+<button class="pill" data-label="ETFs">ETFs</button>
 <button class="pill" data-label="Healthcare">Healthcare</button>
 <button class="pill" data-label="Rüstung">Rüstung</button>
+<button class="pill" data-label="Energie &amp; Rohstoffe">Energie &amp; Rohstoffe</button>
 <button class="pill" data-label="Konsumgüter">Konsumgüter</button>
 <button class="pill" data-label="Nasdaq">Nasdaq</button>
 <button class="pill" data-label="S&amp;P 500">S&amp;P 500</button>
 <button class="pill" data-label="DAX">DAX</button>
 <button class="pill" data-label="KOSPI">KOSPI</button>
-<button class="pill" data-label="Meta">Meta</button>
-<button class="pill" data-label="Oracle">Oracle</button>
-  </div>
+    </div>
 
-  
     <div class="section">
       <h2>US-Futures (Vorbörse)</h2>
       <div class="tickers">
       <div class="ticker-card">
-        <div class="ticker-label"> Nasdaq Futures</div>
-        <div class="ticker-price">29,191.25</div>
-        <span class="chg up">+1.45%</span>
+        <div class="ticker-label">Nasdaq Futures</div>
+        <div class="ticker-price">29,088.00</div>
+        <span class="chg up">+1.09%</span>
       </div>
       <div class="ticker-card">
-        <div class="ticker-label"> S&amp;P 500 Futures</div>
-        <div class="ticker-price">7,544.25</div>
-        <span class="chg up">+0.62%</span>
+        <div class="ticker-label">S&amp;P 500 Futures</div>
+        <div class="ticker-price">7,525.75</div>
+        <span class="chg up">+0.37%</span>
       </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="global-indices-section">
       <h2>Globale Indizes</h2>
-      <div class="tickers tickers-global">
-      <div class="ticker-card filterable" data-sectors="Fed / Makro|Chips &amp; AI|ETFs|Healthcare|Rüstung|Energie &amp; Rohstoffe|Konsumgüter|Nasdaq|S&amp;P 500">
+      <div class="tickers">
+      <div class="ticker-card" data-sectors="Fed / Makro|ETFs|Nasdaq|S&amp;P 500">
         <div class="ticker-label">🇺🇸 S&amp;P 500 (USA)</div>
         <div class="ticker-price">7,498.96</div>
         <span class="chg down">-0.97%</span>
       </div>
-      <div class="ticker-card filterable" data-sectors="ETFs|Healthcare|Rüstung|Konsumgüter|DAX">
+      <div class="ticker-card" data-sectors="ETFs|DAX">
         <div class="ticker-label">🇩🇪 DAX (Deutschland)</div>
         <div class="ticker-price">25,155.41</div>
         <span class="chg up">+0.62%</span>
       </div>
-      <div class="ticker-card filterable" data-sectors="ETFs|Konsumgüter">
+      <div class="ticker-card" data-sectors="ETFs">
         <div class="ticker-label">🇯🇵 Nikkei 225 (Japan)</div>
         <div class="ticker-price">66,115.60</div>
         <span class="chg down">-3.83%</span>
       </div>
-      <div class="ticker-card filterable" data-sectors="ETFs|Healthcare|Rüstung|Energie &amp; Rohstoffe">
+      <div class="ticker-card" data-sectors="ETFs">
         <div class="ticker-label">🇬🇧 FTSE 100 (UK)</div>
         <div class="ticker-price">10,716.97</div>
         <span class="chg up">+1.91%</span>
       </div>
-      <div class="ticker-card filterable" data-sectors="Chips &amp; AI|ETFs|KOSPI">
+      <div class="ticker-card" data-sectors="ETFs|KOSPI">
         <div class="ticker-label">🇰🇷 KOSPI (Südkorea)</div>
         <div class="ticker-price">6,797.70</div>
         <span class="chg down">-0.86%</span>
       </div>
-      <div class="ticker-card filterable" data-sectors="Chips &amp; AI|ETFs|Energie &amp; Rohstoffe">
+      <div class="ticker-card" data-sectors="ETFs">
         <div class="ticker-label">🇭🇰 Hang Seng (Hongkong)</div>
         <div class="ticker-price">24,892.66</div>
         <span class="chg up">+0.86%</span>
@@ -149,8 +178,301 @@
       </div>
     </div>
 
-  <div class="headlines">
     
+    <div class="section position-section" data-sector="Chips &amp; AI" style="display:none">
+      <h2>Chips &amp; AI – Top 10</h2>
+      <div class="tickers">
+      <div class="ticker-card">
+        <div class="ticker-label">NVIDIA (NVDA)</div>
+        <div class="ticker-price">212.06</div>
+        <span class="chg down">-0.21%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Taiwan Semiconductor (TSM)</div>
+        <div class="ticker-price">421.21</div>
+        <span class="chg up">+0.41%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Broadcom (AVGO)</div>
+        <div class="ticker-price">396.81</div>
+        <span class="chg up">+0.64%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">ASML Holding (ASML)</div>
+        <div class="ticker-price">1,801.86</div>
+        <span class="chg down">-0.74%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Applied Materials (AMAT)</div>
+        <div class="ticker-price">553.92</div>
+        <span class="chg down">-4.4%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Lam Research (LRCX)</div>
+        <div class="ticker-price">319.29</div>
+        <span class="chg down">-4.81%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Intel (INTC)</div>
+        <div class="ticker-price">102.62</div>
+        <span class="chg down">-0.36%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Micron (MU)</div>
+        <div class="ticker-price">959.48</div>
+        <span class="chg up">+6.1%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">KLA Corp (KLAC)</div>
+        <div class="ticker-price">214.69</div>
+        <span class="chg down">-4.37%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">AMD (AMD)</div>
+        <div class="ticker-price">552.33</div>
+        <span class="chg up">+4.38%</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="section position-section" data-sector="Healthcare" style="display:none">
+      <h2>Healthcare – Top 10</h2>
+      <div class="tickers">
+      <div class="ticker-card">
+        <div class="ticker-label">Eli Lilly (LLY)</div>
+        <div class="ticker-price">1,163.01</div>
+        <span class="chg up">+0.55%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Johnson &amp; Johnson (JNJ)</div>
+        <div class="ticker-price">255.63</div>
+        <span class="chg up">+3.49%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">AbbVie (ABBV)</div>
+        <div class="ticker-price">253.30</div>
+        <span class="chg up">+3.76%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">UnitedHealth (UNH)</div>
+        <div class="ticker-price">431.31</div>
+        <span class="chg up">+3.06%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Merck (MRK)</div>
+        <div class="ticker-price">127.47</div>
+        <span class="chg up">+3.12%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Thermo Fisher (TMO)</div>
+        <div class="ticker-price">526.46</div>
+        <span class="chg down">-1.65%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Abbott Labs (ABT)</div>
+        <div class="ticker-price">100.57</div>
+        <span class="chg up">+12.66%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Intuitive Surgical (ISRG)</div>
+        <div class="ticker-price">340.69</div>
+        <span class="chg down">-12.41%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Pfizer (PFE)</div>
+        <div class="ticker-price">24.82</div>
+        <span class="chg neutral">0.0%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Danaher (DHR)</div>
+        <div class="ticker-price">179.14</div>
+        <span class="chg down">-10.78%</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="section position-section" data-sector="Rüstung" style="display:none">
+      <h2>Rüstung – Top 10</h2>
+      <div class="tickers">
+      <div class="ticker-card">
+        <div class="ticker-label">GE Aerospace (GE)</div>
+        <div class="ticker-price">341.19</div>
+        <span class="chg down">-5.32%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">RTX Corp (RTX)</div>
+        <div class="ticker-price">194.88</div>
+        <span class="chg down">-0.52%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Boeing (BA)</div>
+        <div class="ticker-price">208.65</div>
+        <span class="chg down">-4.34%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Northrop Grumman (NOC)</div>
+        <div class="ticker-price">525.28</div>
+        <span class="chg up">+0.01%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">General Dynamics (GD)</div>
+        <div class="ticker-price">373.16</div>
+        <span class="chg up">+2.06%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">L3Harris (LHX)</div>
+        <div class="ticker-price">285.16</div>
+        <span class="chg down">-0.58%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Howmet Aerospace (HWM)</div>
+        <div class="ticker-price">280.70</div>
+        <span class="chg up">+0.52%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Lockheed Martin (LMT)</div>
+        <div class="ticker-price">514.36</div>
+        <span class="chg down">-0.02%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Axon Enterprise (AXON)</div>
+        <div class="ticker-price">491.49</div>
+        <span class="chg down">-9.17%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">TransDigm (TDG)</div>
+        <div class="ticker-price">1,194.70</div>
+        <span class="chg down">-3.04%</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="section position-section" data-sector="Energie &amp; Rohstoffe" style="display:none">
+      <h2>Energie &amp; Rohstoffe – Top 10</h2>
+      <div class="tickers">
+      <div class="ticker-card">
+        <div class="ticker-label">ExxonMobil (XOM)</div>
+        <div class="ticker-price">154.45</div>
+        <span class="chg up">+6.88%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Chevron (CVX)</div>
+        <div class="ticker-price">192.98</div>
+        <span class="chg up">+6.27%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">ConocoPhillips (COP)</div>
+        <div class="ticker-price">118.79</div>
+        <span class="chg up">+6.58%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">SLB (SLB)</div>
+        <div class="ticker-price">47.67</div>
+        <span class="chg up">+0.25%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Williams Cos (WMB)</div>
+        <div class="ticker-price">74.49</div>
+        <span class="chg up">+0.15%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Marathon Petroleum (MPC)</div>
+        <div class="ticker-price">315.82</div>
+        <span class="chg up">+5.56%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">EOG Resources (EOG)</div>
+        <div class="ticker-price">144.00</div>
+        <span class="chg up">+4.75%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Valero Energy (VLO)</div>
+        <div class="ticker-price">310.92</div>
+        <span class="chg up">+6.24%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Phillips 66 (PSX)</div>
+        <div class="ticker-price">211.41</div>
+        <span class="chg up">+7.77%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Kinder Morgan (KMI)</div>
+        <div class="ticker-price">32.49</div>
+        <span class="chg up">+0.9%</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="section position-section" data-sector="Konsumgüter" style="display:none">
+      <h2>Konsumgüter – Top 10</h2>
+      <div class="tickers">
+      <div class="ticker-card">
+        <div class="ticker-label">Walmart (WMT)</div>
+        <div class="ticker-price">109.33</div>
+        <span class="chg down">-2.84%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Costco (COST)</div>
+        <div class="ticker-price">927.31</div>
+        <span class="chg up">+1.18%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Procter &amp; Gamble (PG)</div>
+        <div class="ticker-price">149.13</div>
+        <span class="chg up">+0.73%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Philip Morris (PM)</div>
+        <div class="ticker-price">194.30</div>
+        <span class="chg up">+7.42%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Coca-Cola (KO)</div>
+        <div class="ticker-price">82.20</div>
+        <span class="chg down">-0.3%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Mondelez (MDLZ)</div>
+        <div class="ticker-price">60.86</div>
+        <span class="chg up">+3.64%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Altria (MO)</div>
+        <div class="ticker-price">72.17</div>
+        <span class="chg up">+2.34%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">PepsiCo (PEP)</div>
+        <div class="ticker-price">135.65</div>
+        <span class="chg up">+0.18%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Colgate-Palmolive (CL)</div>
+        <div class="ticker-price">91.63</div>
+        <span class="chg up">+0.17%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Monster Beverage (MNST)</div>
+        <div class="ticker-price">95.67</div>
+        <span class="chg down">-1.95%</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="headlines" id="headlines-markets">
+      
+    <div class="headline" data-label="DAX">
+      <span class="tag">DAX</span>
+      <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9LZEh4S1MwM01SZEExRUF2WHE2QlFFY0dzYWptRE8tSjZ3UzNjQUJHVEJxNUs5WHpDRzM3Tm9FMi1EQ09oYng1QzhtTG5hUVNtSG1wSEVEMlBUUWxyYlEtRWN3bzNfN3RUaWg2b0UyYw?oc=5" target="_blank" rel="noopener">DAX: Airbus zieht den Index - Börse Global</a>
+      <div class="meta">Börse Global &middot; 22.07. 22:57</div>
+    </div>
+
+    <div class="headline" data-label="S&amp;P 500">
+      <span class="tag">S&amp;P 500</span>
+      <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBnWVpRdDA3N19hRFZ5YXlwMFpUSV9YSFoySmxBZ0hpd3hwSjA5RVBxYzRLeHpnaVRIMG5kRXRQQy1vRzVobFNNOWZEVkw5Q0ZMNUlzek1tLXdIeEtXdUI3dmtUMjhOaUo3dzB4UWdMNi1ubE9YUXQ40gF8QVVfeXFMTm5PVndmalk3d08zMTFyTGxydGJRM0pnUmVhcGxFNkZoYWNEaDVqQ2lxRjlXLXJGSndsUjFKWlV2N09sQWVpRmR2cmIyODB3YjdVY2JBUHpHWGJ5ejRMM2stZ0RyT3NYWkNleF9MMXRmOXNtaDM3TkdXMWJVcw?oc=5" target="_blank" rel="noopener">S&amp;P 500 closes little changed as higher oil prices keep stocks under pressure: Live updates - CNBC</a>
+      <div class="meta">CNBC &middot; 22.07. 22:20</div>
+    </div>
+
     <div class="headline" data-label="Fed / Makro">
       <span class="tag">Fed / Makro</span><span class="badge">Wichtig</span>
       <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNSEQ5TE5wclVlQndkalo4WXhDd0Vyc0NHRU9DRkwtVWNZSmxTeHFScURmTDQyVGdEdXE4Y0U1M0N2U3dfcDJpNzRuOEdxZHpBdk1FeFBrUlBmTVJzV1JCa25YQ0dfUWN1RWp5dTNqQjBaYXB1djlPRUNuNXRxaEdXMGhSWHdNbVJwYVpYTXZNUjVLaDA3QkE?oc=5" target="_blank" rel="noopener">June PPI and CPI show cooling inflation, Fed rate hike odds rise - Crypto Briefing</a>
@@ -199,16 +521,10 @@
       <div class="meta">T-Online &middot; 22.07. 15:08</div>
     </div>
 
-    <div class="headline" data-label="Nasdaq">
+    <div class="headline extra" data-label="Nasdaq">
       <span class="tag">Nasdaq</span><span class="badge">Wichtig</span>
       <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWElvb2NRVkVZT1RIYlhmTDg4X0d2LThPSW5zSWZvZVdtbENkTzFlcUVmX21ZRTVDYzJ0YTdvbnRkbmdlcUNNY1EydkZ3dnlpbWVYX0Q1T2w2X1lMdjRwejJGNmxwaU4zczRYU1pWS19YMm5GNG5NZmtPaGJkSF8yN1VCOFZzb1JrdHA3NFQzb2Nmc1lnXzhUR1hIbm40Z05sYnRmSF9pc1liYXVZUkdsMXh0UzJIb2h1bWdrbjJXaGY?oc=5" target="_blank" rel="noopener">Stock market today: Dow, S&amp;P 500, Nasdaq futures slide with Alphabet, Tesla earnings on deck - Yahoo Finance</a>
       <div class="meta">Yahoo Finance &middot; 22.07. 14:57</div>
-    </div>
-
-    <div class="headline" data-label="Nasdaq">
-      <span class="tag">Nasdaq</span><span class="badge">Wichtig</span>
-      <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBnWVpRdDA3N19hRFZ5YXlwMFpUSV9YSFoySmxBZ0hpd3hwSjA5RVBxYzRLeHpnaVRIMG5kRXRQQy1vRzVobFNNOWZEVkw5Q0ZMNUlzek1tLXdIeEtXdUI3dmtUMjhOaUo3dzB4UWdMNi1ubE9YUXQ40gF8QVVfeXFMTm5PVndmalk3d08zMTFyTGxydGJRM0pnUmVhcGxFNkZoYWNEaDVqQ2lxRjlXLXJGSndsUjFKWlV2N09sQWVpRmR2cmIyODB3YjdVY2JBUHpHWGJ5ejRMM2stZ0RyT3NYWkNleF9MMXRmOXNtaDM3TkdXMWJVcw?oc=5" target="_blank" rel="noopener">Stock futures slip as oil prices jump, traders gear up for more earnings: Live updates - CNBC</a>
-      <div class="meta">CNBC &middot; 22.07. 14:51</div>
     </div>
 
     <div class="headline extra" data-label="S&amp;P 500">
@@ -534,55 +850,325 @@
       <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPRjBLTUhCcWJxQ2VNdmpyc0xic0l1dlBTeFoxeGtKNnBIWlZMR1otX1VQaE1mRDM2aDdZeEdnOTcyXy1wSDY1N0JiLWFXQ3A5NVE2ZlhPZXd6Wml0UDBLaW9QUmJlY1hxUG1Ha1llc2ltSGJsNW03NW8wQVV5aXVHNmtUMFdxLU9mMmxlRVRvRWFudWJ4UVE?oc=5" target="_blank" rel="noopener">Korea’s AI-heavy market now sets the tone for global stocks - Fortune</a>
       <div class="meta">Fortune &middot; 19.07. 16:52</div>
     </div>
+    </div>
+    <button id="more-btn">Mehr anzeigen</button>
   </div>
 
-  <button id="more-btn">Mehr anzeigen</button>
+  <!-- ============ INVEST ============ -->
+  <div id="view-invest" class="view" style="display:none">
+    <div class="pills" id="pills-invest">
+      <button class="pill active" data-label="Alle">Alle</button>
+<button class="pill" data-label="Scalable MSCI ACWI">Scalable MSCI ACWI</button>
+<button class="pill" data-label="Amundi Stoxx Europe 600">Amundi Stoxx Europe 600</button>
+<button class="pill" data-label="iShares Global Clean Energy">iShares Global Clean Energy</button>
+    </div>
+
+    <div class="section" id="invest-etf-section">
+      <div class="etf-cards">
+      <div class="etf-card" data-etf="Scalable MSCI ACWI">
+        <div class="etf-name">Scalable MSCI ACWI</div>
+        <div class="etf-hint">antippen für Holdings →</div>
+      </div>
+      <div class="etf-card" data-etf="Amundi Stoxx Europe 600">
+        <div class="etf-name">Amundi Stoxx Europe 600</div>
+        <div class="etf-hint">antippen für Holdings →</div>
+      </div>
+      <div class="etf-card" data-etf="iShares Global Clean Energy">
+        <div class="etf-name">iShares Global Clean Energy</div>
+        <div class="etf-hint">antippen für Holdings →</div>
+      </div>
+      </div>
+    </div>
+
+    
+    <div class="section position-section" data-etf="Scalable MSCI ACWI" style="display:none">
+      <h2>Scalable MSCI ACWI – Top 10</h2>
+      <div class="tickers">
+      <div class="ticker-card">
+        <div class="ticker-label">NVIDIA (NVDA)</div>
+        <div class="ticker-price">212.06</div>
+        <span class="chg down">-0.21%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Apple (AAPL)</div>
+        <div class="ticker-price">325.89</div>
+        <span class="chg down">-0.49%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Microsoft (MSFT)</div>
+        <div class="ticker-price">390.34</div>
+        <span class="chg down">-1.34%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Amazon (AMZN)</div>
+        <div class="ticker-price">244.85</div>
+        <span class="chg down">-3.97%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Alphabet A (GOOGL)</div>
+        <div class="ticker-price">342.09</div>
+        <span class="chg down">-7.77%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Alphabet C (GOOG)</div>
+        <div class="ticker-price">341.91</div>
+        <span class="chg down">-7.64%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Broadcom (AVGO)</div>
+        <div class="ticker-price">396.81</div>
+        <span class="chg up">+0.64%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Taiwan Semiconductor (TSM)</div>
+        <div class="ticker-price">421.21</div>
+        <span class="chg up">+0.41%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Meta Platforms (META)</div>
+        <div class="ticker-price">627.17</div>
+        <span class="chg down">-7.95%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Tesla (TSLA)</div>
+        <div class="ticker-price">374.01</div>
+        <span class="chg down">-5.18%</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="section position-section" data-etf="Amundi Stoxx Europe 600" style="display:none">
+      <h2>Amundi Stoxx Europe 600 – Top 10</h2>
+      <div class="tickers">
+      <div class="ticker-card">
+        <div class="ticker-label">ASML Holding (ASML.AS)</div>
+        <div class="ticker-price">1,589.60</div>
+        <span class="chg down">-0.55%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Roche (ROG.SW)</div>
+        <div class="ticker-price">n/a</div>
+        <span class="chg neutral">n/a</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">HSBC (HSBA.L)</div>
+        <div class="ticker-price">1,541.00</div>
+        <span class="chg up">+4.14%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">AstraZeneca (AZN.L)</div>
+        <div class="ticker-price">12,702.00</div>
+        <span class="chg up">+1.08%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Novartis (NOVN.SW)</div>
+        <div class="ticker-price">125.34</div>
+        <span class="chg up">+1.69%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Nestlé (NESN.SW)</div>
+        <div class="ticker-price">86.17</div>
+        <span class="chg up">+1.98%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Siemens (SIE.DE)</div>
+        <div class="ticker-price">271.25</div>
+        <span class="chg up">+0.43%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Shell (SHEL.L)</div>
+        <div class="ticker-price">3,292.00</div>
+        <span class="chg up">+5.19%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">SAP (SAP.DE)</div>
+        <div class="ticker-price">132.04</div>
+        <span class="chg down">-3.61%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Banco Santander (SAN.MC)</div>
+        <div class="ticker-price">12.08</div>
+        <span class="chg up">+1.14%</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="section position-section" data-etf="iShares Global Clean Energy" style="display:none">
+      <h2>iShares Global Clean Energy – Top 10</h2>
+      <div class="tickers">
+      <div class="ticker-card">
+        <div class="ticker-label">Nextpower (NXT)</div>
+        <div class="ticker-price">104.96</div>
+        <span class="chg down">-3.82%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Bloom Energy (BE)</div>
+        <div class="ticker-price">218.22</div>
+        <span class="chg down">-8.84%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">First Solar (FSLR)</div>
+        <div class="ticker-price">208.86</div>
+        <span class="chg down">-6.68%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Iberdrola (IBE.MC)</div>
+        <div class="ticker-price">21.27</div>
+        <span class="chg up">+1.43%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">China Yangtze Power (600900.SS)</div>
+        <div class="ticker-price">29.09</div>
+        <span class="chg up">+3.01%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Ormat Technologies (ORA)</div>
+        <div class="ticker-price">103.74</div>
+        <span class="chg down">-5.43%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Enphase Energy (ENPH)</div>
+        <div class="ticker-price">39.58</div>
+        <span class="chg down">-10.15%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Equatorial Energia (EQTL3.SA)</div>
+        <div class="ticker-price">39.35</div>
+        <span class="chg down">-2.43%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">Vestas Wind (VWS.CO)</div>
+        <div class="ticker-price">176.30</div>
+        <span class="chg down">-1.01%</span>
+      </div>
+      <div class="ticker-card">
+        <div class="ticker-label">EDP (EDP.LS)</div>
+        <div class="ticker-price">4.61</div>
+        <span class="chg up">+1.99%</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="headlines" id="headlines-invest">
+      
+    <div class="headline" data-label="Amundi Stoxx Europe 600">
+      <span class="tag">Amundi Stoxx Europe 600</span>
+      <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWU9ia3FsTElGM1RsbFMxRkJYeFQ1RUVPcGJsbnBndEdWTE82Z2U4a0lzQll1V3dkRHYwYXBiQ0FPcmxxcl9IVDNKaUJneEtGNDY4ajhaTTNVeElJOHBnREI5eWY4QTQyRFUxa3BTTUwxSXlLemR6MmtqZVNfZDFYSnNGSklkdmlMSF90bDM2ZWk1dmYtRlUtV0NTVUZlUmkzUDQ4YjhLNnZoQVJvY2w4T0pJbUV6LUlpQ0g4SVNjNTZZUQ?oc=5" target="_blank" rel="noopener">Europe's STOXX 600 closes at two-week high; Randstad soars - Reuters</a>
+      <div class="meta">Reuters &middot; 22.07. 18:34</div>
+    </div>
+
+    <div class="headline" data-label="Amundi Stoxx Europe 600">
+      <span class="tag">Amundi Stoxx Europe 600</span>
+      <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNNmtpSWFwbDRORFpzc0Zwa01zdVdKYzI5U1gxWGdybU9kbnF2bTctVzdzSm45aVJueUR0SVFNZnh2R0tHLVBqNlI2M0Fxdjg2cGk4SXdhTWxGbTZxd2Z5ZWh4STh2cWY0SWFwU1c3d1Q1bDUyeV9CY3pWWHRCOGxEcTdwRVRDcDFzZXppbGJGMVJKMThPZG4xVWpoZTRYSE9PZmZ1eHZzd0FiSVd2ZEp5Zg?oc=5" target="_blank" rel="noopener">Energy shares push up Europe’s STOXX 600; investors watch Middle East, Big Tech results - WTAQ</a>
+      <div class="meta">WTAQ &middot; 22.07. 11:24</div>
+    </div>
+
+    <div class="headline" data-label="Amundi Stoxx Europe 600">
+      <span class="tag">Amundi Stoxx Europe 600</span>
+      <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNamJfWVEwYXFlQnpaR1ZMdEFMOTl0QlVTcGtRLWs1S2VqNzJuRlliUDNxT2lraVNDM2d2WlNYWEU1aDZpMzNVT3RaSWNwQ2I4UFZTcGNaVnNPa3Jja3dkZnZFUE5jZFVfaHRock1venVsVkNJRkx3WnRUZTdvVno5SVpJTm56WVFzN1E?oc=5" target="_blank" rel="noopener">European Stocks Bounce Back As Tech Beats Oil Jitters - Finimize</a>
+      <div class="meta">Finimize &middot; 21.07. 23:32</div>
+    </div>
+
+    <div class="headline" data-label="iShares Global Clean Energy">
+      <span class="tag">iShares Global Clean Energy</span>
+      <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWtwSUxwSWdhMGtPVmJNQ3FWdjNMRllYeGRWcVlwQmx2bUZ2UThka1hld0szSFE0YV9IV0NtWTRRcEV1OEFDdWRVMjZYcUItUEhGXzhvSWhReXFiSWd4aF9lb1pGbThRckxZQ3pKVER4ZF81UHJ5b1UxQ2d6ZjNNZVE1bklWNW5kZEZ0djhRQ2FzYW9sX2tjREdEWTB6OWNUeXUtVWdMVno4djJQ?oc=5" target="_blank" rel="noopener">The Ultimate Guide to Solar Energy: Everything You Need to Know in 2026 and Beyond - CarbonCredits.com</a>
+      <div class="meta">CarbonCredits.com &middot; 21.07. 00:26</div>
+    </div>
+
+    <div class="headline" data-label="Amundi Stoxx Europe 600">
+      <span class="tag">Amundi Stoxx Europe 600</span><span class="badge">Wichtig</span>
+      <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxPOW85SFJGQjcyd1RaMDNkVU9BYkVDZWNnVW4zb09sbGdxYUJVV2ZvcnFWcjJTaU90WHVaLVB2LTJjc1hLd0xQaWlwMmNCTW43d2RpbXpkSDVJUWNLYmdjeld3UV8xSFgtZmpBbjNFX0dJS3ZHT19KbXBDNTE4S0NGZk5SY1hTVWNtaEg0ZnhxWk1Pb18tYll0QjNHaExyUHU5TUs3dkE0S3FOMHluN2RuMW9PSHpvUlpWYUlvRUUwM1U1N090N3VzNDRYblFuUnM?oc=5" target="_blank" rel="noopener">European shares tick lower as investors assess US-Iran jitters; tech earnings loom - marketscreener.com</a>
+      <div class="meta">marketscreener.com &middot; 20.07. 18:52</div>
+    </div>
+    </div>
+  </div>
 
 <script>
-  const pills = document.querySelectorAll('.pill');
-  const headlines = document.querySelectorAll('.headline');
-  const tickerCards = document.querySelectorAll('.ticker-card.filterable');
-  const moreBtn = document.getElementById('more-btn');
-  let expanded = false;
-  let currentFilter = 'Alle';
+  const INVEST_LABELS = ["Scalable MSCI ACWI", "Amundi Stoxx Europe 600", "iShares Global Clean Energy"];
 
-  function applyFilter() {
-    headlines.forEach((h, i) => {
-      const matches = (currentFilter === 'Alle') || (h.dataset.label === currentFilter);
-      if (!matches) { h.style.display = 'none'; return; }
-      const hiddenByLimit = (currentFilter === 'Alle') && (i >= 10) && !expanded;
-      h.style.display = hiddenByLimit ? 'none' : '';
-    });
-
-    tickerCards.forEach(card => {
-      if (currentFilter === 'Alle') {
-        card.classList.remove('dimmed');
-        return;
-      }
-      const sectors = (card.dataset.sectors || '').split('|');
-      card.classList.toggle('dimmed', !sectors.includes(currentFilter));
-    });
-
-    if (moreBtn) {
-      moreBtn.style.display = (currentFilter === 'Alle' && !expanded) ? 'block' : 'none';
-    }
-    pills.forEach(p => p.classList.toggle('active', p.dataset.label === currentFilter));
-  }
-
-  pills.forEach(p => p.addEventListener('click', () => {
-    currentFilter = p.dataset.label;
-    expanded = false;
-    applyFilter();
+  // ---------- Tabs ----------
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  const viewMarkets = document.getElementById('view-markets');
+  const viewInvest = document.getElementById('view-invest');
+  tabBtns.forEach(btn => btn.addEventListener('click', () => {
+    tabBtns.forEach(b => b.classList.toggle('active', b === btn));
+    const isMarkets = btn.dataset.view === 'markets';
+    viewMarkets.style.display = isMarkets ? '' : 'none';
+    viewInvest.style.display = isMarkets ? 'none' : '';
   }));
 
-  if (moreBtn) {
-    moreBtn.addEventListener('click', () => {
-      expanded = true;
-      applyFilter();
+  // ---------- Markets-Tab ----------
+  const marketPills = document.querySelectorAll('#pills-markets .pill');
+  const marketHeadlines = document.querySelectorAll('#headlines-markets .headline');
+  const globalIndicesSection = document.getElementById('global-indices-section');
+  const globalIndexCards = globalIndicesSection.querySelectorAll('.ticker-card');
+  const positionSections = document.querySelectorAll('.position-section[data-sector]');
+  const moreBtn = document.getElementById('more-btn');
+  let marketExpanded = false;
+  let marketFilter = 'Alle';
+
+  function applyMarketFilter() {
+    const hasPositions = [...positionSections].some(s => s.dataset.sector === marketFilter);
+
+    globalIndicesSection.style.display = hasPositions ? 'none' : '';
+    globalIndexCards.forEach(card => {
+      if (marketFilter === 'Alle') { card.classList.remove('dimmed'); return; }
+      const sectors = (card.dataset.sectors || '').split('|');
+      card.classList.toggle('dimmed', !sectors.includes(marketFilter));
     });
+
+    positionSections.forEach(sec => {
+      sec.style.display = (sec.dataset.sector === marketFilter) ? '' : 'none';
+    });
+
+    marketHeadlines.forEach((h, i) => {
+      const matches = (marketFilter === 'Alle') || (h.dataset.label === marketFilter);
+      if (!matches) { h.style.display = 'none'; return; }
+      const hiddenByLimit = (marketFilter === 'Alle') && (i >= 10) && !marketExpanded;
+      h.style.display = hiddenByLimit ? 'none' : '';
+    });
+    if (moreBtn) {
+      moreBtn.style.display = (marketFilter === 'Alle' && !marketExpanded) ? 'block' : 'none';
+    }
+    marketPills.forEach(p => p.classList.toggle('active', p.dataset.label === marketFilter));
   }
 
-  applyFilter();
+  marketPills.forEach(p => p.addEventListener('click', () => {
+    marketFilter = p.dataset.label;
+    marketExpanded = false;
+    applyMarketFilter();
+  }));
+  if (moreBtn) {
+    moreBtn.addEventListener('click', () => { marketExpanded = true; applyMarketFilter(); });
+  }
+  applyMarketFilter();
+
+  // ---------- Invest-Tab ----------
+  const investPills = document.querySelectorAll('#pills-invest .pill');
+  const investHeadlines = document.querySelectorAll('#headlines-invest .headline');
+  const etfCards = document.querySelectorAll('.etf-card');
+  const investHoldingSections = document.querySelectorAll('.position-section[data-etf]');
+  let investFilter = 'Alle';
+
+  function applyInvestFilter() {
+    etfCards.forEach(card => {
+      card.classList.toggle('dimmed', investFilter !== 'Alle' && card.dataset.etf !== investFilter);
+    });
+    investHoldingSections.forEach(sec => {
+      sec.style.display = (sec.dataset.etf === investFilter) ? '' : 'none';
+    });
+    investHeadlines.forEach(h => {
+      const allowed = (investFilter === 'Alle') ? INVEST_LABELS : [investFilter];
+      h.style.display = allowed.includes(h.dataset.label) ? '' : 'none';
+    });
+    investPills.forEach(p => p.classList.toggle('active', p.dataset.label === investFilter));
+  }
+
+  investPills.forEach(p => p.addEventListener('click', () => {
+    investFilter = p.dataset.label;
+    applyInvestFilter();
+  }));
+  applyInvestFilter();
 </script>
 </body>
 </html>
