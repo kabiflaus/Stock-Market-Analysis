@@ -18,7 +18,7 @@ from curl_cffi import requests as cffi_requests
 sys.path.insert(0, os.path.dirname(__file__))
 from config import TICKER_GROUPS, SECTOR_POSITIONS, PERSONAL_ETFS
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "market.json")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "market.json")
 
 # curl_cffi imitiert einen echten Chrome-Browser (TLS-Fingerprint) -
 # umgeht Yahoos Bot-/Cloud-IP-Erkennung besser als ein normaler requests-Call.
