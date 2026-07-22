@@ -33,9 +33,6 @@ jobs:
       - name: Kurse abrufen
         run: python scripts/fetch_market.py
 
-      - name: Seite bauen
-        run: python scripts/build_page.py
-
       - name: Änderungen committen
         run: |
           git config user.name "marktfeed-bot"
