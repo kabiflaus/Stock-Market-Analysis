@@ -6,7 +6,6 @@
 NEWS_QUERIES = [
     {"label": "Fed / Makro", "query": "Federal Reserve CPI inflation report", "hl": "en-US", "gl": "US"},
     {"label": "Chips & AI", "query": "AI chip stocks Nvidia semiconductor capex", "hl": "en-US", "gl": "US"},
-    {"label": "ETFs", "query": "ETF inflows outflows index fund", "hl": "en-US", "gl": "US"},
     {"label": "Healthcare", "query": "healthcare pharma stocks news", "hl": "en-US", "gl": "US"},
     {"label": "Rüstung", "query": "defense stocks military spending", "hl": "en-US", "gl": "US"},
     {"label": "Energie & Rohstoffe", "query": "oil price OPEC energy commodities", "hl": "en-US", "gl": "US"},
@@ -25,10 +24,15 @@ MAX_ITEMS_PER_QUERY = 8
 RETENTION_DAYS = 4
 
 # Ticker, gruppiert nach Anzeige-Sektion im Markets-Tab.
+# Futures sind nur relevant, solange die Kassaboerse (NYSE) geschlossen ist -
+# siehe isUsMarketOpen() in app.js fuer die Anzeigelogik.
 TICKER_GROUPS = {
-    "US-Futures (Vorbörse)": {
+    "Futures (Vorbörse)": {
         "Nasdaq Futures": "NQ=F",
         "S&P 500 Futures": "ES=F",
+        "Dow Jones Futures": "YM=F",
+        "Russell 2000 Futures": "RTY=F",
+        "Nikkei 225 Futures": "NIY=F",
     },
     "Globale Indizes": {
         "S&P 500 (USA)": "^GSPC",
@@ -53,8 +57,6 @@ TICKER_FLAGS = {
 # bleiben (nur fuer Sektoren OHNE eigene Positionsliste, s. SECTOR_POSITIONS).
 SECTOR_TICKER_MAP = {
     "Fed / Makro": ["S&P 500 (USA)"],
-    "ETFs": ["S&P 500 (USA)", "DAX (Deutschland)", "Nikkei 225 (Japan)",
-             "FTSE 100 (UK)", "KOSPI (Südkorea)", "Hang Seng (Hongkong)"],
     "Nasdaq": ["S&P 500 (USA)"],
     "S&P 500": ["S&P 500 (USA)"],
     "DAX": ["DAX (Deutschland)"],
@@ -64,7 +66,7 @@ SECTOR_TICKER_MAP = {
 # Reihenfolge der Sektor-Pillen im Markets-Tab. Fest, unabhaengig davon,
 # ob gerade Schlagzeilen dazu vorliegen.
 SECTOR_ORDER = [
-    "Fed / Makro", "Chips & AI", "ETFs", "Healthcare", "Rüstung",
+    "Fed / Makro", "Chips & AI", "Healthcare", "Rüstung",
     "Energie & Rohstoffe", "Konsumgüter", "Nasdaq", "S&P 500", "DAX", "KOSPI",
 ]
 
