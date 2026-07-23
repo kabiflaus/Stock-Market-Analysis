@@ -472,7 +472,7 @@ const NEUTRAL_THRESHOLD = 0.1; // Prozent - darunter gilt ein Ticker als "neutra
 // JS und ist damit oeffentlich sichtbar (genau wie bei jedem anderen rein
 // client-seitigen Key). Ohne gueltigen Key bleiben die Karten einfach beim
 // taeglichen Snapshot aus data/market.json stehen.
-const FINNHUB_API_KEY = 'd7akrm9r01qmvlmgbtdgd7akrm9r01qmvlmgbte0';
+const FINNHUB_API_KEY = 'd9h6ur1r01qhv00l2atgd9h6ur1r01qhv00l2au0';
 const FINNHUB_POLL_DELAY_MS = 1100;  // Abstand zwischen Einzel-Calls (Rate-Limit: 60/min)
 const FINNHUB_CYCLE_PAUSE_MS = 30000; // Pause zwischen zwei vollen Durchlaeufen
 
