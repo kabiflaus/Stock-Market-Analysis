@@ -20,6 +20,12 @@ const CONFIG = {
       "FTSE 100 (UK)": "^FTSE",
       "KOSPI (Südkorea)": "^KS11",
       "Hang Seng (Hongkong)": "^HSI"
+    },
+    "Anleihen (USA)": {
+      "US 3-Monate": "^IRX",
+      "US 5-Jahre": "^FVX",
+      "US 10-Jahre": "^TNX",
+      "US 30-Jahre": "^TYX"
     }
   },
   "tickerFlags": {
@@ -29,7 +35,11 @@ const CONFIG = {
     "Nikkei 225 (Japan)": "🇯🇵",
     "FTSE 100 (UK)": "🇬🇧",
     "KOSPI (Südkorea)": "🇰🇷",
-    "Hang Seng (Hongkong)": "🇭🇰"
+    "Hang Seng (Hongkong)": "🇭🇰",
+    "US 3-Monate": "🇺🇸",
+    "US 5-Jahre": "🇺🇸",
+    "US 10-Jahre": "🇺🇸",
+    "US 30-Jahre": "🇺🇸"
   },
   "sectorTickerMap": {
     "Nasdaq": [
@@ -466,6 +476,10 @@ const CONFIG = {
 const MAX_VISIBLE = 10;
 const NEUTRAL_THRESHOLD = 0.1; // Prozent - darunter gilt ein Ticker als "neutral" (gelb)
 
+// Alle geladenen Schlagzeilen, fuer die Einzel-Ticker-News beim Aufklappen
+// einer Holding-Karte (siehe tickerNewsHtml). Wird einmal in init() gesetzt.
+let allHeadlines = [];
+
 // Finnhub-API-Key fuer Live-Kurse (Einzelpositionen, siehe isLiveEligible()).
 // ACHTUNG: Diese Seite ist eine rein statische GitHub-Pages-Seite ohne
 // Backend - jeder Key, der hier steht, landet unveraendert im ausgelieferten
@@ -653,6 +667,13 @@ function renderGlobalIndices(rowsByLabel) {
   document.querySelector('#global-indices-section .tickers').innerHTML = cards.join('');
 }
 
+function renderBonds(rowsByLabel) {
+  const cards = Object.keys(CONFIG.tickerGroups['Anleihen (USA)']).map(label =>
+    priceCardHtml(label, rowsByLabel[label], CONFIG.tickerFlags[label] || '')
+  );
+  document.querySelector('#bonds-section .tickers').innerHTML = cards.join('');
+}
+
 function renderPositionSections(rowsByLabel) {
   const container = document.getElementById('position-sections');
   let html = '';
@@ -668,19 +689,35 @@ function renderPositionSections(rowsByLabel) {
 
 function renderMarketHeadlines(headlines) {
   const investLabels = new Set(Object.keys(CONFIG.personalEtfs));
-  const marketHeadlines = headlines.filter(h => !investLabels.has(h.label) && h.label !== 'Fed / Makro');
+  const marketHeadlines = headlines.filter(h => !investLabels.has(h.label) && h.label !== 'Makro & Weltpolitik');
   const html = marketHeadlines.map((h, i) => headlineHtml(h, i, MAX_VISIBLE)).join('');
   document.getElementById('headlines-markets').innerHTML = html || '<p>Noch keine Schlagzeilen gesammelt.</p>';
   document.getElementById('more-btn').style.display = marketHeadlines.length > MAX_VISIBLE ? 'block' : 'none';
   return marketHeadlines;
 }
 
-// Fed/Makro ist kein Sektor-Filter mehr, sondern ein eigener, immer
-// sichtbarer Block oberhalb der Pillen (unabhaengig vom gewaehlten Filter).
-function renderFedMakroBlock(headlines) {
-  const fedHeadlines = headlines.filter(h => h.label === 'Fed / Makro');
-  const html = fedHeadlines.map((h, i) => headlineHtml(h, i, null)).join('');
-  document.getElementById('headlines-fedmakro').innerHTML = html || '<p>Noch keine Fed/Makro-Schlagzeilen gesammelt.</p>';
+const MACRO_MAX_VISIBLE = 6;
+
+// "Makro & Weltpolitik" ist kein Sektor-Filter, sondern ein eigener, immer
+// sichtbarer Block oberhalb der Pillen (unabhaengig vom gewaehlten Filter) -
+// deckt Zinsentscheide, Inflationsdaten und marktbewegende Geopolitik ab.
+function renderMacroBlock(headlines) {
+  const macroHeadlines = headlines.filter(h => h.label === 'Makro & Weltpolitik');
+  const html = macroHeadlines.map((h, i) => headlineHtml(h, i, null)).join('');
+  document.getElementById('headlines-fedmakro').innerHTML = html || '<p>Noch keine Makro-Schlagzeilen gesammelt.</p>';
+  return macroHeadlines;
+}
+
+function setupMacroExpand() {
+  const items = document.querySelectorAll('#headlines-fedmakro .headline');
+  const moreBtn = document.getElementById('macro-more-btn');
+  let expanded = false;
+  function apply() {
+    items.forEach((el, i) => { el.style.display = (i >= MACRO_MAX_VISIBLE && !expanded) ? 'none' : ''; });
+    if (moreBtn) moreBtn.style.display = (!expanded && items.length > MACRO_MAX_VISIBLE) ? 'block' : 'none';
+  }
+  if (moreBtn) moreBtn.addEventListener('click', () => { expanded = true; apply(); });
+  apply();
 }
 
 function headlineHtml(item, index, maxVisible) {
@@ -849,7 +886,7 @@ function setupPositionExpand() {
       const card = e.target.closest('.ticker-card.expandable');
       if (!card) return;
       card.classList.toggle('expanded');
-      if (card.classList.contains('expanded')) loadCardFundamentals(card);
+      if (card.classList.contains('expanded')) loadCardExtras(card);
     });
   });
 }
@@ -955,17 +992,39 @@ async function loadFundamentals(ticker) {
   return data;
 }
 
-async function loadCardFundamentals(card) {
+// Bis zu 3 aktuelle Schlagzeilen zu genau diesem Ticker (siehe die pro-Ticker-
+// Suchen in config.py/NEWS_QUERIES, Label = Tickersymbol). Unabhaengig von
+// Finnhub - kommt aus dem ganz normalen headlines.json-Feed.
+function tickerNewsHtml(ticker) {
+  const items = allHeadlines.filter(h => h.label === ticker).slice(0, 3);
+  if (!items.length) return '';
+  const rows = items.map(h =>
+    '<a href="' + h.link + '" target="_blank" rel="noopener">' + esc(h.title) + '</a>'
+  ).join('');
+  return '<div class="ticker-news">' + rows + '</div>';
+}
+
+// Laedt beim Aufklappen einer Holding-Karte: Kennzahlen (nur US-gelistete
+// Ticker, siehe isLiveEligible - Finnhubs Free-Tier deckt auslaendische
+// Boersen nicht ab) und/oder die neuesten Schlagzeilen zu diesem Ticker
+// (funktioniert unabhaengig von Finnhub). Wird nur einmal pro Karte geladen.
+async function loadCardExtras(card) {
   const ticker = card.dataset.ticker;
-  if (!ticker || !FINNHUB_API_KEY || !isLiveEligible(ticker)) return;
-  if (card.querySelector('.ticker-fundamentals')) return; // schon geladen/laedt bereits
+  if (!ticker) return;
+  if (card.querySelector('.ticker-fundamentals') || card.querySelector('.ticker-news')) return;
   const desc = card.querySelector('.ticker-desc');
+  const canFetchFundamentals = FINNHUB_API_KEY && isLiveEligible(ticker);
+  if (!canFetchFundamentals) {
+    const newsHtml = tickerNewsHtml(ticker);
+    if (newsHtml) desc.insertAdjacentHTML('afterend', newsHtml);
+    return;
+  }
   const box = document.createElement('div');
   box.className = 'ticker-fundamentals';
   box.textContent = 'Lade Kennzahlen…';
   desc.insertAdjacentElement('afterend', box);
   const data = await loadFundamentals(ticker);
-  box.outerHTML = fundamentalsHtml(data);
+  box.outerHTML = fundamentalsHtml(data) + tickerNewsHtml(ticker);
 }
 
 // ---------- Live-Kurse (Finnhub) ----------
@@ -1035,16 +1094,18 @@ async function init() {
   }
 
   headlines.sort((a, b) => new Date(b.published) - new Date(a.published));
+  allHeadlines = headlines; // fuer Einzel-Ticker-News beim Aufklappen einer Holding-Karte
   const rowsByLabel = {};
   (market.rows || []).forEach(r => { rowsByLabel[r.label] = r; });
 
   renderFutures(rowsByLabel);
   renderGlobalIndices(rowsByLabel);
+  renderBonds(rowsByLabel);
   renderPositionSections(rowsByLabel);
   renderEtfCards(rowsByLabel);
   renderInvestHoldings(rowsByLabel);
   renderMarketHeadlines(headlines);
-  renderFedMakroBlock(headlines);
+  renderMacroBlock(headlines);
   renderInvestHeadlines(headlines);
 
   document.getElementById('updated-line').textContent =
@@ -1054,6 +1115,7 @@ async function init() {
   setupMarketFilter(rowsByLabel);
   setupInvestFilter();
   setupPositionExpand();
+  setupMacroExpand();
   startLiveUpdates();
 }
 

@@ -4,7 +4,18 @@
 
 # Google-News-RSS-Suchen. "query" wird 1:1 in die Google-News-Suche gegeben.
 NEWS_QUERIES = [
-    {"label": "Fed / Makro", "query": "Federal Reserve CPI inflation report", "hl": "en-US", "gl": "US"},
+    # Makro & Weltpolitik: alles was globale Maerkte bewegt - Zinsen, Inflation,
+    # Geopolitik (Oel, Iran, Zoelle). Immer sichtbarer Block oben im Markets-Tab,
+    # unabhaengig vom Sektor-Filter. Kurze Suchbegriffe, da Google-News-RSS
+    # praktisch alle Woerter der Query im selben Artikel verlangt (Leerzeichen = UND).
+    {"label": "Makro & Weltpolitik", "query": "Federal Reserve interest rate", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "query": "US inflation CPI", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "query": "ECB interest rate", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "query": "China inflation CPI", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "query": "Bank of Japan interest rate", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "query": "oil price Iran", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "query": "Trump tariffs markets", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "query": "Treasury yields bond market", "hl": "en-US", "gl": "US"},
     {"label": "Chips & AI", "query": "AI chip stocks Nvidia semiconductor capex", "hl": "en-US", "gl": "US"},
     {"label": "Healthcare", "query": "healthcare pharma stocks news", "hl": "en-US", "gl": "US"},
     {"label": "Rüstung", "query": "defense stocks military spending", "hl": "en-US", "gl": "US"},
@@ -46,6 +57,15 @@ TICKER_GROUPS = {
         "KOSPI (Südkorea)": "^KS11",
         "Hang Seng (Hongkong)": "^HSI",
     },
+    # US-Staatsanleihen-Renditen als Makro-Barometer. Bewusst nur USA: fuer
+    # Deutschland/UK/Japan gibt es bei Yahoo keine verlaesslichen Rendite-Ticker
+    # (anders als bei Aktienindizes) - lieber ehrlich weglassen als geraten.
+    "Anleihen (USA)": {
+        "US 3-Monate": "^IRX",
+        "US 5-Jahre": "^FVX",
+        "US 10-Jahre": "^TNX",
+        "US 30-Jahre": "^TYX",
+    },
 }
 
 TICKER_FLAGS = {
@@ -56,6 +76,10 @@ TICKER_FLAGS = {
     "FTSE 100 (UK)": "🇬🇧",
     "KOSPI (Südkorea)": "🇰🇷",
     "Hang Seng (Hongkong)": "🇭🇰",
+    "US 3-Monate": "🇺🇸",
+    "US 5-Jahre": "🇺🇸",
+    "US 10-Jahre": "🇺🇸",
+    "US 30-Jahre": "🇺🇸",
 }
 
 # Welche "Globale Indizes"-Ticker bei welchem Sektor-Filter eingeblendet
@@ -155,6 +179,21 @@ TICKER_NAMES = {
     "ENPH": "Enphase Energy", "EQTL3.SA": "Equatorial Energia", "VWS.CO": "Vestas Wind",
     "EDP.LS": "EDP",
 }
+
+# Eigene, kurze News-Suche pro Einzel-Ticker (alle Top-20-Sektorpositionen +
+# ETF-Holdings, dedupliziert). Label = Tickersymbol, damit das Frontend die
+# Schlagzeilen direkt der jeweiligen Holding-Karte zuordnen kann. Query =
+# Firmenname + "stock" - Ticker+Firmenname zusammen war in Tests zu selten,
+# kurze Formulierungen treffen bei Google-News-RSS deutlich mehr Artikel.
+_news_tickers = set()
+for _tickers in SECTOR_POSITIONS.values():
+    _news_tickers.update(_tickers)
+for _tickers in PERSONAL_ETFS.values():
+    _news_tickers.update(_tickers)
+
+for _ticker in sorted(_news_tickers):
+    _name = TICKER_NAMES.get(_ticker, _ticker)
+    NEWS_QUERIES.append({"label": _ticker, "query": _name + " stock", "hl": "en-US", "gl": "US"})
 
 PRIORITY_KEYWORDS = [
     "fed", "federal reserve", "zinsen", "rate cut", "rate hike", "cpi",
