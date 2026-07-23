@@ -914,7 +914,7 @@ function fundamentalsHtml(data) {
 // Baut die URL ueber das URL/URLSearchParams-API statt per String-Konkatenation -
 // robuster gegen Sonderzeichen/Encoding-Eigenheiten als reines String-Zusammenkleben.
 function finnhubUrl(path, params) {
-  const url = new URL('https://finnhub.io/api/v2/' + path);
+  const url = new URL('https://finnhub.io/api/v1/' + path);
   Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
   url.searchParams.set('token', FINNHUB_API_KEY);
   return url.toString();
@@ -997,7 +997,7 @@ function updateCardLive(ticker, quote) {
 }
 
 async function fetchQuote(ticker) {
-  const res = await fetch('https://finnhub.io/api/v2/quote?symbol=' + encodeURIComponent(ticker) + '&token=' + FINNHUB_API_KEY);
+  const res = await fetch('https://finnhub.io/api/v1/quote?symbol=' + encodeURIComponent(ticker) + '&token=' + FINNHUB_API_KEY);
   if (!res.ok) throw new Error('Finnhub HTTP ' + res.status);
   return res.json();
 }
