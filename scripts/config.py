@@ -59,7 +59,6 @@ TICKER_FLAGS = {
 # Welche "Globale Indizes"-Ticker bei welchem Sektor-Filter eingeblendet
 # bleiben (nur fuer Sektoren OHNE eigene Positionsliste, s. SECTOR_POSITIONS).
 SECTOR_TICKER_MAP = {
-    "Fed / Makro": ["S&P 500 (USA)"],
     "Nasdaq": ["S&P 500 (USA)"],
     "S&P 500": ["S&P 500 (USA)"],
     "DAX": ["DAX (Deutschland)"],
@@ -67,9 +66,11 @@ SECTOR_TICKER_MAP = {
 }
 
 # Reihenfolge der Sektor-Pillen im Markets-Tab. Fest, unabhaengig davon,
-# ob gerade Schlagzeilen dazu vorliegen.
+# ob gerade Schlagzeilen dazu vorliegen. "Fed / Makro" ist bewusst kein
+# Sektor-Filter mehr (siehe app.js: eigener, immer sichtbarer News-Block
+# oberhalb der Pillen statt Filter-Option).
 SECTOR_ORDER = [
-    "Fed / Makro", "Chips & AI", "Healthcare", "Rüstung",
+    "Chips & AI", "Healthcare", "Rüstung",
     "Energie & Rohstoffe", "Konsumgüter", "Nasdaq", "S&P 500", "DAX", "KOSPI",
 ]
 

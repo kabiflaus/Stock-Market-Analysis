@@ -100,6 +100,26 @@ body {
 }
 .ticker-card.compact .ticker-price { font-size: 0.92rem; }
 .ticker-card.compact .chg { font-size: 0.76rem; }
+.ticker-card.compact.expandable { cursor: pointer; }
+.ticker-card.compact.expanded { max-height: 260px; }
+.ticker-desc {
+  font-size: 0.7rem; color: #8b98a5; line-height: 1.35;
+  max-height: 0; overflow: hidden; opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.2s ease;
+}
+.ticker-card.expanded .ticker-desc {
+  max-height: 200px; opacity: 1; margin-top: 6px; padding-top: 6px;
+  border-top: 1px solid #22262b;
+}
+
+/* Fed/Makro: eigener, optisch abgesetzter Block oberhalb der Sektor-Pillen -
+   kein Filter mehr, immer sichtbar unabhaengig vom gewaehlten Sektor. */
+.fedmakro-block {
+  background: #16191d; border: 1px solid #2a2f34; border-left: 3px solid #58a6ff;
+  border-radius: 10px; padding: 12px 14px 4px; margin-bottom: 20px;
+}
+.fedmakro-block h2 { color: #58a6ff; }
+.fedmakro-block .headline:last-child { border-bottom: none; }
 
 .headlines { margin-top: 8px; }
 .headline { border-bottom: 1px solid #22262b; padding: 12px 0; }
