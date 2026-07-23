@@ -131,6 +131,7 @@ body {
 }
 .ticker-news a { color: #58a6ff; text-decoration: none; line-height: 1.35; }
 .ticker-news a:hover { text-decoration: underline; }
+.ticker-news a strong { color: #e7e9ea; }
 
 /* Grosse, zentrierte Karte fuer einen einzeln ausgewaehlten Index
    (Nasdaq/S&P 500/DAX/KOSPI) statt des kleinen Grid-Feldes, inkl. Mini-Graph. */
@@ -150,11 +151,12 @@ body {
   background: #16191d; border: 1px solid #2a2f34; border-left: 3px solid #58a6ff;
   border-radius: 10px; padding: 12px 14px 4px; margin-bottom: 20px;
 }
-.fedmakro-block h2 { color: #58a6ff; }
+.fedmakro-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.fedmakro-block h2 { color: #58a6ff; margin: 0; }
 .fedmakro-block .headline:last-child { border-bottom: none; }
 #macro-more-btn {
-  display: block; margin: 4px auto 12px; background: transparent; color: #58a6ff;
-  border: 1px solid #1f6feb55; border-radius: 8px; padding: 6px 16px; font-size: 0.78rem;
+  flex-shrink: 0; background: transparent; color: #58a6ff;
+  border: 1px solid #1f6feb55; border-radius: 8px; padding: 4px 10px; font-size: 0.7rem;
 }
 
 .headlines { margin-top: 8px; }
