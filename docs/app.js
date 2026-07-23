@@ -920,18 +920,26 @@ function finnhubUrl(path, params) {
   return url.toString();
 }
 
-// Holt eine URL und meldet Fehler (HTTP-Status oder CORS/Netzwerkfehler)
-// zurueck statt zu werfen, damit ein fehlschlagender Endpunkt den anderen
-// nicht mitreisst und die Ursache sichtbar bleibt. Fehlername (z.B.
-// TypeError) wird mit ausgegeben, um die Ursache leichter einzugrenzen.
+// Holt eine URL und meldet Fehler (HTTP-Status, Nicht-JSON-Antwort oder
+// CORS/Netzwerkfehler) zurueck statt zu werfen, damit ein fehlschlagender
+// Endpunkt den anderen nicht mitreisst und die Ursache sichtbar bleibt.
+// Liest den Body IMMER als Text und parst danach selbst - res.json() wuerde
+// bei einer Nicht-JSON-Antwort (z.B. HTML-Fehlerseite) nur einen kryptischen
+// Parse-Fehler werfen, ohne zu zeigen was tatsaechlich zurueckkam.
 async function fetchJsonSafe(url) {
+  let raw;
   try {
     const res = await fetch(url);
-    if (!res.ok) return { error: 'HTTP ' + res.status };
-    return { data: await res.json() };
+    raw = await res.text();
+    if (!res.ok) return { error: 'HTTP ' + res.status + (raw ? ' – ' + raw.slice(0, 150) : '') };
   } catch (e) {
     const label = (e && e.name) ? e.name + ': ' : '';
     return { error: label + ((e && e.message) || String(e)) };
+  }
+  try {
+    return { data: JSON.parse(raw) };
+  } catch (e) {
+    return { error: 'Antwort ist kein JSON: ' + (raw ? raw.slice(0, 150) : '(leer)') };
   }
 }
 
