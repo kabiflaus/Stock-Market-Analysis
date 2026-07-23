@@ -89,6 +89,13 @@ PERSONAL_ETFS = {
                                      "ORA", "ENPH", "EQTL3.SA", "VWS.CO", "EDP.LS"],
 }
 
+# Ticker der ETFs selbst (fuer die Preis-Karten im Invest-Tab, "Alle"-Ansicht).
+PERSONAL_ETF_TICKERS = {
+    "Scalable MSCI ACWI": "SCWX.DE",
+    "Amundi Stoxx Europe 600": "LYP6.DE",
+    "iShares Global Clean Energy": "Q8Y0.DE",
+}
+
 # Anzeigenamen fuer alle Einzel-Ticker, die in SECTOR_POSITIONS oder
 # PERSONAL_ETFS auftauchen (fuer die Kartenbeschriftung).
 TICKER_NAMES = {
