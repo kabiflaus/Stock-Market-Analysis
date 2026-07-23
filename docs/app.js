@@ -30,9 +30,6 @@ const CONFIG = {
     "Hang Seng (Hongkong)": "🇭🇰"
   },
   "sectorTickerMap": {
-    "Fed / Makro": [
-      "S&P 500 (USA)"
-    ],
     "Nasdaq": [
       "S&P 500 (USA)"
     ],
@@ -47,7 +44,6 @@ const CONFIG = {
     ]
   },
   "sectorOrder": [
-    "Fed / Makro",
     "Chips & AI",
     "Healthcare",
     "Rüstung",
@@ -279,6 +275,110 @@ const CONFIG = {
     "VWS.CO": "Vestas Wind",
     "EDP.LS": "EDP"
   },
+  // Kurzbeschreibung je Top-20-Holding (Markets-Tab, Klick zum Aufklappen).
+  // Nur fuer die Anzeige, manuell verfasst - keine Live-Daten/API.
+  "tickerDescriptions": {
+    "NVDA": "Entwickelt GPUs und KI-Beschleuniger-Chips – zentraler Zulieferer für die Rechenleistung hinter generativer KI.",
+    "TSM": "Größter Auftragsfertiger der Welt – produziert Chips für praktisch alle großen Chip-Designer (u.a. Nvidia, Apple, AMD).",
+    "MU": "Stellt Speicherchips (DRAM, NAND) her, die u.a. in KI-Servern und Smartphones stecken.",
+    "AMD": "Entwickelt CPUs und GPUs, zunehmend auch KI-Beschleuniger als Konkurrenz zu Nvidia.",
+    "INTC": "Traditioneller CPU-Hersteller, baut zugleich eigene Chipfabriken (Foundry) aus.",
+    "AVGO": "Liefert Netzwerk- und Custom-KI-Chips sowie Software, u.a. für Cloud-Rechenzentren.",
+    "QCOM": "Entwickelt Mobilfunk-Chips (Snapdragon) für Smartphones und zunehmend PCs.",
+    "TXN": "Fertigt analoge und eingebettete Chips für Industrie und Autos, weniger KI-Fokus.",
+    "LRCX": "Baut Fertigungsanlagen für die Chip-Herstellung (Ätz-/Beschichtungstechnik).",
+    "KLAC": "Stellt Mess- und Inspektionssysteme für die Chipfertigung her (Qualitätskontrolle).",
+    "AMAT": "Größter Anbieter von Fertigungsanlagen für die Halbleiterproduktion – anders als Nvidia kein Chip-Design, sondern die Maschinen dahinter.",
+    "ASML": "Einziger Hersteller von EUV-Lithografiemaschinen – ohne diese Maschinen keine modernen Chips.",
+    "ARM": "Lizenziert Chip-Architekturen, auf denen fast alle Smartphone- und viele KI-Chips basieren.",
+    "MRVL": "Entwickelt Netzwerk- und Custom-Chips für Rechenzentren und KI-Infrastruktur.",
+    "NXPI": "Chips vor allem für Automobil- und Industrieelektronik.",
+    "ADI": "Analoge und Signalverarbeitungs-Chips für Industrie, Autos und Kommunikation.",
+    "ON": "Chips für Elektrofahrzeuge, Energieeffizienz und Industrieanwendungen.",
+    "MCHP": "Mikrocontroller und analoge Chips für Industrie- und Embedded-Anwendungen.",
+    "MPWR": "Stromversorgungs-Chips, u.a. wichtig für effiziente KI-Server.",
+    "SWKS": "Funkchips vor allem für Smartphones (v.a. Apple-Zulieferer).",
+    "LLY": "Pharmakonzern, aktuell v.a. bekannt für Diabetes-/Abnehm-Medikamente (u.a. Mounjaro/Zepbound).",
+    "JNJ": "Breit aufgestellter Pharma- und Medizintechnik-Konzern.",
+    "ABBV": "Pharmakonzern, stark abhängig von Immunmedikamenten (u.a. Nachfolger von Humira).",
+    "MRK": "Pharmakonzern, u.a. bekannt für Krebsmedikament Keytruda und Impfstoffe.",
+    "UNH": "Größter US-Krankenversicherer, betreibt auch eigene Kliniken/Praxisnetzwerke.",
+    "AMGN": "Biotech-Konzern mit Fokus auf Biologika (u.a. Osteoporose, Krebs, Adipositas in Entwicklung).",
+    "TMO": "Verkauft Laborgeräte und -material für Forschung, Diagnostik und Pharmaproduktion.",
+    "ABT": "Diversifiziert zwischen Medizintechnik, Diagnostik, Ernährung und Generika.",
+    "GILD": "Biotech, bekannt für HIV- und Virostatika-Medikamente.",
+    "ISRG": "Baut OP-Roboter (da-Vinci-System) für minimal-invasive Chirurgie.",
+    "PFE": "Großer Pharmakonzern, weltbekannt durch den COVID-Impfstoff.",
+    "DHR": "Liefert Laborgeräte und Diagnostik-Technologie, ähnlich wie Thermo Fisher.",
+    "BSX": "Medizintechnik, v.a. Geräte für Herz-Kreislauf- und minimal-invasive Eingriffe.",
+    "SYK": "Medizintechnik mit Fokus auf Implantate (Hüfte/Knie) und OP-Ausstattung.",
+    "VRTX": "Biotech, dominiert die Behandlung von Mukoviszidose (Cystic Fibrosis).",
+    "BMY": "Pharmakonzern mit Schwerpunkt Onkologie und Herz-Kreislauf.",
+    "MDT": "Medizintechnik, u.a. Herzschrittmacher und Diabetes-Geräte.",
+    "CVS": "Betreibt Apothekenketten, eine Krankenversicherung (Aetna) und Gesundheitsdienste.",
+    "CI": "Krankenversicherer und Gesundheitsdienstleister.",
+    "ELV": "Großer US-Krankenversicherer (frühere Anthem), v.a. Blue-Cross-Blue-Shield-Marken.",
+    "GE": "Baut Flugzeugtriebwerke für zivile und militärische Luftfahrt.",
+    "RTX": "Rüstungs- und Luftfahrtkonzern (u.a. Raytheon-Raketen, Pratt & Whitney-Triebwerke).",
+    "BA": "Baut zivile Flugzeuge sowie Militärflugzeuge und Raumfahrttechnik.",
+    "HWM": "Fertigt Präzisionsbauteile (u.a. Turbinenschaufeln) für Flugzeugtriebwerke.",
+    "GD": "Rüstungskonzern – u.a. Kampfpanzer, U-Boote und Business-Jets (Gulfstream).",
+    "LHX": "Kommunikations- und Sensortechnik für Militär und Geheimdienste.",
+    "TDG": "Stellt hochspezialisierte, oft konkurrenzlose Ersatzteile für Flugzeuge her.",
+    "NOC": "Rüstungskonzern, u.a. Tarnkappenbomber und Raumfahrttechnik.",
+    "LMT": "Größter Rüstungskonzern der Welt, baut u.a. den F-35-Kampfjet.",
+    "AXON": "Stellt Tasers und Body-Cams für Polizei/Sicherheitsbehörden her – kein klassischer Waffenhersteller.",
+    "TXT": "Baut u.a. Bell-Hubschrauber, Cessna-Flugzeuge und Militärfahrzeuge.",
+    "HEI": "Fertigt zertifizierte Ersatzteile für die Luftfahrtindustrie, günstiger als Original-Hersteller-Teile.",
+    "CW": "Liefert Spezialkomponenten für Luftfahrt, Marine und Industrie.",
+    "TDY": "Sensoren, Bildgebung und Messtechnik, u.a. für Verteidigung und Raumfahrt.",
+    "LDOS": "IT- und Technologie-Dienstleister für US-Regierung, Militär und Geheimdienste.",
+    "HII": "Größte US-Werft für Marineschiffe, u.a. Flugzeugträger und U-Boote.",
+    "BWXT": "Baut Nuklearkomponenten, u.a. Reaktoren für US-Marineschiffe.",
+    "WWD": "Stellt Steuerungssysteme für Flugzeugtriebwerke und Industrieanlagen her.",
+    "KTOS": "Entwickelt Drohnen und Zieldarstellungssysteme für das Militär.",
+    "MRCY": "Liefert Elektronik- und Verarbeitungssysteme für Verteidigungssysteme.",
+    "XOM": "Einer der größten Öl- und Gaskonzerne der Welt, von Förderung bis Raffinerie.",
+    "CVX": "Zweitgrößter US-Ölkonzern, ähnlich breit aufgestellt wie ExxonMobil.",
+    "COP": "Reines Förderunternehmen (Öl & Gas), betreibt keine eigenen Raffinerien/Tankstellen.",
+    "EOG": "Öl- und Gasförderer, stark fokussiert auf US-Schieferöl (Fracking).",
+    "SLB": "Größter Öl-Dienstleister der Welt – liefert Technik/Services für Förderunternehmen, fördert selbst nicht.",
+    "WMB": "Betreibt Erdgas-Pipelines und -Infrastruktur in den USA.",
+    "VLO": "Einer der größten Raffinerie-Betreiber – verarbeitet Rohöl zu Sprit, fördert nicht selbst.",
+    "PSX": "Raffinerie- und Pipeline-Betreiber, ähnlich wie Valero.",
+    "MPC": "Größter US-Raffineriebetreiber nach Kapazität.",
+    "BKR": "Öl-Dienstleister, liefert Ausrüstung und Services für die Förderung.",
+    "KMI": "Betreibt eines der größten Pipeline-Netzwerke Nordamerikas.",
+    "TRG": "Sammelt, verarbeitet und transportiert Erdgas und Flüssiggas (NGLs).",
+    "OXY": "Öl- und Gasförderer, investiert zunehmend auch in CO2-Abscheidung.",
+    "FANG": "Schieferöl-Förderer, stark fokussiert auf das Permian Basin (Texas).",
+    "EQT": "Größter US-Erdgasförderer.",
+    "HAL": "Öl-Dienstleister, liefert u.a. Fracking- und Bohrtechnik.",
+    "DVN": "Öl- und Gasförderer mit Fokus auf US-Schieferregionen.",
+    "CTRA": "Öl- und Gasförderer, entstanden aus einer Fusion (Cimarex/Cabot).",
+    "HES": "Ölförderer, u.a. wichtiger Akteur bei den großen Ölfunden vor Guyana.",
+    "APA": "Öl- und Gasförderer mit Aktivitäten in den USA, Ägypten und dem Nordsee-Raum.",
+    "WMT": "Größter Einzelhändler der Welt, Supermärkte und Onlinehandel.",
+    "COST": "Mitglieder-Großhandelsketten (Bulk-Einkauf), bekannt für niedrige Margen/hohe Treue.",
+    "PG": "Konsumgüterkonzern hinter Marken wie Gillette, Pampers, Head & Shoulders.",
+    "KO": "Getränkekonzern, weltgrößter Softdrink-Hersteller.",
+    "PM": "Tabakkonzern (Marlboro), zunehmend Fokus auf rauchfreie Produkte (IQOS).",
+    "MDLZ": "Snack- und Süßwarenkonzern (u.a. Oreo, Milka, Toblerone).",
+    "PEP": "Getränke- und Snackkonzern (u.a. Pepsi, Lay's, Doritos).",
+    "MO": "Tabakkonzern, verkauft Marlboro in den USA (getrennt von Philip Morris International).",
+    "CL": "Konsumgüterkonzern für Mund-/Körperpflege und Haushaltsprodukte.",
+    "KR": "Eine der größten US-Supermarktketten.",
+    "SYY": "Größter Lebensmittel-Großhändler für Restaurants und Gastronomie in den USA.",
+    "KMB": "Hersteller von Hygieneprodukten (u.a. Kleenex, Huggies).",
+    "KVUE": "Ehemalige Consumer-Health-Sparte von J&J (u.a. Tylenol, Listerine, Neutrogena).",
+    "MNST": "Hersteller von Energydrinks.",
+    "STZ": "Getränkekonzern, v.a. Bier (Corona, Modelo) und Wein/Spirituosen in den USA.",
+    "GIS": "Lebensmittelkonzern (u.a. Cheerios, Häagen-Dazs).",
+    "KDP": "Getränkekonzern (Kaffeekapselsysteme + Softdrinks wie Dr Pepper).",
+    "HSY": "Größter US-Schokoladenhersteller.",
+    "KHC": "Lebensmittelkonzern (u.a. Ketchup, Käseprodukte, Fertiggerichte).",
+    "CHD": "Konsumgüterkonzern (u.a. Arm & Hammer, Trojan)."
+  },
   "priorityKeywords": [
     "fed",
     "federal reserve",
@@ -405,6 +505,7 @@ function priceCardHtml(label, row, flag, extraAttrs, ticker) {
 
 // Kompakte Karte fuer Sektor-Positionen: Ticker-Symbol gross+vorne (statt
 // Vollname), Vollname klein darunter, Gewichtung im Sektor-ETF oben rechts.
+// Klick/Tap klappt eine kurze Firmenbeschreibung auf (falls vorhanden).
 function positionCardHtml(ticker, row) {
   row = row || {};
   const name = CONFIG.tickerNames[ticker] || ticker;
@@ -413,7 +514,10 @@ function positionCardHtml(ticker, row) {
   const live = isLiveEligible(ticker) && FINNHUB_API_KEY;
   const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
   const tickerAttr = live ? ' data-ticker="' + esc(ticker) + '"' : '';
-  return '<div class="ticker-card compact"' + tickerAttr + '>' +
+  const desc = CONFIG.tickerDescriptions[ticker];
+  const descHtml = desc ? '<div class="ticker-desc">' + esc(desc) + '</div>' : '';
+  const expandableClass = desc ? ' expandable' : '';
+  return '<div class="ticker-card compact' + expandableClass + '"' + tickerAttr + '>' +
     '<div class="ticker-top">' +
       '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
       weightHtml +
@@ -423,6 +527,7 @@ function positionCardHtml(ticker, row) {
       '<span class="ticker-price">' + priceStrFor(row.price) + '</span>' +
       changeHtmlFor(row.change_pct) +
     '</div>' +
+    descHtml +
     '</div>';
 }
 
@@ -483,11 +588,19 @@ function renderPositionSections(rowsByLabel) {
 
 function renderMarketHeadlines(headlines) {
   const investLabels = new Set(Object.keys(CONFIG.personalEtfs));
-  const marketHeadlines = headlines.filter(h => !investLabels.has(h.label));
+  const marketHeadlines = headlines.filter(h => !investLabels.has(h.label) && h.label !== 'Fed / Makro');
   const html = marketHeadlines.map((h, i) => headlineHtml(h, i, MAX_VISIBLE)).join('');
   document.getElementById('headlines-markets').innerHTML = html || '<p>Noch keine Schlagzeilen gesammelt.</p>';
   document.getElementById('more-btn').style.display = marketHeadlines.length > MAX_VISIBLE ? 'block' : 'none';
   return marketHeadlines;
+}
+
+// Fed/Makro ist kein Sektor-Filter mehr, sondern ein eigener, immer
+// sichtbarer Block oberhalb der Pillen (unabhaengig vom gewaehlten Filter).
+function renderFedMakroBlock(headlines) {
+  const fedHeadlines = headlines.filter(h => h.label === 'Fed / Makro');
+  const html = fedHeadlines.map((h, i) => headlineHtml(h, i, null)).join('');
+  document.getElementById('headlines-fedmakro').innerHTML = html || '<p>Noch keine Fed/Makro-Schlagzeilen gesammelt.</p>';
 }
 
 function headlineHtml(item, index, maxVisible) {
@@ -626,6 +739,16 @@ function setupInvestFilter() {
   apply();
 }
 
+// Klick/Tap auf eine Top-20-Holding-Karte klappt die Firmenbeschreibung auf
+// (ein Handler auf dem Container statt pro Karte, da die Karten dynamisch sind).
+function setupPositionExpand() {
+  document.getElementById('position-sections').addEventListener('click', (e) => {
+    const card = e.target.closest('.ticker-card.expandable');
+    if (!card) return;
+    card.classList.toggle('expanded');
+  });
+}
+
 // ---------- Live-Kurse (Finnhub) ----------
 // Sammelt alle Einzel-Ticker (Sektor-Positionen + ETF-Holdings), die
 // Finnhub im Free-Tier in Echtzeit liefert (siehe isLiveEligible), einmal
@@ -702,6 +825,7 @@ async function init() {
   renderEtfCards(rowsByLabel);
   renderInvestHoldings(rowsByLabel);
   renderMarketHeadlines(headlines);
+  renderFedMakroBlock(headlines);
   renderInvestHeadlines(headlines);
 
   document.getElementById('updated-line').textContent =
@@ -710,6 +834,7 @@ async function init() {
   setupTabs();
   setupMarketFilter();
   setupInvestFilter();
+  setupPositionExpand();
   startLiveUpdates();
 }
 
