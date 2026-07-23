@@ -14,6 +14,7 @@ const CONFIG = {
     },
     "Globale Indizes": {
       "S&P 500 (USA)": "^GSPC",
+      "Nasdaq Composite (USA)": "^IXIC",
       "DAX (Deutschland)": "^GDAXI",
       "Nikkei 225 (Japan)": "^N225",
       "FTSE 100 (UK)": "^FTSE",
@@ -23,6 +24,7 @@ const CONFIG = {
   },
   "tickerFlags": {
     "S&P 500 (USA)": "🇺🇸",
+    "Nasdaq Composite (USA)": "🇺🇸",
     "DAX (Deutschland)": "🇩🇪",
     "Nikkei 225 (Japan)": "🇯🇵",
     "FTSE 100 (UK)": "🇬🇧",
@@ -31,7 +33,7 @@ const CONFIG = {
   },
   "sectorTickerMap": {
     "Nasdaq": [
-      "S&P 500 (USA)"
+      "Nasdaq Composite (USA)"
     ],
     "S&P 500": [
       "S&P 500 (USA)"
@@ -550,7 +552,7 @@ function priceCardHtml(label, row, flag, extraAttrs, ticker) {
 
 // Kleiner Trend-Graph (letzte paar Tagesschluesse + aktueller Kurs) fuer die
 // grosse Index-Detailkarte. Reines SVG, keine Chart-Bibliothek.
-function sparklineSvg(closes, isUp) {
+function sparklineSvg(closes, isUp, extraClass) {
   if (!closes || closes.length < 2) return '';
   const w = 240, h = 56, pad = 4;
   const min = Math.min(...closes), max = Math.max(...closes);
@@ -562,7 +564,8 @@ function sparklineSvg(closes, isUp) {
     return x.toFixed(1) + ',' + y.toFixed(1);
   }).join(' ');
   const color = isUp ? '#3fb950' : '#f85149';
-  return '<svg class="sparkline" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none">' +
+  const cls = 'sparkline' + (extraClass ? ' ' + extraClass : '');
+  return '<svg class="' + cls + '" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none">' +
     '<polyline points="' + points + '" fill="none" stroke="' + color + '" stroke-width="2" ' +
     'stroke-linejoin="round" stroke-linecap="round"/></svg>';
 }
@@ -611,18 +614,17 @@ function positionCardHtml(ticker, row, weight) {
 
 // ---------- Rendering: Markets-Tab ----------
 function renderMarketPills() {
-  // "Alle" separat/abgesetzt oben, neben dem "Indizes"-Dropdown-Button
+  // "Alle" separat/abgesetzt oben, neben den "Sektor"- und "Indizes"-Dropdowns
   document.getElementById('pill-alle-markets').outerHTML =
     '<button class="pill pill-all active" id="pill-alle-markets" data-label="Alle">Alle</button>';
 
   // Sektor-Pillen ohne die 4 reinen Index-Pillen (die wandern ins "Indizes"-Dropdown)
   const indexPills = new Set(CONFIG.indexPills);
-  let html = '';
-  CONFIG.sectorOrder.forEach(label => {
-    if (indexPills.has(label)) return;
-    html += '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>';
-  });
-  document.getElementById('pills-markets-sectors').innerHTML = html;
+  const sectorMenuHtml = CONFIG.sectorOrder
+    .filter(label => !indexPills.has(label))
+    .map(label => '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>')
+    .join('');
+  document.getElementById('sektor-menu').innerHTML = sectorMenuHtml;
 
   document.getElementById('indizes-menu').innerHTML = CONFIG.indexPills.map(label =>
     '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>'
@@ -690,11 +692,13 @@ function headlineHtml(item, index, maxVisible) {
 // ---------- Rendering: Invest-Tab ----------
 function renderEtfCards(rowsByLabel) {
   const html = Object.keys(CONFIG.personalEtfs).map(name => {
-    const ticker = CONFIG.personalEtfTickers[name];
     const row = rowsByLabel[name] || {};
-    return priceCardHtml(name, row, '', ' data-etf="' + esc(name) + '"').replace(
-      'class="ticker-card"', 'class="ticker-card etf-card"'
-    );
+    const dir = direction(row.change_pct);
+    const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'small');
+    const card = priceCardHtml(name, row, '', ' data-etf="' + esc(name) + '"')
+      .replace('class="ticker-card"', 'class="ticker-card etf-card"');
+    // Sparkline als letztes Kind vor dem schliessenden </div> der Karte einfuegen
+    return card.slice(0, -'</div>'.length) + spark + '</div>';
   }).join('');
   document.querySelector('#invest-etf-section .tickers').innerHTML = html;
 }
@@ -739,12 +743,14 @@ function setupMarketFilter(rowsByLabel) {
   const headlines = document.querySelectorAll('#headlines-markets .headline');
   const futuresSection = document.getElementById('futures-section');
   const globalSection = document.getElementById('global-indices-section');
+  const globalHeading = globalSection.querySelector('h2');
   const tickersGrid = globalSection.querySelector('.tickers');
   const globalCards = globalSection.querySelectorAll('.ticker-card');
   const bigIndexView = document.getElementById('big-index-view');
   const positionSections = document.querySelectorAll('.position-section[data-sector]');
   const moreBtn = document.getElementById('more-btn');
-  const dropdown = document.getElementById('indizes-dropdown');
+  const sektorDropdown = document.getElementById('sektor-dropdown');
+  const indizesDropdown = document.getElementById('indizes-dropdown');
   const indexPillSet = new Set(CONFIG.indexPills);
   let expanded = false;
   let filter = 'Alle';
@@ -760,6 +766,8 @@ function setupMarketFilter(rowsByLabel) {
 
     // Ein einzelner ausgewaehlter Index (Nasdaq/S&P 500/DAX/KOSPI) bekommt eine
     // grosse, zentrierte Karte mit Mini-Graph statt des kleinen Grid-Feldes.
+    // Die "Globale Indizes"-Ueberschrift ist dann redundant und wird ausgeblendet.
+    globalHeading.style.display = isIndexFilter ? 'none' : '';
     tickersGrid.style.display = isIndexFilter ? 'none' : '';
     bigIndexView.style.display = isIndexFilter ? '' : 'none';
     if (isIndexFilter) {
@@ -783,13 +791,16 @@ function setupMarketFilter(rowsByLabel) {
     });
     if (moreBtn) moreBtn.style.display = (filter === 'Alle' && !expanded && headlines.length > MAX_VISIBLE) ? 'block' : 'none';
     pillsContainer.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.label === filter));
-    dropdown.classList.remove('open');
+    sektorDropdown.classList.remove('open');
+    indizesDropdown.classList.remove('open');
   }
 
-  // Delegierter Klick-Handler, da die "Indizes"-Untermenue-Pillen dynamisch sind
+  // Delegierter Klick-Handler, da die Sektor-/Indizes-Untermenue-Pillen dynamisch sind
   pillsContainer.addEventListener('click', (e) => {
-    const toggle = e.target.closest('#indizes-toggle');
-    if (toggle) { dropdown.classList.toggle('open'); return; }
+    const sektorToggle = e.target.closest('#sektor-toggle');
+    if (sektorToggle) { indizesDropdown.classList.remove('open'); sektorDropdown.classList.toggle('open'); return; }
+    const indizesToggle = e.target.closest('#indizes-toggle');
+    if (indizesToggle) { sektorDropdown.classList.remove('open'); indizesDropdown.classList.toggle('open'); return; }
     const pill = e.target.closest('.pill[data-label]');
     if (!pill) return;
     filter = pill.dataset.label;

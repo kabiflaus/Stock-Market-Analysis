@@ -31,12 +31,15 @@
     <div class="pills" id="pills-markets">
       <div class="pills-top">
         <button class="pill pill-all active" id="pill-alle-markets" data-label="Alle">Alle</button>
+        <div class="dropdown" id="sektor-dropdown">
+          <button class="pill pill-all" id="sektor-toggle">Sektor ▾</button>
+          <div class="dropdown-menu" id="sektor-menu"></div>
+        </div>
         <div class="dropdown" id="indizes-dropdown">
           <button class="pill pill-all" id="indizes-toggle">Indizes ▾</button>
           <div class="dropdown-menu" id="indizes-menu"></div>
         </div>
       </div>
-      <div class="pills-row" id="pills-markets-sectors"></div>
     </div>
 
     <button class="refresh-btn" onclick="location.href = location.pathname + '?t=' + Date.now();">↻ Aktualisieren</button>

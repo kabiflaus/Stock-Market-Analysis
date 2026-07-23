@@ -44,9 +44,10 @@ for _tickers in PERSONAL_ETFS.values():
 
 ALL_TICKERS = {**GROUP_TICKERS, **PERSONAL_ETF_TICKERS, **{t: t for t in _position_tickers}}
 
-# Fuer diese Labels (Globale Indizes) wird zusaetzlich eine kurze Kursreihe
-# gespeichert - Grundlage fuer den Mini-Graph bei der Index-Detailansicht.
-SPARKLINE_LABELS = set(TICKER_GROUPS["Globale Indizes"].keys())
+# Fuer diese Labels (Globale Indizes + die 3 persoenlichen ETFs) wird
+# zusaetzlich eine kurze Kursreihe gespeichert - Grundlage fuer die Mini-
+# Graphen bei der Index-Detailansicht und den ETF-Karten im Invest-Tab.
+SPARKLINE_LABELS = set(TICKER_GROUPS["Globale Indizes"].keys()) | set(PERSONAL_ETF_TICKERS.keys())
 
 
 def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float]]:
