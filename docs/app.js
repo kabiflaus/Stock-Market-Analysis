@@ -911,24 +911,35 @@ function fundamentalsHtml(data) {
     '</div>';
 }
 
+// Baut die URL ueber das URL/URLSearchParams-API statt per String-Konkatenation -
+// robuster gegen Sonderzeichen/Encoding-Eigenheiten als reines String-Zusammenkleben.
+function finnhubUrl(path, params) {
+  const url = new URL('https://finnhub.io/api/v2/' + path);
+  Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
+  url.searchParams.set('token', FINNHUB_API_KEY);
+  return url.toString();
+}
+
 // Holt eine URL und meldet Fehler (HTTP-Status oder CORS/Netzwerkfehler)
 // zurueck statt zu werfen, damit ein fehlschlagender Endpunkt den anderen
-// nicht mitreisst und die Ursache sichtbar bleibt.
+// nicht mitreisst und die Ursache sichtbar bleibt. Fehlername (z.B.
+// TypeError) wird mit ausgegeben, um die Ursache leichter einzugrenzen.
 async function fetchJsonSafe(url) {
   try {
     const res = await fetch(url);
     if (!res.ok) return { error: 'HTTP ' + res.status };
     return { data: await res.json() };
   } catch (e) {
-    return { error: (e && e.message) || String(e) };
+    const label = (e && e.name) ? e.name + ': ' : '';
+    return { error: label + ((e && e.message) || String(e)) };
   }
 }
 
 async function loadFundamentals(ticker) {
   if (fundamentalsCache.has(ticker)) return fundamentalsCache.get(ticker);
   const [metricResult, earningsResult] = await Promise.all([
-    fetchJsonSafe('https://finnhub.io/api/v2/stock/metric?symbol=' + encodeURIComponent(ticker) + '&metric=all&token=' + FINNHUB_API_KEY),
-    fetchJsonSafe('https://finnhub.io/api/v2/stock/earnings?symbol=' + encodeURIComponent(ticker) + '&token=' + FINNHUB_API_KEY),
+    fetchJsonSafe(finnhubUrl('stock/metric', { symbol: ticker, metric: 'all' })),
+    fetchJsonSafe(finnhubUrl('stock/earnings', { symbol: ticker })),
   ]);
   const earningsList = Array.isArray(earningsResult.data) ? earningsResult.data.slice() : [];
   earningsList.sort((a, b) => new Date(b.period || 0) - new Date(a.period || 0));
