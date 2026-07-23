@@ -543,10 +543,13 @@ function priceCardHtml(label, row, flag, extraAttrs, ticker) {
   const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
   const prefix = flag ? flag + ' ' : '';
   const tickerAttr = live ? ' data-ticker="' + esc(ticker) + '"' : '';
+  const dir = direction(row.change_pct);
+  const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'small');
   return '<div class="ticker-card"' + (extraAttrs || '') + tickerAttr + '>' +
     '<div class="ticker-label">' + prefix + esc(label) + liveDot + '</div>' +
     '<div class="ticker-price">' + priceStrFor(row.price) + '</div>' +
     changeHtmlFor(row.change_pct) +
+    spark +
     '</div>';
 }
 
@@ -693,12 +696,9 @@ function headlineHtml(item, index, maxVisible) {
 function renderEtfCards(rowsByLabel) {
   const html = Object.keys(CONFIG.personalEtfs).map(name => {
     const row = rowsByLabel[name] || {};
-    const dir = direction(row.change_pct);
-    const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'small');
-    const card = priceCardHtml(name, row, '', ' data-etf="' + esc(name) + '"')
-      .replace('class="ticker-card"', 'class="ticker-card etf-card"');
-    // Sparkline als letztes Kind vor dem schliessenden </div> der Karte einfuegen
-    return card.slice(0, -'</div>'.length) + spark + '</div>';
+    return priceCardHtml(name, row, '', ' data-etf="' + esc(name) + '"').replace(
+      'class="ticker-card"', 'class="ticker-card etf-card"'
+    );
   }).join('');
   document.querySelector('#invest-etf-section .tickers').innerHTML = html;
 }
