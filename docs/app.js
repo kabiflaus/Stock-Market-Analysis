@@ -696,7 +696,7 @@ function renderMarketHeadlines(headlines) {
   return marketHeadlines;
 }
 
-const MACRO_MAX_VISIBLE = 6;
+const MACRO_MAX_VISIBLE = 1;
 
 // "Makro & Weltpolitik" ist kein Sektor-Filter, sondern ein eigener, immer
 // sichtbarer Block oberhalb der Pillen (unabhaengig vom gewaehlten Filter) -
@@ -714,9 +714,12 @@ function setupMacroExpand() {
   let expanded = false;
   function apply() {
     items.forEach((el, i) => { el.style.display = (i >= MACRO_MAX_VISIBLE && !expanded) ? 'none' : ''; });
-    if (moreBtn) moreBtn.style.display = (!expanded && items.length > MACRO_MAX_VISIBLE) ? 'block' : 'none';
+    if (moreBtn) moreBtn.textContent = expanded ? 'Weniger anzeigen' : 'Mehr anzeigen';
   }
-  if (moreBtn) moreBtn.addEventListener('click', () => { expanded = true; apply(); });
+  if (moreBtn) {
+    moreBtn.style.display = items.length > MACRO_MAX_VISIBLE ? 'block' : 'none';
+    moreBtn.addEventListener('click', () => { expanded = !expanded; apply(); });
+  }
   apply();
 }
 
@@ -1002,9 +1005,10 @@ async function loadFundamentals(ticker) {
 function tickerNewsHtml(ticker) {
   const items = allHeadlines.filter(h => h.label === ticker).slice(0, 3);
   if (!items.length) return '';
-  const rows = items.map(h =>
-    '<a href="' + h.link + '" target="_blank" rel="noopener">' + esc(h.title) + '</a>'
-  ).join('');
+  const rows = items.map(h => {
+    const source = h.source ? '<strong>' + esc(h.source) + '</strong> · ' : '';
+    return '<a href="' + h.link + '" target="_blank" rel="noopener">' + source + esc(h.title) + '</a>';
+  }).join('');
   return '<div class="ticker-news">' + rows + '</div>';
 }
 
