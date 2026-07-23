@@ -894,32 +894,52 @@ function fundamentalsHtml(data) {
       '<span class="chg ' + beatCls + '">' + esc(valueStr) + '</span></div>';
   }
 
+  // Fehlertext direkt mit anzeigen statt nur in der Konsole - einfacher zu
+  // diagnostizieren, ohne dass dafuer die Browser-Devtools noetig sind.
+  let errorNote = '';
+  const errParts = [];
+  if (data.metricError) errParts.push('Kennzahlen: ' + data.metricError);
+  if (data.earningsError) errParts.push('Earnings: ' + data.earningsError);
+  if (errParts.length) errorNote = '<div class="fund-error">' + esc(errParts.join(' · ')) + '</div>';
+
   return '<div class="ticker-fundamentals">' +
     '<div class="fund-row"><span>Marktkapitalisierung</span><span>' + marketCap + '</span></div>' +
     '<div class="fund-row"><span>KGV (P/E)</span><span>' + peStr + '</span></div>' +
     '<div class="fund-row"><span>Nettomarge</span>' + marginHtml + '</div>' +
     earningsRow +
+    errorNote +
     '</div>';
+}
+
+// Holt eine URL und meldet Fehler (HTTP-Status oder CORS/Netzwerkfehler)
+// zurueck statt zu werfen, damit ein fehlschlagender Endpunkt den anderen
+// nicht mitreisst und die Ursache sichtbar bleibt.
+async function fetchJsonSafe(url) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return { error: 'HTTP ' + res.status };
+    return { data: await res.json() };
+  } catch (e) {
+    return { error: (e && e.message) || String(e) };
+  }
 }
 
 async function loadFundamentals(ticker) {
   if (fundamentalsCache.has(ticker)) return fundamentalsCache.get(ticker);
-  try {
-    const [metricRes, earningsRes] = await Promise.all([
-      fetch('https://finnhub.io/api/v2/stock/metric?symbol=' + encodeURIComponent(ticker) + '&metric=all&token=' + FINNHUB_API_KEY),
-      fetch('https://finnhub.io/api/v2/stock/earnings?symbol=' + encodeURIComponent(ticker) + '&token=' + FINNHUB_API_KEY),
-    ]);
-    const metricJson = metricRes.ok ? await metricRes.json() : {};
-    const earningsJson = earningsRes.ok ? await earningsRes.json() : [];
-    const earningsList = Array.isArray(earningsJson) ? earningsJson.slice() : [];
-    earningsList.sort((a, b) => new Date(b.period || 0) - new Date(a.period || 0));
-    const data = { metric: metricJson.metric || {}, latestEarnings: earningsList[0] || null };
-    fundamentalsCache.set(ticker, data);
-    return data;
-  } catch (e) {
-    console.warn('Kennzahlen fehlgeschlagen fuer', ticker, e);
-    return null;
-  }
+  const [metricResult, earningsResult] = await Promise.all([
+    fetchJsonSafe('https://finnhub.io/api/v2/stock/metric?symbol=' + encodeURIComponent(ticker) + '&metric=all&token=' + FINNHUB_API_KEY),
+    fetchJsonSafe('https://finnhub.io/api/v2/stock/earnings?symbol=' + encodeURIComponent(ticker) + '&token=' + FINNHUB_API_KEY),
+  ]);
+  const earningsList = Array.isArray(earningsResult.data) ? earningsResult.data.slice() : [];
+  earningsList.sort((a, b) => new Date(b.period || 0) - new Date(a.period || 0));
+  const data = {
+    metric: (metricResult.data && metricResult.data.metric) || {},
+    metricError: metricResult.error || null,
+    latestEarnings: earningsList[0] || null,
+    earningsError: earningsResult.error || null,
+  };
+  fundamentalsCache.set(ticker, data);
+  return data;
 }
 
 async function loadCardFundamentals(card) {
