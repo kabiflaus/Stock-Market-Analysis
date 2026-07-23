@@ -118,6 +118,7 @@ body {
 }
 .ticker-fundamentals .fund-row { display: flex; justify-content: space-between; gap: 8px; }
 .ticker-fundamentals .chg { font-size: 0.68rem; }
+.ticker-fundamentals .fund-error { color: #f85149; font-size: 0.64rem; }
 
 /* Grosse, zentrierte Karte fuer einen einzeln ausgewaehlten Index
    (Nasdaq/S&P 500/DAX/KOSPI) statt des kleinen Grid-Feldes, inkl. Mini-Graph. */
