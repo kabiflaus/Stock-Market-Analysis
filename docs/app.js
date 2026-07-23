@@ -430,6 +430,7 @@ function setupTabs() {
 function setupMarketFilter() {
   const pills = document.querySelectorAll('#pills-markets .pill');
   const headlines = document.querySelectorAll('#headlines-markets .headline');
+  const futuresSection = document.getElementById('futures-section');
   const globalSection = document.getElementById('global-indices-section');
   const globalCards = globalSection.querySelectorAll('.ticker-card');
   const positionSections = document.querySelectorAll('.position-section[data-sector]');
@@ -440,6 +441,7 @@ function setupMarketFilter() {
   function apply() {
     const hasPositions = [...positionSections].some(s => s.dataset.sector === filter);
     globalSection.style.display = hasPositions ? 'none' : '';
+    futuresSection.style.display = hasPositions ? 'none' : '';
     globalCards.forEach(card => {
       if (filter === 'Alle') { card.classList.remove('dimmed'); return; }
       const sectors = (card.dataset.sectors || '').split('|');
