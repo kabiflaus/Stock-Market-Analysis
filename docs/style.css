@@ -81,6 +81,26 @@ body {
 .chg.down { color: #f85149; }
 .chg.neutral { color: #d4a72c; }
 
+/* Kompakte Positions-Karten (Top-20-Sektorlisten): Ticker-Symbol gross,
+   Vollname klein darunter, Gewichtung + Preis/Change auf schmaleren Zeilen -
+   dadurch passt bei gleicher Grid-Breite etwa die doppelte Menge auf die
+   gleiche Flaeche wie die alten 10er-Listen. */
+.ticker-card.compact { padding: 7px 10px; }
+.ticker-card.compact .ticker-top {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 6px;
+}
+.ticker-card.compact .ticker-symbol { font-size: 1.05rem; font-weight: 700; letter-spacing: 0.01em; }
+.ticker-card.compact .ticker-weight { font-size: 0.68rem; color: #6e7681; font-weight: 600; white-space: nowrap; }
+.ticker-card.compact .ticker-name {
+  font-size: 0.72rem; color: #8b98a5; margin: 1px 0 4px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.ticker-card.compact .ticker-bottom {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
+}
+.ticker-card.compact .ticker-price { font-size: 0.92rem; }
+.ticker-card.compact .chg { font-size: 0.76rem; }
+
 .headlines { margin-top: 8px; }
 .headline { border-bottom: 1px solid #22262b; padding: 12px 0; }
 .headline a { color: #e7e9ea; text-decoration: none; font-size: 0.95rem; display: block; margin-top: 4px; }

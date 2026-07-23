@@ -60,65 +60,52 @@ const CONFIG = {
   ],
   "sectorPositions": {
     "Chips & AI": [
-      "NVDA",
-      "TSM",
-      "AVGO",
-      "ASML",
-      "AMAT",
-      "LRCX",
-      "INTC",
-      "MU",
-      "KLAC",
-      "AMD"
+      "NVDA", "TSM", "MU", "AMD", "INTC", "AVGO", "QCOM", "TXN", "LRCX", "KLAC",
+      "AMAT", "ASML", "ARM", "MRVL", "NXPI", "ADI", "ON", "MCHP", "MPWR", "SWKS"
     ],
     "Healthcare": [
-      "LLY",
-      "JNJ",
-      "ABBV",
-      "UNH",
-      "MRK",
-      "TMO",
-      "ABT",
-      "ISRG",
-      "PFE",
-      "DHR"
+      "LLY", "JNJ", "ABBV", "MRK", "UNH", "AMGN", "TMO", "ABT", "GILD", "ISRG",
+      "PFE", "DHR", "BSX", "SYK", "VRTX", "BMY", "MDT", "CVS", "CI", "ELV"
     ],
     "Rüstung": [
-      "GE",
-      "RTX",
-      "BA",
-      "NOC",
-      "GD",
-      "LHX",
-      "HWM",
-      "LMT",
-      "AXON",
-      "TDG"
+      "GE", "RTX", "BA", "HWM", "GD", "LHX", "TDG", "NOC", "LMT", "AXON",
+      "TXT", "HEI", "CW", "TDY", "LDOS", "HII", "BWXT", "WWD", "KTOS", "MRCY"
     ],
     "Energie & Rohstoffe": [
-      "XOM",
-      "CVX",
-      "COP",
-      "SLB",
-      "WMB",
-      "MPC",
-      "EOG",
-      "VLO",
-      "PSX",
-      "KMI"
+      "XOM", "CVX", "COP", "EOG", "SLB", "WMB", "VLO", "PSX", "MPC", "BKR",
+      "KMI", "TRG", "OXY", "FANG", "EQT", "HAL", "DVN", "CTRA", "HES", "APA"
     ],
     "Konsumgüter": [
-      "WMT",
-      "COST",
-      "PG",
-      "PM",
-      "KO",
-      "MDLZ",
-      "MO",
-      "PEP",
-      "CL",
-      "MNST"
+      "WMT", "COST", "PG", "KO", "PM", "MDLZ", "PEP", "MO", "CL", "KR",
+      "SYY", "KMB", "KVUE", "MNST", "STZ", "GIS", "KDP", "HSY", "KHC", "CHD"
     ]
+  },
+  // Ungefaehre Gewichtung jedes Tickers innerhalb seines Referenz-ETFs (siehe
+  // SECTOR_POSITIONS-Kommentar in config.py), in Prozent. Nur fuer die Anzeige -
+  // hilft einzuordnen, warum z.B. ein kleiner Kursrutsch bei NVDA fuer den
+  // Sektor mehr wiegt als eine grosse Bewegung bei einer kleinen Position.
+  // Manuell recherchiert (Stand Jul 2026), keine Live-Daten.
+  "sectorWeights": {
+    "NVDA": 15.2, "TSM": 9.4, "MU": 7.8, "AMD": 7.6, "INTC": 7.2, "AVGO": 7.2,
+    "QCOM": 5.1, "TXN": 4.7, "LRCX": 4.4, "KLAC": 4.0, "AMAT": 3.8, "ASML": 3.6,
+    "ARM": 3.2, "MRVL": 2.8, "NXPI": 2.4, "ADI": 2.2, "ON": 1.8, "MCHP": 1.6,
+    "MPWR": 1.4, "SWKS": 1.2,
+    "LLY": 13.7, "JNJ": 11.1, "ABBV": 7.3, "MRK": 5.6, "UNH": 4.6, "AMGN": 3.6,
+    "TMO": 3.5, "ABT": 3.4, "GILD": 3.3, "ISRG": 3.1, "PFE": 3.0, "DHR": 2.9,
+    "BSX": 2.2, "SYK": 2.0, "VRTX": 1.9, "BMY": 1.7, "MDT": 1.6, "CVS": 1.4,
+    "CI": 1.3, "ELV": 1.2,
+    "GE": 22.2, "RTX": 15.9, "BA": 9.3, "HWM": 4.8, "GD": 4.7, "LHX": 4.7,
+    "TDG": 4.5, "NOC": 3.6, "LMT": 3.4, "AXON": 2.8, "TXT": 2.2, "HEI": 2.0,
+    "CW": 1.8, "TDY": 1.6, "LDOS": 1.5, "HII": 1.3, "BWXT": 1.1, "WWD": 1.0,
+    "KTOS": 0.8, "MRCY": 0.7,
+    "XOM": 23.8, "CVX": 17.3, "COP": 7.2, "EOG": 4.2, "SLB": 4.1, "WMB": 4.1,
+    "VLO": 4.0, "PSX": 3.9, "MPC": 3.8, "BKR": 3.75, "KMI": 3.5, "TRG": 3.0,
+    "OXY": 2.4, "FANG": 2.2, "EQT": 2.0, "HAL": 1.9, "DVN": 1.7, "CTRA": 1.5,
+    "HES": 1.2, "APA": 1.0,
+    "WMT": 10.7, "COST": 8.8, "PG": 7.5, "KO": 6.9, "PM": 6.1, "MDLZ": 4.5,
+    "PEP": 4.5, "MO": 4.3, "CL": 4.3, "KR": 2.6, "SYY": 2.4, "KMB": 2.3,
+    "KVUE": 2.2, "MNST": 2.0, "STZ": 1.8, "GIS": 1.6, "KDP": 1.5, "HSY": 1.4,
+    "KHC": 1.3, "CHD": 1.1
   },
   "personalEtfs": {
     "Scalable MSCI ACWI": [
@@ -174,6 +161,16 @@ const CONFIG = {
     "MU": "Micron",
     "KLAC": "KLA Corp",
     "AMD": "AMD",
+    "QCOM": "Qualcomm",
+    "TXN": "Texas Instruments",
+    "ARM": "Arm Holdings",
+    "MRVL": "Marvell Technology",
+    "NXPI": "NXP Semiconductors",
+    "ADI": "Analog Devices",
+    "ON": "ON Semiconductor",
+    "MCHP": "Microchip Technology",
+    "MPWR": "Monolithic Power Systems",
+    "SWKS": "Skyworks Solutions",
     "LLY": "Eli Lilly",
     "JNJ": "Johnson & Johnson",
     "ABBV": "AbbVie",
@@ -184,6 +181,16 @@ const CONFIG = {
     "ISRG": "Intuitive Surgical",
     "PFE": "Pfizer",
     "DHR": "Danaher",
+    "AMGN": "Amgen",
+    "GILD": "Gilead Sciences",
+    "BSX": "Boston Scientific",
+    "SYK": "Stryker",
+    "VRTX": "Vertex Pharmaceuticals",
+    "BMY": "Bristol-Myers Squibb",
+    "MDT": "Medtronic",
+    "CVS": "CVS Health",
+    "CI": "Cigna",
+    "ELV": "Elevance Health",
     "GE": "GE Aerospace",
     "RTX": "RTX Corp",
     "BA": "Boeing",
@@ -194,6 +201,16 @@ const CONFIG = {
     "LMT": "Lockheed Martin",
     "AXON": "Axon Enterprise",
     "TDG": "TransDigm",
+    "TXT": "Textron",
+    "HEI": "HEICO",
+    "CW": "Curtiss-Wright",
+    "TDY": "Teledyne Technologies",
+    "LDOS": "Leidos",
+    "HII": "Huntington Ingalls Industries",
+    "BWXT": "BWX Technologies",
+    "WWD": "Woodward",
+    "KTOS": "Kratos Defense",
+    "MRCY": "Mercury Systems",
     "XOM": "ExxonMobil",
     "CVX": "Chevron",
     "COP": "ConocoPhillips",
@@ -204,6 +221,16 @@ const CONFIG = {
     "VLO": "Valero Energy",
     "PSX": "Phillips 66",
     "KMI": "Kinder Morgan",
+    "BKR": "Baker Hughes",
+    "TRG": "Targa Resources",
+    "OXY": "Occidental Petroleum",
+    "FANG": "Diamondback Energy",
+    "EQT": "EQT Corp",
+    "HAL": "Halliburton",
+    "DVN": "Devon Energy",
+    "CTRA": "Coterra Energy",
+    "HES": "Hess",
+    "APA": "APA Corporation",
     "WMT": "Walmart",
     "COST": "Costco",
     "PG": "Procter & Gamble",
@@ -214,6 +241,16 @@ const CONFIG = {
     "PEP": "PepsiCo",
     "CL": "Colgate-Palmolive",
     "MNST": "Monster Beverage",
+    "KR": "Kroger",
+    "SYY": "Sysco",
+    "KMB": "Kimberly-Clark",
+    "KVUE": "Kenvue",
+    "STZ": "Constellation Brands",
+    "GIS": "General Mills",
+    "KDP": "Keurig Dr Pepper",
+    "HSY": "Hershey",
+    "KHC": "Kraft Heinz",
+    "CHD": "Church & Dwight",
     "AAPL": "Apple",
     "MSFT": "Microsoft",
     "AMZN": "Amazon",
@@ -366,6 +403,29 @@ function priceCardHtml(label, row, flag, extraAttrs, ticker) {
     '</div>';
 }
 
+// Kompakte Karte fuer Sektor-Positionen: Ticker-Symbol gross+vorne (statt
+// Vollname), Vollname klein darunter, Gewichtung im Sektor-ETF oben rechts.
+function positionCardHtml(ticker, row) {
+  row = row || {};
+  const name = CONFIG.tickerNames[ticker] || ticker;
+  const weight = CONFIG.sectorWeights[ticker];
+  const weightHtml = (weight !== undefined) ? '<span class="ticker-weight">' + weight + '%</span>' : '';
+  const live = isLiveEligible(ticker) && FINNHUB_API_KEY;
+  const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
+  const tickerAttr = live ? ' data-ticker="' + esc(ticker) + '"' : '';
+  return '<div class="ticker-card compact"' + tickerAttr + '>' +
+    '<div class="ticker-top">' +
+      '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
+      weightHtml +
+    '</div>' +
+    '<div class="ticker-name">' + esc(name) + '</div>' +
+    '<div class="ticker-bottom">' +
+      '<span class="ticker-price">' + priceStrFor(row.price) + '</span>' +
+      changeHtmlFor(row.change_pct) +
+    '</div>' +
+    '</div>';
+}
+
 // ---------- Rendering: Markets-Tab ----------
 function renderMarketPills() {
   // "Alle" separat/abgesetzt oben
@@ -413,7 +473,7 @@ function renderPositionSections(rowsByLabel) {
   let html = '';
   Object.keys(CONFIG.sectorPositions).forEach(sector => {
     const tickers = CONFIG.sectorPositions[sector];
-    const cards = tickers.map(t => priceCardHtml((CONFIG.tickerNames[t] || t) + ' (' + t + ')', rowsByLabel[t], '', '', t));
+    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t]));
     html += '<div class="section position-section" data-sector="' + esc(sector) + '" style="display:none">' +
       '<h2>' + esc(sector) + ' – Top ' + tickers.length + '</h2>' +
       '<div class="tickers">' + cards.join('') + '</div></div>';
