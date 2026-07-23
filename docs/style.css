@@ -65,6 +65,15 @@ body {
 }
 .etf-card { cursor: pointer; }
 .ticker-label { font-size: 0.75rem; color: #8b98a5; }
+.live-dot {
+  display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+  background: #3fb950; margin-left: 5px; vertical-align: middle;
+  animation: live-pulse 1.6s ease-in-out infinite;
+}
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
 .ticker-price { font-size: 1.05rem; font-weight: 600; }
 .chg { font-size: 0.85rem; font-weight: 600; }
 .chg .arrow { margin-right: 3px; }

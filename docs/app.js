@@ -5,9 +5,12 @@
 // -----------------------------------------------------------------------
 const CONFIG = {
   "tickerGroups": {
-    "US-Futures (Vorbörse)": {
+    "Futures (Vorbörse)": {
       "Nasdaq Futures": "NQ=F",
-      "S&P 500 Futures": "ES=F"
+      "S&P 500 Futures": "ES=F",
+      "Dow Jones Futures": "YM=F",
+      "Russell 2000 Futures": "RTY=F",
+      "Nikkei 225 Futures": "NIY=F"
     },
     "Globale Indizes": {
       "S&P 500 (USA)": "^GSPC",
@@ -30,14 +33,6 @@ const CONFIG = {
     "Fed / Makro": [
       "S&P 500 (USA)"
     ],
-    "ETFs": [
-      "S&P 500 (USA)",
-      "DAX (Deutschland)",
-      "Nikkei 225 (Japan)",
-      "FTSE 100 (UK)",
-      "KOSPI (Südkorea)",
-      "Hang Seng (Hongkong)"
-    ],
     "Nasdaq": [
       "S&P 500 (USA)"
     ],
@@ -54,7 +49,6 @@ const CONFIG = {
   "sectorOrder": [
     "Fed / Makro",
     "Chips & AI",
-    "ETFs",
     "Healthcare",
     "Rüstung",
     "Energie & Rohstoffe",
@@ -288,6 +282,16 @@ const CONFIG = {
 const MAX_VISIBLE = 10;
 const NEUTRAL_THRESHOLD = 0.1; // Prozent - darunter gilt ein Ticker als "neutral" (gelb)
 
+// Finnhub-API-Key fuer Live-Kurse (Einzelpositionen, siehe isLiveEligible()).
+// ACHTUNG: Diese Seite ist eine rein statische GitHub-Pages-Seite ohne
+// Backend - jeder Key, der hier steht, landet unveraendert im ausgelieferten
+// JS und ist damit oeffentlich sichtbar (genau wie bei jedem anderen rein
+// client-seitigen Key). Ohne gueltigen Key bleiben die Karten einfach beim
+// taeglichen Snapshot aus data/market.json stehen.
+const FINNHUB_API_KEY = '';
+const FINNHUB_POLL_DELAY_MS = 1100;  // Abstand zwischen Einzel-Calls (Rate-Limit: 60/min)
+const FINNHUB_CYCLE_PAUSE_MS = 30000; // Pause zwischen zwei vollen Durchlaeufen
+
 // ---------- Hilfsfunktionen ----------
 function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
@@ -299,6 +303,21 @@ function fmtTime(isoStr) {
     timeZone: 'Europe/Berlin', day: '2-digit', month: '2-digit',
     hour: '2-digit', minute: '2-digit',
   }).replace(',', '');
+}
+
+// Regulaere NYSE-Handelszeit (9:30-16:00 America/New_York, Mo-Fr). Feiertage
+// werden bewusst ignoriert - Futures blenden an denen einfach faelschlich
+// aus, was fuer eine reine Anzeige-Heuristik unproblematisch ist.
+function isUsMarketOpen(now) {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/New_York', hour12: false,
+    weekday: 'short', hour: '2-digit', minute: '2-digit',
+  }).formatToParts(now || new Date());
+  const map = {};
+  parts.forEach(p => { map[p.type] = p.value; });
+  if (map.weekday === 'Sat' || map.weekday === 'Sun') return false;
+  const minutes = parseInt(map.hour, 10) * 60 + parseInt(map.minute, 10);
+  return minutes >= 9 * 60 + 30 && minutes < 16 * 60;
 }
 
 function isPriority(title) {
@@ -314,25 +333,36 @@ function direction(change) {
   return { cls: 'neutral', arrow: '▶' };
 }
 
-function priceCardHtml(label, row, flag, extraAttrs) {
-  row = row || {};
-  const change = row.change_pct;
-  let changeHtml;
-  if (change === undefined || change === null) {
-    changeHtml = '<span class="chg neutral">n/a</span>';
-  } else {
-    const dir = direction(change);
-    const sign = change > 0 ? '+' : '';
-    changeHtml = '<span class="chg ' + dir.cls + '"><span class="arrow">' + dir.arrow + '</span>' + sign + change + '%</span>';
-  }
-  const priceStr = (row.price !== undefined && row.price !== null)
-    ? row.price.toLocaleString('de-DE', {minimumFractionDigits: 2, maximumFractionDigits: 2})
+function changeHtmlFor(change) {
+  if (change === undefined || change === null) return '<span class="chg neutral">n/a</span>';
+  const dir = direction(change);
+  const sign = change > 0 ? '+' : '';
+  return '<span class="chg ' + dir.cls + '"><span class="arrow">' + dir.arrow + '</span>' + sign + change + '%</span>';
+}
+
+function priceStrFor(price) {
+  return (price !== undefined && price !== null)
+    ? price.toLocaleString('de-DE', {minimumFractionDigits: 2, maximumFractionDigits: 2})
     : 'n/a';
+}
+
+// Finnhub liefert Echtzeit-Kurse nur fuer normale, an US-Boersen gelistete
+// Symbole (kein Praefix/Suffix). Indizes (^...), Futures (...=F) und
+// auslaendische Ticker (z.B. ASML.AS) bleiben beim taeglichen Snapshot.
+function isLiveEligible(ticker) {
+  return !!ticker && !ticker.includes('.') && !ticker.startsWith('^') && !ticker.endsWith('=F');
+}
+
+function priceCardHtml(label, row, flag, extraAttrs, ticker) {
+  row = row || {};
+  const live = ticker && isLiveEligible(ticker) && FINNHUB_API_KEY;
+  const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
   const prefix = flag ? flag + ' ' : '';
-  return '<div class="ticker-card"' + (extraAttrs || '') + '>' +
-    '<div class="ticker-label">' + prefix + esc(label) + '</div>' +
-    '<div class="ticker-price">' + priceStr + '</div>' +
-    changeHtml +
+  const tickerAttr = live ? ' data-ticker="' + esc(ticker) + '"' : '';
+  return '<div class="ticker-card"' + (extraAttrs || '') + tickerAttr + '>' +
+    '<div class="ticker-label">' + prefix + esc(label) + liveDot + '</div>' +
+    '<div class="ticker-price">' + priceStrFor(row.price) + '</div>' +
+    changeHtmlFor(row.change_pct) +
     '</div>';
 }
 
@@ -361,7 +391,7 @@ function renderMarketPills() {
 }
 
 function renderFutures(rowsByLabel) {
-  const cards = Object.keys(CONFIG.tickerGroups['US-Futures (Vorbörse)']).map(label =>
+  const cards = Object.keys(CONFIG.tickerGroups['Futures (Vorbörse)']).map(label =>
     priceCardHtml(label, rowsByLabel[label])
   );
   document.querySelector('#futures-section .tickers').innerHTML = cards.join('');
@@ -383,7 +413,7 @@ function renderPositionSections(rowsByLabel) {
   let html = '';
   Object.keys(CONFIG.sectorPositions).forEach(sector => {
     const tickers = CONFIG.sectorPositions[sector];
-    const cards = tickers.map(t => priceCardHtml((CONFIG.tickerNames[t] || t) + ' (' + t + ')', rowsByLabel[t]));
+    const cards = tickers.map(t => priceCardHtml((CONFIG.tickerNames[t] || t) + ' (' + t + ')', rowsByLabel[t], '', '', t));
     html += '<div class="section position-section" data-sector="' + esc(sector) + '" style="display:none">' +
       '<h2>' + esc(sector) + ' – Top ' + tickers.length + '</h2>' +
       '<div class="tickers">' + cards.join('') + '</div></div>';
@@ -427,7 +457,7 @@ function renderInvestHoldings(rowsByLabel) {
   let html = '';
   Object.keys(CONFIG.personalEtfs).forEach(name => {
     const tickers = CONFIG.personalEtfs[name];
-    const cards = tickers.map(t => priceCardHtml((CONFIG.tickerNames[t] || t) + ' (' + t + ')', rowsByLabel[t]));
+    const cards = tickers.map(t => priceCardHtml((CONFIG.tickerNames[t] || t) + ' (' + t + ')', rowsByLabel[t], '', '', t));
     html += '<div class="section position-section" data-etf="' + esc(name) + '" style="display:none">' +
       '<h2>' + esc(name) + ' – Top ' + tickers.length + '</h2>' +
       '<div class="tickers">' + cards.join('') + '</div></div>';
@@ -467,11 +497,14 @@ function setupMarketFilter() {
   const dropdown = document.getElementById('indizes-dropdown');
   let expanded = false;
   let filter = 'Alle';
+  const marketOpen = isUsMarketOpen();
 
   function apply() {
     const hasPositions = [...positionSections].some(s => s.dataset.sector === filter);
     globalSection.style.display = hasPositions ? 'none' : '';
-    futuresSection.style.display = hasPositions ? 'none' : '';
+    // Futures gelten nur der Vorboersen-Uebersicht: nur im "Alle"-Filter und
+    // nur solange die Kassaboerse noch geschlossen ist.
+    futuresSection.style.display = (filter === 'Alle' && !marketOpen) ? '' : 'none';
     globalCards.forEach(card => {
       if (filter === 'Alle') { card.classList.remove('dimmed'); return; }
       const sectors = (card.dataset.sectors || '').split('|');
@@ -533,6 +566,55 @@ function setupInvestFilter() {
   apply();
 }
 
+// ---------- Live-Kurse (Finnhub) ----------
+// Sammelt alle Einzel-Ticker (Sektor-Positionen + ETF-Holdings), die
+// Finnhub im Free-Tier in Echtzeit liefert (siehe isLiveEligible), einmal
+// dedupliziert - unabhaengig davon, in wie vielen Gruppen sie auftauchen.
+function collectLiveTickers() {
+  const set = new Set();
+  Object.values(CONFIG.sectorPositions).forEach(list => list.forEach(t => { if (isLiveEligible(t)) set.add(t); }));
+  Object.values(CONFIG.personalEtfs).forEach(list => list.forEach(t => { if (isLiveEligible(t)) set.add(t); }));
+  return [...set];
+}
+
+function updateCardLive(ticker, quote) {
+  // c=aktueller Kurs, pc=Vortagesschluss (Finnhub-Feldnamen)
+  if (!quote || !quote.c) return;
+  const changePct = quote.pc ? Math.round((quote.c - quote.pc) / quote.pc * 1000) / 10 : quote.dp;
+  document.querySelectorAll('.ticker-card[data-ticker="' + CSS.escape(ticker) + '"]').forEach(card => {
+    card.querySelector('.ticker-price').textContent = priceStrFor(quote.c);
+    const chg = card.querySelector('.chg');
+    if (chg) chg.outerHTML = changeHtmlFor(changePct);
+  });
+}
+
+async function fetchQuote(ticker) {
+  const res = await fetch('https://finnhub.io/api/v2/quote?symbol=' + encodeURIComponent(ticker) + '&token=' + FINNHUB_API_KEY);
+  if (!res.ok) throw new Error('Finnhub HTTP ' + res.status);
+  return res.json();
+}
+
+async function startLiveUpdates() {
+  if (!FINNHUB_API_KEY) return;
+  const tickers = collectLiveTickers();
+  for (;;) {
+    if (document.hidden) {
+      await new Promise(r => setTimeout(r, 10000));
+      continue;
+    }
+    for (const ticker of tickers) {
+      try {
+        const quote = await fetchQuote(ticker);
+        updateCardLive(ticker, quote);
+      } catch (e) {
+        console.warn('Live-Kurs fehlgeschlagen fuer', ticker, e);
+      }
+      await new Promise(r => setTimeout(r, FINNHUB_POLL_DELAY_MS));
+    }
+    await new Promise(r => setTimeout(r, FINNHUB_CYCLE_PAUSE_MS));
+  }
+}
+
 // ---------- Start ----------
 async function init() {
   renderMarketPills();
@@ -568,6 +650,7 @@ async function init() {
   setupTabs();
   setupMarketFilter();
   setupInvestFilter();
+  startLiveUpdates();
 }
 
 init();
