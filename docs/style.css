@@ -117,6 +117,7 @@ body {
   border-top: 1px solid #22262b; display: flex; flex-direction: column; gap: 3px;
 }
 .ticker-fundamentals .fund-row { display: flex; justify-content: space-between; gap: 8px; }
+.ticker-fundamentals .fund-row > span:last-child { text-align: right; word-break: break-word; }
 .ticker-fundamentals .chg { font-size: 0.68rem; }
 .ticker-fundamentals .fund-error { color: #f85149; font-size: 0.64rem; word-break: break-word; }
 
