@@ -780,6 +780,7 @@ function setupMarketFilter(rowsByLabel) {
   const pillsContainer = document.getElementById('pills-markets');
   const headlines = document.querySelectorAll('#headlines-markets .headline');
   const futuresSection = document.getElementById('futures-section');
+  const bondsSection = document.getElementById('bonds-section');
   const globalSection = document.getElementById('global-indices-section');
   const globalHeading = globalSection.querySelector('h2');
   const tickersGrid = globalSection.querySelector('.tickers');
@@ -801,6 +802,9 @@ function setupMarketFilter(rowsByLabel) {
     // Futures gelten nur der Vorboersen-Uebersicht: nur im "Alle"-Filter und
     // nur solange die Kassaboerse noch geschlossen ist.
     futuresSection.style.display = (filter === 'Alle' && !marketOpen) ? '' : 'none';
+    // Anleihen sind ein reines Makro-Barometer, gehoeren nur in die
+    // Gesamtuebersicht - genau wie Futures bei jedem Sektor-/Index-Filter ausblenden.
+    bondsSection.style.display = (filter === 'Alle') ? '' : 'none';
 
     // Ein einzelner ausgewaehlter Index (Nasdaq/S&P 500/DAX/KOSPI) bekommt eine
     // grosse, zentrierte Karte mit Mini-Graph statt des kleinen Grid-Feldes.
