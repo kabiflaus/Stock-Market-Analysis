@@ -64,7 +64,7 @@ body {
   opacity: 0; transform: scale(0.92); max-height: 0; padding-top: 0; padding-bottom: 0;
   border-width: 0; pointer-events: none;
 }
-.etf-card { cursor: pointer; }
+.etf-card { cursor: pointer; max-height: 150px; }
 .ticker-label { font-size: 0.75rem; color: #8b98a5; }
 .live-dot {
   display: inline-block; width: 6px; height: 6px; border-radius: 50%;
@@ -123,6 +123,7 @@ body {
 .big-index-price { font-size: 2.3rem; font-weight: 700; line-height: 1.1; }
 .big-index-card .chg { font-size: 1rem; display: inline-flex; margin-top: 4px; }
 .sparkline { display: block; width: 100%; height: 56px; margin-top: 14px; }
+.sparkline.small { height: 34px; margin-top: 8px; }
 
 /* Fed/Makro: eigener, optisch abgesetzter Block oberhalb der Sektor-Pillen -
    kein Filter mehr, immer sichtbar unabhaengig vom gewaehlten Sektor. */

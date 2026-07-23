@@ -39,6 +39,7 @@ TICKER_GROUPS = {
     },
     "Globale Indizes": {
         "S&P 500 (USA)": "^GSPC",
+        "Nasdaq Composite (USA)": "^IXIC",
         "DAX (Deutschland)": "^GDAXI",
         "Nikkei 225 (Japan)": "^N225",
         "FTSE 100 (UK)": "^FTSE",
@@ -49,6 +50,7 @@ TICKER_GROUPS = {
 
 TICKER_FLAGS = {
     "S&P 500 (USA)": "🇺🇸",
+    "Nasdaq Composite (USA)": "🇺🇸",
     "DAX (Deutschland)": "🇩🇪",
     "Nikkei 225 (Japan)": "🇯🇵",
     "FTSE 100 (UK)": "🇬🇧",
@@ -59,7 +61,7 @@ TICKER_FLAGS = {
 # Welche "Globale Indizes"-Ticker bei welchem Sektor-Filter eingeblendet
 # bleiben (nur fuer Sektoren OHNE eigene Positionsliste, s. SECTOR_POSITIONS).
 SECTOR_TICKER_MAP = {
-    "Nasdaq": ["S&P 500 (USA)"],
+    "Nasdaq": ["Nasdaq Composite (USA)"],
     "S&P 500": ["S&P 500 (USA)"],
     "DAX": ["DAX (Deutschland)"],
     "KOSPI": ["KOSPI (Südkorea)"],
