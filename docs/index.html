@@ -13,9 +13,6 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="topbar">
-    <button class="refresh-btn" onclick="location.href = location.pathname + '?t=' + Date.now();">↻ Aktualisieren</button>
-  </div>
   <h1 class="site-title">Morgen-Feed</h1>
   <div class="updated" id="updated-line">Lädt...</div>
 
@@ -26,7 +23,12 @@
 
   <!-- ============ MARKETS ============ -->
   <div id="view-markets" class="view">
-    <div class="pills" id="pills-markets"></div>
+    <div class="pills" id="pills-markets">
+      <button class="pill pill-all active" id="pill-alle-markets" data-label="Alle">Alle</button>
+      <div class="pills-row" id="pills-markets-sectors"></div>
+    </div>
+
+    <button class="refresh-btn" onclick="location.href = location.pathname + '?t=' + Date.now();">↻ Aktualisieren</button>
 
     <div class="section" id="futures-section">
       <h2>US-Futures (Vorbörse)</h2>
@@ -46,10 +48,13 @@
 
   <!-- ============ INVEST ============ -->
   <div id="view-invest" class="view" style="display:none">
-    <div class="pills" id="pills-invest"></div>
+    <div class="pills">
+      <button class="pill pill-all active" id="invest-alle-btn">Alle</button>
+    </div>
 
     <div class="section" id="invest-etf-section">
-      <div class="etf-cards"></div>
+      <h2>Deine ETFs</h2>
+      <div class="tickers"></div>
     </div>
 
     <div id="invest-holdings"></div>

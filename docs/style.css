@@ -4,11 +4,6 @@ body {
   background: #0d0f12; color: #e7e9ea; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   margin: 0; padding: 16px 16px 40px; max-width: 720px; margin-inline: auto;
 }
-.topbar { display: flex; justify-content: flex-end; }
-.refresh-btn {
-  background: #1f6feb22; color: #58a6ff; border: 1px solid #1f6feb55;
-  border-radius: 8px; padding: 6px 12px; font-size: 0.8rem; font-weight: 600;
-}
 .site-title {
   font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-size: 2.4rem;
   text-align: center; margin: 4px 0 2px; letter-spacing: -0.01em;
@@ -26,18 +21,37 @@ body {
   box-shadow: 0 0 0 3px #58a6ff55, 0 0 16px 2px #58a6ff88;
 }
 
-.pills { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-bottom: 28px; }
+.pills { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 16px; }
+.pills-row { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; position: relative; }
 .pill {
   background: transparent; color: #8b98a5; border: 1px solid #2a2f34;
   border-radius: 999px; padding: 5px 13px; font-size: 0.78rem; font-weight: 500;
 }
 .pill.active { background: #e7e9ea; color: #0d0f12; border-color: #e7e9ea; font-weight: 700; }
+.pill-all {
+  font-size: 0.85rem; padding: 6px 22px; border-width: 2px; font-weight: 700;
+}
+
+.dropdown { position: relative; display: inline-block; }
+.dropdown-menu {
+  display: none; position: absolute; top: 110%; left: 50%; transform: translateX(-50%);
+  background: #16191d; border: 1px solid #2a2f34; border-radius: 10px; padding: 6px;
+  gap: 6px; flex-direction: column; z-index: 10; min-width: 140px;
+}
+.dropdown.open .dropdown-menu { display: flex; }
+.dropdown-menu .pill { width: 100%; text-align: center; }
 
 .section { margin-bottom: 26px; }
 .section h2 {
   font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em;
   color: #8b98a5; font-weight: 600; margin: 0 0 10px;
 }
+
+.refresh-btn {
+  display: block; margin: 0 auto 18px; background: #1f6feb22; color: #58a6ff;
+  border: 1px solid #1f6feb55; border-radius: 8px; padding: 4px 12px; font-size: 0.72rem; font-weight: 600;
+}
+
 .tickers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
 .ticker-card {
   background: #16191d; border: 1px solid #2a2f34; border-radius: 10px; padding: 10px 12px;
@@ -49,21 +63,14 @@ body {
   opacity: 0; transform: scale(0.92); max-height: 0; padding-top: 0; padding-bottom: 0;
   border-width: 0; pointer-events: none;
 }
+.etf-card { cursor: pointer; }
 .ticker-label { font-size: 0.75rem; color: #8b98a5; }
 .ticker-price { font-size: 1.05rem; font-weight: 600; }
 .chg { font-size: 0.85rem; font-weight: 600; }
+.chg .arrow { margin-right: 3px; }
 .chg.up { color: #3fb950; }
 .chg.down { color: #f85149; }
-.chg.neutral { color: #8b98a5; }
-
-.etf-cards { display: grid; grid-template-columns: 1fr; gap: 8px; }
-.etf-card {
-  background: #16191d; border: 1px solid #2a2f34; border-radius: 12px; padding: 16px;
-  transition: opacity 0.35s ease, transform 0.35s ease, max-height 0.35s ease;
-}
-.etf-card.dimmed { opacity: 0; transform: scale(0.95); max-height: 0; padding: 0; border-width: 0; pointer-events: none; }
-.etf-name { font-size: 1rem; font-weight: 700; }
-.etf-hint { font-size: 0.75rem; color: #6e7681; margin-top: 4px; }
+.chg.neutral { color: #d4a72c; }
 
 .headlines { margin-top: 8px; }
 .headline { border-bottom: 1px solid #22262b; padding: 12px 0; }

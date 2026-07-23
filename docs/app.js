@@ -1,7 +1,7 @@
 // -----------------------------------------------------------------------
 // Struktur-Konfiguration. Aendert sich selten - nur anfassen wenn du
 // Sektoren/ETFs/Ticker-Zuordnungen aendern willst. Aktuelle Kurse/News
-// kommen separat aus data/market.json + data/headlines.json.
+// kommen separat aus data/headlines.json + data/market.json.
 // -----------------------------------------------------------------------
 const CONFIG = {
   "tickerGroups": {
@@ -164,6 +164,11 @@ const CONFIG = {
       "EDP.LS"
     ]
   },
+  "personalEtfTickers": {
+    "Scalable MSCI ACWI": "SCWX.DE",
+    "Amundi Stoxx Europe 600": "LYP6.DE",
+    "iShares Global Clean Energy": "Q8Y0.DE"
+  },
   "tickerNames": {
     "NVDA": "NVIDIA",
     "TSM": "Taiwan Semiconductor",
@@ -271,10 +276,17 @@ const CONFIG = {
     "insolvenz",
     "warnung",
     "profit warning"
+  ],
+  "indexPills": [
+    "Nasdaq",
+    "S&P 500",
+    "DAX",
+    "KOSPI"
   ]
 };
 
 const MAX_VISIBLE = 10;
+const NEUTRAL_THRESHOLD = 0.1; // Prozent - darunter gilt ein Ticker als "neutral" (gelb)
 
 // ---------- Hilfsfunktionen ----------
 function esc(s) {
@@ -294,6 +306,14 @@ function isPriority(title) {
   return CONFIG.priorityKeywords.some(kw => t.includes(kw));
 }
 
+// Richtung + Pfeil-Icon anhand von NEUTRAL_THRESHOLD bestimmen
+function direction(change) {
+  if (change === undefined || change === null) return { cls: 'neutral', arrow: '–' };
+  if (change > NEUTRAL_THRESHOLD) return { cls: 'up', arrow: '▲' };
+  if (change < -NEUTRAL_THRESHOLD) return { cls: 'down', arrow: '▼' };
+  return { cls: 'neutral', arrow: '▶' };
+}
+
 function priceCardHtml(label, row, flag, extraAttrs) {
   row = row || {};
   const change = row.change_pct;
@@ -301,9 +321,9 @@ function priceCardHtml(label, row, flag, extraAttrs) {
   if (change === undefined || change === null) {
     changeHtml = '<span class="chg neutral">n/a</span>';
   } else {
-    const cls = change > 0 ? 'up' : (change < 0 ? 'down' : 'neutral');
+    const dir = direction(change);
     const sign = change > 0 ? '+' : '';
-    changeHtml = '<span class="chg ' + cls + '">' + sign + change + '%</span>';
+    changeHtml = '<span class="chg ' + dir.cls + '"><span class="arrow">' + dir.arrow + '</span>' + sign + change + '%</span>';
   }
   const priceStr = (row.price !== undefined && row.price !== null)
     ? row.price.toLocaleString('de-DE', {minimumFractionDigits: 2, maximumFractionDigits: 2})
@@ -318,11 +338,26 @@ function priceCardHtml(label, row, flag, extraAttrs) {
 
 // ---------- Rendering: Markets-Tab ----------
 function renderMarketPills() {
-  let html = '<button class="pill active" data-label="Alle">Alle</button>';
+  // "Alle" separat/abgesetzt oben
+  document.getElementById('pill-alle-markets').outerHTML =
+    '<button class="pill pill-all active" id="pill-alle-markets" data-label="Alle">Alle</button>';
+
+  // Sektor-Pillen ohne die 4 reinen Index-Pillen (die wandern ins "Indizes"-Dropdown)
+  const indexPills = new Set(CONFIG.indexPills);
+  let html = '';
   CONFIG.sectorOrder.forEach(label => {
+    if (indexPills.has(label)) return;
     html += '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>';
   });
-  document.getElementById('pills-markets').innerHTML = html;
+  // "Indizes"-Dropdown-Button + Untermenü
+  html += '<div class="dropdown" id="indizes-dropdown">' +
+    '<button class="pill" id="indizes-toggle">Indizes ▾</button>' +
+    '<div class="dropdown-menu">' +
+    CONFIG.indexPills.map(label =>
+      '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>'
+    ).join('') +
+    '</div></div>';
+  document.getElementById('pills-markets-sectors').innerHTML = html;
 }
 
 function renderFutures(rowsByLabel) {
@@ -376,21 +411,15 @@ function headlineHtml(item, index, maxVisible) {
 }
 
 // ---------- Rendering: Invest-Tab ----------
-function renderInvestPills() {
-  let html = '<button class="pill active" data-label="Alle">Alle</button>';
-  Object.keys(CONFIG.personalEtfs).forEach(name => {
-    html += '<button class="pill" data-label="' + esc(name) + '">' + esc(name) + '</button>';
-  });
-  document.getElementById('pills-invest').innerHTML = html;
-}
-
-function renderEtfCards() {
-  const html = Object.keys(CONFIG.personalEtfs).map(name =>
-    '<div class="etf-card" data-etf="' + esc(name) + '">' +
-    '<div class="etf-name">' + esc(name) + '</div>' +
-    '<div class="etf-hint">antippen für Holdings →</div></div>'
-  ).join('');
-  document.querySelector('#invest-etf-section .etf-cards').innerHTML = html;
+function renderEtfCards(rowsByLabel) {
+  const html = Object.keys(CONFIG.personalEtfs).map(name => {
+    const ticker = CONFIG.personalEtfTickers[name];
+    const row = rowsByLabel[name] || {};
+    return priceCardHtml(name, row, '', ' data-etf="' + esc(name) + '"').replace(
+      'class="ticker-card"', 'class="ticker-card etf-card"'
+    );
+  }).join('');
+  document.querySelector('#invest-etf-section .tickers').innerHTML = html;
 }
 
 function renderInvestHoldings(rowsByLabel) {
@@ -428,13 +457,14 @@ function setupTabs() {
 
 // ---------- Interaktion: Markets-Filter ----------
 function setupMarketFilter() {
-  const pills = document.querySelectorAll('#pills-markets .pill');
+  const pillsContainer = document.getElementById('pills-markets');
   const headlines = document.querySelectorAll('#headlines-markets .headline');
   const futuresSection = document.getElementById('futures-section');
   const globalSection = document.getElementById('global-indices-section');
   const globalCards = globalSection.querySelectorAll('.ticker-card');
   const positionSections = document.querySelectorAll('.position-section[data-sector]');
   const moreBtn = document.getElementById('more-btn');
+  const dropdown = document.getElementById('indizes-dropdown');
   let expanded = false;
   let filter = 'Alle';
 
@@ -457,17 +487,28 @@ function setupMarketFilter() {
       h.style.display = hiddenByLimit ? 'none' : '';
     });
     if (moreBtn) moreBtn.style.display = (filter === 'Alle' && !expanded && headlines.length > MAX_VISIBLE) ? 'block' : 'none';
-    pills.forEach(p => p.classList.toggle('active', p.dataset.label === filter));
+    pillsContainer.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.label === filter));
+    dropdown.classList.remove('open');
   }
 
-  pills.forEach(p => p.addEventListener('click', () => { filter = p.dataset.label; expanded = false; apply(); }));
+  // Delegierter Klick-Handler, da die "Indizes"-Untermenue-Pillen dynamisch sind
+  pillsContainer.addEventListener('click', (e) => {
+    const toggle = e.target.closest('#indizes-toggle');
+    if (toggle) { dropdown.classList.toggle('open'); return; }
+    const pill = e.target.closest('.pill[data-label]');
+    if (!pill) return;
+    filter = pill.dataset.label;
+    expanded = false;
+    apply();
+  });
+
   if (moreBtn) moreBtn.addEventListener('click', () => { expanded = true; apply(); });
   apply();
 }
 
 // ---------- Interaktion: Invest-Filter ----------
 function setupInvestFilter() {
-  const pills = document.querySelectorAll('#pills-invest .pill');
+  const resetBtn = document.getElementById('invest-alle-btn');
   const headlines = document.querySelectorAll('#headlines-invest .headline');
   const etfCards = document.querySelectorAll('.etf-card');
   const holdingSections = document.querySelectorAll('.position-section[data-etf]');
@@ -481,18 +522,20 @@ function setupInvestFilter() {
       const allowed = (filter === 'Alle') ? investLabels : [filter];
       h.style.display = allowed.includes(h.dataset.label) ? '' : 'none';
     });
-    pills.forEach(p => p.classList.toggle('active', p.dataset.label === filter));
+    resetBtn.classList.toggle('active', filter === 'Alle');
   }
 
-  pills.forEach(p => p.addEventListener('click', () => { filter = p.dataset.label; apply(); }));
+  etfCards.forEach(card => card.addEventListener('click', () => {
+    filter = (filter === card.dataset.etf) ? 'Alle' : card.dataset.etf; // erneutes Antippen = zurueck zu Alle
+    apply();
+  }));
+  resetBtn.addEventListener('click', () => { filter = 'Alle'; apply(); });
   apply();
 }
 
 // ---------- Start ----------
 async function init() {
   renderMarketPills();
-  renderInvestPills();
-  renderEtfCards();
 
   let headlines = [];
   let market = { fetched_at: null, rows: [] };
@@ -514,6 +557,7 @@ async function init() {
   renderFutures(rowsByLabel);
   renderGlobalIndices(rowsByLabel);
   renderPositionSections(rowsByLabel);
+  renderEtfCards(rowsByLabel);
   renderInvestHoldings(rowsByLabel);
   renderMarketHeadlines(headlines);
   renderInvestHeadlines(headlines);
