@@ -102,7 +102,7 @@ body {
 .ticker-card.compact .ticker-price { font-size: 0.92rem; }
 .ticker-card.compact .chg { font-size: 0.76rem; }
 .ticker-card.compact.expandable { cursor: pointer; }
-.ticker-card.compact.expanded { max-height: 460px; }
+.ticker-card.compact.expanded { max-height: 400px; }
 .ticker-desc {
   font-size: 0.7rem; color: #8b98a5; line-height: 1.35;
   max-height: 0; overflow: hidden; opacity: 0;
@@ -113,12 +113,15 @@ body {
   border-top: 1px solid #22262b;
 }
 .ticker-fundamentals {
-  font-size: 0.68rem; color: #8b98a5; margin-top: 6px; padding-top: 6px;
-  border-top: 1px solid #22262b; display: flex; flex-direction: column; gap: 3px;
+  font-size: 0.7rem; color: #8b98a5; margin-top: 6px; padding-top: 6px;
+  border-top: 1px solid #22262b; display: flex; flex-direction: column; gap: 4px;
 }
-.ticker-fundamentals .fund-row { display: flex; justify-content: space-between; gap: 8px; }
+.ticker-fundamentals .fund-row { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
 .ticker-fundamentals .fund-row > span:last-child { text-align: right; word-break: break-word; }
-.ticker-fundamentals .chg { font-size: 0.68rem; }
+/* Marktkap. am staerksten hervorgehoben (weiss+fett), KGV/Nettomarge farbcodiert
+   aber etwas weniger fett - Werte sollen auf den ersten Blick lesbar sein. */
+.ticker-fundamentals .fund-value { color: #e7e9ea; font-weight: 700; }
+.ticker-fundamentals .chg { font-size: 0.72rem; font-weight: 600; }
 .ticker-fundamentals .fund-error { color: #f85149; font-size: 0.64rem; word-break: break-word; }
 
 /* Grosse, zentrierte Karte fuer einen einzeln ausgewaehlten Index

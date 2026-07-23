@@ -877,8 +877,13 @@ function formatMarketCap(millions) {
   return '$' + Math.round(usd).toLocaleString('de-DE');
 }
 
-function fmtEps(v) {
-  return (v !== undefined && v !== null && isFinite(v)) ? Number(v).toFixed(2) : 'n/a';
+// Grobe Einordnung "guenstig/teuer" anhand des KGV - eine reine Faustregel
+// ohne Sektor-/Wachstumsbezug, aber fuer einen schnellen ersten Eindruck okay.
+function peColorClass(pe) {
+  if (pe === undefined || pe === null || !isFinite(pe)) return 'neutral';
+  if (pe < 15) return 'up';    // eher guenstig/unterbewertet
+  if (pe > 25) return 'down';  // eher teuer/ueberbewertet
+  return 'neutral';
 }
 
 function fundamentalsHtml(data) {
@@ -887,37 +892,22 @@ function fundamentalsHtml(data) {
   const marketCap = formatMarketCap(m.marketCapitalization);
   const pe = m.peBasicExclExtraTTM ?? m.peExclExtraTTM ?? m.peTTM ?? m.peNormalizedAnnual;
   const peStr = (pe !== undefined && pe !== null && isFinite(pe)) ? pe.toFixed(1) + 'x' : 'n/a';
+  const peHtml = '<span class="chg ' + peColorClass(pe) + '">' + peStr + '</span>';
   const margin = m.netProfitMarginTTM ?? m.netProfitMarginAnnual ?? m.netMarginTTM;
   const marginHtml = (margin !== undefined && margin !== null && isFinite(margin))
     ? '<span class="chg ' + (margin > 0 ? 'up' : 'down') + '">' + margin.toFixed(1) + '%</span>'
     : '<span class="chg neutral">n/a</span>';
 
-  let earningsRow = '';
-  if (data.latestEarnings) {
-    const e = data.latestEarnings;
-    const hasBoth = e.actual !== null && e.actual !== undefined && e.estimate !== null && e.estimate !== undefined;
-    const beatCls = hasBoth ? (e.actual >= e.estimate ? 'up' : 'down') : 'neutral';
-    const valueStr = hasBoth
-      ? 'EPS ' + fmtEps(e.actual) + ' / erw. ' + fmtEps(e.estimate)
-      : 'EPS ' + fmtEps(e.actual);
-    earningsRow = '<div class="fund-row"><span>Letzte Quartalszahlen' +
-      (e.period ? ' (' + esc(e.period) + ')' : '') + '</span>' +
-      '<span class="chg ' + beatCls + '">' + esc(valueStr) + '</span></div>';
-  }
-
   // Fehlertext direkt mit anzeigen statt nur in der Konsole - einfacher zu
   // diagnostizieren, ohne dass dafuer die Browser-Devtools noetig sind.
-  let errorNote = '';
-  const errParts = [];
-  if (data.metricError) errParts.push('Kennzahlen: ' + data.metricError);
-  if (data.earningsError) errParts.push('Earnings: ' + data.earningsError);
-  if (errParts.length) errorNote = '<div class="fund-error">' + esc(errParts.join(' · ')) + '</div>';
+  const errorNote = data.metricError
+    ? '<div class="fund-error">Kennzahlen: ' + esc(data.metricError) + '</div>'
+    : '';
 
   return '<div class="ticker-fundamentals">' +
-    '<div class="fund-row"><span>Marktkapitalisierung</span><span>' + marketCap + '</span></div>' +
-    '<div class="fund-row"><span>KGV (P/E)</span><span>' + peStr + '</span></div>' +
+    '<div class="fund-row"><span>Marktkap.</span><span class="fund-value">' + marketCap + '</span></div>' +
+    '<div class="fund-row"><span>KGV (P/E)</span>' + peHtml + '</div>' +
     '<div class="fund-row"><span>Nettomarge</span>' + marginHtml + '</div>' +
-    earningsRow +
     errorNote +
     '</div>';
 }
@@ -956,17 +946,10 @@ async function fetchJsonSafe(url) {
 
 async function loadFundamentals(ticker) {
   if (fundamentalsCache.has(ticker)) return fundamentalsCache.get(ticker);
-  const [metricResult, earningsResult] = await Promise.all([
-    fetchJsonSafe(finnhubUrl('stock/metric', { symbol: ticker, metric: 'all' })),
-    fetchJsonSafe(finnhubUrl('stock/earnings', { symbol: ticker })),
-  ]);
-  const earningsList = Array.isArray(earningsResult.data) ? earningsResult.data.slice() : [];
-  earningsList.sort((a, b) => new Date(b.period || 0) - new Date(a.period || 0));
+  const metricResult = await fetchJsonSafe(finnhubUrl('stock/metric', { symbol: ticker, metric: 'all' }));
   const data = {
     metric: (metricResult.data && metricResult.data.metric) || {},
     metricError: metricResult.error || null,
-    latestEarnings: earningsList[0] || null,
-    earningsError: earningsResult.error || null,
   };
   fundamentalsCache.set(ticker, data);
   return data;
