@@ -861,13 +861,24 @@ function setupPositionExpand() {
 // nicht erneut Anfragen ausloest.
 const fundamentalsCache = new Map();
 
+// Grenzwert deutlich ueber der aktuell groessten realen Marktkapitalisierung -
+// manche auslaendisch gelisteten ADRs (z.B. TSM) liefern bei Finnhub
+// gelegentlich einen falsch skalierten/waehrungsverwechselten Wert. Statt
+// eine offensichtlich unsinnige Zahl (z.B. "$62T") anzuzeigen, dann lieber "n/a".
+const MARKET_CAP_SANITY_LIMIT_USD = 15e12;
+
 function formatMarketCap(millions) {
   if (millions === undefined || millions === null || !isFinite(millions)) return 'n/a';
   const usd = millions * 1e6;
+  if (usd > MARKET_CAP_SANITY_LIMIT_USD) return 'n/a';
   if (usd >= 1e12) return '$' + (usd / 1e12).toFixed(2) + 'T';
   if (usd >= 1e9) return '$' + (usd / 1e9).toFixed(2) + 'B';
   if (usd >= 1e6) return '$' + (usd / 1e6).toFixed(2) + 'M';
   return '$' + Math.round(usd).toLocaleString('de-DE');
+}
+
+function fmtEps(v) {
+  return (v !== undefined && v !== null && isFinite(v)) ? Number(v).toFixed(2) : 'n/a';
 }
 
 function fundamentalsHtml(data) {
@@ -887,8 +898,8 @@ function fundamentalsHtml(data) {
     const hasBoth = e.actual !== null && e.actual !== undefined && e.estimate !== null && e.estimate !== undefined;
     const beatCls = hasBoth ? (e.actual >= e.estimate ? 'up' : 'down') : 'neutral';
     const valueStr = hasBoth
-      ? 'EPS ' + e.actual + ' / erw. ' + e.estimate
-      : 'EPS ' + (e.actual ?? 'n/a');
+      ? 'EPS ' + fmtEps(e.actual) + ' / erw. ' + fmtEps(e.estimate)
+      : 'EPS ' + fmtEps(e.actual);
     earningsRow = '<div class="fund-row"><span>Letzte Quartalszahlen' +
       (e.period ? ' (' + esc(e.period) + ')' : '') + '</span>' +
       '<span class="chg ' + beatCls + '">' + esc(valueStr) + '</span></div>';
