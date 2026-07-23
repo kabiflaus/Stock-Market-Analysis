@@ -1,5 +1,19 @@
 [
   {
+    "label": "DAX",
+    "title": "Aktien mit extremer Performance im DAX am 23.07.2026 - Wallstreet Online",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOUN5dHc0YWJhb3hxelVvM0JVQXNOM0NSSHUtTWdKdEszLU95V2lqeFVQRlBwR0lCTWhZWENhcHlpZmx0dTR4c0VoNlE2UTRXTWtUVFptT1ZjZ0FnbGhPVmJaNHJiS1N0NlBRcWV5S2o1VENoSVdUbUNfbzRHSVRobG1jcFk2enNpSTY5MVNDaVUyM2pmcVBtdnRJd2E3WHREVGx4Vk13?oc=5",
+    "source": "Wallstreet Online",
+    "published": "2026-07-23T14:38:12+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "title": "Wall Street set for lower open as Alphabet and Tesla disappoint while oil prices climb: Dow Jones, S&P, Nasdaq, Futures - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORVhaSVIzQmxHandJVDJsell0anVtNHBRbk50cndvY2IwenVMUE9tY3N5TGs3LU11Qy1RQ2ZwVVMweTVUaHAtZWF1c3hkZTlKd2hvaUh1eUgtRWMtRmtId0FUS01paF8zMGh5M2FvMGVySElpUmtFdGpVQTdTajhBajlRMEJ5aExQcXVjX2VzbGl3Ukk3eXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-07-23T13:21:23+00:00"
+  },
+  {
     "label": "Amundi Stoxx Europe 600",
     "title": "European shares extend losses as ECB holds rates, but leaves door open to hikes - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ251cWdXRC1uZG05TFRjb0tHY2tDWWtfczVOSk9JOVFBR2JYS3E0WHdaTkJ0dG1UR01jMkdsYlliNWNiTEk5UUNSaUdWTXNSXzYydUZFMm9VdnJPcWhmUF9jVm9ocmMyLUNhVXp1MGZkM2tZdWtxYU5heXJzNTZYMUxWLUhrR2lPZEdjMS0tcnhPOVo2OE1zS09ISDJYYVk3emItdmUtOGQ1Q1dzVUZheVpRazlPOFloQnhURmV6dnRmbnMwY3ZuZVRUWEU?oc=5",
@@ -12,6 +26,13 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vblI0ZnhoVnRkR2FISkRsT3hDd0UzZVhPd1JmaGFldHpEY1BaTl96dmtCcXFvU0ZJdHJ0U3kxS0t6eTY3LUUzTXo5TExReU5IdWJsbVc5Z1pKekJuWVpxZTBkdjc2Tm52b3MxYVRFU0lFTEN3WW9B?oc=5",
     "source": "CNBC",
     "published": "2026-07-23T13:08:00+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "Aktien Frankfurt: Dax bleibt nach EZB-Entscheid unter Druck - Ölpreise ziehen an - 23.07.26 - News - Ariva",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnliV01mMEZlSG44T1VTdzBvdmM0dDRPc09fR3VTNzduUmtyT01FZHA1Q0FWVkNRcVRraVlydkFicXp5UW9LSWxpM0ZQM2RaTU80amhWdXd2Q3ZNRUtsX2tQZWlyeEQ1bVd0UmE3NFNrcFV2T3FsWTVQbkJ4RUlWX3lQR1YzQ19QSnVFazFNOEk2WFdxNUd5VFJ6dDB0LUJpSDlheXhn?oc=5",
+    "source": "Ariva",
+    "published": "2026-07-23T12:52:57+00:00"
   },
   {
     "label": "S&P 500",
@@ -105,6 +126,13 @@
     "published": "2026-07-23T08:24:15+00:00"
   },
   {
+    "label": "S&P 500",
+    "title": "US Stock Market Today: S&P 500 Futures Edge Lower On Rising Yields And Energy Jitters - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWHk0dEdnMXZKQ1pGS3BtOEtRVG1FRmtWZHFudW9WV2JOVFAzMXhtQy1OM3lxUlhfV1JMSVBwT0ZpWmpDMWxDNnVWUG1URlVLalRmUWp3S0xDSFJHSkNpdFdaQWtINXA4S2ROS1lYRGtubnp1ZURneXNOMVZMWU9UeEFmMFBXa2V0UloydkpjZlFjUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-07-23T08:13:01+00:00"
+  },
+  {
     "label": "iShares Global Clean Energy",
     "title": "China Unveils 15th Five-Year Green Energy Plan, Targeting 30% Wind and Solar Power Share by 2030 - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hOElfblZGajFXSEhFSkY1aEpNYTJ1WkhnQTZEZVJ4T1hPT3FlRzAyZ042S3gyN1VBakNjQjc2VEJTaUIxM2UxSWVRQnZ2eVFpU2RaOFFjU2pjMFkwZjJCT2ZWa3FiSEVqRW4zQlk1WThDMVVGR1E?oc=5",
@@ -141,7 +169,7 @@
   },
   {
     "label": "Scalable MSCI ACWI",
-    "title": "Oil price surge reignites inflation worries as ECB holds rates - Reuters",
+    "title": "Stocks sink on Big Tech cash burn; oil hits $100 for first time since May - Reuters",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01ZXA2WXo2VDZMLUZycUVJVDJ3bTlRSnpyUFg0VnRDUkU1OGVtNGVwQTlSYWgwbjlRRE1NS3RJWE0xTlJrekNsZnJEeHAyZlpGSkJCM2R5LU5uMmFTY2gtS3dmVHBhMGRnZ083S3pycEl0OS1jd2g5SngxQQ?oc=5",
     "source": "Reuters",
     "published": "2026-07-23T01:43:00+00:00"
@@ -280,6 +308,13 @@
     "published": "2026-07-22T08:30:11+00:00"
   },
   {
+    "label": "S&P 500",
+    "title": "US Stock Market Today S&P 500 Futures Rise On Earnings And Inflation Crosscurrents - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVkNPTmMzV2JvWGhOd1o0S0Q3Q0dJMkpYNV80ajlLR2NmdzJnb0tWYXA1bE9RbVFGcG5DVVB2UGZFS2d6VTlPRmVrcFZzSDV3Z0lIQXlwYWc3czdlOXlJaDVPRUt5OVNMZ2lpR3JKYkhLUFhHM3lvWDFmRXVKWmJ1eWRMR043aVNORnFITmJwblF1Zw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-07-22T08:10:13+00:00"
+  },
+  {
     "label": "DAX",
     "title": "UQ9TXX • DE000UQ9TXX0 • Aktueller Kurs Knock-Out-Optionsschein auf DAX - Onvista",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zUXVBTUVSc0k2VmxwaVpmSVYzYjhWU2NJTG56M0pXcUNfQTg5SGdQbnhnckdfLVAzaGZzZXlqTmNNdlRsQkdyS3NCMTZvUHAtVHVHSHFCUWxLZTBhNDFjNTdTSjhZQ1QwRVdfYkJIVW9hZDVFQTZfYWNhbnQ?oc=5",
@@ -390,6 +425,13 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWtwSUxwSWdhMGtPVmJNQ3FWdjNMRllYeGRWcVlwQmx2bUZ2UThka1hld0szSFE0YV9IV0NtWTRRcEV1OEFDdWRVMjZYcUItUEhGXzhvSWhReXFiSWd4aF9lb1pGbThRckxZQ3pKVER4ZF81UHJ5b1UxQ2d6ZjNNZVE1bklWNW5kZEZ0djhRQ2FzYW9sX2tjREdEWTB6OWNUeXUtVWdMVno4djJQ?oc=5",
     "source": "CarbonCredits.com",
     "published": "2026-07-20T22:26:08+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq rally fizzles as chip stock momentum fades, oil rises - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2ZVWlFvSkNRM3pBSzN6Vy1scXBZQzNfUGZXenUzTHNSSWtTVURVVUk1S1RQYWxTVEJOb2t6WG1LOEFMVXNuVWVndUdYZnNfb21KSVdmT2tJQ1lRXzVuWVliX3YwLWk3VDVGdU9BMUJYR3YxM0xOSHlwUlgtRDB3cjEzdWJ4ejRneUpxM2ZsMGRDMDVTODdWTlNERERUaGc3R2E2cHNwaUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-07-20T22:14:59+00:00"
   },
   {
     "label": "Nasdaq",
