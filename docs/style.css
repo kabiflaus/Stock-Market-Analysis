@@ -102,7 +102,7 @@ body {
 .ticker-card.compact .ticker-price { font-size: 0.92rem; }
 .ticker-card.compact .chg { font-size: 0.76rem; }
 .ticker-card.compact.expandable { cursor: pointer; }
-.ticker-card.compact.expanded { max-height: 260px; }
+.ticker-card.compact.expanded { max-height: 400px; }
 .ticker-desc {
   font-size: 0.7rem; color: #8b98a5; line-height: 1.35;
   max-height: 0; overflow: hidden; opacity: 0;
@@ -112,6 +112,12 @@ body {
   max-height: 200px; opacity: 1; margin-top: 6px; padding-top: 6px;
   border-top: 1px solid #22262b;
 }
+.ticker-fundamentals {
+  font-size: 0.68rem; color: #8b98a5; margin-top: 6px; padding-top: 6px;
+  border-top: 1px solid #22262b; display: flex; flex-direction: column; gap: 3px;
+}
+.ticker-fundamentals .fund-row { display: flex; justify-content: space-between; gap: 8px; }
+.ticker-fundamentals .chg { font-size: 0.68rem; }
 
 /* Grosse, zentrierte Karte fuer einen einzeln ausgewaehlten Index
    (Nasdaq/S&P 500/DAX/KOSPI) statt des kleinen Grid-Feldes, inkl. Mini-Graph. */

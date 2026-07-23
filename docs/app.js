@@ -597,11 +597,12 @@ function positionCardHtml(ticker, row, weight) {
   const weightHtml = (weight !== undefined) ? '<span class="ticker-weight">' + weight + '%</span>' : '';
   const live = isLiveEligible(ticker) && FINNHUB_API_KEY;
   const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
-  const tickerAttr = live ? ' data-ticker="' + esc(ticker) + '"' : '';
+  // data-ticker steht immer drauf (fuer die Kennzahlen-Abfrage beim Aufklappen),
+  // die Live-Kurs-Aktualisierung selbst filtert intern trotzdem auf isLiveEligible.
   const desc = CONFIG.tickerDescriptions[ticker];
   const descHtml = desc ? '<div class="ticker-desc">' + esc(desc) + '</div>' : '';
   const expandableClass = desc ? ' expandable' : '';
-  return '<div class="ticker-card compact' + expandableClass + '"' + tickerAttr + '>' +
+  return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '">' +
     '<div class="ticker-top">' +
       '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
       weightHtml +
@@ -840,16 +841,98 @@ function setupInvestFilter() {
 }
 
 // Klick/Tap auf eine Holding-Karte (Markets Top-20 + Invest-ETF-Holdings)
-// klappt die Firmenbeschreibung auf. Ein Handler je Container statt pro
-// Karte, da die Karten dynamisch sind.
+// klappt die Firmenbeschreibung auf und laedt bei Bedarf Kennzahlen nach.
+// Ein Handler je Container statt pro Karte, da die Karten dynamisch sind.
 function setupPositionExpand() {
   ['position-sections', 'invest-holdings'].forEach(id => {
     document.getElementById(id).addEventListener('click', (e) => {
       const card = e.target.closest('.ticker-card.expandable');
       if (!card) return;
       card.classList.toggle('expanded');
+      if (card.classList.contains('expanded')) loadCardFundamentals(card);
     });
   });
+}
+
+// ---------- Fundamentaldaten (Finnhub, on demand beim Aufklappen) ----------
+// Marktkap./KGV/Marge nur fuer US-gelistete Ticker (isLiveEligible) verfuegbar
+// - Finnhubs Free-Tier deckt auslaendische Boersen nicht ab. Wird nur einmal
+// pro Ticker geladen und danach gecacht, damit wiederholtes Auf-/Zuklappen
+// nicht erneut Anfragen ausloest.
+const fundamentalsCache = new Map();
+
+function formatMarketCap(millions) {
+  if (millions === undefined || millions === null || !isFinite(millions)) return 'n/a';
+  const usd = millions * 1e6;
+  if (usd >= 1e12) return '$' + (usd / 1e12).toFixed(2) + 'T';
+  if (usd >= 1e9) return '$' + (usd / 1e9).toFixed(2) + 'B';
+  if (usd >= 1e6) return '$' + (usd / 1e6).toFixed(2) + 'M';
+  return '$' + Math.round(usd).toLocaleString('de-DE');
+}
+
+function fundamentalsHtml(data) {
+  if (!data) return '<div class="ticker-fundamentals">Kennzahlen aktuell nicht verfügbar.</div>';
+  const m = data.metric || {};
+  const marketCap = formatMarketCap(m.marketCapitalization);
+  const pe = m.peBasicExclExtraTTM ?? m.peExclExtraTTM ?? m.peTTM ?? m.peNormalizedAnnual;
+  const peStr = (pe !== undefined && pe !== null && isFinite(pe)) ? pe.toFixed(1) + 'x' : 'n/a';
+  const margin = m.netProfitMarginTTM ?? m.netProfitMarginAnnual ?? m.netMarginTTM;
+  const marginHtml = (margin !== undefined && margin !== null && isFinite(margin))
+    ? '<span class="chg ' + (margin > 0 ? 'up' : 'down') + '">' + margin.toFixed(1) + '%</span>'
+    : '<span class="chg neutral">n/a</span>';
+
+  let earningsRow = '';
+  if (data.latestEarnings) {
+    const e = data.latestEarnings;
+    const hasBoth = e.actual !== null && e.actual !== undefined && e.estimate !== null && e.estimate !== undefined;
+    const beatCls = hasBoth ? (e.actual >= e.estimate ? 'up' : 'down') : 'neutral';
+    const valueStr = hasBoth
+      ? 'EPS ' + e.actual + ' / erw. ' + e.estimate
+      : 'EPS ' + (e.actual ?? 'n/a');
+    earningsRow = '<div class="fund-row"><span>Letzte Quartalszahlen' +
+      (e.period ? ' (' + esc(e.period) + ')' : '') + '</span>' +
+      '<span class="chg ' + beatCls + '">' + esc(valueStr) + '</span></div>';
+  }
+
+  return '<div class="ticker-fundamentals">' +
+    '<div class="fund-row"><span>Marktkapitalisierung</span><span>' + marketCap + '</span></div>' +
+    '<div class="fund-row"><span>KGV (P/E)</span><span>' + peStr + '</span></div>' +
+    '<div class="fund-row"><span>Nettomarge</span>' + marginHtml + '</div>' +
+    earningsRow +
+    '</div>';
+}
+
+async function loadFundamentals(ticker) {
+  if (fundamentalsCache.has(ticker)) return fundamentalsCache.get(ticker);
+  try {
+    const [metricRes, earningsRes] = await Promise.all([
+      fetch('https://finnhub.io/api/v2/stock/metric?symbol=' + encodeURIComponent(ticker) + '&metric=all&token=' + FINNHUB_API_KEY),
+      fetch('https://finnhub.io/api/v2/stock/earnings?symbol=' + encodeURIComponent(ticker) + '&token=' + FINNHUB_API_KEY),
+    ]);
+    const metricJson = metricRes.ok ? await metricRes.json() : {};
+    const earningsJson = earningsRes.ok ? await earningsRes.json() : [];
+    const earningsList = Array.isArray(earningsJson) ? earningsJson.slice() : [];
+    earningsList.sort((a, b) => new Date(b.period || 0) - new Date(a.period || 0));
+    const data = { metric: metricJson.metric || {}, latestEarnings: earningsList[0] || null };
+    fundamentalsCache.set(ticker, data);
+    return data;
+  } catch (e) {
+    console.warn('Kennzahlen fehlgeschlagen fuer', ticker, e);
+    return null;
+  }
+}
+
+async function loadCardFundamentals(card) {
+  const ticker = card.dataset.ticker;
+  if (!ticker || !FINNHUB_API_KEY || !isLiveEligible(ticker)) return;
+  if (card.querySelector('.ticker-fundamentals')) return; // schon geladen/laedt bereits
+  const desc = card.querySelector('.ticker-desc');
+  const box = document.createElement('div');
+  box.className = 'ticker-fundamentals';
+  box.textContent = 'Lade Kennzahlen…';
+  desc.insertAdjacentElement('afterend', box);
+  const data = await loadFundamentals(ticker);
+  box.outerHTML = fundamentalsHtml(data);
 }
 
 // ---------- Live-Kurse (Finnhub) ----------
