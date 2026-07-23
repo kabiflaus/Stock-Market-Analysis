@@ -1,5 +1,33 @@
 [
   {
+    "label": "Amundi Stoxx Europe 600",
+    "title": "European shares extend losses as ECB holds rates, but leaves door open to hikes - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ251cWdXRC1uZG05TFRjb0tHY2tDWWtfczVOSk9JOVFBR2JYS3E0WHdaTkJ0dG1UR01jMkdsYlliNWNiTEk5UUNSaUdWTXNSXzYydUZFMm9VdnJPcWhmUF9jVm9ocmMyLUNhVXp1MGZkM2tZdWtxYU5heXJzNTZYMUxWLUhrR2lPZEdjMS0tcnhPOVo2OE1zS09ISDJYYVk3emItdmUtOGQ1Q1dzVUZheVpRazlPOFloQnhURmV6dnRmbnMwY3ZuZVRUWEU?oc=5",
+    "source": "Investing.com",
+    "published": "2026-07-23T13:08:48+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "title": "Dow futures tumble 600 points as Brent crude tops $100, Alphabet and Tesla drop: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vblI0ZnhoVnRkR2FISkRsT3hDd0UzZVhPd1JmaGFldHpEY1BaTl96dmtCcXFvU0ZJdHJ0U3kxS0t6eTY3LUUzTXo5TExReU5IdWJsbVc5Z1pKekJuWVpxZTBkdjc2Tm52b3MxYVRFU0lFTEN3WW9B?oc=5",
+    "source": "CNBC",
+    "published": "2026-07-23T13:08:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "Stocks dip further after jobless claims data - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNSE5hTmctMWFfZE5VSms0ZWNlTkdMdWJZN2NZT0Q5Unh4R0tNSG1POWtLSGQzdzZkanJmV1k3X0NBUHhuc0dNVE1FNkQzUTQ1c2lWT3YwMW5NYzlmenJuSlVUc09WYzFiS0d2a1dVdjloNnpMN0N1UTVycGFvNGItSHBpMlhVSTNfZGRnMTBXYkNvWW9jMVdFZFVsU0J4by1DVVhtSG1vWmZ4TEpaRVp1STVud2psdl9vQzZWVmk5RVZkeEZ1Nmp2SVlwWEFEZHA1cmd6SG56YVZJdHZlQU1aMkxaNmlRZ0JZanFiWnhnVzdVNC1tOWF4NUN0QS15bHFvREhXMDNiZl9OXzJ4U3prZGp2andfZWFTU2w2ag?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-07-23T12:38:00+00:00"
+  },
+  {
+    "label": "iShares Global Clean Energy",
+    "title": "Green Energy Shares Witness Sharp Volatility Amid Weak Market Sentiment (23 July 2026) - SolarQuarter",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWTlHMnlqSFc1V3p1a09IWVY2c3o3SThFMUNVUnR3ZndXX2p1ZEtSRUhKODc0SlFOeE1tNWFLYTZ6R3llaUNIZHRaZ1I1cUJPdGxGQjYwMEFONGhkWnJyNWhLMHk1a3d2dVFBM21SQ0VLRjBZT01MY1A0Zy1XMk1tbnp5SF9KSWd1MHRXaVZmaFE4amFWWEstb2wyRjJBa1hadEFncXZoeWJGNW1xOUgzYjR4TWpoUkdkXzA1Y2d3?oc=5",
+    "source": "SolarQuarter",
+    "published": "2026-07-23T12:25:54+00:00"
+  },
+  {
     "label": "DAX",
     "title": "Dax nach EZB-Entscheid im Minus, SAP-Aktie unter Druck - Manager Magazin",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVUhEdk81MVJOTXlGdXNtUTR4TE9zZjE2dVlmdmR1NHZQc0RMV0ZoaGExc0J0YXBPVGNXbHZQdWxLdjctOHRyaTlEZE5NR3BYNjBleV95UGl3RDdWT3JWM3FXWlM5Z2RBeW51QW5PdmpHdm80WGIwQ0ZxeUJIYXdweUxtd2hVSDJUcVhLTEUwM2J5cVV0VG9GbDBaV01MQzNNaGNmSUlvWnhJczA5OU9QNWxjZEc3NnV6a1NkWkZfdzYwbUR4RjNYcGxIOVpWWVpMaHJlekNfOHRweEpyREliV0g3aTVwcW9p?oc=5",
@@ -35,11 +63,32 @@
     "published": "2026-07-23T09:56:00+00:00"
   },
   {
+    "label": "Amundi Stoxx Europe 600",
+    "title": "European stocks retreat as higher bond yields and ECB decision keep investors cautious: DAX, CAC, FTSE100 - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQWtDS00zV2FNcnJnVllFQmh3eFpuZ1lMM3c0UGlnMS03T1dSUEFOVUh0NVM2QWpOc2ktQm5obDFyN1NJd3JHNjdsdEZjVGh4V1YzQkhyM2Z6WGFhSmFCY0ZTRHVfYkpsTVRpUFduMEN4T0RNR0hJYzFmbHpTR0FRWFBSc2hENmtQeHVnSA?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-07-23T09:53:18+00:00"
+  },
+  {
+    "label": "Amundi Stoxx Europe 600",
+    "title": "European shares fall as STMicro results hit tech; Nestle tumbles - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWTl5VUQ2MFE5ZEphUUZfMXM2alQ5MjlNWlBIRzNoSDBfcVBxWGlSckEySGtPQXk4OERoRDkzZGd4NTJYMktwTVV6T2xtbl8wYVVxS2cwVHREelJZSndneHg0X3dadVZLOUI2ZGdsYmJKcnVHUERlbkt2YWdUb2dmRWlZZXZMTkd3OWZQN3JwNXRsSW9jTUtwZ0tGeWc3b3BtZDRZVDVyQmhOU1dab3RBbGkzdjd0WERsT08tWg?oc=5",
+    "source": "Reuters",
+    "published": "2026-07-23T09:44:18+00:00"
+  },
+  {
     "label": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures slip as markets weigh AI capex, widening Mideast attacks - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSFJSYlNkdmkteEZHVnV5VFh1QXdtSXJPSTRld1M3V1UtUXFDeTJvQW96VnI5aXVhc2xrZ1J3cGI5NDVJX0pBSkxfVFB0dFdURnZGc1MtMUdLNjR4aldFTzRkVy1nWlJzY2F2YWhEQnUwRmM2bEpEUVI1MnJ5M2owcnhPMzNjaUdTQXNud3l5Sm9fTHhfZDVFTFlfWENIaGQwSUlpMVZDTkttUkFzUGExTTdKdEh2YlhSWlJ5cE44b25LT3ZveEJkTFNsRm9uUWRjYmY3WEdESnZiNy1xekxGa25za0JOblB1bGc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-07-23T08:44:44+00:00"
+  },
+  {
+    "label": "Scalable MSCI ACWI",
+    "title": "Global stock markets move toward 24/7 trading, raising concerns over emergency pauses. - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcmpDMmNWTTE2UjBELXh6NVR1YUllem1kOERxWEV2RlZrX0JpQ2lIVzNUT1BrbFJ2T3pNOWU3VGdReTcwLVN6WGthdDlxemVTbmlnd1NlVEgzTk5UTlJLOXlTOHpOM09wZk9rNHVJRVU5YXNnbGN6Yi1rMldtU25xTEtFM1BzMV8wZi05bjlId0diQjNxVlFlMjBWVVNXNlBJTERBWFJRdHBsWFp5SmxQeGQ3em13enpFYWc?oc=5",
+    "source": "KuCoin",
+    "published": "2026-07-23T08:44:40+00:00"
   },
   {
     "label": "S&P 500",
@@ -63,6 +112,13 @@
     "published": "2026-07-23T07:57:00+00:00"
   },
   {
+    "label": "Amundi Stoxx Europe 600",
+    "title": "European Stock Indexes Fall as Tech Struggles Extend - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbG1NUTdCY2xGb0xTenpNMnFSSXVXV0hjZnV2Z1VudVFpdkUyNkpCNzVTako5RUR1Z1JFaXNVc3J5NFlmZHhKS1JXSlFMY0NOY1dVMnNJX3c2Mjd0OGFkZnk2cmtPWW1GeTlGSFByemQ3c202UXl0dU9pU3ZpSTVRQ1FRLWtPZw?oc=5",
+    "source": "WSJ",
+    "published": "2026-07-23T07:28:00+00:00"
+  },
+  {
     "label": "DAX",
     "title": "Märkte am Morgen: DAX zum Handelsstart leichter; Brent-Öl, Semiconductor Index, Alphabet, Servicenow, Tesla, SAP, Daimler Truck, Nokia, Verbio, Südzucker im Fokus - Der Aktionär",
     "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNajh0QXhCQnUyVFpacDJ1aEhpcGVJRW1SNmtGdE1ENmlHa0xISVNqMFk3UjlCTGxxTDg0eUxjWmxNUnJkbkFkUmNqRU5fbVN2Sm03MUxSQVRKOTVjcVJybDYxRUtHSGQ1bjFoZE1fWUQ4VjdQekY1THVrMnpfUHdrbkxTUy1aV0FRWVlBM0cxVnRCT1dPbEYydlNJWlktcG9rd2FtTTJrSlQzSFowaUhpTGlaMXRfZlN1LXV5Zk1SNGFOZEJhTV90bC15cDBfakI3TENBZ1NCbEJRb3BnbEhfMDlyWU1qd1BQTzhLeFR2V3UyVThqMUNEd1hETXNQbkFYa0J3WTE4UTRIS0stTzluYW1RUGdRX0xTclJOc0NDekc2d0l5Rk5kMUtDQS16SjcxbjZESXJn?oc=5",
@@ -84,11 +140,39 @@
     "published": "2026-07-23T05:08:27+00:00"
   },
   {
+    "label": "Scalable MSCI ACWI",
+    "title": "Oil price surge reignites inflation worries as ECB holds rates - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01ZXA2WXo2VDZMLUZycUVJVDJ3bTlRSnpyUFg0VnRDUkU1OGVtNGVwQTlSYWgwbjlRRE1NS3RJWE0xTlJrekNsZnJEeHAyZlpGSkJCM2R5LU5uMmFTY2gtS3dmVHBhMGRnZ083S3pycEl0OS1jd2g5SngxQQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-07-23T01:43:00+00:00"
+  },
+  {
     "label": "DAX",
     "title": "DAX: Airbus zieht den Index - Börse Global",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LZEh4S1MwM01SZEExRUF2WHE2QlFFY0dzYWptRE8tSjZ3UzNjQUJHVEJxNUs5WHpDRzM3Tm9FMi1EQ09oYng1QzhtTG5hUVNtSG1wSEVEMlBUUWxyYlEtRWN3bzNfN3RUaWg2b0UyYw?oc=5",
     "source": "Börse Global",
     "published": "2026-07-22T20:57:27+00:00"
+  },
+  {
+    "label": "Scalable MSCI ACWI",
+    "title": "Meet ‘Memi,’ the $3 trillion memory boom powering small-caps, emerging markets, and Japan - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVlhUOFR2MURYck90bG80WXBGakM2cEdfTWluYWtVNlZrR2djYk9RdWtEdjA1alJWLWJjTHVKRVdGVG1wbzJCMzFMZnpQSlpkWXBiRjFBaFFaRFczQU1CUk1ubG14Ql9VR29QMW9UQlUxVWxaeXREZnBQYUVWcExRTDdhWmM0TFN6LWI2R3F6OG5Dc1BC?oc=5",
+    "source": "Fortune",
+    "published": "2026-07-22T19:50:00+00:00"
+  },
+  {
+    "label": "iShares Global Clean Energy",
+    "title": "Top E&C Stocks to Play Power Demand and Clean Energy, Says Wolfe - Investing.com Nigeria",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeXNZenJJTjBaNlA2SEdpRUNaeXZ5SXpiYzl4RTR4c1J3dGdNU0tjY3pTcUo2MHdEQUphQVN5X2VGeUpBakJSMlVhRElkYmJTeFR6LWo5UUVqbHhBeVJxU3Jkb2tYelFIQTNzdnpIN29JZ1lsMklKV2M4MjdhMWtBRjN4YmpieEl3eVk3bXdzc0NJUVFRTjNJNkc1VzdpbUhZV0x1YXJHTTN6bXFRREZHQmVuSmRCNGZ5ODlOWFdzLTA?oc=5",
+    "source": "Investing.com Nigeria",
+    "published": "2026-07-22T19:31:34+00:00"
+  },
+  {
+    "label": "Scalable MSCI ACWI",
+    "title": "Oil prices spike, global stock markets mixed as Iran war escalates - Global News",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12dWVnVEtrRjMxNkZaNXhtdDVCeFNuVWdYQXp6ajVPTWpGVlFBVFdrOU9MNXhJc04zc1pXQ3hBOXZ0di0yLUo3ZW9ybEVYeHc2dTRSOXo1cU9SYV9CeXBWbTVnbllxNWZfbUgwMmk3MGw2ejl5?oc=5",
+    "source": "Global News",
+    "published": "2026-07-22T18:42:19+00:00"
   },
   {
     "label": "Fed / Makro",
@@ -102,7 +186,7 @@
     "title": "DAX unbeirrt auf Seitwärtskurs - Wallstreet Online",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV1o3MHV2OEpOUWYxLXpVS3lObURzZ21xYU9fbU94NmNqMHJwalcxbkl4WVc4aEFQV1hkUHByd3ROdEtyWXJpaVVsX2ZjTDJQUkdDdUNLZW1WUkhXenIteUlBWm1kWXI1UTBIbVk4dnJRU2tyRkhCLWFVWUxtVjl0d1h2a25iSWwtZ0x3NVY3djl6azlLWm1WWXdLYnZDSmR2NERPWA?oc=5",
     "source": "Wallstreet Online",
-    "published": "2026-07-22T17:55:27+00:00"
+    "published": "2026-07-22T17:55:31+00:00"
   },
   {
     "label": "Amundi Stoxx Europe 600",
@@ -140,7 +224,7 @@
     "published": "2026-07-22T14:11:11+00:00"
   },
   {
-    "label": "KOSPI",
+    "label": "Scalable MSCI ACWI",
     "title": "Explaining South Korea’s Stock Market Boom - Korea Economic Institute of America -",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5zSDN5Y0x6ZDZPNThLcDR1VXJITlNsSExkZXVlbDRFVzhZOFoyX2t0dWNMTmpGbWN4MkdoT0tjWFZTY1d5UEdlU2g0eWpfVGlzZVlHdTdUcm43aVVudDdraFJTZWZmeUU2ZGZJZHRGZkNQVEJJZjJR?oc=5",
     "source": "Korea Economic Institute of America -",
@@ -271,6 +355,13 @@
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONWVIeDVMNmRkM0tZck9DV1hhbGJnQ0ZpZVBkbWdnMHJuNi1VdVlnaTczVjhPNTFxbjhDQmZxWWYxMzdKWUhzSnBuTTlvbExyRXVFWUtjN1lTaWZqV0VRNXQzSWd4SjBuTDRDSFRvaFM4aWJtMWVNNGx1Y3kxcl9lNy1GVldPMGt6QUs3czFBZ0VnZ0I3Y2RILS03bUtrVWNvaENteFJnSjdnd090ZTBWUHJIRFNncTVhNDZjX2xoUDFUSFVfdzRId2NzTDZ3dUFBc2hWcG5EejU?oc=5",
     "source": "TradingView",
     "published": "2026-07-21T07:01:38+00:00"
+  },
+  {
+    "label": "Scalable MSCI ACWI",
+    "title": "London Stock Exchange to launch LSE 24 - LSEG",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMnh3X0szUjFWTndXeUtHUi1rYzRLZ2tLV0J3YlVtbzZFTk04TkNVc3MwWV9rODZvSGpuSjBUS3UzS0RaMWtKSE5NQ29tNjNJclV0STBxRWJwMHU1eHZnY0lpRDR1YnV1ZUJDZUlrSEdsZW9sR0hFNUVGcUJpWDdKUlBUUDhmWGtCSjdzRDA4b1hiWVJBQlE4Tzlpdw?oc=5",
+    "source": "LSEG",
+    "published": "2026-07-21T06:39:18+00:00"
   },
   {
     "label": "DAX",
