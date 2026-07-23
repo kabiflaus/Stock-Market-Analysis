@@ -22,6 +22,7 @@ body {
 }
 
 .pills { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 16px; }
+.pills-top { display: flex; gap: 8px; justify-content: center; align-items: center; }
 .pills-row { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; position: relative; }
 .pill {
   background: transparent; color: #8b98a5; border: 1px solid #2a2f34;
@@ -111,6 +112,17 @@ body {
   max-height: 200px; opacity: 1; margin-top: 6px; padding-top: 6px;
   border-top: 1px solid #22262b;
 }
+
+/* Grosse, zentrierte Karte fuer einen einzeln ausgewaehlten Index
+   (Nasdaq/S&P 500/DAX/KOSPI) statt des kleinen Grid-Feldes, inkl. Mini-Graph. */
+.big-index-card {
+  background: #16191d; border: 1px solid #2a2f34; border-radius: 14px;
+  padding: 20px; margin: 0 auto 8px; max-width: 280px; text-align: center;
+}
+.big-index-label { font-size: 0.95rem; color: #8b98a5; margin-bottom: 8px; }
+.big-index-price { font-size: 2.3rem; font-weight: 700; line-height: 1.1; }
+.big-index-card .chg { font-size: 1rem; display: inline-flex; margin-top: 4px; }
+.sparkline { display: block; width: 100%; height: 56px; margin-top: 14px; }
 
 /* Fed/Makro: eigener, optisch abgesetzter Block oberhalb der Sektor-Pillen -
    kein Filter mehr, immer sichtbar unabhaengig vom gewaehlten Sektor. */

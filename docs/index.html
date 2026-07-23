@@ -29,7 +29,13 @@
     </div>
 
     <div class="pills" id="pills-markets">
-      <button class="pill pill-all active" id="pill-alle-markets" data-label="Alle">Alle</button>
+      <div class="pills-top">
+        <button class="pill pill-all active" id="pill-alle-markets" data-label="Alle">Alle</button>
+        <div class="dropdown" id="indizes-dropdown">
+          <button class="pill pill-all" id="indizes-toggle">Indizes ▾</button>
+          <div class="dropdown-menu" id="indizes-menu"></div>
+        </div>
+      </div>
       <div class="pills-row" id="pills-markets-sectors"></div>
     </div>
 
@@ -42,6 +48,7 @@
 
     <div class="section" id="global-indices-section">
       <h2>Globale Indizes</h2>
+      <div class="big-index" id="big-index-view" style="display:none"></div>
       <div class="tickers"></div>
     </div>
 

@@ -146,6 +146,24 @@ const CONFIG = {
     "Amundi Stoxx Europe 600": "LYP6.DE",
     "iShares Global Clean Energy": "Q8Y0.DE"
   },
+  // Ungefaehre Gewichtung je Holding INNERHALB des jeweiligen ETFs (nicht zu
+  // verwechseln mit sectorWeights, das sind andere Referenz-Indizes). Nur
+  // fuer die Anzeige, manuell recherchiert (Stand Jul 2026), keine Live-Daten.
+  "personalEtfWeights": {
+    "Scalable MSCI ACWI": {
+      "NVDA": 4.5, "MSFT": 4.2, "AAPL": 3.8, "AMZN": 2.0, "META": 1.5,
+      "AVGO": 1.4, "GOOGL": 1.3, "GOOG": 1.1, "TSM": 1.0, "TSLA": 0.9
+    },
+    "Amundi Stoxx Europe 600": {
+      "ASML.AS": 2.8, "SIE.DE": 1.7, "NOVN.SW": 1.8, "NESN.SW": 1.7,
+      "SHEL.L": 1.6, "SAP.DE": 1.5, "AZN.L": 1.5, "ROG.SW": 1.3,
+      "HSBA.L": 1.2, "SAN.MC": 0.9
+    },
+    "iShares Global Clean Energy": {
+      "FSLR": 7.0, "IBE.MC": 6.0, "VWS.CO": 5.0, "EDP.LS": 4.5, "ENPH": 4.0,
+      "600900.SS": 4.0, "ORA": 3.5, "EQTL3.SA": 3.0, "BE": 3.0, "NXT": 2.5
+    }
+  },
   "tickerNames": {
     "NVDA": "NVIDIA",
     "TSM": "Taiwan Semiconductor",
@@ -377,7 +395,34 @@ const CONFIG = {
     "KDP": "Getränkekonzern (Kaffeekapselsysteme + Softdrinks wie Dr Pepper).",
     "HSY": "Größter US-Schokoladenhersteller.",
     "KHC": "Lebensmittelkonzern (u.a. Ketchup, Käseprodukte, Fertiggerichte).",
-    "CHD": "Konsumgüterkonzern (u.a. Arm & Hammer, Trojan)."
+    "CHD": "Konsumgüterkonzern (u.a. Arm & Hammer, Trojan).",
+    "AAPL": "Stellt iPhone, Mac und Dienste (App Store, iCloud) her – eines der wertvollsten Unternehmen der Welt.",
+    "MSFT": "Software- und Cloud-Konzern (Windows, Office, Azure), großer Investor in OpenAI/KI.",
+    "AMZN": "Größter Online-Händler der Welt, zugleich größter Cloud-Anbieter (AWS).",
+    "GOOGL": "Alphabet (Google-Mutterkonzern), Aktienklasse mit Stimmrecht – Suche, Werbung, YouTube, Cloud und KI (Gemini).",
+    "GOOG": "Alphabet (Google-Mutterkonzern), Aktienklasse ohne Stimmrecht – ansonsten identisches Geschäft wie GOOGL.",
+    "META": "Betreibt Facebook, Instagram und WhatsApp, investiert stark in KI und VR/AR.",
+    "TSLA": "Baut Elektroautos und arbeitet an Energiespeichern sowie Robotik/autonomem Fahren.",
+    "ASML.AS": "Einziger Hersteller von EUV-Lithografiemaschinen – ohne diese Maschinen keine modernen Chips.",
+    "ROG.SW": "Schweizer Pharma- und Diagnostik-Konzern, u.a. stark in Onkologie.",
+    "HSBA.L": "Eine der größten Banken Europas/der Welt, Fokus auf Asien-Geschäft.",
+    "AZN.L": "Britisch-schwedischer Pharmakonzern, u.a. Onkologie und Atemwegserkrankungen.",
+    "NOVN.SW": "Schweizer Pharmakonzern mit Fokus auf verschreibungspflichtige Medikamente.",
+    "NESN.SW": "Weltgrößter Lebensmittelkonzern (u.a. Nescafé, KitKat, Babynahrung).",
+    "SIE.DE": "Deutscher Industriekonzern – Automatisierung, Energietechnik, Mobilität.",
+    "SHEL.L": "Britisch-niederländischer Öl- und Gaskonzern, einer der globalen \"Supermajors\".",
+    "SAP.DE": "Größter europäischer Softwarekonzern, v.a. Unternehmenssoftware (ERP).",
+    "SAN.MC": "Eine der größten Banken Spaniens/Europas mit starkem Lateinamerika-Geschäft.",
+    "NXT": "Baut Nachführsysteme für Solarparks (Solar-Tracker), die Sonnenkollektoren effizienter ausrichten.",
+    "BE": "Stellt Brennstoffzellen zur dezentralen Stromerzeugung her.",
+    "FSLR": "Einer der größten US-Solarmodul-Hersteller.",
+    "IBE.MC": "Spanischer Energiekonzern, weltweit einer der größten im Bereich Windkraft.",
+    "600900.SS": "Größter Wasserkraft-Betreiber Chinas (u.a. Drei-Schluchten-Damm).",
+    "ORA": "Baut Geothermie-Kraftwerke zur Stromerzeugung aus Erdwärme.",
+    "ENPH": "Stellt Wechselrichter und Speichersysteme für Solaranlagen her.",
+    "EQTL3.SA": "Brasilianischer Energiekonzern (Stromverteilung/-erzeugung).",
+    "VWS.CO": "Einer der größten Windturbinen-Hersteller der Welt.",
+    "EDP.LS": "Portugiesischer Energiekonzern mit starkem Fokus auf erneuerbare Energien."
   },
   "priorityKeywords": [
     "fed",
@@ -503,13 +548,46 @@ function priceCardHtml(label, row, flag, extraAttrs, ticker) {
     '</div>';
 }
 
+// Kleiner Trend-Graph (letzte paar Tagesschluesse + aktueller Kurs) fuer die
+// grosse Index-Detailkarte. Reines SVG, keine Chart-Bibliothek.
+function sparklineSvg(closes, isUp) {
+  if (!closes || closes.length < 2) return '';
+  const w = 240, h = 56, pad = 4;
+  const min = Math.min(...closes), max = Math.max(...closes);
+  const range = (max - min) || 1;
+  const stepX = (w - pad * 2) / (closes.length - 1);
+  const points = closes.map((c, i) => {
+    const x = pad + i * stepX;
+    const y = pad + (1 - (c - min) / range) * (h - pad * 2);
+    return x.toFixed(1) + ',' + y.toFixed(1);
+  }).join(' ');
+  const color = isUp ? '#3fb950' : '#f85149';
+  return '<svg class="sparkline" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none">' +
+    '<polyline points="' + points + '" fill="none" stroke="' + color + '" stroke-width="2" ' +
+    'stroke-linejoin="round" stroke-linecap="round"/></svg>';
+}
+
+// Grosse, zentrierte Karte fuer einen ausgewaehlten Index (Nasdaq/S&P 500/
+// DAX/KOSPI) statt des kleinen Grid-Feldes - inkl. Mini-Graph der letzten Tage.
+function bigIndexCardHtml(label, row, flag) {
+  row = row || {};
+  const dir = direction(row.change_pct);
+  const spark = sparklineSvg(row.sparkline, dir.cls !== 'down');
+  const prefix = flag ? flag + ' ' : '';
+  return '<div class="big-index-card">' +
+    '<div class="big-index-label">' + prefix + esc(label) + '</div>' +
+    '<div class="big-index-price">' + priceStrFor(row.price) + '</div>' +
+    changeHtmlFor(row.change_pct) +
+    spark +
+    '</div>';
+}
+
 // Kompakte Karte fuer Sektor-Positionen: Ticker-Symbol gross+vorne (statt
 // Vollname), Vollname klein darunter, Gewichtung im Sektor-ETF oben rechts.
 // Klick/Tap klappt eine kurze Firmenbeschreibung auf (falls vorhanden).
-function positionCardHtml(ticker, row) {
+function positionCardHtml(ticker, row, weight) {
   row = row || {};
   const name = CONFIG.tickerNames[ticker] || ticker;
-  const weight = CONFIG.sectorWeights[ticker];
   const weightHtml = (weight !== undefined) ? '<span class="ticker-weight">' + weight + '%</span>' : '';
   const live = isLiveEligible(ticker) && FINNHUB_API_KEY;
   const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
@@ -533,7 +611,7 @@ function positionCardHtml(ticker, row) {
 
 // ---------- Rendering: Markets-Tab ----------
 function renderMarketPills() {
-  // "Alle" separat/abgesetzt oben
+  // "Alle" separat/abgesetzt oben, neben dem "Indizes"-Dropdown-Button
   document.getElementById('pill-alle-markets').outerHTML =
     '<button class="pill pill-all active" id="pill-alle-markets" data-label="Alle">Alle</button>';
 
@@ -544,15 +622,11 @@ function renderMarketPills() {
     if (indexPills.has(label)) return;
     html += '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>';
   });
-  // "Indizes"-Dropdown-Button + Untermenü
-  html += '<div class="dropdown" id="indizes-dropdown">' +
-    '<button class="pill" id="indizes-toggle">Indizes ▾</button>' +
-    '<div class="dropdown-menu">' +
-    CONFIG.indexPills.map(label =>
-      '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>'
-    ).join('') +
-    '</div></div>';
   document.getElementById('pills-markets-sectors').innerHTML = html;
+
+  document.getElementById('indizes-menu').innerHTML = CONFIG.indexPills.map(label =>
+    '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>'
+  ).join('');
 }
 
 function renderFutures(rowsByLabel) {
@@ -578,7 +652,7 @@ function renderPositionSections(rowsByLabel) {
   let html = '';
   Object.keys(CONFIG.sectorPositions).forEach(sector => {
     const tickers = CONFIG.sectorPositions[sector];
-    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t]));
+    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], CONFIG.sectorWeights[t]));
     html += '<div class="section position-section" data-sector="' + esc(sector) + '" style="display:none">' +
       '<h2>' + esc(sector) + ' – Top ' + tickers.length + '</h2>' +
       '<div class="tickers">' + cards.join('') + '</div></div>';
@@ -630,7 +704,8 @@ function renderInvestHoldings(rowsByLabel) {
   let html = '';
   Object.keys(CONFIG.personalEtfs).forEach(name => {
     const tickers = CONFIG.personalEtfs[name];
-    const cards = tickers.map(t => priceCardHtml((CONFIG.tickerNames[t] || t) + ' (' + t + ')', rowsByLabel[t], '', '', t));
+    const weights = CONFIG.personalEtfWeights[name] || {};
+    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], weights[t]));
     html += '<div class="section position-section" data-etf="' + esc(name) + '" style="display:none">' +
       '<h2>' + esc(name) + ' – Top ' + tickers.length + '</h2>' +
       '<div class="tickers">' + cards.join('') + '</div></div>';
@@ -659,30 +734,44 @@ function setupTabs() {
 }
 
 // ---------- Interaktion: Markets-Filter ----------
-function setupMarketFilter() {
+function setupMarketFilter(rowsByLabel) {
   const pillsContainer = document.getElementById('pills-markets');
   const headlines = document.querySelectorAll('#headlines-markets .headline');
   const futuresSection = document.getElementById('futures-section');
   const globalSection = document.getElementById('global-indices-section');
+  const tickersGrid = globalSection.querySelector('.tickers');
   const globalCards = globalSection.querySelectorAll('.ticker-card');
+  const bigIndexView = document.getElementById('big-index-view');
   const positionSections = document.querySelectorAll('.position-section[data-sector]');
   const moreBtn = document.getElementById('more-btn');
   const dropdown = document.getElementById('indizes-dropdown');
+  const indexPillSet = new Set(CONFIG.indexPills);
   let expanded = false;
   let filter = 'Alle';
   const marketOpen = isUsMarketOpen();
 
   function apply() {
     const hasPositions = [...positionSections].some(s => s.dataset.sector === filter);
+    const isIndexFilter = indexPillSet.has(filter);
     globalSection.style.display = hasPositions ? 'none' : '';
     // Futures gelten nur der Vorboersen-Uebersicht: nur im "Alle"-Filter und
     // nur solange die Kassaboerse noch geschlossen ist.
     futuresSection.style.display = (filter === 'Alle' && !marketOpen) ? '' : 'none';
-    globalCards.forEach(card => {
-      if (filter === 'Alle') { card.classList.remove('dimmed'); return; }
-      const sectors = (card.dataset.sectors || '').split('|');
-      card.classList.toggle('dimmed', !sectors.includes(filter));
-    });
+
+    // Ein einzelner ausgewaehlter Index (Nasdaq/S&P 500/DAX/KOSPI) bekommt eine
+    // grosse, zentrierte Karte mit Mini-Graph statt des kleinen Grid-Feldes.
+    tickersGrid.style.display = isIndexFilter ? 'none' : '';
+    bigIndexView.style.display = isIndexFilter ? '' : 'none';
+    if (isIndexFilter) {
+      const label = CONFIG.sectorTickerMap[filter][0];
+      bigIndexView.innerHTML = bigIndexCardHtml(label, rowsByLabel[label], CONFIG.tickerFlags[label] || '');
+    } else {
+      globalCards.forEach(card => {
+        if (filter === 'Alle') { card.classList.remove('dimmed'); return; }
+        const sectors = (card.dataset.sectors || '').split('|');
+        card.classList.toggle('dimmed', !sectors.includes(filter));
+      });
+    }
     positionSections.forEach(sec => {
       sec.style.display = (sec.dataset.sector === filter) ? '' : 'none';
     });
@@ -739,13 +828,16 @@ function setupInvestFilter() {
   apply();
 }
 
-// Klick/Tap auf eine Top-20-Holding-Karte klappt die Firmenbeschreibung auf
-// (ein Handler auf dem Container statt pro Karte, da die Karten dynamisch sind).
+// Klick/Tap auf eine Holding-Karte (Markets Top-20 + Invest-ETF-Holdings)
+// klappt die Firmenbeschreibung auf. Ein Handler je Container statt pro
+// Karte, da die Karten dynamisch sind.
 function setupPositionExpand() {
-  document.getElementById('position-sections').addEventListener('click', (e) => {
-    const card = e.target.closest('.ticker-card.expandable');
-    if (!card) return;
-    card.classList.toggle('expanded');
+  ['position-sections', 'invest-holdings'].forEach(id => {
+    document.getElementById(id).addEventListener('click', (e) => {
+      const card = e.target.closest('.ticker-card.expandable');
+      if (!card) return;
+      card.classList.toggle('expanded');
+    });
   });
 }
 
@@ -832,7 +924,7 @@ async function init() {
     'Kurse zuletzt: ' + (market.fetched_at ? fmtTime(market.fetched_at) : 'n/a');
 
   setupTabs();
-  setupMarketFilter();
+  setupMarketFilter(rowsByLabel);
   setupInvestFilter();
   setupPositionExpand();
   startLiveUpdates();

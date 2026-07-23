@@ -44,8 +44,12 @@ for _tickers in PERSONAL_ETFS.values():
 
 ALL_TICKERS = {**GROUP_TICKERS, **PERSONAL_ETF_TICKERS, **{t: t for t in _position_tickers}}
 
+# Fuer diese Labels (Globale Indizes) wird zusaetzlich eine kurze Kursreihe
+# gespeichert - Grundlage fuer den Mini-Graph bei der Index-Detailansicht.
+SPARKLINE_LABELS = set(TICKER_GROUPS["Globale Indizes"].keys())
 
-def fetch_ticker(ticker: str) -> tuple[float | None, float | None]:
+
+def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float]]:
     resp = SESSION.get(
         CHART_URL.format(ticker=ticker),
         params={"interval": "1d", "range": "5d"},
@@ -62,24 +66,35 @@ def fetch_ticker(ticker: str) -> tuple[float | None, float | None]:
     meta = result[0]["meta"]
     price = meta.get("regularMarketPrice")
     prev_close = meta.get("previousClose") or meta.get("chartPreviousClose")
-    return price, prev_close
+
+    closes = []
+    quotes = result[0].get("indicators", {}).get("quote", [{}])
+    if quotes:
+        closes = [round(c, 2) for c in quotes[0].get("close", []) or [] if c is not None]
+    if price is not None and (not closes or closes[-1] != price):
+        closes.append(round(price, 2))
+
+    return price, prev_close, closes
 
 
 def fetch_snapshot() -> list[dict]:
     rows = []
     for label, ticker in ALL_TICKERS.items():
         try:
-            price, prev_close = fetch_ticker(ticker)
+            price, prev_close, closes = fetch_ticker(ticker)
             change_pct = None
             if price is not None and prev_close:
                 change_pct = round((price - prev_close) / prev_close * 100, 2)
-            rows.append({
+            row = {
                 "label": label,
                 "ticker": ticker,
                 "price": round(price, 2) if price is not None else None,
                 "prev_close": round(prev_close, 2) if prev_close else None,
                 "change_pct": change_pct,
-            })
+            }
+            if label in SPARKLINE_LABELS:
+                row["sparkline"] = closes
+            rows.append(row)
         except Exception as e:
             print(f"[WARN] Fehler bei {label} ({ticker}): {e}", file=sys.stderr)
             rows.append({
