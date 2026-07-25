@@ -13,10 +13,10 @@ const CONFIG = {
       "Nikkei 225 Futures": "NIY=F"
     },
     "Globale Indizes": {
-      "S&P 500 (USA)": "^GSPC",
       "Nasdaq Composite (USA)": "^IXIC",
-      "DAX (Deutschland)": "^GDAXI",
+      "S&P 500 (USA)": "^GSPC",
       "Nikkei 225 (Japan)": "^N225",
+      "DAX (Deutschland)": "^GDAXI",
       "FTSE 100 (UK)": "^FTSE",
       "KOSPI (Südkorea)": "^KS11",
       "Hang Seng (Hongkong)": "^HSI"

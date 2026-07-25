@@ -48,11 +48,14 @@ TICKER_GROUPS = {
         "Russell 2000 Futures": "RTY=F",
         "Nikkei 225 Futures": "NIY=F",
     },
+    # Reihenfolge bewusst an die Futures-Gruppe angelehnt (Nasdaq, S&P 500,
+    # Nikkei zuerst - in der Reihenfolge, wie sie dort auftauchen), damit die
+    # gleichen Maerkte in beiden Sektionen an vergleichbarer Position stehen.
     "Globale Indizes": {
-        "S&P 500 (USA)": "^GSPC",
         "Nasdaq Composite (USA)": "^IXIC",
-        "DAX (Deutschland)": "^GDAXI",
+        "S&P 500 (USA)": "^GSPC",
         "Nikkei 225 (Japan)": "^N225",
+        "DAX (Deutschland)": "^GDAXI",
         "FTSE 100 (UK)": "^FTSE",
         "KOSPI (Südkorea)": "^KS11",
         "Hang Seng (Hongkong)": "^HSI",
