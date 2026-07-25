@@ -65,6 +65,9 @@ body {
   border-width: 0; pointer-events: none;
 }
 .etf-card { cursor: pointer; }
+/* Globale-Indizes-Karten mit Filter-Pendant (Nasdaq/S&P 500/DAX/KOSPI) sind
+   anklickbar und springen zum jeweiligen Index-Filter, s. setupMarketFilter. */
+#global-indices-section .ticker-card[data-sectors]:not([data-sectors=""]) { cursor: pointer; }
 .ticker-label { font-size: 0.75rem; color: #8b98a5; }
 .live-dot {
   display: inline-block; width: 6px; height: 6px; border-radius: 50%;

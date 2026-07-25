@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from curl_cffi import requests as cffi_requests
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import TICKER_GROUPS, SECTOR_POSITIONS, PERSONAL_ETFS, PERSONAL_ETF_TICKERS
+from config import TICKER_GROUPS, SECTOR_POSITIONS, PERSONAL_ETFS, PERSONAL_ETF_TICKERS, INDEX_HOLDINGS
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "market.json")
 
@@ -40,6 +40,8 @@ _position_tickers = set()
 for _tickers in SECTOR_POSITIONS.values():
     _position_tickers.update(_tickers)
 for _tickers in PERSONAL_ETFS.values():
+    _position_tickers.update(_tickers)
+for _tickers in INDEX_HOLDINGS.values():
     _position_tickers.update(_tickers)
 
 ALL_TICKERS = {**GROUP_TICKERS, **PERSONAL_ETF_TICKERS, **{t: t for t in _position_tickers}}
