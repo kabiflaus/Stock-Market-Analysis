@@ -115,6 +115,57 @@ const CONFIG = {
     "KVUE": 2.2, "MNST": 2.0, "STZ": 1.8, "GIS": 1.6, "KDP": 1.5, "HSY": 1.4,
     "KHC": 1.3, "CHD": 1.1
   },
+  // Top-Holdings je Index-Filter (Nasdaq/S&P 500/DAX/KOSPI aus dem "Indizes"-
+  // Dropdown), inkl. eigener Gewichtung (analog zu sectorWeights). Bewusst
+  // OHNE Einzel-Ticker-News (siehe positionCardHtml/loadCardExtras) - anders
+  // als die Sektor-/ETF-Holdings.
+  "indexHoldings": {
+    "Nasdaq": [
+      "NVDA", "AAPL", "MSFT", "AMZN", "AVGO", "GOOGL", "GOOG", "TSLA", "META", "COST",
+      "NFLX", "PEP", "ADBE", "CSCO", "AMD", "TMUS", "INTU", "CMCSA", "TXN", "QCOM"
+    ],
+    "S&P 500": [
+      "NVDA", "AAPL", "MSFT", "AMZN", "META", "AVGO", "GOOGL", "GOOG", "TSLA", "BRK.B",
+      "JPM", "LLY", "V", "UNH", "XOM", "WMT", "MA", "HD", "PG", "JNJ"
+    ],
+    "DAX": [
+      "SAP.DE", "SIE.DE", "ALV.DE", "DTE.DE", "AIR.DE", "MUV2.DE", "MBG.DE", "ENR.DE",
+      "DB1.DE", "BAS.DE", "RHM.DE", "IFX.DE", "BAYN.DE", "VOW3.DE", "DBK.DE"
+    ],
+    "KOSPI": [
+      "005930.KS", "000660.KS", "373220.KS", "207940.KS", "005380.KS", "068270.KS",
+      "035420.KS", "105560.KS", "055550.KS", "012330.KS", "051910.KS", "006400.KS",
+      "028260.KS", "032830.KS", "018260.KS"
+    ]
+  },
+  // Verschachtelt (nicht flach wie sectorWeights!): Nasdaq und S&P 500
+  // ueberschneiden sich bei den Mega-Caps stark, aber mit unterschiedlicher
+  // Gewichtung je Index - ein gemeinsamer Wert waere fuer eine der beiden Seiten falsch.
+  "indexWeights": {
+    "Nasdaq": {
+      "NVDA": 8.7, "AAPL": 7.1, "MSFT": 5.3, "AMZN": 4.9, "AVGO": 4.5, "GOOGL": 2.7,
+      "GOOG": 2.6, "TSLA": 2.5, "META": 2.4, "COST": 2.1, "NFLX": 2.0, "PEP": 1.6,
+      "ADBE": 1.3, "CSCO": 1.2, "AMD": 1.2, "TMUS": 1.1, "INTU": 1.1, "CMCSA": 1.0,
+      "TXN": 1.0, "QCOM": 0.9
+    },
+    "S&P 500": {
+      "NVDA": 7.0, "AAPL": 6.3, "MSFT": 4.6, "AMZN": 4.0, "META": 2.6, "AVGO": 2.4,
+      "GOOGL": 2.2, "GOOG": 1.9, "TSLA": 1.8, "BRK.B": 1.7, "JPM": 1.4, "LLY": 1.3,
+      "V": 1.1, "UNH": 1.0, "XOM": 1.0, "WMT": 1.0, "MA": 0.9, "HD": 0.9,
+      "PG": 0.8, "JNJ": 0.8
+    },
+    "DAX": {
+      "SAP.DE": 13.0, "SIE.DE": 8.0, "ALV.DE": 7.0, "DTE.DE": 6.5, "AIR.DE": 6.0,
+      "MUV2.DE": 5.0, "MBG.DE": 4.0, "ENR.DE": 4.0, "DB1.DE": 3.5, "BAS.DE": 3.0,
+      "RHM.DE": 3.0, "IFX.DE": 3.0, "BAYN.DE": 2.5, "VOW3.DE": 2.5, "DBK.DE": 2.5
+    },
+    "KOSPI": {
+      "005930.KS": 32.0, "000660.KS": 28.0, "373220.KS": 3.0, "207940.KS": 2.5,
+      "005380.KS": 2.0, "068270.KS": 1.8, "035420.KS": 1.5, "105560.KS": 1.3,
+      "055550.KS": 1.2, "012330.KS": 1.1, "051910.KS": 1.0, "006400.KS": 0.9,
+      "028260.KS": 0.9, "032830.KS": 0.8, "018260.KS": 0.7
+    }
+  },
   "personalEtfs": {
     "Scalable MSCI ACWI": [
       "NVDA",
@@ -303,7 +354,46 @@ const CONFIG = {
     "ENPH": "Enphase Energy",
     "EQTL3.SA": "Equatorial Energia",
     "VWS.CO": "Vestas Wind",
-    "EDP.LS": "EDP"
+    "EDP.LS": "EDP",
+    "NFLX": "Netflix",
+    "ADBE": "Adobe",
+    "CSCO": "Cisco Systems",
+    "TMUS": "T-Mobile US",
+    "INTU": "Intuit",
+    "CMCSA": "Comcast",
+    "BRK.B": "Berkshire Hathaway",
+    "JPM": "JPMorgan Chase",
+    "V": "Visa",
+    "MA": "Mastercard",
+    "HD": "Home Depot",
+    "ALV.DE": "Allianz",
+    "DTE.DE": "Deutsche Telekom",
+    "AIR.DE": "Airbus",
+    "MUV2.DE": "Munich Re",
+    "MBG.DE": "Mercedes-Benz Group",
+    "ENR.DE": "Siemens Energy",
+    "DB1.DE": "Deutsche Börse",
+    "BAS.DE": "BASF",
+    "RHM.DE": "Rheinmetall",
+    "IFX.DE": "Infineon",
+    "BAYN.DE": "Bayer",
+    "VOW3.DE": "Volkswagen",
+    "DBK.DE": "Deutsche Bank",
+    "005930.KS": "Samsung Electronics",
+    "000660.KS": "SK Hynix",
+    "373220.KS": "LG Energy Solution",
+    "207940.KS": "Samsung Biologics",
+    "005380.KS": "Hyundai Motor",
+    "068270.KS": "Celltrion",
+    "035420.KS": "NAVER",
+    "105560.KS": "KB Financial Group",
+    "055550.KS": "Shinhan Financial Group",
+    "012330.KS": "Hyundai Mobis",
+    "051910.KS": "LG Chem",
+    "006400.KS": "Samsung SDI",
+    "028260.KS": "Samsung C&T",
+    "032830.KS": "Samsung Life Insurance",
+    "018260.KS": "Samsung SDS"
   },
   // Kurzbeschreibung je Top-20-Holding (Markets-Tab, Klick zum Aufklappen).
   // Nur fuer die Anzeige, manuell verfasst - keine Live-Daten/API.
@@ -434,7 +524,46 @@ const CONFIG = {
     "ENPH": "Stellt Wechselrichter und Speichersysteme für Solaranlagen her.",
     "EQTL3.SA": "Brasilianischer Energiekonzern (Stromverteilung/-erzeugung).",
     "VWS.CO": "Einer der größten Windturbinen-Hersteller der Welt.",
-    "EDP.LS": "Portugiesischer Energiekonzern mit starkem Fokus auf erneuerbare Energien."
+    "EDP.LS": "Portugiesischer Energiekonzern mit starkem Fokus auf erneuerbare Energien.",
+    "NFLX": "Größter Streaming-Anbieter der Welt (Serien, Filme).",
+    "ADBE": "Software fürs kreative Arbeiten (Photoshop, PDF) und Marketing, zunehmend mit KI-Funktionen.",
+    "CSCO": "Größter Hersteller von Netzwerktechnik (Router, Switches) für Unternehmen und Rechenzentren.",
+    "TMUS": "Drittgrößter US-Mobilfunkanbieter, entstanden aus der Fusion von T-Mobile und Sprint.",
+    "INTU": "Software für Buchhaltung und Steuern (u.a. TurboTax, QuickBooks).",
+    "CMCSA": "Kabelnetzbetreiber und Medienkonzern (u.a. NBCUniversal, Sky).",
+    "BRK.B": "Warren Buffetts Beteiligungsholding – hält u.a. Anteile an Apple, Versicherungen und Eisenbahnen.",
+    "JPM": "Größte US-Bank nach Bilanzsumme.",
+    "V": "Betreibt eines der beiden großen globalen Kartenzahlungsnetzwerke (Visa) – kein eigener Kreditgeber.",
+    "MA": "Betreibt das zweite große globale Kartenzahlungsnetzwerk, ähnlich wie Visa.",
+    "HD": "Größte US-Baumarktkette.",
+    "ALV.DE": "Einer der größten Versicherungskonzerne der Welt.",
+    "DTE.DE": "Deutscher Telekomkonzern, hält u.a. die Mehrheit an T-Mobile US.",
+    "AIR.DE": "Europäischer Flugzeughersteller, größter Boeing-Konkurrent.",
+    "MUV2.DE": "Einer der größten Rückversicherer der Welt (versichert andere Versicherungen).",
+    "MBG.DE": "Deutscher Autohersteller (Mercedes-Benz Pkw und Transporter).",
+    "ENR.DE": "Baut Kraftwerks- und Energieinfrastruktur (u.a. Gasturbinen, Windkraft), abgespalten von Siemens.",
+    "DB1.DE": "Betreibt die Frankfurter Wertpapierbörse und weitere Handelsplattformen.",
+    "BAS.DE": "Weltgrößter Chemiekonzern.",
+    "RHM.DE": "Deutscher Rüstungskonzern, profitiert stark von steigenden Verteidigungsausgaben in Europa.",
+    "IFX.DE": "Größter deutscher Halbleiterhersteller, u.a. Chips für Autos und Industrie.",
+    "BAYN.DE": "Deutscher Pharma- und Agrarchemie-Konzern (u.a. Aspirin, Saatgut/Pestizide).",
+    "VOW3.DE": "Deutscher Automobilkonzern (VW, Audi, Porsche, u.a.).",
+    "DBK.DE": "Größte deutsche Bank.",
+    "005930.KS": "Größter Elektronikkonzern Südkoreas – Speicherchips, Smartphones, Displays.",
+    "000660.KS": "Zweitgrößter Speicherchip-Hersteller der Welt, stark vom KI-Boom getrieben (HBM-Speicher für KI-Server).",
+    "373220.KS": "Einer der größten Batteriehersteller der Welt für Elektrofahrzeuge.",
+    "207940.KS": "Auftragsfertiger für Biotech-Medikamente (Biopharmazeutika).",
+    "005380.KS": "Größter südkoreanischer Autohersteller.",
+    "068270.KS": "Biotech-Unternehmen, v.a. Biosimilars (Nachahmer-Biopharmazeutika).",
+    "035420.KS": "Betreibt Südkoreas größte Suchmaschine/Internetplattform, vergleichbar mit Google.",
+    "105560.KS": "Größte Finanzholding Südkoreas (Bank, Versicherung, Kartengeschäft).",
+    "055550.KS": "Große südkoreanische Finanzholding (Bank- und Versicherungsgeschäft).",
+    "012330.KS": "Zulieferer für Auto-Teile innerhalb der Hyundai-Unternehmensgruppe.",
+    "051910.KS": "Südkoreanischer Chemiekonzern, u.a. Batteriematerialien.",
+    "006400.KS": "Stellt Batterien her, u.a. für Elektrofahrzeuge – Teil der Samsung-Gruppe.",
+    "028260.KS": "Bau- und Handelssparte der Samsung-Gruppe.",
+    "032830.KS": "Größter Lebensversicherer Südkoreas, Teil der Samsung-Gruppe.",
+    "018260.KS": "IT-Dienstleister der Samsung-Gruppe (Systemintegration, Logistiksoftware)."
   },
   "priorityKeywords": [
     "fed",
@@ -605,7 +734,7 @@ function bigIndexCardHtml(label, row, flag) {
 // Kompakte Karte fuer Sektor-Positionen: Ticker-Symbol gross+vorne (statt
 // Vollname), Vollname klein darunter, Gewichtung im Sektor-ETF oben rechts.
 // Klick/Tap klappt eine kurze Firmenbeschreibung auf (falls vorhanden).
-function positionCardHtml(ticker, row, weight) {
+function positionCardHtml(ticker, row, weight, noNews) {
   row = row || {};
   const name = CONFIG.tickerNames[ticker] || ticker;
   const weightHtml = (weight !== undefined) ? '<span class="ticker-weight">' + weight + '%</span>' : '';
@@ -613,10 +742,11 @@ function positionCardHtml(ticker, row, weight) {
   const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
   // data-ticker steht immer drauf (fuer die Kennzahlen-Abfrage beim Aufklappen),
   // die Live-Kurs-Aktualisierung selbst filtert intern trotzdem auf isLiveEligible.
+  const noNewsAttr = noNews ? ' data-no-news="1"' : '';
   const desc = CONFIG.tickerDescriptions[ticker];
   const descHtml = desc ? '<div class="ticker-desc">' + esc(desc) + '</div>' : '';
   const expandableClass = desc ? ' expandable' : '';
-  return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '">' +
+  return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '"' + noNewsAttr + '>' +
     '<div class="ticker-top">' +
       '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
       weightHtml +
@@ -682,6 +812,23 @@ function renderPositionSections(rowsByLabel) {
     const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], CONFIG.sectorWeights[t]));
     html += '<div class="section position-section" data-sector="' + esc(sector) + '" style="display:none">' +
       '<h2>' + esc(sector) + ' – Top ' + tickers.length + '</h2>' +
+      '<div class="tickers">' + cards.join('') + '</div></div>';
+  });
+  container.innerHTML = html;
+}
+
+// Top-Holdings des jeweils ausgewaehlten Index (Nasdaq/S&P 500/DAX/KOSPI aus
+// dem "Indizes"-Dropdown) - nur sichtbar bei genau diesem Filter, siehe
+// setupMarketFilter. Bewusst ohne Einzel-Ticker-News (noNews=true).
+function renderIndexHoldings(rowsByLabel) {
+  const container = document.getElementById('index-holdings');
+  let html = '';
+  Object.keys(CONFIG.indexHoldings).forEach(indexLabel => {
+    const tickers = CONFIG.indexHoldings[indexLabel];
+    const weights = CONFIG.indexWeights[indexLabel] || {};
+    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], weights[t], true));
+    html += '<div class="section position-section" data-index="' + esc(indexLabel) + '" style="display:none">' +
+      '<h2>' + esc(indexLabel) + ' – Top ' + tickers.length + ' Holdings</h2>' +
       '<div class="tickers">' + cards.join('') + '</div></div>';
   });
   container.innerHTML = html;
@@ -790,6 +937,7 @@ function setupMarketFilter(rowsByLabel) {
   const globalCards = globalSection.querySelectorAll('.ticker-card');
   const bigIndexView = document.getElementById('big-index-view');
   const positionSections = document.querySelectorAll('.position-section[data-sector]');
+  const indexHoldingSections = document.querySelectorAll('.position-section[data-index]');
   const moreBtn = document.getElementById('more-btn');
   const sektorDropdown = document.getElementById('sektor-dropdown');
   const indizesDropdown = document.getElementById('indizes-dropdown');
@@ -828,6 +976,10 @@ function setupMarketFilter(rowsByLabel) {
     positionSections.forEach(sec => {
       sec.style.display = (sec.dataset.sector === filter) ? '' : 'none';
     });
+    // Top-Holdings des ausgewaehlten Index unter der grossen Index-Karte zeigen.
+    indexHoldingSections.forEach(sec => {
+      sec.style.display = (sec.dataset.index === filter) ? '' : 'none';
+    });
     headlines.forEach((h, i) => {
       const matches = (filter === 'Alle') || (h.dataset.label === filter);
       if (!matches) { h.style.display = 'none'; return; }
@@ -849,6 +1001,20 @@ function setupMarketFilter(rowsByLabel) {
     const pill = e.target.closest('.pill[data-label]');
     if (!pill) return;
     filter = pill.dataset.label;
+    expanded = false;
+    apply();
+  });
+
+  // Klick auf eine Globale-Indizes-Karte (z.B. DAX) im "Alle"-Raster springt
+  // direkt zu diesem Index-Filter - so als haette man ihn im "Indizes"-Dropdown
+  // ausgewaehlt. data-sectors traegt bereits den passenden Filter-Namen (siehe
+  // renderGlobalIndices); Karten ohne Filter-Pendant (z.B. Nikkei) reagieren nicht.
+  tickersGrid.addEventListener('click', (e) => {
+    const card = e.target.closest('.ticker-card[data-sectors]');
+    if (!card) return;
+    const sectors = (card.dataset.sectors || '').split('|').filter(Boolean);
+    if (!sectors.length) return;
+    filter = sectors[0];
     expanded = false;
     apply();
   });
@@ -884,11 +1050,12 @@ function setupInvestFilter() {
   apply();
 }
 
-// Klick/Tap auf eine Holding-Karte (Markets Top-20 + Invest-ETF-Holdings)
-// klappt die Firmenbeschreibung auf und laedt bei Bedarf Kennzahlen nach.
-// Ein Handler je Container statt pro Karte, da die Karten dynamisch sind.
+// Klick/Tap auf eine Holding-Karte (Markets Top-20 + Invest-ETF-Holdings +
+// Index-Holdings) klappt die Firmenbeschreibung auf und laedt bei Bedarf
+// Kennzahlen nach. Ein Handler je Container statt pro Karte, da die Karten
+// dynamisch sind.
 function setupPositionExpand() {
-  ['position-sections', 'invest-holdings'].forEach(id => {
+  ['position-sections', 'invest-holdings', 'index-holdings'].forEach(id => {
     document.getElementById(id).addEventListener('click', (e) => {
       const card = e.target.closest('.ticker-card.expandable');
       if (!card) return;
@@ -1021,9 +1188,11 @@ async function loadCardExtras(card) {
   if (!ticker) return;
   if (card.querySelector('.ticker-fundamentals') || card.querySelector('.ticker-news')) return;
   const desc = card.querySelector('.ticker-desc');
+  const skipNews = card.dataset.noNews === '1';
+  const news = () => (skipNews ? '' : tickerNewsHtml(ticker));
   const canFetchFundamentals = FINNHUB_API_KEY && isLiveEligible(ticker);
   if (!canFetchFundamentals) {
-    const newsHtml = tickerNewsHtml(ticker);
+    const newsHtml = news();
     if (newsHtml) desc.insertAdjacentHTML('afterend', newsHtml);
     return;
   }
@@ -1032,7 +1201,7 @@ async function loadCardExtras(card) {
   box.textContent = 'Lade Kennzahlen…';
   desc.insertAdjacentElement('afterend', box);
   const data = await loadFundamentals(ticker);
-  box.outerHTML = fundamentalsHtml(data) + tickerNewsHtml(ticker);
+  box.outerHTML = fundamentalsHtml(data) + news();
 }
 
 // ---------- Live-Kurse (Finnhub) ----------
@@ -1110,6 +1279,7 @@ async function init() {
   renderGlobalIndices(rowsByLabel);
   renderBonds(rowsByLabel);
   renderPositionSections(rowsByLabel);
+  renderIndexHoldings(rowsByLabel);
   renderEtfCards(rowsByLabel);
   renderInvestHoldings(rowsByLabel);
   renderMarketHeadlines(headlines);

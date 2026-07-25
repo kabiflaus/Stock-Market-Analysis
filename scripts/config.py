@@ -121,6 +121,22 @@ SECTOR_POSITIONS = {
                     "SYY", "KMB", "KVUE", "MNST", "STZ", "GIS", "KDP", "HSY", "KHC", "CHD"],  # ref: XLP
 }
 
+# Top-Holdings je Index-Filter (Nasdaq/S&P 500/DAX/KOSPI aus dem "Indizes"-
+# Dropdown). Viel Ueberschneidung mit SECTOR_POSITIONS/PERSONAL_ETFS bei
+# Nasdaq/S&P 500 (US-Mega-Caps), DAX/KOSPI komplett eigene Ticker. Manuell
+# gepflegt (Stand Jul 2026), Gewichte s. indexWeights in app.js.
+INDEX_HOLDINGS = {
+    "Nasdaq": ["NVDA", "AAPL", "MSFT", "AMZN", "AVGO", "GOOGL", "GOOG", "TSLA", "META", "COST",
+               "NFLX", "PEP", "ADBE", "CSCO", "AMD", "TMUS", "INTU", "CMCSA", "TXN", "QCOM"],
+    "S&P 500": ["NVDA", "AAPL", "MSFT", "AMZN", "META", "AVGO", "GOOGL", "GOOG", "TSLA", "BRK.B",
+                "JPM", "LLY", "V", "UNH", "XOM", "WMT", "MA", "HD", "PG", "JNJ"],
+    "DAX": ["SAP.DE", "SIE.DE", "ALV.DE", "DTE.DE", "AIR.DE", "MUV2.DE", "MBG.DE", "ENR.DE",
+            "DB1.DE", "BAS.DE", "RHM.DE", "IFX.DE", "BAYN.DE", "VOW3.DE", "DBK.DE"],
+    "KOSPI": ["005930.KS", "000660.KS", "373220.KS", "207940.KS", "005380.KS", "068270.KS",
+              "035420.KS", "105560.KS", "055550.KS", "012330.KS", "051910.KS", "006400.KS",
+              "028260.KS", "032830.KS", "018260.KS"],
+}
+
 # Deine 3 ETFs (Invest-Tab) mit ihren Top-10-Holdings (Stand Jul 2026,
 # manuell recherchiert - Fondszusammensetzung aendert sich selten).
 PERSONAL_ETFS = {
@@ -181,6 +197,20 @@ TICKER_NAMES = {
     "IBE.MC": "Iberdrola", "600900.SS": "China Yangtze Power", "ORA": "Ormat Technologies",
     "ENPH": "Enphase Energy", "EQTL3.SA": "Equatorial Energia", "VWS.CO": "Vestas Wind",
     "EDP.LS": "EDP",
+    # Neue Ticker aus INDEX_HOLDINGS (Nasdaq/S&P 500/DAX/KOSPI)
+    "NFLX": "Netflix", "ADBE": "Adobe", "CSCO": "Cisco Systems", "TMUS": "T-Mobile US",
+    "INTU": "Intuit", "CMCSA": "Comcast",
+    "BRK.B": "Berkshire Hathaway", "JPM": "JPMorgan Chase", "V": "Visa", "MA": "Mastercard",
+    "HD": "Home Depot",
+    "ALV.DE": "Allianz", "DTE.DE": "Deutsche Telekom", "AIR.DE": "Airbus",
+    "MUV2.DE": "Munich Re", "MBG.DE": "Mercedes-Benz Group", "ENR.DE": "Siemens Energy",
+    "DB1.DE": "Deutsche Börse", "BAS.DE": "BASF", "RHM.DE": "Rheinmetall", "IFX.DE": "Infineon",
+    "BAYN.DE": "Bayer", "VOW3.DE": "Volkswagen", "DBK.DE": "Deutsche Bank",
+    "005930.KS": "Samsung Electronics", "000660.KS": "SK Hynix", "373220.KS": "LG Energy Solution",
+    "207940.KS": "Samsung Biologics", "005380.KS": "Hyundai Motor", "068270.KS": "Celltrion",
+    "035420.KS": "NAVER", "105560.KS": "KB Financial Group", "055550.KS": "Shinhan Financial Group",
+    "012330.KS": "Hyundai Mobis", "051910.KS": "LG Chem", "006400.KS": "Samsung SDI",
+    "028260.KS": "Samsung C&T", "032830.KS": "Samsung Life Insurance", "018260.KS": "Samsung SDS",
 }
 
 # Eigene, kurze News-Suche pro Einzel-Ticker (alle Top-20-Sektorpositionen +
