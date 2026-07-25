@@ -42,7 +42,7 @@ RETENTION_DAYS = 4
 # siehe isUsMarketOpen() in app.js fuer die Anzeigelogik.
 TICKER_GROUPS = {
     "Futures (Vorbörse)": {
-        "Nasdaq Futures": "NQ=F",
+        "Nasdaq-100 Futures": "NQ=F",  # NQ=F bildet den Nasdaq-100 ab, nicht den Composite
         "S&P 500 Futures": "ES=F",
         "Dow Jones Futures": "YM=F",
         "Russell 2000 Futures": "RTY=F",

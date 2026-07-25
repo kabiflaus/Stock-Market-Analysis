@@ -6,7 +6,7 @@
 const CONFIG = {
   "tickerGroups": {
     "Futures (Vorbörse)": {
-      "Nasdaq Futures": "NQ=F",
+      "Nasdaq-100 Futures": "NQ=F",
       "S&P 500 Futures": "ES=F",
       "Dow Jones Futures": "YM=F",
       "Russell 2000 Futures": "RTY=F",
