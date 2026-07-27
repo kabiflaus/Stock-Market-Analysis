@@ -836,37 +836,35 @@ function renderIndexHoldings(rowsByLabel) {
 
 function renderMarketHeadlines(headlines) {
   const investLabels = new Set(Object.keys(CONFIG.personalEtfs));
-  const ownBlockLabels = new Set(['Makro & Weltpolitik', 'SK Hynix Short']);
-  const marketHeadlines = headlines.filter(h => !investLabels.has(h.label) && !ownBlockLabels.has(h.label));
+  const marketHeadlines = headlines.filter(h => !investLabels.has(h.label) && h.label !== 'Makro & Weltpolitik');
   const html = marketHeadlines.map((h, i) => headlineHtml(h, i, MAX_VISIBLE)).join('');
   document.getElementById('headlines-markets').innerHTML = html || '<p>Noch keine Schlagzeilen gesammelt.</p>';
   document.getElementById('more-btn').style.display = marketHeadlines.length > MAX_VISIBLE ? 'block' : 'none';
   return marketHeadlines;
 }
 
-const BLOCK_MAX_VISIBLE = 1;
+const MACRO_MAX_VISIBLE = 1;
 
-// "Makro & Weltpolitik" und "SK Hynix Short" sind keine Sektor-Filter,
-// sondern eigene, immer sichtbare Bloecke oberhalb der Pillen (unabhaengig
-// vom gewaehlten Filter) - Makro deckt Zinsentscheide/Inflation/Geopolitik
-// ab, SK Hynix Short die Einzelposition DE000UN9ASD5.
-function renderNewsBlock(headlines, label, containerId, fallbackText) {
-  const items = headlines.filter(h => h.label === label);
-  const html = items.map((h, i) => headlineHtml(h, i, null)).join('');
-  document.getElementById(containerId).innerHTML = html || '<p>' + fallbackText + '</p>';
-  return items;
+// "Makro & Weltpolitik" ist kein Sektor-Filter, sondern ein eigener, immer
+// sichtbarer Block oberhalb der Pillen (unabhaengig vom gewaehlten Filter) -
+// deckt Zinsentscheide, Inflationsdaten und marktbewegende Geopolitik ab.
+function renderMacroBlock(headlines) {
+  const macroHeadlines = headlines.filter(h => h.label === 'Makro & Weltpolitik');
+  const html = macroHeadlines.map((h, i) => headlineHtml(h, i, null)).join('');
+  document.getElementById('headlines-fedmakro').innerHTML = html || '<p>Noch keine Makro-Schlagzeilen gesammelt.</p>';
+  return macroHeadlines;
 }
 
-function setupBlockExpand(containerId, buttonId) {
-  const items = document.querySelectorAll('#' + containerId + ' .headline');
-  const moreBtn = document.getElementById(buttonId);
+function setupMacroExpand() {
+  const items = document.querySelectorAll('#headlines-fedmakro .headline');
+  const moreBtn = document.getElementById('macro-more-btn');
   let expanded = false;
   function apply() {
-    items.forEach((el, i) => { el.style.display = (i >= BLOCK_MAX_VISIBLE && !expanded) ? 'none' : ''; });
+    items.forEach((el, i) => { el.style.display = (i >= MACRO_MAX_VISIBLE && !expanded) ? 'none' : ''; });
     if (moreBtn) moreBtn.textContent = expanded ? 'Weniger anzeigen' : 'Mehr anzeigen';
   }
   if (moreBtn) {
-    moreBtn.style.display = items.length > BLOCK_MAX_VISIBLE ? 'block' : 'none';
+    moreBtn.style.display = items.length > MACRO_MAX_VISIBLE ? 'block' : 'none';
     moreBtn.addEventListener('click', () => { expanded = !expanded; apply(); });
   }
   apply();
@@ -891,36 +889,6 @@ function renderEtfCards(rowsByLabel) {
     );
   }).join('');
   document.querySelector('#invest-etf-section .tickers').innerHTML = html;
-}
-
-// Zertifikat/Short auf einen Einzel-Basiswert - Yahoo hat keinen Kursfeed
-// fuer das Zertifikat selbst (ISIN DE000UN9ASD5), daher wird der Basiswert
-// SK Hynix getrackt. Die Prozentzahl oben wird gegenlaeufig eingefaerbt/
-// vorzeichengedreht: faellt SK Hynix, steht die Short-Position im Plus.
-// Nur die Richtung ist verlaesslich - die genaue Hebelwirkung des Zertifikats
-// ist uns nicht bekannt, daher der Hinweis unten in der Karte.
-function shortPositionCardHtml(label, row) {
-  row = row || {};
-  const change = row.change_pct;
-  const posChange = (change !== undefined && change !== null) ? -change : null;
-  const dir = direction(posChange);
-  const sign = posChange > 0 ? '+' : '';
-  const posChangeStr = (posChange !== undefined && posChange !== null)
-    ? sign + posChange.toFixed(2) + '%' : 'n/a';
-  const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'small');
-  return '<div class="ticker-card short-card">' +
-    '<div class="ticker-label">' + esc(label) + '</div>' +
-    '<div class="ticker-price ' + dir.cls + '"><span class="arrow">' + dir.arrow + '</span>' + posChangeStr + '</div>' +
-    '<div class="short-underlying">Basiswert SK Hynix: ' + priceStrFor(row.price) + ' ' + changeHtmlFor(change) + '</div>' +
-    spark +
-    '<div class="short-note">Näherungswert ohne Hebel – das Zertifikat selbst hat keinen verlässlichen Kursfeed, daher zeigt die Karte die Richtung des Basiswerts SK Hynix gegenläufig.</div>' +
-    '</div>';
-}
-
-function renderPersonalPositions(rowsByLabel) {
-  const label = 'SK Hynix Short (DE000UN9ASD5)';
-  const html = shortPositionCardHtml(label, rowsByLabel[label]);
-  document.querySelector('#invest-positions-section .tickers').innerHTML = html;
 }
 
 function renderInvestHoldings(rowsByLabel) {
@@ -1313,11 +1281,9 @@ async function init() {
   renderPositionSections(rowsByLabel);
   renderIndexHoldings(rowsByLabel);
   renderEtfCards(rowsByLabel);
-  renderPersonalPositions(rowsByLabel);
   renderInvestHoldings(rowsByLabel);
   renderMarketHeadlines(headlines);
-  renderNewsBlock(headlines, 'Makro & Weltpolitik', 'headlines-fedmakro', 'Noch keine Makro-Schlagzeilen gesammelt.');
-  renderNewsBlock(headlines, 'SK Hynix Short', 'headlines-skhynix', 'Noch keine Schlagzeilen zu SK Hynix gesammelt.');
+  renderMacroBlock(headlines);
   renderInvestHeadlines(headlines);
 
   document.getElementById('updated-line').textContent =
@@ -1327,8 +1293,7 @@ async function init() {
   setupMarketFilter(rowsByLabel);
   setupInvestFilter();
   setupPositionExpand();
-  setupBlockExpand('headlines-fedmakro', 'macro-more-btn');
-  setupBlockExpand('headlines-skhynix', 'skhynix-more-btn');
+  setupMacroExpand();
   startLiveUpdates();
 }
 
