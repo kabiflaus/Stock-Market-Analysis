@@ -1,67 +1,66 @@
 {
-  "fetched_at": "2026-07-28T15:00:21.760837+00:00",
+  "fetched_at": "2026-07-28T21:04:23.934612+00:00",
   "rows": [
     {
       "label": "Nasdaq-100 Futures",
       "ticker": "NQ=F",
-      "price": 27866.5,
+      "price": 27949.0,
       "prev_close": 28620.75,
-      "change_pct": -2.64
+      "change_pct": -2.35
     },
     {
       "label": "S&P 500 Futures",
       "ticker": "ES=F",
-      "price": 7452.25,
+      "price": 7468.0,
       "prev_close": 7445.0,
-      "change_pct": 0.1
+      "change_pct": 0.31
     },
     {
       "label": "Dow Jones Futures",
       "ticker": "YM=F",
-      "price": 52787.0,
+      "price": 52921.0,
       "prev_close": 51894.0,
-      "change_pct": 1.72
+      "change_pct": 1.98
     },
     {
       "label": "Russell 2000 Futures",
       "ticker": "RTY=F",
-      "price": 2949.0,
+      "price": 2965.4,
       "prev_close": 2951.7,
-      "change_pct": -0.09
+      "change_pct": 0.46
     },
     {
       "label": "Nikkei 225 Futures",
       "ticker": "NIY=F",
-      "price": 62520.0,
+      "price": 62450.0,
       "prev_close": 65410.0,
-      "change_pct": -4.42
+      "change_pct": -4.53
     },
     {
       "label": "Nasdaq Composite (USA)",
       "ticker": "^IXIC",
-      "price": 24757.47,
+      "price": 24876.91,
       "prev_close": 25837.21,
-      "change_pct": -4.18,
+      "change_pct": -3.72,
       "sparkline": [
         25690.9,
         25137.69,
-        24975.82,
         24932.08,
-        24757.47
+        24876.91,
+        24876.91
       ]
     },
     {
       "label": "S&P 500 (USA)",
       "ticker": "^GSPC",
-      "price": 7412.04,
+      "price": 7428.78,
       "prev_close": 7509.2,
-      "change_pct": -1.29,
+      "change_pct": -1.07,
       "sparkline": [
         7498.96,
         7408.3,
-        7411.98,
         7413.18,
-        7412.04
+        7428.78
       ]
     },
     {
@@ -73,7 +72,6 @@
       "sparkline": [
         66115.6,
         66422.6,
-        64611.15,
         64931.19,
         62364.92
       ]
@@ -81,29 +79,27 @@
     {
       "label": "DAX (Deutschland)",
       "ticker": "^GDAXI",
-      "price": 25388.22,
+      "price": 25464.01,
       "prev_close": 25011.35,
-      "change_pct": 1.51,
+      "change_pct": 1.81,
       "sparkline": [
         25155.41,
         24763.12,
-        25099.0,
         25361.03,
-        25388.22
+        25464.01
       ]
     },
     {
       "label": "FTSE 100 (UK)",
       "ticker": "^FTSE",
-      "price": 10869.4,
+      "price": 10871.02,
       "prev_close": 10585.9,
-      "change_pct": 2.68,
+      "change_pct": 2.69,
       "sparkline": [
         10717.0,
         10639.2,
-        10736.2,
         10781.8,
-        10869.4
+        10871.02
       ]
     },
     {
@@ -115,7 +111,6 @@
       "sparkline": [
         6797.7,
         7096.89,
-        6690.62,
         6755.75,
         6023.66
       ]
@@ -129,7 +124,6 @@
       "sparkline": [
         24892.66,
         25210.81,
-        24963.23,
         25207.18,
         25310.85
       ]
@@ -137,104 +131,100 @@
     {
       "label": "US 3-Monate",
       "ticker": "^IRX",
-      "price": 3.78,
+      "price": 3.76,
       "prev_close": 3.75,
-      "change_pct": 1.07,
+      "change_pct": 0.4,
       "sparkline": [
         3.74,
         3.8,
-        3.81,
         3.8,
-        3.78,
-        3.78
+        3.76,
+        3.76
       ]
     },
     {
       "label": "US 5-Jahre",
       "ticker": "^FVX",
-      "price": 4.37,
+      "price": 4.36,
       "prev_close": 4.41,
-      "change_pct": -0.88,
+      "change_pct": -1.04,
       "sparkline": [
         4.41,
         4.46,
-        4.43,
         4.4,
-        4.37,
-        4.37
+        4.36,
+        4.36
       ]
     },
     {
       "label": "US 10-Jahre",
       "ticker": "^TNX",
-      "price": 4.62,
+      "price": 4.6,
       "prev_close": 4.66,
-      "change_pct": -0.88,
+      "change_pct": -1.14,
       "sparkline": [
         4.66,
         4.7,
-        4.68,
         4.64,
-        4.62,
-        4.62
+        4.6,
+        4.6
       ]
     },
     {
       "label": "US 30-Jahre",
       "ticker": "^TYX",
-      "price": 5.11,
+      "price": 5.1,
       "prev_close": 5.15,
-      "change_pct": -0.68,
+      "change_pct": -0.99,
       "sparkline": [
         5.15,
         5.17,
-        5.16,
         5.12,
-        5.11,
-        5.11
+        5.1,
+        5.1
       ]
     },
     {
       "label": "Scalable MSCI ACWI",
       "ticker": "SCWX.DE",
-      "price": 11.69,
+      "price": 11.74,
       "prev_close": 11.84,
-      "change_pct": -1.23,
+      "change_pct": -0.86,
       "sparkline": [
         11.86,
         11.72,
         11.78,
         11.72,
-        11.69,
-        11.69
+        11.74,
+        11.74
       ]
     },
     {
       "label": "Amundi Stoxx Europe 600",
       "ticker": "LYP6.DE",
-      "price": 317.9,
+      "price": 318.55,
       "prev_close": 316.35,
-      "change_pct": 0.49,
+      "change_pct": 0.7,
       "sparkline": [
         318.2,
         314.45,
         317.2,
         317.1,
-        317.9
+        318.55
       ]
     },
     {
       "label": "iShares Global Clean Energy",
       "ticker": "Q8Y0.DE",
-      "price": 22.21,
+      "price": 22.34,
       "prev_close": 23.98,
-      "change_pct": -7.38,
+      "change_pct": -6.84,
       "sparkline": [
         24.14,
         23.77,
         23.38,
         22.75,
-        22.21
+        22.34
       ]
     },
     {
@@ -252,186 +242,109 @@
       ]
     },
     {
-      "label": "MPC",
-      "ticker": "MPC",
-      "price": 310.0,
-      "prev_close": 319.76,
-      "change_pct": -3.05
+      "label": "ENPH",
+      "ticker": "ENPH",
+      "price": 36.32,
+      "prev_close": 39.94,
+      "change_pct": -9.06
     },
     {
-      "label": "INTU",
-      "ticker": "INTU",
-      "price": 315.8,
-      "prev_close": 289.92,
-      "change_pct": 8.93
+      "label": "005380.KS",
+      "ticker": "005380.KS",
+      "price": 364000.0,
+      "prev_close": 399000.0,
+      "change_pct": -8.77
+    },
+    {
+      "label": "KDP",
+      "ticker": "KDP",
+      "price": 31.08,
+      "prev_close": 30.21,
+      "change_pct": 2.88
+    },
+    {
+      "label": "HWM",
+      "ticker": "HWM",
+      "price": 286.04,
+      "prev_close": 279.0,
+      "change_pct": 2.52
+    },
+    {
+      "label": "051910.KS",
+      "ticker": "051910.KS",
+      "price": 240500.0,
+      "prev_close": 250500.0,
+      "change_pct": -3.99
+    },
+    {
+      "label": "GOOG",
+      "ticker": "GOOG",
+      "price": 332.6,
+      "prev_close": 346.19,
+      "change_pct": -3.93
+    },
+    {
+      "label": "600900.SS",
+      "ticker": "600900.SS",
+      "price": 29.07,
+      "prev_close": 29.09,
+      "change_pct": -0.07
+    },
+    {
+      "label": "BE",
+      "ticker": "BE",
+      "price": 166.84,
+      "prev_close": 226.26,
+      "change_pct": -26.26
+    },
+    {
+      "label": "KLAC",
+      "ticker": "KLAC",
+      "price": 190.8,
+      "prev_close": 217.56,
+      "change_pct": -12.3
+    },
+    {
+      "label": "NVDA",
+      "ticker": "NVDA",
+      "price": 197.01,
+      "prev_close": 207.29,
+      "change_pct": -4.96
+    },
+    {
+      "label": "ON",
+      "ticker": "ON",
+      "price": 84.39,
+      "prev_close": 91.06,
+      "change_pct": -7.32
+    },
+    {
+      "label": "JNJ",
+      "ticker": "JNJ",
+      "price": 266.73,
+      "prev_close": 250.61,
+      "change_pct": 6.43
+    },
+    {
+      "label": "MNST",
+      "ticker": "MNST",
+      "price": 97.74,
+      "prev_close": 94.46,
+      "change_pct": 3.47
+    },
+    {
+      "label": "EDP.LS",
+      "ticker": "EDP.LS",
+      "price": 4.5,
+      "prev_close": 4.61,
+      "change_pct": -2.34
     },
     {
       "label": "VLO",
       "ticker": "VLO",
-      "price": 302.05,
+      "price": 298.88,
       "prev_close": 314.8,
-      "change_pct": -4.05
-    },
-    {
-      "label": "DTE.DE",
-      "ticker": "DTE.DE",
-      "price": 27.72,
-      "prev_close": 26.68,
-      "change_pct": 3.9
-    },
-    {
-      "label": "018260.KS",
-      "ticker": "018260.KS",
-      "price": 200500.0,
-      "prev_close": 191500.0,
-      "change_pct": 4.7
-    },
-    {
-      "label": "MO",
-      "ticker": "MO",
-      "price": 76.39,
-      "prev_close": 72.99,
-      "change_pct": 4.65
-    },
-    {
-      "label": "AMZN",
-      "ticker": "AMZN",
-      "price": 229.35,
-      "prev_close": 247.55,
-      "change_pct": -7.35
-    },
-    {
-      "label": "ENPH",
-      "ticker": "ENPH",
-      "price": 36.18,
-      "prev_close": 39.94,
-      "change_pct": -9.41
-    },
-    {
-      "label": "BSX",
-      "ticker": "BSX",
-      "price": 46.81,
-      "prev_close": 43.19,
-      "change_pct": 8.38
-    },
-    {
-      "label": "ELV",
-      "ticker": "ELV",
-      "price": 376.81,
-      "prev_close": 393.44,
-      "change_pct": -4.23
-    },
-    {
-      "label": "AMD",
-      "ticker": "AMD",
-      "price": 454.1,
-      "prev_close": 544.43,
-      "change_pct": -16.59
-    },
-    {
-      "label": "GIS",
-      "ticker": "GIS",
-      "price": 38.24,
-      "prev_close": 37.15,
-      "change_pct": 2.95
-    },
-    {
-      "label": "WMB",
-      "ticker": "WMB",
-      "price": 69.92,
-      "prev_close": 73.36,
-      "change_pct": -4.68
-    },
-    {
-      "label": "MDLZ",
-      "ticker": "MDLZ",
-      "price": 63.13,
-      "prev_close": 59.86,
-      "change_pct": 5.47
-    },
-    {
-      "label": "PEP",
-      "ticker": "PEP",
-      "price": 143.89,
-      "prev_close": 135.0,
-      "change_pct": 6.59
-    },
-    {
-      "label": "UNH",
-      "ticker": "UNH",
-      "price": 419.58,
-      "prev_close": 436.35,
-      "change_pct": -3.84
-    },
-    {
-      "label": "KMB",
-      "ticker": "KMB",
-      "price": 114.49,
-      "prev_close": 108.05,
-      "change_pct": 5.96
-    },
-    {
-      "label": "ADBE",
-      "ticker": "ADBE",
-      "price": 249.1,
-      "prev_close": 227.16,
-      "change_pct": 9.66
-    },
-    {
-      "label": "HSY",
-      "ticker": "HSY",
-      "price": 183.53,
-      "prev_close": 170.63,
-      "change_pct": 7.56
-    },
-    {
-      "label": "LDOS",
-      "ticker": "LDOS",
-      "price": 117.72,
-      "prev_close": 104.92,
-      "change_pct": 12.2
-    },
-    {
-      "label": "AZN.L",
-      "ticker": "AZN.L",
-      "price": 13036.0,
-      "prev_close": 12492.0,
-      "change_pct": 4.35
-    },
-    {
-      "label": "INTC",
-      "ticker": "INTC",
-      "price": 86.25,
-      "prev_close": 105.45,
-      "change_pct": -18.21
-    },
-    {
-      "label": "CHD",
-      "ticker": "CHD",
-      "price": 100.78,
-      "prev_close": 95.75,
-      "change_pct": 5.26
-    },
-    {
-      "label": "TMUS",
-      "ticker": "TMUS",
-      "price": 183.0,
-      "prev_close": 190.77,
-      "change_pct": -4.07
-    },
-    {
-      "label": "012330.KS",
-      "ticker": "012330.KS",
-      "price": 440000.0,
-      "prev_close": 479500.0,
-      "change_pct": -8.24
-    },
-    {
-      "label": "VOW3.DE",
-      "ticker": "VOW3.DE",
-      "price": 73.24,
-      "prev_close": 72.56,
-      "change_pct": 0.94
+      "change_pct": -5.06
     },
     {
       "label": "CTRA",
@@ -442,39 +355,25 @@
       "error": "HTTP Error 404: "
     },
     {
-      "label": "V",
-      "ticker": "V",
-      "price": 364.98,
-      "prev_close": 355.82,
-      "change_pct": 2.57
-    },
-    {
       "label": "SYY",
       "ticker": "SYY",
-      "price": 86.09,
+      "price": 85.2,
       "prev_close": 81.22,
-      "change_pct": 6.0
+      "change_pct": 4.9
     },
     {
-      "label": "MCHP",
-      "ticker": "MCHP",
-      "price": 75.84,
-      "prev_close": 83.38,
-      "change_pct": -9.04
+      "label": "ABBV",
+      "ticker": "ABBV",
+      "price": 263.2,
+      "prev_close": 256.1,
+      "change_pct": 2.77
     },
     {
-      "label": "NFLX",
-      "ticker": "NFLX",
-      "price": 72.83,
-      "prev_close": 68.67,
-      "change_pct": 6.05
-    },
-    {
-      "label": "028260.KS",
-      "ticker": "028260.KS",
-      "price": 305000.0,
-      "prev_close": 343500.0,
-      "change_pct": -11.21
+      "label": "XOM",
+      "ticker": "XOM",
+      "price": 153.04,
+      "prev_close": 151.71,
+      "change_pct": 0.88
     },
     {
       "label": "373220.KS",
@@ -484,130 +383,102 @@
       "change_pct": -0.95
     },
     {
-      "label": "HEI",
-      "ticker": "HEI",
-      "price": 356.42,
-      "prev_close": 340.4,
-      "change_pct": 4.71
+      "label": "AXON",
+      "ticker": "AXON",
+      "price": 547.65,
+      "prev_close": 511.17,
+      "change_pct": 7.14
     },
     {
-      "label": "MSFT",
-      "ticker": "MSFT",
-      "price": 396.88,
-      "prev_close": 397.75,
-      "change_pct": -0.22
+      "label": "CW",
+      "ticker": "CW",
+      "price": 728.8,
+      "prev_close": 722.09,
+      "change_pct": 0.93
     },
     {
-      "label": "BMY",
-      "ticker": "BMY",
-      "price": 64.42,
-      "prev_close": 60.93,
-      "change_pct": 5.74
+      "label": "MRK",
+      "ticker": "MRK",
+      "price": 131.82,
+      "prev_close": 126.26,
+      "change_pct": 4.4
     },
     {
-      "label": "EQTL3.SA",
-      "ticker": "EQTL3.SA",
-      "price": 39.47,
-      "prev_close": 38.83,
-      "change_pct": 1.65
+      "label": "V",
+      "ticker": "V",
+      "price": 366.59,
+      "prev_close": 355.82,
+      "change_pct": 3.03
     },
     {
-      "label": "SLB",
-      "ticker": "SLB",
-      "price": 51.3,
-      "prev_close": 46.59,
-      "change_pct": 10.11
+      "label": "JPM",
+      "ticker": "JPM",
+      "price": 357.31,
+      "prev_close": 345.23,
+      "change_pct": 3.5
     },
     {
-      "label": "DHR",
-      "ticker": "DHR",
-      "price": 200.0,
-      "prev_close": 179.01,
-      "change_pct": 11.72
+      "label": "KO",
+      "ticker": "KO",
+      "price": 88.27,
+      "prev_close": 81.97,
+      "change_pct": 7.69
     },
     {
-      "label": "FSLR",
-      "ticker": "FSLR",
-      "price": 200.93,
-      "prev_close": 206.05,
-      "change_pct": -2.48
+      "label": "STZ",
+      "ticker": "STZ",
+      "price": 132.02,
+      "prev_close": 130.66,
+      "change_pct": 1.04
     },
     {
-      "label": "AIR.DE",
-      "ticker": "AIR.DE",
-      "price": 211.55,
-      "prev_close": 194.54,
-      "change_pct": 8.74
+      "label": "TSM",
+      "ticker": "TSM",
+      "price": 392.31,
+      "prev_close": 424.61,
+      "change_pct": -7.61
     },
     {
-      "label": "CL",
-      "ticker": "CL",
-      "price": 94.45,
-      "prev_close": 90.5,
-      "change_pct": 4.36
+      "label": "AVGO",
+      "ticker": "AVGO",
+      "price": 380.91,
+      "prev_close": 386.5,
+      "change_pct": -1.45
     },
     {
-      "label": "HSBA.L",
-      "ticker": "HSBA.L",
-      "price": 1542.6,
-      "prev_close": 1509.4,
-      "change_pct": 2.2
+      "label": "CI",
+      "ticker": "CI",
+      "price": 301.06,
+      "prev_close": 290.49,
+      "change_pct": 3.64
     },
     {
-      "label": "ABBV",
-      "ticker": "ABBV",
-      "price": 265.61,
-      "prev_close": 256.1,
-      "change_pct": 3.71
+      "label": "WMB",
+      "ticker": "WMB",
+      "price": 70.16,
+      "prev_close": 73.36,
+      "change_pct": -4.36
     },
     {
-      "label": "CVS",
-      "ticker": "CVS",
-      "price": 108.48,
-      "prev_close": 110.6,
-      "change_pct": -1.92
+      "label": "LHX",
+      "ticker": "LHX",
+      "price": 305.2,
+      "prev_close": 277.71,
+      "change_pct": 9.9
     },
     {
-      "label": "BWXT",
-      "ticker": "BWXT",
-      "price": 168.34,
-      "prev_close": 173.09,
-      "change_pct": -2.74
+      "label": "BAYN.DE",
+      "ticker": "BAYN.DE",
+      "price": 47.03,
+      "prev_close": 47.62,
+      "change_pct": -1.24
     },
     {
-      "label": "ASML.AS",
-      "ticker": "ASML.AS",
-      "price": 1383.6,
-      "prev_close": 1589.6,
-      "change_pct": -12.96
-    },
-    {
-      "label": "WMT",
-      "ticker": "WMT",
-      "price": 114.81,
-      "prev_close": 110.39,
-      "change_pct": 4.01
-    },
-    {
-      "label": "NESN.SW",
-      "ticker": "NESN.SW",
-      "price": 82.29,
-      "prev_close": 86.17,
-      "change_pct": -4.5
-    },
-    {
-      "label": "NVDA",
-      "ticker": "NVDA",
-      "price": 196.85,
-      "prev_close": 207.29,
-      "change_pct": -5.04
-    },
-    {
-      "label": "006400.KS",
-      "ticker": "006400.KS",
-      "price": 382000.0,
-      "prev_close": 416500.0,
-      "change_pct": -8.28
+      "label": "MU",
+      "ticker": "MU",
+      "price": 820.53,
+      "prev_close": 970.82,
+      "change_pct": -15.48
     },
     {
       "label": "035420.KS",
@@ -617,664 +488,60 @@
       "change_pct": 8.81
     },
     {
-      "label": "STZ",
-      "ticker": "STZ",
-      "price": 133.87,
-      "prev_close": 130.66,
-      "change_pct": 2.45
-    },
-    {
-      "label": "KVUE",
-      "ticker": "KVUE",
-      "price": 19.91,
-      "prev_close": 19.01,
-      "change_pct": 4.76
-    },
-    {
-      "label": "ENR.DE",
-      "ticker": "ENR.DE",
-      "price": 138.8,
-      "prev_close": 158.14,
-      "change_pct": -12.23
-    },
-    {
-      "label": "AMAT",
-      "ticker": "AMAT",
-      "price": 474.16,
-      "prev_close": 564.55,
-      "change_pct": -16.01
-    },
-    {
-      "label": "PSX",
-      "ticker": "PSX",
-      "price": 207.71,
-      "prev_close": 212.27,
-      "change_pct": -2.15
-    },
-    {
-      "label": "KHC",
-      "ticker": "KHC",
-      "price": 27.36,
-      "prev_close": 25.79,
-      "change_pct": 6.09
-    },
-    {
-      "label": "KO",
-      "ticker": "KO",
-      "price": 89.6,
-      "prev_close": 81.97,
-      "change_pct": 9.3
-    },
-    {
-      "label": "LRCX",
-      "ticker": "LRCX",
-      "price": 264.0,
-      "prev_close": 322.0,
-      "change_pct": -18.01
-    },
-    {
-      "label": "COST",
-      "ticker": "COST",
-      "price": 981.72,
-      "prev_close": 929.22,
-      "change_pct": 5.65
-    },
-    {
-      "label": "ORA",
-      "ticker": "ORA",
-      "price": 97.53,
-      "prev_close": 105.1,
-      "change_pct": -7.2
-    },
-    {
-      "label": "NOC",
-      "ticker": "NOC",
-      "price": 554.71,
-      "prev_close": 512.29,
-      "change_pct": 8.28
-    },
-    {
-      "label": "OXY",
-      "ticker": "OXY",
-      "price": 54.88,
-      "prev_close": 56.5,
-      "change_pct": -2.88
-    },
-    {
-      "label": "ALV.DE",
-      "ticker": "ALV.DE",
-      "price": 431.4,
-      "prev_close": 422.8,
-      "change_pct": 2.03
-    },
-    {
-      "label": "EOG",
-      "ticker": "EOG",
-      "price": 142.12,
-      "prev_close": 143.44,
-      "change_pct": -0.92
-    },
-    {
-      "label": "KMI",
-      "ticker": "KMI",
-      "price": 32.01,
-      "prev_close": 32.38,
-      "change_pct": -1.16
-    },
-    {
-      "label": "LMT",
-      "ticker": "LMT",
-      "price": 582.22,
-      "prev_close": 507.09,
-      "change_pct": 14.82
-    },
-    {
-      "label": "MRCY",
-      "ticker": "MRCY",
-      "price": 98.93,
-      "prev_close": 98.64,
-      "change_pct": 0.29
-    },
-    {
-      "label": "COP",
-      "ticker": "COP",
-      "price": 115.94,
-      "prev_close": 117.5,
-      "change_pct": -1.32
-    },
-    {
-      "label": "MUV2.DE",
-      "ticker": "MUV2.DE",
-      "price": 525.0,
-      "prev_close": 502.4,
-      "change_pct": 4.5
-    },
-    {
-      "label": "000660.KS",
-      "ticker": "000660.KS",
-      "price": 1550000.0,
-      "prev_close": 1836000.0,
-      "change_pct": -15.58
-    },
-    {
-      "label": "SHEL.L",
-      "ticker": "SHEL.L",
-      "price": 3268.5,
-      "prev_close": 3254.0,
-      "change_pct": 0.45
-    },
-    {
-      "label": "AMGN",
-      "ticker": "AMGN",
-      "price": 393.59,
-      "prev_close": 366.24,
-      "change_pct": 7.47
-    },
-    {
-      "label": "KDP",
-      "ticker": "KDP",
-      "price": 31.5,
-      "prev_close": 30.21,
-      "change_pct": 4.27
-    },
-    {
-      "label": "GILD",
-      "ticker": "GILD",
-      "price": 134.82,
-      "prev_close": 130.28,
-      "change_pct": 3.48
-    },
-    {
-      "label": "CW",
-      "ticker": "CW",
-      "price": 715.91,
-      "prev_close": 722.09,
-      "change_pct": -0.86
-    },
-    {
-      "label": "MA",
-      "ticker": "MA",
-      "price": 559.69,
-      "prev_close": 538.3,
-      "change_pct": 3.97
-    },
-    {
-      "label": "APA",
-      "ticker": "APA",
-      "price": 35.08,
-      "prev_close": 35.77,
-      "change_pct": -1.94
-    },
-    {
-      "label": "055550.KS",
-      "ticker": "055550.KS",
-      "price": 100900.0,
-      "prev_close": 104700.0,
-      "change_pct": -3.63
-    },
-    {
-      "label": "MNST",
-      "ticker": "MNST",
-      "price": 98.47,
-      "prev_close": 94.46,
-      "change_pct": 4.24
-    },
-    {
-      "label": "051910.KS",
-      "ticker": "051910.KS",
-      "price": 240500.0,
-      "prev_close": 250500.0,
-      "change_pct": -3.99
-    },
-    {
-      "label": "MRVL",
-      "ticker": "MRVL",
-      "price": 174.38,
-      "prev_close": 207.96,
-      "change_pct": -16.15
-    },
-    {
-      "label": "MPWR",
-      "ticker": "MPWR",
-      "price": 1279.62,
-      "prev_close": 1383.26,
-      "change_pct": -7.49
-    },
-    {
-      "label": "ABT",
-      "ticker": "ABT",
-      "price": 108.44,
-      "prev_close": 99.67,
-      "change_pct": 8.8
-    },
-    {
-      "label": "EQT",
-      "ticker": "EQT",
-      "price": 52.02,
-      "prev_close": 49.8,
-      "change_pct": 4.46
-    },
-    {
-      "label": "ADI",
-      "ticker": "ADI",
-      "price": 367.16,
-      "prev_close": 382.81,
-      "change_pct": -4.09
-    },
-    {
-      "label": "CI",
-      "ticker": "CI",
-      "price": 296.33,
-      "prev_close": 290.49,
-      "change_pct": 2.01
-    },
-    {
-      "label": "BA",
-      "ticker": "BA",
-      "price": 216.36,
-      "prev_close": 204.8,
-      "change_pct": 5.64
-    },
-    {
-      "label": "IFX.DE",
-      "ticker": "IFX.DE",
-      "price": 57.32,
-      "prev_close": 67.54,
-      "change_pct": -15.13
-    },
-    {
-      "label": "SWKS",
-      "ticker": "SWKS",
-      "price": 63.85,
-      "prev_close": 62.95,
-      "change_pct": 1.43
-    },
-    {
-      "label": "MRK",
-      "ticker": "MRK",
-      "price": 133.72,
-      "prev_close": 126.26,
-      "change_pct": 5.91
-    },
-    {
-      "label": "IBE.MC",
-      "ticker": "IBE.MC",
-      "price": 21.07,
-      "prev_close": 21.27,
-      "change_pct": -0.94
-    },
-    {
-      "label": "GOOGL",
-      "ticker": "GOOGL",
-      "price": 329.19,
-      "prev_close": 347.15,
-      "change_pct": -5.17
-    },
-    {
-      "label": "DVN",
-      "ticker": "DVN",
-      "price": 43.25,
-      "prev_close": 44.1,
-      "change_pct": -1.93
-    },
-    {
-      "label": "XOM",
-      "ticker": "XOM",
-      "price": 155.26,
-      "prev_close": 151.71,
-      "change_pct": 2.34
-    },
-    {
-      "label": "LHX",
-      "ticker": "LHX",
-      "price": 304.72,
-      "prev_close": 277.71,
-      "change_pct": 9.73
-    },
-    {
-      "label": "MDT",
-      "ticker": "MDT",
-      "price": 87.88,
-      "prev_close": 82.35,
-      "change_pct": 6.72
-    },
-    {
-      "label": "HWM",
-      "ticker": "HWM",
-      "price": 284.36,
-      "prev_close": 279.0,
-      "change_pct": 1.92
-    },
-    {
-      "label": "RHM.DE",
-      "ticker": "RHM.DE",
-      "price": 1078.2,
-      "prev_close": 995.4,
-      "change_pct": 8.32
-    },
-    {
-      "label": "PG",
-      "ticker": "PG",
-      "price": 152.45,
-      "prev_close": 148.1,
-      "change_pct": 2.94
-    },
-    {
-      "label": "BE",
-      "ticker": "BE",
-      "price": 164.42,
-      "prev_close": 226.26,
-      "change_pct": -27.33
-    },
-    {
-      "label": "AXON",
-      "ticker": "AXON",
-      "price": 535.75,
-      "prev_close": 511.17,
-      "change_pct": 4.81
-    },
-    {
-      "label": "SIE.DE",
-      "ticker": "SIE.DE",
-      "price": 269.4,
-      "prev_close": 270.45,
-      "change_pct": -0.39
-    },
-    {
-      "label": "600900.SS",
-      "ticker": "600900.SS",
-      "price": 29.07,
-      "prev_close": 29.09,
-      "change_pct": -0.07
-    },
-    {
-      "label": "EDP.LS",
-      "ticker": "EDP.LS",
-      "price": 4.52,
-      "prev_close": 4.61,
-      "change_pct": -1.93
-    },
-    {
-      "label": "FANG",
-      "ticker": "FANG",
-      "price": 195.74,
-      "prev_close": 199.8,
-      "change_pct": -2.03
-    },
-    {
-      "label": "DBK.DE",
-      "ticker": "DBK.DE",
-      "price": 30.83,
-      "prev_close": 31.07,
-      "change_pct": -0.77
-    },
-    {
-      "label": "VWS.CO",
-      "ticker": "VWS.CO",
-      "price": 167.55,
-      "prev_close": 176.3,
-      "change_pct": -4.96
-    },
-    {
-      "label": "LLY",
-      "ticker": "LLY",
-      "price": 1228.08,
-      "prev_close": 1175.41,
-      "change_pct": 4.48
-    },
-    {
-      "label": "WWD",
-      "ticker": "WWD",
-      "price": 410.23,
-      "prev_close": 406.87,
-      "change_pct": 0.82
-    },
-    {
-      "label": "ASML",
-      "ticker": "ASML",
-      "price": 1570.87,
-      "prev_close": 1801.51,
-      "change_pct": -12.8
-    },
-    {
-      "label": "VRTX",
-      "ticker": "VRTX",
-      "price": 487.01,
-      "prev_close": 482.0,
-      "change_pct": 1.04
-    },
-    {
-      "label": "TRG",
-      "ticker": "TRG",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null
-    },
-    {
-      "label": "ROG.SW",
-      "ticker": "ROG.SW",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "error": "HTTP Error 404: "
-    },
-    {
-      "label": "SAP.DE",
-      "ticker": "SAP.DE",
-      "price": 158.12,
-      "prev_close": 136.42,
-      "change_pct": 15.91
-    },
-    {
-      "label": "GD",
-      "ticker": "GD",
-      "price": 390.42,
-      "prev_close": 367.73,
-      "change_pct": 6.17
+      "label": "018260.KS",
+      "ticker": "018260.KS",
+      "price": 200500.0,
+      "prev_close": 191500.0,
+      "change_pct": 4.7
+    },
+    {
+      "label": "006400.KS",
+      "ticker": "006400.KS",
+      "price": 382000.0,
+      "prev_close": 416500.0,
+      "change_pct": -8.28
     },
     {
       "label": "SAN.MC",
       "ticker": "SAN.MC",
-      "price": 12.19,
+      "price": 12.24,
       "prev_close": 12.08,
-      "change_pct": 0.89
+      "change_pct": 1.34
     },
     {
-      "label": "HAL",
-      "ticker": "HAL",
-      "price": 31.69,
-      "prev_close": 33.19,
-      "change_pct": -4.52
+      "label": "LMT",
+      "ticker": "LMT",
+      "price": 581.31,
+      "prev_close": 507.09,
+      "change_pct": 14.64
     },
     {
-      "label": "HII",
-      "ticker": "HII",
-      "price": 288.43,
-      "prev_close": 268.76,
-      "change_pct": 7.32
+      "label": "INTU",
+      "ticker": "INTU",
+      "price": 312.99,
+      "prev_close": 289.92,
+      "change_pct": 7.96
     },
     {
-      "label": "CSCO",
-      "ticker": "CSCO",
-      "price": 114.75,
-      "prev_close": 112.18,
-      "change_pct": 2.3
+      "label": "BSX",
+      "ticker": "BSX",
+      "price": 46.06,
+      "prev_close": 43.19,
+      "change_pct": 6.65
     },
     {
-      "label": "JNJ",
-      "ticker": "JNJ",
-      "price": 272.12,
-      "prev_close": 250.61,
-      "change_pct": 8.59
+      "label": "BWXT",
+      "ticker": "BWXT",
+      "price": 169.67,
+      "prev_close": 173.09,
+      "change_pct": -1.98
     },
     {
-      "label": "KR",
-      "ticker": "KR",
-      "price": 60.38,
-      "prev_close": 57.78,
-      "change_pct": 4.51
-    },
-    {
-      "label": "ISRG",
-      "ticker": "ISRG",
-      "price": 365.68,
-      "prev_close": 350.06,
-      "change_pct": 4.46
-    },
-    {
-      "label": "NXPI",
-      "ticker": "NXPI",
-      "price": 261.55,
-      "prev_close": 273.15,
-      "change_pct": -4.25
-    },
-    {
-      "label": "ARM",
-      "ticker": "ARM",
-      "price": 244.65,
-      "prev_close": 289.73,
-      "change_pct": -15.56
-    },
-    {
-      "label": "PFE",
-      "ticker": "PFE",
-      "price": 25.31,
-      "prev_close": 24.94,
-      "change_pct": 1.48
-    },
-    {
-      "label": "005930.KS",
-      "ticker": "005930.KS",
-      "price": 220000.0,
-      "prev_close": 259000.0,
-      "change_pct": -15.06
-    },
-    {
-      "label": "TXN",
-      "ticker": "TXN",
-      "price": 280.08,
-      "prev_close": 291.3,
-      "change_pct": -3.85
-    },
-    {
-      "label": "SYK",
-      "ticker": "SYK",
-      "price": 346.68,
-      "prev_close": 314.58,
-      "change_pct": 10.2
-    },
-    {
-      "label": "CVX",
-      "ticker": "CVX",
-      "price": 190.43,
-      "prev_close": 191.07,
-      "change_pct": -0.33
-    },
-    {
-      "label": "PM",
-      "ticker": "PM",
-      "price": 207.02,
-      "prev_close": 188.04,
-      "change_pct": 10.09
-    },
-    {
-      "label": "207940.KS",
-      "ticker": "207940.KS",
-      "price": 1549000.0,
-      "prev_close": 1395000.0,
-      "change_pct": 11.04
-    },
-    {
-      "label": "TDG",
-      "ticker": "TDG",
-      "price": 1307.85,
-      "prev_close": 1205.49,
-      "change_pct": 8.49
-    },
-    {
-      "label": "NOVN.SW",
-      "ticker": "NOVN.SW",
-      "price": 130.42,
-      "prev_close": 125.34,
-      "change_pct": 4.05
-    },
-    {
-      "label": "MBG.DE",
-      "ticker": "MBG.DE",
-      "price": 46.54,
-      "prev_close": 44.91,
-      "change_pct": 3.64
-    },
-    {
-      "label": "META",
-      "ticker": "META",
-      "price": 587.42,
-      "prev_close": 643.81,
-      "change_pct": -8.76
-    },
-    {
-      "label": "DB1.DE",
-      "ticker": "DB1.DE",
-      "price": 265.0,
-      "prev_close": 252.5,
-      "change_pct": 4.95
-    },
-    {
-      "label": "HES",
-      "ticker": "HES",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "error": "HTTP Error 404: "
-    },
-    {
-      "label": "KTOS",
-      "ticker": "KTOS",
-      "price": 47.01,
-      "prev_close": 48.21,
-      "change_pct": -2.49
-    },
-    {
-      "label": "005380.KS",
-      "ticker": "005380.KS",
-      "price": 364000.0,
-      "prev_close": 399000.0,
-      "change_pct": -8.77
-    },
-    {
-      "label": "GE",
-      "ticker": "GE",
-      "price": 359.25,
-      "prev_close": 340.7,
-      "change_pct": 5.44
-    },
-    {
-      "label": "TXT",
-      "ticker": "TXT",
-      "price": 88.4,
-      "prev_close": 90.53,
-      "change_pct": -2.35
-    },
-    {
-      "label": "105560.KS",
-      "ticker": "105560.KS",
-      "price": 165200.0,
-      "prev_close": 174000.0,
-      "change_pct": -5.06
-    },
-    {
-      "label": "TMO",
-      "ticker": "TMO",
-      "price": 573.78,
-      "prev_close": 523.46,
-      "change_pct": 9.61
-    },
-    {
-      "label": "MU",
-      "ticker": "MU",
-      "price": 813.74,
-      "prev_close": 970.82,
-      "change_pct": -16.18
+      "label": "MO",
+      "ticker": "MO",
+      "price": 74.82,
+      "prev_close": 72.99,
+      "change_pct": 2.51
     },
     {
       "label": "032830.KS",
@@ -1282,6 +549,48 @@
       "price": 285000.0,
       "prev_close": 316000.0,
       "change_pct": -9.81
+    },
+    {
+      "label": "CMCSA",
+      "ticker": "CMCSA",
+      "price": 24.19,
+      "prev_close": 23.81,
+      "change_pct": 1.6
+    },
+    {
+      "label": "IBE.MC",
+      "ticker": "IBE.MC",
+      "price": 20.9,
+      "prev_close": 21.27,
+      "change_pct": -1.74
+    },
+    {
+      "label": "BMY",
+      "ticker": "BMY",
+      "price": 63.6,
+      "prev_close": 60.93,
+      "change_pct": 4.38
+    },
+    {
+      "label": "MSFT",
+      "ticker": "MSFT",
+      "price": 393.35,
+      "prev_close": 397.75,
+      "change_pct": -1.11
+    },
+    {
+      "label": "AAPL",
+      "ticker": "AAPL",
+      "price": 340.08,
+      "prev_close": 327.74,
+      "change_pct": 3.77
+    },
+    {
+      "label": "RHM.DE",
+      "ticker": "RHM.DE",
+      "price": 1086.8,
+      "prev_close": 995.4,
+      "change_pct": 9.18
     },
     {
       "label": "BRK.B",
@@ -1292,53 +601,459 @@
       "error": "HTTP Error 404: "
     },
     {
-      "label": "ON",
-      "ticker": "ON",
-      "price": 84.8,
-      "prev_close": 91.06,
-      "change_pct": -6.88
+      "label": "ADBE",
+      "ticker": "ADBE",
+      "price": 249.18,
+      "prev_close": 227.16,
+      "change_pct": 9.69
     },
     {
-      "label": "AAPL",
-      "ticker": "AAPL",
-      "price": 337.64,
-      "prev_close": 327.74,
-      "change_pct": 3.02
+      "label": "COST",
+      "ticker": "COST",
+      "price": 966.58,
+      "prev_close": 929.22,
+      "change_pct": 4.02
     },
     {
-      "label": "BAS.DE",
-      "ticker": "BAS.DE",
-      "price": 48.63,
-      "prev_close": 48.24,
-      "change_pct": 0.8
+      "label": "MPWR",
+      "ticker": "MPWR",
+      "price": 1282.01,
+      "prev_close": 1383.26,
+      "change_pct": -7.32
     },
     {
-      "label": "KLAC",
-      "ticker": "KLAC",
-      "price": 188.83,
-      "prev_close": 217.56,
-      "change_pct": -13.21
+      "label": "INTC",
+      "ticker": "INTC",
+      "price": 86.3,
+      "prev_close": 105.45,
+      "change_pct": -18.16
     },
     {
-      "label": "BAYN.DE",
-      "ticker": "BAYN.DE",
-      "price": 47.04,
-      "prev_close": 47.62,
-      "change_pct": -1.22
+      "label": "EOG",
+      "ticker": "EOG",
+      "price": 139.64,
+      "prev_close": 143.44,
+      "change_pct": -2.65
     },
     {
-      "label": "GOOG",
-      "ticker": "GOOG",
-      "price": 328.82,
-      "prev_close": 346.19,
-      "change_pct": -5.02
+      "label": "DB1.DE",
+      "ticker": "DB1.DE",
+      "price": 266.2,
+      "prev_close": 252.5,
+      "change_pct": 5.43
+    },
+    {
+      "label": "ARM",
+      "ticker": "ARM",
+      "price": 244.74,
+      "prev_close": 289.73,
+      "change_pct": -15.53
+    },
+    {
+      "label": "VRTX",
+      "ticker": "VRTX",
+      "price": 490.39,
+      "prev_close": 482.0,
+      "change_pct": 1.74
+    },
+    {
+      "label": "MDT",
+      "ticker": "MDT",
+      "price": 86.88,
+      "prev_close": 82.35,
+      "change_pct": 5.5
+    },
+    {
+      "label": "AMAT",
+      "ticker": "AMAT",
+      "price": 476.46,
+      "prev_close": 564.55,
+      "change_pct": -15.6
+    },
+    {
+      "label": "TRG",
+      "ticker": "TRG",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null
+    },
+    {
+      "label": "MRCY",
+      "ticker": "MRCY",
+      "price": 99.38,
+      "prev_close": 98.64,
+      "change_pct": 0.75
+    },
+    {
+      "label": "GE",
+      "ticker": "GE",
+      "price": 363.59,
+      "prev_close": 340.7,
+      "change_pct": 6.72
+    },
+    {
+      "label": "MDLZ",
+      "ticker": "MDLZ",
+      "price": 62.48,
+      "prev_close": 59.86,
+      "change_pct": 4.38
+    },
+    {
+      "label": "KVUE",
+      "ticker": "KVUE",
+      "price": 19.75,
+      "prev_close": 19.01,
+      "change_pct": 3.89
+    },
+    {
+      "label": "HSBA.L",
+      "ticker": "HSBA.L",
+      "price": 1548.4,
+      "prev_close": 1509.4,
+      "change_pct": 2.58
+    },
+    {
+      "label": "AMGN",
+      "ticker": "AMGN",
+      "price": 393.1,
+      "prev_close": 366.24,
+      "change_pct": 7.33
+    },
+    {
+      "label": "TMUS",
+      "ticker": "TMUS",
+      "price": 182.39,
+      "prev_close": 190.77,
+      "change_pct": -4.39
+    },
+    {
+      "label": "DTE.DE",
+      "ticker": "DTE.DE",
+      "price": 27.59,
+      "prev_close": 26.68,
+      "change_pct": 3.41
+    },
+    {
+      "label": "HEI",
+      "ticker": "HEI",
+      "price": 363.44,
+      "prev_close": 340.4,
+      "change_pct": 6.77
+    },
+    {
+      "label": "NFLX",
+      "ticker": "NFLX",
+      "price": 72.39,
+      "prev_close": 68.67,
+      "change_pct": 5.42
+    },
+    {
+      "label": "SIE.DE",
+      "ticker": "SIE.DE",
+      "price": 271.75,
+      "prev_close": 270.45,
+      "change_pct": 0.48
+    },
+    {
+      "label": "META",
+      "ticker": "META",
+      "price": 593.41,
+      "prev_close": 643.81,
+      "change_pct": -7.83
+    },
+    {
+      "label": "NOVN.SW",
+      "ticker": "NOVN.SW",
+      "price": 130.4,
+      "prev_close": 125.34,
+      "change_pct": 4.04
+    },
+    {
+      "label": "CVX",
+      "ticker": "CVX",
+      "price": 187.58,
+      "prev_close": 191.07,
+      "change_pct": -1.83
+    },
+    {
+      "label": "VWS.CO",
+      "ticker": "VWS.CO",
+      "price": 167.55,
+      "prev_close": 176.3,
+      "change_pct": -4.96
+    },
+    {
+      "label": "ASML.AS",
+      "ticker": "ASML.AS",
+      "price": 1388.4,
+      "prev_close": 1589.6,
+      "change_pct": -12.66
+    },
+    {
+      "label": "WWD",
+      "ticker": "WWD",
+      "price": 410.55,
+      "prev_close": 406.87,
+      "change_pct": 0.9
+    },
+    {
+      "label": "ORA",
+      "ticker": "ORA",
+      "price": 98.47,
+      "prev_close": 105.1,
+      "change_pct": -6.31
+    },
+    {
+      "label": "DVN",
+      "ticker": "DVN",
+      "price": 42.66,
+      "prev_close": 44.1,
+      "change_pct": -3.27
+    },
+    {
+      "label": "KR",
+      "ticker": "KR",
+      "price": 59.19,
+      "prev_close": 57.78,
+      "change_pct": 2.44
+    },
+    {
+      "label": "000660.KS",
+      "ticker": "000660.KS",
+      "price": 1550000.0,
+      "prev_close": 1836000.0,
+      "change_pct": -15.58
+    },
+    {
+      "label": "OXY",
+      "ticker": "OXY",
+      "price": 53.93,
+      "prev_close": 56.5,
+      "change_pct": -4.55
+    },
+    {
+      "label": "NOC",
+      "ticker": "NOC",
+      "price": 549.22,
+      "prev_close": 512.29,
+      "change_pct": 7.21
+    },
+    {
+      "label": "CHD",
+      "ticker": "CHD",
+      "price": 99.93,
+      "prev_close": 95.75,
+      "change_pct": 4.37
+    },
+    {
+      "label": "SHEL.L",
+      "ticker": "SHEL.L",
+      "price": 3234.5,
+      "prev_close": 3254.0,
+      "change_pct": -0.6
+    },
+    {
+      "label": "MUV2.DE",
+      "ticker": "MUV2.DE",
+      "price": 527.0,
+      "prev_close": 502.4,
+      "change_pct": 4.9
+    },
+    {
+      "label": "APA",
+      "ticker": "APA",
+      "price": 34.93,
+      "prev_close": 35.77,
+      "change_pct": -2.35
     },
     {
       "label": "RTX",
       "ticker": "RTX",
-      "price": 218.06,
+      "price": 218.58,
       "prev_close": 193.67,
-      "change_pct": 12.6
+      "change_pct": 12.86
+    },
+    {
+      "label": "GILD",
+      "ticker": "GILD",
+      "price": 134.32,
+      "prev_close": 130.28,
+      "change_pct": 3.1
+    },
+    {
+      "label": "ADI",
+      "ticker": "ADI",
+      "price": 365.83,
+      "prev_close": 382.81,
+      "change_pct": -4.44
+    },
+    {
+      "label": "TDG",
+      "ticker": "TDG",
+      "price": 1307.97,
+      "prev_close": 1205.49,
+      "change_pct": 8.5
+    },
+    {
+      "label": "MRVL",
+      "ticker": "MRVL",
+      "price": 174.47,
+      "prev_close": 207.96,
+      "change_pct": -16.1
+    },
+    {
+      "label": "KMB",
+      "ticker": "KMB",
+      "price": 113.09,
+      "prev_close": 108.05,
+      "change_pct": 4.66
+    },
+    {
+      "label": "ISRG",
+      "ticker": "ISRG",
+      "price": 361.8,
+      "prev_close": 350.06,
+      "change_pct": 3.35
+    },
+    {
+      "label": "AIR.DE",
+      "ticker": "AIR.DE",
+      "price": 212.05,
+      "prev_close": 194.54,
+      "change_pct": 9.0
+    },
+    {
+      "label": "VOW3.DE",
+      "ticker": "VOW3.DE",
+      "price": 73.92,
+      "prev_close": 72.56,
+      "change_pct": 1.87
+    },
+    {
+      "label": "207940.KS",
+      "ticker": "207940.KS",
+      "price": 1549000.0,
+      "prev_close": 1395000.0,
+      "change_pct": 11.04
+    },
+    {
+      "label": "DHR",
+      "ticker": "DHR",
+      "price": 199.05,
+      "prev_close": 179.01,
+      "change_pct": 11.19
+    },
+    {
+      "label": "IFX.DE",
+      "ticker": "IFX.DE",
+      "price": 57.77,
+      "prev_close": 67.54,
+      "change_pct": -14.47
+    },
+    {
+      "label": "NESN.SW",
+      "ticker": "NESN.SW",
+      "price": 82.4,
+      "prev_close": 86.17,
+      "change_pct": -4.38
+    },
+    {
+      "label": "CL",
+      "ticker": "CL",
+      "price": 92.73,
+      "prev_close": 90.5,
+      "change_pct": 2.46
+    },
+    {
+      "label": "EQTL3.SA",
+      "ticker": "EQTL3.SA",
+      "price": 38.83,
+      "prev_close": 38.83,
+      "change_pct": 0.0
+    },
+    {
+      "label": "012330.KS",
+      "ticker": "012330.KS",
+      "price": 440000.0,
+      "prev_close": 479500.0,
+      "change_pct": -8.24
+    },
+    {
+      "label": "PG",
+      "ticker": "PG",
+      "price": 148.88,
+      "prev_close": 148.1,
+      "change_pct": 0.53
+    },
+    {
+      "label": "PEP",
+      "ticker": "PEP",
+      "price": 142.86,
+      "prev_close": 135.0,
+      "change_pct": 5.82
+    },
+    {
+      "label": "LLY",
+      "ticker": "LLY",
+      "price": 1220.66,
+      "prev_close": 1175.41,
+      "change_pct": 3.85
+    },
+    {
+      "label": "TXT",
+      "ticker": "TXT",
+      "price": 89.96,
+      "prev_close": 90.53,
+      "change_pct": -0.63
+    },
+    {
+      "label": "MCHP",
+      "ticker": "MCHP",
+      "price": 75.71,
+      "prev_close": 83.38,
+      "change_pct": -9.2
+    },
+    {
+      "label": "CSCO",
+      "ticker": "CSCO",
+      "price": 115.58,
+      "prev_close": 112.18,
+      "change_pct": 3.03
+    },
+    {
+      "label": "105560.KS",
+      "ticker": "105560.KS",
+      "price": 165200.0,
+      "prev_close": 174000.0,
+      "change_pct": -5.06
+    },
+    {
+      "label": "GD",
+      "ticker": "GD",
+      "price": 393.19,
+      "prev_close": 367.73,
+      "change_pct": 6.92
+    },
+    {
+      "label": "TDY",
+      "ticker": "TDY",
+      "price": 649.67,
+      "prev_close": 647.48,
+      "change_pct": 0.34
+    },
+    {
+      "label": "MPC",
+      "ticker": "MPC",
+      "price": 306.05,
+      "prev_close": 319.76,
+      "change_pct": -4.29
+    },
+    {
+      "label": "BKR",
+      "ticker": "BKR",
+      "price": 58.46,
+      "prev_close": 56.38,
+      "change_pct": 3.69
     },
     {
       "label": "068270.KS",
@@ -1348,74 +1063,349 @@
       "change_pct": 3.38
     },
     {
-      "label": "AVGO",
-      "ticker": "AVGO",
-      "price": 377.85,
-      "prev_close": 386.5,
-      "change_pct": -2.24
+      "label": "EQT",
+      "ticker": "EQT",
+      "price": 51.66,
+      "prev_close": 49.8,
+      "change_pct": 3.73
     },
     {
-      "label": "CMCSA",
-      "ticker": "CMCSA",
-      "price": 23.84,
-      "prev_close": 23.81,
-      "change_pct": 0.13
+      "label": "AMZN",
+      "ticker": "AMZN",
+      "price": 230.86,
+      "prev_close": 247.55,
+      "change_pct": -6.74
     },
     {
-      "label": "TSM",
-      "ticker": "TSM",
-      "price": 385.51,
-      "prev_close": 424.61,
-      "change_pct": -9.21
+      "label": "HAL",
+      "ticker": "HAL",
+      "price": 31.23,
+      "prev_close": 33.19,
+      "change_pct": -5.91
     },
     {
-      "label": "HD",
-      "ticker": "HD",
-      "price": 345.64,
-      "prev_close": 331.6,
-      "change_pct": 4.23
+      "label": "PSX",
+      "ticker": "PSX",
+      "price": 205.85,
+      "prev_close": 212.27,
+      "change_pct": -3.02
     },
     {
-      "label": "NXT",
-      "ticker": "NXT",
-      "price": 96.45,
-      "prev_close": 105.67,
-      "change_pct": -8.72
+      "label": "AMD",
+      "ticker": "AMD",
+      "price": 454.62,
+      "prev_close": 544.43,
+      "change_pct": -16.5
     },
     {
-      "label": "JPM",
-      "ticker": "JPM",
-      "price": 355.69,
-      "prev_close": 345.23,
-      "change_pct": 3.03
+      "label": "LDOS",
+      "ticker": "LDOS",
+      "price": 118.36,
+      "prev_close": 104.92,
+      "change_pct": 12.81
+    },
+    {
+      "label": "KHC",
+      "ticker": "KHC",
+      "price": 27.3,
+      "prev_close": 25.79,
+      "change_pct": 5.85
+    },
+    {
+      "label": "ROG.SW",
+      "ticker": "ROG.SW",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "error": "HTTP Error 404: "
+    },
+    {
+      "label": "028260.KS",
+      "ticker": "028260.KS",
+      "price": 305000.0,
+      "prev_close": 343500.0,
+      "change_pct": -11.21
+    },
+    {
+      "label": "BAS.DE",
+      "ticker": "BAS.DE",
+      "price": 48.97,
+      "prev_close": 48.24,
+      "change_pct": 1.49
+    },
+    {
+      "label": "LRCX",
+      "ticker": "LRCX",
+      "price": 269.61,
+      "prev_close": 322.0,
+      "change_pct": -16.27
+    },
+    {
+      "label": "SLB",
+      "ticker": "SLB",
+      "price": 49.98,
+      "prev_close": 46.59,
+      "change_pct": 7.28
+    },
+    {
+      "label": "MA",
+      "ticker": "MA",
+      "price": 562.75,
+      "prev_close": 538.3,
+      "change_pct": 4.54
+    },
+    {
+      "label": "GOOGL",
+      "ticker": "GOOGL",
+      "price": 333.71,
+      "prev_close": 347.15,
+      "change_pct": -3.87
     },
     {
       "label": "TSLA",
       "ticker": "TSLA",
-      "price": 304.3,
+      "price": 307.44,
       "prev_close": 378.93,
-      "change_pct": -19.7
+      "change_pct": -18.87
     },
     {
-      "label": "TDY",
-      "ticker": "TDY",
-      "price": 641.56,
-      "prev_close": 647.48,
-      "change_pct": -0.91
+      "label": "MBG.DE",
+      "ticker": "MBG.DE",
+      "price": 46.62,
+      "prev_close": 44.91,
+      "change_pct": 3.82
+    },
+    {
+      "label": "FANG",
+      "ticker": "FANG",
+      "price": 190.31,
+      "prev_close": 199.8,
+      "change_pct": -4.75
+    },
+    {
+      "label": "PM",
+      "ticker": "PM",
+      "price": 200.17,
+      "prev_close": 188.04,
+      "change_pct": 6.45
+    },
+    {
+      "label": "NXPI",
+      "ticker": "NXPI",
+      "price": 259.12,
+      "prev_close": 273.15,
+      "change_pct": -5.14
+    },
+    {
+      "label": "FSLR",
+      "ticker": "FSLR",
+      "price": 202.59,
+      "prev_close": 206.05,
+      "change_pct": -1.68
+    },
+    {
+      "label": "055550.KS",
+      "ticker": "055550.KS",
+      "price": 100900.0,
+      "prev_close": 104700.0,
+      "change_pct": -3.63
+    },
+    {
+      "label": "HSY",
+      "ticker": "HSY",
+      "price": 183.39,
+      "prev_close": 170.63,
+      "change_pct": 7.48
+    },
+    {
+      "label": "WMT",
+      "ticker": "WMT",
+      "price": 113.1,
+      "prev_close": 110.39,
+      "change_pct": 2.45
+    },
+    {
+      "label": "SWKS",
+      "ticker": "SWKS",
+      "price": 64.68,
+      "prev_close": 62.95,
+      "change_pct": 2.75
+    },
+    {
+      "label": "KMI",
+      "ticker": "KMI",
+      "price": 31.61,
+      "prev_close": 32.38,
+      "change_pct": -2.38
+    },
+    {
+      "label": "BA",
+      "ticker": "BA",
+      "price": 221.56,
+      "prev_close": 204.8,
+      "change_pct": 8.18
+    },
+    {
+      "label": "TMO",
+      "ticker": "TMO",
+      "price": 576.41,
+      "prev_close": 523.46,
+      "change_pct": 10.12
+    },
+    {
+      "label": "COP",
+      "ticker": "COP",
+      "price": 114.1,
+      "prev_close": 117.5,
+      "change_pct": -2.89
+    },
+    {
+      "label": "KTOS",
+      "ticker": "KTOS",
+      "price": 48.64,
+      "prev_close": 48.21,
+      "change_pct": 0.89
+    },
+    {
+      "label": "PFE",
+      "ticker": "PFE",
+      "price": 25.25,
+      "prev_close": 24.94,
+      "change_pct": 1.24
+    },
+    {
+      "label": "NXT",
+      "ticker": "NXT",
+      "price": 95.35,
+      "prev_close": 105.67,
+      "change_pct": -9.77
+    },
+    {
+      "label": "005930.KS",
+      "ticker": "005930.KS",
+      "price": 220000.0,
+      "prev_close": 259000.0,
+      "change_pct": -15.06
+    },
+    {
+      "label": "ASML",
+      "ticker": "ASML",
+      "price": 1582.95,
+      "prev_close": 1801.51,
+      "change_pct": -12.13
+    },
+    {
+      "label": "HII",
+      "ticker": "HII",
+      "price": 299.9,
+      "prev_close": 268.76,
+      "change_pct": 11.59
+    },
+    {
+      "label": "SAP.DE",
+      "ticker": "SAP.DE",
+      "price": 159.24,
+      "prev_close": 136.42,
+      "change_pct": 16.73
+    },
+    {
+      "label": "HD",
+      "ticker": "HD",
+      "price": 344.47,
+      "prev_close": 331.6,
+      "change_pct": 3.88
+    },
+    {
+      "label": "ABT",
+      "ticker": "ABT",
+      "price": 107.27,
+      "prev_close": 99.67,
+      "change_pct": 7.63
+    },
+    {
+      "label": "ALV.DE",
+      "ticker": "ALV.DE",
+      "price": 432.4,
+      "prev_close": 422.8,
+      "change_pct": 2.27
+    },
+    {
+      "label": "ENR.DE",
+      "ticker": "ENR.DE",
+      "price": 137.9,
+      "prev_close": 158.14,
+      "change_pct": -12.8
+    },
+    {
+      "label": "HES",
+      "ticker": "HES",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "error": "HTTP Error 404: "
+    },
+    {
+      "label": "DBK.DE",
+      "ticker": "DBK.DE",
+      "price": 30.93,
+      "prev_close": 31.07,
+      "change_pct": -0.43
+    },
+    {
+      "label": "TXN",
+      "ticker": "TXN",
+      "price": 277.07,
+      "prev_close": 291.3,
+      "change_pct": -4.88
+    },
+    {
+      "label": "UNH",
+      "ticker": "UNH",
+      "price": 428.79,
+      "prev_close": 436.35,
+      "change_pct": -1.73
+    },
+    {
+      "label": "GIS",
+      "ticker": "GIS",
+      "price": 37.65,
+      "prev_close": 37.15,
+      "change_pct": 1.35
+    },
+    {
+      "label": "AZN.L",
+      "ticker": "AZN.L",
+      "price": 12940.0,
+      "prev_close": 12492.0,
+      "change_pct": 3.59
     },
     {
       "label": "QCOM",
       "ticker": "QCOM",
-      "price": 166.66,
+      "price": 162.88,
       "prev_close": 173.5,
-      "change_pct": -3.94
+      "change_pct": -6.12
     },
     {
-      "label": "BKR",
-      "ticker": "BKR",
-      "price": 58.88,
-      "prev_close": 56.38,
-      "change_pct": 4.43
+      "label": "CVS",
+      "ticker": "CVS",
+      "price": 109.34,
+      "prev_close": 110.6,
+      "change_pct": -1.14
+    },
+    {
+      "label": "SYK",
+      "ticker": "SYK",
+      "price": 346.6,
+      "prev_close": 314.58,
+      "change_pct": 10.18
+    },
+    {
+      "label": "ELV",
+      "ticker": "ELV",
+      "price": 385.73,
+      "prev_close": 393.44,
+      "change_pct": -1.96
     }
   ]
 }
