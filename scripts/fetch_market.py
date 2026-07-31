@@ -92,6 +92,16 @@ def fetch_snapshot() -> list[dict]:
     for label, ticker in ALL_TICKERS.items():
         try:
             price, prev_close, closes = fetch_ticker(ticker)
+            # Yahoos meta.previousClose haengt manchmal der taeglichen
+            # Schlusskurs-Reihe hinterher (asynchrone Cache-Aktualisierung) -
+            # das fuehrt zu falschen Tagesveraenderungen, die nicht zum
+            # angezeigten Sparkline-Verlauf passen (beobachtet u.a. bei DAX,
+            # Amundi Stoxx Europe 600, iShares Global Clean Energy, Jul 2026).
+            # Die tatsaechliche Kursreihe ist verlaesslicher: der vorletzte
+            # Eintrag (der letzte ist der aktuelle Kurs) ist der echte
+            # Vortagesschluss.
+            if len(closes) >= 2:
+                prev_close = closes[-2]
             change_pct = None
             if price is not None and prev_close:
                 change_pct = round((price - prev_close) / prev_close * 100, 2)
