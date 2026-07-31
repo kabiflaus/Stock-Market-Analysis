@@ -136,17 +136,6 @@ body {
 .ticker-news a:hover { text-decoration: underline; }
 .ticker-news a strong { color: #e7e9ea; }
 
-/* Einzelposition ohne Fonds-Holdings (z.B. Zertifikat/Short auf einen
-   Basiswert, s. shortPositionCardHtml) - Prozentzahl oben ist die
-   Positionsrichtung, Basiswert-Kurs/-Change nur zur Einordnung darunter. */
-.short-card { grid-column: 1 / -1; }
-.short-card .ticker-price { font-size: 1.5rem; }
-.short-underlying { font-size: 0.8rem; color: #8b98a5; margin-top: 6px; }
-.short-note {
-  font-size: 0.68rem; color: #6e7681; line-height: 1.35; margin-top: 8px;
-  padding-top: 6px; border-top: 1px solid #22262b;
-}
-
 /* Grosse, zentrierte Karte fuer einen einzeln ausgewaehlten Index
    (Nasdaq/S&P 500/DAX/KOSPI) statt des kleinen Grid-Feldes, inkl. Mini-Graph. */
 .big-index-card {

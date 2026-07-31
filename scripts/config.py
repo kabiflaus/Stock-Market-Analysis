@@ -25,12 +25,6 @@ NEWS_QUERIES = [
     {"label": "S&P 500", "query": "S&P 500 futures", "hl": "en-US", "gl": "US"},
     {"label": "DAX", "query": "DAX Index", "hl": "de-DE", "gl": "DE"},
     {"label": "KOSPI", "query": "KOSPI index Korea", "hl": "en-US", "gl": "US"},
-    # SK Hynix Short (DE000UN9ASD5, Zertifikat): eigener, immer sichtbarer
-    # News-Block im Markets-Tab (wie "Makro & Weltpolitik"), da diese eine
-    # Einzelposition unabhaengig vom Sektor-Filter im Blick behalten will.
-    {"label": "SK Hynix Short", "query": "SK Hynix stock", "hl": "en-US", "gl": "US"},
-    {"label": "SK Hynix Short", "query": "SK Hynix chip", "hl": "en-US", "gl": "US"},
-    {"label": "SK Hynix Short", "query": "SK Hynix HBM", "hl": "en-US", "gl": "US"},
     # Persoenliche ETFs (Invest-Tab). Google-News-RSS verlangt praktisch alle
     # Woerter der Query im selben Artikel (Leerzeichen = UND) - lange, generische
     # Ketten wie "MSCI ACWI global stocks market" trafen dadurch so gut wie nie.
@@ -158,16 +152,6 @@ PERSONAL_ETF_TICKERS = {
     "Scalable MSCI ACWI": "SCWX.DE",
     "Amundi Stoxx Europe 600": "LYP6.DE",
     "iShares Global Clean Energy": "Q8Y0.DE",
-}
-
-# Einzelpositionen im Invest-Tab ohne Fonds-Holdings (z.B. ein Zertifikat auf
-# einen einzelnen Basiswert). Yahoo hat fuer bankemittierte Zertifikate/Turbos
-# (ISIN-Praefix DE000UN9... = UniCredit/HVB) keinen verlaesslichen Kursfeed -
-# stattdessen wird hier der Basiswert getrackt; die Gegenlaeufigkeit (Short:
-# Position gewinnt, wenn der Basiswert faellt) wird nur im Frontend (app.js)
-# bei der Anzeige beruecksichtigt.
-PERSONAL_POSITIONS = {
-    "SK Hynix Short (DE000UN9ASD5)": "000660.KS",
 }
 
 # Anzeigenamen fuer alle Einzel-Ticker, die in SECTOR_POSITIONS oder

@@ -18,7 +18,7 @@ from curl_cffi import requests as cffi_requests
 sys.path.insert(0, os.path.dirname(__file__))
 from config import (
     TICKER_GROUPS, SECTOR_POSITIONS, PERSONAL_ETFS, PERSONAL_ETF_TICKERS,
-    INDEX_HOLDINGS, PERSONAL_POSITIONS,
+    INDEX_HOLDINGS,
 )
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "market.json")
@@ -47,20 +47,15 @@ for _tickers in PERSONAL_ETFS.values():
 for _tickers in INDEX_HOLDINGS.values():
     _position_tickers.update(_tickers)
 
-ALL_TICKERS = {
-    **GROUP_TICKERS, **PERSONAL_ETF_TICKERS, **PERSONAL_POSITIONS,
-    **{t: t for t in _position_tickers},
-}
+ALL_TICKERS = {**GROUP_TICKERS, **PERSONAL_ETF_TICKERS, **{t: t for t in _position_tickers}}
 
-# Fuer diese Labels (Globale Indizes + die 3 persoenlichen ETFs + Einzel-
-# positionen) wird zusaetzlich eine kurze Kursreihe gespeichert - Grundlage
-# fuer die Mini-Graphen bei der Index-Detailansicht und den ETF-/Positions-
-# Karten im Invest-Tab.
+# Fuer diese Labels (Globale Indizes + die 3 persoenlichen ETFs) wird
+# zusaetzlich eine kurze Kursreihe gespeichert - Grundlage fuer die Mini-
+# Graphen bei der Index-Detailansicht und den ETF-Karten im Invest-Tab.
 SPARKLINE_LABELS = (
     set(TICKER_GROUPS["Globale Indizes"].keys())
     | set(TICKER_GROUPS["Anleihen (USA)"].keys())
     | set(PERSONAL_ETF_TICKERS.keys())
-    | set(PERSONAL_POSITIONS.keys())
 )
 
 
