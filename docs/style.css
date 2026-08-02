@@ -54,6 +54,9 @@ body {
 }
 
 .tickers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+/* Anleihen: eigene Rubrik, Renditen als Kurve gedacht - deshalb immer
+   ein Block untereinander statt des 2-Spalten-Rasters. */
+#bonds-section .tickers { grid-template-columns: 1fr; }
 .ticker-card {
   background: #16191d; border: 1px solid #2a2f34; border-radius: 10px; padding: 10px 12px;
   transition: opacity 0.35s ease, transform 0.35s ease, max-height 0.35s ease,
