@@ -762,19 +762,15 @@ function positionCardHtml(ticker, row, weight, noNews) {
 
 // ---------- Rendering: Markets-Tab ----------
 function renderMarketPills() {
-  // "Alle" separat/abgesetzt oben, neben den "Sektor"- und "Indizes"-Dropdowns
-  document.getElementById('pill-alle-markets').outerHTML =
-    '<button class="pill pill-all active" id="pill-alle-markets" data-label="Alle">Alle</button>';
-
-  // Sektor-Pillen ohne die 4 reinen Index-Pillen (die wandern ins "Indizes"-Dropdown)
+  // Sektor-Pillen ohne die 4 reinen Index-Pillen (die kommen in die Indizes-Reihe)
   const indexPills = new Set(CONFIG.indexPills);
-  const sectorMenuHtml = CONFIG.sectorOrder
+  const sektorRowHtml = CONFIG.sectorOrder
     .filter(label => !indexPills.has(label))
     .map(label => '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>')
     .join('');
-  document.getElementById('sektor-menu').innerHTML = sectorMenuHtml;
+  document.getElementById('sektor-row').innerHTML = sektorRowHtml;
 
-  document.getElementById('indizes-menu').innerHTML = CONFIG.indexPills.map(label =>
+  document.getElementById('indizes-row').innerHTML = CONFIG.indexPills.map(label =>
     '<button class="pill" data-label="' + esc(label) + '">' + esc(label) + '</button>'
   ).join('');
 }
@@ -950,25 +946,54 @@ function setupMarketFilter(rowsByLabel) {
   const positionSections = document.querySelectorAll('.position-section[data-sector]');
   const indexHoldingSections = document.querySelectorAll('.position-section[data-index]');
   const moreBtn = document.getElementById('more-btn');
-  const sektorDropdown = document.getElementById('sektor-dropdown');
-  const indizesDropdown = document.getElementById('indizes-dropdown');
+  const refreshBtn = document.getElementById('markets-refresh-btn');
+  const startBtn = document.getElementById('pill-alle-markets');
+  const sektorBtn = document.getElementById('pill-sektoren-markets');
+  const indizesBtn = document.getElementById('pill-indizes-markets');
+  const anleihenBtn = document.getElementById('pill-anleihen-markets');
+  const sektorRow = document.getElementById('sektor-row');
+  const indizesRow = document.getElementById('indizes-row');
   const indexPillSet = new Set(CONFIG.indexPills);
+  const sektorPillSet = new Set(CONFIG.sectorOrder.filter(l => !indexPillSet.has(l)));
   let expanded = false;
   let filter = 'Alle';
+  // Merkt sich den zuletzt gewaehlten Sektor/Index, damit ein Klick auf die
+  // Kategorie-Pille selbst (ohne konkrete Unterauswahl) nicht auf einer
+  // leeren Seite landet, sondern bei der letzten (oder ersten) Auswahl.
+  let lastSector = [...sektorPillSet][0];
+  let lastIndex = CONFIG.indexPills[0];
   const marketOpen = isUsMarketOpen();
 
+  // Aktualisieren-Button laedt die Seite neu, haengt dabei den aktuellen
+  // Filter an die URL, damit man nach dem Reload auf derselben Seite bleibt
+  // statt immer wieder auf "Start" zu landen.
+  const knownFilters = new Set([...CONFIG.sectorOrder, 'Alle', 'Anleihen']);
+  const urlFilter = new URLSearchParams(location.search).get('filter');
+  if (urlFilter && knownFilters.has(urlFilter)) {
+    filter = urlFilter;
+    if (sektorPillSet.has(urlFilter)) lastSector = urlFilter;
+    if (indexPillSet.has(urlFilter)) lastIndex = urlFilter;
+  }
+  if (refreshBtn) {
+    refreshBtn.addEventListener('click', () => {
+      location.href = location.pathname + '?t=' + Date.now() + '&filter=' + encodeURIComponent(filter);
+    });
+  }
+
   function apply() {
-    const hasPositions = [...positionSections].some(s => s.dataset.sector === filter);
+    const isSektorFilter = sektorPillSet.has(filter);
     const isIndexFilter = indexPillSet.has(filter);
     const isBondsFilter = filter === 'Anleihen';
-    globalSection.style.display = (hasPositions || isBondsFilter) ? 'none' : '';
-    // Futures gelten nur der Vorboersen-Uebersicht: nur im "Alle"-Filter und
+    const isStartFilter = filter === 'Alle';
+    globalSection.style.display = (isSektorFilter || isBondsFilter) ? 'none' : '';
+    // Futures gelten nur der Vorboersen-Uebersicht: nur auf "Start" und
     // nur solange die Kassaboerse noch geschlossen ist.
-    futuresSection.style.display = (filter === 'Alle' && !marketOpen) ? '' : 'none';
-    // Anleihen: eigene Rubrik (Pille ohne Dropdown) zusaetzlich zur
-    // Gesamtuebersicht - dort wie ueberall sonst bei einem Sektor-/Index-
-    // Filter ausblenden.
-    bondsSection.style.display = (filter === 'Alle' || isBondsFilter) ? '' : 'none';
+    futuresSection.style.display = (isStartFilter && !marketOpen) ? '' : 'none';
+    // Anleihen sind eine eigene Rubrik, nicht mehr Teil der Start-Uebersicht.
+    bondsSection.style.display = isBondsFilter ? '' : 'none';
+
+    sektorRow.style.display = isSektorFilter ? '' : 'none';
+    indizesRow.style.display = isIndexFilter ? '' : 'none';
 
     // Ein einzelner ausgewaehlter Index (Nasdaq/S&P 500/DAX/KOSPI) bekommt eine
     // grosse, zentrierte Karte mit Mini-Graph statt des kleinen Grid-Feldes.
@@ -980,11 +1005,7 @@ function setupMarketFilter(rowsByLabel) {
       const label = CONFIG.sectorTickerMap[filter][0];
       bigIndexView.innerHTML = bigIndexCardHtml(label, rowsByLabel[label], CONFIG.tickerFlags[label] || '');
     } else {
-      globalCards.forEach(card => {
-        if (filter === 'Alle') { card.classList.remove('dimmed'); return; }
-        const sectors = (card.dataset.sectors || '').split('|');
-        card.classList.toggle('dimmed', !sectors.includes(filter));
-      });
+      globalCards.forEach(card => card.classList.remove('dimmed'));
     }
     positionSections.forEach(sec => {
       sec.style.display = (sec.dataset.sector === filter) ? '' : 'none';
@@ -994,32 +1015,48 @@ function setupMarketFilter(rowsByLabel) {
       sec.style.display = (sec.dataset.index === filter) ? '' : 'none';
     });
     headlines.forEach((h, i) => {
-      const matches = (filter === 'Alle') || (h.dataset.label === filter);
+      const matches = isStartFilter || (h.dataset.label === filter);
       if (!matches) { h.style.display = 'none'; return; }
-      const hiddenByLimit = (filter === 'Alle') && (i >= MAX_VISIBLE) && !expanded;
+      const hiddenByLimit = isStartFilter && (i >= MAX_VISIBLE) && !expanded;
       h.style.display = hiddenByLimit ? 'none' : '';
     });
-    if (moreBtn) moreBtn.style.display = (filter === 'Alle' && !expanded && headlines.length > MAX_VISIBLE) ? 'block' : 'none';
-    pillsContainer.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.label === filter));
-    sektorDropdown.classList.remove('open');
-    indizesDropdown.classList.remove('open');
+    if (moreBtn) moreBtn.style.display = (isStartFilter && !expanded && headlines.length > MAX_VISIBLE) ? 'block' : 'none';
+
+    // Die 4 Kategorie-Pillen sind aktiv, sobald der Filter zu ihrer Kategorie
+    // gehoert (nicht 1:1 gleich dem Filterwert - "Sektoren" z.B. fuer alle 5
+    // Sektoren). Die Unter-Pillen in den beiden Reihen weiterhin per Wert.
+    startBtn.classList.toggle('active', isStartFilter);
+    sektorBtn.classList.toggle('active', isSektorFilter);
+    indizesBtn.classList.toggle('active', isIndexFilter);
+    anleihenBtn.classList.toggle('active', isBondsFilter);
+    sektorRow.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.label === filter));
+    indizesRow.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.label === filter));
   }
 
-  // Delegierter Klick-Handler, da die Sektor-/Indizes-Untermenue-Pillen dynamisch sind
+  // Delegierter Klick-Handler, da die Sektor-/Indizes-Pillen dynamisch sind
   pillsContainer.addEventListener('click', (e) => {
-    const sektorToggle = e.target.closest('#sektor-toggle');
-    if (sektorToggle) { indizesDropdown.classList.remove('open'); sektorDropdown.classList.toggle('open'); return; }
-    const indizesToggle = e.target.closest('#indizes-toggle');
-    if (indizesToggle) { sektorDropdown.classList.remove('open'); indizesDropdown.classList.toggle('open'); return; }
+    const catBtn = e.target.closest('.pill[data-category]');
+    if (catBtn) {
+      const cat = catBtn.dataset.category;
+      if (cat === 'start') filter = 'Alle';
+      else if (cat === 'sektor') filter = lastSector;
+      else if (cat === 'index') filter = lastIndex;
+      else if (cat === 'anleihen') filter = 'Anleihen';
+      expanded = false;
+      apply();
+      return;
+    }
     const pill = e.target.closest('.pill[data-label]');
     if (!pill) return;
     filter = pill.dataset.label;
+    if (sektorPillSet.has(filter)) lastSector = filter;
+    if (indexPillSet.has(filter)) lastIndex = filter;
     expanded = false;
     apply();
   });
 
-  // Klick auf eine Globale-Indizes-Karte (z.B. DAX) im "Alle"-Raster springt
-  // direkt zu diesem Index-Filter - so als haette man ihn im "Indizes"-Dropdown
+  // Klick auf eine Globale-Indizes-Karte (z.B. DAX) im "Start"-Raster springt
+  // direkt zu diesem Index-Filter - so als haette man ihn in der Indizes-Reihe
   // ausgewaehlt. data-sectors traegt bereits den passenden Filter-Namen (siehe
   // renderGlobalIndices); Karten ohne Filter-Pendant (z.B. Nikkei) reagieren nicht.
   tickersGrid.addEventListener('click', (e) => {
@@ -1028,6 +1065,7 @@ function setupMarketFilter(rowsByLabel) {
     const sectors = (card.dataset.sectors || '').split('|').filter(Boolean);
     if (!sectors.length) return;
     filter = sectors[0];
+    lastIndex = filter;
     expanded = false;
     apply();
   });
