@@ -59,7 +59,7 @@ SPARKLINE_LABELS = (
 )
 
 
-def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float]]:
+def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float], str | None]:
     resp = SESSION.get(
         CHART_URL.format(ticker=ticker),
         params={"interval": "1d", "range": "5d"},
@@ -76,6 +76,10 @@ def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float]]:
     meta = result[0]["meta"]
     price = meta.get("regularMarketPrice")
     prev_close = meta.get("previousClose") or meta.get("chartPreviousClose")
+    # Waehrung, in der Yahoo den Kurs ausliefert (z.B. KRW fuer .KS-Ticker,
+    # EUR fuer .DE) - ohne diese Angabe sind auslaendische Kurse (z.B. SK
+    # Hynix in KRW) leicht mit USD zu verwechseln.
+    currency = meta.get("currency")
 
     closes = []
     quotes = result[0].get("indicators", {}).get("quote", [{}])
@@ -84,14 +88,14 @@ def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float]]:
     if price is not None and (not closes or closes[-1] != price):
         closes.append(round(price, 2))
 
-    return price, prev_close, closes
+    return price, prev_close, closes, currency
 
 
 def fetch_snapshot() -> list[dict]:
     rows = []
     for label, ticker in ALL_TICKERS.items():
         try:
-            price, prev_close, closes = fetch_ticker(ticker)
+            price, prev_close, closes, currency = fetch_ticker(ticker)
             # Yahoos meta.previousClose haengt manchmal der taeglichen
             # Schlusskurs-Reihe hinterher (asynchrone Cache-Aktualisierung) -
             # das fuehrt zu falschen Tagesveraenderungen, die nicht zum
@@ -111,6 +115,7 @@ def fetch_snapshot() -> list[dict]:
                 "price": round(price, 2) if price is not None else None,
                 "prev_close": round(prev_close, 2) if prev_close else None,
                 "change_pct": change_pct,
+                "currency": currency,
             }
             if label in SPARKLINE_LABELS:
                 row["sparkline"] = closes
