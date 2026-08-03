@@ -925,6 +925,17 @@ function setupTabs() {
   }));
 }
 
+// Die "Aktualisieren"-Buttons laden die Seite komplett neu (fuer frische
+// Daten unter neuem ?t=-Cache-Buster), sollen dabei aber auf dem Tab bleiben,
+// von dem aus aktualisiert wurde - der Invest-Button haengt dafuer &view=invest
+// an die URL, das hier setzt beim Laden den passenden Tab aktiv.
+function applyInitialView() {
+  if (new URLSearchParams(location.search).get('view') !== 'invest') return;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.view === 'invest'));
+  document.getElementById('view-markets').style.display = 'none';
+  document.getElementById('view-invest').style.display = '';
+}
+
 // ---------- Interaktion: Markets-Filter ----------
 function setupMarketFilter(rowsByLabel) {
   const pillsContainer = document.getElementById('pills-markets');
@@ -949,13 +960,15 @@ function setupMarketFilter(rowsByLabel) {
   function apply() {
     const hasPositions = [...positionSections].some(s => s.dataset.sector === filter);
     const isIndexFilter = indexPillSet.has(filter);
-    globalSection.style.display = hasPositions ? 'none' : '';
+    const isBondsFilter = filter === 'Anleihen';
+    globalSection.style.display = (hasPositions || isBondsFilter) ? 'none' : '';
     // Futures gelten nur der Vorboersen-Uebersicht: nur im "Alle"-Filter und
     // nur solange die Kassaboerse noch geschlossen ist.
     futuresSection.style.display = (filter === 'Alle' && !marketOpen) ? '' : 'none';
-    // Anleihen sind ein reines Makro-Barometer, gehoeren nur in die
-    // Gesamtuebersicht - genau wie Futures bei jedem Sektor-/Index-Filter ausblenden.
-    bondsSection.style.display = (filter === 'Alle') ? '' : 'none';
+    // Anleihen: eigene Rubrik (Pille ohne Dropdown) zusaetzlich zur
+    // Gesamtuebersicht - dort wie ueberall sonst bei einem Sektor-/Index-
+    // Filter ausblenden.
+    bondsSection.style.display = (filter === 'Alle' || isBondsFilter) ? '' : 'none';
 
     // Ein einzelner ausgewaehlter Index (Nasdaq/S&P 500/DAX/KOSPI) bekommt eine
     // grosse, zentrierte Karte mit Mini-Graph statt des kleinen Grid-Feldes.
@@ -1290,6 +1303,7 @@ async function init() {
     'Kurse zuletzt: ' + (market.fetched_at ? fmtTime(market.fetched_at) : 'n/a');
 
   setupTabs();
+  applyInitialView();
   setupMarketFilter(rowsByLabel);
   setupInvestFilter();
   setupPositionExpand();
