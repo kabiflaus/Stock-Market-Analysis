@@ -673,6 +673,23 @@ function priceStrFor(price) {
     : 'n/a';
 }
 
+// Alles in Euro, damit man als Nutzerin in Europa nichts im Kopf umrechnen
+// muss. row.price_eur kommt bereits umgerechnet aus fetch_market.py (ausser
+// bei Anleihen-Renditen - das sind Prozentwerte, keine Geldbetraege, daher
+// haben die kein "currency"-Feld und landen hier im ersten Fall).
+function priceDisplay(row) {
+  if (!row || row.price === undefined || row.price === null) return 'n/a';
+  if (!row.currency) return priceStrFor(row.price);
+  if (row.currency === 'EUR') return priceStrFor(row.price) + currencySuffix('EUR');
+  if (row.price_eur !== undefined && row.price_eur !== null) {
+    return priceStrFor(row.price_eur) + currencySuffix('EUR');
+  }
+  // Umrechnungskurs ausnahmsweise nicht verfuegbar (z.B. FX-Abruf
+  // fehlgeschlagen) - lieber ehrlich den Originalpreis mit Waehrungskuerzel
+  // zeigen als falsch umrechnen oder kommentarlos verstecken.
+  return priceStrFor(row.price) + currencySuffix(row.currency);
+}
+
 // Finnhub liefert Echtzeit-Kurse nur fuer normale, an US-Boersen gelistete
 // Symbole (kein Praefix/Suffix). Indizes (^...), Futures (...=F) und
 // auslaendische Ticker (z.B. ASML.AS) bleiben beim taeglichen Snapshot.
@@ -690,7 +707,7 @@ function priceCardHtml(label, row, flag, extraAttrs, ticker) {
   const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'small');
   return '<div class="ticker-card"' + (extraAttrs || '') + tickerAttr + '>' +
     '<div class="ticker-label">' + prefix + esc(label) + liveDot + '</div>' +
-    '<div class="ticker-price">' + priceStrFor(row.price) + '</div>' +
+    '<div class="ticker-price">' + priceDisplay(row) + '</div>' +
     changeHtmlFor(row.change_pct) +
     spark +
     '</div>';
@@ -725,7 +742,7 @@ function bigIndexCardHtml(label, row, flag) {
   const prefix = flag ? flag + ' ' : '';
   return '<div class="big-index-card">' +
     '<div class="big-index-label">' + prefix + esc(label) + '</div>' +
-    '<div class="big-index-price">' + priceStrFor(row.price) + '</div>' +
+    '<div class="big-index-price">' + priceDisplay(row) + '</div>' +
     changeHtmlFor(row.change_pct) +
     spark +
     '</div>';
@@ -762,7 +779,7 @@ function positionCardHtml(ticker, row, weight, noNews) {
     '</div>' +
     '<div class="ticker-name">' + esc(name) + '</div>' +
     '<div class="ticker-bottom">' +
-      '<span class="ticker-price">' + priceStrFor(row.price) + currencySuffix(row.currency) + '</span>' +
+      '<span class="ticker-price">' + priceDisplay(row) + '</span>' +
       changeHtmlFor(row.change_pct) +
     '</div>' +
     descHtml +

@@ -49,6 +49,11 @@ for _tickers in INDEX_HOLDINGS.values():
 
 ALL_TICKERS = {**GROUP_TICKERS, **PERSONAL_ETF_TICKERS, **{t: t for t in _position_tickers}}
 
+# Anleihen-Renditen sind Prozentwerte, keine Geldbetraege - fuer diese Labels
+# wird nie in Euro umgerechnet (und das Waehrungsfeld wird verworfen, sonst
+# koennte die Anzeige faelschlich einen Waehrungs-Badge dazu zeigen).
+BOND_LABELS = set(TICKER_GROUPS["Anleihen (USA)"].keys())
+
 # Fuer diese Labels (Globale Indizes + die 3 persoenlichen ETFs) wird
 # zusaetzlich eine kurze Kursreihe gespeichert - Grundlage fuer die Mini-
 # Graphen bei der Index-Detailansicht und den ETF-Karten im Invest-Tab.
@@ -91,6 +96,21 @@ def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float], 
     return price, prev_close, closes, currency
 
 
+def fetch_fx_rates(currencies: set[str]) -> dict[str, float]:
+    """EUR-Wechselkurse fuer alle Fremdwaehrungen, die tatsaechlich gebraucht
+    werden (z.B. EURKRW=X liefert, wie viel Won 1 Euro gerade wert ist)."""
+    rates: dict[str, float] = {}
+    for ccy in sorted(currencies):
+        try:
+            price, _, _, _ = fetch_ticker(f"EUR{ccy}=X")
+            if price:
+                rates[ccy] = price
+        except Exception as e:
+            print(f"[WARN] Wechselkurs EUR/{ccy} nicht abrufbar: {e}", file=sys.stderr)
+        time.sleep(1.5)
+    return rates
+
+
 def fetch_snapshot() -> list[dict]:
     rows = []
     for label, ticker in ALL_TICKERS.items():
@@ -115,7 +135,7 @@ def fetch_snapshot() -> list[dict]:
                 "price": round(price, 2) if price is not None else None,
                 "prev_close": round(prev_close, 2) if prev_close else None,
                 "change_pct": change_pct,
-                "currency": currency,
+                "currency": None if label in BOND_LABELS else currency,
             }
             if label in SPARKLINE_LABELS:
                 row["sparkline"] = closes
@@ -128,6 +148,22 @@ def fetch_snapshot() -> list[dict]:
                 "error": str(e),
             })
         time.sleep(1.5)  # Burst-Anfragen vermeiden
+
+    # Alles in Euro umrechnen (bewusst nicht fuer Anleihen, s. BOND_LABELS
+    # oben) - Nutzerin ist in Europa und will keine Fremdwaehrungen im Kopf
+    # umrechnen. change_pct bleibt unveraendert (Tagesbewegung in Prozent ist
+    # waehrungsunabhaengig genug fuer diesen Zweck).
+    currencies_needed = {
+        r["currency"] for r in rows
+        if r.get("currency") and r["currency"] != "EUR" and r.get("price") is not None
+    }
+    fx_rates = fetch_fx_rates(currencies_needed)
+    for r in rows:
+        ccy = r.get("currency")
+        if ccy and ccy != "EUR" and r.get("price") is not None:
+            rate = fx_rates.get(ccy)
+            if rate:
+                r["price_eur"] = round(r["price"] / rate, 2)
     return rows
 
 
