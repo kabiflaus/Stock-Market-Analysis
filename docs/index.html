@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=2026-07-31b">
+<link rel="stylesheet" href="style.css?v=2026-08-03a">
 </head>
 <body>
   <h1 class="site-title">Morgen-Feed</h1>
@@ -33,20 +33,16 @@
 
     <div class="pills" id="pills-markets">
       <div class="pills-top">
-        <button class="pill pill-all active" id="pill-alle-markets" data-label="Alle">Alle</button>
-        <div class="dropdown" id="sektor-dropdown">
-          <button class="pill pill-all" id="sektor-toggle">Sektor ▾</button>
-          <div class="dropdown-menu" id="sektor-menu"></div>
-        </div>
-        <div class="dropdown" id="indizes-dropdown">
-          <button class="pill pill-all" id="indizes-toggle">Indizes ▾</button>
-          <div class="dropdown-menu" id="indizes-menu"></div>
-        </div>
-        <button class="pill pill-all" id="pill-anleihen-markets" data-label="Anleihen">Anleihen</button>
+        <button class="pill pill-all active" id="pill-alle-markets" data-label="Alle" data-category="start">Start</button>
+        <button class="pill pill-all" id="pill-sektoren-markets" data-category="sektor">Sektoren</button>
+        <button class="pill pill-all" id="pill-indizes-markets" data-category="index">Indizes</button>
+        <button class="pill pill-all" id="pill-anleihen-markets" data-label="Anleihen" data-category="anleihen">Anleihen</button>
       </div>
+      <div class="pills-row" id="sektor-row" style="display:none"></div>
+      <div class="pills-row" id="indizes-row" style="display:none"></div>
     </div>
 
-    <button class="refresh-btn" onclick="location.href = location.pathname + '?t=' + Date.now();">↻ Aktualisieren</button>
+    <button class="refresh-btn" id="markets-refresh-btn">↻ Aktualisieren</button>
 
     <div class="section" id="futures-section">
       <h2>Futures (Vorbörse)</h2>
@@ -90,6 +86,6 @@
     <div class="headlines" id="headlines-invest"></div>
   </div>
 
-  <script src="app.js?v=2026-07-31b"></script>
+  <script src="app.js?v=2026-08-03a"></script>
 </body>
 </html>
