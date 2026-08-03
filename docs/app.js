@@ -1171,9 +1171,24 @@ function formatMarketCap(millions) {
 // ohne Sektor-/Wachstumsbezug, aber fuer einen schnellen ersten Eindruck okay.
 function peColorClass(pe) {
   if (pe === undefined || pe === null || !isFinite(pe)) return 'neutral';
+  if (pe < 0) return 'down';   // negatives KGV = kein Gewinn, nicht "guenstig"
   if (pe < 15) return 'up';    // eher guenstig/unterbewertet
   if (pe > 25) return 'down';  // eher teuer/ueberbewertet
   return 'neutral';
+}
+
+// KGV wird bei einem Gewinn pro Aktie nahe Null technisch korrekt, aber
+// praktisch bedeutungslos riesig (z.B. gerade erst profitable Wachstums-
+// firmen wie Bloom Energy: 10047x). Trotzdem soll sichtbar bleiben, dass es
+// extrem ist - nur eben kompakt als "&gt;500x" statt der ausgeschriebenen
+// grossen Zahl, die auf den ersten Blick wie ein Fehler wirkt.
+const PE_SANITY_LIMIT = 500;
+
+function peDisplay(pe) {
+  if (pe === undefined || pe === null || !isFinite(pe)) return 'n/a';
+  if (pe > PE_SANITY_LIMIT) return '>' + PE_SANITY_LIMIT + 'x';
+  if (pe < -PE_SANITY_LIMIT) return '<-' + PE_SANITY_LIMIT + 'x';
+  return pe.toFixed(1) + 'x';
 }
 
 function fundamentalsHtml(data) {
@@ -1181,7 +1196,7 @@ function fundamentalsHtml(data) {
   const m = data.metric || {};
   const marketCap = formatMarketCap(m.marketCapitalization);
   const pe = m.peBasicExclExtraTTM ?? m.peExclExtraTTM ?? m.peTTM ?? m.peNormalizedAnnual;
-  const peStr = (pe !== undefined && pe !== null && isFinite(pe)) ? pe.toFixed(1) + 'x' : 'n/a';
+  const peStr = peDisplay(pe);
   const peHtml = '<span class="chg ' + peColorClass(pe) + '">' + peStr + '</span>';
   const margin = m.netProfitMarginTTM ?? m.netProfitMarginAnnual ?? m.netMarginTTM;
   const marginHtml = (margin !== undefined && margin !== null && isFinite(margin))
@@ -1241,7 +1256,10 @@ async function loadFundamentals(ticker) {
     metric: (metricResult.data && metricResult.data.metric) || {},
     metricError: metricResult.error || null,
   };
-  fundamentalsCache.set(ticker, data);
+  // Fehlschlaege NICHT cachen (z.B. Finnhub-Rate-Limit) - sonst wuerde ein
+  // erneuter Versuch (siehe loadCardExtras) denselben alten Fehler aus dem
+  // Cache zurueckbekommen statt wirklich neu abzufragen.
+  if (!data.metricError) fundamentalsCache.set(ticker, data);
   return data;
 }
 
@@ -1261,26 +1279,43 @@ function tickerNewsHtml(ticker) {
 // Laedt beim Aufklappen einer Holding-Karte: Kennzahlen (nur US-gelistete
 // Ticker, siehe isLiveEligible - Finnhubs Free-Tier deckt auslaendische
 // Boersen nicht ab) und/oder die neuesten Schlagzeilen zu diesem Ticker
-// (funktioniert unabhaengig von Finnhub). Wird nur einmal pro Karte geladen.
+// (funktioniert unabhaengig von Finnhub). Ueber card.dataset.extrasLoaded
+// nur einmal PRO ERFOLG geladen - schlaegt der Kennzahlen-Abruf fehl (z.B.
+// Finnhubs Free-Tier-Rate-Limit von 60 Calls/Min, das die staendig laufende
+// Live-Kurs-Abfrage schon fast ausschoepft), wird das Flag NICHT gesetzt,
+// damit ein erneutes Auf-/Zuklappen einen neuen Versuch macht statt den
+// Fehler fuer den Rest der Sitzung einzufrieren.
 async function loadCardExtras(card) {
   const ticker = card.dataset.ticker;
   if (!ticker) return;
-  if (card.querySelector('.ticker-fundamentals') || card.querySelector('.ticker-news')) return;
+  if (card.dataset.extrasLoaded === '1') return;
   const desc = card.querySelector('.ticker-desc');
   const skipNews = card.dataset.noNews === '1';
   const news = () => (skipNews ? '' : tickerNewsHtml(ticker));
   const canFetchFundamentals = FINNHUB_API_KEY && isLiveEligible(ticker);
   if (!canFetchFundamentals) {
+    // Finnhubs Free-Tier deckt nur US-gelistete Ticker ab - ohne diesen
+    // Hinweis sieht eine leere Karte (z.B. bei 600900.SS) wie ein Fehler
+    // aus, ist aber gewollt (lieber ehrlich nichts zeigen als geraten).
+    const note = '<div class="fund-note">Kennzahlen nur für US-gelistete Werte verfügbar.</div>';
     const newsHtml = news();
-    if (newsHtml) desc.insertAdjacentHTML('afterend', newsHtml);
+    desc.insertAdjacentHTML('afterend', note + newsHtml);
+    card.dataset.extrasLoaded = '1';
     return;
   }
+  // Reste eines fehlgeschlagenen Vorversuchs entfernen, sonst wuerde der neue
+  // Versuch daneben dupliziert statt sie zu ersetzen.
+  const oldBox = card.querySelector('.ticker-fundamentals');
+  if (oldBox) oldBox.remove();
+  const oldNews = card.querySelector('.ticker-news');
+  if (oldNews) oldNews.remove();
   const box = document.createElement('div');
   box.className = 'ticker-fundamentals';
   box.textContent = 'Lade Kennzahlen…';
   desc.insertAdjacentElement('afterend', box);
   const data = await loadFundamentals(ticker);
   box.outerHTML = fundamentalsHtml(data) + news();
+  if (!data.metricError) card.dataset.extrasLoaded = '1';
 }
 
 // ---------- Live-Kurse (Finnhub) ----------
