@@ -87,16 +87,20 @@ body {
 .ticker-card.compact .ticker-top {
   display: flex; align-items: baseline; justify-content: space-between; gap: 6px;
 }
-.ticker-card.compact .ticker-symbol { font-size: 1.05rem; font-weight: 700; letter-spacing: 0.01em; }
+/* Firmenname (ticker-name) ist die groesste/fetteste Zeile der Karte,
+   Ticker-Symbol (ticker-symbol) nur noch kleines Kuerzel darueber - Namen
+   sind schneller zu erfassen als kryptische Symbole wie "005930.KS". */
+.ticker-card.compact .ticker-symbol { font-size: 0.72rem; color: #8b98a5; font-weight: 500; white-space: nowrap; }
 .ticker-card.compact .ticker-weight { font-size: 0.68rem; color: #6e7681; font-weight: 600; white-space: nowrap; }
 .ticker-card.compact .ticker-name {
-  font-size: 0.72rem; color: #8b98a5; margin: 1px 0 4px;
+  font-size: 1.05rem; font-weight: 700; letter-spacing: 0.01em; color: #e7e9ea; margin: 1px 0 4px;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .ticker-card.compact .ticker-bottom {
   display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
 }
 .ticker-card.compact .ticker-price { font-size: 0.92rem; }
+.price-currency { font-size: 0.7em; color: #8b98a5; font-weight: 500; }
 .ticker-card.compact .chg { font-size: 0.76rem; }
 .ticker-card.compact.expandable { cursor: pointer; }
 .ticker-card.compact.expanded { max-height: 480px; }

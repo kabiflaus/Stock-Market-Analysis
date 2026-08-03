@@ -731,9 +731,18 @@ function bigIndexCardHtml(label, row, flag) {
     '</div>';
 }
 
-// Kompakte Karte fuer Sektor-Positionen: Ticker-Symbol gross+vorne (statt
-// Vollname), Vollname klein darunter, Gewichtung im Sektor-ETF oben rechts.
-// Klick/Tap klappt eine kurze Firmenbeschreibung auf (falls vorhanden).
+// Waehrungskuerzel aus Yahoo (z.B. "KRW" fuer .KS-Ticker) als Symbol/Kuerzel
+// hinter dem Preis - ohne das ist z.B. ein KRW-Kurs leicht mit USD zu verwechseln.
+const CURRENCY_SYMBOLS = { USD: '$', EUR: '€', GBP: '£', KRW: '₩', JPY: '¥', HKD: 'HK$', CHF: 'CHF' };
+function currencySuffix(currency) {
+  if (!currency) return '';
+  return ' <span class="price-currency">' + esc(CURRENCY_SYMBOLS[currency] || currency) + '</span>';
+}
+
+// Kompakte Karte fuer Sektor-Positionen: Firmenname gross+fett+vorne (statt
+// Ticker-Symbol - besser lesbar, gerade bei kryptischen Symbolen wie
+// "005930.KS"), Ticker-Symbol klein darunter, Gewichtung im Sektor-ETF oben
+// rechts. Klick/Tap klappt eine kurze Firmenbeschreibung auf (falls vorhanden).
 function positionCardHtml(ticker, row, weight, noNews) {
   row = row || {};
   const name = CONFIG.tickerNames[ticker] || ticker;
@@ -753,7 +762,7 @@ function positionCardHtml(ticker, row, weight, noNews) {
     '</div>' +
     '<div class="ticker-name">' + esc(name) + '</div>' +
     '<div class="ticker-bottom">' +
-      '<span class="ticker-price">' + priceStrFor(row.price) + '</span>' +
+      '<span class="ticker-price">' + priceStrFor(row.price) + currencySuffix(row.currency) + '</span>' +
       changeHtmlFor(row.change_pct) +
     '</div>' +
     descHtml +
@@ -933,6 +942,11 @@ function applyInitialView() {
 }
 
 // ---------- Interaktion: Markets-Filter ----------
+// Pseudo-Filterwert fuer die Indizes-Uebersicht (kleines Raster aller 7
+// globalen Indizes) - im Unterschied zu den 4 Index-Pillen (Nasdaq/S&P 500/
+// DAX/KOSPI), die auf die grosse Detailkarte mit Top-Holdings springen.
+const INDIZES_OVERVIEW = 'IndizesUebersicht';
+
 function setupMarketFilter(rowsByLabel) {
   const pillsContainer = document.getElementById('pills-markets');
   const headlines = document.querySelectorAll('#headlines-markets .headline');
@@ -947,7 +961,6 @@ function setupMarketFilter(rowsByLabel) {
   const indexHoldingSections = document.querySelectorAll('.position-section[data-index]');
   const moreBtn = document.getElementById('more-btn');
   const refreshBtn = document.getElementById('markets-refresh-btn');
-  const startBtn = document.getElementById('pill-alle-markets');
   const sektorBtn = document.getElementById('pill-sektoren-markets');
   const indizesBtn = document.getElementById('pill-indizes-markets');
   const anleihenBtn = document.getElementById('pill-anleihen-markets');
@@ -956,23 +969,23 @@ function setupMarketFilter(rowsByLabel) {
   const indexPillSet = new Set(CONFIG.indexPills);
   const sektorPillSet = new Set(CONFIG.sectorOrder.filter(l => !indexPillSet.has(l)));
   let expanded = false;
+  // "Alle" ist kein eigener Button mehr (Start-Seite ist einfach der
+  // Zustand vor jeder Kategorie-Auswahl) - zeigt nur noch Futures + Makro
+  // + allgemeine Schlagzeilen, keine Globalen Indizes/Anleihen mehr.
   let filter = 'Alle';
-  // Merkt sich den zuletzt gewaehlten Sektor/Index, damit ein Klick auf die
-  // Kategorie-Pille selbst (ohne konkrete Unterauswahl) nicht auf einer
-  // leeren Seite landet, sondern bei der letzten (oder ersten) Auswahl.
+  // Merkt sich den zuletzt gewaehlten Sektor, damit ein Klick auf "Sektoren"
+  // selbst (ohne konkrete Unterauswahl) nicht auf einer leeren Seite landet.
   let lastSector = [...sektorPillSet][0];
-  let lastIndex = CONFIG.indexPills[0];
   const marketOpen = isUsMarketOpen();
 
   // Aktualisieren-Button laedt die Seite neu, haengt dabei den aktuellen
   // Filter an die URL, damit man nach dem Reload auf derselben Seite bleibt
-  // statt immer wieder auf "Start" zu landen.
-  const knownFilters = new Set([...CONFIG.sectorOrder, 'Alle', 'Anleihen']);
+  // statt immer wieder auf die Start-Ansicht zu springen.
+  const knownFilters = new Set([...CONFIG.sectorOrder, 'Alle', 'Anleihen', INDIZES_OVERVIEW]);
   const urlFilter = new URLSearchParams(location.search).get('filter');
   if (urlFilter && knownFilters.has(urlFilter)) {
     filter = urlFilter;
     if (sektorPillSet.has(urlFilter)) lastSector = urlFilter;
-    if (indexPillSet.has(urlFilter)) lastIndex = urlFilter;
   }
   if (refreshBtn) {
     refreshBtn.addEventListener('click', () => {
@@ -983,21 +996,22 @@ function setupMarketFilter(rowsByLabel) {
   function apply() {
     const isSektorFilter = sektorPillSet.has(filter);
     const isIndexFilter = indexPillSet.has(filter);
+    const isIndizesCategory = isIndexFilter || filter === INDIZES_OVERVIEW;
     const isBondsFilter = filter === 'Anleihen';
     const isStartFilter = filter === 'Alle';
-    globalSection.style.display = (isSektorFilter || isBondsFilter) ? 'none' : '';
-    // Futures gelten nur der Vorboersen-Uebersicht: nur auf "Start" und
-    // nur solange die Kassaboerse noch geschlossen ist.
+    globalSection.style.display = isIndizesCategory ? '' : 'none';
+    // Futures gelten nur der Vorboersen-Uebersicht: nur auf der Start-Ansicht
+    // und nur solange die Kassaboerse noch geschlossen ist.
     futuresSection.style.display = (isStartFilter && !marketOpen) ? '' : 'none';
     // Anleihen sind eine eigene Rubrik, nicht mehr Teil der Start-Uebersicht.
     bondsSection.style.display = isBondsFilter ? '' : 'none';
 
     sektorRow.style.display = isSektorFilter ? '' : 'none';
-    indizesRow.style.display = isIndexFilter ? '' : 'none';
+    indizesRow.style.display = isIndizesCategory ? '' : 'none';
 
-    // Ein einzelner ausgewaehlter Index (Nasdaq/S&P 500/DAX/KOSPI) bekommt eine
-    // grosse, zentrierte Karte mit Mini-Graph statt des kleinen Grid-Feldes.
-    // Die "Globale Indizes"-Ueberschrift ist dann redundant und wird ausgeblendet.
+    // Innerhalb der Indizes-Kategorie: entweder das kleine Raster aller 7
+    // globalen Indizes (Uebersicht) oder die grosse Detailkarte mit
+    // Top-Holdings fuer einen der 4 Indizes mit eigener Pille.
     globalHeading.style.display = isIndexFilter ? 'none' : '';
     tickersGrid.style.display = isIndexFilter ? 'none' : '';
     bigIndexView.style.display = isIndexFilter ? '' : 'none';
@@ -1022,12 +1036,11 @@ function setupMarketFilter(rowsByLabel) {
     });
     if (moreBtn) moreBtn.style.display = (isStartFilter && !expanded && headlines.length > MAX_VISIBLE) ? 'block' : 'none';
 
-    // Die 4 Kategorie-Pillen sind aktiv, sobald der Filter zu ihrer Kategorie
+    // Die 3 Kategorie-Pillen sind aktiv, sobald der Filter zu ihrer Kategorie
     // gehoert (nicht 1:1 gleich dem Filterwert - "Sektoren" z.B. fuer alle 5
     // Sektoren). Die Unter-Pillen in den beiden Reihen weiterhin per Wert.
-    startBtn.classList.toggle('active', isStartFilter);
     sektorBtn.classList.toggle('active', isSektorFilter);
-    indizesBtn.classList.toggle('active', isIndexFilter);
+    indizesBtn.classList.toggle('active', isIndizesCategory);
     anleihenBtn.classList.toggle('active', isBondsFilter);
     sektorRow.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.label === filter));
     indizesRow.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.label === filter));
@@ -1038,9 +1051,8 @@ function setupMarketFilter(rowsByLabel) {
     const catBtn = e.target.closest('.pill[data-category]');
     if (catBtn) {
       const cat = catBtn.dataset.category;
-      if (cat === 'start') filter = 'Alle';
-      else if (cat === 'sektor') filter = lastSector;
-      else if (cat === 'index') filter = lastIndex;
+      if (cat === 'sektor') filter = lastSector;
+      else if (cat === 'index') filter = INDIZES_OVERVIEW;
       else if (cat === 'anleihen') filter = 'Anleihen';
       expanded = false;
       apply();
@@ -1050,22 +1062,21 @@ function setupMarketFilter(rowsByLabel) {
     if (!pill) return;
     filter = pill.dataset.label;
     if (sektorPillSet.has(filter)) lastSector = filter;
-    if (indexPillSet.has(filter)) lastIndex = filter;
     expanded = false;
     apply();
   });
 
-  // Klick auf eine Globale-Indizes-Karte (z.B. DAX) im "Start"-Raster springt
-  // direkt zu diesem Index-Filter - so als haette man ihn in der Indizes-Reihe
-  // ausgewaehlt. data-sectors traegt bereits den passenden Filter-Namen (siehe
-  // renderGlobalIndices); Karten ohne Filter-Pendant (z.B. Nikkei) reagieren nicht.
+  // Klick auf eine Globale-Indizes-Karte (z.B. DAX) in der Indizes-Uebersicht
+  // springt direkt zu diesem Index-Filter - so als haette man ihn in der
+  // Indizes-Reihe ausgewaehlt. data-sectors traegt bereits den passenden
+  // Filter-Namen (siehe renderGlobalIndices); Karten ohne Filter-Pendant
+  // (z.B. Nikkei) reagieren nicht.
   tickersGrid.addEventListener('click', (e) => {
     const card = e.target.closest('.ticker-card[data-sectors]');
     if (!card) return;
     const sectors = (card.dataset.sectors || '').split('|').filter(Boolean);
     if (!sectors.length) return;
     filter = sectors[0];
-    lastIndex = filter;
     expanded = false;
     apply();
   });
