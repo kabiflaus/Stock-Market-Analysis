@@ -1171,26 +1171,32 @@ function formatMarketCap(millions) {
 // ohne Sektor-/Wachstumsbezug, aber fuer einen schnellen ersten Eindruck okay.
 function peColorClass(pe) {
   if (pe === undefined || pe === null || !isFinite(pe)) return 'neutral';
+  if (pe < 0) return 'down';   // negatives KGV = kein Gewinn, nicht "guenstig"
   if (pe < 15) return 'up';    // eher guenstig/unterbewertet
   if (pe > 25) return 'down';  // eher teuer/ueberbewertet
   return 'neutral';
 }
 
-// KGV wird technisch korrekt, aber praktisch bedeutungslos, wenn der Gewinn
-// pro Aktie nahe Null liegt (z.B. gerade erst profitable Wachstumsfirmen wie
-// Bloom Energy) - eine Zahl wie "10047x" sieht dann wie ein Fehler aus, ist
-// aber nur eine wertlose Kennzahl. Ab hier lieber "n/a" als eine Zahl, die
-// niemandem einen echten Eindruck vermittelt.
+// KGV wird bei einem Gewinn pro Aktie nahe Null technisch korrekt, aber
+// praktisch bedeutungslos riesig (z.B. gerade erst profitable Wachstums-
+// firmen wie Bloom Energy: 10047x). Trotzdem soll sichtbar bleiben, dass es
+// extrem ist - nur eben kompakt als "&gt;500x" statt der ausgeschriebenen
+// grossen Zahl, die auf den ersten Blick wie ein Fehler wirkt.
 const PE_SANITY_LIMIT = 500;
+
+function peDisplay(pe) {
+  if (pe === undefined || pe === null || !isFinite(pe)) return 'n/a';
+  if (pe > PE_SANITY_LIMIT) return '>' + PE_SANITY_LIMIT + 'x';
+  if (pe < -PE_SANITY_LIMIT) return '<-' + PE_SANITY_LIMIT + 'x';
+  return pe.toFixed(1) + 'x';
+}
 
 function fundamentalsHtml(data) {
   if (!data) return '<div class="ticker-fundamentals">Kennzahlen aktuell nicht verfügbar.</div>';
   const m = data.metric || {};
   const marketCap = formatMarketCap(m.marketCapitalization);
-  const peRaw = m.peBasicExclExtraTTM ?? m.peExclExtraTTM ?? m.peTTM ?? m.peNormalizedAnnual;
-  const pe = (peRaw !== undefined && peRaw !== null && isFinite(peRaw) && Math.abs(peRaw) <= PE_SANITY_LIMIT)
-    ? peRaw : null;
-  const peStr = pe !== null ? pe.toFixed(1) + 'x' : 'n/a';
+  const pe = m.peBasicExclExtraTTM ?? m.peExclExtraTTM ?? m.peTTM ?? m.peNormalizedAnnual;
+  const peStr = peDisplay(pe);
   const peHtml = '<span class="chg ' + peColorClass(pe) + '">' + peStr + '</span>';
   const margin = m.netProfitMarginTTM ?? m.netProfitMarginAnnual ?? m.netMarginTTM;
   const marginHtml = (margin !== undefined && margin !== null && isFinite(margin))
