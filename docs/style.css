@@ -125,6 +125,14 @@ body {
 .ticker-fundamentals .chg { font-size: 0.72rem; font-weight: 600; }
 .ticker-fundamentals .fund-error { color: #f85149; font-size: 0.64rem; word-break: break-word; }
 
+/* Hinweis statt stiller Leere bei Tickern ohne Finnhub-Abdeckung (auslaendische
+   Boersen, s. loadCardExtras) - bewusst dezenter als .ticker-fundamentals,
+   damit es nicht wie ein Fehler wirkt. */
+.fund-note {
+  font-size: 0.68rem; color: #6e7681; margin-top: 6px; padding-top: 6px;
+  border-top: 1px solid #22262b;
+}
+
 /* Bis zu 3 Schlagzeilen zu genau diesem Ticker (siehe tickerNewsHtml). */
 .ticker-news {
   font-size: 0.68rem; margin-top: 6px; padding-top: 6px;
