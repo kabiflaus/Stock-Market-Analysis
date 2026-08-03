@@ -21,10 +21,14 @@ NEWS_QUERIES = [
     {"label": "Rüstung", "query": "defense stocks military spending", "hl": "en-US", "gl": "US"},
     {"label": "Energie & Rohstoffe", "query": "oil price OPEC energy commodities", "hl": "en-US", "gl": "US"},
     {"label": "Konsumgüter", "query": "consumer goods retail sales stocks", "hl": "en-US", "gl": "US"},
-    {"label": "Nasdaq", "query": "Nasdaq futures", "hl": "en-US", "gl": "US"},
-    {"label": "S&P 500", "query": "S&P 500 futures", "hl": "en-US", "gl": "US"},
-    {"label": "DAX", "query": "DAX Index", "hl": "de-DE", "gl": "DE"},
-    {"label": "KOSPI", "query": "KOSPI index Korea", "hl": "en-US", "gl": "US"},
+    # require_in_title: Google-News-RSS matcht auch auf den Volltext, nicht
+    # nur den Titel - ein Artikel ueber "5 Aktien, die den DAX outperformt
+    # haben" waere sonst als "DAX-News" einsortiert, obwohl er nicht wirklich
+    # vom DAX handelt. Titel-Pflichtwort filtert solche Nur-Erwaehnt-Treffer raus.
+    {"label": "Nasdaq", "query": "Nasdaq futures", "hl": "en-US", "gl": "US", "require_in_title": "nasdaq"},
+    {"label": "S&P 500", "query": "S&P 500 futures", "hl": "en-US", "gl": "US", "require_in_title": "s&p 500"},
+    {"label": "DAX", "query": "DAX Index", "hl": "de-DE", "gl": "DE", "require_in_title": "dax"},
+    {"label": "KOSPI", "query": "KOSPI index Korea", "hl": "en-US", "gl": "US", "require_in_title": "kospi"},
     # Persoenliche ETFs (Invest-Tab). Google-News-RSS verlangt praktisch alle
     # Woerter der Query im selben Artikel (Leerzeichen = UND) - lange, generische
     # Ketten wie "MSCI ACWI global stocks market" trafen dadurch so gut wie nie.
@@ -226,7 +230,10 @@ for _tickers in PERSONAL_ETFS.values():
 
 for _ticker in sorted(_news_tickers):
     _name = TICKER_NAMES.get(_ticker, _ticker)
-    NEWS_QUERIES.append({"label": _ticker, "query": _name + " stock", "hl": "en-US", "gl": "US"})
+    # require_in_title: Firmenname muss im Titel stehen, nicht nur irgendwo im
+    # Artikel (s. Kommentar bei den Index-Queries oben) - sonst landen Artikel,
+    # die die Firma nur am Rande erwaehnen, faelschlich als "News zu dieser Position".
+    NEWS_QUERIES.append({"label": _ticker, "query": _name + " stock", "hl": "en-US", "gl": "US", "require_in_title": _name})
 
 PRIORITY_KEYWORDS = [
     "fed", "federal reserve", "zinsen", "rate cut", "rate hike", "cpi",
@@ -240,4 +247,11 @@ BLOCKED_SOURCES = [
     "motley fool", "seeking alpha", "tipranks", "benzinga", "tradingkey",
     "gurufocus", "smartkarma", "barchart.com", "stocktwits", "finviz",
     "24/7 wall st", "thestreet.com", "zacks",
+    # Harte Bezahlschranke - Artikel nach 1-2 Saetzen abgeschnitten, ohne
+    # Abo nicht lesbar. Lieber ganz weglassen als einen Teaser verlinken.
+    "welt", "faz.net", "handelsblatt", "wiwo.de", "wirtschaftswoche",
+    "sueddeutsche", "bild.de", "wsj.com", "the wall street journal",
+    "ft.com", "financial times", "barron's", "barrons.com",
+    "the economist", "new york times", "washington post", "the times",
+    "the telegraph", "investor's business daily",
 ]

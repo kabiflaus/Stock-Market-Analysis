@@ -49,6 +49,8 @@ def fetch_all() -> list[dict]:
             print(f"[WARN] Fehler bei {query['label']}: {e}", file=sys.stderr)
             continue
 
+        require_in_title = query.get("require_in_title")
+
         for entry in feed.entries[:MAX_ITEMS_PER_QUERY]:
             source = ""
             if getattr(entry, "source", None):
@@ -57,9 +59,17 @@ def fetch_all() -> list[dict]:
             if is_blocked(source):
                 continue
 
+            title = entry.get("title", "").strip()
+            # Google-News-RSS matcht die Suche auch auf den Volltext, nicht nur
+            # den Titel - ohne diesen Check landen Artikel, die das Thema nur
+            # am Rande erwaehnen (z.B. "DAX" nur als Vergleichswert), faelschlich
+            # als eigene Schlagzeile dazu.
+            if require_in_title and require_in_title.lower() not in title.lower():
+                continue
+
             items.append({
                 "label": query["label"],
-                "title": entry.get("title", "").strip(),
+                "title": title,
                 "link": entry.get("link", ""),
                 "source": source,
                 "published": parse_time(entry),
