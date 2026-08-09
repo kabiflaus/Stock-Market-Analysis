@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T20:23:14.167810+00:00",
+  "fetched_at": "2026-08-09T04:09:07.163477+00:00",
   "rows": [
     {
       "label": "Nasdaq-100 Futures",
@@ -41,8 +41,8 @@
       "label": "Nikkei 225 Futures",
       "ticker": "NIY=F",
       "price": 66315.0,
-      "prev_close": 66220.0,
-      "change_pct": 0.14,
+      "prev_close": 65555.0,
+      "change_pct": 1.16,
       "currency": "JPY",
       "price_eur": 363.61
     },
@@ -270,74 +270,22 @@
       ]
     },
     {
-      "label": "INTU",
-      "ticker": "INTU",
-      "price": 325.25,
-      "prev_close": 321.91,
-      "change_pct": 1.04,
+      "label": "ARM",
+      "ticker": "ARM",
+      "price": 282.57,
+      "prev_close": 286.68,
+      "change_pct": -1.43,
       "currency": "USD",
-      "price_eur": 281.31
+      "price_eur": 244.4
     },
     {
-      "label": "ENR.DE",
-      "ticker": "ENR.DE",
-      "price": 153.54,
-      "prev_close": 153.68,
-      "change_pct": -0.09,
-      "currency": "EUR"
-    },
-    {
-      "label": "STZ",
-      "ticker": "STZ",
-      "price": 135.76,
-      "prev_close": 132.52,
-      "change_pct": 2.44,
+      "label": "PEP",
+      "ticker": "PEP",
+      "price": 139.02,
+      "prev_close": 138.44,
+      "change_pct": 0.42,
       "currency": "USD",
-      "price_eur": 117.42
-    },
-    {
-      "label": "035420.KS",
-      "ticker": "035420.KS",
-      "price": 210000.0,
-      "prev_close": 226000.0,
-      "change_pct": -7.08,
-      "currency": "KRW",
-      "price_eur": 129.14
-    },
-    {
-      "label": "KMI",
-      "ticker": "KMI",
-      "price": 30.85,
-      "prev_close": 31.28,
-      "change_pct": -1.37,
-      "currency": "USD",
-      "price_eur": 26.68
-    },
-    {
-      "label": "LHX",
-      "ticker": "LHX",
-      "price": 286.67,
-      "prev_close": 289.53,
-      "change_pct": -0.99,
-      "currency": "USD",
-      "price_eur": 247.94
-    },
-    {
-      "label": "DBK.DE",
-      "ticker": "DBK.DE",
-      "price": 32.89,
-      "prev_close": 32.72,
-      "change_pct": 0.52,
-      "currency": "EUR"
-    },
-    {
-      "label": "ORA",
-      "ticker": "ORA",
-      "price": 108.09,
-      "prev_close": 107.38,
-      "change_pct": 0.66,
-      "currency": "USD",
-      "price_eur": 93.49
+      "price_eur": 120.24
     },
     {
       "label": "ABBV",
@@ -349,348 +297,30 @@
       "price_eur": 212.8
     },
     {
-      "label": "MDLZ",
-      "ticker": "MDLZ",
-      "price": 62.61,
-      "prev_close": 62.75,
-      "change_pct": -0.22,
+      "label": "GILD",
+      "ticker": "GILD",
+      "price": 133.21,
+      "prev_close": 130.86,
+      "change_pct": 1.8,
       "currency": "USD",
-      "price_eur": 54.15
+      "price_eur": 115.21
     },
     {
-      "label": "MSFT",
-      "ticker": "MSFT",
-      "price": 499.99,
-      "prev_close": 499.86,
-      "change_pct": 0.03,
-      "currency": "USD",
-      "price_eur": 432.44
-    },
-    {
-      "label": "SIE.DE",
-      "ticker": "SIE.DE",
-      "price": 279.8,
-      "prev_close": 273.1,
-      "change_pct": 2.45,
-      "currency": "EUR"
-    },
-    {
-      "label": "NXPI",
-      "ticker": "NXPI",
-      "price": 239.71,
-      "prev_close": 231.78,
-      "change_pct": 3.42,
-      "currency": "USD",
-      "price_eur": 207.33
-    },
-    {
-      "label": "AXON",
-      "ticker": "AXON",
-      "price": 571.01,
-      "prev_close": 522.46,
-      "change_pct": 9.29,
-      "currency": "USD",
-      "price_eur": 493.87
-    },
-    {
-      "label": "600900.SS",
-      "ticker": "600900.SS",
-      "price": 27.75,
-      "prev_close": 27.75,
-      "change_pct": 0.0,
-      "currency": "CNY",
-      "price_eur": 3.56
-    },
-    {
-      "label": "AMZN",
-      "ticker": "AMZN",
-      "price": 274.48,
-      "prev_close": 272.26,
-      "change_pct": 0.82,
-      "currency": "USD",
-      "price_eur": 237.4
-    },
-    {
-      "label": "MO",
-      "ticker": "MO",
-      "price": 68.35,
-      "prev_close": 67.75,
-      "change_pct": 0.89,
-      "currency": "USD",
-      "price_eur": 59.12
-    },
-    {
-      "label": "NOC",
-      "ticker": "NOC",
-      "price": 571.58,
-      "prev_close": 567.74,
-      "change_pct": 0.68,
-      "currency": "USD",
-      "price_eur": 494.36
-    },
-    {
-      "label": "CTRA",
-      "ticker": "CTRA",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "error": "HTTP Error 404: "
-    },
-    {
-      "label": "MRVL",
-      "ticker": "MRVL",
-      "price": 218.72,
-      "prev_close": 210.54,
-      "change_pct": 3.89,
-      "currency": "USD",
-      "price_eur": 189.17
-    },
-    {
-      "label": "RHM.DE",
-      "ticker": "RHM.DE",
-      "price": 1146.4,
-      "prev_close": 1159.0,
-      "change_pct": -1.09,
-      "currency": "EUR"
-    },
-    {
-      "label": "DVN",
-      "ticker": "DVN",
-      "price": 42.98,
-      "prev_close": 43.11,
-      "change_pct": -0.3,
-      "currency": "USD",
-      "price_eur": 37.17
-    },
-    {
-      "label": "APA",
-      "ticker": "APA",
-      "price": 37.63,
-      "prev_close": 36.53,
-      "change_pct": 3.01,
-      "currency": "USD",
-      "price_eur": 32.55
-    },
-    {
-      "label": "HEI",
-      "ticker": "HEI",
-      "price": 367.58,
-      "prev_close": 363.29,
-      "change_pct": 1.18,
-      "currency": "USD",
-      "price_eur": 317.92
-    },
-    {
-      "label": "MNST",
-      "ticker": "MNST",
-      "price": 90.36,
-      "prev_close": 94.16,
-      "change_pct": -4.04,
-      "currency": "USD",
-      "price_eur": 78.15
-    },
-    {
-      "label": "055550.KS",
-      "ticker": "055550.KS",
-      "price": 110000.0,
-      "prev_close": 107400.0,
-      "change_pct": 2.42,
-      "currency": "KRW",
-      "price_eur": 67.65
-    },
-    {
-      "label": "AAPL",
-      "ticker": "AAPL",
-      "price": 313.33,
-      "prev_close": 312.41,
+      "label": "CL",
+      "ticker": "CL",
+      "price": 93.27,
+      "prev_close": 93.0,
       "change_pct": 0.29,
       "currency": "USD",
-      "price_eur": 271.0
+      "price_eur": 80.67
     },
     {
-      "label": "BKR",
-      "ticker": "BKR",
-      "price": 61.55,
-      "prev_close": 62.75,
-      "change_pct": -1.91,
-      "currency": "USD",
-      "price_eur": 53.23
-    },
-    {
-      "label": "MDT",
-      "ticker": "MDT",
-      "price": 87.16,
-      "prev_close": 85.92,
-      "change_pct": 1.44,
-      "currency": "USD",
-      "price_eur": 75.38
-    },
-    {
-      "label": "JPM",
-      "ticker": "JPM",
-      "price": 357.52,
-      "prev_close": 356.3,
-      "change_pct": 0.34,
-      "currency": "USD",
-      "price_eur": 309.22
-    },
-    {
-      "label": "HD",
-      "ticker": "HD",
-      "price": 355.62,
-      "prev_close": 349.52,
-      "change_pct": 1.75,
-      "currency": "USD",
-      "price_eur": 307.58
-    },
-    {
-      "label": "VOW3.DE",
-      "ticker": "VOW3.DE",
-      "price": 76.32,
-      "prev_close": 75.56,
-      "change_pct": 1.01,
+      "label": "DBK.DE",
+      "ticker": "DBK.DE",
+      "price": 32.89,
+      "prev_close": 32.72,
+      "change_pct": 0.52,
       "currency": "EUR"
-    },
-    {
-      "label": "SHEL.L",
-      "ticker": "SHEL.L",
-      "price": 3277.5,
-      "prev_close": 3315.0,
-      "change_pct": -1.13,
-      "currency": "GBp",
-      "price_eur": 3825.73
-    },
-    {
-      "label": "EQT",
-      "ticker": "EQT",
-      "price": 51.69,
-      "prev_close": 51.6,
-      "change_pct": 0.17,
-      "currency": "USD",
-      "price_eur": 44.71
-    },
-    {
-      "label": "TXT",
-      "ticker": "TXT",
-      "price": 89.43,
-      "prev_close": 87.89,
-      "change_pct": 1.75,
-      "currency": "USD",
-      "price_eur": 77.35
-    },
-    {
-      "label": "CMCSA",
-      "ticker": "CMCSA",
-      "price": 25.36,
-      "prev_close": 25.17,
-      "change_pct": 0.75,
-      "currency": "USD",
-      "price_eur": 21.93
-    },
-    {
-      "label": "012330.KS",
-      "ticker": "012330.KS",
-      "price": 496500.0,
-      "prev_close": 508000.0,
-      "change_pct": -2.26,
-      "currency": "KRW",
-      "price_eur": 305.33
-    },
-    {
-      "label": "BRK.B",
-      "ticker": "BRK.B",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "error": "HTTP Error 404: "
-    },
-    {
-      "label": "DHR",
-      "ticker": "DHR",
-      "price": 204.76,
-      "prev_close": 199.98,
-      "change_pct": 2.39,
-      "currency": "USD",
-      "price_eur": 177.1
-    },
-    {
-      "label": "HSY",
-      "ticker": "HSY",
-      "price": 182.35,
-      "prev_close": 183.02,
-      "change_pct": -0.37,
-      "currency": "USD",
-      "price_eur": 157.71
-    },
-    {
-      "label": "HSBA.L",
-      "ticker": "HSBA.L",
-      "price": 1529.2,
-      "prev_close": 1521.2,
-      "change_pct": 0.53,
-      "currency": "GBp",
-      "price_eur": 1784.99
-    },
-    {
-      "label": "DB1.DE",
-      "ticker": "DB1.DE",
-      "price": 274.1,
-      "prev_close": 269.4,
-      "change_pct": 1.74,
-      "currency": "EUR"
-    },
-    {
-      "label": "NXT",
-      "ticker": "NXT",
-      "price": 103.26,
-      "prev_close": 98.43,
-      "change_pct": 4.91,
-      "currency": "USD",
-      "price_eur": 89.31
-    },
-    {
-      "label": "KO",
-      "ticker": "KO",
-      "price": 87.05,
-      "prev_close": 86.85,
-      "change_pct": 0.23,
-      "currency": "USD",
-      "price_eur": 75.29
-    },
-    {
-      "label": "ON",
-      "ticker": "ON",
-      "price": 81.17,
-      "prev_close": 78.33,
-      "change_pct": 3.63,
-      "currency": "USD",
-      "price_eur": 70.2
-    },
-    {
-      "label": "TSM",
-      "ticker": "TSM",
-      "price": 420.04,
-      "prev_close": 418.2,
-      "change_pct": 0.44,
-      "currency": "USD",
-      "price_eur": 363.29
-    },
-    {
-      "label": "MBG.DE",
-      "ticker": "MBG.DE",
-      "price": 47.09,
-      "prev_close": 47.08,
-      "change_pct": 0.01,
-      "currency": "EUR"
-    },
-    {
-      "label": "MA",
-      "ticker": "MA",
-      "price": 562.95,
-      "prev_close": 575.95,
-      "change_pct": -2.26,
-      "currency": "USD",
-      "price_eur": 486.9
     },
     {
       "label": "LLY",
@@ -702,92 +332,57 @@
       "price_eur": 1025.52
     },
     {
-      "label": "HES",
-      "ticker": "HES",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "error": "HTTP Error 404: "
-    },
-    {
-      "label": "CSCO",
-      "ticker": "CSCO",
-      "price": 121.43,
-      "prev_close": 120.88,
-      "change_pct": 0.45,
-      "currency": "USD",
-      "price_eur": 105.03
-    },
-    {
-      "label": "032830.KS",
-      "ticker": "032830.KS",
-      "price": 275500.0,
-      "prev_close": 287500.0,
-      "change_pct": -4.17,
+      "label": "000660.KS",
+      "ticker": "000660.KS",
+      "price": 1422000.0,
+      "prev_close": 1495000.0,
+      "change_pct": -4.88,
       "currency": "KRW",
-      "price_eur": 169.42
+      "price_eur": 874.48
     },
     {
-      "label": "V",
-      "ticker": "V",
-      "price": 362.5,
-      "prev_close": 370.47,
-      "change_pct": -2.15,
-      "currency": "USD",
-      "price_eur": 313.53
-    },
-    {
-      "label": "AVGO",
-      "ticker": "AVGO",
-      "price": 427.76,
-      "prev_close": 420.57,
-      "change_pct": 1.71,
-      "currency": "USD",
-      "price_eur": 369.97
-    },
-    {
-      "label": "LDOS",
-      "ticker": "LDOS",
-      "price": 137.57,
-      "prev_close": 135.26,
-      "change_pct": 1.71,
-      "currency": "USD",
-      "price_eur": 118.98
-    },
-    {
-      "label": "NOVN.SW",
-      "ticker": "NOVN.SW",
-      "price": 125.98,
-      "prev_close": 125.18,
-      "change_pct": 0.64,
-      "currency": "CHF",
-      "price_eur": 134.95
-    },
-    {
-      "label": "EDP.LS",
-      "ticker": "EDP.LS",
-      "price": 4.48,
-      "prev_close": 4.48,
-      "change_pct": -0.09,
+      "label": "MUV2.DE",
+      "ticker": "MUV2.DE",
+      "price": 515.4,
+      "prev_close": 522.6,
+      "change_pct": -1.38,
       "currency": "EUR"
     },
     {
-      "label": "MU",
-      "ticker": "MU",
-      "price": 877.57,
-      "prev_close": 881.47,
-      "change_pct": -0.44,
+      "label": "JNJ",
+      "ticker": "JNJ",
+      "price": 259.24,
+      "prev_close": 256.98,
+      "change_pct": 0.88,
       "currency": "USD",
-      "price_eur": 759.01
+      "price_eur": 224.22
     },
     {
-      "label": "GD",
-      "ticker": "GD",
-      "price": 392.05,
-      "prev_close": 386.92,
-      "change_pct": 1.33,
+      "label": "TDY",
+      "ticker": "TDY",
+      "price": 691.3,
+      "prev_close": 687.52,
+      "change_pct": 0.55,
       "currency": "USD",
-      "price_eur": 339.08
+      "price_eur": 597.91
+    },
+    {
+      "label": "TMUS",
+      "ticker": "TMUS",
+      "price": 177.19,
+      "prev_close": 179.97,
+      "change_pct": -1.54,
+      "currency": "USD",
+      "price_eur": 153.25
+    },
+    {
+      "label": "TXN",
+      "ticker": "TXN",
+      "price": 286.08,
+      "prev_close": 278.4,
+      "change_pct": 2.76,
+      "currency": "USD",
+      "price_eur": 247.43
     },
     {
       "label": "MPC",
@@ -799,65 +394,57 @@
       "price_eur": 257.91
     },
     {
-      "label": "GIS",
-      "ticker": "GIS",
-      "price": 36.89,
-      "prev_close": 36.07,
+      "label": "ON",
+      "ticker": "ON",
+      "price": 81.17,
+      "prev_close": 78.33,
+      "change_pct": 3.63,
+      "currency": "USD",
+      "price_eur": 70.2
+    },
+    {
+      "label": "AVGO",
+      "ticker": "AVGO",
+      "price": 427.76,
+      "prev_close": 420.57,
+      "change_pct": 1.71,
+      "currency": "USD",
+      "price_eur": 369.97
+    },
+    {
+      "label": "EQT",
+      "ticker": "EQT",
+      "price": 51.69,
+      "prev_close": 51.6,
+      "change_pct": 0.17,
+      "currency": "USD",
+      "price_eur": 44.71
+    },
+    {
+      "label": "BAYN.DE",
+      "ticker": "BAYN.DE",
+      "price": 49.81,
+      "prev_close": 49.4,
+      "change_pct": 0.83,
+      "currency": "EUR"
+    },
+    {
+      "label": "NVDA",
+      "ticker": "NVDA",
+      "price": 223.96,
+      "prev_close": 218.99,
       "change_pct": 2.27,
       "currency": "USD",
-      "price_eur": 31.91
+      "price_eur": 193.7
     },
     {
-      "label": "MUV2.DE",
-      "ticker": "MUV2.DE",
-      "price": 515.4,
-      "prev_close": 522.6,
-      "change_pct": -1.38,
-      "currency": "EUR"
-    },
-    {
-      "label": "AMGN",
-      "ticker": "AMGN",
-      "price": 410.94,
-      "prev_close": 410.95,
-      "change_pct": -0.0,
+      "label": "NOC",
+      "ticker": "NOC",
+      "price": 571.58,
+      "prev_close": 567.74,
+      "change_pct": 0.68,
       "currency": "USD",
-      "price_eur": 355.42
-    },
-    {
-      "label": "META",
-      "ticker": "META",
-      "price": 592.1,
-      "prev_close": 589.9,
-      "change_pct": 0.37,
-      "currency": "USD",
-      "price_eur": 512.11
-    },
-    {
-      "label": "SWKS",
-      "ticker": "SWKS",
-      "price": 70.62,
-      "prev_close": 66.84,
-      "change_pct": 5.66,
-      "currency": "USD",
-      "price_eur": 61.08
-    },
-    {
-      "label": "SYY",
-      "ticker": "SYY",
-      "price": 84.29,
-      "prev_close": 84.35,
-      "change_pct": -0.07,
-      "currency": "USD",
-      "price_eur": 72.9
-    },
-    {
-      "label": "IFX.DE",
-      "ticker": "IFX.DE",
-      "price": 62.08,
-      "prev_close": 60.32,
-      "change_pct": 2.92,
-      "currency": "EUR"
+      "price_eur": 494.36
     },
     {
       "label": "068270.KS",
@@ -869,58 +456,67 @@
       "price_eur": 122.56
     },
     {
-      "label": "028260.KS",
-      "ticker": "028260.KS",
-      "price": 336500.0,
-      "prev_close": 334000.0,
+      "label": "MSFT",
+      "ticker": "MSFT",
+      "price": 499.99,
+      "prev_close": 499.86,
+      "change_pct": 0.03,
+      "currency": "USD",
+      "price_eur": 432.44
+    },
+    {
+      "label": "CMCSA",
+      "ticker": "CMCSA",
+      "price": 25.36,
+      "prev_close": 25.17,
       "change_pct": 0.75,
-      "currency": "KRW",
-      "price_eur": 206.94
-    },
-    {
-      "label": "373220.KS",
-      "ticker": "373220.KS",
-      "price": 360000.0,
-      "prev_close": 345000.0,
-      "change_pct": 4.35,
-      "currency": "KRW",
-      "price_eur": 221.39
-    },
-    {
-      "label": "006400.KS",
-      "ticker": "006400.KS",
-      "price": 459000.0,
-      "prev_close": 427000.0,
-      "change_pct": 7.49,
-      "currency": "KRW",
-      "price_eur": 282.27
-    },
-    {
-      "label": "GE",
-      "ticker": "GE",
-      "price": 370.08,
-      "prev_close": 374.55,
-      "change_pct": -1.19,
       "currency": "USD",
-      "price_eur": 320.08
+      "price_eur": 21.93
     },
     {
-      "label": "ASML",
-      "ticker": "ASML",
-      "price": 1740.99,
-      "prev_close": 1704.37,
-      "change_pct": 2.15,
+      "label": "STZ",
+      "ticker": "STZ",
+      "price": 135.76,
+      "prev_close": 132.52,
+      "change_pct": 2.44,
       "currency": "USD",
-      "price_eur": 1505.79
+      "price_eur": 117.42
     },
     {
-      "label": "MRCY",
-      "ticker": "MRCY",
-      "price": 108.64,
-      "prev_close": 108.83,
-      "change_pct": -0.17,
+      "label": "AXON",
+      "ticker": "AXON",
+      "price": 571.01,
+      "prev_close": 522.46,
+      "change_pct": 9.29,
       "currency": "USD",
-      "price_eur": 93.96
+      "price_eur": 493.87
+    },
+    {
+      "label": "BWXT",
+      "ticker": "BWXT",
+      "price": 169.9,
+      "prev_close": 166.7,
+      "change_pct": 1.92,
+      "currency": "USD",
+      "price_eur": 146.95
+    },
+    {
+      "label": "BKR",
+      "ticker": "BKR",
+      "price": 61.55,
+      "prev_close": 62.75,
+      "change_pct": -1.91,
+      "currency": "USD",
+      "price_eur": 53.23
+    },
+    {
+      "label": "MO",
+      "ticker": "MO",
+      "price": 68.35,
+      "prev_close": 67.75,
+      "change_pct": 0.89,
+      "currency": "USD",
+      "price_eur": 59.12
     },
     {
       "label": "GOOGL",
@@ -932,59 +528,6 @@
       "price_eur": 306.43
     },
     {
-      "label": "005380.KS",
-      "ticker": "005380.KS",
-      "price": 395500.0,
-      "prev_close": 400000.0,
-      "change_pct": -1.12,
-      "currency": "KRW",
-      "price_eur": 243.22
-    },
-    {
-      "label": "AZN.L",
-      "ticker": "AZN.L",
-      "price": 11896.0,
-      "prev_close": 11850.0,
-      "change_pct": 0.39,
-      "currency": "GBp",
-      "price_eur": 13885.84
-    },
-    {
-      "label": "ADI",
-      "ticker": "ADI",
-      "price": 389.93,
-      "prev_close": 377.31,
-      "change_pct": 3.34,
-      "currency": "USD",
-      "price_eur": 337.25
-    },
-    {
-      "label": "ENPH",
-      "ticker": "ENPH",
-      "price": 41.87,
-      "prev_close": 39.67,
-      "change_pct": 5.55,
-      "currency": "USD",
-      "price_eur": 36.21
-    },
-    {
-      "label": "BA",
-      "ticker": "BA",
-      "price": 234.42,
-      "prev_close": 232.19,
-      "change_pct": 0.96,
-      "currency": "USD",
-      "price_eur": 202.75
-    },
-    {
-      "label": "TRG",
-      "ticker": "TRG",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "currency": null
-    },
-    {
       "label": "CW",
       "ticker": "CW",
       "price": 691.52,
@@ -992,185 +535,6 @@
       "change_pct": -3.15,
       "currency": "USD",
       "price_eur": 598.1
-    },
-    {
-      "label": "KVUE",
-      "ticker": "KVUE",
-      "price": 19.23,
-      "prev_close": 19.18,
-      "change_pct": 0.26,
-      "currency": "USD",
-      "price_eur": 16.63
-    },
-    {
-      "label": "000660.KS",
-      "ticker": "000660.KS",
-      "price": 1422000.0,
-      "prev_close": 1495000.0,
-      "change_pct": -4.88,
-      "currency": "KRW",
-      "price_eur": 874.48
-    },
-    {
-      "label": "AMAT",
-      "ticker": "AMAT",
-      "price": 539.14,
-      "prev_close": 527.48,
-      "change_pct": 2.21,
-      "currency": "USD",
-      "price_eur": 466.3
-    },
-    {
-      "label": "BSX",
-      "ticker": "BSX",
-      "price": 49.31,
-      "prev_close": 49.3,
-      "change_pct": 0.02,
-      "currency": "USD",
-      "price_eur": 42.65
-    },
-    {
-      "label": "VRTX",
-      "ticker": "VRTX",
-      "price": 496.07,
-      "prev_close": 484.03,
-      "change_pct": 2.49,
-      "currency": "USD",
-      "price_eur": 429.05
-    },
-    {
-      "label": "KLAC",
-      "ticker": "KLAC",
-      "price": 198.11,
-      "prev_close": 193.22,
-      "change_pct": 2.53,
-      "currency": "USD",
-      "price_eur": 171.35
-    },
-    {
-      "label": "VWS.CO",
-      "ticker": "VWS.CO",
-      "price": 178.05,
-      "prev_close": 176.15,
-      "change_pct": 1.08,
-      "currency": "DKK",
-      "price_eur": 23.82
-    },
-    {
-      "label": "TDG",
-      "ticker": "TDG",
-      "price": 1225.25,
-      "prev_close": 1262.07,
-      "change_pct": -2.92,
-      "currency": "USD",
-      "price_eur": 1059.72
-    },
-    {
-      "label": "MRK",
-      "ticker": "MRK",
-      "price": 128.58,
-      "prev_close": 128.37,
-      "change_pct": 0.16,
-      "currency": "USD",
-      "price_eur": 111.21
-    },
-    {
-      "label": "EQTL3.SA",
-      "ticker": "EQTL3.SA",
-      "price": 37.28,
-      "prev_close": 38.43,
-      "change_pct": -2.99,
-      "currency": "BRL",
-      "price_eur": 6.35
-    },
-    {
-      "label": "KHC",
-      "ticker": "KHC",
-      "price": 25.32,
-      "prev_close": 24.96,
-      "change_pct": 1.44,
-      "currency": "USD",
-      "price_eur": 21.9
-    },
-    {
-      "label": "MPWR",
-      "ticker": "MPWR",
-      "price": 1401.54,
-      "prev_close": 1359.08,
-      "change_pct": 3.12,
-      "currency": "USD",
-      "price_eur": 1212.2
-    },
-    {
-      "label": "PM",
-      "ticker": "PM",
-      "price": 189.57,
-      "prev_close": 188.05,
-      "change_pct": 0.81,
-      "currency": "USD",
-      "price_eur": 163.96
-    },
-    {
-      "label": "NFLX",
-      "ticker": "NFLX",
-      "price": 74.14,
-      "prev_close": 73.69,
-      "change_pct": 0.61,
-      "currency": "USD",
-      "price_eur": 64.12
-    },
-    {
-      "label": "OXY",
-      "ticker": "OXY",
-      "price": 55.91,
-      "prev_close": 56.04,
-      "change_pct": -0.23,
-      "currency": "USD",
-      "price_eur": 48.36
-    },
-    {
-      "label": "AMD",
-      "ticker": "AMD",
-      "price": 483.36,
-      "prev_close": 489.28,
-      "change_pct": -1.21,
-      "currency": "USD",
-      "price_eur": 418.06
-    },
-    {
-      "label": "BAYN.DE",
-      "ticker": "BAYN.DE",
-      "price": 49.81,
-      "prev_close": 49.4,
-      "change_pct": 0.83,
-      "currency": "EUR"
-    },
-    {
-      "label": "HWM",
-      "ticker": "HWM",
-      "price": 281.88,
-      "prev_close": 289.72,
-      "change_pct": -2.71,
-      "currency": "USD",
-      "price_eur": 243.8
-    },
-    {
-      "label": "WMB",
-      "ticker": "WMB",
-      "price": 70.4,
-      "prev_close": 71.76,
-      "change_pct": -1.9,
-      "currency": "USD",
-      "price_eur": 60.89
-    },
-    {
-      "label": "TMO",
-      "ticker": "TMO",
-      "price": 594.0,
-      "prev_close": 580.02,
-      "change_pct": 2.41,
-      "currency": "USD",
-      "price_eur": 513.75
     },
     {
       "label": "AIR.DE",
@@ -1181,20 +545,107 @@
       "currency": "EUR"
     },
     {
-      "label": "005930.KS",
-      "ticker": "005930.KS",
-      "price": 231000.0,
-      "prev_close": 230500.0,
-      "change_pct": 0.22,
-      "currency": "KRW",
-      "price_eur": 142.06
+      "label": "JPM",
+      "ticker": "JPM",
+      "price": 357.52,
+      "prev_close": 356.3,
+      "change_pct": 0.34,
+      "currency": "USD",
+      "price_eur": 309.22
     },
     {
-      "label": "BAS.DE",
-      "ticker": "BAS.DE",
-      "price": 51.5,
-      "prev_close": 51.32,
-      "change_pct": 0.35,
+      "label": "DVN",
+      "ticker": "DVN",
+      "price": 42.98,
+      "prev_close": 43.11,
+      "change_pct": -0.3,
+      "currency": "USD",
+      "price_eur": 37.17
+    },
+    {
+      "label": "CI",
+      "ticker": "CI",
+      "price": 282.49,
+      "prev_close": 275.25,
+      "change_pct": 2.63,
+      "currency": "USD",
+      "price_eur": 244.33
+    },
+    {
+      "label": "LMT",
+      "ticker": "LMT",
+      "price": 587.95,
+      "prev_close": 582.85,
+      "change_pct": 0.88,
+      "currency": "USD",
+      "price_eur": 508.52
+    },
+    {
+      "label": "ROG.SW",
+      "ticker": "ROG.SW",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "error": "HTTP Error 404: "
+    },
+    {
+      "label": "HAL",
+      "ticker": "HAL",
+      "price": 31.89,
+      "prev_close": 32.51,
+      "change_pct": -1.91,
+      "currency": "USD",
+      "price_eur": 27.58
+    },
+    {
+      "label": "MDLZ",
+      "ticker": "MDLZ",
+      "price": 62.61,
+      "prev_close": 62.75,
+      "change_pct": -0.22,
+      "currency": "USD",
+      "price_eur": 54.15
+    },
+    {
+      "label": "NOVN.SW",
+      "ticker": "NOVN.SW",
+      "price": 125.98,
+      "prev_close": 125.18,
+      "change_pct": 0.64,
+      "currency": "CHF",
+      "price_eur": 134.95
+    },
+    {
+      "label": "SIE.DE",
+      "ticker": "SIE.DE",
+      "price": 279.8,
+      "prev_close": 273.1,
+      "change_pct": 2.45,
+      "currency": "EUR"
+    },
+    {
+      "label": "V",
+      "ticker": "V",
+      "price": 362.5,
+      "prev_close": 370.47,
+      "change_pct": -2.15,
+      "currency": "USD",
+      "price_eur": 313.53
+    },
+    {
+      "label": "HES",
+      "ticker": "HES",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "error": "HTTP Error 404: "
+    },
+    {
+      "label": "SAP.DE",
+      "ticker": "SAP.DE",
+      "price": 177.96,
+      "prev_close": 170.98,
+      "change_pct": 4.08,
       "currency": "EUR"
     },
     {
@@ -1207,269 +658,31 @@
       "price_eur": 145.18
     },
     {
-      "label": "DTE.DE",
-      "ticker": "DTE.DE",
-      "price": 29.04,
-      "prev_close": 29.15,
-      "change_pct": -0.38,
-      "currency": "EUR"
-    },
-    {
-      "label": "MCHP",
-      "ticker": "MCHP",
-      "price": 84.69,
-      "prev_close": 74.36,
-      "change_pct": 13.89,
+      "label": "VLO",
+      "ticker": "VLO",
+      "price": 298.31,
+      "prev_close": 302.99,
+      "change_pct": -1.54,
       "currency": "USD",
-      "price_eur": 73.25
+      "price_eur": 258.01
     },
     {
-      "label": "LRCX",
-      "ticker": "LRCX",
-      "price": 311.35,
-      "prev_close": 305.77,
-      "change_pct": 1.82,
+      "label": "MNST",
+      "ticker": "MNST",
+      "price": 90.36,
+      "prev_close": 94.16,
+      "change_pct": -4.04,
       "currency": "USD",
-      "price_eur": 269.29
+      "price_eur": 78.15
     },
     {
-      "label": "SAP.DE",
-      "ticker": "SAP.DE",
-      "price": 177.96,
-      "prev_close": 170.98,
-      "change_pct": 4.08,
-      "currency": "EUR"
-    },
-    {
-      "label": "SLB",
-      "ticker": "SLB",
-      "price": 50.53,
-      "prev_close": 51.54,
-      "change_pct": -1.96,
-      "currency": "USD",
-      "price_eur": 43.7
-    },
-    {
-      "label": "ROG.SW",
-      "ticker": "ROG.SW",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "error": "HTTP Error 404: "
-    },
-    {
-      "label": "ASML.AS",
-      "ticker": "ASML.AS",
-      "price": 1499.0,
-      "prev_close": 1494.0,
-      "change_pct": 0.33,
-      "currency": "EUR"
-    },
-    {
-      "label": "BMY",
-      "ticker": "BMY",
-      "price": 64.72,
-      "prev_close": 64.15,
-      "change_pct": 0.89,
-      "currency": "USD",
-      "price_eur": 55.98
-    },
-    {
-      "label": "COP",
-      "ticker": "COP",
-      "price": 117.61,
-      "prev_close": 116.76,
-      "change_pct": 0.73,
-      "currency": "USD",
-      "price_eur": 101.72
-    },
-    {
-      "label": "SYK",
-      "ticker": "SYK",
-      "price": 339.03,
-      "prev_close": 337.43,
-      "change_pct": 0.47,
-      "currency": "USD",
-      "price_eur": 293.23
-    },
-    {
-      "label": "CL",
-      "ticker": "CL",
-      "price": 93.27,
-      "prev_close": 93.0,
-      "change_pct": 0.29,
-      "currency": "USD",
-      "price_eur": 80.67
-    },
-    {
-      "label": "207940.KS",
-      "ticker": "207940.KS",
-      "price": 1556000.0,
-      "prev_close": 1514000.0,
-      "change_pct": 2.77,
-      "currency": "KRW",
-      "price_eur": 956.89
-    },
-    {
-      "label": "EOG",
-      "ticker": "EOG",
-      "price": 134.74,
-      "prev_close": 136.2,
-      "change_pct": -1.07,
-      "currency": "USD",
-      "price_eur": 116.54
-    },
-    {
-      "label": "CI",
-      "ticker": "CI",
-      "price": 282.49,
-      "prev_close": 275.25,
-      "change_pct": 2.63,
-      "currency": "USD",
-      "price_eur": 244.33
-    },
-    {
-      "label": "NESN.SW",
-      "ticker": "NESN.SW",
-      "price": 81.21,
-      "prev_close": 81.12,
-      "change_pct": 0.11,
-      "currency": "CHF",
-      "price_eur": 87.0
-    },
-    {
-      "label": "RTX",
-      "ticker": "RTX",
-      "price": 223.03,
-      "prev_close": 223.25,
-      "change_pct": -0.1,
-      "currency": "USD",
-      "price_eur": 192.9
-    },
-    {
-      "label": "KDP",
-      "ticker": "KDP",
-      "price": 30.01,
-      "prev_close": 30.37,
-      "change_pct": -1.19,
-      "currency": "USD",
-      "price_eur": 25.96
-    },
-    {
-      "label": "INTC",
-      "ticker": "INTC",
-      "price": 101.65,
-      "prev_close": 99.81,
-      "change_pct": 1.84,
-      "currency": "USD",
-      "price_eur": 87.92
-    },
-    {
-      "label": "ARM",
-      "ticker": "ARM",
-      "price": 282.57,
-      "prev_close": 286.68,
-      "change_pct": -1.43,
-      "currency": "USD",
-      "price_eur": 244.4
-    },
-    {
-      "label": "TDY",
-      "ticker": "TDY",
-      "price": 691.3,
-      "prev_close": 687.52,
-      "change_pct": 0.55,
-      "currency": "USD",
-      "price_eur": 597.91
-    },
-    {
-      "label": "KTOS",
-      "ticker": "KTOS",
-      "price": 60.77,
-      "prev_close": 57.41,
-      "change_pct": 5.85,
-      "currency": "USD",
-      "price_eur": 52.56
-    },
-    {
-      "label": "COST",
-      "ticker": "COST",
-      "price": 947.82,
-      "prev_close": 949.15,
-      "change_pct": -0.14,
-      "currency": "USD",
-      "price_eur": 819.77
-    },
-    {
-      "label": "ALV.DE",
-      "ticker": "ALV.DE",
-      "price": 433.5,
-      "prev_close": 440.7,
-      "change_pct": -1.63,
-      "currency": "EUR"
-    },
-    {
-      "label": "BE",
-      "ticker": "BE",
-      "price": 219.34,
-      "prev_close": 228.96,
-      "change_pct": -4.2,
-      "currency": "USD",
-      "price_eur": 189.71
-    },
-    {
-      "label": "ADBE",
-      "ticker": "ADBE",
-      "price": 265.21,
-      "prev_close": 260.24,
-      "change_pct": 1.91,
-      "currency": "USD",
-      "price_eur": 229.38
-    },
-    {
-      "label": "HII",
-      "ticker": "HII",
-      "price": 324.48,
-      "prev_close": 321.76,
-      "change_pct": 0.85,
-      "currency": "USD",
-      "price_eur": 280.64
-    },
-    {
-      "label": "GILD",
-      "ticker": "GILD",
-      "price": 133.21,
-      "prev_close": 130.86,
-      "change_pct": 1.8,
-      "currency": "USD",
-      "price_eur": 115.21
-    },
-    {
-      "label": "WMT",
-      "ticker": "WMT",
-      "price": 111.85,
-      "prev_close": 112.07,
-      "change_pct": -0.2,
-      "currency": "USD",
-      "price_eur": 96.74
-    },
-    {
-      "label": "PEP",
-      "ticker": "PEP",
-      "price": 139.02,
-      "prev_close": 138.44,
-      "change_pct": 0.42,
-      "currency": "USD",
-      "price_eur": 120.24
-    },
-    {
-      "label": "NVDA",
-      "ticker": "NVDA",
-      "price": 223.96,
-      "prev_close": 218.99,
-      "change_pct": 2.27,
-      "currency": "USD",
-      "price_eur": 193.7
+      "label": "HSBA.L",
+      "ticker": "HSBA.L",
+      "price": 1529.2,
+      "prev_close": 1521.2,
+      "change_pct": 0.53,
+      "currency": "GBp",
+      "price_eur": 1784.99
     },
     {
       "label": "018260.KS",
@@ -1481,94 +694,13 @@
       "price_eur": 136.22
     },
     {
-      "label": "HAL",
-      "ticker": "HAL",
-      "price": 31.89,
-      "prev_close": 32.51,
-      "change_pct": -1.91,
-      "currency": "USD",
-      "price_eur": 27.58
-    },
-    {
-      "label": "051910.KS",
-      "ticker": "051910.KS",
-      "price": 276000.0,
-      "prev_close": 261000.0,
-      "change_pct": 5.75,
+      "label": "006400.KS",
+      "ticker": "006400.KS",
+      "price": 459000.0,
+      "prev_close": 427000.0,
+      "change_pct": 7.49,
       "currency": "KRW",
-      "price_eur": 169.73
-    },
-    {
-      "label": "PG",
-      "ticker": "PG",
-      "price": 145.79,
-      "prev_close": 146.97,
-      "change_pct": -0.8,
-      "currency": "USD",
-      "price_eur": 126.09
-    },
-    {
-      "label": "UNH",
-      "ticker": "UNH",
-      "price": 407.08,
-      "prev_close": 403.97,
-      "change_pct": 0.77,
-      "currency": "USD",
-      "price_eur": 352.08
-    },
-    {
-      "label": "BWXT",
-      "ticker": "BWXT",
-      "price": 169.9,
-      "prev_close": 166.7,
-      "change_pct": 1.92,
-      "currency": "USD",
-      "price_eur": 146.95
-    },
-    {
-      "label": "XOM",
-      "ticker": "XOM",
-      "price": 153.04,
-      "prev_close": 154.84,
-      "change_pct": -1.16,
-      "currency": "USD",
-      "price_eur": 132.36
-    },
-    {
-      "label": "FANG",
-      "ticker": "FANG",
-      "price": 188.04,
-      "prev_close": 189.63,
-      "change_pct": -0.84,
-      "currency": "USD",
-      "price_eur": 162.64
-    },
-    {
-      "label": "KR",
-      "ticker": "KR",
-      "price": 56.73,
-      "prev_close": 57.32,
-      "change_pct": -1.03,
-      "currency": "USD",
-      "price_eur": 49.07
-    },
-    {
-      "label": "ISRG",
-      "ticker": "ISRG",
-      "price": 378.81,
-      "prev_close": 373.71,
-      "change_pct": 1.36,
-      "currency": "USD",
-      "price_eur": 327.63
-    },
-    {
-      "label": "PFE",
-      "ticker": "PFE",
-      "price": 26.76,
-      "prev_close": 26.2,
-      "change_pct": 2.14,
-      "currency": "USD",
-      "price_eur": 23.14
+      "price_eur": 282.27
     },
     {
       "label": "ELV",
@@ -1580,120 +712,12 @@
       "price_eur": 340.94
     },
     {
-      "label": "WWD",
-      "ticker": "WWD",
-      "price": 362.89,
-      "prev_close": 365.78,
-      "change_pct": -0.79,
-      "currency": "USD",
-      "price_eur": 313.86
-    },
-    {
-      "label": "VLO",
-      "ticker": "VLO",
-      "price": 298.31,
-      "prev_close": 302.99,
-      "change_pct": -1.54,
-      "currency": "USD",
-      "price_eur": 258.01
-    },
-    {
-      "label": "TXN",
-      "ticker": "TXN",
-      "price": 286.08,
-      "prev_close": 278.4,
-      "change_pct": 2.76,
-      "currency": "USD",
-      "price_eur": 247.43
-    },
-    {
-      "label": "CHD",
-      "ticker": "CHD",
-      "price": 103.24,
-      "prev_close": 103.36,
-      "change_pct": -0.12,
-      "currency": "USD",
-      "price_eur": 89.29
-    },
-    {
-      "label": "TSLA",
-      "ticker": "TSLA",
-      "price": 328.58,
-      "prev_close": 319.53,
-      "change_pct": 2.83,
-      "currency": "USD",
-      "price_eur": 284.19
-    },
-    {
-      "label": "ABT",
-      "ticker": "ABT",
-      "price": 107.81,
-      "prev_close": 107.96,
-      "change_pct": -0.14,
-      "currency": "USD",
-      "price_eur": 93.25
-    },
-    {
-      "label": "LMT",
-      "ticker": "LMT",
-      "price": 587.95,
-      "prev_close": 582.85,
-      "change_pct": 0.88,
-      "currency": "USD",
-      "price_eur": 508.52
-    },
-    {
-      "label": "CVX",
-      "ticker": "CVX",
-      "price": 186.56,
-      "prev_close": 189.23,
-      "change_pct": -1.41,
-      "currency": "USD",
-      "price_eur": 161.36
-    },
-    {
-      "label": "JNJ",
-      "ticker": "JNJ",
-      "price": 259.24,
-      "prev_close": 256.98,
-      "change_pct": 0.88,
-      "currency": "USD",
-      "price_eur": 224.22
-    },
-    {
-      "label": "CVS",
-      "ticker": "CVS",
-      "price": 95.7,
-      "prev_close": 96.22,
-      "change_pct": -0.54,
-      "currency": "USD",
-      "price_eur": 82.77
-    },
-    {
-      "label": "105560.KS",
-      "ticker": "105560.KS",
-      "price": 175800.0,
-      "prev_close": 171500.0,
-      "change_pct": 2.51,
-      "currency": "KRW",
-      "price_eur": 108.11
-    },
-    {
-      "label": "SAN.MC",
-      "ticker": "SAN.MC",
-      "price": 12.86,
-      "prev_close": 12.86,
-      "change_pct": -0.02,
+      "label": "ALV.DE",
+      "ticker": "ALV.DE",
+      "price": 433.5,
+      "prev_close": 440.7,
+      "change_pct": -1.63,
       "currency": "EUR"
-    },
-    {
-      "label": "TMUS",
-      "ticker": "TMUS",
-      "price": 177.19,
-      "prev_close": 179.97,
-      "change_pct": -1.54,
-      "currency": "USD",
-      "price_eur": 153.25
     },
     {
       "label": "KMB",
@@ -1705,22 +729,94 @@
       "price_eur": 94.86
     },
     {
-      "label": "PSX",
-      "ticker": "PSX",
-      "price": 203.91,
-      "prev_close": 205.52,
-      "change_pct": -0.78,
-      "currency": "USD",
-      "price_eur": 176.36
+      "label": "VWS.CO",
+      "ticker": "VWS.CO",
+      "price": 178.05,
+      "prev_close": 176.15,
+      "change_pct": 1.08,
+      "currency": "DKK",
+      "price_eur": 23.82
     },
     {
-      "label": "GOOG",
-      "ticker": "GOOG",
-      "price": 353.47,
-      "prev_close": 356.62,
-      "change_pct": -0.88,
+      "label": "ISRG",
+      "ticker": "ISRG",
+      "price": 378.81,
+      "prev_close": 373.71,
+      "change_pct": 1.36,
       "currency": "USD",
-      "price_eur": 305.72
+      "price_eur": 327.63
+    },
+    {
+      "label": "005930.KS",
+      "ticker": "005930.KS",
+      "price": 231000.0,
+      "prev_close": 230500.0,
+      "change_pct": 0.22,
+      "currency": "KRW",
+      "price_eur": 142.06
+    },
+    {
+      "label": "KHC",
+      "ticker": "KHC",
+      "price": 25.32,
+      "prev_close": 24.96,
+      "change_pct": 1.44,
+      "currency": "USD",
+      "price_eur": 21.9
+    },
+    {
+      "label": "207940.KS",
+      "ticker": "207940.KS",
+      "price": 1556000.0,
+      "prev_close": 1514000.0,
+      "change_pct": 2.77,
+      "currency": "KRW",
+      "price_eur": 956.89
+    },
+    {
+      "label": "KMI",
+      "ticker": "KMI",
+      "price": 30.85,
+      "prev_close": 31.28,
+      "change_pct": -1.37,
+      "currency": "USD",
+      "price_eur": 26.68
+    },
+    {
+      "label": "CHD",
+      "ticker": "CHD",
+      "price": 103.24,
+      "prev_close": 103.36,
+      "change_pct": -0.12,
+      "currency": "USD",
+      "price_eur": 89.29
+    },
+    {
+      "label": "COP",
+      "ticker": "COP",
+      "price": 117.61,
+      "prev_close": 116.76,
+      "change_pct": 0.73,
+      "currency": "USD",
+      "price_eur": 101.72
+    },
+    {
+      "label": "PG",
+      "ticker": "PG",
+      "price": 145.79,
+      "prev_close": 146.97,
+      "change_pct": -0.8,
+      "currency": "USD",
+      "price_eur": 126.09
+    },
+    {
+      "label": "373220.KS",
+      "ticker": "373220.KS",
+      "price": 360000.0,
+      "prev_close": 345000.0,
+      "change_pct": 4.35,
+      "currency": "KRW",
+      "price_eur": 221.39
     },
     {
       "label": "FSLR",
@@ -1732,12 +828,916 @@
       "price_eur": 216.27
     },
     {
+      "label": "KLAC",
+      "ticker": "KLAC",
+      "price": 198.11,
+      "prev_close": 193.22,
+      "change_pct": 2.53,
+      "currency": "USD",
+      "price_eur": 171.35
+    },
+    {
+      "label": "RTX",
+      "ticker": "RTX",
+      "price": 223.03,
+      "prev_close": 223.25,
+      "change_pct": -0.1,
+      "currency": "USD",
+      "price_eur": 192.9
+    },
+    {
+      "label": "HD",
+      "ticker": "HD",
+      "price": 355.62,
+      "prev_close": 349.52,
+      "change_pct": 1.75,
+      "currency": "USD",
+      "price_eur": 307.58
+    },
+    {
+      "label": "BSX",
+      "ticker": "BSX",
+      "price": 49.31,
+      "prev_close": 49.3,
+      "change_pct": 0.02,
+      "currency": "USD",
+      "price_eur": 42.65
+    },
+    {
+      "label": "HEI",
+      "ticker": "HEI",
+      "price": 367.58,
+      "prev_close": 363.29,
+      "change_pct": 1.18,
+      "currency": "USD",
+      "price_eur": 317.92
+    },
+    {
+      "label": "KR",
+      "ticker": "KR",
+      "price": 56.73,
+      "prev_close": 57.32,
+      "change_pct": -1.03,
+      "currency": "USD",
+      "price_eur": 49.07
+    },
+    {
+      "label": "SLB",
+      "ticker": "SLB",
+      "price": 50.53,
+      "prev_close": 51.54,
+      "change_pct": -1.96,
+      "currency": "USD",
+      "price_eur": 43.7
+    },
+    {
+      "label": "CVS",
+      "ticker": "CVS",
+      "price": 95.7,
+      "prev_close": 96.22,
+      "change_pct": -0.54,
+      "currency": "USD",
+      "price_eur": 82.77
+    },
+    {
+      "label": "KO",
+      "ticker": "KO",
+      "price": 87.05,
+      "prev_close": 86.85,
+      "change_pct": 0.23,
+      "currency": "USD",
+      "price_eur": 75.29
+    },
+    {
+      "label": "PFE",
+      "ticker": "PFE",
+      "price": 26.76,
+      "prev_close": 26.2,
+      "change_pct": 2.14,
+      "currency": "USD",
+      "price_eur": 23.14
+    },
+    {
+      "label": "ASML.AS",
+      "ticker": "ASML.AS",
+      "price": 1499.0,
+      "prev_close": 1494.0,
+      "change_pct": 0.33,
+      "currency": "EUR"
+    },
+    {
+      "label": "AZN.L",
+      "ticker": "AZN.L",
+      "price": 11896.0,
+      "prev_close": 11850.0,
+      "change_pct": 0.39,
+      "currency": "GBp",
+      "price_eur": 13885.84
+    },
+    {
+      "label": "COST",
+      "ticker": "COST",
+      "price": 947.82,
+      "prev_close": 949.15,
+      "change_pct": -0.14,
+      "currency": "USD",
+      "price_eur": 819.77
+    },
+    {
+      "label": "RHM.DE",
+      "ticker": "RHM.DE",
+      "price": 1146.4,
+      "prev_close": 1159.0,
+      "change_pct": -1.09,
+      "currency": "EUR"
+    },
+    {
+      "label": "ORA",
+      "ticker": "ORA",
+      "price": 108.09,
+      "prev_close": 107.38,
+      "change_pct": 0.66,
+      "currency": "USD",
+      "price_eur": 93.49
+    },
+    {
+      "label": "SAN.MC",
+      "ticker": "SAN.MC",
+      "price": 12.86,
+      "prev_close": 12.86,
+      "change_pct": -0.02,
+      "currency": "EUR"
+    },
+    {
+      "label": "CTRA",
+      "ticker": "CTRA",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "error": "HTTP Error 404: "
+    },
+    {
+      "label": "600900.SS",
+      "ticker": "600900.SS",
+      "price": 27.75,
+      "prev_close": 27.75,
+      "change_pct": 0.0,
+      "currency": "CNY",
+      "price_eur": 3.57
+    },
+    {
+      "label": "WMB",
+      "ticker": "WMB",
+      "price": 70.4,
+      "prev_close": 71.76,
+      "change_pct": -1.9,
+      "currency": "USD",
+      "price_eur": 60.89
+    },
+    {
+      "label": "MBG.DE",
+      "ticker": "MBG.DE",
+      "price": 47.09,
+      "prev_close": 47.08,
+      "change_pct": 0.01,
+      "currency": "EUR"
+    },
+    {
+      "label": "EQTL3.SA",
+      "ticker": "EQTL3.SA",
+      "price": 37.28,
+      "prev_close": 38.43,
+      "change_pct": -2.99,
+      "currency": "BRL",
+      "price_eur": 6.35
+    },
+    {
+      "label": "MRCY",
+      "ticker": "MRCY",
+      "price": 108.64,
+      "prev_close": 108.83,
+      "change_pct": -0.17,
+      "currency": "USD",
+      "price_eur": 93.96
+    },
+    {
+      "label": "005380.KS",
+      "ticker": "005380.KS",
+      "price": 395500.0,
+      "prev_close": 400000.0,
+      "change_pct": -1.12,
+      "currency": "KRW",
+      "price_eur": 243.22
+    },
+    {
+      "label": "035420.KS",
+      "ticker": "035420.KS",
+      "price": 210000.0,
+      "prev_close": 226000.0,
+      "change_pct": -7.08,
+      "currency": "KRW",
+      "price_eur": 129.14
+    },
+    {
+      "label": "META",
+      "ticker": "META",
+      "price": 592.1,
+      "prev_close": 589.9,
+      "change_pct": 0.37,
+      "currency": "USD",
+      "price_eur": 512.11
+    },
+    {
+      "label": "GOOG",
+      "ticker": "GOOG",
+      "price": 353.47,
+      "prev_close": 356.62,
+      "change_pct": -0.88,
+      "currency": "USD",
+      "price_eur": 305.72
+    },
+    {
+      "label": "MU",
+      "ticker": "MU",
+      "price": 877.57,
+      "prev_close": 881.47,
+      "change_pct": -0.44,
+      "currency": "USD",
+      "price_eur": 759.01
+    },
+    {
+      "label": "LHX",
+      "ticker": "LHX",
+      "price": 286.67,
+      "prev_close": 289.53,
+      "change_pct": -0.99,
+      "currency": "USD",
+      "price_eur": 247.94
+    },
+    {
       "label": "IBE.MC",
       "ticker": "IBE.MC",
       "price": 20.7,
       "prev_close": 20.72,
       "change_pct": -0.1,
       "currency": "EUR"
+    },
+    {
+      "label": "WMT",
+      "ticker": "WMT",
+      "price": 111.85,
+      "prev_close": 112.07,
+      "change_pct": -0.2,
+      "currency": "USD",
+      "price_eur": 96.74
+    },
+    {
+      "label": "INTU",
+      "ticker": "INTU",
+      "price": 325.25,
+      "prev_close": 321.91,
+      "change_pct": 1.04,
+      "currency": "USD",
+      "price_eur": 281.31
+    },
+    {
+      "label": "UNH",
+      "ticker": "UNH",
+      "price": 407.08,
+      "prev_close": 403.97,
+      "change_pct": 0.77,
+      "currency": "USD",
+      "price_eur": 352.08
+    },
+    {
+      "label": "105560.KS",
+      "ticker": "105560.KS",
+      "price": 175800.0,
+      "prev_close": 171500.0,
+      "change_pct": 2.51,
+      "currency": "KRW",
+      "price_eur": 108.11
+    },
+    {
+      "label": "ABT",
+      "ticker": "ABT",
+      "price": 107.81,
+      "prev_close": 107.96,
+      "change_pct": -0.14,
+      "currency": "USD",
+      "price_eur": 93.25
+    },
+    {
+      "label": "ENPH",
+      "ticker": "ENPH",
+      "price": 41.87,
+      "prev_close": 39.67,
+      "change_pct": 5.55,
+      "currency": "USD",
+      "price_eur": 36.21
+    },
+    {
+      "label": "GE",
+      "ticker": "GE",
+      "price": 370.08,
+      "prev_close": 374.55,
+      "change_pct": -1.19,
+      "currency": "USD",
+      "price_eur": 320.08
+    },
+    {
+      "label": "SHEL.L",
+      "ticker": "SHEL.L",
+      "price": 3277.5,
+      "prev_close": 3315.0,
+      "change_pct": -1.13,
+      "currency": "GBp",
+      "price_eur": 3825.73
+    },
+    {
+      "label": "MRK",
+      "ticker": "MRK",
+      "price": 128.58,
+      "prev_close": 128.37,
+      "change_pct": 0.16,
+      "currency": "USD",
+      "price_eur": 111.21
+    },
+    {
+      "label": "PM",
+      "ticker": "PM",
+      "price": 189.57,
+      "prev_close": 188.05,
+      "change_pct": 0.81,
+      "currency": "USD",
+      "price_eur": 163.96
+    },
+    {
+      "label": "EDP.LS",
+      "ticker": "EDP.LS",
+      "price": 4.48,
+      "prev_close": 4.48,
+      "change_pct": -0.09,
+      "currency": "EUR"
+    },
+    {
+      "label": "BAS.DE",
+      "ticker": "BAS.DE",
+      "price": 51.5,
+      "prev_close": 51.32,
+      "change_pct": 0.35,
+      "currency": "EUR"
+    },
+    {
+      "label": "HSY",
+      "ticker": "HSY",
+      "price": 182.35,
+      "prev_close": 183.02,
+      "change_pct": -0.37,
+      "currency": "USD",
+      "price_eur": 157.71
+    },
+    {
+      "label": "NXT",
+      "ticker": "NXT",
+      "price": 103.26,
+      "prev_close": 98.43,
+      "change_pct": 4.91,
+      "currency": "USD",
+      "price_eur": 89.31
+    },
+    {
+      "label": "028260.KS",
+      "ticker": "028260.KS",
+      "price": 336500.0,
+      "prev_close": 334000.0,
+      "change_pct": 0.75,
+      "currency": "KRW",
+      "price_eur": 206.94
+    },
+    {
+      "label": "NESN.SW",
+      "ticker": "NESN.SW",
+      "price": 81.21,
+      "prev_close": 81.12,
+      "change_pct": 0.11,
+      "currency": "CHF",
+      "price_eur": 87.0
+    },
+    {
+      "label": "AMD",
+      "ticker": "AMD",
+      "price": 483.36,
+      "prev_close": 489.28,
+      "change_pct": -1.21,
+      "currency": "USD",
+      "price_eur": 418.06
+    },
+    {
+      "label": "TSM",
+      "ticker": "TSM",
+      "price": 420.04,
+      "prev_close": 418.2,
+      "change_pct": 0.44,
+      "currency": "USD",
+      "price_eur": 363.29
+    },
+    {
+      "label": "IFX.DE",
+      "ticker": "IFX.DE",
+      "price": 62.08,
+      "prev_close": 60.32,
+      "change_pct": 2.92,
+      "currency": "EUR"
+    },
+    {
+      "label": "ADI",
+      "ticker": "ADI",
+      "price": 389.93,
+      "prev_close": 377.31,
+      "change_pct": 3.34,
+      "currency": "USD",
+      "price_eur": 337.25
+    },
+    {
+      "label": "MRVL",
+      "ticker": "MRVL",
+      "price": 218.72,
+      "prev_close": 210.54,
+      "change_pct": 3.89,
+      "currency": "USD",
+      "price_eur": 189.17
+    },
+    {
+      "label": "HII",
+      "ticker": "HII",
+      "price": 324.48,
+      "prev_close": 321.76,
+      "change_pct": 0.85,
+      "currency": "USD",
+      "price_eur": 280.64
+    },
+    {
+      "label": "MCHP",
+      "ticker": "MCHP",
+      "price": 84.69,
+      "prev_close": 74.36,
+      "change_pct": 13.89,
+      "currency": "USD",
+      "price_eur": 73.25
+    },
+    {
+      "label": "BMY",
+      "ticker": "BMY",
+      "price": 64.72,
+      "prev_close": 64.15,
+      "change_pct": 0.89,
+      "currency": "USD",
+      "price_eur": 55.98
+    },
+    {
+      "label": "GIS",
+      "ticker": "GIS",
+      "price": 36.89,
+      "prev_close": 36.07,
+      "change_pct": 2.27,
+      "currency": "USD",
+      "price_eur": 31.91
+    },
+    {
+      "label": "AMGN",
+      "ticker": "AMGN",
+      "price": 410.94,
+      "prev_close": 410.95,
+      "change_pct": -0.0,
+      "currency": "USD",
+      "price_eur": 355.42
+    },
+    {
+      "label": "ASML",
+      "ticker": "ASML",
+      "price": 1740.99,
+      "prev_close": 1704.37,
+      "change_pct": 2.15,
+      "currency": "USD",
+      "price_eur": 1505.79
+    },
+    {
+      "label": "HWM",
+      "ticker": "HWM",
+      "price": 281.88,
+      "prev_close": 289.72,
+      "change_pct": -2.71,
+      "currency": "USD",
+      "price_eur": 243.8
+    },
+    {
+      "label": "VOW3.DE",
+      "ticker": "VOW3.DE",
+      "price": 76.32,
+      "prev_close": 75.56,
+      "change_pct": 1.01,
+      "currency": "EUR"
+    },
+    {
+      "label": "MDT",
+      "ticker": "MDT",
+      "price": 87.16,
+      "prev_close": 85.92,
+      "change_pct": 1.44,
+      "currency": "USD",
+      "price_eur": 75.38
+    },
+    {
+      "label": "LDOS",
+      "ticker": "LDOS",
+      "price": 137.57,
+      "prev_close": 135.26,
+      "change_pct": 1.71,
+      "currency": "USD",
+      "price_eur": 118.98
+    },
+    {
+      "label": "APA",
+      "ticker": "APA",
+      "price": 37.63,
+      "prev_close": 36.53,
+      "change_pct": 3.01,
+      "currency": "USD",
+      "price_eur": 32.55
+    },
+    {
+      "label": "AAPL",
+      "ticker": "AAPL",
+      "price": 313.33,
+      "prev_close": 312.41,
+      "change_pct": 0.29,
+      "currency": "USD",
+      "price_eur": 271.0
+    },
+    {
+      "label": "AMZN",
+      "ticker": "AMZN",
+      "price": 274.48,
+      "prev_close": 272.26,
+      "change_pct": 0.82,
+      "currency": "USD",
+      "price_eur": 237.4
+    },
+    {
+      "label": "VRTX",
+      "ticker": "VRTX",
+      "price": 496.07,
+      "prev_close": 484.03,
+      "change_pct": 2.49,
+      "currency": "USD",
+      "price_eur": 429.05
+    },
+    {
+      "label": "TXT",
+      "ticker": "TXT",
+      "price": 89.43,
+      "prev_close": 87.89,
+      "change_pct": 1.75,
+      "currency": "USD",
+      "price_eur": 77.35
+    },
+    {
+      "label": "BE",
+      "ticker": "BE",
+      "price": 219.34,
+      "prev_close": 228.96,
+      "change_pct": -4.2,
+      "currency": "USD",
+      "price_eur": 189.71
+    },
+    {
+      "label": "KVUE",
+      "ticker": "KVUE",
+      "price": 19.23,
+      "prev_close": 19.18,
+      "change_pct": 0.26,
+      "currency": "USD",
+      "price_eur": 16.63
+    },
+    {
+      "label": "WWD",
+      "ticker": "WWD",
+      "price": 362.89,
+      "prev_close": 365.78,
+      "change_pct": -0.79,
+      "currency": "USD",
+      "price_eur": 313.86
+    },
+    {
+      "label": "EOG",
+      "ticker": "EOG",
+      "price": 134.74,
+      "prev_close": 136.2,
+      "change_pct": -1.07,
+      "currency": "USD",
+      "price_eur": 116.54
+    },
+    {
+      "label": "OXY",
+      "ticker": "OXY",
+      "price": 55.91,
+      "prev_close": 56.04,
+      "change_pct": -0.23,
+      "currency": "USD",
+      "price_eur": 48.36
+    },
+    {
+      "label": "INTC",
+      "ticker": "INTC",
+      "price": 101.65,
+      "prev_close": 99.81,
+      "change_pct": 1.84,
+      "currency": "USD",
+      "price_eur": 87.92
+    },
+    {
+      "label": "AMAT",
+      "ticker": "AMAT",
+      "price": 539.14,
+      "prev_close": 527.48,
+      "change_pct": 2.21,
+      "currency": "USD",
+      "price_eur": 466.3
+    },
+    {
+      "label": "TMO",
+      "ticker": "TMO",
+      "price": 594.0,
+      "prev_close": 580.02,
+      "change_pct": 2.41,
+      "currency": "USD",
+      "price_eur": 513.75
+    },
+    {
+      "label": "055550.KS",
+      "ticker": "055550.KS",
+      "price": 110000.0,
+      "prev_close": 107400.0,
+      "change_pct": 2.42,
+      "currency": "KRW",
+      "price_eur": 67.65
+    },
+    {
+      "label": "TRG",
+      "ticker": "TRG",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "currency": null
+    },
+    {
+      "label": "PSX",
+      "ticker": "PSX",
+      "price": 203.91,
+      "prev_close": 205.52,
+      "change_pct": -0.78,
+      "currency": "USD",
+      "price_eur": 176.36
+    },
+    {
+      "label": "TSLA",
+      "ticker": "TSLA",
+      "price": 328.58,
+      "prev_close": 319.53,
+      "change_pct": 2.83,
+      "currency": "USD",
+      "price_eur": 284.19
+    },
+    {
+      "label": "NXPI",
+      "ticker": "NXPI",
+      "price": 239.71,
+      "prev_close": 231.78,
+      "change_pct": 3.42,
+      "currency": "USD",
+      "price_eur": 207.33
+    },
+    {
+      "label": "ADBE",
+      "ticker": "ADBE",
+      "price": 265.21,
+      "prev_close": 260.24,
+      "change_pct": 1.91,
+      "currency": "USD",
+      "price_eur": 229.38
+    },
+    {
+      "label": "ENR.DE",
+      "ticker": "ENR.DE",
+      "price": 153.54,
+      "prev_close": 153.68,
+      "change_pct": -0.09,
+      "currency": "EUR"
+    },
+    {
+      "label": "TDG",
+      "ticker": "TDG",
+      "price": 1225.25,
+      "prev_close": 1262.07,
+      "change_pct": -2.92,
+      "currency": "USD",
+      "price_eur": 1059.72
+    },
+    {
+      "label": "CVX",
+      "ticker": "CVX",
+      "price": 186.56,
+      "prev_close": 189.23,
+      "change_pct": -1.41,
+      "currency": "USD",
+      "price_eur": 161.36
+    },
+    {
+      "label": "FANG",
+      "ticker": "FANG",
+      "price": 188.04,
+      "prev_close": 189.63,
+      "change_pct": -0.84,
+      "currency": "USD",
+      "price_eur": 162.64
+    },
+    {
+      "label": "012330.KS",
+      "ticker": "012330.KS",
+      "price": 496500.0,
+      "prev_close": 508000.0,
+      "change_pct": -2.26,
+      "currency": "KRW",
+      "price_eur": 305.33
+    },
+    {
+      "label": "CSCO",
+      "ticker": "CSCO",
+      "price": 121.43,
+      "prev_close": 120.88,
+      "change_pct": 0.45,
+      "currency": "USD",
+      "price_eur": 105.03
+    },
+    {
+      "label": "DB1.DE",
+      "ticker": "DB1.DE",
+      "price": 274.1,
+      "prev_close": 269.4,
+      "change_pct": 1.74,
+      "currency": "EUR"
+    },
+    {
+      "label": "MA",
+      "ticker": "MA",
+      "price": 562.95,
+      "prev_close": 575.95,
+      "change_pct": -2.26,
+      "currency": "USD",
+      "price_eur": 486.9
+    },
+    {
+      "label": "DTE.DE",
+      "ticker": "DTE.DE",
+      "price": 29.04,
+      "prev_close": 29.15,
+      "change_pct": -0.38,
+      "currency": "EUR"
+    },
+    {
+      "label": "SYK",
+      "ticker": "SYK",
+      "price": 339.03,
+      "prev_close": 337.43,
+      "change_pct": 0.47,
+      "currency": "USD",
+      "price_eur": 293.23
+    },
+    {
+      "label": "BA",
+      "ticker": "BA",
+      "price": 234.42,
+      "prev_close": 232.19,
+      "change_pct": 0.96,
+      "currency": "USD",
+      "price_eur": 202.75
+    },
+    {
+      "label": "DHR",
+      "ticker": "DHR",
+      "price": 204.76,
+      "prev_close": 199.98,
+      "change_pct": 2.39,
+      "currency": "USD",
+      "price_eur": 177.1
+    },
+    {
+      "label": "MPWR",
+      "ticker": "MPWR",
+      "price": 1401.54,
+      "prev_close": 1359.08,
+      "change_pct": 3.12,
+      "currency": "USD",
+      "price_eur": 1212.2
+    },
+    {
+      "label": "NFLX",
+      "ticker": "NFLX",
+      "price": 74.14,
+      "prev_close": 73.69,
+      "change_pct": 0.61,
+      "currency": "USD",
+      "price_eur": 64.12
+    },
+    {
+      "label": "KTOS",
+      "ticker": "KTOS",
+      "price": 60.77,
+      "prev_close": 57.41,
+      "change_pct": 5.85,
+      "currency": "USD",
+      "price_eur": 52.56
+    },
+    {
+      "label": "SYY",
+      "ticker": "SYY",
+      "price": 84.29,
+      "prev_close": 84.35,
+      "change_pct": -0.07,
+      "currency": "USD",
+      "price_eur": 72.9
+    },
+    {
+      "label": "SWKS",
+      "ticker": "SWKS",
+      "price": 70.62,
+      "prev_close": 66.84,
+      "change_pct": 5.66,
+      "currency": "USD",
+      "price_eur": 61.08
+    },
+    {
+      "label": "051910.KS",
+      "ticker": "051910.KS",
+      "price": 276000.0,
+      "prev_close": 261000.0,
+      "change_pct": 5.75,
+      "currency": "KRW",
+      "price_eur": 169.73
+    },
+    {
+      "label": "GD",
+      "ticker": "GD",
+      "price": 392.05,
+      "prev_close": 386.92,
+      "change_pct": 1.33,
+      "currency": "USD",
+      "price_eur": 339.08
+    },
+    {
+      "label": "LRCX",
+      "ticker": "LRCX",
+      "price": 311.35,
+      "prev_close": 305.77,
+      "change_pct": 1.82,
+      "currency": "USD",
+      "price_eur": 269.29
+    },
+    {
+      "label": "KDP",
+      "ticker": "KDP",
+      "price": 30.01,
+      "prev_close": 30.37,
+      "change_pct": -1.19,
+      "currency": "USD",
+      "price_eur": 25.96
+    },
+    {
+      "label": "XOM",
+      "ticker": "XOM",
+      "price": 153.04,
+      "prev_close": 154.84,
+      "change_pct": -1.16,
+      "currency": "USD",
+      "price_eur": 132.36
+    },
+    {
+      "label": "032830.KS",
+      "ticker": "032830.KS",
+      "price": 275500.0,
+      "prev_close": 287500.0,
+      "change_pct": -4.17,
+      "currency": "KRW",
+      "price_eur": 169.42
+    },
+    {
+      "label": "BRK.B",
+      "ticker": "BRK.B",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "error": "HTTP Error 404: "
     }
   ]
 }
