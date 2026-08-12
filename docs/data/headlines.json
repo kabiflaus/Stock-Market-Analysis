@@ -1,5 +1,537 @@
 [
   {
+    "label": "LHX",
+    "title": "L3Harris Stock Leads 3 Defense Picks Retail Investors May Want to Watch - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVjh3dW4yQjEta0pUXzNqUDd4cHNnOXlSMVVtRGd4NEt2blJHRGpxSmRCQUxNVFlZM1A0Tl9TMDdfQm1xMEpxMXQ4ZzYydmtJV1JjaTI5a1RlRVN6T3hSM3VpcjgwZHU3c0VmQ1JURlhBaVVIekIxRmxvbklEOEdXd1RuNTR3a3dZUW9xY1hHVDk3VTBzYjZ4djFBVG1qVnppRHREUXNmbkRXdGxOU0hoYXp1ZEFHcG84OF9ZSWNTbTV5d9IBxwFBVV95cUxNanFxWno1ZExjUmpSWkFkeVl5bGtTVWRKY0JQSVJEYi1yYW50dFo2ZkpfMm9LRDdIeUVNajRqY0dPNXlHYVRqbDI1MnNQVTQyWkVpU3NvbmU5M29aaFVsQi1WaWtKNWwzcElnbVdLX3Z0LVZ3bVpCMmJuZTBDcm9OOVc3aUE2TUpwRVZiUzJTVzZmMGxhVTk0MXZRb3ZoZ0Q0ZGtSc3Yzc0V0S3Fzc05GUFJlTnItSDJsMlh6VzBTVlQ0RGF6cnJB?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-12T03:53:53+00:00"
+  },
+  {
+    "label": "ARM",
+    "title": "ARM Holdings Stock Analysis: Buy or Sell? - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSXVTUnlXbHc5el9rdHplWXlpTlN5UjZ3NWlMZXhMWkxucU9rVFhXVGF4U0x0RDdNMXBFZGVXbV9MOHpGLXVmTDRTd2lMc1E1dHZIVkZtR0ZiUTBPbVN6bi1ibmRRd3JwN25rcTRoNGFBT1NBVmVUR1UydGgwclZUQVhNQ0dPNVVQOGpaTEFMWUJmaW9heEtoV095Vy1VTFhDeDBaVlpkbFQ2X2RwaEV0RHlvdzJFUFFkYnc?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-12T03:28:36+00:00"
+  },
+  {
+    "label": "NOC",
+    "title": "Northrop Grumman (NOC) Secures Missile Defense Deals, Is The Stock Still Undervalued? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUVlVXhWLU5KTEFWalZGTmY4bkZxRW93eWJnM2Q1bDMtWkMzRGN0VFhBUUpHc2JGb2RxWjNGQVBrQkFqV3ZlQW16TnUtSUNwZVY5QzhmRjFidmliclluMlQxVUlVMzBQWS0wcTZMMTl0SnpZZk1xbDJXcWdIU01wRUstVGR5UEVsS2RVWXJ3b2lNNE10amVNT1FQOFRtd01PQmUw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-12T03:21:00+00:00"
+  },
+  {
+    "label": "MU",
+    "title": "$SK Hynix (000660.KR)$ $Micron Technology (MU.US)$ - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdzFvcWtGMkRnTjNBb2g2elN0dmNLM0FWbjZ6UFhwb0VJRzdxcHNHelBPMWhrbmFPU05mX1N4dUNXVm8wMmhBaDNSVTZURlhQbVlicmt6VWtnQkp5eENKT2R5UW84OFhBZkVwcDFiVE1oR3BId0xJZHpWSVY4S2ZacDZTdzg4ZTRTSVZYdGIwVG1iMUZZcWhEVUU1Snk?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-12T03:14:32+00:00"
+  },
+  {
+    "label": "KOSPI",
+    "title": "KOSPI Lags Taiwan Amid Foreign Outflows - Businesskorea",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE13SjRQelVuU21CX0xpbml6RmtYMlJCTDVISnJrWng4X2ludGM1LUQ5eXhIM2tHRHowNFZkTV9xbEJJUHlJRmhGR0Z6OU5vVEVEVHJZY0NwM0o0TFFGcjB2QVlYd251SHA3R2NnSWdtc3p0Y0Z2?oc=5",
+    "source": "Businesskorea",
+    "published": "2026-08-12T02:58:00+00:00"
+  },
+  {
+    "label": "AZN.L",
+    "title": "AstraZeneca Stock Leads 3 AI Healthcare Picks Worth A Closer Look - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT0VUSjVjSk1WY0U4ZUZUM3hVVnRWZURfWDBpTWNaVGxzdUJOZ1pKZ3AxcDR4S2xYZWpvTVFadlczNGs0cXVUU0c2S2Q1Y0d2ampkU3V0dFhtYUFrSG9saFh2eW5mVEl5UlZTUjdXczRGWk9GZkVEcVNVeVR2NzlMNTIwamVGbUNPQ19FenlTbXU1Mk1Bdjl0TjRENEdqdzNaYjlQeEVTUUd6WjhkRWdlN2dBZTdtdmtuc3pTOU9oVjFZR05NUDhVOWRYQ1dreFF3ZG5UekJLMFpOX1nSAeABQVVfeXFMUFJWSGZkSEFrdnJfRzFEVmtwUG9acVN6Wk1WYlRCbjNOTzFaRlRRUWlGU0xsbXczY2w2dF9hM1BXT0FLM05TNlk4RkVYQnpxTHIyX3Z3YXlpTHFUNF9rUGNGaGU0cG1Lazk2Z1EzMzdKdUlvS0JheDVFS0dJS2xnZDBZMXFLWXlGUndRYUtYbGxqSmI1RUhkMFpMeW1kSGJ6RXdZUnJ4aHM3UXkyV2poNXZueTY2WDRyZVJrUFJCdkExZHNFcXBVeXdiaE1XUC0yN2NFTzJnQThRT05OQXZfRjk?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-12T02:55:47+00:00"
+  },
+  {
+    "label": "KOSPI",
+    "title": "Asian tech stocks rise as oil advances; South Korea’s Kospi up 2.8% - The Business Times",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONTBxdHZ6RmNWUTVWc25Hd0wxTG9VZWFsd2EyOUxka0ROR3dhemhPNlRTeGd5d3BuMF9aSkpHZG1PZWNJeGlGOTJHZkNYRWx1RkFpMzdqTDBMQnlUU0RjUnRCOVNLZUFMM2MyZWE5UzlWR25wMmZ5eFQ2VDFQT0NncDB4aFhDalJMRnREM282UzRiSDJUeFNpUXFKeWNfNFdab0I2VU05b2tWbGZid2NiQUtJdVpRMEZpLVlGeDlxVnd6U29ZSFhKcXVNYTMzbDAwMHc?oc=5",
+    "source": "The Business Times",
+    "published": "2026-08-12T02:45:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Gold Price Forecast: XAU/USD awaits US CPI inflation for the next big move - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNGw2ZjB6Q042QUxEVVFiZ1NWT2xTTE4wYzVQOXlpN2NMZlI1TzFOYnpDNl9CZzFrV0VrU1pubnVFZkx6WFN2VXk3bTlsaVp2V2JybEViTDZQM0xKYUpMWVJOZ1lYeWNNcGpkeWhKT2ZFN2U4bEkza2Z6OXBLazcycVVBc2FiNDd5X0Nta1VVZ3pBSi05MnRVTUEtdlh4Z242WXV3TXpGQnFNOEtVUkJHOTlRbzdKZGNTS01WUQ?oc=5",
+    "source": "FXStreet",
+    "published": "2026-08-12T02:41:12+00:00"
+  },
+  {
+    "label": "MPWR",
+    "title": "Monolithic Power Systems, Inc. (MPWR) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NRmZzZmhFSEhHdURFV3F5Q2I2QkFzS2F4ajZid1YwV29USGI2U2JSdHlabVoxMGhGVXZyZUxtQUdyVHpaaldFSTVCTURnT3IzRWc?oc=5",
+    "source": "Yahoo! Finance Canada",
+    "published": "2026-08-12T02:38:48+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Yen Has Already Given Up Half Of Its Gains From Joint US-Japan Intervention - Japan Economy Watch",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XVElFa0dya284ZHRTdGhvMHV4Z1JUZWVUaEVzNEdGeXdqTWplbS1vM1VBVXpOWFMzbFlkYy1FSHlQM2k2WnNYRC1WR2hYUmdkelM4SktZWU13MDhQdVA5TTBWLThXWGNwTnB5eUllWmUtMDA0R3c?oc=5",
+    "source": "Japan Economy Watch",
+    "published": "2026-08-12T02:36:28+00:00"
+  },
+  {
+    "label": "MDT",
+    "title": "Does Medtronic (MDT) Still Trade At A Discount After Its CE Mark Win? - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMjZ6cDc0R0x3dWlvZUpsVThYMkZvaWlNVVQ1YVpxWklRY2FOMjJhTmtwZ1BERlYzYVBvSWRMWU0xSnRKeFAxVENFR1k1alNta3JicXJCdG9tbHJXOXRqZndTczR0bHpoTER0UGtXVjlSc0hNcklDcURVRFJEb0RmSGhoWlRkZw?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-08-12T02:35:00+00:00"
+  },
+  {
+    "label": "SWKS",
+    "title": "Skyworks Solutions, Inc. (SWKS) Latest Stock News & Headlines - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5JUVNxWldPV1cyd0lWaElqeUhJMzhkMmk5WnNFZ0RkMGo3ZE4wUXY0UjR5RVVzQmRFQnhJc2w0ODdsa1FmR0lKWGNWdzdMMExYRjQ4Tl9wdV8?oc=5",
+    "source": "Yahoo! Finance Canada",
+    "published": "2026-08-12T02:33:08+00:00"
+  },
+  {
+    "label": "NVDA",
+    "title": "CoreWeave Stock Surges Nearly 16% After Earnings, Analyst Says Old Nvidia GPUs Can 'Still Generate Revenue Nearly a Decade Later' - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNFMxR184T3JHM1ByY0VwTkZTYjd6YTJvR05Hd1RWNTlGd1BvcGNEWDNaRXIxNzhNTXJvUUNLRDV5S3BxeDZRai1GUVJNc25nY3hiREd4RUpCTEFFdGNndEZKUk5IU3ZhOFVfS0Vld2M5aGhFeXF4ZlVGdV9vbnRVRlRlSUZnS3c4?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-08-12T02:17:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Gold Waits On US CPI As Oil Adds Inflation Pressure - Finimize",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeVotQWd3NG9sankzdzJOM1M4dWRJX095aU9WNS1PRnpCbHNHWEhVSTZJaUc5RmdaX2lTcDdnTnhwTmg2U2g4U3pfT0ZNMVpmWVZ5SmFITkNCRlk5Wk5rNnJJaGhWdGx1OWxaczF6WWRTNFRnYTFtRlY5MDZRV0ktb25HWExPWDA?oc=5",
+    "source": "Finimize",
+    "published": "2026-08-12T01:52:22+00:00"
+  },
+  {
+    "label": "VRTX",
+    "title": "5 Insightful Analyst Questions From Vertex Pharmaceuticals’s Q2 Earnings Call - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdDFFQXdwSUhfZmNQdU9uRDdUbndiWmdsVkhMemxfY2tETUU4dGtudS02c2NKemJCVTJDdEh0TEs5dzJrUHBjU1VnWk5iTlUyUUdIVkRHWVp5TG5VWW9XY2hYeUdEcVAxa29iZ0swMVN5R0diUTdvUVhNMkJCRHljMVczM2NPX2RCNnJtM21XNzZRUnV1R0Z1RVJXdWtZeHM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-12T01:41:00+00:00"
+  },
+  {
+    "label": "MNST",
+    "title": "Will Strong Q2 2026 International-Driven Results Change Monster Beverage's (MNST) Margin and Growth Narrative? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZHhEMmx4Vjlka3M0WUVtQlM2UEdCU29oWm9SbWwxRUh6OHExMi0xcGc4M1RvN1htZ2xZdlptNXRYRlg0OFFKZEt4N3B4aU1CV3dZOVRydWczNTN4dm5oUE94bFNCV3ZKWGJDRUNNdV8wS1JfczBWd0lxYUN5dHhPODBtZkp0b2Q2OHlDUzR3OVNpV3gxekJfb1JxUTYzM0xScWc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-12T01:39:00+00:00"
+  },
+  {
+    "label": "ON",
+    "title": "[Opening Market] KOSPI Surges Past 6,400 on Semiconductor Rally - Businesskorea",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LMWNpYmVWaUk3aVI1TEJ1aHktQ3NNZzhoZVlPU01hYXVxaUR2TVgxSmZsRjhLSDF2QXFxZVJ5MkpmU2lBQ0lJYTdELVEwN2JNRVlQcHVWMnV5TW1tMExWY0h1cGVOZE9NLXZxaUpoUHRLNWcz?oc=5",
+    "source": "Businesskorea",
+    "published": "2026-08-12T01:31:20+00:00"
+  },
+  {
+    "label": "SIE.DE",
+    "title": "BW Stock Edges Higher Overnight: Babcock & Wilcox Signs Agreement With Siemens Energy On 20 Steam Turbines - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNHoxVXR2dnJ0SnpGNEFHb1hKckkxQl9lVzBpTkRtUFE3ODZrUUdzcFJNREJHY1ZzN1I3T2xkeGM0NW9veVR5cmNkaU9DY0h1dmRxSnhxbnFCb0dHeUZFNGpYcmNOWkVvSUVlX1FQZzVTTHp1NXhPOVJvZU9UZ2tndTZ6NXVsQU5CTU9FYnJGb2hHRU1rOGhnNnpKWlA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-12T01:10:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Asia FX Talk - Focus on US CPI - MUFG Research",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdjFDejdhRXpockYwRmx0ZE1USUdrN2pxanVFcTZ0MjFBNThXbG1wclZkdnE2RlhRQlRPYUZTTS11VjBmYUNJWnBsbGtNVjZtLVNNaDFjc0dDMnJPcHBPMHY5QkxPSHREWk5MNHJrNmZDMGJ4X2tXRnBjazljWVIyUmhn?oc=5",
+    "source": "MUFG Research",
+    "published": "2026-08-12T01:08:23+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Dollar drifts as markets await US inflation data for Fed clues - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnhDSnpIWUFyU185anRuZ0lKYjItT2RJaWU3czNGbGdwVVBTbzRlaEF1QjJ3cERWVEZUVkV2Q0kwc3FtQVBpVWx3SmFnbTVlcEkyX0ZYb0lhd2tDQ0ZXcXl1RHl4aTR6dXVjYnRYZjZVUlN0TDE1QXJ4cF9SaHNueElkRF94cGlXbHJZdnlBSExxZzhaMVAxa0lKblNReU0tdFJJ?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-12T00:57:00+00:00"
+  },
+  {
+    "label": "NOC",
+    "title": "Northrop Grumman (NOC) Stock Looks Discounted To Fair Value But Less Clear After A 69% Run - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbzRaV1JuTUtSWnFJWkE2dzhTOWp6NWlYMGxiRHFrUkZ6VDktc2M2LXNQZWlTQWJfOGJtV2paM1BEbEFGNWtMUUk1cUV6M2tMcUpRWnZEUHRCNWQyNzY3RVB0THdhR3RaZVRyczlTZXBkUFV0blZxNGFDLS1uZXJKT1piVGZ0MDlfai1XWUJmSTlqYjk4RGdxa0h2WE9xdXZIR0hHRW5NcXMzQ1RSZmMxRlgtbzdJS3V6NTVZQ1R0WktYU0xWZHBvdVk4N1hxR0N5RG81MHRpY27SAdgBQVVfeXFMTW80WldSbk1LUlpxSVpBNnc4UzlqejVpWDBsYkRxa1JGelQ5LXNjNi1zUGVpU0FiXzhibVdqWjNQRGxBRjVrTFFJNXFFejNrTHFKUVp2RFB0QjVkMjc2N0VQdEx3YUd0WmVUcnM5U2VwZFBVdG5WcTRhQy0tbmVySk9aYlRmdDA5X2otV1lCZkk5amI5OERncWtIdlhPcXV2SEdIR0VuTXFzM0NUUmZjMUZYLW83SUt1ejU1WUNUdFpLWFNMVmRwb3VZODdYcUdDeURvNTB0aWNu?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-12T00:42:35+00:00"
+  },
+  {
+    "label": "AMAT",
+    "title": "Is Applied Materials (AMAT) Priced For AI Demand Or A Premium? - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNy1YVXZvMGFVOGgtQTNaVFQzbWVZcGt1bG9HS2plb1hQZWhjQmFyVzFVWEFKLVhPdnhGU1BSbjdlWlE4aGx3X0VlNGVzTE8wR0JpSEdOeWRBVWtIc3JialBtOXZZczhTX0hOODIzX2U0bWdCOFpVU0dweENJU1E0bGFaY3M5RHBOcW5qTDhnUFZVanh6Um1wOXNlNVlpSmVpTHhHVWo3SlFPLUM4d0RaT2YyVkprQnc3NU9DLWMzT3phY3FvaUxSQmJDVVQyazdEdnRzdW53WTHSAd4BQVVfeXFMTnRNb1BIS0lKYUNYWTZCTzhOc3FLdmdkSmo2RWd2aFNRWG1JZGtHbTV0Sm1lbGh1ckViZWtnLUkwU05OTHVtVFZVZndIR3RmVl9TQzVndXQtd2tOaUlvY2RhWVVZUkxkR1pmbkVnWkNCVXRqczhHN0h4YUZ3V3pxZ0loU3RMcEI0d3BQMHBwbndRZU1sR0xVZDQ1dUdJUlp0SU9hV0dIVEJUTGMyVVA4UV80YjBrRGo1VXFsYzFVY3VjZ3JGeUNMTFowcmZVemFuRkVnSldGQ3JBYWg0T2R3?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-12T00:34:34+00:00"
+  },
+  {
+    "label": "CVS",
+    "title": "AbbVie vs. CVS Health: Which Healthcare Stock Is a Better Buy in 2026? - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM0F5eU14bmtQdHllUkJwOEtUSmp1YmRlNXJRUzhRT0pqejNBeFJqY1c4dHZmN2VjOGNyM3Y4NWJWMDFWZmZDb2t5VW5tTFgzVW1QZ1J4cG1raFpveFVDSXBIOVdldnVEYVZpSXZpMkc3emFMZFhIb2dzOVdybVlRWQ?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-12T00:07:50+00:00"
+  },
+  {
+    "label": "STZ",
+    "title": "Wrapped Constellation Brands Tokenized Stock (xStock) price today, wSTZx to USD live price, marketcap and chart - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWGlLWW02bTYtcmtteVdINld4OHdDbkpZM19HUXZtTUppck1yM0R6OHNtaFdjczNoelNkWnlUUC16SjNfMnlsUUh0NkMyYkFIZi1maHNlRWVGcERkNFNubF9GQ3JMQlBfbjNFZ0N4UzVpUEpIVmtKdGFyeUhYNWdJWWd3VEhBZ1lTakV1b1BHT3RpM3c?oc=5",
+    "source": "CoinMarketCap",
+    "published": "2026-08-11T23:42:50+00:00"
+  },
+  {
+    "label": "SAN.MC",
+    "title": "Banco Santander Brasil (NYSE:BSBR) Insider Sells $169,348.22 in Stock - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMTN4T1Qya3JBVExoVGlFcjZDYkFnelU1c3hUU2tHdTFnd3Jkc0twRVQxR2tDbGphN20xUlc4aDNQOUJuTjhpU0xDSHJ0eHVaajdnMlF6U01vLTlkR2xRMFVHWWtTSmZUUGJDWjgzaERnR2owaElNNmNuUXlJSTRjUGkwbDBjUDJ6M0ZmTEVabkI5OTdkM1BBZjRYdjFpNGZuZW1WMnFSMnpkcWpVNVgxMk5KaWpyWGFF?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T23:41:52+00:00"
+  },
+  {
+    "label": "BWXT",
+    "title": "Wrapped BWX Technologies Tokenized Stock (xStock) price today, wBWXTx to USD live price, marketcap and chart - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdjJTVktWMTdnckx0emxDVWlYY3F6LXE5QzhaZXRoNTU5aHlzQjhZeDBsdVUzLXZEQUMwU3hrYVRyX2hKdWtGMlVyQ1JlVkFUZjU0OWpMS0ZvQWNPV1BzR1FRNEl4a1RlYjF3V05HZ0FuUEhNQXYtNFJLVHE2Z0FNTUY2NGJVbXByQlNfdUFR?oc=5",
+    "source": "CoinMarketCap",
+    "published": "2026-08-11T23:39:45+00:00"
+  },
+  {
+    "label": "GE",
+    "title": "Move Over, GE Aerospace: This Aerospace Stock Deserves Your Attention Instead - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeERXcS10ejJ2dU1LOGJnUFFxZGZxQ1lKblBDc3gwLTczLVZhWWdFUkJnMVRDZ1RZQTN1emlVMThqVWgtc19zenJRWkhZRU9IOWswMkVVaVdoWUo0MHhJTEVITG02dF9ZODhJWkg0UEc2ZTI5UTNmM2txS0N3MHphRjFR?oc=5",
+    "source": "AOL.com",
+    "published": "2026-08-11T23:36:49+00:00"
+  },
+  {
+    "label": "GILD",
+    "title": "Wrapped Gilead Sciences Tokenized Stock (xStock) price today, wGILDx to USD live price, marketcap and chart - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNEtNODhNZW4teXBIMU5Yc2FvR1R4OEY5NjJtRF9fZVhHZmFEc3RhaDlObTJqNWt0MmZBdnJHVXlYbTI1Mm9NYnk0bWJIek1kTzU0RFg2dHc4bTJURHpkOVBybDNxbE9BRVh2TjNwZlhITl92dUFSazVrOGI4UzdINmpldFViOFpxV0FnSg?oc=5",
+    "source": "CoinMarketCap",
+    "published": "2026-08-11T23:32:26+00:00"
+  },
+  {
+    "label": "ISRG",
+    "title": "Insider Selling: Intuitive Surgical (NASDAQ:ISRG) Director Sells $28,303.20 in Stock - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOEVSUG5FUC1rVmxJOHFfUE1LdjhQNEd0V3JKNk5RSGNCNjN2NUo2bTM3SW1ra1lQMmlKWVpIeExUUWxvd0N2NUNTeGx2TUE1VFNnbWpXb3h4ZHBEenZHQkg1T3dPSGpwQ0luWUtvdWhDNG11eU1UWVRlYmFhaldEYTNVZ2FpQVhuclE4cnFMRUI2YTRIUHJsbHpmYzg2d0dULTBTTkhoVDUwckltaFpROGg5SzQ0Y09MOEZOaVg3SXFZRU1GbmdTSGozbw?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T23:29:47+00:00"
+  },
+  {
+    "label": "KTOS",
+    "title": "Kratos Defense & Security Solutions (KTOS) Lands Javelin Seeker Deal After Japan Missile Test Role - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSTFmY3ZHQ2ZvaGhod1Y3TnQ1RGpadEl4SGtDb19BbzY4b3dMaFJLTU5fRlljekE2N3RGOGJwbEtJOHNya1Z0SE5OMThHSld5cWFaNnJmeGNBdHhONGh0bm5CdlFpYzE5V2VTX0ZOODFXYkR0QTVaYndvRE5oWF9yb3MyRlFzZzdlTHREWHF0cTNKZDE2bndQLW1wbVVYMUtNdExBcXNn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T23:20:00+00:00"
+  },
+  {
+    "label": "NXT",
+    "title": "Nextpower (NASDAQ:NXT) CEO Daniel Shugar Sells 67,636 Shares of Stock - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQW42UTBMNlV6VkVDRWgyWm0wOEZkZnFCV1o5NVlEcnlHc1hRZFJJMVc4cFlSQkV3cWpONTdDVkFqLThMclUxV2pRYzE5M3JFNFN5NDUxRzZVUTF3ckttX1FuN2ItMGR5MHpfYkxEVnBYTDF0NkhFNzNDSDg2MnlyZ084UW9TUk8yS1czdTI1Yi1XNEJ6XzRET3hUQ3hnYzFLZkNKMk5SSjVlVWdYQlg3U1RweVZHVjNocHQ4?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T23:19:41+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Wall Street ends down as US-Iran peace optimism fades - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjkzU2JZemo3b1RFMlU3SU1qeTE0NEY0eHBaakpscDY4blhsX3c5VFdFUmxkWVk2Yk9ab040Z1dRbEN4SDMwQU9fSnFrWUN2SkZHNzZqOFRJc0FXWUNOZTFRTnRvX0hqRTFfMGdBMnh2S2lPMjlqZ01kSFNyT0dqLVZMNDBZcm13a01lQWdScHVhSUFXQ215cjJGWXg2T180?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-11T23:17:51+00:00"
+  },
+  {
+    "label": "KMI",
+    "title": "The Bull Case For Kinder Morgan (KMI) Could Change Following Western Gateway Pipeline Joint Venture - Learn Why - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMTVoRVRTQmZuM0RjUDVsXzZ0aFJXRXdNbDJSY2RaMUdLdkstQXF5a3cxM2wzaUp6RHFtZ29XbjhqUlQ3MWJNWTJHSFVDbk5oRDFzOEdoU05vTWlxaklnbnRGR3JsOU1uZFM2dWcyT3JBTkw2VXRvWm4zeVZvdVRqUFpRR2o5QTE3LUhvUVU3eUZ1dW5iakZ4QWJJRHJOYXZPWWRQYWpIR1NMdkFSWm9vTmRhbWVHM1p6ajRmNXpIYjd0XzdfSXfSAcsBQVVfeXFMT1ZsNkJHa0VueDZ5bzVzaDhvcWpPeHJxZVRzNERzMkk2QS1la3dETTlnLVJfZXNZdHZPNjZLbzNwYThqV0JHQ2ZlOTk4LVJKS3pCRnRLRHJ6eE9aQkFGNU1TbURBMzBvNXNjUTRteFU4NklaLXl6NTZBLXhqRDJYOVhvM2ptMzlRMkhNYUg5Mm9ISjZIUnBkaElmU0pjXzFpT0dRMFFVYVRLVG1CWlhRNm1OMVRsUS1XazZvanlHR0IwWGlFM3piRm0taGs?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-11T22:32:09+00:00"
+  },
+  {
+    "label": "UNH",
+    "title": "UnitedHealth (UNH) Stock Slips As Medical Cost Fears Mute Profit Rebound - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUG5ZTl9YRm9nRmc4ajJWYTFPekpLNmhybVFHVWh3dXJqX1BncW04NjdtUGtuVW9wbkZmU3FoUllfZ3NERk1EWGFQVkI5ZFZrZmVNZE1SMU8xWnFPc0k1VTZLVnJldUt1ZnFZc09wN0dOMy1BT3NaVFFUczlMNzM4Vm1RNmY4VTkyUWs5UHBBZUdPTm11bEdPYmpFd2c1SFF3M2lvbzVSQWR5dXdMb0NQeWlaSFVBWkVsTHV5Sng3YTU5QkZaaU00V3c2ZE5RMmVVOFHSAdcBQVVfeXFMUGJhVzF3WFJPM1k2a2NfMkdrZVZQQUctb1MxVDRqX3dTYzVBcTd0TFRieHFnWUd2bmtFSllEcUJOemhqZkRoTjdLcUVqSmt1NGZtZ05xOWlTRGNHQ1duUEk0WG9NVXRGVUp6RmdHQXBybnQyRGN3ZGc0MmljYXItOUtDQ3ZHUkdJVW1tMHZSajJKOTZGUUE4aUxXWllSRUsxV09EaFc4TVFUVWFRRTJ2NVpoam54VnNvTDFMeFVmMVVpanlCRTBkb05uRGdfZ1cwZndBVEZ2UUk?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-11T22:22:01+00:00"
+  },
+  {
+    "label": "APA",
+    "title": "APA Corporation Stock 12‑Month Price Target Raised to $43.36, Implies 6% Upside - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd1cxazA3QVpDSVAyTURWZHVxa2dzNmNyLTB6emI5eFJITHoydTcyTjloME14dHl0Ry04VEkyOHhpV1p3bzA5c0o0QURZMHlQLUZJd09Vb1gta2x5RXBCbVRoYWtKVDg5MkVTZjNFaVlGSUp5R05xeHdqRGxIQ2l5NjB6cEpUdFVBaWxLRHJZa29lR0VNbk5NY1dmdmtqTGloQzJyS0tfbE9GRUdaQlRVM2tsVVd6cEZFaXVWbHltamNzT3hEcXZ1LVlCcXlXQ1p2WFMzdQ?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-11T22:20:03+00:00"
+  },
+  {
+    "label": "KTOS",
+    "title": "Kratos Defense And Security Solutions (KTOS) Stock Looks Strong On Returns But Rich On Sales - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSmdmMU1aYTBKWXNQdnBOZi1Eb2dfU2UwTEI4OEJNeTNUVmVjRlRueGtHOVZydGdRWjJ1bmpSNm4waHVyX3lVeFpWUV9ueFZEX0J2OVk1c0Y0WkVEcGFqcjU3NlhIZGFHYmNjb1hLS3ZiLUY0dGVVWU1tY3AtamVzODRQdmNfRUJHUjdkNU9vRmdZWUlXeHVMVzJ1YzVyMXFSaWhnbzZR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T22:14:56+00:00"
+  },
+  {
+    "label": "PSX",
+    "title": "Wrapped Phillips 66 Tokenized Stock (xStock) price today, wPSXx to USD live price, marketcap and chart - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNb2JYNFFrbzhfMnRLR2JrQW5ZUlNkR2dqcDdwQldQWC1iamRiQ3AtSk9mTnR5RERWWVJVQWdHdThNbXIzZWRCWnp3MWlUV1dCMnUxNGU0bW10VnAtYUdVM1JGaG93SHhKYzB6TGNMdkZYTUpvVnpJc1RyYVM4U0l5WFQwUHhqOVE?oc=5",
+    "source": "CoinMarketCap",
+    "published": "2026-08-11T22:11:03+00:00"
+  },
+  {
+    "label": "MDLZ",
+    "title": "Mondelez Shares (MDLZ) Tick Up Amid Oreo Momentum in China Highlighting Higher Volumes - TechStock²",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT0xOeUtrVkQ2dVo2NnFiZWtXU2czOWljdlFpcUxjQ1JlX3R1RXl2eS1fQnhrei1zOGFUQkQ1bTFlZjFfS0NPQzRtY2E2UlJaVUtIOXgySEtUT2RNaVc1aF8waGZUSHViTVd0MnFBaGdWUkF3YUJnZUozdk9ncjJWQWtjbnJ4dUxSMnlmRjZDd2VfZEdINExWWVZmbEx3dw?oc=5",
+    "source": "TechStock²",
+    "published": "2026-08-11T22:05:51+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "U.S. stocks edge further from their records as oil prices keep swinging - PBS",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeHBQV00tbUI4a2l1SGt5TW9fWXY0d2ZadTVUTVF0dWdXeW1uc1lLQmRXZzh3RFAxQXdqaHJBdVp1bzkzd0JVc0o4NGFISEI1enp6S1VGelhreC1rcmVWZGFJLUhpYzlscXBlazNvekxWaTJFYzc3eVNwdjdkUUl3UmoxYjJ4dXc1RFJNNUpTaWF0UGdpU3R2VmVIUjZGdVM1WHF4T0MyUF9Jczg?oc=5",
+    "source": "PBS",
+    "published": "2026-08-11T21:59:54+00:00"
+  },
+  {
+    "label": "ISRG",
+    "title": "Intuitive Surgical (ISRG) director Amy L. Ladd sells 472 shares via 10b5-1 plan - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0kxVEJSTS1ieHQ5Yktmb3RaRzhYV3JiOFFjbF9tYTZsNHd4WHJnVGxMellCRjBzSTNqSk8tdUFXamVFbkJrLUpER1h4TWZCNFRaLTM5Z2s5ZVpQb0kxTUxQMmlMb2ROdFR4cEQyVHpYV2RtOUdreWV2TG9OVndWcTNLTVpPbzF3QnQ1YnAwXzRIekJOTUtsdE5sUllDb3NwVDBEQkdDd0Zodm13dExhNFEyQkxESFE?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T21:56:03+00:00"
+  },
+  {
+    "label": "MCHP",
+    "title": "Microchip Technology (MCHP) awards 302 RSUs to senior corporate VP Krawczyk - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLTUxTjFaeVNUb25mSXEyNmVlTzM5SmIyMDJXQlJVMGUtNlliMFZ2TkdOa0FmWmpiUnVvNUtSY1RVaThaZzN2ZkdDOHZHa1I0d095Z19URi1ZSGh6TTJsZm10eEticWtvZU1uS2lBaVAtYU5pd24tcXFWbkxYTEVVMTRLYW1DLVlzSmJIWVJ3eDVRVjh6ZE8xZk53cEd1WjJxOXQzalMwRmdhYVVXRXhDMmY3VHVEQ0NwVkE?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T21:51:07+00:00"
+  },
+  {
+    "label": "WWD",
+    "title": "Woodward, Inc. (WWD) grants 145 RSUs to director Frederico F. Curado - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzJZYVJCRU9kOVBqQVRBZlFvOHpTdWZ1VnA1TXlrV2hhRFR5ZEFNQ1RSQ2ppbUtWaGJmbWRHWHlJVkVVQnBqT2FLdk9FdnA1QW42djZ1TXNUZTZRY3V2TWtzbWtDb3VPV2ZUWjA0SGxuVW11Q21WNHN5b1JDdjdvU1JxdWkyOEpyamh0bk5CM2tBekhGVVVRUGtZU09xR0ZlMzU1ZUJVNTE?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T21:48:31+00:00"
+  },
+  {
+    "label": "ISRG",
+    "title": "Intuitive Surgical (ISRG) Is Up 9.0% After Q2 Beat And Governance Shift Has The Bull Case Changed? - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOY0daYkpuVldXMXM3aFhGS0tMYlIzT2E1SXVXVUxzbUluSW1GQUZtRVFsWEJjcUsyYXoyb0JDZmFKNTRjc3JHcGZzaU9nQk9jMmN4dGJoOEZUcnBRcG1rT3Z0MlZuZVpHb1FRRmg0c2lXa09kZ21uY1VHNVJDSXhMbGJUYk9NMWZzSzVVaGtUSmZfWUZqNVo0M2IweGktZjVUQTRueC14Xy1iVElhT2U4aXFXRURhdGZSczlybUJSWGxENlhpOFJ0YWxPdmZYZ3E0dWwzWElR0gHbAUFVX3lxTE93cThxQWtiWlNHZGVVMkljaE80dm1qZXNNQXd1dUJGVDA1NjVjMmVKdndRT1kxZmNSQTdPckN2dDZ2RkFGWnhXZzI2aUxGU0FReTJ5WXB0cmlScnNldkZzdU8yWWFFcjByaGYwNHoxaWR2NFBfRVlGN2ZEMGJpLXhUV0tCOVRFc3pRUHRUb092VEl6NkwzVUJDVjhUSTRjUm5DSFVzMTNSVzBNSzRRczIzdWgxRTVsek9UUFhRU2MtYXRPLWpxWDFMYW1GZjVkbTJkWkZIOVdXSXNVZw?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-11T21:42:31+00:00"
+  },
+  {
+    "label": "KTOS",
+    "title": "Kratos Defense & Security Solutions (NASDAQ:KTOS) Stock Price Up 2.1% - What's Next? - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM0hGaW94UHh1T3RadF9Lc0JGenBtc3IzTDNUYWJ5MndLNTFobkFoZEg5cE1UOVkzbE1aN1hFc0FkR0pPQmpCeWJ6czMwMHdEX2RRR3dHYy1PTUFJQkw5azI0Y21rNmZBbEg5UGRvOGRmYzhxSGNTa3NhQlE4MW8xMElWYlY0azh5OE5YOVdvbXJuOFVwc3BoNEx3M1QyeHllZmpOOHlLcmlNQUlPb2xNNFFoMHlPcFNOVG0wSEdkbEtXTTFBemc?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T21:41:14+00:00"
+  },
+  {
+    "label": "LMT",
+    "title": "Lockheed Martin (LMT) Stock May Be Undervalued Despite Its 89% 5 Year Run - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNajhOS2w1V2xRMXhYUVRtX1A1SmVXYTRXOTJacy1GU0p6ZHhrRnY2Zmk1cEpDV09vYUJDeFcwcVlBc1M1bzNQUk1fdXh6WVpRY1VNa05SZDJrTlVZdDE2NjMyQW5ILVV2SVd4TmJMaS1CTkpLYjdrekhaRUt0QXNRNl9aN196SFpCbTdRZ3hBYWxDMzNnV0tXeE1oSWd5V1ZKdzZ3eWJMeElBS2o0T1BGb1U4VGh4WVdKUmRwWVZXS29aVWpJM1RZcUplbF9PQTg10gHWAUFVX3lxTFBVZWg5NzBfdmFIbHpfbTFNUU5IUllrSHlXSWYxekNnSUY5NGsxemU1WjlYM0R2UDhzenFXdG9sM0JzUk9tek1hbXVya1NvYVZCV1ljVHJadFRFWWpnOUZxQjJ4OC1VRmg2Z04waFkwZzBwY1I2YWxwWEI0Zk11UlNqR2ltd3NhU2hLbXpwVG1ta1hWNWdieF9kTE1Dd3ZNbkdUaHl4SlUzN3pVZVdSR2JJenEyUHlpQVlBU0ZsZXgyOUZFczBIRW1iMnlzc0NleC15U2dVb3c?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-11T21:40:29+00:00"
+  },
+  {
+    "label": "FSLR",
+    "title": "First Solar (FSLR) insider plans 3,700-share sale and details RSU vesting - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMFVEdHBNb0xWVGJmbmpzMFl1dmFkY1NiT2FGbUZXU2JzSlh1ZGZPQ0RpZWwxenlicGwyVnpicmNmSUlmTmE4WkdzRkV6LVRRMlNmbE1GdFBVQy0tREQ1czg2eGV6TTdZanBCX0lvSGJwdFNpQ3FJel9EaUhkSmtmemRMRFJoekpOeGQ2QW5YUkNvRF9VTm53?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T21:35:38+00:00"
+  },
+  {
+    "label": "MRVL",
+    "title": "Marvell Technology (NASDAQ:MRVL) Trading Up 1.8% - Here's What Happened - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT2dhN0xzbFh0RVFmakRUM0lEamlZWkl3ZWtITERMTkl5S1lubHVybVFjVlBkVFNnUjhtbklsSHBFdkN0cFRzcGR3M0k4ZFdmZU0xZnB3ZnJGSjNxMTBpYV9IVmJ1QUw2MHZJTEpGVUdSbEZtOUlBbVMzaU8ta1JZUVBqa0EyZXhXcXo5d01zMEVEUVBWUVJCMVVYdUJ6TjQtaU1FbnhnQk4tVWxUdzFaSEVFZFpiaHcz?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T21:33:15+00:00"
+  },
+  {
+    "label": "LRCX",
+    "title": "Lam Research (NASDAQ:LRCX) Stock Price Up 1.6% - What's Next? - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYm9lQnI3alVKbzhoLTNxbmFpQlJMRUs1TXViSWZWWm5hZ0lTYlhDNlUwSzNGbTBfWUMzZ3RvMXJaYUZzaExmaWMwZExBd1RPTUpaSG9Rd1BjVjFJb0ZYdnAzdWpMUXg5ejJ4Q1NTekJkZXhBN1ZoWDZzMDF3ejBqWHc4cy16SWhPNHFVdFZNQ2FwWWFjWEdOU2Q3QVFWaHFMMkVtdmRicDdIZw?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T21:25:11+00:00"
+  },
+  {
+    "label": "ENPH",
+    "title": "Enphase Energy Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW1kNXRZZ3JOYkhNVFpiV1M5RzJNN1ZCdVhFVGw4RWpJdUxxODNBbU5kakppZmNvOXRpWWRXWGtWeFU5VW5nM1p3ODBkZlZXN0hXZGpUaVZ0NWhqclo5YmJURlViMXBPTEpTdkJhX05PdjBId19ta0tRbzktZlpyc0lzS3ZFUGYwSExvX0lPaWM2SUo4bFhabndBX2ZIdGlLMUpfbmZHRUMtMkxxWS1MSjE2Zm85Zm8tQVJEd09kWF85Q3RNR3FyNExWT01LZERmQkFXTXhBWDM2UU5FRHRZa1J3?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T21:24:00+00:00"
+  },
+  {
+    "label": "PFE",
+    "title": "Pfizer (NYSE:PFE) Shares Down 1.6% - Here's What Happened - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ3Z4a3JUQW9VZEtTMllPTkhGRWlRX29TenNOallqNHM1UUd4YjlKREtxeDZZNEZnR0oyZEhXVGFBc09YREhrOVNXRy1pd1YxSjVna2h3ZHJwQzJ6cjhuYnV3Q3BOcmlyS2wwckFEdW1NQ2JHSVRNamlnaVNMekhrd2MzMjhSWWxGZFhERE5lcFRXUFJlajR6RFNaRGVYZ0xCVjdsYXhn?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T21:23:24+00:00"
+  },
+  {
+    "label": "HII",
+    "title": "Insider Selling: Huntington Ingalls Industries (NYSE:HII) CEO Sells $4,246,704.40 in Stock - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbTk0S3gwVEdDekdMbUkxbFBNeFhoWV85WXo4Zk1RdWhlNEhPYWxUODE4c1d6cU5jMFFLTi1RRFdCMHV0ZlY5QjhRY1V0ZUV0YkVXVHN4b3E3RFVwY0UyNDdhR2tVOFAxeDNlcmhjcUVndDRGVkNEVjU3TF9YX1NBY0xNTkZvcVh0dndFN3RXSE5LVkRVRU9UOGZkZjh0Q00xYzd2LXdTWVhrdVBNRG8xd2hWRmJ2eTdLQUxuVUtEM2RCa2Y1eVJJU3M3eUgyRVBhNlE?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T21:19:12+00:00"
+  },
+  {
+    "label": "AXON",
+    "title": "Patrick Smith Sells 9,930 Shares of Axon Enterprise (NASDAQ:AXON) Stock - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTGw2TWgtbElDX3dOYjhYemh3cjJhRndjaTR1MTRHNWhSblpoampXNHVJSzVlMmd2MmM2akVxSTRIQ2FTZTB2X3JZd0dsYWMxanRDZk9IYWZFTVpsZ1BsMGxjQWdJdTNvZTB1ZzFMeG9xaXgxbHVEamh6UUV1YlVEMkVBRWstcHdMUWNzdmZkb3pFaDJwRVMzejlhOC1IVnU5eW9yelFyYlJydGhfWGVaOS1sSC1QTXE3Wm9hZGt3?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T21:17:15+00:00"
+  },
+  {
+    "label": "NXT",
+    "title": "Nextpower Inc. (NXT) CEO Shugar sells 67,636 shares, retains large trust stake - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSjhKX1VlaVM2T0d0LTRYRF8xNVh0dnRCM0JfTGNkME1PVjZuUWRGek5ybmRCSmtlSVdvZ1NXZ2hFandJaWRsWmtycmdteEU1LVlLemhyeUp1Uy1qWnhXWkc3SzZ4eVRwYkk3SU5WWjBBb3Jpa0l6OXQxNVgzWm5WbVp5N0QtUnRER09ZTndiX1E5X3JOZXhmb3Fmc284Y0VZbS1oZzRKVEs1QQ?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T21:15:59+00:00"
+  },
+  {
+    "label": "AMAT",
+    "title": "Here’s How Much Applied Materials Stock Is Expected to Move After Earnings - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVVFhSlBfamxfa01GVk9yR0FaS3JoWDZwWWtXdm4xc3JGYXlGYUY0X2JwMmRadVBNYktYLXQtMHNDenc3aGJ3WkdJX0pVLTFFZFk2aHRmNWJCUnpCTU5oczl5czk4c3EweENiTklZQU1OV3o1eVBWVzdLTEpIX25iRDVycE1KbFdHNHk3RFo3MGRpZElqUktYZXd5eXZUOTdSV1cxbGlnczZrS0ZnMlV5SkRTUGRzM0EtcWZ6YnRIM19QYUMzM29N?oc=5",
+    "source": "Investopedia",
+    "published": "2026-08-11T21:13:39+00:00"
+  },
+  {
+    "label": "TXT",
+    "title": "Textron Inc. stock outperforms competitors despite losses on the day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxON245VkNxbTdQeGZObjlwVGpaVS1WQWtZcXd6Nmg2RTFJckpzbXhJVXh1bmxrbzF1MkVVeHFreDJvWm1YUVpqM2VqZkJjZDJGdFJ6enFscGNxSzRpbFVHN1VlWDN3R3NUUjRpU0Z1Y01oUDAtc3p4cmdvdzhaMUNtVnFfNjYxeHJPSEUxYnNoc0pvMmM2aEkyX1l4c1k0WmthZnpGeE4xVlY0WFBOSHdCYzJRVFZVMGFqclZ0azc4NVNfT0hCMjk5UG1HOVlSWDZnZmVRc2NnS2JWakJVSnc?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T21:13:00+00:00"
+  },
+  {
+    "label": "GIS",
+    "title": "General Mills Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPa2RRRk5JaUpUcVAzdWtDdlJDc0RPbUlOdXNJTjBkbFJSVG51LWdNeENia2I4TGtPMW9FOWV2VVFyZnEyU3NOMkFtVnJfb3NaZ1RVdXNpYnJ5NHh4QThoaVVjaUd0YVJvX3picnZkbVJiT0FGSG1CTVgxMmNxUk1JZnRXN3p2eVJ6TzU5LVFTc3VQYmJUc2NLdUVfOHU5MzY5YkVVTC1GN041VkN4QUlSM0tvbDBMN3NiclB0d1lVdm9mT2d6N2hPY2dJeU55TzAyenVUWkFvWFJkWUpIanVxcQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T21:09:00+00:00"
+  },
+  {
+    "label": "MNST",
+    "title": "Monster Beverage Stock Split: Why MNST Shares Double, Not Value on August 11 - EBC Financial Group",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15a0pQanVNSERtaGwzODhJb2ZQUHpRMzVtQVhZcnhHVkN5Q2RUZ2pXcjB2UkcxSXc0aG5SeWJMWkR2d1k0dkFuX2ZNZ2FVQmlPNmlMblQ1Q3V1UWMtNDJfMi04WmVLNzVhby1wbkIwRnJzRWhQek9RTw?oc=5",
+    "source": "EBC Financial Group",
+    "published": "2026-08-11T21:07:48+00:00"
+  },
+  {
+    "label": "JNJ",
+    "title": "Johnson & Johnson stock holds near 52-week high; growth strong but valuation pricey, patience advised. - pluang.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcV9NdmJLeHh3S3pMcG9zbktSTFZyVmkzM0hDX0YxUFJReGZwdjNpUVhPcXNocWpPd1pxZjRBMmg2ZDVoOUE2LWV6Sm0wbFkteklTdXd1V3hVTkpGNUhHeGNxOVA4TFdjaTFMMTBZRENSaW5oN2J2WTRMa0dFTWdBZHR2MTFTQXNQRXFqWEhtVl9SMHhMS0JNOTBkaw?oc=5",
+    "source": "pluang.com",
+    "published": "2026-08-11T21:07:10+00:00"
+  },
+  {
+    "label": "SLB",
+    "title": "SLB Aug 2026 41.000 call (SLB260828C00041000) interactive stock chart - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0TnBmbTYwcE8wRTM3MC1MakFQTVBwV3QtSDUxcmEtcngtUmVMdUJzTVB3SllMcXJuSG9OSEpBUHZfS1VFVXJmaDY0NjlKQjJZOW9MLXl2YzRqWldKRVNvbGpza21wa1drejZldw?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-08-11T21:05:04+00:00"
+  },
+  {
+    "label": "TDY",
+    "title": "Teledyne Technologies Inc. stock underperforms Tuesday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQcHktdTFSN1JqQU5zZlRqeE5uaTRCWXlVNjE5N1czeTdmNzRxQ1JBRXJsZ2FvekZoMGxsZXdNMFppd2NXaWEyaE52TUZiT1pzdHZ6QUNZTl9vRU13YlBXV2JaU2RDY1JqTTV2bXBjMHNEQ21UR3pDT05fTVhwNUQ3TUN2MHdTcVU4S1JMZmc1T0I3R2pCVThSRE5BYTBvNXFocFh3YUVNckdXcHdvNUpOcHlIMU1yYk9WNlVkQTAxMWNaQ0IxRkYydksyUmVVWjNsS3JtTEtjREhYRnAxanNTQjJTN2xCTGlGWkROYUE3OVhMQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:59:00+00:00"
+  },
+  {
+    "label": "GILD",
+    "title": "Gilead Sciences (GILD) EVP converts 6,002 RSUs, with 2,908 shares withheld - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbWRkRUh2NjFmYzE1ZEJQTU5RWHN0MFJkM2ZwQi1nVjVyQWl1TFRKaWVpQm5ta2hLdlNNSWc0R1AzSmJSYVJmVkxUckF0WU82U0VER3FDdHhUay02NmRHQnVlMG9BYjkxc21CMUhKYUowNTJzVnlINkNhZ0hGc194Mk1aZnZiOTdGeFplVDgzakZ4OWJCR0xfdDVtV29rZ1VmMDJTellJRnZuODBETjJmSE1aMA?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T20:51:30+00:00"
+  },
+  {
+    "label": "NXPI",
+    "title": "NXP Semiconductors N.V. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNN2dTSFFWVU90OE9SN1BlbXN2bS1XdnJibFR2ZDdadDZzei1La01QaGNuR3NWM1ZucWthNVNWeUZjNS1MMkF1ZlVQbnN0blBpUkV0RVQza21ZWGJ2ejlLb2Q0TzRreDVLcHdHUG9OYlZyLWh0NTBrc3BRQlIzRkJoTUZibFBlNy1fYVFOYUoxSUo5eEJSOEgyMzlCUlJRTTFqMEZVOTV6eGFvQVJRbW1Na1FkZHcyWUpraWwwQV9pdnlqdGhKeVFEcnBod3V5M1U?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:49:00+00:00"
+  },
+  {
+    "label": "MPWR",
+    "title": "Monolithic Power Systems Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNanZCc0F6T1pMOEQ3WERrZVdHVDlMSWl6WGE5M3l3SnZtTk9rSUVUX1hWZ0VEWTc2MVFnUmY2bDdLclRTMWhoNGpobFRSNzFfSEZjMDFIWW83dFZfYlpKX1h5SVYwVEhvcTB2cm9fLTZ2WG9ZMUJZWmJyXzFQWHdiREMtbVUxbVJhZ2xETUtrcTVMRjdUanJDQkVnZkV2d25HWmp0WVR0dnZ1Y2ttOW54clJKdkJ1SHJMTG1YV3dsWTBlS015WVdEX3c4QnN6ZU0zQkVOakUtRHM3aWhTR1RwS2t0alZfZ2FKUHY2eVVnUQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:47:00+00:00"
+  },
+  {
+    "label": "TDG",
+    "title": "TransDigm Group Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOWpTaXZ0X0NMZ1AxV2VEVkNHUkVvWE9zRU5uYnVLT3VzSDZ0ZzlSMTVxY2tRRHBTcmRRUGxiZHBhbl9rOUFzRE9WSExudGcxSnRkc21mVE94alhKQzVRc2tsNzkzR2dzRUJ2aU9UN3pEZ1RLRFZQOGpDeUNqU09pVUoyVnoteHp2YnNUVENuVzVYM0xudHp3SmFZXzV0NXV2emxWRXhNTkpleWNRcXVqNndaeG45QWxPOFhQZWdTUVhCOFVaS0I5djFZSVd1LVJ1MnlpSnlPbU1HNTZranN1WWpkdw?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:47:00+00:00"
+  },
+  {
+    "label": "TXN",
+    "title": "Is Texas Instruments (TXN) Overvalued, Or Is Fair Value Higher? - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOc3NWMFpab1VUNlhvT2hUWnd6WG5XSXk2M0hTU0hWSHUtNzlKOFQteXRVU2h2aVRDckVJZV9BY2l0T3poVkQ0ckZwYURMTktpMnhycXdLZExLXzRIS2F3b3ZsdUd4TmdvdHdqajNnTUZHeWh2eTJFc05QaXBHS3ZoTzdsVHFUQzdid2lBYlA4eHA5akFhUE5PY2hkbW1JOU9LU0h4eWJ0WHdaSTd5RzB2ZDBZNndPVDlwakFHaHZDaDRIemZFZVZqbkM3RWl3dmpQeTMtVGV2UmVQdjhG0gHcAUFVX3lxTE5zc1YwWlpvVVQ2WG9PaFRad3pYbldJeTYzSFNTSFZIdS03OUo4VC15dFVTaHZpVENyRUllX0FjaXRPemhWRDRyRnBhRExOS2kyeHJxd0tkTEtfNEhLYXdvdmx1R3hOZ290d2pqM2dNRkd5aHZ5MkVzTlBpcEdLdmhPN2xUcVRDN2J3aUFiUDh4cDlqQWFQTk9jaGRtbUk5T0tTSHh5YnRYd1pJN3lHMHZkMFk2d09UOXBqQUdodkNoNEh6ZkVlVmpuQzdFaXd2alB5My1UZXZSZVB2OEY?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-11T20:45:27+00:00"
+  },
+  {
+    "label": "ELV",
+    "title": "Elevance Health Inc. stock underperforms Tuesday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdjRHOUNEWUFZRWhiTVVyU1hjYmdwX0dOVUZFVDVsTFB3bnFzeEM1dFVXWk8xUFRMaVphaGZCaFBNMDRFMnFvOWEwZkRZM1RtcVNkZXpUeHJoOUpyQ2I2NjR1enZBNTRuMnVERVBYZFYwRUVfd1N1V0kwMGVBU01XV0xhNzBTdWt0dmVfc1BnVUpfaTliNTNOR1BvMEQ3b2NnR3I5RC1kTXhNRll1QUFlSVhUS1dTdUZVVGVWYzN5VEQ1TmN3bEVyUUgxbng4XzVwYXE1a0xTLXRYY3cwOFFfTkVCanZFZGJrR0E?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:43:00+00:00"
+  },
+  {
+    "label": "AXON",
+    "title": "Axon Enterprise (AXON) CEO Patrick Smith reports small 70-share stock sale - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVGFnTlVXQ1VrWENxcm1zdjE0bHN2TjJwRmhBV1BnYnZlYmZIVGhSakRjbFJDNjRwcDJWQ0xySVBuUTd3Wi15alAtRlpJVkxvekllTXZhYVdGY2o3eFRiMFRzX2xQUWFoMVJNV2o4aC03VU9RZkdHRjk5Sm51MUdOdnhZWDBUZ2Y3TXIyWGJXTlp1aGFyTngxLXRHM3ZfRzVGT1N0bTNrYXZVT21RcE1HQ0x2RQ?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T20:42:14+00:00"
+  },
+  {
+    "label": "BSX",
+    "title": "Boston Scientific (BSX) CFO adds 9,908 shares through discretionary 401(k) rebalancing - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcUZLX29Wem5faVZzeDJjMTZqMVVvNENpRjk3SlpQZVN2RVJKZ2lwT05VSzlma1ZYS0xXUGlTT2ZyZXItUnRvTWdVcER6TUVNV3UzYjZCaWI1STZmZ29nSFNOTGxnZlE4dmFYS0NGaVIyR3lQY3lZcnZiNy1CTk13Qm9CNFczdEV4S0xndWl4NWR3NlU0WTg2ZGxTUjYzZU1tb0xLbW84NU1LeUdBVkR1Z0JhV2hGUQ?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T20:40:22+00:00"
+  },
+  {
+    "label": "MDT",
+    "title": "Medtronic PLC stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd2RQOEVKekh4a2NYaUVsSWtxVEIzbTNKU1dFT2xKb0ZhNFJ2ME91WVotdHVONnpSZHpVMVFNVGFpT2xfbGloWm1zd2U3LXBUNFdhU0RPeUpkQTY3T1BXdGpaVWFYWGc5UWJUcUw5T2V5ZzJ4Mm15NktOTkUxbjdPd3N2SGZ1WTlUdVd0WjcwS1VnOUlSWm11YWJ5ZjBRRnRQS1RKRFYxRzZVYUJGdjdUNjh1QktRZFdtLURmQXgxVVdaOE0?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:40:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq slip amid US-Iran impasse, Alphabet stock sinks - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaGIwUVlQUnYxb0IzNFB5M2pOelZiaWhaN3dWVjZxTnBmMHFfRUZhNTFNdXVJaUY5bVNWTV9YbDJuOUZmckpKejZpaERNQzNuM3FQSUdfNEEtazMwNWRWYkx4YzVGdWh5THFVSXhWTWZQOW1idU9fSVBJSHhJellTQUFwTm93NXJQZkRqbkFmaG14RGlDeTM2M01EWHVxTm9IU0NFQUQ1RkFsREFF?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T20:38:42+00:00"
+  },
+  {
+    "label": "COP",
+    "title": "ConocoPhillips stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT29qM0x1MGxqZ3BHZ2JUN19hYWI4RENPYjVJd01hdGtzZFM4NjRzWlVFUTl0VTEyeHlTR0s0NmRkXzRnaWpRU2hscmxvMGlNanBfNWh5d3BNYXlPZ2F0Y3BrRDg3MUgzVVJrQVJxNGFZZlItUHJIcThzTW1feGpwc1dEVDg5ZnQ2dHotT2hodEl3MEdUSGRhSXRSb0IxeVItb2hZVUswMGhSaG5mNEx5bE9OQUZNTEdHRkZIV1BPOGZpWXRocG1IR3hXU2VPcy0xMVBCQUI5T19oV1ZB?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:37:00+00:00"
+  },
+  {
+    "label": "ISRG",
+    "title": "Intuitive Surgical Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTWpEMmNMdjJucEc5OWlZUXlCbjZrTG9yTC1mNEZSMUh0TDVMR0xfa1ZaZGIwQXFBVDA3Uk5hWVdrNFBFZ3dGeDltVTNMRUVYRld2cWYwSVE3TkwyODVBRmxyV3JaVHZDM2ZjTmZVUlZva0RVX2pSWmF2cVlvRGFmRXBubF9ReUxuQy1VOGNXQXNoTUhNU0ozcjlHQVgtMTlhVXZyWmVhQzVicVVRYjFkcmRUOGxkZlNFejVyRXlKR0hhbVZEcHZ2ZXBmM19kNmQ3RndCS09WOWVfVHFqWWNZblF0eUNtRW8?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:37:00+00:00"
+  },
+  {
+    "label": "PFE",
+    "title": "Pfizer Inc. stock underperforms Tuesday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdElnRTd2emFQY3VHb0dIRnU3ZVJOeGJKa3lQbGZaWkx1QndMRzAtRGZXYWJTWW80Q0ZkR3JWMzJRZ2x5Mjk3TlhKYUM5VzBVRWN4UmoySTAyM3FIWUFWSU5tLXI1UEhNZkZwWklIS21EOElkcUhuRnZSSWNVblQ2WXJJa0k3WEx5RFdtVU1oZGlTSEZURHV2dUl6UVY2Ukt3bjJUY0JORFczMDhqNXN5OHN2YzBuSXNmWVpYWjh0MElxc1VVU0E?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:37:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Oil prices higher, stocks mixed ahead of inflation report - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR09pR2hpV2hGM1Y5dkt5WmdmbjBaZWY3RXFjM19HMGlZR2tyd3hVb2ZwclFTZzg0c0p4UWYwUnF1YWdrZnpSeEliMHNWMkxnZ2stT1ZvZkszcW01Q2hnTjhBTGdvU3drVURKd1NWQ1ZMdnZSd1F4eVRQOU8tbTNQdkdNanJjWEpLSjhkcUQxRQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T20:36:55+00:00"
+  },
+  {
+    "label": "GILD",
+    "title": "Gilead Sciences Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMDRkSmVoTkROTmptb1dHZWxKR1hGSlU5d2xST24welY1ZExPdFBQVUx0TnRoWVByeVhhRUZZM3RtaFZENE4zUzc4WHZCZk9yTnNiOGJUM3JqMEJrRFZDZEdDVDNCbENQYVJiU2RuS01Qbno4M3Z1WWctN3VmQWQ3WGs4dFFpWGhlcTJpR2EyNjRQUmdjbkJyN2JlTHZLeEh1Tmk0SlpVZ3BSUFkwNGlkZmtNNy04U2tFZGNtV3pHWW9JX2o0c2s3MF9tS3BiRF9uQnBfNTk0UHRhNkRJcTNERG5aZw?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:36:00+00:00"
+  },
+  {
+    "label": "BA",
+    "title": "Argus Just Upgraded Boeing Stock. Here's Why. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd1JIUHVZXzJ6U05VNkp1RkR5dWxSZVdsWjB5UUtxeGdHNkxicmJWXzg1NDJnbzRTWVBJMS1lblV0SGhkUmVIUVFBenVORmFTNHNMT09rNU85N282N0RSOU95Z2FqaTNENnU0cmtSR1Q2OTlPNERsb1lBSWNSbnNXNFZuYXpyYzd2Q0Z0Sngwa2VsZ3lQZW9GOUFxY1g5Zw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T20:33:16+00:00"
+  },
+  {
     "label": "BE",
     "title": "Bloom Energy Stock Is Up 153% This Year. Can the Rally Continue? - The Globe and Mail",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdGdYTTM4Sy1RZE9URGt2MTU2QVRGYV8ySklHN3Z5dFd3THE4cU9vZHk3NDlWdzV3MnhaSXZIa29pbW4yMUh2aUo3R0d4YUo1dWw3NzFSRkkzVWltX09YRW42dlowYTQxWnpKSEkxNlBmckFlMVNVUHY3MzBzdnJlbGVJM2pJNkpfYUVSc2UxZEJaMVlQMnZzcVQzT1ZDQnpLSEE1eG9xVjNBSnc5OTlRa3ozRmVONWFuUm13OTNDNXh0OWFWQ3BraVM0UzJoMFlmMEFwTTJfVm9HUF9rUjJSajFn?oc=5",
@@ -7,10 +539,80 @@
     "published": "2026-08-11T20:30:25+00:00"
   },
   {
+    "label": "AXON",
+    "title": "Axon Enterprise Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOEF6M2liZ3BlejdLYmdaclJpaGp1YURCSk00RWxzeU1BM1VNeTFWQnVlNHZEelRiMldFUWhUT1pVb1VVMG5YczVoazZpcXpLcVFLNUhFa2lCQ2ZzSWYtQVVQcWlLQy1IcTUyQWhxVEd0ZmJiQnVFenZLdm1yOHdnWko5N200ekw4cFl2TGIxN3pVcVBOYm1yeGlZSHBrajVVSDJabkhIVnktMW1yekFya2RuRVFIemxzVXhwN1lpdDNlbm04eDV6ZmhVOA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-11T20:30:00+00:00"
+  },
+  {
+    "label": "iShares Global Clean Energy",
+    "title": "Why Clean Energy Fuels Stock Is Soaring Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzF5VE5LbGtoWlZOWUNHQ2luYVRwNlVUMDVJLXRYWVJGY3NsbkhLVUZBWFJUNVBabW5PRGpid0xwa2ZRTEVfTjlBLXAycG8ybjg3bEszcDFTOHRKc05GeWxRU3dWeGRmNWRpZXlZYllBOVhicU9kUjYwRk5jQ1ExTDQwQWRaNGVuZXpCcGY0S0tkZHVJR0FINQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T20:29:29+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Oil prices rise as traders question progress toward Strait of Hormuz deal - World Oil",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUng2RklOMW85M2pBZVpOdVlxTUU0Mjd2VGJFRE0tSFNCM1pLbkZocGpVcEVzcERFWjBTRGlsWDVaSzVYQkFyWEZPenBkcDVWTWFuSTBxTU5kQTVoTGV6NW9BZXB6U2ZCZGx5bXZGbURwNUxtRnZubEVLX0pEaEEwWmg3RjdhS3hJajZfTjdaQU44ZFAyQTZWUHRkRHg4NHFacmM2MjQwRGpLUDZrNGVB?oc=5",
+    "source": "World Oil",
+    "published": "2026-08-11T20:26:47+00:00"
+  },
+  {
+    "label": "PFE",
+    "title": "Pfizer Just Raised Its 2026 Guidance -- but the Boost Leans Heavily on a Drug Running Out the Patent Clock - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPdkVOLTd4SnpZRXFOTWhzcWlMMHpNbHBSMlR5SENhQVNzaVVLUlpNUDhaNmRLTjhaZ2hyeGlfNnFCbDRqeG5MZXVMQTRaYzk1NmN5YWhmdzhrUndqWlQ4dmhqeXJFdjdnRU1NdmlUYUozMUpNY3FOVXE1T1doZ2VrbTB0UGhrcUNzOWV5QkdTalRTdVhFTmI4Zkh3ajdnMkNWXy16eTdFbXZSWjJSZHdtLVctSC1zd2R6ZHUxb3ZnTFVDM2FSLUNQZjdWREhBOFRXa3dHbENyaTlneEt0em9nVmY0VUZrRDBOWHpjTzV0OG9qRkJyNXNvUnM5ZXVhTHRTX3lBZmh1S1ZNdjdmUHc4R3pWdEdtakk?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-11T20:25:28+00:00"
+  },
+  {
+    "label": "BE",
+    "title": "Bloom Energy Stock Is Up 153% This Year. Can the Rally Continue? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQjNPaGMxVFo3MXVWZ0R3cTZWU0xVdjl5c1VLTTN4THd4TTcwWEVOWDYzU0hLSjE0bEs5YzBBakJxZGlOZmpWaEY1TzZYcXVqSHpnZzRXdTNYVldmZEIzYWloSnVaSGxjQ2Z0bVNFUG9fSkRwWWRDRTgtMnp2RHk5eDNQVzljR0U0NWdnVzdoaVBVYXhXMzdXVg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T20:25:00+00:00"
+  },
+  {
+    "label": "LMT",
+    "title": "Lockheed Martin (LMT) insider schedules NYSE sale of 2,410 common shares - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYVdmSG44aGVGUXF6NlQweHFCeTRhZnlPSVVualowdHZaczJYOEtQazhMSVRuSEFQenpobEdlT3E1M3BFcG9XUERVdXlwQUNiVGFOWmJvem1ucGhVcWFsaFlUSHRNbU9pY1VWT2RVWkV6SGhzcVZSaTUyc0w5X0x5UklnZ1E0a3R5RXhzXzdWR2IwWTJHSFgwQTB1MUg?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T20:24:47+00:00"
+  },
+  {
+    "label": "PSX",
+    "title": "Phillips 66 (PSX) insider Brian Mandell files to sell 30,000 shares - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYXlsc0ZiZFJucHBNZEdoNy1wSjRoak4xbUo1bXhaTTdoZ2pGUVd1djkzMmViRU9YOTJmMDUwZ1B2ci0wMldnVVdUOF9tUHVGZW5DeEx2RFhqWW91MjZBZnVsbVhjMXI4Mm43X1lTREZrWFVUTWJUcEROVlJRdW8wX016VUhtaXpVTnBTYjRqT0Q?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T20:23:37+00:00"
+  },
+  {
+    "label": "ARM",
+    "title": "ARM Holdings (ARM) director Jeffrey Sine gifts 9,572 ADSs to charitable fund - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMGhFT3RZWGJCdjNJR3dpamVSRlhYd1VSd1ZpNmNmaVN4NHo5SFRHQVBFYUhOVlR5NE5GU3JPakhtdnJxMXQ2LWVqYmVxM0FXbmNZV2Z3dHgwcExLZTdHVmtpV2ppbC1EN1hWbDF6T2ppSXZXd0ppTjlCdzMxQWdUdHhWeDFRYy1oMGFiU3NtNDdTWW54MVFLSmlnb0s2S3BnRTNFUUt6ZmNtZDItZEJoNmVR?oc=5",
+    "source": "Stock Titan",
+    "published": "2026-08-11T20:22:19+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "S&P 500 closes little changed as oil rises on Iran uncertainty, Intel leads chips lower - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PSlBQSkZDeVFXczJmMmRVYU4zbFdIejBqeUVSa1Z2cHNMaXUtVHZ5eUVKUEZzb2RMUWpYVE1aQWV0b21BNkM0VE9WNFI2dTFsUGNQUXNfOWtNV211WkhlLUxOTm9zOW01UHJVU0o2eDM1Wm5TREVz0gF8QVVfeXFMT1FxMFFZOTZCbGpROU5BX0xLVW9kMmtFLTBRRk9PTm5DaXJpdTJyRUpiNk5XcTQ5eUtmLThVUWIxOW5MSjE2NEhLZWtfV0ZFS1hiV0t5d2V3VmdacWdXTG0wSlV3MHYwY0NsMUVrb0pSSWpvYlM5Sm1vUEc5cg?oc=5",
+    "source": "CNBC",
+    "published": "2026-08-11T20:19:30+00:00"
+  },
+  {
     "label": "TDG",
     "title": "TransDigm’s (TDG) Earnings Soared, So Why Did The Stock Sink? - Yahoo! Finance Canada",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON2tySmNQd0MtMUVxUHVYdG1NandKNlRzcW56MWM4U2RtQWhZdnIxNzBabjhQUWE0ZzZTTzlHVnVoTkdDVTBfb2R0Z3NmSTdyTjF5WVdJbUttUWFsR2pGSGlpcTJhcl9BRzZ0cDhkSmptV05taUM5MEJKcFY3T0RDdk1WRVYyWS11SXc?oc=5",
     "source": "Yahoo! Finance Canada",
+    "published": "2026-08-11T20:11:08+00:00"
+  },
+  {
+    "label": "TDG",
+    "title": "TransDigm’s (TDG) Earnings Soared, So Why Did The Stock Sink? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV1BWT3hmWlB2MHJxMnFzd2pnVndSRDBuS0RoUjE0WFd6NWJpMGhBSjJUSm1uS2lGZGhMX0RvRGVaMjA3a1hiNGJ6UkpORF8zcmpBVlEwVjBIOTVRVXFSR1V5cU5iNVU5MWlvMnZtVXowd0l0bU4zUVBzUHRNN1gweGtxUTYxRHVkenNpUEZWTWNGYVZGdnBmLUl0Q2dQNmM?oc=5",
+    "source": "Yahoo Finance",
     "published": "2026-08-11T20:11:08+00:00"
   },
   {
@@ -26,13 +628,6 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQVZvWVpMX2VlRlVmWnRrSGFsRkVCNHJiLVhNVVM4R1pJQzIwZnp1WVRRTXZ2SnlKVDVjYlJsU25jeDhJQmJWekVfVV8wRjRRVE5yRko3cUJTVmFqbjVwUzBWVXRzdzQ0QUlJNFZxaTdydGlteldwZjZpRVFpclNibmhySkExcTRYcTBsVUJKUDhtOTRMNHVTag?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-11T20:02:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq slip amid US-Iran impasse, Alphabet stock sinks - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaGIwUVlQUnYxb0IzNFB5M2pOelZiaWhaN3dWVjZxTnBmMHFfRUZhNTFNdXVJaUY5bVNWTV9YbDJuOUZmckpKejZpaERNQzNuM3FQSUdfNEEtazMwNWRWYkx4YzVGdWh5THFVSXhWTWZQOW1idU9fSVBJSHhJellTQUFwTm93NXJQZkRqbkFmaG14RGlDeTM2M01EWHVxTm9IU0NFQUQ1RkFsREFF?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-11T20:00:54+00:00"
   },
   {
     "label": "FSLR",
@@ -63,18 +658,25 @@
     "published": "2026-08-11T19:34:45+00:00"
   },
   {
-    "label": "S&P 500",
-    "title": "S&P 500 closes little changed as oil rises on Iran uncertainty, Intel leads chips lower - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PSlBQSkZDeVFXczJmMmRVYU4zbFdIejBqeUVSa1Z2cHNMaXUtVHZ5eUVKUEZzb2RMUWpYVE1aQWV0b21BNkM0VE9WNFI2dTFsUGNQUXNfOWtNV211WkhlLUxOTm9zOW01UHJVU0o2eDM1Wm5TREVz0gF8QVVfeXFMT1FxMFFZOTZCbGpROU5BX0xLVW9kMmtFLTBRRk9PTm5DaXJpdTJyRUpiNk5XcTQ5eUtmLThVUWIxOW5MSjE2NEhLZWtfV0ZFS1hiV0t5d2V3VmdacWdXTG0wSlV3MHYwY0NsMUVrb0pSSWpvYlM5Sm1vUEc5cg?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-11T19:31:49+00:00"
+    "label": "AAPL",
+    "title": "Opinion: Wall Street’s New Apple Bear Case Is Dead Wrong - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc1ZFZk9CQVVsNEpLbk5hQmswbHN6Zk9wRGwwY2VhZ1hnb3R3RUlnVDhMaERuaUk3LW1yc2lkT1A1R2FXeldSa1NlT2ZDbE9ibDg3TnM0WnAtUnMzQmxmWHNaUnZzR241ZXpJTUxxQng2V2NzOEJoRGVfQlNzQ3ZWOEdya2hjTlV4a1N0Zk15VlhGR3BaRzd5cXVPcw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T19:33:07+00:00"
   },
   {
     "label": "HSY",
     "title": "Hershey (HSY) Could Be 39% Undervalued After Kisses Recall კითხვ - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYWQxMVRKRTZVUXNJbjRZZ3Y4QzFvZFIzUk1FN3NUd0dER1FBWkZ4bnZoVVhkanBGYXJiU0FRX0VZYkZKU0tUOUdaVjAzMURFSkdPUHpEUnNGS3ZQRG1YT0t5QlhmcDdVbHVhdTAwek1iV0pzakpsX1RLLUh0bmJlUUEwMEJTZnFxTVloZlktR3pCYmZHOG5xQVFDaFZPWk52eWhtTC1aM0stSGZxQWhHdDkyLU5xZTFSOW9Zb0lMZXgxNjZCX1RPUXE4SdIB0AFBVV95cUxQN1FKbWVuQU9WZDZTYWtRMGV3RFhhX2RnU25mb0I1MEJHaGNvSHA5ODRtOFlNbmpveFJzb0tRQkhRM0kzNk1HNEg2MUhpZ0ZJMnNkYlJUc2FMOGh5WGQyTzdZcFU3c2JZWDR1cURRa2FxWmwxenQ1ckg1Y21GeXk5cGNUTzBnTWlUWDFFamEtUmhYWEZmSGdPRkx5cFpSOGRlUERTQllvMDlxQ1BKV19CSG12dlhMd3p5TjRmM3VWdV9HVnJzS3NwYldaWVJ1cERh?oc=5",
     "source": "simplywall.st",
-    "published": "2026-08-11T19:26:23+00:00"
+    "published": "2026-08-11T19:31:14+00:00"
+  },
+  {
+    "label": "TDY",
+    "title": "Is Teledyne Technologies (TDY) Fairly Valued As It Buys Varex Imaging? - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMUE1VkNoZHZ2OEt3M1VyLUVmVUlBR0t6eVBUVm9aUFVzQ295OGRwdlpkY1YwVFFScnhwb1dIRENUNXNKTGNIZm5jeUcyd3NyenFaRy1KWXRFd1c4SjJ1dTdIV3ZISEV5OG1JWWhRQzRtRmFMaXRmcUowNHE5b2tHV2k0WFlNVFdTZHlvdkktdENMbnBON3E2VUhuSms4dUo4TldJT2VoWnl3NDNZcnUzMzhPNFNYaS1oOXhRQmw4Zl9ZTDMySzhGTEtXdnBFVVVub1HSAdIBQVVfeXFMTjFBNVZDaGR2djhLdzNVci1FZlVJQUdLenlQVFZvWlBVc0NveThkcHZaZGNWMFRRUnJ4cG9XSERDVDVzSkxjSGZuY3lHMndzcnpxWkctSll0RXdXOEoydXU3SFd2SEhFeThtSVloUUM0bUZhTGl0ZnFKMDRxOW9rR1dpNFhZTVRXU2R5b3ZJLXRDTG5wTjdxNlVIbkprOHVKOE5XSU9laFp5dzQzWXJ1MzM4TzRTWGktaDl4UUJsOGZfWUwzMks4RkxLV3ZwRVVVbm9R?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-11T19:26:24+00:00"
   },
   {
     "label": "TDY",
@@ -92,9 +694,9 @@
   },
   {
     "label": "UNH",
-    "title": "Is UnitedHealth’s Margin Going Back To What It Was? - Trefis",
+    "title": "Is UnitedHealth’s Margin Going Back To What It Was? - trefis.com",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWxhcWZLZnR2M2kyWUNWc1pRSFpPMElSakRiVVpYLVdHSV9IX25DRUNvcmxza0RLb0N0QmY4SzhQR2pXOGZNYkhJVGUyNndPT3pWdmh1RTR5YnliVlNQLS1FajRkb2l6UDZyNW5aQjlMMmdpaUlNMGg4TmxCVXBjOUN4TG1sdEUteVJUNUF5MUM3RzlWRkFwWTRrYUQ1d1pxUV9vRFpVUEt5amMzUEE?oc=5",
-    "source": "Trefis",
+    "source": "trefis.com",
     "published": "2026-08-11T19:22:43+00:00"
   },
   {
@@ -103,6 +705,13 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRGMxUWMzYUtsMVdZMWs4VERnb3E4Y0NqWG5HLWFyaEU2YjBxaFlHczFDVzdiNGIwR0I0UWJ0MmpFYzFoY2lnR1NsQzM3ekxQSzloM0tGOWxwdUlmSHZVQWc5LTFaeDNnN2ptNWpKck5NN0Q5Z05oSUhUenMxY3FkekRYTGM1aXVDX0pzUENmNGl1V0xKUUd1aG1CeEJtdlo1RHc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-11T19:15:12+00:00"
+  },
+  {
+    "label": "NESN.SW",
+    "title": "Is Nestlé (SWX:NESN) Undervalued Or Is Its Recovery Story Already Priced In? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSFlRMjNKVk1pbUllanRMbjNKdTIzeU9Qa096dlNpYVZ6OUQ2YkRxR3BSamF2MW9DSGdFSGpOYnVyRm9Yb1ZocHVkdG9WQmFjc244QWdmLXZiN08xeFp5a3l0c2NMSGhqRHJmSVU4OFE2QkViWkFBRGZ6YjZxdTZDdUx0Y0lZblFpUWhIZTZKckFOblB5eVY1SW9ETldFVklaMkE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T19:14:35+00:00"
   },
   {
     "label": "ASML.AS",
@@ -163,6 +772,13 @@
   {
     "label": "SWKS",
     "title": "Skyworks Solutions (SWKS) Is Up 12.2% After Major Debt Raise And Dividend Suspension Shift To Buybacks - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPR2tSUEVZR0h4ZXpPdU1JdzgyaFNqQXJTcVhlQU1FQTRreEFmRS1QeHVyZjBaeFZuR1JHdzVGSXYyU1lRbDlVaUFuUzFEblhWTUxCU3dyWThXbG93TVM2YndvZnVPRVpKd21NdG8zUnpaVnZoZTdGOUkzb0hWUUpNMkMwWlZZd1lOOElXOF80QTcteHJURDAzaVJrUFFHM2VIb0EtTlBzYzkwbEM3VzI3VGMxTXFYVGtLYVFYa29PY21WVnlRc0hENjFjRVJQcEk0dlJmcnVKRTZRazFrb0dKVNIB4AFBVV95cUxPR2tSUEVZR0h4ZXpPdU1JdzgyaFNqQXJTcVhlQU1FQTRreEFmRS1QeHVyZjBaeFZuR1JHdzVGSXYyU1lRbDlVaUFuUzFEblhWTUxCU3dyWThXbG93TVM2YndvZnVPRVpKd21NdG8zUnpaVnZoZTdGOUkzb0hWUUpNMkMwWlZZd1lOOElXOF80QTcteHJURDAzaVJrUFFHM2VIb0EtTlBzYzkwbEM3VzI3VGMxTXFYVGtLYVFYa29PY21WVnlRc0hENjFjRVJQcEk0dlJmcnVKRTZRazFrb0dKVA?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-11T18:43:34+00:00"
+  },
+  {
+    "label": "SWKS",
+    "title": "Skyworks Solutions (SWKS) Is Up 12.2% After Major Debt Raise And Dividend Suspension Shift To Buybacks - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaFJubzdNRVIxSGpMN2lmSWRyaHlrRlhaV014TW03QWg2RGZDSC1GbVFZRG9hdG5mOFRPMERKU0t6aU1VeUxXRWhTdnkyR2xacHpRcWlTeFhNNDFUYUR6djZMTzE5M3U2d2NTa1htZWk0b0Vpak1HMkpIZnhqcHlnV1Z1aFJ6MWhZLVJmRG0xSUZrdmwxVG1ua0ZlR3RURlFKczhvZTBDMVBPZHVqNlphWGtpQ25TSkRrN2lFaVBKUUJZTXFsVEZwa0JBQTUxcGNTMkFkbGEzejQzem_SAeABQVVfeXFMT0drUlBFWUdIeGV6T3VNSXc4MmhTakFyU3FYZUFNRUE0a3hBZkUtUHh1cmYwWnhWbkdSR3c1Rkl2MlNZUWw5VWlBblMxRG5YVk1MQlN3clk4V2xvd01TNmJ3b2Z1T0VaSndtTXRvM1J6WlZ2aGU3RjlJM29IVlFKTTJDMFpWWXdZTjhJVzhfNEE3LXhyVEQwM2lSa1BRRzNlSG9BLU5Qc2M5MGxDN1cyN1RjMU1xWFRrS2FRWGtvT2NtVlZ5UXNIRDYxY0VSUHBJNHZSZnJ1SkU2UWsxa29HSlQ?oc=5",
     "source": "simplywall.st",
     "published": "2026-08-11T18:43:33+00:00"
@@ -205,9 +821,23 @@
   {
     "label": "CHD",
     "title": "Church & Dwight (CHD) Could Be 22% Below Fair Value As Guidance Rises - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSUpqRHpQNDZYeUtzQnN3OU01MnFOdWJzc01TSzVGa1YtNHRxeUFaVS12QVdXa3dqRjlLTFJIUXRHeC01Ym9UZ1lYOGh0NlJYMkdROTVia0ZLV01QaVlsTmFyeUJyQVdQSGpqR3N5U1BueGlrRzQ3dWl0QWZIMTZQUGFRX0Y1bnZ2WTVHeDNZWjhnbGxTSVQ1dWxvaEhSVXh4TGxGMU1xTHo2WjhEUjh5UjVEWGxMQTM5TFdUYjFCY1l5VWM5UlVhc2UzOFNYeTjSAc8BQVVfeXFMUElKakR6UDQ2WHlLc0JzdzlNNTJxTnVic3NNU0s1RmtWLTR0cXlBWlUtdkFXV2t3akY5S0xSSFF0R3gtNWJvVGdZWDhodDZSWDJHUTk1YmtGS1dNUGlZbE5hcnlCckFXUEhqakdzeVNQbnhpa0c0N3VpdEFmSDE2UFBhUV9GNW52dlk1R3gzWVo4Z2xsU0lUNXVsb2hIUlV4eExsRjFNcUx6Nlo4RFI4eVI1RFhsTEEzOUxXVGIxQmNZeVVjOVJVYXNlMzhTWHk4?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-11T18:29:31+00:00"
+  },
+  {
+    "label": "CHD",
+    "title": "Church & Dwight (CHD) Could Be 22% Below Fair Value As Guidance Rises - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWTZDRE1QV09DRFl0SWdrX0VLR1dMZ29XMHlDV0RFeENabjE0a1hFMHRFeW9ZQ09nSlU2N2JRMGNXZVgxa1l4VjNnNlpLSVpsNXhiZjNoM3ZjY2g5a0c5d0FXbjBTOVYtQURyZXRlTlk0bW9CcExSZnlQd1ljN24tTlB4QnBiOV9wZjFCaFhMOUpUM0ZGOTRrYXRJamZvekFEVzZPMU5ySFJKTkU5Sl9LaV9OelR2RFg2UmtLai1EaFlCN051RHBkNEVn0gHPAUFVX3lxTFBJSmpEelA0Nlh5S3NCc3c5TTUycU51YnNzTVNLNUZrVi00dHF5QVpVLXZBV1drd2pGOUtMUkhRdEd4LTVib1RnWVg4aHQ2UlgyR1E5NWJrRktXTVBpWWxOYXJ5QnJBV1BIampHc3lTUG54aWtHNDd1aXRBZkgxNlBQYVFfRjVudnZZNUd4M1laOGdsbFNJVDV1bG9oSFJVeHhMbEYxTXFMejZaOERSOHlSNURYbExBMzlMV1RiMUJjWXlVYzlSVWFzZTM4U1h5OA?oc=5",
     "source": "simplywall.st",
     "published": "2026-08-11T18:29:30+00:00"
+  },
+  {
+    "label": "KLAC",
+    "title": "KLA Corp | 144: Notice of proposed sale of securities pursuant to Rule 144 - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNanNPbFhETXZ5YkZqRWJvNWhhMEJ4aU9NeEtvZGNJeldMVVZUVlByZnJGdHk1X1lDeTJqaXA4S2YtM29IeWVoMWFLSkNKb3JPdHhHZVhsUEJxS18wUnAtTFFzMHlscmVDaFkweFMzYUhyRnREUEFHbThFUlVNUmFhQnlfQ1VSWUJwb2c1c1g5NkVDVFdobDU2MUpQbHVxS2F3NmNTSzFxdw?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-11T18:25:22+00:00"
   },
   {
     "label": "ABBV",
@@ -257,6 +887,13 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa0tRWlp1ZWJyaGJhVkllMzRUYVVPTUxoSXoxM1VTcUJwQ2c3SmtveVJUVEVQZWFoU2l4cS1mVXFTak5jSDBETFRSdDdOY0lNZ3ZGbEtlejlMZnYtZ05ndUFqcXBHMlp2S0p5QmZXdUpSMVNodE9fRG00V2NUQzJEX3kwNjNFNGxpbk9tRXpESnRtS3lLUDEwOUtR?oc=5",
     "source": "Pluang",
     "published": "2026-08-11T17:55:32+00:00"
+  },
+  {
+    "label": "AVGO",
+    "title": "Is Broadcom’s (AVGO) Next Big Bet Hidden in Plain Sight? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUnZTNWtILXhpZVBjVGt3ZGNUR3dFM204Z29LSWNMVFJ0REJZUFp0TkJJVnBydG50U0NtaE4zbkVMQmdwZmc3LXVyTnJfNF9CaS0tMWsxOXZVSFlEU2IzakFOaURmRC1IdDhuNnI1N1Jfam9CWEdzNzdlNXdRTkN3b1hzM3NybE56QXFQeVNSSVlraTFf?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T17:50:31+00:00"
   },
   {
     "label": "Amundi Stoxx Europe 600",
@@ -399,11 +1036,11 @@
     "published": "2026-08-11T17:19:25+00:00"
   },
   {
-    "label": "MPWR",
-    "title": "Monolithic Power Systems, Inc. (MPWR) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NRmZzZmhFSEhHdURFV3F5Q2I2QkFzS2F4ajZid1YwV29USGI2U2JSdHlabVoxMGhGVXZyZUxtQUdyVHpaaldFSTVCTURnT3IzRWc?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-08-11T17:16:04+00:00"
+    "label": "AAPL",
+    "title": "Apple’s Revenue Is Soaring, But Analyst Confidence in AAPL Stock Is Cooling. Here's Why. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFlKTzlTUjRoZWo5bklkSXFJNG9jTWlHYkJaXzI4LXpUWjNGWHVla3dybWQ1QUl5M19MZXJCMjdOZWNXM0ZtRmRXUUhSSFpZQVI3SEVLVlBBTzh6QXdaVU9ocUFNLXBmVDhDd1UydGJLa01SRUwtMGhxTldqZjVTb1U4YlpkNlFueWFfUGpKVlJHdGRXRmFSbHZqNmZiemRoRmxqbFYwUWc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T17:18:40+00:00"
   },
   {
     "label": "ABBV",
@@ -420,6 +1057,13 @@
     "published": "2026-08-11T17:14:45+00:00"
   },
   {
+    "label": "KMB",
+    "title": "Kimberly-Clark (KMB) Q2 2026 Earnings Call Transcript - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT2taTEF1QnlaXy10amQyeEtTSExoZXVFME5hdkwtMEhLZTN1NHlyNUNuTlpQNzJ0MWRHTzItRlJuZUItaHhHTU45NjRoOHk2TER2OUpoNHVLYUEtdHZmVWhrOVluLW8xanN0Tm8zUTFlNDQ1R1FnRHVFU2NabGNSWVRDVXUzSGJ3ZHNDdm9UWW41X0tvb0J5V2R6dS1kb18wdUc1YXBwTllHQk1Ud1YxTGVQTDcxQzM2bVJGOWVBNVZuNUNOSVJEYzNPTjh5aUF2a2VMaA?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-11T17:13:00+00:00"
+  },
+  {
     "label": "EOG",
     "title": "EOG Resources, Inc. (EOG) Stock Forecasts - Yahoo! Finance Canada",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMXhyRHlkY1pnclpXcFhfeEFZc19IR1d6VF9QY1B4RXNocXB5NzlaQ1pfdGRCYzlEdkpJbXctSGVhZjVaTXQ2TjhaUHY1ZUpEWUtCRW1LZ2FDWi1OdFRxOUdsMzNFSlcyc0dWVk9uMms4bWRseUIwUEVOVmw3RU1ObVlsVW82eHhRSUZMQWtjcG8?oc=5",
@@ -434,11 +1078,32 @@
     "published": "2026-08-11T17:01:00+00:00"
   },
   {
+    "label": "COST",
+    "title": "Costco’s Stock Has a Problem: It’s Almost Too Good - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTNDN3hpTWNFSkVneDh2amEwSE00QTJkU3A1eGpvV2lQQU1oWkZzMlozZ0FoU2NPeTlPcnhFUGVadFloM0ZWakVWbWhtOXZnN29mUFllVEROck9kX2FPSmJHTWhuNng4TUQ3YjF3Z1c5ZXM2aGd3RC1KMnhIbnFVRVpPb0dXanZxMExHMi1IcWN3MC1BVnNFa2tCaDE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T17:00:22+00:00"
+  },
+  {
     "label": "SAN.MC",
     "title": "Banco Santander-Chile (BSAC) places Ch$5B Series BM bonds at 6.25% rate - Stock Titan",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTy0zYmV1Y1FIYjI1T2FKTE1RZlpKenpRRTZwRHUtQXRtWmFWdnN1NGh1RW9EeXBwc20yYUtzOWlJQ3lwMlUzaU9MZlF6R3JoUUJGaDB0a2pXM1p5T0JtenNxbHlvdlJYVmlhbXFjVVZxNDY4X09Jc19vU1AxQlVOOWR0dEJNbXA3NDhEdXdqZ2l3V2RPT3dobXFFdEZRUFo5OXlqTXphMGZya2hGTjZlX2VyZnBkdGVP?oc=5",
     "source": "Stock Titan",
     "published": "2026-08-11T16:58:38+00:00"
+  },
+  {
+    "label": "NXT",
+    "title": "Form 144 | Nextpower(NXT.US) Officer Proposes to Sell 14.37 Million in Common Stocks - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNFhmOWlxdG1DTVJ3QUItZmFWOWE1SmtnVTFITjBEYjFvaF9iV293b1dsUXlqTHZPbGFndW9ZOUJfeE9FZFgyRUdEeTRGZlRyRWFvQVBsOUhXMGZsY1BCdUFyVk1ZaW9BMDdVTGNHdWs4VXY0S3hoX3M3MERta1EzQVhUeXdTMy1rU3BwekRkWUpvd2plbEdlSFM5b3lEUUE?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-11T16:51:00+00:00"
+  },
+  {
+    "label": "XOM",
+    "title": "Better Buy for Passive Income: Chevron vs. ExxonMobil - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ25aZWd6cl9mek94RXRseVJZWFBaeVB4TVZDczc2anlHenJSY3NqalJZNjlEM0s2U2JqLW5TSTZlMHJjUWdwSXNTRjR3VGctUmc4YXJXWWVHVmFnUEdzTkFoRURJczRvRnZpdGtWY25NanBZbmZhS09xNXhtYXdRbzdqWk5jSVRGUm9rQ21QT0hVMjlvM25TNlR6Q2hsaU1QeDAyNWd4YVdfOExyUURUbUZNWGZFN3kwUWRqS0lyZlBBTGRCS2F4bmVGNjZhcEpS?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-11T16:43:40+00:00"
   },
   {
     "label": "XOM",
@@ -469,6 +1134,13 @@
     "published": "2026-08-11T16:30:53+00:00"
   },
   {
+    "label": "NVDA",
+    "title": "Micron, SpaceX, Nvidia, Intel, Rocket Lab, Fermi, AppLovin, and More Stocks That Explain Today's Market -- Barrons.com - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUlhNQUZPYUpzMkN4R1EwU3ZnSHRqX0phTWZvSDR0NzVKWUpYYWk3NHJnZkFlV19fS2ZtckIwX3hqRmZaZHhZNEhkUHliazFZLWFpeVlJQV9waDI4bXFOVGljTkdaRU1Xb1VZaEFHUnFIRVpIRndPdVNKUWZBY0gzckpESjZDSUVkd3BxY0Q0c3RFdXRveTdjaC1renI2RDIwQXJwMlZR?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-11T16:25:00+00:00"
+  },
+  {
     "label": "Amundi Stoxx Europe 600",
     "title": "European stocks pause near record highs as earnings optimism offsets energy supply concerns - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb0pmbldvNF95ampMQU1jZU5wbG1ZeVJjM0F5QXBtRkoyZ0swaVVrSDdyLXM0dUxZcjl6MExKZHhkSmRodjZBbHlabTZxMzlvS2ZRb0ZaR2lmdkd4LUF4bkFCUzZxakZuYUhLd20yVUFuVDdXTVhpN2xycjFpYlNuMlJfZU94LWtjMlg4TjZUcmlwMXl1WmFtV0F5RTVzSDlSZTZ5M1B3a0R6UWQ1VF91YnRUenVsTFlpdWc?oc=5",
@@ -497,6 +1169,20 @@
     "published": "2026-08-11T16:04:57+00:00"
   },
   {
+    "label": "NXPI",
+    "title": "Is Wall Street Bullish or Bearish on NXP Semiconductors Stock? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX2lIQ3lxREFkN29Remt1UU9RZ2Z1NWFGZjdudmtPSDV4Ukt5eUdrUnNLZTlwdDY0ZHJvSFlSWXhreGNVZEhmdGQzUmZ4RWJVUmVjQzFSbUUyZTE1eE8wNGtFd1NYYUwzNkxBdDZidEZlY3dHb1k5cGJiZkxtb1NUOVZHR21sY2pITGJ3SURZdUtpQkxKeFZFMlNFSzA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T15:56:18+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "DAX & Co. im Plus: Deutscher Markt überholt heute die Wall Street - wallstreet-online.de",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMGVVR2lEOG1xOGF4NXllT3ZybW5FOUxyeUxTWWlvay1SVTk0c3hqWVRSZnlhakNBem50bFRrMFpzV3M4d1h2TVJhOE90blBadm03WFJmSkNHQUhfSzFtakx6Q193Wll0TkJjSWs5UVE2ZkNic2hLQmt6MWRyUmhCc09MS3IxNU01UE5WSWE3RmYxbXpLTDNoQjhad01ueUVWdE5xM2JHT1hDczI1TEZubUlZTQ?oc=5",
+    "source": "wallstreet-online.de",
+    "published": "2026-08-11T15:52:14+00:00"
+  },
+  {
     "label": "VLO",
     "title": "Valero Energy Corporation stock hits all-time high at 320.5 USD - Investing.com South Africa",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRUtxaUVqRnk3V0VLZXNSNFFnRUpvczJCV2c3M0hhaVhHRm5ZV20xUWdBM09Hd2lqbXlzNUZsU0NnT016d25Jc01oM3NOV1l4d0tzYWdCU1RfRjVQeS1lYWZ1U2llT0twcHpoSHBEV0Y4bVQxOXZsWnM3dUd0cl9XUlNQVllLWTVOSmMySFk5VVk0VzlnZEVra1k4dHZtNU5xQjVfNG5ydmhybVlVbDRqbl9GWHJYVThEZ09VVWxVM0lXQWFJVmZSa1dCMXRyME0?oc=5",
@@ -523,6 +1209,27 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQW54QldKRmY2cFlrM2k1X1JaTlVfSnFyNEZfTE91YkNEaEh0cF9EQlN2SWFBUkNmcjZiM0FPLVpLSlJZSzdDcFgyQ0NjWG02ZEtfRVgwVzY4XzVSQWF0bXhjVEZSay0zSDA0RVR5cHN5cDl2Q1dQQ1BXVEtZcF9TbzktTjB5M0FzMHhhYk1LbmNfVm5sRl91Yzg2R1liYy1wM1YwcWZBZFZOTy0zeXd2SDhhUTY3cHA2?oc=5",
     "source": "MarketBeat",
     "published": "2026-08-11T15:42:28+00:00"
+  },
+  {
+    "label": "AZN.L",
+    "title": "AstraZeneca (AZN) Stock Forum and Discussion - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQSk1LUU1mMWJHNWdvb1lyRllBYXJNT1M0T3B2aC1OTG5ON3RDeE5GdGEydEhWME1HdWczWVllaDVSZ0R2RmRuUDRuLXppYTFhcFRtdk1NZEFab08tZ1lPNFBta25TdDhyUnpNRTVVTWpuSFBpWWVrSDlHdWZCR05kS1dxRmQ2UTRZOFVWUmc4SGtxRENxYkdKWjVEY0N5Uks1NlpRQ2t3aXFNc2F5WDZTRnpBVUFSVnp0bUFzQzNEejJPbEd1UE04aGx6anlnMEJFQ0NWckNBQzNJVWFzSlRaMEhlZ25xSW94Wk9KeHVZVEo1bTdDSlhkaGhvQmU0UHFXOUNRQzBiZl9uNjRJazRWUmtBa1d2dU56TUVGQWZvQlNvX2c?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-11T15:40:26+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "17:36 Dax geht wieder auf Rekordjagd - n-tv.de",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdjNfcFBrVVJtOVJTa3MtOVZKYlBtM3dBbEstZWh0ejhaVmdkajNvckdBN0ZnUkZjcmtsRG5qQl9Ocktsa2JOUS04YUIxMUl1S0RuX2VMRVF1MnJLMFY5YlU0ZFpxbmVXMjRKdkFzd1JicTIzSVVPejR3dVBkbmRLLTdxOG1aa3VEazlRWE5jeThpMV92MHdveld4SnFxQ3N1cFk0Zw?oc=5",
+    "source": "n-tv.de",
+    "published": "2026-08-11T15:38:56+00:00"
+  },
+  {
+    "label": "NVDA",
+    "title": "NVIDIA’s Falling Multiple Is A Bill, Not A Bargain - trefis.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaVRQOVdqTm9KUjF0dFpaRGQ3b3EzeDlUQ0lhczkwOXpyeXdZU0pzTWpiaW1Ma0t5UkhxdWlLY1J5TC1tN2xXMkF4M25pMVJiazBFM2x1eGdTR3RnQ1diWHhEX0dkOUd0Q3RVZWR2ZHRwaTgwODBUdkFpZkNpWEtpRWhwMjVuQ3kybWF0eHROVnN0TmVEZU1Mb2NSdmNrNkhZTllCUWltR1M3RWpjN2c?oc=5",
+    "source": "trefis.com",
+    "published": "2026-08-11T15:31:07+00:00"
   },
   {
     "label": "PEP",
@@ -567,11 +1274,25 @@
     "published": "2026-08-11T14:51:59+00:00"
   },
   {
+    "label": "VLO",
+    "title": "Valero Energy Corporation stock hits all-time high at 320.5 USD - Investing.com Canada",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRy0xN2pLRTFGLVBxWXlOclVZSXN6ZWwwbU9Fd1R0Nk93MTZneWt0c09VUUhVeVI1TWRfY2d2cFE3NG1NOHphVm5EWGY0WWxjU0Q5MW5TVkdpSWk3cjRwVXJxempoVGRoYS1raHNDUHNUY2N3X1FmMWJuWVQ5NWlZMkJINGs1N2xNYWJkeU43V3F4T2FHcmhTZl9kWUNLUFVVaVBUMERUaEZHcWZoYWgwTjE4UFk5NHpLcVZ2X0hiTQ?oc=5",
+    "source": "Investing.com Canada",
+    "published": "2026-08-11T14:49:39+00:00"
+  },
+  {
     "label": "FANG",
     "title": "Why Did Diamondback Energy (FANG) Stock Climb After Its Latest Update? - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd1dUTmNhSGlrb0lDRUQyRVh6d2Q0bFNrc2pONTE1UGVRSDQyRVpGRFRHeTE4QUVKMHJZZHI2TE44QXBIYkx1ZkZ1X0VNT2MxUzRfOXBELXBOcHZLYzh3U3c3SG53N21pUE56MkFUTTMzRC1tOHFkS0ZxdWwtbFRKSER6VjRmMVh5bGs5WVZ6b1V0bnE4eHdDQkxSVWhrdjBGcWdvWEFfWkFNT0Fab21ZazVWVnVMTHBVU2NzSDBxUG9TaFhyN2dncjVTS2JnLU5z0gHWAUFVX3lxTE1oaEw1OUxJUHpGZmMwMmtfb0kwdUxFcU5ja0QxSW5QSnZ2YUZsMnhtMHJpT0VxUEJFT2pEVy1YRkRzS2xhYVNQNkhGTG02VGhkT2FtV19MSUpKTVRxX21HdFktYkJIU2F6c0dfektwbmo3WVRMTmM4QWl2UVRDcEtHU0hVOHFmaXM2cnV6RDlkM1NuQ3lNTTVFbXVXX3MtWWxEbHI2VWlobDR0SlI0aFFRNWNwcXBYNkNuRWhaMkxYZmNKaXFvcjdQMjlIcmhUZy1acDR5QWc?oc=5",
     "source": "simplywall.st",
     "published": "2026-08-11T14:38:10+00:00"
+  },
+  {
+    "label": "AMD",
+    "title": "AMD’s Helios Launch Could Create Winners Beyond AMD Stock - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQUNoTTdfb2dnMmNSOVVCWXMzTTFDdExJNkp1SVBpMEpONFlmOVU0TDU2TUZMbk1QNXphYlJzQXVia1JtUFROdm1DNEctNWI0T0hXYzNPOTRFUTJlaHVsVzdEVmpDZ1RFR0VIUWdiY2JZNDViUnMyNWRBY2V5X3RDYkMxUXJCTmw0SmFld2t4OFhjY01UM054bw?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T14:33:32+00:00"
   },
   {
     "label": "KLAC",
@@ -593,6 +1314,13 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51VmlwRjZlNm9iOXNSRXMtN2ZFN3ozMFYyd3RmX0lBa0NvbHVscFNFWURwMzNOejVPMGlRejgtamhCNzF2WF9UTTBxdGhMV2tkZDc2bGtvRWVNSDRjOUtzNnFMS0laRzlLMTI1eGpId1ViU1JNXzRB0gF8QVVfeXFMTlhUUHFmWm9NbFBpS2M5SW14N0FfUzBac3FBYldQWS12NEFra3BpZ1p3dVRYaWZmQ2lndW1Fdzk4dWlJaC1BYmpfN3dnUThEUTJUMVgwVjZicmZGTThZcGVJZWpsemp5bEs5SUlGUHZHSVI0Ylh0ZlkzcFE1bQ?oc=5",
     "source": "CNBC",
     "published": "2026-08-11T14:18:00+00:00"
+  },
+  {
+    "label": "MPC",
+    "title": "Marathon Petroleum's Value Chain Edge: Can it Keep Driving Growth? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLXdWc0dUZUozLU1jajN1eDcteUVWdk5TdjltVUdVWUkzS2U0YXNCUkZ6ZkFlZTZJbjV5dUNqZGJTcFZYaENsUmQ0SmwwS3RWTmZaUkZsREgzX3ZwR3F0LWNCenlsSU8yQnowSTJIeEUwQ1Y2Xy1mM3FLb2oydFFDS1hWQXpuaFJDV3NQdENhWGZYaHVBRDVrTE9OZ1JyNk9FQUpR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T14:12:00+00:00"
   },
   {
     "label": "AZN.L",
@@ -631,9 +1359,9 @@
   },
   {
     "label": "DAX",
-    "title": "INDEX-FLASH: Dax, EuroStoxx und SMI auf Rekordhoch Von dpa-AFX - Investing.com Deutsch",
+    "title": "INDEX-FLASH: Dax, EuroStoxx und SMI auf Rekordhoch Von dpa-AFX - de.investing.com",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWFo4eXA3eUhHU0VZdHVZTGZPYUtuOGc3Ui1jZlZTeEhFZ0d6TThoTGZndWhYWExOTmxCdGNVU2d0Nmg3eVB0TWJHcFpFVkZndWROYVNiTFJuOUtja0dveUVtTHFCNU56alJ6RW41RW5kejVDMUQzbkJXaFlwY2FPcUI0UExiR2RndkpveVg3TXZDbUV3Y3czRUtaVmJLaURQejVJWmFR?oc=5",
-    "source": "Investing.com Deutsch",
+    "source": "de.investing.com",
     "published": "2026-08-11T14:05:00+00:00"
   },
   {
@@ -665,6 +1393,13 @@
     "published": "2026-08-11T14:00:03+00:00"
   },
   {
+    "label": "MRCY",
+    "title": "Mercury Systems (MRCY) Expected to Beat Earnings Estimates: Should You Buy? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWWtLc3ItcTZIUlNPN05WZlFjbWtvZVkzTVJhZU54MHM2WDZhMHNkbjRRTzYzcUYyMUlEWWljQi1VQWxFY19PcnBXdTlqSXM5WFVjMjM0dG5BRjFYWEg3MGhNdm52bVNaZ1V0Z0RabmkwdjNIQ3VYMTJnWG1mNUxnZTI1RkNrX0huQ1ctaFZ2cXpzU2ZjN1NFckRWVTZuUW5z?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T14:00:03+00:00"
+  },
+  {
     "label": "AMD",
     "title": "The 2 Chip Portfolio: Is AMD or Broadcom the Better Complement to Nvidia? - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaldYV0NzNXlrbmEwSEk1RnhxbEdzMS1tbHp5TWVnWDVlOHNYZElFR1RrWlV4djVJSFNxLWlRZFNFUWhKZTFIa3ZsYnhfQXR0dXhaaUUzSWZzWjdiWjJXQ19FQ1MxY2I5dmhMYjRxQzZ1QmppZmR2amlrRkVmNVRMcy1KVjBxdGR0WWczUy1fYWhCNmYzbzl5ZjBB?oc=5",
@@ -673,24 +1408,17 @@
   },
   {
     "label": "ISRG",
-    "title": "Intuitive Surgical stock drops 30% YTD but show... - Pluang",
+    "title": "Intuitive Surgical stock drops 30% YTD but show... - pluang.com",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObW9YNGlGVmswWlo1aWZVNXYwVE4yeGVBQUtJOFZuZmJ3WnBIMnRjMW55Y0FtdW9GYlRIbG1sVjZlcjBqRWI0aHY3bGV2TUxxWU14a09DRGdnb0lEb0RHby1Nc25TSzllRVNialNwcXQzajZmSGFZZkx4OFUybXNaZFFFUEpMNl94YThCTDFzRWtZVld3ZElJRHVVOS03RmZjM2c?oc=5",
-    "source": "Pluang",
+    "source": "pluang.com",
     "published": "2026-08-11T13:57:09+00:00"
   },
   {
     "label": "JNJ",
-    "title": "Does Johnson & Johnson Stock Have More Upside? - Trefis",
+    "title": "Does Johnson & Johnson Stock Have More Upside? - trefis.com",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTZQRUR3ME1WaUJ4NTA2emdWX3pFVWpGenRBdDRXVDRNbmtKcGhoMVNWWWNKcDhEVzlvMmpCWHdEVzZocjZWeU9LMm4xUkZEdjAxZGo0ZmlUVU41LVFrZFZwaU05WTBEcEY0bnFqSTBxUXdZN05DN2RhYl9jTUVpTTFIRk1pOXFYZlVzeUhVSGlCbTljbTdLajNLRFJPazhmZ0x1aXVINWNaNkJlNFdfRTIyOA?oc=5",
-    "source": "Trefis",
+    "source": "trefis.com",
     "published": "2026-08-11T13:50:08+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "title": "Oil prices lower, stocks higher as Hormuz doubts drag on - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR09pR2hpV2hGM1Y5dkt5WmdmbjBaZWY3RXFjM19HMGlZR2tyd3hVb2ZwclFTZzg0c0p4UWYwUnF1YWdrZnpSeEliMHNWMkxnZ2stT1ZvZkszcW01Q2hnTjhBTGdvU3drVURKd1NWQ1ZMdnZSd1F4eVRQOU8tbTNQdkdNanJjWEpLSjhkcUQxRQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-11T13:48:23+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -735,6 +1463,13 @@
     "published": "2026-08-11T13:30:47+00:00"
   },
   {
+    "label": "TDG",
+    "title": "TransDigm Reported Earnings Last Week. Here's How This Quiet Aerospace Stock Turned $10,000 Into a Fortune. - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUEgtRG9lM3FPRmhvNGl5V3BQSFZrRGY4cWhwNGwwNVJFQm5KaWJNQTU3Q2pvbUdPYm9mazBObWYwVEZ3aS1EWHpldWZUY09qZEE3c3ZoSDhfQlZNZVp6VkJhUEhXTm9aVWhBYUlhaGlta0ZmM2hxZ1ppRDkycy1Dc1c5dm1kZ3AyMVE2R3VwaVQtNlFCODdDMEhHT3hDVS1LYUlvUExnZjlQZGQ0TG1wdlk5WTB2bEo4RGFGVWl6U1BMSFRsd2kzRkJPcXJZWFpVeDZ6WXU1VFBnemtWTlJ1Mkd5bXJRT0g0SnNGN3VmbGMyTXROOTRrWGt5TGZyWGxOSWdDeWs5eE1sekJPLUNqSWpwR19WZw?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-11T13:29:25+00:00"
+  },
+  {
     "label": "LRCX",
     "title": "5 Insightful Analyst Questions From Lam Research’s Q2 Earnings Call - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUUtaTWt5WVFPRE5jRl8xOTFaT2xWRHFwbXNRTmhpaWx6OU1PVXhPUlRNeWN4YTFNMURzREhUY05xNnBKT0lvSHRWblJCSWNRdGhDSDlkSlZ1RklSLXg5WmxXVDYzbWpoeG1zcHg0Y01IbjNncS1rRllFb1BXWEFYMWhoNE9xWFNSOGlCbDUwaG5GaFJTWjREc0ZJNXY5UjMw?oc=5",
@@ -770,11 +1505,25 @@
     "published": "2026-08-11T13:23:40+00:00"
   },
   {
+    "label": "AMD",
+    "title": "Chip Stocks Forecast – AMD, Nvidia, and Intel Face Key Technical Levels - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV1pLbGk1SFkyM2F0X0ZJTHdfdWdUWW5jR2hwVDJ5VWF0RHBPZnFqZVM1d2tkLVVmalhGSmJsbUlfdWJxaGtBcElRQ0VBWDB2SHVRMllOY1liWEthSENOYUN0QUFleXdTcXdiOXRibGt0Y0dmWHp5bkVlMmJlVXoyb2Qyby1ETFlUQmNJaURtdHRLRWEzZnEtTUxvNnZjRS1IYlRwZGJEdnZILW90U2VRMDhyZUU0c0tLVk5Rbw?oc=5",
+    "source": "FXEmpire",
+    "published": "2026-08-11T13:19:00+00:00"
+  },
+  {
     "label": "BE",
     "title": "Shareholders who lost money in shares of Bloom Energy Corporation (NYSE: BE) should contact Wolf Haldenstein Immediately - PR Newswire",
     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOSWt3UmpOeEFqM0VMVHBPN0UydDJ2MFRqQUJWR0NtR21aYTVOUGswNERCMk5tLThEZVRJdHFISmZtWFg0TUNTTDJKVUVTdUg2MmdYY01VdUwtQWFFZnhQaW1VUnVVNTN3Szhxdkt1dVVBdFFaTUZZLUVlOEoyOTJPLXJjMEhyRkRGQmEwVU5uMGlpTnlIcThCVXItUjdXd0ZIZjd4WXN5WFhEdF9UVHZrb2VBSFVoQWFqTGpnTlBWUE92VG9jRUJRRTNJbVZjVDRibjRWeGFic3JhYTVZUnVlVDdiZVdZUUVfeFhlSUtQUUxxNzdHeU9qLVFJTUlnV0dYQWg0?oc=5",
     "source": "PR Newswire",
     "published": "2026-08-11T13:12:00+00:00"
+  },
+  {
+    "label": "ISRG",
+    "title": "The Number One Reason I Keep Buying Intuitive Surgical Now For The Long Run - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdWtsSkJGdUtBckExSFlHekZydW8tbDJidS0zamF5QmV4ZUhEZjlEeWNGUmZicGNfQkdwQko0WTY1NUlETzVYeDlIQ1pfTkU5bW1JUDdhNHIxUVo0c0ZrdDZCSXNCMWRiNkNjeGN6Wm9qeGszUnJvbjBRNzNSLVUwRkNtcXpnNmVEdjZrZkEzcjdOc3hoOEJ5NGRR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T13:09:39+00:00"
   },
   {
     "label": "MSFT",
@@ -866,6 +1615,13 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUTBRcUhydmVBTk14LWJsRlZGdzE5ODlXekdLUUJ5TE9mQks3Wi1NV1dYTW9FT1o5cVdVNEpXNWRNZHQtUms4VlVZT0FPZjNCdHJUbVo1R0xGeVNlME9FdGczOXpvcGNWUzBjeTh0UFRsMndyMEVuTDctaW5CX0dBN2F6eVZma3E0UVhuM1NaLUVKTDgtYTVXak5wY0FXTXR1OFhNVWlVRWh4OXp3RzViQi1TN1ZjNUR5S2c?oc=5",
     "source": "AD HOC NEWS",
     "published": "2026-08-11T12:40:44+00:00"
+  },
+  {
+    "label": "COST",
+    "title": "10 New and Returning Costco Finds Worth Grabbing This August - Real Simple",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRW0wc2szaEVaYnl5djlvc2NJbmJjV05ORnd3X2ctX0NVLXo5dGkyaUtMLVV4S3cxMXNPV0FBNWh0MTFHb3RIaTRna2pPT3FRRHc5a3dMd3gtY0plMHpHZURQWGlzeW9yWDBGcXc5eGtkYVNpWWEtS2xHQ2V6YXk3WmtUSDItWjdTWV9saTdvakROWkhBbEZ2MA?oc=5",
+    "source": "Real Simple",
+    "published": "2026-08-11T12:40:00+00:00"
   },
   {
     "label": "TRG",
@@ -988,9 +1744,9 @@
   },
   {
     "label": "iShares Global Clean Energy",
-    "title": "Solar ETFs Back in Focus After New Polysilicon Tariff - etftrends.com",
+    "title": "Solar ETFs Back in Focus After New Polysilicon Tariff - ETF Trends",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMFFNTV90ZEpwRGN3cTFkelU1WVdLQnFMYXNabTlyNnJqWnZRMmlfVjZfa3NWN0UwUnN3aU9zQWRjNEc1UGVNeGJUdHRFT1NHSWZBZEctX0JvbXppUUFnREc0eTRjaGJOWWVvS0lBYTJuc3lpbGFqNFhJd0JnVlNBRDZGRkt3X0N5RklqMURscUs1VWNXZFpzYVR3?oc=5",
-    "source": "etftrends.com",
+    "source": "ETF Trends",
     "published": "2026-08-11T12:00:08+00:00"
   },
   {
@@ -999,13 +1755,6 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWFVUbE1fbzUtcm1oQ0hPTzQzMmlJek1XVzJOR0R2YXB3Y0VYSzRHR2s3NzBUVGRmc1FLM0lrZllid3BVaWlYUk5oYVFBWC1hZzF6NUtDWG5CWFpVOTJmcnZwdHpKbnVxcWFSMS03Z1N3VFJYOGVoY05ubTVtYVJUM25kM3lQQVk5aVdqRVg3YjItSDdoN0NNSmdR?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-11T12:00:00+00:00"
-  },
-  {
-    "label": "MNST",
-    "title": "Monster Beverage Stock Split: Why MNST Shares Double, Not Value on August 11 - EBC Financial Group",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15a0pQanVNSERtaGwzODhJb2ZQUHpRMzVtQVhZcnhHVkN5Q2RUZ2pXcjB2UkcxSXc0aG5SeWJMWkR2d1k0dkFuX2ZNZ2FVQmlPNmlMblQ1Q3V1UWMtNDJfMi04WmVLNzVhby1wbkIwRnJzRWhQek9RTw?oc=5",
-    "source": "EBC Financial Group",
-    "published": "2026-08-11T11:58:18+00:00"
   },
   {
     "label": "MPC",
@@ -1023,9 +1772,9 @@
   },
   {
     "label": "KTOS",
-    "title": "Kratos Defense & Security Solutions Stock Surges 42%, With A 8-Day Winning Spree - Trefis",
+    "title": "Kratos Defense & Security Solutions Stock Surges 42%, With A 8-Day Winning Spree - trefis.com",
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNEhpdzYxSDdlUVJSSGNhMTUtcTFaR0lYMk9nQjR5MzFCd2kzMDVNemxFd1htWjdFeHdjamZTUm03RnZpME9wWmR0WVA3cm5qVFZFcUVlWldkSlQwam9JY3FaNjB1YkF0dTRPZmZkR29uMjl0alVJZ0JVcWNQWXNZWG9oMWlPd0xpMk43UklneEpFZUNCX3hVa2J2WTJpaGp3X2tIVmtaejh2QndlSm41QXhxcjdzX2NITzFhc3hNRl94MHlZWTR4bjZXRU9oZkZqMl92YlNGaHRjeW5iTm9j?oc=5",
-    "source": "Trefis",
+    "source": "trefis.com",
     "published": "2026-08-11T11:43:09+00:00"
   },
   {
@@ -1225,6 +1974,13 @@
     "published": "2026-08-11T10:34:21+00:00"
   },
   {
+    "label": "WMT",
+    "title": "Handelsbanken Fonder AB Sells 68,109 Shares of Walmart Inc. $WMT - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTkNUeXhjYXF2OU9UV0lNcVJwUmpWaW1tSWw5Z2tkUTU1R1NLQk5kTWk3ZXNfSkJ3Tm9KWldUQUlRR1llSjF0RTUyUWktNndpV19ES1d3OVJFRm1pbFU3V3ZaXzhoOGF4LXZnNC1FT3VTSWZia2Q2RjM2MkNFWVk5M1hTTVloenhzbVpTdlk2SmNScENPZ2NsdHl0Tk1Ud1pJczZkR2JFQVlLMWNrLXhGUEJ3czgwNFBDR2xLeUhPYw?oc=5",
+    "source": "MarketBeat",
+    "published": "2026-08-11T10:34:21+00:00"
+  },
+  {
     "label": "BE",
     "title": "Handelsbanken Fonder AB Has $246.23 Million Stake in Bloom Energy Corporation $BE - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQkZ1TUp0UHZ0U1RvZDM2YWJSSVV4SlRtTVFGQm9LRGkxSlpsYk84WU43bFd6NWFlTXZ6djZNeEx4bUczX3I5QzJMT19JcVYyMEhTOUZ6OWxQSlhZb0NJMnhKendMM0ZmVXU1VU5QQ1hETmhyZ2pxVks3Z2tQTVEtaE94N0psT09weDgwSDF6aTcxcTJ4YW5CLUxhM1dtTnlUYm1ETFFpQ3Y5U0MwZ1U5R0cwUkF1ajdnNFF1UFgybWlFOEcxNXp2OGZkeFVLRjQ4UEVrLTF3?oc=5",
@@ -1274,6 +2030,13 @@
     "published": "2026-08-11T10:30:00+00:00"
   },
   {
+    "label": "Amundi Stoxx Europe 600",
+    "title": "The stock market’s 'official answer' is out! The combination of 'AI computing bottlenecks + high-quality cash flow' dominates all others, driving capital toward Europe—a market offering both offensive and defensive advantages. - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb0UwSTVDR3JaSEdQS0M0a1dqVERuZUZUWDlpR2hYdk8tcHdnTnZfbXlQUWxiWjBMSE5PWlExcFpjUW40UnNWZEJ2NllNU1FHclBNVGdBSXotaGY4V0QzTFd4MzZmQ1BQcjJXWGpRRksybkJOLXVHNlhmVzY1M19FMl95S2RfQmpSVndPbjFqVWhyUXk3YVB0MURIcTI2cjBt?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-11T10:28:28+00:00"
+  },
+  {
     "label": "AMD",
     "title": "Phillip Securities maintains AMD stock rating on AI chip demand outlook - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZXo3SVdHVHp2ZklyMjFLNWJHSVM4NXltR0lrbmNTZ0E5djhTOWVsU3hkTGNvV0F1cVdXeTN3UzVpaVRHbWZtOWNwOXlJR2ZabklrMGxLYkFwZVJSaFJvZnhkT0hmYWQ4aHlzUS1BSi1laXdLVURhdDRIdWhKUUFRM3lIM3phRWd5TWRieVVFM09iUWpCckVFSzBZRGRLTzZKNl8yNVVDOVR4TW9HcmtqbVY1Z2MyNXU3NEJpYTVQMF9KNkRmSksxeFYtbw?oc=5",
@@ -1321,6 +2084,13 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSnRNVUliUVA5REJjQVFGcWt1ck1sSW1xMHdjMXR3UUpIYkF6bm1OUTRrYmNsWWZTWU9BcHpsNTlGa3NvckZlNG5xU1VfUU05RUNBZURvNW43MnhPSC1mN3otaTRwcllpRFdISU5Ldl9hVzV0bndBWWZzYVVCdXE1TklTU3d5d2J3U2JBaGxXa1RCYVdDNVZ0ck5pNTJoLXF1REpBYXNfN0t2ZDBYaXV5ZkVxU1BvUEZGRGNLV0Z0Q3BoVXI4aG1oVg?oc=5",
     "source": "MarketBeat",
     "published": "2026-08-11T10:11:34+00:00"
+  },
+  {
+    "label": "AAPL",
+    "title": "Apple stock sinks as hopes that new CEO John Ternus will launch a high-end, ‘all-glass’ iPhone are shattered - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTWtLUUVWOVNpVjFUOWtJWG5OZnlHVmF2MWc5a0E3VWp1R0F2QzZkbHFzSlRubTQzUl96ZUFzcTVtUWpvdHp4MHBlSEduTGlmR1pGNVRGMHhrQndlMG9jRFViTURMUDFKdE15NHhBWGVfQTIyRnZBYXlySWJ2ajE2Z2JlV29DZGph?oc=5",
+    "source": "Fortune",
+    "published": "2026-08-11T10:10:00+00:00"
   },
   {
     "label": "KMI",
@@ -1513,9 +2283,9 @@
   },
   {
     "label": "DAX",
-    "title": "DAX - Lauerstellung vor weiterem Anstieg? - Wallstreet Online",
+    "title": "DAX - Lauerstellung vor weiterem Anstieg? - wallstreet-online.de",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE02OGNjZUhCeUhFdU1UV1RNdDVOLVJGcElWYVpYN296NndwYXBnd1VpRUh5VVJwS0x6SXYtWm1fR2ZfMWc0bE92b0ZkQXVaNEpIM2NCUC03czFMYUw4ZU12Vkl6anotY2ZMUG5EUGRkZFJQM2l3SXFnMTZBeEVIUQ?oc=5",
-    "source": "Wallstreet Online",
+    "source": "wallstreet-online.de",
     "published": "2026-08-11T08:46:31+00:00"
   },
   {
@@ -1744,9 +2514,9 @@
   },
   {
     "label": "DAX",
-    "title": "DAX Aktuell (11.08.2026): DAX Prognose & Ausblick für heute - XTB",
+    "title": "DAX Aktuell (11.08.2026): DAX Prognose & Ausblick für heute - XTB.com",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOXNsTUh2ZVJJaEVJcGljUUFieDB2VVFSS3Vad182N19OMms4WWIwVERrd3Y4dW1UQmhiTmxZalJKTUd1eWJoWGIwN0pFcVhxN2wzeUExeUNDX01GTDhiV2liT0tNM3ZHSzB6X2djODh1SllmdnQ2WkRvOENIM2J0NWxfZXpoZEhiVklJYV9XejVNZzZzckI5MDRYa3hHc0hIbnBqTGpvY2tCZFQ2NjBPaVluaFpJdllqQmhpRFE1eGlOTXc?oc=5",
-    "source": "XTB",
+    "source": "XTB.com",
     "published": "2026-08-11T07:19:00+00:00"
   },
   {
@@ -1846,6 +2616,13 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUThXcU9zaGx0dm9RYVBnRHVaT0lCYXZHaUpEMEUxUlJOc00wTlBEMEtpM2FXbkxiRno4YnFySW5KQ3VobWsyZ21CNGtlSzNTNnRpVHJ6RUVPYnYtcXJlX0ducW45YUxXSmxNbVFRM3lFa3NPcFpsc3ZvUEs5TW13LV9nSjFPQmt2aWU5M0JRTExGWWc?oc=5",
     "source": "Al Majalla",
     "published": "2026-08-11T06:30:10+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "The US Fed’s New Philosophy Could Be a Recipe for Interest Rate Volatility - global.morningstar.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdGVOeHZtTHBSY19Pa0lnUk9YdXZyRmpHUEtMSWJESC1SWi1GUzc5Q1A4ZllxbWN3R1hhZW5DaTB3VXBkVUFRTG5GZXNkZ1VTS1VfQ29BSFl4MzFSWTJrNDZsbG1lRVJGU044bjNWamh1cHh4VlhqUzl3dkVGSGR6eEEyd3BwMy1FVnd5VkNPRFNDcmIwbGxpQ056VFFOWTRoRzNVQ3VuT0dRaGpO?oc=5",
+    "source": "global.morningstar.com",
+    "published": "2026-08-11T06:13:17+00:00"
   },
   {
     "label": "MSFT",
@@ -1967,11 +2744,25 @@
     "published": "2026-08-11T03:56:20+00:00"
   },
   {
+    "label": "WWD",
+    "title": "Woodward, Inc. (WWD) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qNndrRlBLN09fdG1ZVHA2XzNiMVh1T2NncDRzWGk2ZDQzTkdQVzkzb3BweHhfNW1VeXpIU1oxb0JWTTl4MEJ6U0U4ekNFeVpm?oc=5",
+    "source": "Yahoo! Finance Canada",
+    "published": "2026-08-11T03:52:06+00:00"
+  },
+  {
     "label": "SIE.DE",
     "title": "Siemens Q1 Results Today: Time, Earnings Call, Dividend, What To Watch, Share Price - NDTV Profit",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSkFrZXJGYVBjODN0UlplcXJqdEpvcDA4UjkyY3ZQaHZvREw4QnJJd2FZR3d3OC1vbTJid2pmSy1RWVd4V3lDWThmNjZiRlZqUHJoeDhJYk5BamFHb1ZPY0RMa3ZWbl9fWERzVnR0OFRSTk1LcHpJWTltenhHN3Z0b2JDOWdqbGNybWt3a0JuY2txWFZqR0RPem41SHVfTThOQjZMbDR4UnhZbnFIeTloZWo5c2plTmd0dWRQNXZLVdIBxwFBVV95cUxQOXlUeFVoTWdudkpnV1RrLVdFQUFUQ29ZaDQ1YzdoQ19pT3hsQ0RUdTRUZUJfT181a3hadlBEN29KT3Y3Sl92aFdnR25zOGZVYmxlVkpSTnhIVFpLb3Y0czd2aV9wcXpWZGNiVmpEMktuM0pUTWRsMEFaUDljekRYUGZ3UnNUVlBiR2ppNGRhZGxuajU1S3g5TUNIb1VrMl9mWGJ0aXpxS25ibUJ1cXkyRUVibEkwZ3E2VHNnSExZb0RRa0ZJMC00?oc=5",
     "source": "NDTV Profit",
     "published": "2026-08-11T03:46:44+00:00"
+  },
+  {
+    "label": "ENPH",
+    "title": "Enphase Energy, Inc. (E0P.DE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LelQ2dHJRdGw5bERXR0ZESU90enBuUzFCREdSTHN3ZlNpaVlPbFF2R3dYZWRULWtNalJWTTFlLV9VX0JmSV8xQ29rSUs1eXBQR2NEXw?oc=5",
+    "source": "Yahoo! Finance Canada",
+    "published": "2026-08-11T03:34:56+00:00"
   },
   {
     "label": "SAN.MC",
@@ -2086,18 +2877,18 @@
     "published": "2026-08-11T01:19:10+00:00"
   },
   {
+    "label": "LHX",
+    "title": "L3Harris Stock And 2 Defense Picks With Long Term Contract Backing - webull.com",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMT2s0eWFHMXVVb0FxOTItcDY2WFV5a2JtZUtpeVhXUzdQZV8tMHpOOEl6QzJDTE9iZkVlUFYtaDRPVVV5d1p3cFNyS3l3em1JQ2dldXR4Rjg?oc=5",
+    "source": "webull.com",
+    "published": "2026-08-11T01:12:42+00:00"
+  },
+  {
     "label": "HEI",
     "title": "HEICO (HEI) Stock May Be 18% Overvalued As Growth Priced In - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaXN0TGdSZVJqTzFYd2llaGRtcVp6QnhzTGR5Q0dOXzR0TmJOY3dibktFdEFqdmVxcWFGQ3VyNnk4cENLLWYwUkdKVElISlhzeUVDOGotZnhzOXU2RkJ3b1R3ZHJITHgwU3NPY2Q4RUpPZU9wVEZTdUg1OG9WNHg2dVNrU3ppUktqRFFKcFdkRFA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-11T01:08:00+00:00"
-  },
-  {
-    "label": "ENPH",
-    "title": "Enphase Energy, Inc. (E0P.DE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LelQ2dHJRdGw5bERXR0ZESU90enBuUzFCREdSTHN3ZlNpaVlPbFF2R3dYZWRULWtNalJWTTFlLV9VX0JmSV8xQ29rSUs1eXBQR2NEXw?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-08-11T01:03:41+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -2112,6 +2903,13 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcnhQUmtqLUFDNzhZeXp1Ul9WeVhWSklxcFpkMm5JT0VIVk04WjZHbDdNTTVhS0F3LVFGRXJWZWF4U2FYZ09xYy1kLUUtelBobVBCR3JuSUJsMFdCSmRhRXE3YS1uNXV6cnZXdUNsaklyOU5sV0Z5bUx3ZzU3VTUxUm1NTGtHU1BOMUlVaTBMOU0?oc=5",
     "source": "Yahoo! Finance Canada",
     "published": "2026-08-11T00:50:48+00:00"
+  },
+  {
+    "label": "TSLA",
+    "title": "Byrna, Lucid, Park-Ohio, JELD-WEN, and Tesla Shares Skyrocket, What You Need To Know - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcnZVb1pSXzViTVpreDF2YUZmQmhmcm1STnFMRzgxbzd0blVmLUsyLWYxeHUyMGpPazhRWHlfSGxFMjVVVS15c1lQdmtERXBVX3E5RDhGcnhqWlM1TEJ2WEluNnJxTXo0YkVIMi1vTGlia0c5ZUpDUlYzWUplbkZnQjMzT2FNaUdmSDJHdWlTV0dzel8zUHc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-11T00:45:00+00:00"
   },
   {
     "label": "INTC",
@@ -2133,6 +2931,13 @@
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZUYzdEFFNkVyZmxTNGRZYnY1azRmMjk1VU1WVVowbWhMZGQ3Ym1vWVdrcnBoc2xaV3NJdzBQVkc2Wjh4WXJUMXF3MTNoZ1NtbG5Eek5BUWRNcklWRVpjdzRRdGhlemRhN08yTjdfR1lneDdTY2pwOGJ1NDZtLVBHZkFrV0QwdE5POHdiYXBrc0RpekppTm5nUmxCbzU3UjJEWVhIeW8wekp5eTNIOVZ0RmVOaVlHRW5WSlBUdzN6S3ZZdHNEZ19rUEs0ZHZFT295OElGUjNBWk8?oc=5",
     "source": "theglobeandmail.com",
     "published": "2026-08-11T00:36:00+00:00"
+  },
+  {
+    "label": "NOVN.SW",
+    "title": "Novartis India Limited (NOVARTIS.BO) Stock Historical Prices & Data - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YbDBkMTU4bHQxQWJZU3dnRTRKNGg5NGVDQjdGdG5NUmp0WkJ1Y0ZaQ2hnZWpwTV84LW1FZ2JGWnQwaEhRZVVwbGVIMjIzUFJEQ2gtbmhpZkUtbURjSVRERjZmeVRyZw?oc=5",
+    "source": "Yahoo! Finance Canada",
+    "published": "2026-08-11T00:27:54+00:00"
   },
   {
     "label": "AMGN",
@@ -2262,9 +3067,9 @@
   },
   {
     "label": "AMZN",
-    "title": "Amazon Stock And The Profit Signal Everyone Is Chasing - Trefis",
+    "title": "Amazon Stock And The Profit Signal Everyone Is Chasing - trefis.com",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYTI1cDl3SUlZNjJUQ1ZORmphbGxLYXRsRVdrSFQ5SXhkSUNnSTJxdDRqVWs3TnFaTGZnSlI5RkRycGExaUlTd2dyX0F6emJ5dXNTbmZvcHdCUDBSNXZURlllN055LUM3dmxJSGZ6Nk5PVmprcloyd1hpYklXTjRfOUh3SVBpVGtSQ29zb1YxN0RnUlM0YlpLOXM2WDYxNXJxY19vN1JOcXJPd1FzNW1rUVl3UWlYdw?oc=5",
-    "source": "Trefis",
+    "source": "trefis.com",
     "published": "2026-08-10T22:47:37+00:00"
   },
   {
@@ -2479,6 +3284,13 @@
   },
   {
     "label": "NXPI",
+    "title": "Why NXP Semiconductors Stock Dropped 18.5% in July - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOGNxOXRudjZYR25HX3RuX2lHUEszZjdmMmwzdzVKUzdGc2xZX01RWmg0QnR1UkhQZ1dxQUo3cUg0cVdNNWRzY2htZE5tTFBJYTI2UnhiaDF3MEJLV083Z3VQTkJaMlNVVElYZ19WVmRNMTRaX2k2cEdjVjZITVZDWU1EUUlfWHNZVjRnR1JkNzB4dVhJcTZSS0lxQXNTSXVDTnl4TDFaenUyRXVLaUpHMGdkOTR5eGd2T2dpYzVpLW9CZmNCOVB6ZE9uejdLUQ?oc=5",
+    "source": "The Globe and Mail",
+    "published": "2026-08-10T21:20:38+00:00"
+  },
+  {
+    "label": "NXPI",
     "title": "Why NXP Semiconductors Stock Dropped 18.5% in July - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTFBkeVBKYzF0dGdPUkFmaTdaR0p6dkJDX2FuRmctMXEyLW1YbVNkLVlPczJodm9SaWVmaGNlbG5Wd2JwdWlqZ3I3OXllcVFEM3VMb2R3Y2ZFaGFGcWdOQ1d2M2JxTk5HWEFzRkQtcDh3cWZWd1gzNlNtb1VHdUw5S253QkcwN2NZT29TaHJsSkdkVnI5VHlVenBuVXNkaDRSUUJR?oc=5",
     "source": "Yahoo Finance",
@@ -2506,11 +3318,32 @@
     "published": "2026-08-10T21:18:00+00:00"
   },
   {
+    "label": "SWKS",
+    "title": "Skyworks Solutions Inc. stock underperforms Monday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTElfM09MS005MTBQaGZnQkcwM0xGNjVUZU1oNVRoWG1HcXZKNnJLU3ZMSmhUaHo1dkViMkc5dGl6VS0wN18tXzZaSTFYaGlPUGdrZDhxVmNObHNmLXBfQlBYMzg5bllremZwWjZPX256RFluNFd4VXVDUDM2dGIzTkRiME5tTm1ZWV9acS0zUFFNcEx1Zmt6WG03WDV5WmxJYWZsUmpkanlPQTVDYkN4Mm1EUUl6Y1AweWpHNFpCQUEwbGpaaVhWeW5HS2Zfb3oyeXg3Rw?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-10T21:18:00+00:00"
+  },
+  {
+    "label": "HII",
+    "title": "Huntington Ingalls Industries Inc. stock underperforms Monday when compared to competitors despite daily gains - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPRW5pSVZsLXBPNzhNZFg5ZDNIaE1mYnRhbnFRb29ET3BrMjEwTjJCRzNtVnJuR1NWUVZUWXRCS0tGclBuanMxTHlaVWFEd1ZEQ1BPekhXMndnamhTeTYwZEU2anJVZFhJeFp0VjVvdDBSQVVlQTI0UFMzVFh4NmZtT1NqelhjRjV2dUZLQjhTeEJBYWZEdmRJTGRwSEl3UWt3LVM3Z3d5UER6S2JJbzhVNG5HdG5wLXFybUZ2M0RoMTd5TUtXZXBfTzVzaWN2TWpCT3BfWFk1a181WnZ1NWI5WlNFbW0yT2FINjhlSGVWa0tKbl9RZkZ3TWlLX2R6Vnp6QWI4UXU0VUZOREJhVy1fYmJIaU1sQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-10T21:16:00+00:00"
+  },
+  {
     "label": "BE",
     "title": "Shareholders who lost money in shares of Bloom Energy - GlobeNewswire",
     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxORnVKem9EM0hHRWVqbU1IMDRvS3dpTm1aOHV1V3h4RTRFLVg1VENfTFB3Qk1HR3VnLS1MUXdGdmdPbmNyYXp0dVlRZGxNVEM5RThTOGUxWU1yR3lGUVVRWDVySGhvdDYwemg5Y2MwTDVvMWk4R3BqcVZDZGtURk14dTY2NkZneUdUbEFleWVfNktuOVhMZTE4cl9XMkp5YzJ2WDg2eVByelVfdnpNZlVRQ0xTRVp1LXN3VWxaa3lGdHp0OVdwZVJvZW1XMDhudFIwQXdfRFgwOXVLcGlSYlB5Q010MVl1OXZjb0ZUTy1GdDRQdUtBazZwUW5SMXBCVmFIbVN5NmVmTWZKakxSMjRyS1NaeFUxemV2bDRmcQ?oc=5",
     "source": "GlobeNewswire",
     "published": "2026-08-10T21:15:49+00:00"
+  },
+  {
+    "label": "Scalable MSCI ACWI",
+    "title": "Oil prices rally, Wall Street retreats with Hormuz, inflation in focus - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0JfVHdob1VJM3o3c2RjRHBySGdOb0h0OFVfVTNUdGo5ems0NjhoaGhMaVhpWG9iR3J4dlJkZVBlYVgwS0w2SUd6ZGZiLUtMUndydTZycjNJQ1l0MENqTmdpOTFycEZBRkJ3ZUEyWlM3RERCOGhoYk5ISEdLZnNIUm9HYw?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-10T21:14:14+00:00"
   },
   {
     "label": "LDOS",
@@ -2527,6 +3360,13 @@
     "published": "2026-08-10T21:10:41+00:00"
   },
   {
+    "label": "STZ",
+    "title": "Constellation Brands Inc. Cl A stock underperforms Monday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOWN0TFRwV2JkclVIOU1YUEFTQ3F3UlRPZTRPZGlEQmpEXy1fVVdpcWx4SGcyckhvN3R0UzJUNVQxSTRpRWlkWWpab1V5TXZBN3VIemhOaHlmbDFnem1CT2VsamdKQVVpX05YM1lzYmRvTzZXV3lYbW5HYVI0RkExR2xvZzBiNmNvR2xzbk5IM201MlZNSHN1RVJDdWc0QU5oQVBveDRWWk1DWjl2V3oyUUdBR2J3Y3JjTVhiajAxRGVIaWFPQTNHVGZjQ3Q5YVh0SnVtaHdDQjlvemRPdTg4OHBLeW56NXgzRExMZzZKaEJuWVRLZEE?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-10T21:07:00+00:00"
+  },
+  {
     "label": "VRTX",
     "title": "Vertex Pharmaceuticals Rose 7% Today. Here’s Where the Stock Is Headed in 2026 - TIKR.com",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNLUlJdlJXb1lCbFUzR0J3ZEh1V3B6Ykh2RUR5a3hjUGtrbnlRaWV5YXVSbVFRUjZ0ZWoxRGRudDJoY3A4U2lsTDVRN29LUjk0QkY3V185dGgzdUNLRzdDR0QySlo1MXotX3g4LThrS0Z4Rnd1c2tmdmVrXy13dDB4a1IwaG9SdHRlV0ljd2VaQkxxWEVRSWgxN0hGbkNvMlg2Ukww?oc=5",
@@ -2539,6 +3379,13 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYW9WWW9tMUUyeE9jekdzamk0cElaamVIaE9XTTdVNkNPTkZRdDhqRndqYmZFOXdjVmxfREtyT0xEZ1hRc2dZOUtEb0tKU3d4Vk5ScjB4VzJVQjBQQVM0bFc4dUdHQjdiQUJVWTNmR3U2VkFfU05MMUMtQ0t2R09mLXh2LVpmQTFZRmNNcEUyTUNENUh4NnRSYm9YX2d1aGM?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-10T21:04:47+00:00"
+  },
+  {
+    "label": "KHC",
+    "title": "Kraft Heinz Co. stock underperforms Monday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNT3ZGOHVpbEw5cGNiVGh0Vl9XRlJMZTBKWnhTS2U4NmM5Vjl2RjYybjV1bGdha05NbjNrSVhSWUVjTEIwVTg1MUtfVWVmRldGdkxwT01NTHhQTmJldFRvbHl3cmM2VVhYLWRBdWVtaEtEZWdsR3ZkNWhTVi1IUjc0dFNvZkFzU2ZDUGJmWTByZ0lScUFtR3hJX3h6aHR3WmJOTmN0LXJCSHBmNDh3Qlg0dWZaeTBDNEFrZS01UzAzal9GU0VYMnJ3UFlUVlZqM01LNnFRa1ZHaV9WVzNNVW1TUTln?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-10T21:00:00+00:00"
   },
   {
     "label": "ON",
@@ -2574,6 +3421,13 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOE5BaTRGc3JmQzdBREFSa3otakVQZ2d6WEViekpCZmZES29yVTBxRkxqcnZfMHp3aEtGWGNpZ2xxZzRZa216YXl0ZVBjdjItMVJxMTV0S0VVSzU0VVJ2OHRZZzE0OVpVc3ZCbmp6WXM5NHgwOFhHSzl0X2Fuc2VpTy02UEd4X3FIbW02X3Vfb2pXNmx5Ulp6R2hJSWVhVlVBZUE2R2FqcEluWWpleVhqdDVhUjQwOVQwOEs5eVBiUlE2LXZnNElKZFJrMA?oc=5",
     "source": "MarketWatch",
     "published": "2026-08-10T20:53:00+00:00"
+  },
+  {
+    "label": "INTC",
+    "title": "Intel to Sell $15 Billion in Stock After AI Boosts Demand - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYWh3QVNKT3liUUxPeUl4SUxxS29TaERxSEJPSmhySzFRX0c4NzdVLWdyN2l6bVlDSGZ0NlV2OUZOVzVZRUVxTjlzZVhZYURMbjBCSjJrbjNRRFBaRTI3SVhydE9jLWlUYTZkZVZiVm1fYWtncm5RYV9qS2VyYTdwb1ZKMFpyWjM1WlJScHBSbVRIdTBLZlprTG5GWktlRjhFTlpSVndoa1ZxZw?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-08-10T20:51:30+00:00"
   },
   {
     "label": "OXY",
@@ -2926,13 +3780,6 @@
     "published": "2026-08-10T20:23:00+00:00"
   },
   {
-    "label": "WWD",
-    "title": "Woodward, Inc. (WWD) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qNndrRlBLN09fdG1ZVHA2XzNiMVh1T2NncDRzWGk2ZDQzTkdQVzkzb3BweHhfNW1VeXpIU1oxb0JWTTl4MEJ6U0U4ekNFeVpm?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-08-10T20:21:58+00:00"
-  },
-  {
     "label": "HEI",
     "title": "HEICO Corporation Announces Regular Quarterly Conference Call - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMldjMlZpNGFRSTUyTDc4aHFrbVlxdGFma3EwbjduZGdKRnNyTmVBWDJ3Qko1SmhWRDd2WHNyQWVNT1JYalVLTHNBTVRULVB0RWd5Q2ZhcnRtZ20ybElzR0xtaE1lZkpXcGI3eHZQZUJ3OUxITmpJV1VmWjJLLXZrWXpWRkxZckdzZ01DTUZHUmpOOTlrZkpKM2dCMFRwWm9CWk4xUGpQZS1jUXMzd1cw?oc=5",
@@ -2948,9 +3795,9 @@
   },
   {
     "label": "HEI",
-    "title": "HEICO Corporation Announces Regular Quarterly Conference Call - theglobeandmail.com",
+    "title": "HEICO Corporation Announces Regular Quarterly Conference Call - The Globe and Mail",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYlM3eTZNZGxMcUswVTVGXzZBQ3dJS29JdTQzdmUxUEM5SlpRWXJ6anM3aEVwLWREUEtpeG1LdFFVQV9OZ2RHel9aUG11clhkRUJKM29rd2Zqek51RnBsZFpsaVVxNXcxejlYa1hlSWFnTTl5MXl3VVgxUXRpcWxnRjVHYWk2NHdvSV9yWU5pMFhQV2lNc1dReVVwSnhOQWIwcllnRzlhTWJlamFseFprOG9tVlpvWWY1SE5UV1dfdUl3OTVJMkNYazRFWEp2QmNMZ1VPa0Z5Y2JBZEpHclBXbg?oc=5",
-    "source": "theglobeandmail.com",
+    "source": "The Globe and Mail",
     "published": "2026-08-10T20:15:00+00:00"
   },
   {
@@ -2959,6 +3806,13 @@
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XWThBNGh2RDVKdjlHSHF4UEhvVjB1cEQ4QnNURXF6VU9EQnQtT0YxZE5GQmhwVUlzamtZc3VrSWRoSFUyYTVQYVVRemwtTXFlQjdzUnpFZkN4VFdlMFhneXRvTlU?oc=5",
     "source": "Yahoo Finance UK",
     "published": "2026-08-10T20:12:36+00:00"
+  },
+  {
+    "label": "BA",
+    "title": "Boeing Is Betting on Archer Aviation: Why ACHR Stock Surged as Much as 20% - Stocks Down Under",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZYUM0c1dHc3NoS1dRYUg5NUs2b0lQb19wcmMwdDBVOGhrNTB3Nnd6MlVFZjRlczVqbzdNd0JDaWdxTE5wTGJVU1h3Y1V2R2dtZkNZWk1COHY2aFBoN0poTGJ6aVd0MGxBMXNLSmhsQXFiWVpJMlFz?oc=5",
+    "source": "Stocks Down Under",
+    "published": "2026-08-10T20:12:31+00:00"
   },
   {
     "label": "SHEL.L",
@@ -2990,9 +3844,9 @@
   },
   {
     "label": "AAPL",
-    "title": "Micron Stock Rises Despite Reported Apple Supplier Threat - finance.yahoo.com",
+    "title": "Micron Stock Rises Despite Reported Apple Supplier Threat - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRWZLbHd2c1NyWWNEeGtydEhaenlIVk5xSV9TTU5yVWZ1dGw1cEdIOTRXUF9VM21vZ2hadWpJTEhZb2F3ZlUwN0Z3WllEcDd6czhnQ0xzb0RZUzlLZFZHajZ2RUI1b1BkRmNyMzBqc292aUlpenhlbkRCQUtna3ZRc3VBYVJPMnJ1NHdUeGdobDZINFhyZEV5M1RMWnA3R3FzblE?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-10T20:07:51+00:00"
   },
   {
@@ -3010,11 +3864,11 @@
     "published": "2026-08-10T20:06:49+00:00"
   },
   {
-    "label": "BA",
-    "title": "Boeing Is Betting on Archer Aviation: Why ACHR Stock Surged as Much as 20% - stocksdownunder.com",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZYUM0c1dHc3NoS1dRYUg5NUs2b0lQb19wcmMwdDBVOGhrNTB3Nnd6MlVFZjRlczVqbzdNd0JDaWdxTE5wTGJVU1h3Y1V2R2dtZkNZWk1COHY2aFBoN0poTGJ6aVd0MGxBMXNLSmhsQXFiWVpJMlFz?oc=5",
-    "source": "stocksdownunder.com",
-    "published": "2026-08-10T20:02:09+00:00"
+    "label": "Scalable MSCI ACWI",
+    "title": "Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcE9CeWQ3UUhJR3ZMYjlnV1JmT0ZYV3NLWUc2UG82SnNwS0ZtelczaFNDa25xaDB1cG5FTWdfdl8yVEFLOUc0RnBCbjBkTURvcEs3SUloSHRaemE0c0gxbTdtZlNvT2lnY1dQSTctWVY2V1E1RHZZZEhTUDNIRUs4bFFIUWNtWTdkRklJdWZvcWJiS1pN?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-08-10T20:01:21+00:00"
   },
   {
     "label": "BA",
@@ -3109,9 +3963,9 @@
   },
   {
     "label": "COST",
-    "title": "Costco reports strong Q3 2026 sales and income growth driven by rising executive memberships. - Pluang",
+    "title": "Costco reports strong Q3 2026 sales and income growth driven by rising executive memberships. - pluang.com",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcmwwc0M1b25YNEp6WkJtZmQ1cWtkY28wV29va2NOSjhwNEMza3RCVVJaM0lKOVl4RGZ6dUJuRXNKRlk4NlAzZlBHOUZCVDZEb2JkNHhvNnFMMm1PSjlzMHZXc3k5T2pTckd2c252bE52dThDT01EWDJPbUZKS1Rydk5JNlc0Z0s3b0x1dUt1R0hQRXJjTEVEZDhmVlU?oc=5",
-    "source": "Pluang",
+    "source": "pluang.com",
     "published": "2026-08-10T19:33:12+00:00"
   },
   {
@@ -3312,9 +4166,9 @@
   },
   {
     "label": "BSX",
-    "title": "Boston Scientific Stock Is Priced As If WATCHMAN Were The Whole Company - Trefis",
+    "title": "Boston Scientific Stock Is Priced As If WATCHMAN Were The Whole Company - trefis.com",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONXBTeUp0MHAxT20xR29rc216TVcwN2Nwa3ByRlBIc2VIWU9CUWZDVDFKT3JhbXNId3FVajdkTTBYRmRqOXZqZGxyUGVCZVppU2dzRWRDV0MzQ2JCeGExVm9sVEdxTEhlY2picGlLWEZ2YmVUcHFUOFFFaWhoUHkyMU5oWDNIbk9uNnVuUW1wV1JqUlQ4Y2R0NG9vSlVMaW1RWW5kNVFOVEticXFldXFoMVNFVjZFc0RUX21LT3dn?oc=5",
-    "source": "Trefis",
+    "source": "trefis.com",
     "published": "2026-08-10T18:13:59+00:00"
   },
   {
@@ -3606,9 +4460,9 @@
   },
   {
     "label": "AVGO",
-    "title": "Broadcom Stock Looks Like a Screaming Deal - finance.yahoo.com",
+    "title": "Broadcom Stock Looks Like a Screaming Deal - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjlxWW50YUZtV3BzeEZrOUFpNTlsZ2JxcGswX1VseGoxOEI2TTFyN3FmQ21zNmRidDdXNzVtdTlCb1JQLVBDd28yM0l3aThCLXo3NnFXYUVOck9uM2RjLW12M0F2NDRUaHlkTzJUZE1DMEZ0Y0JGeHZkZmtPUGRieXg1MFRqZ1JjOVE1NTJLS18zbm8yUnVNLW5YNFlvLVE1VHc?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-10T16:05:00+00:00"
   },
   {
@@ -3627,9 +4481,9 @@
   },
   {
     "label": "LLY",
-    "title": "Eli Lilly Stock’s Next Climb Runs Through A Pill, Not Just An Injection - Trefis",
+    "title": "Eli Lilly Stock’s Next Climb Runs Through A Pill, Not Just An Injection - trefis.com",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX21ZaldLSmF0dk1sOUhKSVVrclE0UHpfUjR5M3NBRXBGMHVuVnVLbnRPalhJR29rcV9XWjNMLVFXbms3RmtsM1BIaFZ6UHJvOHpycXhqU21DbnpWYllZV2swR1pxSVE3N21pSUQwT2lDSkZ2TVdlM0dsdEZzUE10R0F6ckcwcWMzbWloUGx5cy14U1ZtalVGLXpqMnd2MGRqaUlUUDYxbWdHSy1GTU1tVklyY09xTlRKTTNWTWRjQjYteG8xRnpTeQ?oc=5",
-    "source": "Trefis",
+    "source": "trefis.com",
     "published": "2026-08-10T16:00:57+00:00"
   },
   {
@@ -3816,9 +4670,9 @@
   },
   {
     "label": "QCOM",
-    "title": "Qualcomm’s Android Growth Number Has Left The Front Of The Story - Trefis",
+    "title": "Qualcomm’s Android Growth Number Has Left The Front Of The Story - trefis.com",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZFRYc0tzNmNoX21OMVdiUkdqX0ItaU9YelpDVjZGSmxiMHl2OF8yMnU1OVE0U2Z5b2dZSDVsWGY4NGVEcmpBYzQyR1ZJZDFvX3J3bXR2cHQyZFVoaVdNbGpfcmVpNjhseFQ2dmpINC1WTlJMbk9MNWFXM19TbmhJZGZCRW1CaGNwSkhLSnhYODYwVzF0RWprWlM0d1ZtU0RGb0NLSmpOWEhENU5PWUxXUzRtQ2dLYVhhZDBFSnpibVlfUQ?oc=5",
-    "source": "Trefis",
+    "source": "trefis.com",
     "published": "2026-08-10T15:06:12+00:00"
   },
   {
@@ -4068,9 +4922,9 @@
   },
   {
     "label": "TSLA",
-    "title": "Tesla Stock’s Deepest Fall Was Worse Than Its Worst Market Crash - Trefis",
+    "title": "Tesla Stock’s Deepest Fall Was Worse Than Its Worst Market Crash - trefis.com",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVW1jaHNGWGJxZm1wU1JCc3NTbzBqTUg4dE9DRU54YjFVRTZfNThKOW9acjhaTHdwSHhiMFBNMW5pRDA1dVVIOGRxZTBjRGNwLWJqWTdzSXdLMkxNc0RvSG93T1otcE5wcExZNzJxMmh0bHJfbDQyLWs3UXVNR3ZnREtpekFqWk1lRXdNc1pRbGxDMTUyN3dKbjZOelZ2MUlDeDJWQTVqSE05MW9QUl9CRGZlOXJqSDUyWFpGUGp6NGFwUQ?oc=5",
-    "source": "Trefis",
+    "source": "trefis.com",
     "published": "2026-08-10T13:37:53+00:00"
   },
   {
@@ -4152,9 +5006,9 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "title": "July CPI Could Show Further Easing in Inflation - U.S. News & World Report",
+    "title": "July CPI Could Show Further Easing in Inflation - usnews.com",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGgySmYwekhUbkxzRWx6TTBDSmRMZEhyemlyRXdudWhLNWMtbUZjZkM1bExDcUhRVV8yZkhlQm9jaFVZNGJWaGVpalZjWEZlS0FsVURnVEU0YnMtTzZaSnR2Qzl6ZUVuU3RueGZuN3ZEN1RnYTVLX3pjQ1NNeE03RWNkS1dfZDFMR2JfRjlVdllDWTdTeHlUQWUyQVo4UU5EeWtsNVZDbUZhcDZqMlE?oc=5",
-    "source": "U.S. News & World Report",
+    "source": "usnews.com",
     "published": "2026-08-10T13:01:00+00:00"
   },
   {
@@ -4194,9 +5048,9 @@
   },
   {
     "label": "INTC",
-    "title": "Intel stock stumbles following blockbuster $15 billion equity offering - finance.yahoo.com",
+    "title": "Intel stock stumbles following blockbuster $15 billion equity offering - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYWtjaGZ6aElzSF9UNlVHaWdJNUhweTdFUm5sYmNGd1FhM1FiZF9rLWtmbmUzNTY1MTlqSXViYjl2ZXhsNXFjY1FEdFJtWXEteHFTQTZCbnNrUWY0QkRrY2tGSjdDQWc2QVdUd2NSTkQ1TmVRcWFxd2VabnNOQUZLeklXWFBYcnhmMUlHZ0FUbDktNFhnM0c4QjczMTZDcmhQdGJXSFhpMzlJZDA?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-10T12:45:22+00:00"
   },
   {
@@ -4243,9 +5097,9 @@
   },
   {
     "label": "EDP.LS",
-    "title": "EDP stock holds near yearly highs as 2025 earnings stay in focus - AD HOC NEWS",
+    "title": "EDP stock holds near yearly highs as 2025 earnings stay in focus - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZ3hXRU9TckR1OXRnOUZYZ3lkVHNoSHVrdy1JbVFOeFk5YmVONGtxam54V0VqbGZwZndKcnRoOUhzVnZWZUZSSmJCeGZ2QjFTXzFXelVCZnFWSC1ZMC1TT1JJeC1sSkl3eUdoZW1aY0xYTnBjeEpEbFg4eVh3Xzg1OW1vbDc3RnJ5c0hteHRLVmVJT3NDYUxTVXo1a0tMSkhuQXBhZlVMdFdkQ3RCM1pzeld4YjlCZWZoSDZZWi1fdGdGcjRIM1E?oc=5",
-    "source": "AD HOC NEWS",
+    "source": "ad-hoc-news.de",
     "published": "2026-08-10T12:32:37+00:00"
   },
   {
@@ -4264,9 +5118,9 @@
   },
   {
     "label": "Healthcare",
-    "title": "Healthcare sector leads S&P 500 gains over 3 mo... - Pluang",
+    "title": "Healthcare sector leads S&P 500 gains over 3 mo... - pluang.com",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZUR5eFhvNkVxWE9LcHBLMV8yNHc5RVZ5RG9IbDBTOWgzXzVndWx6WUtkVjdIVkk4R2ZMZFNrSE1tNTEzb1RsRUFRRl9yYXV5c2xZUWtnWEhmamtKX1FQQXBGUW82NEdWcWRQN2NHbmZ0b0I1Q09LeUF4WGxZSEhUVVVGOGNSYWxQbDNELWkwNmxIUQ?oc=5",
-    "source": "Pluang",
+    "source": "pluang.com",
     "published": "2026-08-10T12:23:42+00:00"
   },
   {
@@ -4415,6 +5269,13 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNkpWcHRMUjFTdkRfQlJubndOWFJwM2dRa2RvVHZCelprUW5qREJCaTRPVnNLakJPSmV2S0lTNVZ1WDRZcFNNNGh0RlNMUkw2YVJ0ellnSkhrZl9HTU1uU3JzLXNMTlBwclBJWUdYUnRuU0RmUnNiNEJhaU9kcThfS0dQZ25DeS1qaHVlZG9SY0c4Rkc5bVpmZjJsSQ?oc=5",
     "source": "quiverquant.com",
     "published": "2026-08-10T11:25:00+00:00"
+  },
+  {
+    "label": "TDY",
+    "title": "Teledyne Technologies to Acquire Varex Imaging for $18.90 per Share in Cash - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWdwN1ozZG1JWmdHNnV6dGNmMTNKZ19LV2g3NTFXQjlyX1BqZlhlSXhoTlpyRUZXYXV4NEJBTjJjdmZ3Z0xJQ0duTWhXQnJxa0dCanNNRHI2WEs4d3NkeVBLTFk4dVRPdU1oMTB4ZFBPTlh0M21xYjh5b0liZjU0eThlR2xjSFNZblZlR3lMbk8xVFd2VEJvSklYUXV1SHd5WG9ldzNqaTE0T0Nm?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-10T11:24:33+00:00"
   },
   {
     "label": "TDY",
@@ -4816,6 +5677,13 @@
     "published": "2026-08-10T09:30:32+00:00"
   },
   {
+    "label": "CI",
+    "title": "Cigna Group (CI) Stock Analysis: Unpacking The 20.86% Potential Upside For Investors - DirectorsTalk Interviews",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa1dIMEVZeEgwZGV2ODJBbks3Ymp6YWNLVEJZaXFfWVpCRS1LcjliSkotV2RKRFhFcWxBUGs1WW9YSUl1YUtVclhJQ3NNV2ZZYnRDSUVIQTItaU1fel9BaGt2R01OOE1YMnpfTHpTVi1EVGwyRG4yMkQ3MzFEMUU5aXdyR2ZudS1VLTVvUThWWWZRdERmX0dTempVd01xZjFJSm1PX0J5ZlhoRHhwR2RpWmFJZl9FLXBpVmRscnlXcEl5RHN1Z1hJdkVqSQ?oc=5",
+    "source": "DirectorsTalk Interviews",
+    "published": "2026-08-10T09:19:29+00:00"
+  },
+  {
     "label": "JNJ",
     "title": "Johnson & Johnson (JNJ) Stock Analysis: Evaluating Its 5.11% Potential Upside - DirectorsTalk Interviews",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOai1WVE9ncE9Zbm5UcXlBaGN1RGNLeVhORWxmU245Mm5TNGhxMjJ0Ui1yY2JaeUhTY0R6cW01XzZvRFZVcVFDQnVqUml0M2owTUoyZnpyX1lLTmFoRzJWcndFSmtSeVNvalNZR0VJSGZrRl9kRTdkaExWdmZiaENHMHRFQldLZEZweVhWX0VSRHplQ2xxTkhhak1aT1hadUpCdWNNUWNsdFN0QmlTajRMYTRvNVpTUzRwOHNWSDUxRQ?oc=5",
@@ -4914,6 +5782,13 @@
     "published": "2026-08-10T09:05:00+00:00"
   },
   {
+    "label": "VRTX",
+    "title": "Vertex Pharmaceuticals (VRTX) Stock Analysis: A Biotech Leader with 12.74% Potential Upside - DirectorsTalk Interviews",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGlxU2dyNzlHU0swRnB2TXdCeXp0VERnWjBKVFNNR1F5UWhRclU0SXVtYmY4cHNSYXIwQmFvLVloMERlN1VIVWpaX0pFSXlnV2RUSWkyX1RrYTU3b3Q0RmU5Z0RRa3pzLXBMRkRTMk45TTZsVVVZWXp3NnBWNFctOXhNdUJmOVBpM2FycVdISHZxaHVPaXZmOGlMdlRoaE9JLTFnazJvdGo1THNyWFJLbTV6Y25IczBlb0p6ZnBTbi1uY0phelRhQVFoY3NnSWFSSld3UQ?oc=5",
+    "source": "DirectorsTalk Interviews",
+    "published": "2026-08-10T09:04:36+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "title": "Crypto Week Ahead - CoinDesk",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT0xjOXhSbUd1ajF3TXlmMVVxTDY4ZV9qTS1PWmtZT3pXQzkxVVNyVGtDT3ZBVC1OcVhnX1lxOVhaLXptMTV6SW9hSHZFZ0ZuakhjQXRrSEFSWjkzeGQyLVZpd2tHTjZLUktIRlZJakZjT1lpRGUwZ29VcEp4bTFzYU1Va0VCUDhKNG04U0dFQmpGZ182NUxCakFvVzNncnlDeEFPc2dFaDg3M3M3dDd4YjMyQVRiazJtNWhuQg?oc=5",
@@ -5006,9 +5881,9 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "title": "China Inflation Cools Faster Than Expected on Weak Demand - Caixin Global",
+    "title": "China Inflation Cools Faster Than Expected on Weak Demand - caixinglobal.com",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ01FRGpSU2RvbnA1bm1JV0h1Tll4a0o5RmxYNDB3VnBOY0liTlpSV2xremtvSzllTDB2bHQzQkNlZUNTSFFITFNwZFlxQmM0eUwzZEFNcWdnQnBPMGJtN0Q1MEE0dzhKamEzLTdFY1N3V1dBN0ttSWNmajJnb29wVThqcVZRZHI3V0JFZXFCbEVtanBhOHhuVDdtc09DZ3F3QnRFMVNjaWxKeVNDOGtWTVRR?oc=5",
-    "source": "Caixin Global",
+    "source": "caixinglobal.com",
     "published": "2026-08-10T08:07:00+00:00"
   },
   {
@@ -5251,9 +6126,9 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "title": "Will the ECB Raise Interest Rates Again in 2026, But Cut Them in 2027? - Morningstar",
+    "title": "Will the ECB Raise Interest Rates Again in 2026, But Cut Them in 2027? - global.morningstar.com",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMXE0eVNhVkpRZ0JuMDlxeE5CVG5yWW9xT2t1Y1FtVjJXWVhzcW42ajMwWFFqblg1UjNyLWhUSkZXbHdmMF9CNm1YRkU3TXVRNmN1Qm5nWkd3TlAzM1ZBMmxPRUZMeG9haE5sU0M0Y0xUM2RkdHNZRHpqYVl2YVl5QjU4SGFCTWl5S01XSnlyekptQlZXQTVFN2RPSlNrR0V2?oc=5",
-    "source": "Morningstar",
+    "source": "global.morningstar.com",
     "published": "2026-08-10T05:04:50+00:00"
   },
   {
@@ -5369,6 +6244,13 @@
     "published": "2026-08-10T02:58:37+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "title": "BOJ's debate on faster hikes bolsters September rate move odds - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQXVtVGpwdGZEbmVoVV9vdDFFM1RuNE94YUJyTnNwV1ZlR2lpUGhPWFM0eGhFRjRiSW9hMU9wbEROcHJkemNoZ3RqWTA3cER0T3JVYUlpVC04a0tlLWhBdUtBVkRuT1U5a0M5RnFSbkJhNWtpbkF4ekdzcE05ZHQ5MFJHSm8xQ0FzRk54elpwMkpsMlE2MTJ5cVBMd0dQUURoa3FiNV9vR2tjc0RvRkJNenhaTQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-10T02:58:14+00:00"
+  },
+  {
     "label": "Scalable MSCI ACWI",
     "title": "Prediction: Trump's New Tariffs Won't Stand Up in Court. Consider Buying These 2 International ETFs. - The Globe and Mail",
     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPNzgtX3QxaWdyaV82Tkx0NjBOZE1qVGNtNTNvbS1Ya1gzdGs4QkRHMjR4cHlvYW04a0ZicmlYcy1GaWpkNVNIWDJUUVR6V3lIWXlhYTdLRVZxcFJRMjZnSG00a0VrLS1WR3ZqemRScVNxeHpUeTFILXlIQ0tEUVEyaEhUQ2x1ZHNMdHdwaWttbGd6MjRCWk05V1owM2xmUjAxY25ETndLb0VjNmxRaUdhTmU5amxlQUNHY2pKNzQ2eHJ3WmpudTJqMnhMeWFIZ2QyTVZ1cEMzNGw4OURYdk10c0xtYXRpM09RUFhPVW1ZQ2VtRU5Zcjk5MkNrZk1wNWRQZkphR0JfNjZ5UFVOZlFZYg?oc=5",
@@ -5481,25 +6363,11 @@
     "published": "2026-08-10T00:50:00+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "title": "BOJ's debate on faster hikes bolsters September rate move odds - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQXVtVGpwdGZEbmVoVV9vdDFFM1RuNE94YUJyTnNwV1ZlR2lpUGhPWFM0eGhFRjRiSW9hMU9wbEROcHJkemNoZ3RqWTA3cER0T3JVYUlpVC04a0tlLWhBdUtBVkRuT1U5a0M5RnFSbkJhNWtpbkF4ekdzcE05ZHQ5MFJHSm8xQ0FzRk54elpwMkpsMlE2MTJ5cVBMd0dQUURoa3FiNV9vR2tjc0RvRkJNenhaTQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-10T00:49:00+00:00"
-  },
-  {
     "label": "LDOS",
     "title": "Is Leidos Holdings (LDOS) Undervalued As Raised Guidance And New Contracts Lift Outlook? - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNHFsUVJ4NS10cmZjUXA1U0ZOZDFPUUdtblFkLXl2VlFSS1hqSVlfazhRd0FZT3lPeWo4YmQwLXZFZVU4akRZS28teHFFRmdRdDJvbENSUXJHWXVHUFRIOVVsZ3ZDc1RGbnJGd1RHS2JLOXg2MWtZVTZ4Q3JKWnpMd0x1cVJBUDBUQXBPRUFnNVV2ZWhaVElCR2p4UlBYOGVieFkyYTNBVnhoWkgzQk41bkZlZVFpRzIyOUt4aVdpOGE2LWREMjVUWHlSQ2FzZmZQWHRGdXBnMTg4azjSAeABQVVfeXFMT0EteTNvT2tGcTI1Z0szRERRWjAwVjdsb3p0c0dqcFUtUnhuWlgwYUtTSTJWcEpPZTUyTGhwQVRMSEFyU2xqU0pRWXFxVDVMWF8yQmN0N2Z0c1lES0h4V2NQNDZKNVlmQmRLX050NXhFWGtBaDhXemk2MnhwcmlJNEZhR0JRUjZoVmtBNXplUW9YQmYwRW5KS0xrX3BxVFdyc3hOa204OWp5alFwZTd0bDdRZmlVc2xtY180VmZ1aWFiR3p1UnhpUnBzMW1rSHNIelZuZXRXVVI4dXQ0eXFEOFU?oc=5",
     "source": "simplywall.st",
     "published": "2026-08-10T00:31:40+00:00"
-  },
-  {
-    "label": "Scalable MSCI ACWI",
-    "title": "Oil prices rally, Wall Street retreats with Hormuz, inflation in focus - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0JfVHdob1VJM3o3c2RjRHBySGdOb0h0OFVfVTNUdGo5ems0NjhoaGhMaVhpWG9iR3J4dlJkZVBlYVgwS0w2SUd6ZGZiLUtMUndydTZycjNJQ1l0MENqTmdpOTFycEZBRkJ3ZUEyWlM3RERCOGhoYk5ISEdLZnNIUm9HYw?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-10T00:25:00+00:00"
   },
   {
     "label": "ORA",
@@ -5570,13 +6438,6 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeW5nUWJGSHV1QjhmVi1hRkg2dGxrSkxCWkl5VVN3WlVlUFJraDc5QTIwaDNaS2xuVGFMOGJIdkk0eUlmcm5XY3ZVcmFpSWtLOTZxUDhfSFhuN2tNa0xPSTVFYmMxbE5lbi05ZGRPNjdvenhTbUF5Y1ZmWHBpTWJRbmsybVd5b3gtdzc0SDg1SWc5TW9E?oc=5",
     "source": "Yahoo! Finance Canada",
     "published": "2026-08-09T22:35:48+00:00"
-  },
-  {
-    "label": "Scalable MSCI ACWI",
-    "title": "Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcE9CeWQ3UUhJR3ZMYjlnV1JmT0ZYV3NLWUc2UG82SnNwS0ZtelczaFNDa25xaDB1cG5FTWdfdl8yVEFLOUc0RnBCbjBkTURvcEs3SUloSHRaemE0c0gxbTdtZlNvT2lnY1dQSTctWVY2V1E1RHZZZEhTUDNIRUs4bFFIUWNtWTdkRklJdWZvcWJiS1pN?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-08-09T22:11:01+00:00"
   },
   {
     "label": "PG",
@@ -6377,13 +7238,6 @@
     "published": "2026-08-09T10:00:00+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "title": "US CPI to Show Inflationary Pressures Cooling Some - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS3UzdExfQkFwSk40MUlYQ1lNYnE5NHRIanI5bjFmLXpTZVNRU3k0dVRsRnU5YVA1RzE3MGdxYWg5b1FMcGVRRS1Bd1o1bzQ4UXpRYVZBNWNrcTVuM2o5c3N6Y0h2LW9vVGo4SXNsLTYzN200ZHZLV1RPRElkN0Fjb3dyN1BFYVBnNlk4NWJHRkIzcWl6T1FNRGNSMkxuR2dlMW0w?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-08-09T09:53:07+00:00"
-  },
-  {
     "label": "DVN",
     "title": "Devon Energy Corporation (DVN) Stock Forecasts - Yahoo! Finance Canada",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZF9BNEFNOUNYLVlVd3NqS2l6TjVjV2hkb2U4VU5kNWVwbVliWEFMSEVScjZ4VlliQ0dsRWZFMXFWblZlTWxnVW5Wamd4amhtNmtCTEExaXhSRkVfNElEU2YwcEVhZmQwbDRIZzRkTUswX1JJVFp5ODlMdjVUNC1mQ3FoUm9YbXRqanpxcWRZSjVidw?oc=5",
@@ -6452,6 +7306,13 @@
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWXVwdDRyUFludEIxWTlJejRDeWhuQ2ViRHNNQ2FzalVYcW1Md0lMVVA4czJBY3ljU0dTdUcxUDlvRHUwZkQ0WG5EY1R2bXdEckpwY1QtQjloUFpPME9GYUZ6X0dubjJ1dmhCWHNVXzNYYU5wYV9UZDdlSktoR3lpTTNyZ09QTW1qdUpGUFo1QndodVNrZW1vZzJkMFRObzVHSXYxLWVqVlU5bGV0VmRCY2EtcmhxSk8yZWphQkY5U3ZKdndvUFRsUGo0bnM0LVp1RlhlZ1U3QWI2MU5GU08zNE43X0RSUGtV?oc=5",
     "source": "MarketBeat",
     "published": "2026-08-09T09:27:58+00:00"
+  },
+  {
+    "label": "SLB",
+    "title": "SLB Ltd (SLB) Analyst Ratings, Stock Forecast and Price Target - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNZmFNd18yTDJVT0taOVJBaXVvUlBncmR3NHFmcjJpMVJFQnE4UW1NUHE4eUstYi1NWGJzTVhXYy1iTlVmaUZUUnlvMlhxWWdCNDZaMVpfXzNoVDRMNHdmbERobElXNTZSaFJLRzM5UE9hUjFvSUVkOWloVjF5YXF1bVlHMEdsdXM0elFEd3NSbFgtWlZfVnpyeGstTEVoVllHSk83N2pJRGMyTFhNc0JsemRra1BQblM5ODNqemt5V1N0MEpqTXhXd3lURWdqdWNxOWs1YjN0RjhoTzRfcUNsN0tZcG5UTHMxaHBKZ2J6Y0huUVRNR2hfQlI3SWFHOFdQMUJMaC1Db1h0c3JONXBQZlhKVTJxbm4tVWFIUU8xUlZaak4yMkFaVGVFNzcyOUc0U3lDLTBJUW8tWkNNR0oxSnNxTEg?oc=5",
+    "source": "Moomoo",
+    "published": "2026-08-09T09:20:20+00:00"
   },
   {
     "label": "COST",
@@ -6574,9 +7435,9 @@
   },
   {
     "label": "TDG",
-    "title": "Transdigm Group Q3 Earnings Call Highlights - TradingView",
+    "title": "Transdigm Group Q3 Earnings Call Highlights - es.tradingview.com",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNGRhX251UEs3eXJ6aW51QkkxMmZGRFdrQnVMWTZXQW03WHQ4VVdTdTlPU0otUFJnUUx0MkxOYXhpeXJ6NC05cDMwUkdjemNaNFBLWUg2aXlDZDRUa1FzemFEdkUxbktyQmRvTXZhalhsdzlHbjNNZnRLaFVhbGtILWl2X0ttZVlFN2x5dXFwVDA1dXZjN0VYbUppOTFSVHNVQVd4YUxn?oc=5",
-    "source": "TradingView",
+    "source": "es.tradingview.com",
     "published": "2026-08-09T09:03:54+00:00"
   },
   {
@@ -6602,9 +7463,9 @@
   },
   {
     "label": "SYY",
-    "title": "Sysco Q4 Earnings Call Highlights - TradingView",
+    "title": "Sysco Q4 Earnings Call Highlights - es.tradingview.com",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMXNLYWFnNXZWY0E3QUhEaUR4WXBVdjNvREpZN0p3d185VUN5ZFdfaFdTUW1GTm5yMnpfMkRxV3ZyNm9ldk1fZHFHNVk3TGRWeWFmTzJ0UGNTSU1TX3VOMFVkNDlUUEFFMTFHcW9jTl9rTDBmMXlmVG9NaEcwV0ktSlZ6VjgxUTBZNVFxcHg3VE1nekg0OXJKYg?oc=5",
-    "source": "TradingView",
+    "source": "es.tradingview.com",
     "published": "2026-08-09T09:03:53+00:00"
   },
   {
@@ -6674,6 +7535,13 @@
     "label": "KTOS",
     "title": "Kratos Defense & Security Solutions (KTOS) Raises Guidance After Contract Wins As Valuation Debate Heats Up - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQOWJRdVh4Z2Z4Z0tiaGFRV1lacVdlcm5yd0dwQ0dtMi1Lc1pzZC1hdjJRM0NMTFNybksxVDVjWUM5aE1wT3BycEw5QlJDVjBJUVBtRkxQWEhsTGZXWmIzSU9oYXhrVmVReUxPV3V1bzJSaW9PMGwtY1BLbVFsaERxdmI2VEwwQzd4dVVHaTZIaUNDLTExbVU5bVo3WnVtR3dCNndMeDZlZVZFeExGWi00Qy1HMGliWHN4dGFMYkRKeGtxZFBLNEt0VE1RY0JjdEpLTHJRYUdKdDFxeFlIYzJuQWp0aThJcFV6TnZrUXh30gHzAUFVX3lxTFBiRmRWUF9Vbi1NUXhUbURMU1dRdzRWNTQ5TDVic0pPYTBBQVNvTjFONzdjMEdsV2xtdkhDUXZ3blRncnh6U1pSUG9fd3pUMHJ1c3RlaW9aeVNPZWZwR25ELWdEekdvOHZ3V2hXak5udzNncXlFSTdfZ1c0V1ZtV1d2bUFIZEt0ZWs3TFRCUGJxWEtWVEV3OXpaaUxTVWJrMzFoTlhHMzY1MnJWT24yaW1MbTFrdXJ5SjRCRVgzX2kxMjZTTWNNT2dZZXRMV0lHRmEwdndkS3FCRWljdmJ0T1BHVE8zWVljQkw2Tzlld0NTTjk2NA?oc=5",
+    "source": "simplywall.st",
+    "published": "2026-08-09T08:35:41+00:00"
+  },
+  {
+    "label": "JNJ",
+    "title": "Johnson & Johnson (JNJ) Stock Looks Cheap On Cash Flow Yet Pricey On Earnings - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVWJmRVVLTjRXcFotdUVubm1wVFFPZjZLTVlQbEwwa2tORFZKUmpTeHE2TmVObWs4MkkxRmpiMWpfRWFJQ1pfcU9CZVR1Y2JqeW9QSHMyUkNUVm5WWWNvZWxlZnlFOF9md0REUUtYTzJBRVF0RlJWeXhkTHdGWWxtUFVUcG1zLWFERXlod1o4ZXIzWVY3U3pHeEM2UENPZ0xFV2ZKMERhZ21lQlF3RXJkUjdVVUVhRkJJbjZ1dFc2enJCZVVqQ19KNHpJTnVzS3BNTUlyTFJyX3JOaGNVRFRj0gHkAUFVX3lxTE9heno3MTg3UWpDWVF3UkM1VTEzaDcyVlJBNk5uaVE0cFM0MHdSV1RLUl9fS3Ztbk1DZ0hDT3U3Sy03OUZlcnlfTDU3ajVGajdaU0NyeHRmYVNNbW5XUGtlNTBGVHpUeWhVN2FCMjg3NU1TSm1WenlJUU1VSElZUm1DN29oTnpwZjJVcVF3aU5PR2lGYm5Ub1MydVptLVhQNEdPaEpPbGtQcW5vZXhwZWthSFFGckdBcFpVbHFXMjlsc2tPOFZNaTEweXo3SjFCQkt0cUVqRTZQWC1vVWczUTJRVEVUUw?oc=5",
     "source": "simplywall.st",
     "published": "2026-08-09T08:35:41+00:00"
   },
@@ -7203,6 +8071,13 @@
     "published": "2026-08-08T21:57:23+00:00"
   },
   {
+    "label": "TXT",
+    "title": "How Textron’s (TXT) Solid Q2 Beat and Buybacks Have Changed Its Investment Story - webull.com",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwYXhmZlJEQi1pWkdQSmN3Qm1fNFZBckEyekUzVVJiS2VwOUhLVmtublFzU3FVcDhDNG9CRFVyS1hjSnhPeEc1SDlhaFZpSGdxdXZIdnppdUE?oc=5",
+    "source": "webull.com",
+    "published": "2026-08-08T21:46:09+00:00"
+  },
+  {
     "label": "WMT",
     "title": "Home Depot Has Raised Its Dividend for 17 Consecutive Years and Reports Earnings Aug. 18. Is It the Smarter Dow Stock to Buy Over Walmart? - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1NBaEllcTVrQkU3QWdSa0s5djBSc1RoRE5XM25Bcm1XRmVRRFA1VHBPckpKdUNleG5UMFhTN2dMcnpLYmdEYnVXd3doeVlBMy05MUVsTlA1bGszTjV0Wk11SVZpM0VNLU80bEpvYWM2X0hMMGYtTGJFb3RFUkV6QWRDRDRMTGd1bG9hQ2duVGpaR0MyeFNZb3Jn?oc=5",
@@ -7264,6 +8139,13 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdTZiYS1BMnk4NHRYajlnSzJZclp4bHFKRkFhWGdJN2NpbDkwWmRjbUtzOVdnM1FCSmZVamtOb2tnUGtBWUNsSEVTYVcxSVpXODl2anBKM1pkaDZZODI4X184WW54eHVrVU1Sa3pRMGwxRTZkRHVTTWJabndiOW5hOEZwVEh5cy01OXhpbkh3QXZIV19Vb3NvUTVHWUhoM1RwSmlGcjNZTEdPMDNtU3RjemZ4VXAyaG5JbHY4Z3FuclhtbFFy?oc=5",
     "source": "Sahm",
     "published": "2026-08-08T20:00:12+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "US CPI to Show Inflationary Pressures Cooling Some - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS3UzdExfQkFwSk40MUlYQ1lNYnE5NHRIanI5bjFmLXpTZVNRU3k0dVRsRnU5YVA1RzE3MGdxYWg5b1FMcGVRRS1Bd1o1bzQ4UXpRYVZBNWNrcTVuM2o5c3N6Y0h2LW9vVGo4SXNsLTYzN200ZHZLV1RPRElkN0Fjb3dyN1BFYVBnNlk4NWJHRkIzcWl6T1FNRGNSMkxuR2dlMW0w?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-08-08T20:00:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -7638,9 +8520,9 @@
   },
   {
     "label": "ENPH",
-    "title": "Enphase Energy (ENPH) Stock Looks Fully Priced With Cash Flow And Earnings In Sync - finance.yahoo.com",
+    "title": "Enphase Energy (ENPH) Stock Looks Fully Priced With Cash Flow And Earnings In Sync - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ2xWdEE0UlNEOG4yMnlkTGR4alJackEtOVMyd1VfZHpHNGRqZW1WVDFnUGd3d1BPUXZLb2JVRFZTR1B1cWtpUlBVWWNsTGlwWC1pOFIxaGlrQlYzUGlsU3NPS1hTNkhLZVpRX19jMUZBd2NUUDd1RF9ZWXUzLUwyR0o1LW81SS10T3ZucVBMdW96dzZzT19fRUM4aDQ?oc=5",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "published": "2026-08-08T12:12:11+00:00"
   },
   {
@@ -8534,9 +9416,9 @@
   },
   {
     "label": "GE",
-    "title": "GE Aerospace Stock On A Winning Streak: Time To Get In Or Book Profits? - Trefis",
+    "title": "GE Aerospace Stock On A Winning Streak: Time To Get In Or Book Profits? - trefis.com",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVm0zYkJaUk8tUFdLRkU1TG1wN1AzbnNpcExuajN2TE0tRzRYLXU1algxZnRQUmlmczI2dEZRT0dLTk84ZjI2X0FyejJ1QnVxVWdGUHNWWWZJSW8ybThBbmd5VkxtMFRFYjVBOGJoMV83VVRkS0VnVWQzTUNkQTRURE00TVNJNEN3UTgwTUZjR2tVa3hVS1NsdXV3Q0MzX1c4REdEeXNCaTk3VkNoMzhLNDk4MUtaQUlNa1M5ajdZX0ZnTVdNQ2U4NFg5N2E3WXVaYnJteg?oc=5",
-    "source": "Trefis",
+    "source": "trefis.com",
     "published": "2026-08-08T07:00:00+00:00"
   },
   {
@@ -8674,9 +9556,9 @@
   },
   {
     "label": "DVN",
-    "title": "Devon Energy Q2 Earnings Call Highlights - TradingView",
+    "title": "Devon Energy Q2 Earnings Call Highlights - es.tradingview.com",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGV3RW9OS1FCRE1IWS1aSTB4T0g5V3ZUdnM4SFExUDNlUlVnMWNlam1LQVN5dUZ4cnFiU2xKVXc5Z0FqTjBkZnUySjVZZG85VFk3LXphdmpkSTZZemJVZmxGa0QwcDdBRXZMWjlWNWRFaWI1b29iRzJ1eDBEXzN5M3M4a0lYVVRVN1NrajlBRnlVTzhZcmQ5M3hNemdlQXBaU2c?oc=5",
-    "source": "TradingView",
+    "source": "es.tradingview.com",
     "published": "2026-08-08T05:03:48+00:00"
   },
   {
@@ -8692,810 +9574,5 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV2VzM2x3UFdMVmY4T2JzY0ktdEdIZkhDMGp6RTM1OXU5MU1uaTBCam5leFdfOFBhTVJvbUNKNnUyNUNQb0RhdHc1VTFhTnNFOWdHNkZIQ0NpTHFCOWtmLWFnaFB4VnptSDZnb2Z5NVJqQVVySExYRVh4bER0eG1TT21yU3laVnRfaGZpU0Nid29Eem9ZT01IWGNoU2FSYVpjVzJUNkpFd1hvZEFONG1ydHBRYnhMT21Zb1JTaDlmTTRpbGxs?oc=5",
     "source": "Investing.com",
     "published": "2026-08-08T05:00:10+00:00"
-  },
-  {
-    "label": "TMO",
-    "title": "Thermo Fisher Scientific Inc (TMO) Latest Stock News & Headlines - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpTlhwNUxLODhkWHRBeW1qbzdmcEF5MHU1ODBXc1prQzVGdnNkYXRERThpZ0ZhOWsycmRSN09ZSFZlZXhXaFUyZTVjU1A4WFA2M1V0eW15NA?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-08-08T03:54:38+00:00"
-  },
-  {
-    "label": "MRCY",
-    "title": "Why Mercury Systems (MRCY) Is Up 6.5% After Palantir AI Factory Deal And What’s Next - webull.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oS0gyaVZUMDZnQTlRNjJIRldtRHVXcE1XZkRDNUxNQndORFpFcGt0V3A0UGxGTjRzNXZvSjI3d1ZRUy15TFY4VU84aWxvMy1JU25HdFE0d2Y?oc=5",
-    "source": "webull.com",
-    "published": "2026-08-08T03:46:03+00:00"
-  },
-  {
-    "label": "LMT",
-    "title": "How Investors May Respond To Lockheed Martin (LMT) AI Intercept Milestone And Massive PAC-3 Contract - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdi0yZTg5eXZDU3M0MkFBNFpOOHZpT0paNHZ3SWZSZE1KOEk4ZHd3T19pTWJYMHFobkdFaExIZ1NWVlBYVEdPOWhveTByMTB2YUR4R0RjWkJCbzVmcXgwUjJka1c4alRFcGpVWmZhSEJaTHU0Q0VrMWlJMS1xZmtXcTBpUnVUektQQ2kzOXRhajl1eDR0X2x6b1NEZ1BWQTEwTWE2ZEJOenZhNEl3YmZTN1dqcjBuOHdtZzRjTFFEZU9FLWd4b2Z3SmllU1N0eEw5Y1HSAdcBQVVfeXFMTVVFRjh0UjlyMkh0SGdkTjVIWmhCRml2QXlKWjFia1I3Z001aTdzcGFoZzJMNlRWOU1OM1RMdVF5TFVheG1WV2pHOHpMRUpXYndhV3gtRlZmQ1NSR1RkY01jWW1qYU42UzNqckEzSUtWbURuZWRWSEY4NEhzZG51LUlSNmJBcVVhUW1zSDVLazNnOWV4QjhhMnJzWnRrazJKN1RqOEgycGVfb3lPUG4tU01ZN0Jtc0NFXzBLOThTRmM0TTlrbzZZOW9QZXN0SXpZQ0hldnkyckU?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T03:45:00+00:00"
-  },
-  {
-    "label": "MPWR",
-    "title": "Monolithic Power Systems Stock And 2 AI Infrastructure Picks With Strong Earnings Growth - webull.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44TUx3OVRSbm5Ud0lfMXdqRmdOd1RHQmJSTkJvVnZhLXUwZ3ZPZTZQYlpMcjc4aGdJclh2V1huR0lUUkN3U0RZNlBpemlmcVhfdHJ3enBzV3k?oc=5",
-    "source": "webull.com",
-    "published": "2026-08-08T03:40:46+00:00"
-  },
-  {
-    "label": "HES",
-    "title": "Hess Midstream Partners LP (HESM) stock price, news, quote and history - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QNDBGdmFZb1BBNnUyUHJRR3RtNWFCVlVJcUc5TlBxX0FJTGl2VkpzRjV1TW9zUVBVTTlwQUtZR0gyb2lOZlVnbnVRQ3RGc21WR1E?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-08-08T03:28:33+00:00"
-  },
-  {
-    "label": "COST",
-    "title": "Kansas City approves Midtown Costco rezoning, saving pharmacy service in store overhaul - KMBC",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbmczZUZ4X3dINzNHZnQ5eTQwUjJjdElCOFMyRU5zQk9Ba0xCLVlSRHJtX3Z4bWJGU2xwYU9lTE9tdXRzQmtsaks4OW9pNXN1LVZFWTgtekJmTG5hMG1fR1JKZXdTcWl5YVB1R1NsYmJDVk9vVVZhODZFTklYTF9HRkJNaGJyZFRINmJ5SzZueVFvZlFCZURwcks0S2F2aXJlcU1WUVpqWVpDNlh3Qmlad29qbWV2VlN2QUxoZmh3RXVsZw?oc=5",
-    "source": "KMBC",
-    "published": "2026-08-08T03:25:00+00:00"
-  },
-  {
-    "label": "EOG",
-    "title": "EOG Resources (EOG) Stock Looks Undervalued As Its 168% Five Year Run Continues - webull.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nYnJwUmJkWTZaVkJwbGxEOGRaUW1GckNYNzRFR2dsYWJkaHIwS0xLSzZwZ2NnQmNBekRKRUZtS0EtMkZ0YzgwSHBmOFFHSnBNVE1XM3R5MWs?oc=5",
-    "source": "webull.com",
-    "published": "2026-08-08T03:21:36+00:00"
-  },
-  {
-    "label": "TSM",
-    "title": "Diamond Hill Capital trims Taiwan Semiconductor stake by 27K shares - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQeDdZWjltMUZQYnAzVXJDU0RJTDlZUWk4M2RGN1ZPMDJNN0FveEFlaGhlN3lmMDFTWENhbl9DSkt5TTFCLUYyNHRndXFTOVltUWVVTEtmMGczb0kxOHdZeUdzLTlINHNwRXVzMzRpTFljNERTdUpvUkZHVkIwbEh1enQ5NEJtaGhOX2ZFSjVscTRzUGg5QV9pOF9HVlhlcGhkNGNud25pd0tpYVVmb0NHZ0trSUJJNWJab3RZU2pMVXhyRTZocUtmaW5sRW96cVdVNlh2TkI3b252YVlGcmNwR1BiTDhkR0Rm?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-08T03:14:00+00:00"
-  },
-  {
-    "label": "KDP",
-    "title": "Keurig Dr Pepper (KDP) Stock Carries Revenue Surge Into A Profit Squeeze - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVEg4bTdsY0U4T21uZGxhakc3NlNmbE4xM1ljTG1QbHlReVRqcHRlMlcwRERKYlNhUEhxeWFIanNVbWxhWkxxZWtsRGJ0Rml0dmtscUpyNzFicDJzTTI5cXdMSzR4Sm9TUzNUVG5HZ0ZFbmZSWk5YN2tsTFI3OFIxOHhTMFMzRWFXTlZnNjhwS2ZCeTJ3WnlMQUstdzFOb3czNFlna0lVZUZmUVJ3WG4xMEdhR2Jib1hIV0RUd1VtMjRDTmpPSmo4Nk9jMWhYVVZBMks2OGVYZ1dvc2xKOFl5MC1jeG1JZ9IB5gFBVV95cUxQVEg4bTdsY0U4T21uZGxhakc3NlNmbE4xM1ljTG1QbHlReVRqcHRlMlcwRERKYlNhUEhxeWFIanNVbWxhWkxxZWtsRGJ0Rml0dmtscUpyNzFicDJzTTI5cXdMSzR4Sm9TUzNUVG5HZ0ZFbmZSWk5YN2tsTFI3OFIxOHhTMFMzRWFXTlZnNjhwS2ZCeTJ3WnlMQUstdzFOb3czNFlna0lVZUZmUVJ3WG4xMEdhR2Jib1hIV0RUd1VtMjRDTmpPSmo4Nk9jMWhYVVZBMks2OGVYZ1dvc2xKOFl5MC1jeG1JZw?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T03:13:30+00:00"
-  },
-  {
-    "label": "CW",
-    "title": "Curtiss-Wright Q2 Earnings Call Highlights - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLXQyeTBodFlwNURNa1pHSV91emdTcWlmbE12ZFNIRHJ3dmU5QWY2dlpzX0xRYmZxMmdaY1JEZFl5UmtVT0l5MzFRRWQyUFlwc01ucGp6RERUeTdBaHd5aTZZckNkZ2JLdFYtcG5ySmFYSUdZWDlTTWZEc1dKQWhyUEt1dmJrQldzRm9Ld1ZtbjdheWxHbFU5d3hEbXE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-08T03:03:00+00:00"
-  },
-  {
-    "label": "MDLZ",
-    "title": "Mondelez International, Inc. (MDLZ) Stock Forecasts - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZmppS1pXNERkS2dzcmpVbGZuUEpzY1RLcndBdVdiSTJSb1JuUGtoR3BOZzlkajdQRkp6MnJWNjNmT2pKbDRNVzdONlAtNERCZXdJX0xOc2xkUDhRUWZHQ1RxcHlRcmxyWmRiY2dWY3BGWjlTN0dGQVcwSGFHeF9yWHdsZ3V6ZlF5WUVteA?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-08-08T02:52:32+00:00"
-  },
-  {
-    "label": "TRG",
-    "title": "Targa Resources (NYSE:TRGP) Posts Quarterly Earnings Results, Beats Estimates By $0.71 EPS - marketbeat.com",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQkVKck1FV0Q1azJNeTEwRFBpY1F0MW03OVBjaGk0S3BDRngwelVidUFYUzVuVGtVWFE0d084cnBmcHJJLXNhMHowNnZOd0VQd0NBRE5PQ09UVTdoTTNkb2tidTRNUlliMThjUWthejItMjRqbUxwWmt3NmpjeXhOVVZINVBjeGJNa3pPVzk3S3FhUFFWM3pPWlAwWl9pVmFaZUV3NktLamNuX3hUOWJlN2R0akdWM0RSVWxTRHpfVExjSm1IYlpHdVJoSVEzRDFTeXJWNA?oc=5",
-    "source": "marketbeat.com",
-    "published": "2026-08-08T02:33:20+00:00"
-  },
-  {
-    "label": "KTOS",
-    "title": "Kratos Defense president Carter sells $223,599 of KTOS shares By Investing.com - Investing.com Nigeria",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdW5iOGdoTmJVSXZPN1BMalpORkgwTnhFVUpEMzRwRURJbGZ0UFpmb1l3LW54alJTelg2c0FCbnVNNVlTanlGNExVdjFxNWFRSXF0d2IwQ1I5NVZuNzNHTUxDYmVGdEhORlVEeENra2piZEdqRDlHT3IycXFRSVE0RzJZMDAySkJxWkROVmxaNzlRUlg0T3UyMHN0R29JODNseThyQTZ0bTdyRW4weUlCOVR3TW9rSWhQRGFqag?oc=5",
-    "source": "Investing.com Nigeria",
-    "published": "2026-08-08T02:32:58+00:00"
-  },
-  {
-    "label": "KVUE",
-    "title": "Kenvue (KVUE) Stock Holds Firm As Margin Gains Anchor The Story - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcmVhWnphWnEtZ3lCMHRmbEYxc2loRFhOdFR5TWJUNjlYNEd3dy1UWmJxZFl0eUdKQ2Zlb1RrODUzaVlyZ1hveHlRZ0hUZ1NySWRKY0RzY0k1czIxYUlhNl93bHU2b0FqZzVIbXFuakVMOHFoaXNGaDdld1ZXT0FzWEJzSkFIMFlNYTR0UDhoN1ZpOWNBRmkxS21KTXFZS2pkdVBCR0l3bHFlZnZsOVdLS2JzN1FSYV9KUFlzZnNUdzgtV0JEb01F0gHHAUFVX3lxTFByZWFaemFacS1neUIwdGZsRjFzaWhEWE50VHlNYlQ2OVg0R3d3LVRaYnFkWXR5R0pDZmVvVGs4NTNpWXJnWG94eVFnSFRnU3JJZEpjRHNjSTVzMjFhSWE2X3dsdTZvQWpnNUhtcW5qRUw4cWhpc0ZoN2V3VldPQXNYQnNKQUgwWU1hNHRQOGg3Vmk5Y0FGaTFLbUpNcVlLamR1UEJHSXdscWVmdmw5V0tLYnM3UVJhX0pQWXNmc1R3OC1XQkRvTUU?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T02:31:59+00:00"
-  },
-  {
-    "label": "ELV",
-    "title": "Elevance Health (ELV) Stock Looks Below Fair Value But Its 37% Run Tests That - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOXhldHNUMzJUNXg2TFczTlZYS3B5NDI4ZnFZRjlyNk1ocXhhdEtOUlVlRWc2V1lCNXBxR3lpamQzTjJjUFA4ZmRMODhSbnRMcS10WVQ1MTRvU2FwclBWRG16a1JIeHNtcWlWQ0FpbWlZZUVFbDVLSHduZW1zel94cF9Xa1ZaS1Z4MjN2SjZWcE9hRVg5UDdKckh6Y09yUFZyc1I1dlpuOHBRT3NWYncwWFVpWkpMbzZVX1hESjhoSjlzdW9xR2taak85ZEvSAdIBQVVfeXFMTUNIb2pYdGJxbHNYQ2FCVXRlMjlwdk5UWlM1empONGpUSGk0TTMyQXFSTFF2Z1pYQkdDWTlvWHJVeWI1OWVqWVN1SXBDbmF6dk1ya1d3VUlkTzh2Z2l6OE51bmZRdnFlY01FNnFqNHlLUW1VSE5xWXZuV0t3NHhOMEdmSUVGWE5oRHlBTkpXRkhKT2wtYlVoaUlDdG1wanAzelk3WVhUMUNhdUIyLVFEWlFxVWprRHVPUDI3cDRoVG5sdXRmZG9PQnZmUHhiQ3UxbF9n?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T02:31:58+00:00"
-  },
-  {
-    "label": "KVUE",
-    "title": "Kenvue (KVUE) Stock Holds Firm As Margin Gains Anchor The Story - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdTZFMTdBZ2FDenlLallha3pzVWJpOFZMcVViUzZvWjhkdk1ER3hPMlJIZWJPaTdvQ0l1ck1MdzFEdk9pWmdMZGVUUnJYeE5GR3N5UXJOek1EcFZJc0xHSENyZ2pqZkxVS01XMDZwa1NFdUNJUVM2dDdMWU9ucjQ3RG9YWmptcUZiOHBrRE9PMWxWYkhMZ0d0dFVlY2JfZms1cVhKUkxZaHI2cE50QlRPVEtNNlphMGVxMEVpdHFTUTd4QdIBxwFBVV95cUxQcmVhWnphWnEtZ3lCMHRmbEYxc2loRFhOdFR5TWJUNjlYNEd3dy1UWmJxZFl0eUdKQ2Zlb1RrODUzaVlyZ1hveHlRZ0hUZ1NySWRKY0RzY0k1czIxYUlhNl93bHU2b0FqZzVIbXFuakVMOHFoaXNGaDdld1ZXT0FzWEJzSkFIMFlNYTR0UDhoN1ZpOWNBRmkxS21KTXFZS2pkdVBCR0l3bHFlZnZsOVdLS2JzN1FSYV9KUFlzZnNUdzgtV0JEb01F?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T02:31:58+00:00"
-  },
-  {
-    "label": "CHD",
-    "title": "Church & Dwight (CHD) Q2 2026 Earnings Call Transcript - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQd25MZTJsdW9CZHE1YVFwS2ROTUlZdmZqc0NucjhHeDRtTUN6eWp6NTh5a2xPcWJkTzdoTHk0b0tabHUxWTdGMHdRLVVtNUpkbGJyQW8tU2pUdmQ0ZkNDVlFnOGt3ZVp0YVBHR2hVV1BBSnlHaFd3b3ZYeUNZVmFDZFI2OUtrTVRnMi1SblFYZDl0d1RBYU1vdm0wNjQ5V3NnOWtPQ0NsSk4wSUZhX0JiMVdGSVB6c0RTcDhDb2thNkx4dnBwWUdQVWJzQmhkN3M?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-08T02:31:00+00:00"
-  },
-  {
-    "label": "CL",
-    "title": "Colgate-Palmolive (NYSE: CL) director exercises options, sells 4,170 shares - Stock Titan",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVlZXb0xmejNRX29CcTZZTjU0ekUxak1aWTZ0RFhIVDJkZmppT0pUVUxEQk1SN2RiM2VldXp4SmZnWnltcmtlNmtrdzZZcnJsUUlaUlBnREh5aEtxNFJ0RzFTeTFiNGVhRElFTXlnWVR1bzFGLVdyS3RseXdrZnZKb0ViY3FCZkRfdjd4TkxrODFjT0N1WGZIemhneUdEM0V5eUNFLU1GU3d6cjFJTkpmMUtB?oc=5",
-    "source": "Stock Titan",
-    "published": "2026-08-08T02:12:19+00:00"
-  },
-  {
-    "label": "VLO",
-    "title": "Valero Energy (VLO) Buyback And Results Leave Valuation Looking Finely Balanced - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkJocGM1ZmFQalN1Rkt2MUliQnlmQXkwSHl0Y3hnUjF2Vl9lSzVxUU43X0pXUjd5ZnB2aEFMb01HdHdlNEFHNlhzbEJCWXVINlIzU0J2UzZlUkRZTHpXNTF3ZTdiLWFpUE5lSEQ3M1l3M1RPQk9FbVdSdEVtTzBYb0o5SlA3LXJXaTVIY3BDMFBkZFRFVUdOVUg3MFd3NDg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-08T02:10:00+00:00"
-  },
-  {
-    "label": "LDOS",
-    "title": "Analysts Are Neutral on Top Technology Stocks: Axcelis Technologies (ACLS), Leidos Holdings (LDOS) - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZ2Q0MGtxXzM1bnVSdDZIbDRSNENrcGN0djIyUjk5NTQwNDZiNXBldFZVZFNVSmhXX2c1REpZcDFNLTFOb1pHeUNiazFSdGpNT3VFY3QtdnBYXzU4ZWtZazV0MU42SEFQYkdPalBOMmpnWjVsUEsyLVFTckVaMS1zOUxYLXdQTWdfeE1KdThHY2VrQVNBTjVsd2puNWkwQUJvb0dXeWdRM1JkME9iR1IwNmZaQmpIQ29SZ2U0SWJuOXRjb0xnSWhYRnAwazRJZ2V4Q0lsLXJNd2NJN2F4QjJFa1F6UzNxaFNLMTN4cTdVSGRlMEpaQWtVVmFTUGVlRkxrMEh4WmVxQWNWZ0E?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-08T01:54:00+00:00"
-  },
-  {
-    "label": "HAL",
-    "title": "Halliburton Company (HAL) Stock Forecasts - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcnFnT1hDZGp4ZWwxU081b09pT1ZOLXlaNzBrQVYwU2k3RXllVkdsZ2N6RXcwRjFLeXJXTXZuOHdGQVBGRXNWamE4eWFNMm1ndzNRRU1wMHl1bDFvMkdlUXZWakxKTUxOaW5maEJCRjJOQU9YN1hESjMzM2l5Ynd5VUtsRGRFaV9UejdMdzB0NFE?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-08-08T01:53:28+00:00"
-  },
-  {
-    "label": "MPWR",
-    "title": "How Investors Are Reacting To Monolithic Power Systems (MPWR) Strong Q2 Results, Higher Guidance, And Bigger Buyback - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMkF4VW5xY1RISjU4Z1lWMVZYY0laMVhOZFBNVGZBX0cxN0xUR3htZHAzNlZMbnhyLWZJR0hhTHB1VGFmUFo4MjNJTlJ3Y0sxSi1fTjJ1UTlaRXNocXo5UC1Vd3FqWmRRczhfZ080RE03N0swTGdtZ2ctSDlIN0FwcFlZTkR4U21sektiYVVVck5WekI0S2lKalZWRGc3RlVjT1U4SWtoNEZzejNaeVU5TlJyZkpDSXQzc0N5MXBjaV9NNy1RTi1MMzloZ18tcDZvNWQzczVEdXlKU1Y4XzJ5bWdEdTBJUHBLakHSAeoBQVVfeXFMUDJBeFVucWNUSEo1OGdZVjFWWGNJWjFYTmRQTVRmQV9HMTdMVEd4bWRwMzZWTG54ci1mSUdIYUxwdVRhZlBaODIzSU5Sd2NLMUotX04ydVE5WkVzaHF6OVAtVXdxalpkUXM4X2dPNERNNzdLMExnbWdnLUg5SDdBcHBZWU5EeFNtbHpLYmFVVXJOVnpCNEtpSmpWVkRnN0ZVY09VOElraDRGc3ozWnlVOU5ScmZKQ0l0M3NDeTFwY2lfTTctUU4tTDM5aGdfLXA2bzVkM3M1RHV5SlNWOF8yeW1nRHUwSVBwS2pB?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T01:43:33+00:00"
-  },
-  {
-    "label": "MPWR",
-    "title": "How Investors Are Reacting To Monolithic Power Systems (MPWR) Strong Q2 Results, Higher Guidance, And Bigger Buyback - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOd1VqSjRqZWlfWEpvZl80dGpaNVJER2lTRlJFeVpPNmtHZUZwdUVzelc4akZIZ2ZPM1YySHZUR2k5NE1uT3hEQUtUZ1kxVkl5T1JZeTBzV3BOQkgxQ1lZdEJoSWFMU051YXYyaXBrNVFaTnRjR04tM2t6TTZUcVREZ3ppeE5NLWpkcEFGSDNrUXpTcjNFZE55MEFwTVBhV3ZZVzB2WEp3c0RuZjhhR0F0Q2dRU0NoMFFDd2hkOVRzVkZFTHpybHFHbVpRUDA1bGUzSVJTZ1JCQVN6TjNpQzFSbVJ1aGjSAeoBQVVfeXFMUDJBeFVucWNUSEo1OGdZVjFWWGNJWjFYTmRQTVRmQV9HMTdMVEd4bWRwMzZWTG54ci1mSUdIYUxwdVRhZlBaODIzSU5Sd2NLMUotX04ydVE5WkVzaHF6OVAtVXdxalpkUXM4X2dPNERNNzdLMExnbWdnLUg5SDdBcHBZWU5EeFNtbHpLYmFVVXJOVnpCNEtpSmpWVkRnN0ZVY09VOElraDRGc3ozWnlVOU5ScmZKQ0l0M3NDeTFwY2lfTTctUU4tTDM5aGdfLXA2bzVkM3M1RHV5SlNWOF8yeW1nRHUwSVBwS2pB?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T01:43:31+00:00"
-  },
-  {
-    "label": "JNJ",
-    "title": "Johnson & Johnson(JNJ.US) Officer Sells US$12.52 Million in Common Stock - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbDcwaUE5LW04bmZhZWxUQkNVd09uSUJPY1N3blpoMXlqZkgzaE05aVY4ZkxTdGZKVGVudTIzOE1qRGk3S3NlaXhWY29SY3hDaXpERk95eXJ3dUJIbzdPMEZNMnJtYlBlLXhsZ0JoNXlGeEVYSk9hcjhFanlyZmNFeWN6V3F2QWhRb014YnBrUDF1Nm82LUV6MDljM3Jndw?oc=5",
-    "source": "Moomoo",
-    "published": "2026-08-08T01:32:03+00:00"
-  },
-  {
-    "label": "KDP",
-    "title": "Keurig Dr Pepper (KDP) Stock Carries Revenue Surge Into A Profit Squeeze - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOREVOT1k4TW9sZHlRanpydDFIMjZvQTVIMHA5V3RMUHNJdGFueE81TVRvbHJhTVJvQTg2eG9QSFpXUUhxbXN2RkJ2LTJxUEFfOVY0YlJlSmxYbXVqSXZGM1ZQWGVZTkdqUzFENjJSeDlQMlNFY2hxSFdTU0ZnRVEtT2hXZFhfVGZmNWhwRVhTNVZnMTNsNDA2aEs5X0otZ2x3Z3pDTGNQNWpMVVI0RTFCekZsaU12R25QZDNYSHZVLTBJcXFGU0pTZEJtdVJIajhiU0ZFa05UbXVsczN2N3dwUtIB5gFBVV95cUxQVEg4bTdsY0U4T21uZGxhakc3NlNmbE4xM1ljTG1QbHlReVRqcHRlMlcwRERKYlNhUEhxeWFIanNVbWxhWkxxZWtsRGJ0Rml0dmtscUpyNzFicDJzTTI5cXdMSzR4Sm9TUzNUVG5HZ0ZFbmZSWk5YN2tsTFI3OFIxOHhTMFMzRWFXTlZnNjhwS2ZCeTJ3WnlMQUstdzFOb3czNFlna0lVZUZmUVJ3WG4xMEdhR2Jib1hIV0RUd1VtMjRDTmpPSmo4Nk9jMWhYVVZBMks2OGVYZ1dvc2xKOFl5MC1jeG1JZw?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T01:22:29+00:00"
-  },
-  {
-    "label": "CHD",
-    "title": "Church & Dwight Company, Inc. (CHD) Stock Forecasts - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaUJBLTJScnBValFuZXdhWUZhNENoQVJTVVdUM0RIOVRWRXgzdkJzUXhveWJ0VlA2QUM1M0tDekc2VDYyb1dBb1hxaU1sQk9MSVRTa0t6d0xtUW5yRUFldERQcG41MWtkZ2Vvd0N1bWFlWVZlZEQ0d2NsTFlRckpidE1rVmxnVXU4ZTc3UVVVclBldw?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-08-08T01:08:35+00:00"
-  },
-  {
-    "label": "TRG",
-    "title": "Targa Resources (TRGP) Stock Pullback Meets Record Profit Run And Rich P E - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOWI3cWlycGV2MnBNZ085S2tDeFVYTUl2TlY0c0diSGtiTThvek1fSUk1d1BOVGRKSXV5WTFGTHIxWmZXZzFxVHBuQTY1ZGtVY3JWcnN4YlQ3VFlVV1RPbVhtbjZrSkUwYXU4MHhPMU8wN2tzQldCSmwyT3N2bWRkQTZ6dGxmTkY3MEdBY1NnN3B4YmRoZ2JVRVZOLURwamQ0TWVnY1ZxczhBNHU0Z1IyZ3M4RzFLUk5qT2M1ZzF5TGx5MG1fUk84b9IBzgFBVV95cUxOeDhsVVl2UDVXR21JQXVBR1kyXzNBcFFodk41STZXSk1ZN1BMR09XZWpTMmhNdk5weVp6cEprX2pyd3ZjeE56NUNsSTRaMzFuYWpsY25HUFpSdEVGd1NZbnNkTUE0WGdVakNHYVJhSTFrTkhkMld4LUhQd1Zwb0RRcm1nd2tuSHBRN1NnV2VrOWJ0dWpqWnNLUjFoMWhXUXI0MndSNFRFUEU1OVRpMVZTa3k4b3ByOUVsY0dyVEJtRVN5ZjRPdXRqeEtYcHF0Zw?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T00:44:35+00:00"
-  },
-  {
-    "label": "MRK",
-    "title": "Merck KGaA (XTRA:MRK) Stock Run Meets Profit Margin Drift - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZXMyeXNtVUlmbXpPRmlmS3lzMjNaVFRLa3ZLWkpVbXJucEEwNnlJWWRZcFBUNXdCTGg5X00tb3ltUGxhdDhQTkM4RGtEeGw1amg5RmRFUXlLeGpFbFZ3LWphWTd2dVl6d1plNlFVZmt5V3ZTeVM1SzNubnpMLU05QVBSczhBYkFGVVdWMGdhZ09mTVZpUWlYWFRMOFNXWWZ4Ui0yWkpobDh6VmNqeGhZYlJWWkZpSV9jcmNDbUFDVGtVa1RNVExKRlhTYWpQaF9XMnNudlloZ2jSAd4BQVVfeXFMUHhwQ0o5V3BST1p2S2o0djY5RjZoYklxRVo3bjVmbl9YYWpWZlJtSVJ4dVdZakFRS3VnaDRGX2VWMmdlUzh5SU9MZ002YTl5TmFwSkYxODNsWDg1OXNzVElSc2ZCX0k3R3dqNUVFZlVDQzk2cEhnVE9uTS1udjBIeG11X2QwWGNtWDhnd1ZGUW9MdFFDamZmOWctYTM0T3VLZW9Ia1BsdHAzM2VPWjJoTWZzTjVzNzVSYnJ3ZGFvbUFVekpDNDAxTllhaHdTUUd3dlQ3SUN2dFFFdFQ5Rml3?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T00:42:34+00:00"
-  },
-  {
-    "label": "HWM",
-    "title": "Howmet Aerospace (HWM) Stock Slips Despite 32.1% Margin And Profit Surge - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa0ljQVNyYzhRRTdXNmQ0Z3c0SVNkRDFrV0ZtRjh2R1Z4YzBSckk4UEwtOHBHM3ZLczFhZzljMlVxb1VIYXA0UGdDcVJvYVIzWXNkY1ZWSmg5QnhEanluQ3pvejVGaW5iQjBfcTBPWjZFdkNGLU0zbmJLclhxU3hnNWhxLXJISnRsX3EybDc3OFNjRjE1NXF4VjQ2Z2pMMGNmUHZ2WkFpQ29ZM1NNTkR1UFFBYUIzampyRkRlNTVSLWtkVVpKOFRqcVJrNkFoZHYzM21fdGJvSzfSAdgBQVVfeXFMTWtJY0FTcmM4UUU3VzZkNGd3NElTZEQxa1dGbUY4dkdWeGMwUnJJOFBMLThwRzN2S3MxYWc5YzJVcW9VSGFwNFBnQ3FSb2FSM1lzZGNWVkpoOUJ4RGp5bkN6b3o1RmluYkIwX3EwT1o2RXZDRi1NM25iS3JYcVN4ZzVocS1ySEp0bF9xMmw3NzhTY0YxNTVxeFY0NmdqTDBjZlB2dlpBaUNvWTNTTU5EdVBRQWFCM2pqckZEZTU1Ui1rZFVaSjhUanFSazZBaGR2MzNtX3Rib0s3?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T00:33:22+00:00"
-  },
-  {
-    "label": "MCHP",
-    "title": "Microchip Technology (MCHP) Stock Reprices Higher After Profit Recovery Gains Credibility - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM2hrMmJhTk1iZmVKT0dyWkJodkdodWxaTWZfaWZ3SGFMbUxWQXdZc2NYTVpnZUN2T3hJWmM2cjJwMGt4TXU2Qi16djJrSENCZnFTY0RrUkxRZGFzZTZGZngxRE1iUFdiLWluUC1xVk9QanhaUnJsNnRIc3BQMnlPMGNFMzJybVVrSjNIWkRYb2FFSXF3RkdveHhYZHVhQ2hSQ2ZCbjRac3lzbmRJZ0dob2NlMnlCNDdjR3FGSk1LYW1UNFptaERwbHZUZFBOQ1FDWW8zRUV4UWlXTWZWZVHSAeMBQVVfeXFMUHdSeHlDM1pWMy1xQTFiRWlvcmJZZEVRS3dsWDlBTjVDSVhUeFdLX3dkdmIwcFlSQmxJejJIUHZwYThKTzgxUXNJNzVPZU9UNlBkcUt6dFJwMUMxWnVjRWZKV2RmUHIxYUtGM0dwbGVJMFplY3liNlJCaGFKdjlYdVhWY1UwQ0txb1k3VmlicFczdkpEYS1NXzR5eHBJaHlpeXQ3cGxQTTZ6RHVjbGw2ODhyclZWZUo3YXRwV1hLcnpIZVBVVXJlM0pMWWw5WFpkMGtnVlNBQTBCdUFJakxJTU9vdmc?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-08T00:23:28+00:00"
-  },
-  {
-    "label": "AMGN",
-    "title": "Amgen SVP & CCO Nancy Grygiel disposes of $1.19m in stock - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbXppeElEenkzNzBzLTB5bkl1OEZ6VDdkNkVJUHpSSHE4aWtLOUJOU0hybnE0QkV5ZjdrdTM3SXFZb04tdFVBbURkX3lVS2Z6bGd6am5lUERvOFVnY3Q5bGRQRzhBLW1oMV9nVjhZTmpickh6cjJGVnR6cDNsQlR6SnVQZDFwWnEwUUtoT0dieW9SdC1XRFY4SjN0MlhNTDh3RFZqaXE5b0F4dWR6NTJ3VUI2amNGWGhjYlZz?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-08T00:19:49+00:00"
-  },
-  {
-    "label": "iShares Global Clean Energy",
-    "title": "Renewable Energy Stocks Retail Investors Are Watching For Undervalued Solar Exposure - webull.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HR1JYd0VlYmtyc2oxMGtfX1d0a0EyYjJhMF9EZ2laZkNjdnhSR2hneXNHdklhS1pFSmhKTTBwemRXMldTMVBEb2Rjck5DTndia1I5S3ROUU8?oc=5",
-    "source": "webull.com",
-    "published": "2026-08-08T00:16:53+00:00"
-  },
-  {
-    "label": "WWD",
-    "title": "Woodward (WWD) Q3 2026 Earnings Call Transcript - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeHJvS3E1aHFNWExGQUNDNVRRWEoyQ1NsQnpsZ3ptRENNRUE2dHBYNmlackIxU0FqZ3BRQk42WXlFQ1ZHWE9tVURrMkhXU0U2Tkd2MDl5R3BBVTJObDI5RWpfV1FxaWltcUF1SklCX2Z5a0tXMThWOTRFYVhxcHVjdFZLemU5cTlDWXd0Nl8tcW5pakdjZVJwWlB5enZGWUVkVGlvcXZoRVpSVE9xSkE2MFB6bmowWUJOSEhpSjAtSmxXak5lM0FlbzczQQ?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-08T00:16:00+00:00"
-  },
-  {
-    "label": "BSX",
-    "title": "Boston Scientific (BSX) Q2 2026 Earnings Call Transcript - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQT29Bem5TU1JTdDdaYjk3a2hIMF9iVHV3Z09KVHZfX1lCLTZ3aUVNc1FVQ1hjaWRDM2hXd1otSktlaWd6RHR1QmNsRks3OURNVWpvUnduTmRraUxtenBWTnFfZjFVZ0RTbFktNGZxNTQ3Y1dMczAyX21yZ3dNZ0pkU2I3TTNQeDYtYXJ3VGNveGVTX1lvc2ZPV242YlVEUGxXdW1CQklFSHVIZV9Xa19hMDNvT2NpMEJaRUhJZEt6X2t2YjBjdTFyUVJycHB6cDFLcU03TA?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-08T00:14:00+00:00"
-  },
-  {
-    "label": "KDP",
-    "title": "Keurig Dr Pepper (NASDAQ:KDP) Stock Price Expected to Rise, UBS Group Analyst Says - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZVI3bFRsR0RUMzhIWGdIMXB1WXdFTXB0ekt2amtWRklXdm5pN19mc242eW10bUJaZ3hhckY0bW9JVzg2cmROMDZrUTlsQjlNRS1aTEpkWXh1a3FQMlVBVk13emRqVlFocWNheExqaFR5d3BjaXlzUTJwLVN0cWVkMnpaaXVUV0NibXFTOTVQLXFoYkFoSmRUX3FiNFNRNmJKeTNvNnVBMmZxTV90d2JJYi1xQy1mUzN6eTZteVJyaENMOVl2c0ZfSmNoRG8?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-08T00:02:47+00:00"
-  },
-  {
-    "label": "HII",
-    "title": "Huntington Ingalls Industries, (HII) Stock Forecasts - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHk1M1A1TzUwd29XS2xmdEFCUTFvU29KMlFBRkxUSTV4dWZzbkdIcmNSX0tPU2ZjSll1Q1A2YjZVdXpyMkV2SjlvOGxDQ2hkZXl4Si1FZjNQMnltUVl3ZXFaQ0dfZkhTOHhZaHpTQ1o3MmhCQi1tbWh6NEdtRVdvU1RzZmY4bUtVTXl5T1BoeGs?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-08-07T23:56:19+00:00"
-  },
-  {
-    "label": "HWM",
-    "title": "Howmet Aerospace (HWM) Stock Slips Despite 32.1% Margin And Profit Surge - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUmI3Y2pnMVlLbGZ5V1RPaHNlbXVaT05YeVBVanBla1BRcFBudFZEeUVRckdBYzc5YzdYdDZiYkZ5dlYyenlpMmxGenhfT1dCTkZqSEpuTnNsanBiNmNCaHJPNjhUOGExV1FHTk5oN0FCYW91M2dhVndmRkh6WkFKWVVzYjdOeFZwMDF1aXY3WjRyZ2VvWTdqajBUemwxYm55Zmh4ckV0QlBFcUhtUTFyT2pENnVJZGJERjFFU0tON00xanRXNjlYY29hWjNvbUJoRl9N0gHYAUFVX3lxTE1rSWNBU3JjOFFFN1c2ZDRndzRJU2REMWtXRm1GOHZHVnhjMFJySThQTC04cEczdktzMWFnOWMyVXFvVUhhcDRQZ0NxUm9hUjNZc2RjVlZKaDlCeERqeW5Dem96NUZpbmJCMF9xME9aNkV2Q0YtTTNuYktyWHFTeGc1aHEtckhKdGxfcTJsNzc4U2NGMTU1cXhWNDZnakwwY2ZQdnZaQWlDb1kzU01ORHVQUUFhQjNqanJGRGU1NVIta2RVWko4VGpxUms2QWhkdjMzbV90Ym9LNw?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-07T23:43:38+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "title": "Trump Accounts Explained: How the New 530A Works - Afford Anything",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUbGtsWldGN3drQ0lBVUVKVXB3ZDM4UUVZRkJqS2lEMHVrNWx2N0w5Q0dxMjlaSHFXRWEtclJRMF9PZVFFZ0NQUk50aG9NR0paMTIxa3pTQndrS3hVdm1fQlNB?oc=5",
-    "source": "Afford Anything",
-    "published": "2026-08-07T23:22:14+00:00"
-  },
-  {
-    "label": "HWM",
-    "title": "Howmet Aerospace Inc. Stock 12‑Month Price Target Raised to $331.85, Implies 15% Upside - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQzBSNHdnbWkwMDNjem9oVU9lUmsycjVPbkhrc3pubWxMWWJ4QUdkb3lqYllxRndJOElsdHlUQXFDdHdyRmhxdVpyOXpURk9KZDFORHpxa1VEQ3ZWaXdCa1FQT2Y3bGtIZThhQnAyUTdJMU55elo3X2Y2RlItcnBMQ2xwazVxVHIySHN0VkNPdjZkZEVrWFhBNmN6NWxBYk5oSHBOWEZKLTE1aXZoODRLTWE4LVJFNmRTZGpXQWJwUWxyd3JLVnZUTU9HT1FBc29vdVJtWUhTSEdfWjBkd1E?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-07T23:20:41+00:00"
-  },
-  {
-    "label": "MCHP",
-    "title": "Microchip Technology Incorporated Stock 12‑Month Price Target Cut to $110.95, Implies 49% Upside - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOczBWYlhCUEdvcVlDTHVPYVRzQmZLUlBGRlNQVm94Nm9zZjlzZmh3MWZ4X29DelpOZ094WXJDWlhmWUhYc2Fvbk5xMzA5YXRiNUtxWkpZcXEzeFVNVGk3al90X3c1QWFBU2tWRHJuQ3B3eG1yNkowWHQzbncwaG85SjJTdGl1RThoS1RNRGhWNTlFQ0ZrZzFfdUViaEFiTHgzOUdkcGhPRTY5YTd1RndCc1RRcGxZTWF6TlQwWFlkejV4Vjk4ZGFUUm54SkdfZ2JVZVFaaTY1NF9zTjl5Szh5T3RaYjBsQWo1Q1hn?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-07T23:20:19+00:00"
-  },
-  {
-    "label": "AMGN",
-    "title": "Amgen Inc. Stock 12‑Month Price Target Raised to $378.67, Implies 6% Downside - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUGRXcHo2NWhnZHN3S1pXem5JdnZ2RnQ4SEJrbk9mM0d0RUVFcGVhQ0xxR3dLbXpkLU92MWlMT1VraWROOTlqYWtybHB0NU1nZG5qZmpGS0RTYmdzUC02RnZYbTV2LVR4RncxYTAyV0FUTEV4bjE2QkV2VEd1TWRJSnZYQ0k0aV80S0NwT2VOVXRYc3k5TUNYSEtYNTB5YldFTExZUmE0dmxTcEo3WE5QaTNxMm9HcjVyTGpWaUR2NHpQSmN2UW1wVWxiSFBnSlBU?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-07T23:20:04+00:00"
-  },
-  {
-    "label": "TMO",
-    "title": "Thermo Fisher CEO Marc Casper sells $8.6m in TMO stock - za.investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc0xUci1mZlg5RjZaVmNYanVzRXJYMkpxd0g4WTFoanJwSE15d3BBVDVKaWdLZkVSeTZYMHBUd0E2NzBmbVNxU2hCWExuZ2FPRWZNUk5GNXpCXzBfZHVxOE44ckVublF3VFdkY1c3SXprbWRBMko1NUNDTkVHZTN0cGEyTUY3Z2ZSYTROR3Y5RkZ4ZFpEWGNTVGJ2Q2NLeHllY3E1YzhveGhpVEh1MXVBVURLUQ?oc=5",
-    "source": "za.investing.com",
-    "published": "2026-08-07T23:19:30+00:00"
-  },
-  {
-    "label": "CL",
-    "title": "Colgate-Palmolive (NYSE:CL) Director John Cahill Sells 4,170 Shares - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVUdPM2RNa09aU3FucmVnWmZ0czhIOEZlbHdNRFl0bHFIeDlfQkRMWmVleUVSLVNUcmt3S0JKMDVuTDJjSG51UHhVVE9FaGtiZE9SVUJkLWFudXAxU0xjcjJRVnNlS2p6S2tBQklEb3ctc1VCTHNSU25jTGFLY0xtTC1Wa3U5R0dVOGVTRTU1dUxuSy1BbFdDVHM4eWdtWHAzVkhYd0Faa0FmeWtMdi1pQV93NnVCSEhy?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-07T23:12:41+00:00"
-  },
-  {
-    "label": "AMGN",
-    "title": "Insider Selling: Amgen (NASDAQ:AMGN) SVP Sells 2,970 Shares of Stock - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1pNVERkMTFmVU1CVkw5Z21iNHdUYnJqUnJOMUJnNGFxYU9DWTU4SU5BSmJ2R1hudjdRWnZYeU5XRVJpUElJTE1aX0I3c25NaDNySjluTS02MWRra3VBQmhzOW8wX3dpN2poU2N5bWhMTUctNnVHSFR4M05iQnNtU0NOQzRZZl9PTHBNSmxLazNDTHVTWndsak83UkVMRHlMdU1SWmlkdFFnd0d0WE52QlZHQWJyT1Z4?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-07T23:12:40+00:00"
-  },
-  {
-    "label": "TMO",
-    "title": "Marc Casper Sells 10,000 Shares of Thermo Fisher Scientific (NYSE:TMO) Stock - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdVhBeDdUT0dVX1QzOC1DUUQ5Tmw3MWZGUlVQZDBMWmFsTmRVSG03YWM0OXV2MExRUl9Oek5QYnMwb1NrSW00NWJDSFZScm5EaEZEOFlFcWxvZjB5N3g0S0dyVWM0MmE0ekxKWS0wOGtKQTRvQ2lRWGExWm5yR1lTaEczR3VtRDR6Sk9KTjdfcnFMQmNuVEY2VXh3ZVFVdEFwdFlkNkVRUjR4YS1KU3JaUXc3SFhaWnhJdGdUSHdhNU5tT081?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-07T23:12:40+00:00"
-  },
-  {
-    "label": "COP",
-    "title": "ConocoPhillips (COP) Stock Price Meets Cash Flow Ambition And Project Risk - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLS1zUENyY0F4TThTTngtWGs1QUZTSFgzNTZRZ3RYbktYa0c0bEthMFlhc2lMSVg2SUpEWUhqaUlnUWFCdk0tU1Jpd2NnSnRMblZVaUgtLXBLMk5pZUdWanJLOWpJZkp4ajJReWVhUXBXNGdqeE9rbWxWZDdqeXd1eFp0VGpNNGozXzEtSzNWem50OElJQmlSc01RbGt3RXVtbU9fVURuM05WQ2E3YzdqNFU1czZITWU1MEFWZHdEUVBManRTanfSAcsBQVVfeXFMUFZLTzhhLVJJQlVjQjdjTjhMamFxcVU0WFJhWHdRNmJVeWxIZFZycGxJcUJ3aksycG5kQ0JPT1dzQk9pN3NvYUd5N2VHUG9HY3cwbFNRRHd4TktNeEtQS2dpQnpHRmp2d2IyU0tzSHZSdFhkcklWMEFQSVJYSFN2X1dFZXNlUlM3SExxdG95enBQZ0RTN0VaU3cxTEZMWG03Z3JzM1I3ejhzTEN4Y1I0SXJLMkJJRC10ckp0bzdmRjJON1E1OXctdEdDbzA?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-07T23:05:53+00:00"
-  },
-  {
-    "label": "iShares Global Clean Energy",
-    "title": "U.S. Solar Energy Stocks Back In Focus As Import Rules Shift - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa2VpQVRoTDZoNlpIVmdOcjhsU3ZKNTB3eWxiWTNMbG1jX2FRTlhSUlcyc0RXRTM3NGYyMnpRXzNJR0dScnF5eWN6WFFQSU9iOWsxazEyNEw4RjBlVEczeWI0MUl1M3FZZjB3OUx1dHlLMy13UWR0RlY3RFFSMHNQQWdFTEVwblVBcThfXzVQSVVVcWIzVWoxM2xYUUotN2lOelRqekRzbkVFOW5aLTRkR09NUU9nTlByZWIwUVhTVjhOenpPSENnWG1XUdIB0AFBVV95cUxQYkRvVGZweGQwNUprczRjVGRLZFBTc1ZvRGhmOTJCcHp6SDNnTEdhNXZtM2lCLXk0VG0zYV8tSTlFSG96Q3gyeS1tY3VrdlB0RUZQakRIdlNHam1lU2pRdEc4MHplOXZ1OW10RHlIb3p6bktYV1FneUhDcEppV2ZfTlJwMkxFYXNmZDE1OHhIdFppYWpjLWJBRUZBVGkyeVFQTDZCelA3NGFhaWJMQlMzNS1xMzhFVzJ1ZmVKR21IUFgyaU9NZ1RXN2pFN2VEUFZi?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-07T23:04:28+00:00"
-  },
-  {
-    "label": "ORA",
-    "title": "Ormat Technologies (ORA) Reports Q2 Earnings: What Key Metrics Have to Say - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2J1M2ZKMVJCVmFRMGYySDQ1QjU0ZWRpUUNGT3ZWWk5HdjI3N3FQSzNwZnczWVdBbnNzWWlYR2dhcm04YW4xN09LV0Iya1oya2xUaTFSd1BGd2YtNHNUSFMyYlNpR053TTVqSktjUVBsZVN2VVh4RGNDVi1ZS2ZPMldFYUp2SGJLTi01ZURzWUhpZ0ZMOWVGcndoQzFhalU?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-07T23:00:02+00:00"
-  },
-  {
-    "label": "Scalable MSCI ACWI",
-    "title": "The New York Stock Exchange | NYSE - NYSE",
-    "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
-    "source": "NYSE",
-    "published": "2026-08-07T23:00:00+00:00"
-  },
-  {
-    "label": "TMO",
-    "title": "Thermo Fisher CEO Marc Casper sells $8.6m in TMO stock - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbThYRlVVTWFlS3l1QmJRZE9XbTg5c2k2TS1iZkUxYTNJNXZFSnJoUVo2eU1KZmlPbV9wS1drSi1Fa0hreWtGZHhTand0MzE3QWFhZW9adGJpQ29OT3Iya2paNDh5UVJXdmpzcUdJV1dTTlVlOGF5dFRpZ1kzX0NaMk1CNGFNOGt2eTlqTzlDcU1QeFc4ZGwxTm11T1NZRnNyenVDWk43VmliTmxQM0tMWWo4aVNWMUF2?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-07T22:36:06+00:00"
-  },
-  {
-    "label": "AMAT",
-    "title": "AI Chip Spending in Focus: Can Applied Materials Deliver? - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xVzg1blBzUGE2RkdlNjhVM29qU2oybjYzQXN3a2lnWFlSMFY4b0VuWktESmdTVWlIMWd6ZjZ5SnRaQV9mRllFNjdvMlQ1cXA2a3JZaDVVSkhtNlhVRDFPMzV5WENKN25HaE1MMHZibHQ1c00?oc=5",
-    "source": "Moomoo",
-    "published": "2026-08-07T22:31:13+00:00"
-  },
-  {
-    "label": "MNST",
-    "title": "Monster Beverage (MNST) Stock Sinks As Record Sales Meet Premium Doubts - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdTZJbzFCUTFIXy1aX2o5blN4Zm1OVXc1WGdBREdjaXZmVGZ3dEFuZ2ZEVzVUNW9JeGhERGJPT0JTbC1SczhWUUFKMWhUYkpjVkhrNVp2TUs5RWhSclB6TUFETGtGUkI2eHk4VWZBYndXOEJLVUxoNi1mRjV2b0w2YTRQVVVuNm1obHc0bmw4dWotYlpqTU44cnAwUzRjRjBsN2JleEVkVGhaQWFpS0tkRGJadE9TWGU4R25HT2pLSVROSlB1bThPNXlzTDRILWtZc1A0M0w1bGRjS1g3NFI5Z09n0gHnAUFVX3lxTE5lWHBOcjlGNzR6RFBJWHhkei12NWFWMGdmRUZMajRDMlducmRDbF9td3hiQV8tbW5fUjNLc2pKU0RHaVhtVm5YaDJGU3gtbXFFT05mNFFQVW9tMDRCVHdQdUhOZmMxTVRoaGpOcTRJWUZfaE9BTkJPQjdQbUI4OVJNZ09jZkdqNFBOR3R0U3JLdS1BQ1pFZjZJSndjcHhOVWV4QnFRcnZwUElfVE01R0hRM19fclRIMWdqSlU1b0h5N0VGRXpnSTdhRGt2ZHNtWnQwNElYX0xSTWpUUHg2UjI0clVGQ0ExZw?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-07T22:30:43+00:00"
-  },
-  {
-    "label": "AMAT",
-    "title": "AI Chip Spending in Focus: Can Applied Materials Deliver? - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ3ZNelZEUC10bjZ2LU1oU0pfQ1FEbTFjdVpMVEx4d284SFU4RVN1OW9hQ0FSVEllQ2ZJajZDYXpRQmhyN3h6Z1JYMWVUT2x3Vm5feGpyQ0hsdlcycFVremZlMTZJWU9wWHVBV3l1RVlYX25LeFhrbThFMER5V2twT2FnaUhyLVQxYUFsSU1XbVJHemFEbnU4TWVJcVl4cHFpUk41S1dDLXoxbjVzdkpN?oc=5",
-    "source": "Moomoo",
-    "published": "2026-08-07T22:29:12+00:00"
-  },
-  {
-    "label": "SYY",
-    "title": "Sysco (SYY) Beats On Earnings, Is The Stock Still Cheap? - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWlh1dEEyaWtTTFJmRTBFcXNoaG5BMWJQcnpvcm9kd2pfSVlQTlBaSWxrcDIxaTZ5NlJKcmI3NDEtdVRHQ2w5bjJ2eDVndkpXeWstaHllYlRaRnZxWG5HOEpPX2V4VnR0R0dTajI0b29CaW1qdm9Zalc1eWZJZWJ6RHhIRU5NUkttX1VtcTE4TGI0d3lWYXVxRjJVYUE0NHJtY0dCeXRraU5zR0taYXVkQkJqemdERDhWWTNZODhBMkLSAcYBQVVfeXFMUEhYLW02VVAta3NtdE0yX1JnaFdoazVDOWI4bmVvaWxGYWlVS1kxQ0d2a3ZKLUNxbG14czFtRTQ3OHVFcUt1c3QwZTMzN0FPTmkxRUNaQndOa3VQSEt0anc4NmxKemFVSjctcmI4Y0FMZkRmTjZndlpnQmtraUp4Q19jUndoWGNqM3lYU0pJeFo3Qm45ZXFEc3AyS0hZdmo4UTQtMWF5WHNTLXpxaHltZGtPdm8tVUFMOW54ZDd0enFFSDRiaXd3?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-07T22:25:28+00:00"
-  },
-  {
-    "label": "SIE.DE",
-    "title": "Siemens (XTRA:SIE) Stock Draws Fresh Attention After EPS Lift And Buyback - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVm1JaVM4cDdCMkoxbUxJbi0zcUdPY3lxcEZCTGVfR2FxVUEzRXBDLXZTZlBXN3pPaDk0bkQybk1aemt0WXRCZEVyTWpOVERsV21vTUZhdWtQc2Z1b0NTcjJVU3c3am9ObUpVM19nekFfWWJkTTF3ZGFfTUZBMk9oaW1kcjNyNmpRTEJ1VlBlWVYtenlucFRKbE1rNjFJa0Iwa2RXOEVLUWk0ZkFKVHZiSFhsRTE0T3hsaWM5M0VDa1VXNFktdllMOUplZDdsVTDSAdQBQVVfeXFMUDBhRVlDMGEwSllIYXlwTUg3SFFBRUxuREtySjItZmVXS20tX2dacTcwTkZSUGdSUGFTOVYtU2lZTHhqQm94QXZUQ1JoVFpOXzhXaFBDcE1IXzlNTFlzUm5SN1ZCMlk0REJ2bl9DcFRYWHZ5cVR5VVVSUnhXSTBzMjVIa25sQi1Ud2xTSWNKMHJJenBNTTRkbUNZRzE0MVdOWU1OZkp6WXI4d3EwNUplWmpGWklDX3FiS04zaHpYNVFPcVhtMW1OOW5PclBDVC12d1lNVXY?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-07T22:20:34+00:00"
-  },
-  {
-    "label": "TMO",
-    "title": "Thermo Fisher CEO Marc Casper sells $8.6m in TMO stock - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbTUwbGhPanc0aE5Ib2xXX0pjT3BUTUE4VUNyRUtDYUZFWWZpVUpObHpIaXc2UXdEYUpfeG9xWHptODl4blJJLVhpT2MzeXlMUXROdzJVeWNBaU1JWnZrUFpxX1phYUk2bHptbm9QZWI3cXNiZkVucG1UT25XbTk0dEVDaWlBZWMteEpzQ3k1U24yX0M2ZnZGdk5jT1NPdVFMcl96dXpseHk1OVVhenY0U2pQTjlFUklmNkJXQzVTczA5ZFU?oc=5",
-    "source": "Investing.com",
-    "published": "2026-08-07T22:16:00+00:00"
-  },
-  {
-    "label": "ENPH",
-    "title": "Enphase Energy (ENPH) Is Up 6.1% After Expanding U.S. AI-Focused Power Electronics Manufacturing - What's Changed - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByTUIwTEFRbmJWX1RLZzVCSnB4ZWQwV0JYSGdraWVNUEk4WXpKZ2JRMUFtbU1aTFNmQ0JFNWRnd2cwSGVORDg5ZDFHdEVWZmlDYTgweFRSbVcwa0dHcDREYUYyMHJ6SnlwR25OOUtILWRuaWJDTUgtZzBUYTQ?oc=5",
-    "source": "Yahoo Finance Singapore",
-    "published": "2026-08-07T22:12:45+00:00"
-  },
-  {
-    "label": "MRVL",
-    "title": "Marvell Technology (MRVL) Stock Looks Above Fair Value Following Its 273% Run - webull.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0zY21McXNqWVBHeGw1Ulh3OTlXRjcybGNPUy1Xc1BqMENSU19VQkU4UjUydGJxcVBLZmo1ZEltSE1oaWxPT2JaVEZpWjhMT3RhdnBlOXBvLWk?oc=5",
-    "source": "webull.com",
-    "published": "2026-08-07T22:11:39+00:00"
-  },
-  {
-    "label": "KTOS",
-    "title": "Kratos Defense & Security Solutions (NASDAQ:KTOS) Stock Price Up 5.9% - What's Next? - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZmIwTFNabl93VnRraHlPRnVyY21vOVBuYWttRHVyWUtjVHo0MzkwXzJ3UmRzR2ozSVNsOTdaSldLZnFLM1FEMHdCNW1rT0FNVVZoUHhoWnl4N2YxN3NxTjYwWlJLaGhQaWhhbmxkZ0N0anp4Rl8yTDJhaU9PMG1MZS1YRFJkVWdncXhWcGU1Wmk1RXlfanZZT2dONW96Z3Fqa1hMY1RESXVISXBsWWZUaFREb0ZOUnFHcE9XaEtOZHN0R2h6NGc?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-07T22:10:32+00:00"
-  },
-  {
-    "label": "BWXT",
-    "title": "Advance Auto Parts vs. BWX Technologies: Is an Auto Parts Retailer or a Nuclear Energy Pioneer the Better Buy in 2026? - fool.com",
-    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdllJUURjdXNGbnB0ZklfQWkyTkFDNTFUVHRVUXZaVktwZzRTeFBBQk0tNVNuZFM1WGxpdzN0VDZDODZxdXlpUEFaSmp2Nl94MmM5VnNIV1hmdnlYZm1LRHdHdW92TjVCaks0aG1xWklvS2RJaVZSSGh3LUZLOVQ1RTdMTFlNRTNlZkhJQmJyV05oLUJnZkVRQzdHTEE0Ym1LWU5xeUNaamlBM29qSl9SclN6U1hDZ2F5YW1ZZlc3SnphSXVKMGNrN3JaUVNSNDNqSHhqWUU3dlFDVzlsVUF1ckZ6SUh4SjczaE5nY0taMDYyRy16TmxUR3FlOF8?oc=5",
-    "source": "fool.com",
-    "published": "2026-08-07T21:52:00+00:00"
-  },
-  {
-    "label": "AVGO",
-    "title": "Why Broadcom Inc. (AVGO) Outpaced the Stock Market Today - finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeHJJM1hTODUzVjhuMnZicjNqYXhTd2N2NHBTY3E5TV9GcjhNcndvampCbEJGck5LNkNLRTF1UmZnU0RCdmtIU3U3NHFNdUR1emE3NU1FbWJnRGNvTWhqRVdJcTdBNTFvbDlaT0NkVVNpLXZHWXZKS2c1djdxdERVNWRPWG5qMUtnenlINXVKaXZCOW1SOFpLTVRVTQ?oc=5",
-    "source": "finance.yahoo.com",
-    "published": "2026-08-07T21:45:02+00:00"
-  },
-  {
-    "label": "HSY",
-    "title": "Hershey upgraded to cautious Buy as cocoa prices drop and earnings recover, despite volume growth concerns. - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUnNkZXY1SEdPeEJiLU9KRTAtWUFGQ2FMQ09mZWs0WXl0QkVIRy0wM1NMVjNqdkZ5My1NZDVhQ3dCS0kzOThhRnF5NjBaTVNiTHFfdzczSlFMRUV0RDcyUWQzSnpZLXpxbVNKQ0kxZUdHOUs2aXRQbXJscXg2bnlIaTNtV3dLUThnTmRmSzg2U2p3MURJdkpidlMweGdCLUJBZnhlZVlDRQ?oc=5",
-    "source": "Pluang",
-    "published": "2026-08-07T21:38:20+00:00"
-  },
-  {
-    "label": "TMO",
-    "title": "Thermo Fisher (NYSE: TMO) HR chief sells 5,850 shares after option exercise - Stock Titan",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTmtRRklKeWlBVDZVd0JGUWYyaXpuWjB3UWhJdGgwLWZ3eG9XQ0ZxeGFjQU9rNU5fSTdBZDNJM1R6WTR6T3VSSjJNdUJ5UldsdGk1eEZoanJseGdkQmRuckVKeXlBSWRHeVBlYm92ck9rYmJoaUk3N1VOcnRhZnBDb0kzeDZhaTJlX1ppTEd5ZVNWN1FJcl9NRFRETEdQTVQ4eVNDSGdXblRYYjdaU1RGN2xDbVRIYVpKdjJmQUNR?oc=5",
-    "source": "Stock Titan",
-    "published": "2026-08-07T21:33:14+00:00"
-  },
-  {
-    "label": "KLAC",
-    "title": "KLA Corp (KLAC) insider plans $475K sale after restricted stock vests - Stock Titan",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNlhQVUhILV8zem8xV0c3NEZ0MmtseWV2SVdoTEtmMjJXMnNxeFQxWlJJZ3ZLdV9nN04xWTdYR0s3c3RBcjFwcHNJa0xjbHR4R1I3d1VCWTBSamlYaHZfemQ3VWgtWkZXdFFzeG0yUEdNOWVaSjBwRDVGMUx2WmFUM28wZG1jTWlCbnNIUXdn?oc=5",
-    "source": "Stock Titan",
-    "published": "2026-08-07T21:32:39+00:00"
-  },
-  {
-    "label": "GE",
-    "title": "GE Aerospace (NYSE:GE) Trading Down 1.1% - Should You Sell? - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ1ZDN0lBOWtwcVFxaEJKdlJTdjVnRGswS29GZDctaVRPR2x2TEEzQ0h1Qm1BV0dVWExTbi0zRlhvdVpVakZpYXpidXFvQk5OWi1oWDI5VHNxZkI3alBwQ0tOTGNkOGpybzFnTlpzY1Jkb1VQa0docXcxVlFicm1HNU9yb2hmNEdqMF8xakFHQ09BcHdpZzJvaUpsWHFTQ3lYZGxua1poQVg?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-07T21:32:26+00:00"
-  },
-  {
-    "label": "TMO",
-    "title": "Thermo Fisher Scientific(TMO.US) Officer Sells US$17.25 Million in Common Stock - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUpncENTNEhsYTNIcm81WkJoLWxqbDhwR1o2ejJBSFBBWUViaU9CbWgwVUJaY3B1OFY2eGhkR0xVQ2t3M25lR3h4NDhaYlQzT2ZOM1dlLTk5YU5MbEdRN0hLbkFsMGlseTFsTC1VeFBqZEdPcnY2NzZLekcyODhVcTBmeEoxcDBvUVVvRzVQQWtuYTEyR1NuWmU5ZDlfOC1iNm80and3?oc=5",
-    "source": "Moomoo",
-    "published": "2026-08-07T21:27:40+00:00"
-  },
-  {
-    "label": "TMO",
-    "title": "Thermo Fisher Scientific (NYSE: TMO) CEO exercises options, sells 15,000 shares - Stock Titan",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbW9pdC1CY1lrYmhGYVV5Q25pUWs5TkRvX1JibTBJaUx0Y0w2Tmx1ajB1LW5JaXhvNVZkVl9Ba2hLWEFsU0tMbVQ0dEtlNklDS0VaNVlNMk1RVGpoRkRsemdQRE11dnNzTWFSZF9iem1zUVQ4STBmalQzNTF4RUVQNWZ5eEVxQ3dHMmlKZno0YTRfX01iRy1vOVQ1NjZoNHM5U1BVNHJ0U3hBdzF5WV9FU0hRVEQ1RnB0TDNTdGFn?oc=5",
-    "source": "Stock Titan",
-    "published": "2026-08-07T21:27:19+00:00"
-  },
-  {
-    "label": "TMO",
-    "title": "Thermo Fisher (NYSE: TMO) CEO exercises 10,000 options, sells 15,000 shares - Stock Titan",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMlR1aHROd3ppN1MyOFZiWmFOOFlhbk8zUXl6MVN3c19lQ214MmEwQkpnV2t1ajI1Z052TldCRTlwMDRKTldHMVRCSXdMb2czNWljQ2h1bkl4TDVHc3pvdGRRMGF6ZW5qbUNld1ZpQ0x4a0I5VWFFUEhrTExXNm5RMmk2eFZfaDhVNEIwR1B1NDBGRkpLdnEwcENBTW9nbmJ4TXBwOFBOYVdOX2pONGxHOENjREhqYUFQU2J2cmVR?oc=5",
-    "source": "Stock Titan",
-    "published": "2026-08-07T21:26:22+00:00"
-  },
-  {
-    "label": "CW",
-    "title": "Curtiss-Wright Slides as Investors Weigh Strong Q2 Against Rich Expectations - Quiver Quantitative",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQjBRWElNZUxfUFAyOWhpZ0wyTjdkUGJJSEFBT2YweWhjRG9VUDNJaVRYX2VKRmhHQS1XanBOYTRjb3hNem5JRTVwVGZMNE45eUota2Y4bzVHOGs3am0wNENyVUdjcGh1N3RXWTVmUDJzZlZQQks1eGFnR1NWdjJOdGVnaHg4NXFyQTQ2WGgyT2tHX3VXLWZpSnUwdFBLdFRmRzdsZnVaam85Q0R4c2c?oc=5",
-    "source": "Quiver Quantitative",
-    "published": "2026-08-07T21:26:00+00:00"
-  },
-  {
-    "label": "TRG",
-    "title": "Targa Resources Slips as Revenue Miss and Second-Half Caution Overshadow Record Q2 - Quiver Quantitative",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQU0lVeUFoYXFtZjdYUk01dnR1MmpyQWRXU1NidGtiRkU0TURIRVZKZ3I0bDFIank3cGFhWVMyNV9JOUFQWjJ5MUZhb1NZVHEtWktmOTJhNnAwVmk5amJFVWt0QndVUUt2eXNrb0lMYVlTSUtiZjJGRjR4bjFkZVc3U0E5dG4yUm1HbWliRFNlaWZhcDBiZGNROGUwZkNKNGZWdHcwN09YZjZ0ekNjS3RVTkgwaEh1dw?oc=5",
-    "source": "Quiver Quantitative",
-    "published": "2026-08-07T21:26:00+00:00"
-  },
-  {
-    "label": "AXON",
-    "title": "Axon Enterprise vs. Chewy: Do Customers of Police or Pets Make One Stock a Better Buy in 2026? - fool.com",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVnVUSVVKQ2VXVmh6MjlFOVVnT0lDNDNtRUJDUU94ZDFCbjRSVlAxWlBvYUFwb05EamFJOXh5c1hrMlpfTkR5VF9oOXpoSWV1ZEZMZFE1TVJjVF85LTdhRmZQcEVoRlV6aVIzZjNRb0JCeVlWcDhHY1BLd3FZNFFYN1NMRVUzbTg2TlVRWENPNVJmSFl2Q193LWlZUkpiRkVkWlhaTGVlNTlVR1ZEQ0RzT0EwRmpSSkwzcTlUblFneVFKLXhINkgzSmZxUFM4Um5fYzlXRV9hcXM1T2JD?oc=5",
-    "source": "fool.com",
-    "published": "2026-08-07T21:25:00+00:00"
-  },
-  {
-    "label": "MRVL",
-    "title": "Marvell Technology (NASDAQ:MRVL) Trading Up 3.9% - Time to Buy? - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObF9kQ2hEYWdQdzhkZ1h4bWZ0NGJ3b1dWa3YxNzU1eUUwM0MxYWpNZl83b1EwYTJSQ0lHVWdLR0tINFVoNW5rb1JCNi1Gb193ajZnTGJZaWxKdzB2cWE4dTFnaEdYd1FnY0pGVEdoWHM0SUEtZ0t6d3JyOENpMFNQaWdIVW8wODIwdkZUbEJzODlXbmE5dTNFZDJTOUNaRmhGdEtqZFpJbnZsa25aMEE?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-07T21:22:30+00:00"
-  },
-  {
-    "label": "XOM",
-    "title": "ExxonMobil (NYSE:XOM) Trading Down 1.3% - Should You Sell? - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN3NET1czZ1JMOElHTHByM0RPRDJXRVp3SXF4UWF3QzNCQktXME5xOXN1NkJsR3pTa1gyamNIRTMxRlB2RlNJSTJBdDNrY1B2bmRuczZDUHd2REFWTGtUTnMxUGJHMTFZS1E1UndKX3R1UzhPSFp3MS1YQnFYSTVKNzRLRlB5cmpOVGNlNkZaTUhiS19pU01tVlRFQkdXSXB0S1NNcjloNA?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-07T21:22:29+00:00"
-  },
-  {
-    "label": "ENPH",
-    "title": "Enphase Energy Inc. stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWnRFSERXLTdVcFRDZkMtS0poV0NaWlJsY1RvbzVwb1JTQjZpV3h4VTBlRWxoNURhZ1N5YlJQRnlqa1hSQUw4VUFIcG0zcndMTHJxVDhFUGFuNVNxN2xWOVlkVFJrNnNhQ0RKRjVvNWtvSDlYWUhSRkgyejItRVRKOGZlZm9kWk5RX1NWalVBeFE0LVRTbDVLbFJWT3pOZzJBNElNSmxiZlpienlFYnBQWEYtWjJHSXp0N18tUkYwYXowMmswdjdBOHlqejl2SEFVRHhpeVNhczEwT0tZUFlIQ2hB?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T21:20:00+00:00"
-  },
-  {
-    "label": "BA",
-    "title": "Top Stock Reports for SpaceX, Arista Networks & Boeing - finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMDZsTG9wX1pQZTRSU3hGdzhpVDdDQWtadHV2dEdjSGdtRDJPRTBBam9nalZmQVN3VXc1RkxTdGh6NlRsWXN6elY5U0YwSnNxTk84bGp1SFRFTkR3NzZaTmZ5V2xwQWtnVHF1VUU2LThtRk05bmZOMVNTYnhhUDJ2MU8xYlFWc3NfYURZVU12N1VCM3pJcGFaYXFEaWs?oc=5",
-    "source": "finance.yahoo.com",
-    "published": "2026-08-07T21:17:00+00:00"
-  },
-  {
-    "label": "Scalable MSCI ACWI",
-    "title": "Stock Market Data – US Markets, World Markets, and Stock Quotes - CNN",
-    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFB6WDRjUU9YeDVYOVViUUNoY3U5SHk1aWwtMENvTFlaR29zbDBBaGVJS2hVUjU0V3AwYVZ4ZlI0cmI?oc=5",
-    "source": "CNN",
-    "published": "2026-08-07T21:15:59+00:00"
-  },
-  {
-    "label": "SWKS",
-    "title": "Skyworks Solutions Inc. stock outperforms competitors on strong trading day - marketwatch.com",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSkFic3oxa0JxNTIwcEYzQ0VnOXNtVE1kUkUzUEx3cmJjdUFwOVlQZzhyN0hPUXVMX3A2TDlqbmlpOUQ1SXpQZVRnUzFOR3dlOXMzcjdaOVFNS3pkN3FLQ09rSEJVM3BNX1JXTUpDZXdkYjFBTHB1dEN4Wk41YWpoR3J3eDNRSjlJWGx1RVpsdGFrYXBMYVdUTndxTHh5VVcwdlBXTVdvWjY4ZkoyUHEwVmhCZWlVR21Jc3hZVTYtdmJSbWF6UzRVdENkRTk1d05iR1NaTTBScWVjWmZEX2VNWHRqckdtZlk?oc=5",
-    "source": "marketwatch.com",
-    "published": "2026-08-07T21:15:00+00:00"
-  },
-  {
-    "label": "SAN.MC",
-    "title": "Banco Santander (BME:SAN) Stock May Be 31% Undervalued On Fed Deal Approval - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWng2NlZ1bE1wVGxJeldaR1BQYlIzOW9xeE9sSDVBSFBKaHlaNEFCNGVrT2hUTktFOWJDOUtEeWFwb21xY1gwOENkeGRkTnBLSFFIcGhBcC1CbTFHbGhHZ1hTN08tWkVhN2pleDVZamVxaTd3VFdZNmNDX1BjanBIM1MybDNjbU54OERFUVhZdnBHdEEwNmQ4QjBB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-07T21:12:53+00:00"
-  },
-  {
-    "label": "HSY",
-    "title": "Can Hershey (HSY) Justify Its Price After Raised Outlook? - webull.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5U0JVYjNTZHFQcFY5RlZyUXBTbXZtVDBITk5MWFUtZzdSMjFILXRkVG1ZX1ZSb2xBeHZEWW56dFNwRkdGVllxMXQxdVdTODl4SXJ1SkxnV3Y?oc=5",
-    "source": "webull.com",
-    "published": "2026-08-07T21:12:50+00:00"
-  },
-  {
-    "label": "GD",
-    "title": "General Dynamics (NYSE: GD) elects president Danny Deep to its board - Stock Titan",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPemRUZGs4UndRQl9HMFZvR1BhYjhva3JLQ3VpNkp4VnU3bkNNV042VXgtRHU0bmRVR08wY2VxbGRmRnFIU2MxTDJ4ZnVGWlhnaGJralBmYmhjVDB6dUVQaFI4WENJYTZ4UTR1WXNGVmFHbGlOSWNNQVQ4U2JUYW53OWJsbkNEWHBpUVRUSmExTmJwcE01dzdtSW85NEd5WC0telpValdjcDVlb29O?oc=5",
-    "source": "Stock Titan",
-    "published": "2026-08-07T21:11:46+00:00"
-  },
-  {
-    "label": "CVX",
-    "title": "Chevron (NYSE:CVX) CEO Sells $1,037,289.00 in Stock - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnlnN2NVZm1ZNXgtbDNrdDV0ZDNrRGdUZmlyWERaOFZ0X3c2WS1lUFlxOTcyZTNydEtoUDc0YjJyLW1Tb3hvZGRfZUF2eU9iQmhSWkU1eUJyZVN5NkNzN0ZlTk9wWkFBRzlpQTlHYnQ4ZndocnhRV2tpRkkzeHJpbHRGOEwyRUhKMWV4V2R0dV9qVXZYY0t5aXY0VndaVW8?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-07T21:10:34+00:00"
-  },
-  {
-    "label": "TXT",
-    "title": "Textron Inc. stock underperforms Friday when compared to competitors despite daily gains - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZFZEYkdpS0I0SjhneFJ3VWNjck1NVVBXNTFlNHV6U0NzczhlYnFTTlhvdXUtcWlxYy1zUHc0LTNzMHNCb0RyZzctUV9zYUw3VUpqLXJtQ0JwV0g2bGZxU1hJNGJBV2hiZjZReTY0YUIzalpsSDEtWGd0YXJUNlpmV05RMElDX29uNkFPVklxVFZfbWxRcExfOHRfSHBtckZZNUFwZk5WcWVDV2N2U0l2Q3dIOUo3ZVNBYzNTV2M3U0hBMko5MG50bm1xT3RPUlpXWkF0NVgtMDZmUmdvalNQaFgyYnl3UXRMNml3V1YwcUs1aU93NmEzag?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T21:10:00+00:00"
-  },
-  {
-    "label": "MRK",
-    "title": "Insider Selling: Merck & Co., Inc. (NYSE:MRK) EVP Sells 52,847 Shares of Stock - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMHlCN0FndktKMnJ0dmhMVkt6UTRoQ3pNNUlFWElYdlFGRC1oTS0teHpCX2h4YktETnBPaFM5WEhPOWZFalpzdTBfVmJ2aW5MT2NWMUJRWGo1QkhoMmZNRTJ1ektiT1pWRkNMUUVleDd6UFFxNmx5bUFTQnV1OXA3aTNjMEZnNHpkQms1YlhQaUNRU2lQTU1vRDVubHI0WWtGWWVIbUhSQTJoZk9uY3JLQW1pVEZkb1lNbG41VU5iYw?oc=5",
-    "source": "MarketBeat",
-    "published": "2026-08-07T21:08:22+00:00"
-  },
-  {
-    "label": "GIS",
-    "title": "General Mills Inc. stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdnFVT0lsSVUtd1otbk4yM3BnVlM3ZTlzenotbE9uaXZ5ZUt4VFEzRGVsM0FPQjI3anBZam9VcHhLaDR5b2l3cmVzZ0YtcDMzbktrd09NUzlwaFpfWnYtczRiT085VU1NZ2dXQm5CTUFHcTNlUTJKU3hhakdPRjQwMTN2YWdvVFNPLV90d2JvdHFNRDFzNEpyRm1jTk02NUdLeXFxd1pHU3FWTC1rYklXTVJ4UjBmMzZuT1NOcHVzeWNkRmw3V1pqV0YwZjNIbUYyNVFaanFKSkhuMkU3QTE5bQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T21:07:00+00:00"
-  },
-  {
-    "label": "GIS",
-    "title": "General Mills Inc. stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOE5hRGZnVkhTRlI4d2tGSzZNc2Nab2ZzV1VEUEhBalZnTGt0bkNXUkV4aE01SDFSbEtqd0dvZjlnLWhlMGtueEpzRnFGcVVJUkJlN3BFaXgxeHRFZHc2RWtzcmdsM0R5bFpLdXkwRHZsOFFiNm1YZUplMmZXVW5CUUpLOTRmMFVEOGFJS01nSWFJWGp4cGxtZVpsQnhhSUJxSm9QUHhCTzF3OTNybVBSVkJnOXY4d25XdEJWSkVkNWR6eElHZWl3dg?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T21:07:00+00:00"
-  },
-  {
-    "label": "STZ",
-    "title": "Constellation Brands Inc. Cl A stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdFJQckItWDFOaXdaSEJUR2dxVEV0TzRXYUhFdjhzLXhOY21RQXRwZnpWSEg4SWVRa2NYdk5rMFF5TENDS2ltY2pia2RMWlpnbjBZdFRHVmYtakRveUlBU1IzZkJaV0NVTGRkbl85b2ZSSTUzSUxUa212dTJVaXlMYUJUd2NNbFRXZ3VtRl9LYkh5ejRQZTZzTHk3YUpFYTc1bWNyTEJJeWd0ajVLWXVJMWU5TjJTNXI4QlBsdlZKTmRYTDVCYXZlZE5ZUUV5czlZSnVmMk5MOXpxMml2OEtSOHYyR081R3cxMTRXWGtNMVA?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T21:05:00+00:00"
-  },
-  {
-    "label": "PFE",
-    "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update - Medical Economics",
-    "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVnU1X0hLdnNoem8xSWwtUm9LQ28wXzM4aUFsUUN2U1ZsM0Fwb2dIWmNPdGphRVd3cm9RUzBtT0gzYVlyYUV5aHBnOEt4ck9CVnV0NEs5NTJkV2d1WnZSaGs3bUJYUHlzVVBMV2xwRDhnakZiWVlkNG5kTFBmTm0zNHJGNDlhdHhNcVNEQUtaX0ppdlZ1SFlXekZ0Z0Rtemh4TktrWGdPN1VIYnhGZmZnWURLWlhQTjNhUXN0RkV5eE01ZnhhVHd0RXlFNm5PNDBQTjQyOWpHMWRpTUJfV0Y5NjBqcmJvZ0FGWGtZQjdtZW5LcFI4S3U5ZHV6Zl9uc0NZQkpEcDQ1TjRiTnk3MjBGYS1RdjhNaVhvQjVveW5FRFpWQkVicHE1MVlLbURUZTFObTZtS19qN3JrdDF5c0RHb19WZzNTQW5OcWU2MEdGR3pqREVjQWc?oc=5",
-    "source": "Medical Economics",
-    "published": "2026-08-07T21:05:00+00:00"
-  },
-  {
-    "label": "AMAT",
-    "title": "Precision Trading with Applied Materials Inc. (AMAT) Risk Zones - Stock Traders Daily",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTTFYWTJmY3dEckRRUDdDZ3lTbTFDVzBLSXphdnBvckJITUpXU2pOSXpPeDNSZm5pSXhTTUFPd3BaRFlzWE04WVVDTHlUV1g0U0pWLUZYVUNaVVJGeGFiSU1zQXlFMVQzbG5oanFUdHhiSF9MWXFSSy05emVSakp6aG5KNkJTaVdTa2hScG9xaVpfUF9ReEp5eHRHVzM1cHYySTJ4NkVSRkpMYjVFTkttTy1BNmdkWVJsZW5ndDAtXzF1MTdORDZUbmVhUldMc1EtbXdLS083UHI?oc=5",
-    "source": "Stock Traders Daily",
-    "published": "2026-08-07T21:02:02+00:00"
-  },
-  {
-    "label": "PSX",
-    "title": "Phillips 66 (PSX) Reports Q2 Earnings: What Key Metrics Have to Say - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSWZvaGx0MllFb2VGeGtqX05yTXlEZGtER3RqT1lGTUFUNURzMmZ0SWY3d0QwWjMyRFZiVzhPWGdhQjlycVZGV3lkOE1PaFFCeGFJUWRlaFdDWnNWUE5WYmp6VnBibjNhMDU3UlhKajRsV2NuQU9WUmlnZFB1WEE4R1lMaHZuanlXYThmUXNISVpodURsemc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-07T21:00:03+00:00"
-  },
-  {
-    "label": "HAL",
-    "title": "Halliburton Co. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMUtzWVppTHBaTkhTVU1hVnZwdTkyNTNDTWNORUxpa2I3ZDNydl8zS3A0NFd4a0J1WnlfaGZfczgzMkdVMDZZNkFNUVJRN3BLNE5vdFFqT1BnVHdzT3FRMkxndUhGMTZXNE5udEdqLUo0MmhCMHhTWmUyeG9KWEtET1Bhd1hQTzA2aUVISmMydlN4ZkpoaXlwNkJHQ1FmN21hQmwyR3RmVGZIbWdRNm5NOEpaLXVFeENhZXBjT0ZkalI1b3Z0Q1I4bFdJWUlxX3ZBMFpqNy1uNzlmcGJHX3pXR2Fn?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T21:00:00+00:00"
-  },
-  {
-    "label": "KHC",
-    "title": "Kraft Heinz Co. stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVDJmZlphbFNPQkZVNXVlYVhBWFFPaUNCbTl2OUxULTgxaUNwWTFyRjBPMmc5RlRqYmdhQmx4ZWZHQUtvRnU4Tnl1cEkyYlpkYzFxcUEySTRscnlzbVp0Z3JfanczdGlWX2ZPSllOS2lZckg1THRraW56Sk5tUHYzZFNhNEFHRTJORnE2RmRzNGo3Y09USHc5ZEc4SVktWEcwanFDa3BSaXRMUEtqODBnR1lMdUVlTU1yYlJyQVFiSmJqcUdaUFNNR3RWcWlMdElKNC1jVFlNVDh0RXNL?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:58:00+00:00"
-  },
-  {
-    "label": "KHC",
-    "title": "Kraft Heinz Co. stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYktkNzcxLUo5V25UYzR3V24wSnpKaFJ3TkUzZ1M0MXpuM1I5YkNjWjFsc2ZIVFFWWm11YlVlRTBlNWdiMnNnNkRWRllPWnBVdTRLcGkwR0N4T2NvMy02bW1yaDJGRmc2ZDBGdVN2Mjh4VDE3TjdUck9DSkJqLUo0UEFMMW44Y2xIclFtYXlGQ2sxNWlOM0J1aDNsZmR5YVhoYVM1ZzVHSGJ4OE9BeHFLLTBIRjZ4SzJqaE9zWmlad0dhYzZQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:58:00+00:00"
-  },
-  {
-    "label": "ON",
-    "title": "ON Semiconductor Corp. stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUmdCWExaalZnY2RjZUlTUzAyRHFWWHpLQkM3OVktaXlKYWZocVhpRE45bnJIVXVobUY2eU5SZXp4Z0dKc1k4U2VHenhMQV9fZDFXdDd0VGtLLVptNGM0VVhaakhlaW1Rb0pGN1o1anduZExIdG9ybmp5YTN0SXMyUmlNd0gwRWMzZElmSU84LUp4dF9rOUhNSnc2MmZuRVRObnA1dmlyclRJZnNiVEJBYzd2dFBkazNNcWZtZnp2LU9QN081UDBfU3B5cS1xZw?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:58:00+00:00"
-  },
-  {
-    "label": "NVDA",
-    "title": "Nvidia ends week up more than 10% as AI chip fears ease - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWlUwSF90TElSOV8xOUlmTnRnNS16VWZRMGItMlk1UTA2NHplenJqalVFMVdtbnRZWk5mV0xrQ3QyNFNEa2hVNWNFWlFfd05Ub01wel9MUWpXSEZCcGRQdlgzeGhMbnd0RW91aDlOSHdlZzFXajV2SjgyY2VocWdPSUZaVjMzdkxiNHFkcXRZNmFlRENkUzhOWEV3VWgxalNMSDB6MkZHbUdiWnUtMkpGZWlucEs?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-07T20:57:51+00:00"
-  },
-  {
-    "label": "MRK",
-    "title": "Merck EVP David Maraldo sells $2.4 million of common stock By Investing.com - Investing.com Canada",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUWllckhXUm5jUmxiaVZtWmVLSjk5djYweVc2TUVnTTQ3bVk3ZFNWajJGTUNNbzdlOXphQkRrMWRpdXp2ZjRrWVZrTjZyLTYweEtGdE85cDMzQkpYYldMRnNTRW1Ec2x5UW5SRFF1NkcwdVZtLWJEY1pGMVRWWVVvUHA0MlJ3aHM1dFpMMHRMQkVkTE1ZUmxmd2I5VTRxaG91VTkwTjNKeElFNWhQQTd0WUpZMDlTYnBC?oc=5",
-    "source": "Investing.com Canada",
-    "published": "2026-08-07T20:57:28+00:00"
-  },
-  {
-    "label": "Amundi Stoxx Europe 600",
-    "title": "US stocks close week higher - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53eUZ6T2VId3ZVeFdVazFBOXRDd0JjQ196VmRhdmJiVXcyVmtjNUk4bmM5MHZPOWRvRHhQbDBEeHVCWFhhLUhjLWxDN21iNC10RWJxeUh2YmlmR0hSbWxuZG9mamlJVEZyYlcyMDhzWDRZMjRCa2dv?oc=5",
-    "source": "Anadolu Ajansı",
-    "published": "2026-08-07T20:55:13+00:00"
-  },
-  {
-    "label": "KR",
-    "title": "Kroger Co. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVE9aNDltZGhKMVRIQ2RKYkd2ZlVhZTBqdzJpSGVacE9IVXBRaExHN1h0NnliM184NW5WLTRzOUxfUDFPaFNPemdrOG9nYXB3bnluRnh6UXhybHkyTTdUS28zdWRlMGN5Wlp2bGpUaVpVWkdhcHB4RXNDU0swSHUzVGZSOGxZUWlBZTRuLWswUjFZNkdFdzd4eXVTRnkwWUNZQlBhdmZtdlJFQlRxUkhGU1VDTmh4cmdYbG1SYVdseWdHdEE?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:55:00+00:00"
-  },
-  {
-    "label": "KR",
-    "title": "Kroger Co. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSXV5NEQ1RzVnUWMwNkl1bEpuMnp2clRiLWg0a2ZCUFAwdGE0eUhqV0RLckJUblBlTFBCelhNVi1yc25qT1FVNHZuRS03aWtNbzQxbFRONDRzTDdfQUN1Z1ZyOUVKVmU3NkY4ZElKTGlWQy1BZXh6NWpCY3B2b29KNk1BbDJNUE5kTzFjTC11dTVFRzR0TzZ0SUp4RGFpdlkxd0dPTVNXam1DX0JBMGNrUXY3TkVfV2dic0RfLXVrVXdoc245V05tbTVWTng0MFBiYTBQZUxfQXNoNnc?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:55:00+00:00"
-  },
-  {
-    "label": "KDP",
-    "title": "Keurig Dr Pepper Inc. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPVVNCNGNGdlI0bWxldU1GV2pCbklpSm84czlvM3ljMHB1ckVuWV90dWQxRVhaeW1OOEpuNFZ5OTBMREk1MEVsTzZQYXhYRU5fQ3lpUzhXbFJ4eTNkVHlGZW5PNmo3UlJpQlNSQ21KRXRqOHBmSXZGUlQ0LWdxbi1PWjd6eUtySk9udWJaRWw3c0lCVHU3cXAwSktQSF9aVWpXMUpRRjR3LS16M2NkM3BrMnZIc1JVbHB2N1p0RlgtZ25GRERDLUNBYlFpNUFnUGp0UWNsR2laXzB6OW9GbktXTW5UZWVkUEU3eUE?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:53:00+00:00"
-  },
-  {
-    "label": "NXPI",
-    "title": "NXP Semiconductors N.V. stock underperforms Friday when compared to competitors despite daily gains - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxONFlLWWdfWmkxdUs1dExOS0k1X2ZpMm9oNUNpZjBWZE9EVm5BNzNUZG1HTGNBcWhyMVl2LU1JUXo2elQzUld1ZDc2eGVCY0YwWEhoeUQ3UzUzcmpNN0xxMnpLcGhNWHRYQVVyMHhWZlZoQ05JVW1tMmNYUHRXWGY1WTdmd0dfX002SlJZQl9jVXUyRHV1Qk4yS2lDdzNfSlQyUmVudzBPTzFxeUswRmNVM0QtUnI3T2xPUDZaSk9xZzkyTFV3dV9iV05FXy1Lejk5R3NOejNlOTJHU2hRX1p1TTNJSHlZZUd6cDR3NjlUa3Jta1Q3ZkVWVldFYkRmTzNOcUROSlQxNA?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:48:00+00:00"
-  },
-  {
-    "label": "BKR",
-    "title": "Baker Hughes Co. stock outperforms competitors despite losses on the day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQWJxY0wwdl9yWW1KbmI2Nm5jUTZ3NTRhSkRGTUNNd2VkanVpQ25TbHRkZkVFa1FFWFAwMFNFR09WYmpvemdoUzh0alVXYXhoMjB2aUs4cEdUdlVuLXJrNnZTZHV6bFdOeW1FcVRVdG83bFpLZGhFRWk1Z1lVaVVkTkNKNnI5QVFuSjA5cHRFQjRzdElVVWViaW5KLWlsVEF3V1M0RUNkRkRmVk9YOHFmWTZ6b3ZzZ01QQzJvMGV0SDRjeUpROVp6Qk9SbTRfeW5VNE1zV2NCOWVzd2dQaWRCMjBwUQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:47:00+00:00"
-  },
-  {
-    "label": "KMB",
-    "title": "How Mixed Q2 Results And Hesperaloe Fiber Innovation At Kimberly-Clark (KMB) Have Changed Its Investment Story - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVWkxR0Jyd1JiVlNGOWtwUnFFYjh2MXcxUWJCalZFd2FEQ1hxSFNScVpGV0VlaHpyUW43NVIxay15TTlvakx2bGxZSnRFcHNIWG9aUmtVVDlVMzZPY3dIUF9hTlQ0ZzlVdVBNLXpIRHNlM1VtckJTdF91eHB5Y1VGOExpbGtIM0xYUDhTNzNoMnBpWFVfeTVJendRYy1jdXlRVjVRdU5RMmdDQmI3ejdhYVB4SnFaY3R1WGp1TzQ1UXB2aUpnbWFzRlBoNDF1dE1MNklN0gHTAUFVX3lxTE9VaTFHQnJ3UmJWU0Y5a3BScUViOHYxdzFRYkJqVkV3YURDWHFIU1JxWkZXRWVoenJRbjc1UjFrLXlNOW9qTHZsbFlKdEVwc0hYb1pSa1VUOVUzNk9jd0hQX2FOVDRnOVV1UE0tekhEc2UzVW1yQlN0X3V4cHljVUY4TGlsa0gzTFhQOFM3M2gycGlYVV95NUl6d1FjLWN1eVFWNVF1TlEyZ0NCYjd6N2FhUHhKcVpjdHVYanVPNDVRcHZpSmdtYXNGUGg0MXV0TUw2SU0?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-07T20:46:35+00:00"
-  },
-  {
-    "label": "MPWR",
-    "title": "Monolithic Power Systems Inc. stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNOEdWTzdaOEtseXVzakJfWnNWdWo1bF95OTQzUWdpYi02dEtiQ2gyLUUwel9KTFVDaDlCTEZQMGY5dHZIekxKbGktYVF0X2MyUjE0YkI1OTBHVVl6dTE5U1lnV2stTV9jc3Z0SlYxbTVkX0plNTZVZWNpUGQxNms4elhKRHVPeEVPYmFhcHlpeDRRZzJrVk05NnQ3R0hQbjM5RVN0eUNVNC1yNEpWX01wc0RPa3ZudXhSdlNaQ3llcThNelI5czRnZVBSQmdwMWVldmJtUU1Xb2V4YkhLR1Q1R0NrUThpSTc5LUVheFJJcw?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:46:00+00:00"
-  },
-  {
-    "label": "KMI",
-    "title": "Kinder Morgan Inc. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdWtLOTdZdEZrZTFKVmpFYnRVYVFra2xCTWlDSjJKNDhibmNRU0ZEckNZN0s4S2VmR1RQZG1fdV9abDc4NWFaOE1WQVByUGNnZjIxTWdJTTdqWFczVFZPRlFySTMzTUYweEhpVnVrVkFraHJ5dzctZWlheWRFODVqU3diUnJ4ZnJ6TFV4LUUwc0IycVRGdV84N3MxUWYwNDZIOFNwLUFRNUZQNEFWUG5SbVN5UWdUbWtIaWJ4eTN5eE5BN1NmcW56Nm5TZy1YZW5mRnoyRWtlSjVpTnlLVHZrRWdjYWVQZw?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:45:00+00:00"
-  },
-  {
-    "label": "TDG",
-    "title": "TransDigm Group Inc. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxON2NqYkRnSHBXemhEWWRwMHp0dmY4V1h4U0NmazF4dFA1aS1nNFh4ZklRWERIU0d6TERhbm1ZRldwWmRjOGk5OXEtMW9ua29OTk42LUlZdDNqMUZNc2pSRkhCZVFkR0t4cWxsT0dwdDNnOHhJbENSUmdVTzdNM2RUU0pWem5hOFVJWTlGYzlLVF82b2tKdGNYQVVtN09IRTlRODREc2ZvNTJBVzRzVThSSmZfM1gyakhmd2xqYlFQN3lTMjNDZDVNMGE1TURxdS1jbEtLMWs0akVEUGRJSGI2RThlejdqbzll?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:45:00+00:00"
-  },
-  {
-    "label": "KMI",
-    "title": "Kinder Morgan Inc. stock underperforms Friday when compared to competitors - marketwatch.com",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQWk2NW91dzgxdFhBUnpoOF8yeW00Y0tfY0k4VjBMVmlnSUFrdWgyUzNPOTJ2UFl6VVAyLUxqOFVhcjZsNzRIZUx0VFp0UUsyOF9jMXNkUk84dlJ1aHlNTFoyUkNtSE80NUFQREdReDBrZTJsQmkzOUdsdW9PU0lrdjhjQU1xcVJEYk9zRGdwaXBaajdFUjYwV29WVEh1aEF4eW9QaTBOcVJTUmhUU2ZDSFZvcDNnM0xoU20xbGJ2QUtIVktZYTVPcEtobEpHdw?oc=5",
-    "source": "marketwatch.com",
-    "published": "2026-08-07T20:45:00+00:00"
-  },
-  {
-    "label": "ABBV",
-    "title": "AbbVie vs. Abbott Laboratories: Which Healthcare Stock Is a Better Buy in 2026? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0I5ajlRYzVJTEJXSE1Pd1l5aVRqRmJCaFFVYkF0NGtFWjZNbEFOVWl1X0s0NTYxZEhfVDdGWDhENUFjWXpWOHNZajJCdTRSbTZIczZhY0lfWTRPWUJkNGVTZVdOaEoxdmptMFZmbVZwT2x4Y2xkUHdpbTc5cXVSNDFQa3g5YUdlMklTTTBkRnUtWHFGS1pDcTJnTVk4ZnBtNTVZ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-07T20:44:57+00:00"
-  },
-  {
-    "label": "EOG",
-    "title": "EOG Resources Inc. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNGt2VGEzMldPb0tQU0ZVUXU1WVU1OWNGZWpMVUdnUmFpUWp6UFJURTg5MkExOHlPZXliM3pFenBqbTJORW5BNEt6UnVNLV9CV2JITnA1VzlVMm80MWZtUmc2NmFvcHFyc1I2LXZ0U1htNkx1ZElGbFR6TTVsRUFLaVNwVlZ4czdQclhCVkhiUXhyWEFSWkgzQ1RhMGlRWjlXa3pyZHRkdk9Wc1IxNmFhdmw5YldvRGl0NWtyaVcwWVpjU3Y0RWY4Tnc2Q3c1T3FtZTZZZGllM05BajZaaWZVaU5BQjZhQQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:44:00+00:00"
-  },
-  {
-    "label": "SLB",
-    "title": "SLB Ltd. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLW5OcUVKNUxmUS1ndXBmcDdPbnNPU1VxeGtEXzVab3hQWUtWWXE3R3otdGhXT2xkaHFWVWI3ZlhhWmMyZllKeEY3c0FjRFVnaFdXY04yM2pBa0MtMkhGOEZKZVYxTUx1dUZDR3B6SFRFcWtySWhZejliRm80ODRwdkhYbWlhZmNRUkN4azJUZElQRDNUOUJWMVdkaUkxUHo5R0xNWEJDUG5FaFZmSEtTbk1mUHI4SEQ1ODVQNlloN01SOUkwNnIzbWhTeTB5RTRYTERPbmhhRW8?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:44:00+00:00"
-  },
-  {
-    "label": "VLO",
-    "title": "Valero Energy Corp. stock underperforms Friday when compared to competitors - marketwatch.com",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZExObTY1S1NtSVdnVENCNnN2X1BGWUtDbVlEdHBsTGYybXNlaGc1YVR0ZlhsVGxIZGh6SUJJRk9LR1Z0eml4bDhKd0lMNkFSNmw4TGJPVEhlU0EybDBTZTRUc19tUUJmbGZuRldmcWk5dklaUmUxbTRZQUFGSWx1WVhZZFdjSTJGNE9tSUx4eDQxUnhqaHhLT0VsWEtSMmRiVjhCcTZhamdmX1ItV0tYVzhfcjRVV29UenlzblBHRFNfRnNlYnRWOUpCYk5PRjlDUE5EMFVETTNuc0tSREV4NWNTS0pLM28?oc=5",
-    "source": "marketwatch.com",
-    "published": "2026-08-07T20:42:00+00:00"
-  },
-  {
-    "label": "VLO",
-    "title": "Valero Energy Corp. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZGFIR19hRlVXSG9qdmVCMHFfb2JNV0RRR2RMd3lCbGtiRDVJTUJaLWJlZTlZMGUwWEd4YVpMLWRLZjRqWGUyV1BIUXY5QmJ3YzM2ZG9LaDBXNzB1ZUxJaS1ZUlFSNTJkNktUTzZCMzRfYXRyTmkwakRlcWNGd0NDOXBkNkgxSWlwdENaV0oyeFJvUHlpcEtqaWFGSS0zd3Q1bDFscktRVERwaHg2OTFxOEJUMUtaRVhYODJaSlh2NlNTcl9uX0ZjbmNfR1JoRFU?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:42:00+00:00"
-  },
-  {
-    "label": "MNST",
-    "title": "Monster Beverage Corp. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZEV1azBPdjcwemlQcGd2ZGJhRUpwMjJUenBELWc0OUpqcGUxWDlmNU9Qa0IyMUxtUVpCd3RneXl4MGU2V2JYbF9LVktWSm9JUGwtSTluMlJuaVpBRkNpeF9MRzJPRGNmMndycjR6RUxWdi0xTWRYUGZramY5amVEZ3kyY2hVcmRORlcxeGozX3haTzZ0NXZvU0k5YjhSWGstaXE3X25mZDBXc0pDNFBUX1dCNXVPTllMMXRqVF9MV05HWk8wdjl3Mi0zM0dTbTZnVVRxbnNydWw3OVJxSlhrZUxDZWRQbmpoMVZz?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:41:00+00:00"
-  },
-  {
-    "label": "NVDA",
-    "title": "Two reasons why Nvidia’s stock saw its biggest weekly surge in more than a year - marketwatch.com",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNGtNelRnbGpMZHMyTVZfRk5neGhsOWREX1FSazBPRlZBck1iYW5CcTBXT3JmWmhhNVpxc1lqSHNESWhwdEJjZ2ZabEg3VnljRmNSalYwYmg4eEZyRmR6aS1lTGVmcFktQ213UWhWdFJJQ25YOHRzbUVqVW1jV2FKSm02T3pZSTM5azNSUjNyN28tRTJFb2ZaZUtpNkdGeVFZWS10bmNRSnRIX3h3S3dEYW1Hay1lUmh3N0R3dmZn?oc=5",
-    "source": "marketwatch.com",
-    "published": "2026-08-07T20:41:00+00:00"
-  },
-  {
-    "label": "WMB",
-    "title": "Williams Cos. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQclRwYUF5djF6NXJYOUlnY2pkVW05OHpuekMweDBnQjVMRVpjTUVKRG9kR0ZBaWJCeVlnZXhDek1oZ0J4UFhQUmlpUjdJUGQ4cjJkcXlrYXR0YVdVZE1TRk52WTZaT2lQaUdJRlpSeV84a19KTnptNWJibGhMa2duVE5mQXNaY2tibHhxeVIzM0tZX1BRVTA5LWNPLU1ndV94clFTNnpxUHRQclZtU1JQczdTUEVWUXB0aXlaTURNSm10UlgtR3NkRllqYnRnZHptTG93REgzXzhlMzkzRFkw?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:41:00+00:00"
-  },
-  {
-    "label": "WMB",
-    "title": "Williams Cos. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeE1Sa3NfeW80b2w2bXU2Mi1fallBUkM0X0NCVXcyRHVnX2VwZ3lkY0tHVHhOSUFac1J2STU1Um54WktGaFQwYmN2X1h2RDJJZ1lFaktGX0ltTzcyOFZMRUJ4NlFMVmM1NkpsM2Y2TmR0dWEtX3lOemlWTjJMNlYxazgyNFBmZFRRUWJsb1UxOGhaUlQ2M0lRczYwMkRFWEd0N0R4LTR4MFY2S1J4Qlc5dm5hcTNoa000c3JTd3dUdE5Hc2hBTTRv?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-07T20:41:00+00:00"
   }
 ]
