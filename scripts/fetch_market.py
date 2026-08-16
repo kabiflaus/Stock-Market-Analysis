@@ -54,6 +54,13 @@ ALL_TICKERS = {**GROUP_TICKERS, **PERSONAL_ETF_TICKERS, **{t: t for t in _positi
 # koennte die Anzeige faelschlich einen Waehrungs-Badge dazu zeigen).
 BOND_LABELS = set(TICKER_GROUPS["Anleihen (USA)"].keys())
 
+# Globale Indizes sind Punktestaende, keine Geldbetraege - Yahoo haengt zwar
+# trotzdem eine "Waehrung" der jeweiligen Boerse dran (z.B. KRW fuer KOSPI),
+# aber der Indexstand durch den EUR/KRW-Kurs zu teilen ergibt keinen echten
+# Euro-Preis, nur eine sinnlose Zahl. Also wie Anleihen von der Umrechnung
+# ausnehmen.
+NO_CURRENCY_LABELS = BOND_LABELS | set(TICKER_GROUPS["Globale Indizes"].keys())
+
 # Fuer diese Labels (Globale Indizes + die 3 persoenlichen ETFs) wird
 # zusaetzlich eine kurze Kursreihe gespeichert - Grundlage fuer die Mini-
 # Graphen bei der Index-Detailansicht und den ETF-Karten im Invest-Tab.
@@ -135,7 +142,7 @@ def fetch_snapshot() -> list[dict]:
                 "price": round(price, 2) if price is not None else None,
                 "prev_close": round(prev_close, 2) if prev_close else None,
                 "change_pct": change_pct,
-                "currency": None if label in BOND_LABELS else currency,
+                "currency": None if label in NO_CURRENCY_LABELS else currency,
             }
             if label in SPARKLINE_LABELS:
                 row["sparkline"] = closes
@@ -149,10 +156,10 @@ def fetch_snapshot() -> list[dict]:
             })
         time.sleep(1.5)  # Burst-Anfragen vermeiden
 
-    # Alles in Euro umrechnen (bewusst nicht fuer Anleihen, s. BOND_LABELS
-    # oben) - Nutzerin ist in Europa und will keine Fremdwaehrungen im Kopf
-    # umrechnen. change_pct bleibt unveraendert (Tagesbewegung in Prozent ist
-    # waehrungsunabhaengig genug fuer diesen Zweck).
+    # Alles in Euro umrechnen (bewusst nicht fuer Anleihen/Indizes, s.
+    # NO_CURRENCY_LABELS oben) - Nutzerin ist in Europa und will keine
+    # Fremdwaehrungen im Kopf umrechnen. change_pct bleibt unveraendert
+    # (Tagesbewegung in Prozent ist waehrungsunabhaengig genug dafuer).
     currencies_needed = {
         r["currency"] for r in rows
         if r.get("currency") and r["currency"] != "EUR" and r.get("price") is not None
