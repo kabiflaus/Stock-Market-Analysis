@@ -166,67 +166,6 @@ const CONFIG = {
       "028260.KS": 0.9, "032830.KS": 0.8, "018260.KS": 0.7
     }
   },
-  "personalEtfs": {
-    "Scalable MSCI ACWI": [
-      "NVDA",
-      "AAPL",
-      "MSFT",
-      "AMZN",
-      "GOOGL",
-      "GOOG",
-      "AVGO",
-      "TSM",
-      "META",
-      "TSLA"
-    ],
-    "Amundi Stoxx Europe 600": [
-      "ASML.AS",
-      "ROG.SW",
-      "HSBA.L",
-      "AZN.L",
-      "NOVN.SW",
-      "NESN.SW",
-      "SIE.DE",
-      "SHEL.L",
-      "SAP.DE",
-      "SAN.MC"
-    ],
-    "iShares Global Clean Energy": [
-      "NXT",
-      "BE",
-      "FSLR",
-      "IBE.MC",
-      "600900.SS",
-      "ORA",
-      "ENPH",
-      "EQTL3.SA",
-      "VWS.CO",
-      "EDP.LS"
-    ]
-  },
-  "personalEtfTickers": {
-    "Scalable MSCI ACWI": "SCWX.DE",
-    "Amundi Stoxx Europe 600": "LYP6.DE",
-    "iShares Global Clean Energy": "Q8Y0.DE"
-  },
-  // Ungefaehre Gewichtung je Holding INNERHALB des jeweiligen ETFs (nicht zu
-  // verwechseln mit sectorWeights, das sind andere Referenz-Indizes). Nur
-  // fuer die Anzeige, manuell recherchiert (Stand Jul 2026), keine Live-Daten.
-  "personalEtfWeights": {
-    "Scalable MSCI ACWI": {
-      "NVDA": 4.5, "MSFT": 4.2, "AAPL": 3.8, "AMZN": 2.0, "META": 1.5,
-      "AVGO": 1.4, "GOOGL": 1.3, "GOOG": 1.1, "TSM": 1.0, "TSLA": 0.9
-    },
-    "Amundi Stoxx Europe 600": {
-      "ASML.AS": 2.8, "SIE.DE": 1.7, "NOVN.SW": 1.8, "NESN.SW": 1.7,
-      "SHEL.L": 1.6, "SAP.DE": 1.5, "AZN.L": 1.5, "ROG.SW": 1.3,
-      "HSBA.L": 1.2, "SAN.MC": 0.9
-    },
-    "iShares Global Clean Energy": {
-      "FSLR": 7.0, "IBE.MC": 6.0, "VWS.CO": 5.0, "EDP.LS": 4.5, "ENPH": 4.0,
-      "600900.SS": 4.0, "ORA": 3.5, "EQTL3.SA": 3.0, "BE": 3.0, "NXT": 2.5
-    }
-  },
   "tickerNames": {
     "NVDA": "NVIDIA",
     "TSM": "Taiwan Semiconductor",
@@ -335,26 +274,8 @@ const CONFIG = {
     "GOOG": "Alphabet C",
     "META": "Meta Platforms",
     "TSLA": "Tesla",
-    "ASML.AS": "ASML Holding",
-    "ROG.SW": "Roche",
-    "HSBA.L": "HSBC",
-    "AZN.L": "AstraZeneca",
-    "NOVN.SW": "Novartis",
-    "NESN.SW": "Nestlé",
     "SIE.DE": "Siemens",
-    "SHEL.L": "Shell",
     "SAP.DE": "SAP",
-    "SAN.MC": "Banco Santander",
-    "NXT": "Nextpower",
-    "BE": "Bloom Energy",
-    "FSLR": "First Solar",
-    "IBE.MC": "Iberdrola",
-    "600900.SS": "China Yangtze Power",
-    "ORA": "Ormat Technologies",
-    "ENPH": "Enphase Energy",
-    "EQTL3.SA": "Equatorial Energia",
-    "VWS.CO": "Vestas Wind",
-    "EDP.LS": "EDP",
     "NFLX": "Netflix",
     "ADBE": "Adobe",
     "CSCO": "Cisco Systems",
@@ -394,6 +315,159 @@ const CONFIG = {
     "028260.KS": "Samsung C&T",
     "032830.KS": "Samsung Life Insurance",
     "018260.KS": "Samsung SDS"
+  },
+  // GICS-Sektor je Ticker (Standard-Marktklassifikation, unabhaengig von den
+  // eigenen 5 Themen-Sektoren) - fuer das kleine Badge auf jeder Karte, s.
+  // gicsTagHtml in app.js. Manuell klassifiziert (Stand Aug 2026).
+  "gicsSectors": {
+    "NVDA": "Information Technology",
+    "TSM": "Information Technology",
+    "MU": "Information Technology",
+    "AMD": "Information Technology",
+    "INTC": "Information Technology",
+    "AVGO": "Information Technology",
+    "QCOM": "Information Technology",
+    "TXN": "Information Technology",
+    "LRCX": "Information Technology",
+    "KLAC": "Information Technology",
+    "AMAT": "Information Technology",
+    "ASML": "Information Technology",
+    "ARM": "Information Technology",
+    "MRVL": "Information Technology",
+    "NXPI": "Information Technology",
+    "ADI": "Information Technology",
+    "ON": "Information Technology",
+    "MCHP": "Information Technology",
+    "MPWR": "Information Technology",
+    "SWKS": "Information Technology",
+    "LLY": "Health Care",
+    "JNJ": "Health Care",
+    "ABBV": "Health Care",
+    "MRK": "Health Care",
+    "UNH": "Health Care",
+    "AMGN": "Health Care",
+    "TMO": "Health Care",
+    "ABT": "Health Care",
+    "GILD": "Health Care",
+    "ISRG": "Health Care",
+    "PFE": "Health Care",
+    "DHR": "Health Care",
+    "BSX": "Health Care",
+    "SYK": "Health Care",
+    "VRTX": "Health Care",
+    "BMY": "Health Care",
+    "MDT": "Health Care",
+    "CVS": "Health Care",
+    "CI": "Health Care",
+    "ELV": "Health Care",
+    "GE": "Industrials",
+    "RTX": "Industrials",
+    "BA": "Industrials",
+    "HWM": "Industrials",
+    "GD": "Industrials",
+    "LHX": "Industrials",
+    "TDG": "Industrials",
+    "NOC": "Industrials",
+    "LMT": "Industrials",
+    "AXON": "Industrials",
+    "TXT": "Industrials",
+    "HEI": "Industrials",
+    "CW": "Industrials",
+    "TDY": "Information Technology",
+    "LDOS": "Industrials",
+    "HII": "Industrials",
+    "BWXT": "Industrials",
+    "WWD": "Industrials",
+    "KTOS": "Industrials",
+    "MRCY": "Industrials",
+    "XOM": "Energy",
+    "CVX": "Energy",
+    "COP": "Energy",
+    "EOG": "Energy",
+    "SLB": "Energy",
+    "WMB": "Energy",
+    "VLO": "Energy",
+    "PSX": "Energy",
+    "MPC": "Energy",
+    "BKR": "Energy",
+    "KMI": "Energy",
+    "TRG": "Energy",
+    "OXY": "Energy",
+    "FANG": "Energy",
+    "EQT": "Energy",
+    "HAL": "Energy",
+    "DVN": "Energy",
+    "CTRA": "Energy",
+    "HES": "Energy",
+    "APA": "Energy",
+    "WMT": "Consumer Staples",
+    "COST": "Consumer Staples",
+    "PG": "Consumer Staples",
+    "KO": "Consumer Staples",
+    "PM": "Consumer Staples",
+    "MDLZ": "Consumer Staples",
+    "PEP": "Consumer Staples",
+    "MO": "Consumer Staples",
+    "CL": "Consumer Staples",
+    "KR": "Consumer Staples",
+    "SYY": "Consumer Staples",
+    "KMB": "Consumer Staples",
+    "KVUE": "Consumer Staples",
+    "MNST": "Consumer Staples",
+    "STZ": "Consumer Staples",
+    "GIS": "Consumer Staples",
+    "KDP": "Consumer Staples",
+    "HSY": "Consumer Staples",
+    "KHC": "Consumer Staples",
+    "CHD": "Consumer Staples",
+    "AAPL": "Information Technology",
+    "MSFT": "Information Technology",
+    "AMZN": "Consumer Discretionary",
+    "GOOGL": "Communication Services",
+    "GOOG": "Communication Services",
+    "TSLA": "Consumer Discretionary",
+    "META": "Communication Services",
+    "NFLX": "Communication Services",
+    "ADBE": "Information Technology",
+    "CSCO": "Information Technology",
+    "TMUS": "Communication Services",
+    "INTU": "Information Technology",
+    "CMCSA": "Communication Services",
+    "BRK.B": "Financials",
+    "JPM": "Financials",
+    "V": "Financials",
+    "MA": "Financials",
+    "HD": "Consumer Discretionary",
+    "SAP.DE": "Information Technology",
+    "SIE.DE": "Industrials",
+    "ALV.DE": "Financials",
+    "DTE.DE": "Communication Services",
+    "AIR.DE": "Industrials",
+    "MUV2.DE": "Financials",
+    "MBG.DE": "Consumer Discretionary",
+    "ENR.DE": "Industrials",
+    "DB1.DE": "Financials",
+    "BAS.DE": "Materials",
+    "RHM.DE": "Industrials",
+    "IFX.DE": "Information Technology",
+    "BAYN.DE": "Health Care",
+    "VOW3.DE": "Consumer Discretionary",
+    "DBK.DE": "Financials",
+    "005930.KS": "Information Technology",
+    "000660.KS": "Information Technology",
+    "373220.KS": "Industrials",
+    "207940.KS": "Health Care",
+    "005380.KS": "Consumer Discretionary",
+    "068270.KS": "Health Care",
+    "035420.KS": "Communication Services",
+    "105560.KS": "Financials",
+    "055550.KS": "Financials",
+    "012330.KS": "Consumer Discretionary",
+    "051910.KS": "Materials",
+    "006400.KS": "Information Technology",
+    "028260.KS": "Industrials",
+    "032830.KS": "Financials",
+    "018260.KS": "Information Technology"
   },
   // Kurzbeschreibung je Top-20-Holding (Markets-Tab, Klick zum Aufklappen).
   // Nur fuer die Anzeige, manuell verfasst - keine Live-Daten/API.
@@ -505,26 +579,8 @@ const CONFIG = {
     "GOOG": "Alphabet (Google-Mutterkonzern), Aktienklasse ohne Stimmrecht – ansonsten identisches Geschäft wie GOOGL.",
     "META": "Betreibt Facebook, Instagram und WhatsApp, investiert stark in KI und VR/AR.",
     "TSLA": "Baut Elektroautos und arbeitet an Energiespeichern sowie Robotik/autonomem Fahren.",
-    "ASML.AS": "Einziger Hersteller von EUV-Lithografiemaschinen – ohne diese Maschinen keine modernen Chips.",
-    "ROG.SW": "Schweizer Pharma- und Diagnostik-Konzern, u.a. stark in Onkologie.",
-    "HSBA.L": "Eine der größten Banken Europas/der Welt, Fokus auf Asien-Geschäft.",
-    "AZN.L": "Britisch-schwedischer Pharmakonzern, u.a. Onkologie und Atemwegserkrankungen.",
-    "NOVN.SW": "Schweizer Pharmakonzern mit Fokus auf verschreibungspflichtige Medikamente.",
-    "NESN.SW": "Weltgrößter Lebensmittelkonzern (u.a. Nescafé, KitKat, Babynahrung).",
     "SIE.DE": "Deutscher Industriekonzern – Automatisierung, Energietechnik, Mobilität.",
-    "SHEL.L": "Britisch-niederländischer Öl- und Gaskonzern, einer der globalen \"Supermajors\".",
     "SAP.DE": "Größter europäischer Softwarekonzern, v.a. Unternehmenssoftware (ERP).",
-    "SAN.MC": "Eine der größten Banken Spaniens/Europas mit starkem Lateinamerika-Geschäft.",
-    "NXT": "Baut Nachführsysteme für Solarparks (Solar-Tracker), die Sonnenkollektoren effizienter ausrichten.",
-    "BE": "Stellt Brennstoffzellen zur dezentralen Stromerzeugung her.",
-    "FSLR": "Einer der größten US-Solarmodul-Hersteller.",
-    "IBE.MC": "Spanischer Energiekonzern, weltweit einer der größten im Bereich Windkraft.",
-    "600900.SS": "Größter Wasserkraft-Betreiber Chinas (u.a. Drei-Schluchten-Damm).",
-    "ORA": "Baut Geothermie-Kraftwerke zur Stromerzeugung aus Erdwärme.",
-    "ENPH": "Stellt Wechselrichter und Speichersysteme für Solaranlagen her.",
-    "EQTL3.SA": "Brasilianischer Energiekonzern (Stromverteilung/-erzeugung).",
-    "VWS.CO": "Einer der größten Windturbinen-Hersteller der Welt.",
-    "EDP.LS": "Portugiesischer Energiekonzern mit starkem Fokus auf erneuerbare Energien.",
     "NFLX": "Größter Streaming-Anbieter der Welt (Serien, Filme).",
     "ADBE": "Software fürs kreative Arbeiten (Photoshop, PDF) und Marketing, zunehmend mit KI-Funktionen.",
     "CSCO": "Größter Hersteller von Netzwerktechnik (Router, Switches) für Unternehmen und Rechenzentren.",
@@ -604,10 +660,6 @@ const CONFIG = {
 
 const MAX_VISIBLE = 10;
 const NEUTRAL_THRESHOLD = 0.1; // Prozent - darunter gilt ein Ticker als "neutral" (gelb)
-
-// Alle geladenen Schlagzeilen, fuer die Einzel-Ticker-News beim Aufklappen
-// einer Holding-Karte (siehe tickerNewsHtml). Wird einmal in init() gesetzt.
-let allHeadlines = [];
 
 // Finnhub-API-Key fuer Live-Kurse (Einzelpositionen, siehe isLiveEligible()).
 // ACHTUNG: Diese Seite ist eine rein statische GitHub-Pages-Seite ohne
@@ -926,11 +978,40 @@ function currencySuffix(currency) {
   return ' <span class="price-currency">' + esc(CURRENCY_SYMBOLS[currency] || currency) + '</span>';
 }
 
+// Kurzform der 11 GICS-Sektoren fuers Badge - volle Namen in CONFIG.gicsSectors
+// (auch als title-Attribut auf dem Badge), hier nur zur Platzersparnis auf
+// der kompakten Karte.
+const GICS_SHORT_LABELS = {
+  "Information Technology": "Tech",
+  "Health Care": "Health",
+  "Industrials": "Industrials",
+  "Energy": "Energy",
+  "Materials": "Materials",
+  "Consumer Discretionary": "Discretionary",
+  "Consumer Staples": "Staples",
+  "Financials": "Financials",
+  "Communication Services": "Communication",
+  "Utilities": "Utilities",
+  "Real Estate": "Real Estate",
+};
+
+// GICS-Sektor-Badge - unabhaengig davon, in welchem eigenen Themen-Sektor
+// (Chips & AI, Ruestung, ...) die Karte gerade angezeigt wird, zeigt das die
+// tatsaechliche Marktkategorie (z.B. Teledyne im "Ruestung"-Sektor ist laut
+// GICS eigentlich Information Technology).
+function gicsTagHtml(ticker) {
+  const sector = CONFIG.gicsSectors[ticker];
+  if (!sector) return '';
+  const short = GICS_SHORT_LABELS[sector] || sector;
+  return '<span class="gics-tag" title="' + esc(sector) + '">' + esc(short) + '</span>';
+}
+
 // Kompakte Karte fuer Sektor-Positionen: Firmenname gross+fett+vorne (statt
 // Ticker-Symbol - besser lesbar, gerade bei kryptischen Symbolen wie
 // "005930.KS"), Ticker-Symbol klein darunter, Gewichtung im Sektor-ETF oben
-// rechts. Klick/Tap klappt eine kurze Firmenbeschreibung auf (falls vorhanden).
-function positionCardHtml(ticker, row, weight, noNews) {
+// rechts, GICS-Sektor-Badge neben dem Namen. Klick/Tap klappt eine kurze
+// Firmenbeschreibung auf (falls vorhanden).
+function positionCardHtml(ticker, row, weight) {
   row = row || {};
   const name = CONFIG.tickerNames[ticker] || ticker;
   const weightHtml = (weight !== undefined) ? '<span class="ticker-weight">' + weight + '%</span>' : '';
@@ -938,16 +1019,18 @@ function positionCardHtml(ticker, row, weight, noNews) {
   const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
   // data-ticker steht immer drauf (fuer die Kennzahlen-Abfrage beim Aufklappen),
   // die Live-Kurs-Aktualisierung selbst filtert intern trotzdem auf isLiveEligible.
-  const noNewsAttr = noNews ? ' data-no-news="1"' : '';
   const desc = CONFIG.tickerDescriptions[ticker];
   const descHtml = desc ? '<div class="ticker-desc">' + esc(desc) + '</div>' : '';
   const expandableClass = desc ? ' expandable' : '';
-  return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '"' + noNewsAttr + '>' +
+  return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '">' +
     '<div class="ticker-top">' +
       '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
       weightHtml +
     '</div>' +
-    '<div class="ticker-name">' + esc(name) + '</div>' +
+    '<div class="ticker-name-row">' +
+      '<span class="ticker-name">' + esc(name) + '</span>' +
+      gicsTagHtml(ticker) +
+    '</div>' +
     '<div class="ticker-bottom">' +
       '<span class="ticker-price">' + priceDisplay(row) + '</span>' +
       changeHtmlFor(row.change_pct) +
@@ -1011,14 +1094,14 @@ function renderPositionSections(rowsByLabel) {
 
 // Top-Holdings des jeweils ausgewaehlten Index (Nasdaq/S&P 500/DAX/KOSPI aus
 // dem "Indizes"-Dropdown) - nur sichtbar bei genau diesem Filter, siehe
-// setupMarketFilter. Bewusst ohne Einzel-Ticker-News (noNews=true).
+// setupMarketFilter.
 function renderIndexHoldings(rowsByLabel) {
   const container = document.getElementById('index-holdings');
   let html = '';
   Object.keys(CONFIG.indexHoldings).forEach(indexLabel => {
     const tickers = CONFIG.indexHoldings[indexLabel];
     const weights = CONFIG.indexWeights[indexLabel] || {};
-    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], weights[t], true));
+    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], weights[t]));
     html += '<div class="section position-section" data-index="' + esc(indexLabel) + '" style="display:none">' +
       '<h2>' + esc(indexLabel) + ' – Top ' + tickers.length + ' Holdings</h2>' +
       '<div class="tickers">' + cards.join('') + '</div></div>';
@@ -1027,8 +1110,7 @@ function renderIndexHoldings(rowsByLabel) {
 }
 
 function renderMarketHeadlines(headlines) {
-  const investLabels = new Set(Object.keys(CONFIG.personalEtfs));
-  const marketHeadlines = headlines.filter(h => !investLabels.has(h.label) && h.label !== 'Makro & Weltpolitik');
+  const marketHeadlines = headlines.filter(h => h.label !== 'Makro & Weltpolitik');
   const html = marketHeadlines.map((h, i) => headlineHtml(h, i, MAX_VISIBLE)).join('');
   document.getElementById('headlines-markets').innerHTML = html || '<p>Noch keine Schlagzeilen gesammelt.</p>';
   document.getElementById('more-btn').style.display = marketHeadlines.length > MAX_VISIBLE ? 'block' : 'none';
@@ -1070,62 +1152,6 @@ function headlineHtml(item, index, maxVisible) {
     '<a href="' + item.link + '" target="_blank" rel="noopener">' + esc(item.title) + '</a>' +
     '<div class="meta">' + esc(item.source || '') + ' &middot; ' + fmtTime(item.published) + '</div>' +
     '</div>';
-}
-
-// ---------- Rendering: Invest-Tab ----------
-function renderEtfCards(rowsByLabel) {
-  const html = Object.keys(CONFIG.personalEtfs).map(name => {
-    const row = rowsByLabel[name] || {};
-    return priceCardHtml(name, row, '', ' data-etf="' + esc(name) + '"').replace(
-      'class="ticker-card"', 'class="ticker-card etf-card"'
-    );
-  }).join('');
-  document.querySelector('#invest-etf-section .tickers').innerHTML = html;
-}
-
-function renderInvestHoldings(rowsByLabel) {
-  const container = document.getElementById('invest-holdings');
-  let html = '';
-  Object.keys(CONFIG.personalEtfs).forEach(name => {
-    const tickers = CONFIG.personalEtfs[name];
-    const weights = CONFIG.personalEtfWeights[name] || {};
-    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], weights[t]));
-    html += '<div class="section position-section" data-etf="' + esc(name) + '" style="display:none">' +
-      '<h2>' + esc(name) + ' – Top ' + tickers.length + '</h2>' +
-      '<div class="tickers">' + cards.join('') + '</div></div>';
-  });
-  container.innerHTML = html;
-}
-
-function renderInvestHeadlines(headlines) {
-  const investLabels = new Set(Object.keys(CONFIG.personalEtfs));
-  const investHeadlines = headlines.filter(h => investLabels.has(h.label));
-  const html = investHeadlines.map((h, i) => headlineHtml(h, i, null)).join('');
-  document.getElementById('headlines-invest').innerHTML = html || '<p>Noch keine Schlagzeilen zu deinen ETFs gesammelt.</p>';
-}
-
-// ---------- Interaktion: Tabs ----------
-function setupTabs() {
-  const tabBtns = document.querySelectorAll('.tab-btn');
-  const viewMarkets = document.getElementById('view-markets');
-  const viewInvest = document.getElementById('view-invest');
-  tabBtns.forEach(btn => btn.addEventListener('click', () => {
-    tabBtns.forEach(b => b.classList.toggle('active', b === btn));
-    const isMarkets = btn.dataset.view === 'markets';
-    viewMarkets.style.display = isMarkets ? '' : 'none';
-    viewInvest.style.display = isMarkets ? 'none' : '';
-  }));
-}
-
-// Die "Aktualisieren"-Buttons laden die Seite komplett neu (fuer frische
-// Daten unter neuem ?t=-Cache-Buster), sollen dabei aber auf dem Tab bleiben,
-// von dem aus aktualisiert wurde - der Invest-Button haengt dafuer &view=invest
-// an die URL, das hier setzt beim Laden den passenden Tab aktiv.
-function applyInitialView() {
-  if (new URLSearchParams(location.search).get('view') !== 'invest') return;
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.view === 'invest'));
-  document.getElementById('view-markets').style.display = 'none';
-  document.getElementById('view-invest').style.display = '';
 }
 
 // ---------- Interaktion: Markets-Filter ----------
@@ -1272,39 +1298,11 @@ function setupMarketFilter(rowsByLabel) {
   apply();
 }
 
-// ---------- Interaktion: Invest-Filter ----------
-function setupInvestFilter() {
-  const resetBtn = document.getElementById('invest-alle-btn');
-  const headlines = document.querySelectorAll('#headlines-invest .headline');
-  const etfCards = document.querySelectorAll('.etf-card');
-  const holdingSections = document.querySelectorAll('.position-section[data-etf]');
-  const investLabels = Object.keys(CONFIG.personalEtfs);
-  let filter = 'Alle';
-
-  function apply() {
-    etfCards.forEach(card => card.classList.toggle('dimmed', filter !== 'Alle' && card.dataset.etf !== filter));
-    holdingSections.forEach(sec => { sec.style.display = (sec.dataset.etf === filter) ? '' : 'none'; });
-    headlines.forEach(h => {
-      const allowed = (filter === 'Alle') ? investLabels : [filter];
-      h.style.display = allowed.includes(h.dataset.label) ? '' : 'none';
-    });
-    resetBtn.classList.toggle('active', filter === 'Alle');
-  }
-
-  etfCards.forEach(card => card.addEventListener('click', () => {
-    filter = (filter === card.dataset.etf) ? 'Alle' : card.dataset.etf; // erneutes Antippen = zurueck zu Alle
-    apply();
-  }));
-  resetBtn.addEventListener('click', () => { filter = 'Alle'; apply(); });
-  apply();
-}
-
-// Klick/Tap auf eine Holding-Karte (Markets Top-20 + Invest-ETF-Holdings +
-// Index-Holdings) klappt die Firmenbeschreibung auf und laedt bei Bedarf
-// Kennzahlen nach. Ein Handler je Container statt pro Karte, da die Karten
-// dynamisch sind.
+// Klick/Tap auf eine Holding-Karte (Markets Top-20 + Index-Holdings) klappt
+// die Firmenbeschreibung auf und laedt bei Bedarf Kennzahlen nach. Ein
+// Handler je Container statt pro Karte, da die Karten dynamisch sind.
 function setupPositionExpand() {
-  ['position-sections', 'invest-holdings', 'index-holdings'].forEach(id => {
+  ['position-sections', 'index-holdings'].forEach(id => {
     document.getElementById(id).addEventListener('click', (e) => {
       const card = e.target.closest('.ticker-card.expandable');
       if (!card) return;
@@ -1433,43 +1431,26 @@ async function loadFundamentals(ticker) {
   return data;
 }
 
-// Bis zu 3 aktuelle Schlagzeilen zu genau diesem Ticker (siehe die pro-Ticker-
-// Suchen in config.py/NEWS_QUERIES, Label = Tickersymbol). Unabhaengig von
-// Finnhub - kommt aus dem ganz normalen headlines.json-Feed.
-function tickerNewsHtml(ticker) {
-  const items = allHeadlines.filter(h => h.label === ticker).slice(0, 3);
-  if (!items.length) return '';
-  const rows = items.map(h => {
-    const source = h.source ? '<strong>' + esc(h.source) + '</strong> · ' : '';
-    return '<a href="' + h.link + '" target="_blank" rel="noopener">' + source + esc(h.title) + '</a>';
-  }).join('');
-  return '<div class="ticker-news">' + rows + '</div>';
-}
-
-// Laedt beim Aufklappen einer Holding-Karte: Kennzahlen (nur US-gelistete
+// Laedt beim Aufklappen einer Holding-Karte die Kennzahlen (nur US-gelistete
 // Ticker, siehe isLiveEligible - Finnhubs Free-Tier deckt auslaendische
-// Boersen nicht ab) und/oder die neuesten Schlagzeilen zu diesem Ticker
-// (funktioniert unabhaengig von Finnhub). Ueber card.dataset.extrasLoaded
-// nur einmal PRO ERFOLG geladen - schlaegt der Kennzahlen-Abruf fehl (z.B.
-// Finnhubs Free-Tier-Rate-Limit von 60 Calls/Min, das die staendig laufende
-// Live-Kurs-Abfrage schon fast ausschoepft), wird das Flag NICHT gesetzt,
-// damit ein erneutes Auf-/Zuklappen einen neuen Versuch macht statt den
-// Fehler fuer den Rest der Sitzung einzufrieren.
+// Boersen nicht ab). Ueber card.dataset.extrasLoaded nur einmal PRO ERFOLG
+// geladen - schlaegt der Abruf fehl (z.B. Finnhubs Free-Tier-Rate-Limit von
+// 60 Calls/Min, das die staendig laufende Live-Kurs-Abfrage schon fast
+// ausschoepft), wird das Flag NICHT gesetzt, damit ein erneutes Auf-/
+// Zuklappen einen neuen Versuch macht statt den Fehler fuer den Rest der
+// Sitzung einzufrieren.
 async function loadCardExtras(card) {
   const ticker = card.dataset.ticker;
   if (!ticker) return;
   if (card.dataset.extrasLoaded === '1') return;
   const desc = card.querySelector('.ticker-desc');
-  const skipNews = card.dataset.noNews === '1';
-  const news = () => (skipNews ? '' : tickerNewsHtml(ticker));
   const canFetchFundamentals = FINNHUB_API_KEY && isLiveEligible(ticker);
   if (!canFetchFundamentals) {
     // Finnhubs Free-Tier deckt nur US-gelistete Ticker ab - ohne diesen
     // Hinweis sieht eine leere Karte (z.B. bei 600900.SS) wie ein Fehler
     // aus, ist aber gewollt (lieber ehrlich nichts zeigen als geraten).
     const note = '<div class="fund-note">Kennzahlen nur für US-gelistete Werte verfügbar.</div>';
-    const newsHtml = news();
-    desc.insertAdjacentHTML('afterend', note + newsHtml);
+    desc.insertAdjacentHTML('afterend', note);
     card.dataset.extrasLoaded = '1';
     return;
   }
@@ -1477,25 +1458,22 @@ async function loadCardExtras(card) {
   // Versuch daneben dupliziert statt sie zu ersetzen.
   const oldBox = card.querySelector('.ticker-fundamentals');
   if (oldBox) oldBox.remove();
-  const oldNews = card.querySelector('.ticker-news');
-  if (oldNews) oldNews.remove();
   const box = document.createElement('div');
   box.className = 'ticker-fundamentals';
   box.textContent = 'Lade Kennzahlen…';
   desc.insertAdjacentElement('afterend', box);
   const data = await loadFundamentals(ticker);
-  box.outerHTML = fundamentalsHtml(data) + news();
+  box.outerHTML = fundamentalsHtml(data);
   if (!data.metricError) card.dataset.extrasLoaded = '1';
 }
 
 // ---------- Live-Kurse (Finnhub) ----------
-// Sammelt alle Einzel-Ticker (Sektor-Positionen + ETF-Holdings), die
-// Finnhub im Free-Tier in Echtzeit liefert (siehe isLiveEligible), einmal
-// dedupliziert - unabhaengig davon, in wie vielen Gruppen sie auftauchen.
+// Sammelt alle Einzel-Ticker (Sektor-Positionen), die Finnhub im Free-Tier
+// in Echtzeit liefert (siehe isLiveEligible), einmal dedupliziert -
+// unabhaengig davon, in wie vielen Gruppen sie auftauchen.
 function collectLiveTickers() {
   const set = new Set();
   Object.values(CONFIG.sectorPositions).forEach(list => list.forEach(t => { if (isLiveEligible(t)) set.add(t); }));
-  Object.values(CONFIG.personalEtfs).forEach(list => list.forEach(t => { if (isLiveEligible(t)) set.add(t); }));
   return [...set];
 }
 
@@ -1555,7 +1533,6 @@ async function init() {
   }
 
   headlines.sort((a, b) => new Date(b.published) - new Date(a.published));
-  allHeadlines = headlines; // fuer Einzel-Ticker-News beim Aufklappen einer Holding-Karte
   const rowsByLabel = {};
   (market.rows || []).forEach(r => { rowsByLabel[r.label] = r; });
 
@@ -1564,19 +1541,13 @@ async function init() {
   renderBonds(rowsByLabel);
   renderPositionSections(rowsByLabel);
   renderIndexHoldings(rowsByLabel);
-  renderEtfCards(rowsByLabel);
-  renderInvestHoldings(rowsByLabel);
   renderMarketHeadlines(headlines);
   renderMacroBlock(headlines);
-  renderInvestHeadlines(headlines);
 
   document.getElementById('updated-line').textContent =
     'Kurse zuletzt: ' + (market.fetched_at ? fmtTime(market.fetched_at) : 'n/a');
 
-  setupTabs();
-  applyInitialView();
   setupMarketFilter(rowsByLabel);
-  setupInvestFilter();
   setupPositionExpand();
   setupMacroExpand();
   setupIndexChartTooltip();

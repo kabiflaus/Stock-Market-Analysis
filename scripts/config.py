@@ -29,13 +29,6 @@ NEWS_QUERIES = [
     {"label": "S&P 500", "query": "S&P 500 futures", "hl": "en-US", "gl": "US", "require_in_title": "s&p 500"},
     {"label": "DAX", "query": "DAX Index", "hl": "de-DE", "gl": "DE", "require_in_title": "dax"},
     {"label": "KOSPI", "query": "KOSPI index Korea", "hl": "en-US", "gl": "US", "require_in_title": "kospi"},
-    # Persoenliche ETFs (Invest-Tab). Google-News-RSS verlangt praktisch alle
-    # Woerter der Query im selben Artikel (Leerzeichen = UND) - lange, generische
-    # Ketten wie "MSCI ACWI global stocks market" trafen dadurch so gut wie nie.
-    # Kurze, in echten Schlagzeilen haeufige Formulierungen liefern deutlich mehr Treffer.
-    {"label": "Scalable MSCI ACWI", "query": "global stock markets", "hl": "en-US", "gl": "US"},
-    {"label": "Amundi Stoxx Europe 600", "query": "European stock markets", "hl": "en-US", "gl": "US"},
-    {"label": "iShares Global Clean Energy", "query": "clean energy stocks", "hl": "en-US", "gl": "US"},
 ]
 
 MAX_ITEMS_PER_QUERY = 8
@@ -126,9 +119,9 @@ SECTOR_POSITIONS = {
 }
 
 # Top-Holdings je Index-Filter (Nasdaq/S&P 500/DAX/KOSPI aus dem "Indizes"-
-# Dropdown). Viel Ueberschneidung mit SECTOR_POSITIONS/PERSONAL_ETFS bei
-# Nasdaq/S&P 500 (US-Mega-Caps), DAX/KOSPI komplett eigene Ticker. Manuell
-# gepflegt (Stand Jul 2026), Gewichte s. indexWeights in app.js.
+# Dropdown). Viel Ueberschneidung mit SECTOR_POSITIONS bei Nasdaq/S&P 500
+# (US-Mega-Caps), DAX/KOSPI komplett eigene Ticker. Manuell gepflegt
+# (Stand Jul 2026), Gewichte s. indexWeights in app.js.
 INDEX_HOLDINGS = {
     "Nasdaq": ["NVDA", "AAPL", "MSFT", "AMZN", "AVGO", "GOOGL", "GOOG", "TSLA", "META", "COST",
                "NFLX", "PEP", "ADBE", "CSCO", "AMD", "TMUS", "INTU", "CMCSA", "TXN", "QCOM"],
@@ -141,25 +134,8 @@ INDEX_HOLDINGS = {
               "028260.KS", "032830.KS", "018260.KS"],
 }
 
-# Deine 3 ETFs (Invest-Tab) mit ihren Top-10-Holdings (Stand Jul 2026,
-# manuell recherchiert - Fondszusammensetzung aendert sich selten).
-PERSONAL_ETFS = {
-    "Scalable MSCI ACWI": ["NVDA", "AAPL", "MSFT", "AMZN", "GOOGL", "GOOG", "AVGO", "TSM", "META", "TSLA"],
-    "Amundi Stoxx Europe 600": ["ASML.AS", "ROG.SW", "HSBA.L", "AZN.L", "NOVN.SW",
-                                 "NESN.SW", "SIE.DE", "SHEL.L", "SAP.DE", "SAN.MC"],
-    "iShares Global Clean Energy": ["NXT", "BE", "FSLR", "IBE.MC", "600900.SS",
-                                     "ORA", "ENPH", "EQTL3.SA", "VWS.CO", "EDP.LS"],
-}
-
-# Ticker der ETFs selbst (fuer die Preis-Karten im Invest-Tab, "Alle"-Ansicht).
-PERSONAL_ETF_TICKERS = {
-    "Scalable MSCI ACWI": "SCWX.DE",
-    "Amundi Stoxx Europe 600": "LYP6.DE",
-    "iShares Global Clean Energy": "Q8Y0.DE",
-}
-
 # Anzeigenamen fuer alle Einzel-Ticker, die in SECTOR_POSITIONS oder
-# PERSONAL_ETFS auftauchen (fuer die Kartenbeschriftung).
+# INDEX_HOLDINGS auftauchen (fuer die Kartenbeschriftung).
 TICKER_NAMES = {
     "NVDA": "NVIDIA", "TSM": "Taiwan Semiconductor", "AVGO": "Broadcom",
     "ASML": "ASML Holding", "AMAT": "Applied Materials", "LRCX": "Lam Research",
@@ -194,13 +170,7 @@ TICKER_NAMES = {
     "HSY": "Hershey", "KHC": "Kraft Heinz", "CHD": "Church & Dwight",
     "AAPL": "Apple", "MSFT": "Microsoft", "AMZN": "Amazon", "GOOGL": "Alphabet A",
     "GOOG": "Alphabet C", "META": "Meta Platforms", "TSLA": "Tesla",
-    "ASML.AS": "ASML Holding", "ROG.SW": "Roche", "HSBA.L": "HSBC",
-    "AZN.L": "AstraZeneca", "NOVN.SW": "Novartis", "NESN.SW": "Nestlé",
-    "SIE.DE": "Siemens", "SHEL.L": "Shell", "SAP.DE": "SAP", "SAN.MC": "Banco Santander",
-    "NXT": "Nextpower", "BE": "Bloom Energy", "FSLR": "First Solar",
-    "IBE.MC": "Iberdrola", "600900.SS": "China Yangtze Power", "ORA": "Ormat Technologies",
-    "ENPH": "Enphase Energy", "EQTL3.SA": "Equatorial Energia", "VWS.CO": "Vestas Wind",
-    "EDP.LS": "EDP",
+    "SIE.DE": "Siemens", "SAP.DE": "SAP",
     # Neue Ticker aus INDEX_HOLDINGS (Nasdaq/S&P 500/DAX/KOSPI)
     "NFLX": "Netflix", "ADBE": "Adobe", "CSCO": "Cisco Systems", "TMUS": "T-Mobile US",
     "INTU": "Intuit", "CMCSA": "Comcast",
@@ -217,23 +187,73 @@ TICKER_NAMES = {
     "028260.KS": "Samsung C&T", "032830.KS": "Samsung Life Insurance", "018260.KS": "Samsung SDS",
 }
 
-# Eigene, kurze News-Suche pro Einzel-Ticker (alle Top-20-Sektorpositionen +
-# ETF-Holdings, dedupliziert). Label = Tickersymbol, damit das Frontend die
-# Schlagzeilen direkt der jeweiligen Holding-Karte zuordnen kann. Query =
-# Firmenname + "stock" - Ticker+Firmenname zusammen war in Tests zu selten,
-# kurze Formulierungen treffen bei Google-News-RSS deutlich mehr Artikel.
-_news_tickers = set()
-for _tickers in SECTOR_POSITIONS.values():
-    _news_tickers.update(_tickers)
-for _tickers in PERSONAL_ETFS.values():
-    _news_tickers.update(_tickers)
+# GICS-Sektor (Standard-Marktklassifikation, 11 Sektoren) je Einzel-Ticker -
+# unabhaengig von den 5 eigenen Themen-Sektoren oben (die bleiben als
+# persoenliche Uebersicht/Navigation bestehen). Zeigt auf jeder Ticker-Karte
+# als kleines Badge die tatsaechliche Branchenzugehoerigkeit, z.B. dass im
+# eigenen "Ruestung"-Sektor Teledyne (TDY) eigentlich Information Technology
+# ist. Manuell klassifiziert nach GICS-Konvention (Stand Aug 2026).
+GICS_SECTORS = {
+    # --- Chips & AI (alle Information Technology / Halbleiter) ---
+    "NVDA": "Information Technology", "TSM": "Information Technology", "MU": "Information Technology",
+    "AMD": "Information Technology", "INTC": "Information Technology", "AVGO": "Information Technology",
+    "QCOM": "Information Technology", "TXN": "Information Technology", "LRCX": "Information Technology",
+    "KLAC": "Information Technology", "AMAT": "Information Technology", "ASML": "Information Technology",
+    "ARM": "Information Technology", "MRVL": "Information Technology", "NXPI": "Information Technology",
+    "ADI": "Information Technology", "ON": "Information Technology", "MCHP": "Information Technology",
+    "MPWR": "Information Technology", "SWKS": "Information Technology",
 
-for _ticker in sorted(_news_tickers):
-    _name = TICKER_NAMES.get(_ticker, _ticker)
-    # require_in_title: Firmenname muss im Titel stehen, nicht nur irgendwo im
-    # Artikel (s. Kommentar bei den Index-Queries oben) - sonst landen Artikel,
-    # die die Firma nur am Rande erwaehnen, faelschlich als "News zu dieser Position".
-    NEWS_QUERIES.append({"label": _ticker, "query": _name + " stock", "hl": "en-US", "gl": "US", "require_in_title": _name})
+    # --- Healthcare (alle Health Care) ---
+    "LLY": "Health Care", "JNJ": "Health Care", "ABBV": "Health Care", "MRK": "Health Care",
+    "UNH": "Health Care", "AMGN": "Health Care", "TMO": "Health Care", "ABT": "Health Care",
+    "GILD": "Health Care", "ISRG": "Health Care", "PFE": "Health Care", "DHR": "Health Care",
+    "BSX": "Health Care", "SYK": "Health Care", "VRTX": "Health Care", "BMY": "Health Care",
+    "MDT": "Health Care", "CVS": "Health Care", "CI": "Health Care", "ELV": "Health Care",
+
+    # --- Ruestung (ueberwiegend Industrials, TDY ist Info Tech - Teledynes
+    #     Elektronik-/Messtechnik-Geschaeft ueberwiegt das Verteidigungsgeschaeft) ---
+    "GE": "Industrials", "RTX": "Industrials", "BA": "Industrials", "HWM": "Industrials",
+    "GD": "Industrials", "LHX": "Industrials", "TDG": "Industrials", "NOC": "Industrials",
+    "LMT": "Industrials", "AXON": "Industrials", "TXT": "Industrials", "HEI": "Industrials",
+    "CW": "Industrials", "TDY": "Information Technology", "LDOS": "Industrials", "HII": "Industrials",
+    "BWXT": "Industrials", "WWD": "Industrials", "KTOS": "Industrials", "MRCY": "Industrials",
+
+    # --- Energie & Rohstoffe (alle Energy) ---
+    "XOM": "Energy", "CVX": "Energy", "COP": "Energy", "EOG": "Energy", "SLB": "Energy",
+    "WMB": "Energy", "VLO": "Energy", "PSX": "Energy", "MPC": "Energy", "BKR": "Energy",
+    "KMI": "Energy", "TRG": "Energy", "OXY": "Energy", "FANG": "Energy", "EQT": "Energy",
+    "HAL": "Energy", "DVN": "Energy", "CTRA": "Energy", "HES": "Energy", "APA": "Energy",
+
+    # --- Konsumgueter (alle Consumer Staples) ---
+    "WMT": "Consumer Staples", "COST": "Consumer Staples", "PG": "Consumer Staples", "KO": "Consumer Staples",
+    "PM": "Consumer Staples", "MDLZ": "Consumer Staples", "PEP": "Consumer Staples", "MO": "Consumer Staples",
+    "CL": "Consumer Staples", "KR": "Consumer Staples", "SYY": "Consumer Staples", "KMB": "Consumer Staples",
+    "KVUE": "Consumer Staples", "MNST": "Consumer Staples", "STZ": "Consumer Staples", "GIS": "Consumer Staples",
+    "KDP": "Consumer Staples", "HSY": "Consumer Staples", "KHC": "Consumer Staples", "CHD": "Consumer Staples",
+
+    # --- Nasdaq/S&P 500 zusaetzliche Holdings ---
+    "AAPL": "Information Technology", "MSFT": "Information Technology", "AMZN": "Consumer Discretionary",
+    "GOOGL": "Communication Services", "GOOG": "Communication Services", "TSLA": "Consumer Discretionary",
+    "META": "Communication Services", "NFLX": "Communication Services", "ADBE": "Information Technology",
+    "CSCO": "Information Technology", "TMUS": "Communication Services", "INTU": "Information Technology",
+    "CMCSA": "Communication Services",
+    "BRK.B": "Financials", "JPM": "Financials", "V": "Financials", "MA": "Financials", "HD": "Consumer Discretionary",
+
+    # --- DAX-Holdings ---
+    "SAP.DE": "Information Technology", "SIE.DE": "Industrials", "ALV.DE": "Financials",
+    "DTE.DE": "Communication Services", "AIR.DE": "Industrials", "MUV2.DE": "Financials",
+    "MBG.DE": "Consumer Discretionary", "ENR.DE": "Industrials", "DB1.DE": "Financials",
+    "BAS.DE": "Materials", "RHM.DE": "Industrials", "IFX.DE": "Information Technology",
+    "BAYN.DE": "Health Care", "VOW3.DE": "Consumer Discretionary", "DBK.DE": "Financials",
+
+    # --- KOSPI-Holdings ---
+    "005930.KS": "Information Technology", "000660.KS": "Information Technology",
+    "373220.KS": "Industrials", "207940.KS": "Health Care", "005380.KS": "Consumer Discretionary",
+    "068270.KS": "Health Care", "035420.KS": "Communication Services", "105560.KS": "Financials",
+    "055550.KS": "Financials", "012330.KS": "Consumer Discretionary", "051910.KS": "Materials",
+    "006400.KS": "Information Technology", "028260.KS": "Industrials", "032830.KS": "Financials",
+    "018260.KS": "Information Technology",
+}
 
 PRIORITY_KEYWORDS = [
     "fed", "federal reserve", "zinsen", "rate cut", "rate hike", "cpi",

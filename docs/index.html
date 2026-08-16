@@ -10,19 +10,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=2026-08-16c">
+<link rel="stylesheet" href="style.css?v=2026-08-16f">
 </head>
 <body>
   <h1 class="site-title">Morgen-Feed</h1>
   <div class="updated" id="updated-line">Lädt...</div>
+  <button class="refresh-btn" id="markets-refresh-btn" title="Aktualisieren">↻</button>
 
-  <div class="tabs">
-    <button class="tab-btn active" data-view="markets">Markets</button>
-    <button class="tab-btn" data-view="invest">Invest</button>
-  </div>
-
-  <!-- ============ MARKETS ============ -->
-  <div id="view-markets" class="view">
+  <div id="view-markets">
     <div class="section fedmakro-block" id="fedmakro-block">
       <div class="fedmakro-header">
         <h2>Makro &amp; Weltpolitik</h2>
@@ -40,8 +35,6 @@
       <div class="pills-row" id="sektor-row" style="display:none"></div>
       <div class="pills-row" id="indizes-row" style="display:none"></div>
     </div>
-
-    <button class="refresh-btn" id="markets-refresh-btn">↻ Aktualisieren</button>
 
     <div class="section" id="futures-section">
       <h2>Futures (Vorbörse)</h2>
@@ -67,24 +60,6 @@
     <button id="more-btn" style="display:none">Mehr anzeigen</button>
   </div>
 
-  <!-- ============ INVEST ============ -->
-  <div id="view-invest" class="view" style="display:none">
-    <div class="pills">
-      <button class="pill pill-all active" id="invest-alle-btn">Alle</button>
-    </div>
-
-    <button class="refresh-btn" onclick="location.href = location.pathname + '?t=' + Date.now() + '&view=invest';">↻ Aktualisieren</button>
-
-    <div class="section" id="invest-etf-section">
-      <h2>Deine ETFs</h2>
-      <div class="tickers"></div>
-    </div>
-
-    <div id="invest-holdings"></div>
-
-    <div class="headlines" id="headlines-invest"></div>
-  </div>
-
-  <script src="app.js?v=2026-08-16c"></script>
+  <script src="app.js?v=2026-08-16f"></script>
 </body>
 </html>
