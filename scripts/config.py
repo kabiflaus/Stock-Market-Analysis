@@ -217,24 +217,6 @@ TICKER_NAMES = {
     "028260.KS": "Samsung C&T", "032830.KS": "Samsung Life Insurance", "018260.KS": "Samsung SDS",
 }
 
-# Eigene, kurze News-Suche pro Einzel-Ticker (alle Top-20-Sektorpositionen +
-# ETF-Holdings, dedupliziert). Label = Tickersymbol, damit das Frontend die
-# Schlagzeilen direkt der jeweiligen Holding-Karte zuordnen kann. Query =
-# Firmenname + "stock" - Ticker+Firmenname zusammen war in Tests zu selten,
-# kurze Formulierungen treffen bei Google-News-RSS deutlich mehr Artikel.
-_news_tickers = set()
-for _tickers in SECTOR_POSITIONS.values():
-    _news_tickers.update(_tickers)
-for _tickers in PERSONAL_ETFS.values():
-    _news_tickers.update(_tickers)
-
-for _ticker in sorted(_news_tickers):
-    _name = TICKER_NAMES.get(_ticker, _ticker)
-    # require_in_title: Firmenname muss im Titel stehen, nicht nur irgendwo im
-    # Artikel (s. Kommentar bei den Index-Queries oben) - sonst landen Artikel,
-    # die die Firma nur am Rande erwaehnen, faelschlich als "News zu dieser Position".
-    NEWS_QUERIES.append({"label": _ticker, "query": _name + " stock", "hl": "en-US", "gl": "US", "require_in_title": _name})
-
 PRIORITY_KEYWORDS = [
     "fed", "federal reserve", "zinsen", "rate cut", "rate hike", "cpi",
     "inflation", "earnings", "quartalszahlen", "guidance", "prognose",

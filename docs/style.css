@@ -133,15 +133,6 @@ body {
   border-top: 1px solid #22262b;
 }
 
-/* Bis zu 3 Schlagzeilen zu genau diesem Ticker (siehe tickerNewsHtml). */
-.ticker-news {
-  font-size: 0.68rem; margin-top: 6px; padding-top: 6px;
-  border-top: 1px solid #22262b; display: flex; flex-direction: column; gap: 5px;
-}
-.ticker-news a { color: #58a6ff; text-decoration: none; line-height: 1.35; }
-.ticker-news a:hover { text-decoration: underline; }
-.ticker-news a strong { color: #e7e9ea; }
-
 .sparkline { display: block; width: 100%; height: 56px; margin-top: 14px; }
 .sparkline.small { height: 34px; margin-top: 8px; }
 

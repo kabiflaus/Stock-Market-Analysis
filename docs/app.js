@@ -605,10 +605,6 @@ const CONFIG = {
 const MAX_VISIBLE = 10;
 const NEUTRAL_THRESHOLD = 0.1; // Prozent - darunter gilt ein Ticker als "neutral" (gelb)
 
-// Alle geladenen Schlagzeilen, fuer die Einzel-Ticker-News beim Aufklappen
-// einer Holding-Karte (siehe tickerNewsHtml). Wird einmal in init() gesetzt.
-let allHeadlines = [];
-
 // Finnhub-API-Key fuer Live-Kurse (Einzelpositionen, siehe isLiveEligible()).
 // ACHTUNG: Diese Seite ist eine rein statische GitHub-Pages-Seite ohne
 // Backend - jeder Key, der hier steht, landet unveraendert im ausgelieferten
@@ -930,7 +926,7 @@ function currencySuffix(currency) {
 // Ticker-Symbol - besser lesbar, gerade bei kryptischen Symbolen wie
 // "005930.KS"), Ticker-Symbol klein darunter, Gewichtung im Sektor-ETF oben
 // rechts. Klick/Tap klappt eine kurze Firmenbeschreibung auf (falls vorhanden).
-function positionCardHtml(ticker, row, weight, noNews) {
+function positionCardHtml(ticker, row, weight) {
   row = row || {};
   const name = CONFIG.tickerNames[ticker] || ticker;
   const weightHtml = (weight !== undefined) ? '<span class="ticker-weight">' + weight + '%</span>' : '';
@@ -938,11 +934,10 @@ function positionCardHtml(ticker, row, weight, noNews) {
   const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
   // data-ticker steht immer drauf (fuer die Kennzahlen-Abfrage beim Aufklappen),
   // die Live-Kurs-Aktualisierung selbst filtert intern trotzdem auf isLiveEligible.
-  const noNewsAttr = noNews ? ' data-no-news="1"' : '';
   const desc = CONFIG.tickerDescriptions[ticker];
   const descHtml = desc ? '<div class="ticker-desc">' + esc(desc) + '</div>' : '';
   const expandableClass = desc ? ' expandable' : '';
-  return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '"' + noNewsAttr + '>' +
+  return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '">' +
     '<div class="ticker-top">' +
       '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
       weightHtml +
@@ -1011,14 +1006,14 @@ function renderPositionSections(rowsByLabel) {
 
 // Top-Holdings des jeweils ausgewaehlten Index (Nasdaq/S&P 500/DAX/KOSPI aus
 // dem "Indizes"-Dropdown) - nur sichtbar bei genau diesem Filter, siehe
-// setupMarketFilter. Bewusst ohne Einzel-Ticker-News (noNews=true).
+// setupMarketFilter.
 function renderIndexHoldings(rowsByLabel) {
   const container = document.getElementById('index-holdings');
   let html = '';
   Object.keys(CONFIG.indexHoldings).forEach(indexLabel => {
     const tickers = CONFIG.indexHoldings[indexLabel];
     const weights = CONFIG.indexWeights[indexLabel] || {};
-    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], weights[t], true));
+    const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], weights[t]));
     html += '<div class="section position-section" data-index="' + esc(indexLabel) + '" style="display:none">' +
       '<h2>' + esc(indexLabel) + ' – Top ' + tickers.length + ' Holdings</h2>' +
       '<div class="tickers">' + cards.join('') + '</div></div>';
@@ -1433,43 +1428,26 @@ async function loadFundamentals(ticker) {
   return data;
 }
 
-// Bis zu 3 aktuelle Schlagzeilen zu genau diesem Ticker (siehe die pro-Ticker-
-// Suchen in config.py/NEWS_QUERIES, Label = Tickersymbol). Unabhaengig von
-// Finnhub - kommt aus dem ganz normalen headlines.json-Feed.
-function tickerNewsHtml(ticker) {
-  const items = allHeadlines.filter(h => h.label === ticker).slice(0, 3);
-  if (!items.length) return '';
-  const rows = items.map(h => {
-    const source = h.source ? '<strong>' + esc(h.source) + '</strong> · ' : '';
-    return '<a href="' + h.link + '" target="_blank" rel="noopener">' + source + esc(h.title) + '</a>';
-  }).join('');
-  return '<div class="ticker-news">' + rows + '</div>';
-}
-
-// Laedt beim Aufklappen einer Holding-Karte: Kennzahlen (nur US-gelistete
+// Laedt beim Aufklappen einer Holding-Karte die Kennzahlen (nur US-gelistete
 // Ticker, siehe isLiveEligible - Finnhubs Free-Tier deckt auslaendische
-// Boersen nicht ab) und/oder die neuesten Schlagzeilen zu diesem Ticker
-// (funktioniert unabhaengig von Finnhub). Ueber card.dataset.extrasLoaded
-// nur einmal PRO ERFOLG geladen - schlaegt der Kennzahlen-Abruf fehl (z.B.
-// Finnhubs Free-Tier-Rate-Limit von 60 Calls/Min, das die staendig laufende
-// Live-Kurs-Abfrage schon fast ausschoepft), wird das Flag NICHT gesetzt,
-// damit ein erneutes Auf-/Zuklappen einen neuen Versuch macht statt den
-// Fehler fuer den Rest der Sitzung einzufrieren.
+// Boersen nicht ab). Ueber card.dataset.extrasLoaded nur einmal PRO ERFOLG
+// geladen - schlaegt der Abruf fehl (z.B. Finnhubs Free-Tier-Rate-Limit von
+// 60 Calls/Min, das die staendig laufende Live-Kurs-Abfrage schon fast
+// ausschoepft), wird das Flag NICHT gesetzt, damit ein erneutes Auf-/
+// Zuklappen einen neuen Versuch macht statt den Fehler fuer den Rest der
+// Sitzung einzufrieren.
 async function loadCardExtras(card) {
   const ticker = card.dataset.ticker;
   if (!ticker) return;
   if (card.dataset.extrasLoaded === '1') return;
   const desc = card.querySelector('.ticker-desc');
-  const skipNews = card.dataset.noNews === '1';
-  const news = () => (skipNews ? '' : tickerNewsHtml(ticker));
   const canFetchFundamentals = FINNHUB_API_KEY && isLiveEligible(ticker);
   if (!canFetchFundamentals) {
     // Finnhubs Free-Tier deckt nur US-gelistete Ticker ab - ohne diesen
     // Hinweis sieht eine leere Karte (z.B. bei 600900.SS) wie ein Fehler
     // aus, ist aber gewollt (lieber ehrlich nichts zeigen als geraten).
     const note = '<div class="fund-note">Kennzahlen nur für US-gelistete Werte verfügbar.</div>';
-    const newsHtml = news();
-    desc.insertAdjacentHTML('afterend', note + newsHtml);
+    desc.insertAdjacentHTML('afterend', note);
     card.dataset.extrasLoaded = '1';
     return;
   }
@@ -1477,14 +1455,12 @@ async function loadCardExtras(card) {
   // Versuch daneben dupliziert statt sie zu ersetzen.
   const oldBox = card.querySelector('.ticker-fundamentals');
   if (oldBox) oldBox.remove();
-  const oldNews = card.querySelector('.ticker-news');
-  if (oldNews) oldNews.remove();
   const box = document.createElement('div');
   box.className = 'ticker-fundamentals';
   box.textContent = 'Lade Kennzahlen…';
   desc.insertAdjacentElement('afterend', box);
   const data = await loadFundamentals(ticker);
-  box.outerHTML = fundamentalsHtml(data) + news();
+  box.outerHTML = fundamentalsHtml(data);
   if (!data.metricError) card.dataset.extrasLoaded = '1';
 }
 
@@ -1555,7 +1531,6 @@ async function init() {
   }
 
   headlines.sort((a, b) => new Date(b.published) - new Date(a.published));
-  allHeadlines = headlines; // fuer Einzel-Ticker-News beim Aufklappen einer Holding-Karte
   const rowsByLabel = {};
   (market.rows || []).forEach(r => { rowsByLabel[r.label] = r; });
 
