@@ -792,18 +792,128 @@ function sparklineSvg(closes, isUp, extraClass) {
     '</svg>';
 }
 
+// ---------- Index-Detailchart (nur Indizes-Rubrik) ----------
+// Groesserer Chart mit X-/Y-Achse statt der kleinen Sparkline - dieselbe
+// gedimmte-Woche/farbiges-Heute-Logik wie sparklineSvg, nur mit Beschriftung
+// und antippbaren Punkten (Tooltip mit Datum+Kurs). Reines SVG, kein Chart-
+// Framework - row.sparkline_dates kommt parallel zu row.sparkline aus
+// fetch_market.py (Yahoos Timestamp-Array).
+function formatChartAxisPrice(v) {
+  return Math.round(v).toLocaleString('de-DE');
+}
+function formatChartDate(iso) {
+  if (!iso) return '';
+  const parts = iso.split('-'); // "YYYY-MM-DD"
+  return parts.length === 3 ? parts[2] + '.' + parts[1] + '.' : iso;
+}
+
+function bigIndexChartHtml(closes, dates, isUp) {
+  if (!closes || closes.length < 2) return '';
+  dates = dates || [];
+  const w = 320, h = 176;
+  const padLeft = 46, padRight = 10, padTop = 12, padBottom = 26;
+  const plotW = w - padLeft - padRight;
+  const plotH = h - padTop - padBottom;
+  const min = Math.min(...closes), max = Math.max(...closes);
+  const range = (max - min) || 1;
+  const stepX = plotW / (closes.length - 1);
+  const coords = closes.map((c, i) => [
+    padLeft + i * stepX,
+    padTop + (1 - (c - min) / range) * plotH,
+  ]);
+  const color = isUp ? '#3fb950' : '#f85149';
+
+  // Y-Achse: Gitterlinien + Preisbeschriftung bei Max/Mitte/Min.
+  const yAxis = [max, (max + min) / 2, min].map((v, i) => {
+    const y = padTop + (i / 2) * plotH;
+    return '<line x1="' + padLeft + '" y1="' + y.toFixed(1) + '" x2="' + (w - padRight) + '" y2="' + y.toFixed(1) + '" ' +
+      'stroke="#22262b" stroke-width="1"/>' +
+      '<text x="' + (padLeft - 6) + '" y="' + (y + 3).toFixed(1) + '" text-anchor="end" ' +
+      'class="index-chart-axis-label">' + esc(formatChartAxisPrice(v)) + '</text>';
+  }).join('');
+
+  // X-Achse: Datum unter jedem Punkt.
+  const xAxis = coords.map(([x], i) =>
+    '<text x="' + x.toFixed(1) + '" y="' + (h - 6) + '" text-anchor="middle" ' +
+    'class="index-chart-axis-label">' + esc(formatChartDate(dates[i])) + '</text>'
+  ).join('');
+
+  const toPoints = (arr) => arr.map(([x, y]) => x.toFixed(1) + ',' + y.toFixed(1)).join(' ');
+  const splitIdx = coords.length - 2;
+  const historyCoords = coords.slice(0, splitIdx + 1);
+  const todayCoords = coords.slice(splitIdx);
+  const historyLine = historyCoords.length >= 2
+    ? '<polyline points="' + toPoints(historyCoords) + '" fill="none" stroke="#3a3f45" stroke-width="2" ' +
+      'stroke-linejoin="round" stroke-linecap="round"/>'
+    : '';
+  const todayLine = '<polyline points="' + toPoints(todayCoords) + '" fill="none" stroke="' + color + '" stroke-width="2.5" ' +
+    'stroke-linejoin="round" stroke-linecap="round"/>';
+
+  // Je Punkt ein Tipp-Ziel (grosser transparenter Kreis fuer den Finger,
+  // kleiner sichtbarer Punkt) mit Datum/Kurs als data-Attribute fuer den
+  // Tooltip-Klick-Handler (siehe setupIndexChartTooltip).
+  const dots = coords.map(([x, y], i) => {
+    const isToday = i === coords.length - 1;
+    return '<g class="index-chart-dot" data-date="' + esc(formatChartDate(dates[i])) + '" ' +
+      'data-price="' + esc(formatChartAxisPrice(closes[i])) + '" data-x="' + x.toFixed(1) + '" data-y="' + y.toFixed(1) + '">' +
+      '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="10" fill="transparent"/>' +
+      '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="' + (isToday ? 3.5 : 2.5) + '" ' +
+      'fill="' + (isToday ? color : '#6e7681') + '"/></g>';
+  }).join('');
+
+  return '<svg class="index-chart" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="xMidYMid meet">' +
+    yAxis + historyLine + todayLine + dots +
+    '<g class="index-chart-tooltip" style="display:none">' +
+      '<rect class="index-chart-tooltip-bg" rx="3" ry="3"></rect>' +
+      '<text class="index-chart-tooltip-text" text-anchor="middle"></text>' +
+    '</g>' +
+    xAxis +
+    '</svg>';
+}
+
+// Tippen auf einen Chart-Punkt zeigt Datum+Kurs als Tooltip - ein delegierter
+// Handler auf dem staendigen Container reicht, da nur das SVG-Innere sich
+// bei jedem Index-Wechsel neu aufbaut.
+function setupIndexChartTooltip() {
+  const container = document.getElementById('big-index-view');
+  if (!container) return;
+  container.addEventListener('click', (e) => {
+    const svg = container.querySelector('.index-chart');
+    if (!svg) return;
+    const tooltip = svg.querySelector('.index-chart-tooltip');
+    const dot = e.target.closest('.index-chart-dot');
+    if (!dot) { if (tooltip) tooltip.style.display = 'none'; return; }
+    const x = parseFloat(dot.dataset.x), y = parseFloat(dot.dataset.y);
+    const label = dot.dataset.date + '   ' + dot.dataset.price;
+    const bg = tooltip.querySelector('.index-chart-tooltip-bg');
+    const text = tooltip.querySelector('.index-chart-tooltip-text');
+    text.textContent = label;
+    const boxW = label.length * 5.4 + 12;
+    const boxH = 16;
+    const tx = Math.min(Math.max(x - boxW / 2, 2), 320 - boxW - 2);
+    const ty = Math.max(y - boxH - 8, 2);
+    bg.setAttribute('x', tx);
+    bg.setAttribute('y', ty);
+    bg.setAttribute('width', boxW);
+    bg.setAttribute('height', boxH);
+    text.setAttribute('x', tx + boxW / 2);
+    text.setAttribute('y', ty + boxH / 2 + 3);
+    tooltip.style.display = '';
+  });
+}
+
 // Grosse, zentrierte Karte fuer einen ausgewaehlten Index (Nasdaq/S&P 500/
-// DAX/KOSPI) statt des kleinen Grid-Feldes - inkl. Mini-Graph der letzten Tage.
+// DAX/KOSPI) statt des kleinen Grid-Feldes - inkl. Detailchart mit Achsen.
 function bigIndexCardHtml(label, row, flag, hoursKey) {
   row = row || {};
   const dir = direction(row.change_pct);
-  const spark = sparklineSvg(row.sparkline, dir.cls !== 'down');
+  const chart = bigIndexChartHtml(row.sparkline, row.sparkline_dates, dir.cls !== 'down');
   const prefix = flag ? flag + ' ' : '';
   return '<div class="big-index-card">' +
     '<div class="big-index-label">' + prefix + esc(label) + '</div>' +
     '<div class="big-index-price">' + priceDisplay(row) + '</div>' +
     changeHtmlFor(row.change_pct) +
-    spark +
+    chart +
     marketHoursLine(hoursKey) +
     '</div>';
 }
@@ -1469,6 +1579,7 @@ async function init() {
   setupInvestFilter();
   setupPositionExpand();
   setupMacroExpand();
+  setupIndexChartTooltip();
   startLiveUpdates();
 }
 
