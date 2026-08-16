@@ -760,22 +760,36 @@ function priceCardHtml(label, row, flag, extraAttrs, ticker) {
 
 // Kleiner Trend-Graph (letzte paar Tagesschluesse + aktueller Kurs) fuer die
 // grosse Index-Detailkarte. Reines SVG, keine Chart-Bibliothek.
+// Woche als gedimmter Kontext-Verlauf, nur der letzte Abschnitt (Vortages-
+// schluss -> aktueller Kurs) farbig hervorgehoben - so sieht man auf einen
+// Blick, wie sich HEUTE bewegt, ohne den Wochenverlauf drumherum zu verlieren.
 function sparklineSvg(closes, isUp, extraClass) {
   if (!closes || closes.length < 2) return '';
   const w = 240, h = 56, pad = 4;
   const min = Math.min(...closes), max = Math.max(...closes);
   const range = (max - min) || 1;
   const stepX = (w - pad * 2) / (closes.length - 1);
-  const points = closes.map((c, i) => {
-    const x = pad + i * stepX;
-    const y = pad + (1 - (c - min) / range) * (h - pad * 2);
-    return x.toFixed(1) + ',' + y.toFixed(1);
-  }).join(' ');
+  const coords = closes.map((c, i) => [
+    pad + i * stepX,
+    pad + (1 - (c - min) / range) * (h - pad * 2),
+  ]);
+  const toPoints = (arr) => arr.map(([x, y]) => x.toFixed(1) + ',' + y.toFixed(1)).join(' ');
   const color = isUp ? '#3fb950' : '#f85149';
   const cls = 'sparkline' + (extraClass ? ' ' + extraClass : '');
+
+  const splitIdx = coords.length - 2;
+  const historyCoords = coords.slice(0, splitIdx + 1);
+  const todayCoords = coords.slice(splitIdx);
+  const historyLine = historyCoords.length >= 2
+    ? '<polyline points="' + toPoints(historyCoords) + '" fill="none" stroke="#3a3f45" stroke-width="2" ' +
+      'stroke-linejoin="round" stroke-linecap="round"/>'
+    : '';
+  const todayLine = '<polyline points="' + toPoints(todayCoords) + '" fill="none" stroke="' + color + '" stroke-width="2.5" ' +
+    'stroke-linejoin="round" stroke-linecap="round"/>';
+
   return '<svg class="' + cls + '" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none">' +
-    '<polyline points="' + points + '" fill="none" stroke="' + color + '" stroke-width="2" ' +
-    'stroke-linejoin="round" stroke-linecap="round"/></svg>';
+    historyLine + todayLine +
+    '</svg>';
 }
 
 // Grosse, zentrierte Karte fuer einen ausgewaehlten Index (Nasdaq/S&P 500/
