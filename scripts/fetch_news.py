@@ -6,6 +6,7 @@ Bewusst KEINE Bewertung, KEIN Kommentar - nur Titel, Quelle, Zeitstempel, Link.
 """
 import json
 import os
+import socket
 import sys
 from datetime import datetime, timedelta, timezone
 from urllib.parse import quote
@@ -16,6 +17,13 @@ sys.path.insert(0, os.path.dirname(__file__))
 from config import NEWS_QUERIES, MAX_ITEMS_PER_QUERY, RETENTION_DAYS, BLOCKED_SOURCES
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "headlines.json")
+
+# feedparser.parse() hat keinen eigenen Timeout-Parameter und haengt sich an
+# den globalen Socket-Timeout - ohne den kann eine einzelne haengende Google-
+# News-Anfrage (von 147 pro Lauf) den ganzen Workflow um viele Minuten
+# verzoegern (beobachtet: 18 Min. statt ueblich 1-2 Min. fuer diesen Schritt).
+# Gleicher Wert wie fetch_market.py's curl_cffi-Timeout, fuer Konsistenz.
+socket.setdefaulttimeout(10)
 
 
 def build_url(query: dict) -> str:
