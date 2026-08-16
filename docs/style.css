@@ -142,18 +142,55 @@ body {
 .ticker-news a:hover { text-decoration: underline; }
 .ticker-news a strong { color: #e7e9ea; }
 
-/* Grosse, zentrierte Karte fuer einen einzeln ausgewaehlten Index
-   (Nasdaq/S&P 500/DAX/KOSPI) statt des kleinen Grid-Feldes, inkl. Mini-Graph. */
-.big-index-card {
-  background: #16191d; border: 1px solid #2a2f34; border-radius: 14px;
-  padding: 20px; margin: 0 auto 8px; max-width: 280px; text-align: center;
-}
-.big-index-label { font-size: 0.95rem; color: #8b98a5; margin-bottom: 8px; }
-.big-index-price { font-size: 2.3rem; font-weight: 700; line-height: 1.1; }
-.big-index-card .chg { font-size: 1rem; display: inline-flex; margin-top: 4px; }
 .sparkline { display: block; width: 100%; height: 56px; margin-top: 14px; }
 .sparkline.small { height: 34px; margin-top: 8px; }
-.big-index-hours { font-size: 0.68rem; color: #6e7681; margin-top: 12px; }
+
+/* ===========================================================================
+   Indizes-Rubrik: eigener, dichterer "Terminal"-Look (Wunsch: an Bloomberg
+   angelehnt) - bewusst NUR hier, ausserhalb bleibt alles beim bisherigen
+   Design. #global-indices-section (Uebersichts-Raster + grosse Detailkarte)
+   und #index-holdings sind seit der Navigation-Umstellung ausschliesslich
+   innerhalb der Indizes-Rubrik sichtbar, daher reicht die Scope-Grenze hier.
+   =========================================================================== */
+:root { --idx-mono: ui-monospace, 'SF Mono', 'Roboto Mono', 'Courier New', monospace; --idx-accent: #f0a020; }
+
+#pill-indizes-markets.active,
+#indizes-row .pill.active {
+  background: var(--idx-accent); border-color: var(--idx-accent); color: #0d0f12;
+}
+#indizes-row .pill { font-family: var(--idx-mono); }
+
+#global-indices-section .ticker-card,
+#index-holdings .ticker-card {
+  font-family: var(--idx-mono); border-radius: 4px; border-color: #333940;
+}
+#global-indices-section .ticker-price,
+#global-indices-section .big-index-price,
+#index-holdings .ticker-price {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Grosse, zentrierte Karte fuer einen einzeln ausgewaehlten Index
+   (Nasdaq/S&P 500/DAX/KOSPI) statt des kleinen Grid-Feldes, inkl. Detailchart. */
+.big-index-card {
+  background: #14161a; border: 1px solid #333940; border-left: 3px solid var(--idx-accent);
+  border-radius: 4px; padding: 18px; margin: 0 auto 8px; max-width: 340px; text-align: center;
+}
+.big-index-label {
+  font-size: 0.72rem; color: #8b98a5; margin-bottom: 8px;
+  text-transform: uppercase; letter-spacing: 0.07em;
+}
+.big-index-price { font-size: 2.3rem; font-weight: 700; line-height: 1.1; }
+.big-index-card .chg { font-size: 1rem; display: inline-flex; margin-top: 4px; }
+.big-index-hours { font-size: 0.68rem; color: #6e7681; margin-top: 12px; font-family: var(--idx-mono); }
+
+/* Index-Detailchart: X-/Y-Achse + antippbare Punkte mit Tooltip statt der
+   kleinen Sparkline, s. bigIndexChartHtml/setupIndexChartTooltip in app.js. */
+.index-chart { display: block; width: 100%; height: auto; margin-top: 14px; }
+.index-chart-axis-label { font: 9px var(--idx-mono); fill: #6e7681; }
+.index-chart-dot { cursor: pointer; }
+.index-chart-tooltip-bg { fill: #1c1f24; stroke: var(--idx-accent); stroke-width: 1; }
+.index-chart-tooltip-text { font: 700 9px var(--idx-mono); fill: #e7e9ea; }
 
 /* Fed/Makro: eigener, optisch abgesetzter Block oberhalb der Sektor-Pillen -
    kein Filter mehr, immer sichtbar unabhaengig vom gewaehlten Sektor. */

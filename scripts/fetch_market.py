@@ -71,7 +71,7 @@ SPARKLINE_LABELS = (
 )
 
 
-def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float], str | None]:
+def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float], str | None, list[str]]:
     resp = SESSION.get(
         CHART_URL.format(ticker=ticker),
         params={"interval": "1d", "range": "5d"},
@@ -93,14 +93,24 @@ def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float], 
     # Hynix in KRW) leicht mit USD zu verwechseln.
     currency = meta.get("currency")
 
+    # Datum je Schlusskurs (parallel zur Kursreihe) - fuer die X-Achse des
+    # Index-Detailcharts. Yahoos "timestamp"-Array ist parallel zu
+    # quote[0].close, deswegen vor dem Rausfiltern von None-Kursen zippen.
     closes = []
+    dates: list[str] = []
+    timestamps = result[0].get("timestamp") or []
     quotes = result[0].get("indicators", {}).get("quote", [{}])
     if quotes:
-        closes = [round(c, 2) for c in quotes[0].get("close", []) or [] if c is not None]
+        raw_closes = quotes[0].get("close", []) or []
+        for ts, c in zip(timestamps, raw_closes):
+            if c is not None:
+                closes.append(round(c, 2))
+                dates.append(datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d"))
     if price is not None and (not closes or closes[-1] != price):
         closes.append(round(price, 2))
+        dates.append(datetime.now(timezone.utc).strftime("%Y-%m-%d"))
 
-    return price, prev_close, closes, currency
+    return price, prev_close, closes, currency, dates
 
 
 def fetch_fx_rates(currencies: set[str]) -> dict[str, float]:
@@ -122,7 +132,7 @@ def fetch_snapshot() -> list[dict]:
     rows = []
     for label, ticker in ALL_TICKERS.items():
         try:
-            price, prev_close, closes, currency = fetch_ticker(ticker)
+            price, prev_close, closes, currency, dates = fetch_ticker(ticker)
             # Yahoos meta.previousClose haengt manchmal der taeglichen
             # Schlusskurs-Reihe hinterher (asynchrone Cache-Aktualisierung) -
             # das fuehrt zu falschen Tagesveraenderungen, die nicht zum
@@ -146,6 +156,7 @@ def fetch_snapshot() -> list[dict]:
             }
             if label in SPARKLINE_LABELS:
                 row["sparkline"] = closes
+                row["sparkline_dates"] = dates
             rows.append(row)
         except Exception as e:
             print(f"[WARN] Fehler bei {label} ({ticker}): {e}", file=sys.stderr)
