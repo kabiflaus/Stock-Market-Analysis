@@ -647,6 +647,51 @@ function isUsMarketOpen(now) {
   return minutes >= 9 * 60 + 30 && minutes < 16 * 60;
 }
 
+// Handelszeiten der 4 Indizes mit eigener Detailkarte, in ihrer jeweiligen
+// Boersen-Zeitzone (lokale Uhrzeit, nicht die deutsche). Wird zur Anzeige
+// per Intl auf deutsche Zeit umgerechnet - so stimmt es automatisch auch in
+// der ein, zwei Wochen im Fruehjahr/Herbst, in denen US-Sommerzeit und
+// EU-Sommerzeit nicht synchron umschalten, ohne dass das hier gepflegt
+// werden muss.
+const MARKET_HOURS = {
+  'Nasdaq': { tz: 'America/New_York', open: [9, 30], close: [16, 0] },
+  'S&P 500': { tz: 'America/New_York', open: [9, 30], close: [16, 0] },
+  'DAX': { tz: 'Europe/Berlin', open: [9, 0], close: [17, 30] },
+  'KOSPI': { tz: 'Asia/Seoul', open: [9, 0], close: [15, 30] },
+};
+
+// Utc-Offset (in Minuten) einer Zeitzone zu einem bestimmten Zeitpunkt -
+// darueber laesst sich eine lokale Uhrzeit (z.B. "9:30 in New York, heute")
+// korrekt in UTC umrechnen, DST-Regeln der jeweiligen Zone inklusive.
+function tzOffsetMinutes(timeZone, date) {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone, hourCycle: 'h23',
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', second: '2-digit',
+  }).formatToParts(date).reduce((acc, p) => { acc[p.type] = p.value; return acc; }, {});
+  const asUtc = Date.UTC(parts.year, parts.month - 1, parts.day, parts.hour, parts.minute, parts.second);
+  return (asUtc - date.getTime()) / 60000;
+}
+
+// Handelszeiten-Zeile fuer die grosse Index-Karte: Boersenoeffnungszeit
+// (heutiges Datum, DST-korrekt) in deutscher Zeit angezeigt.
+function marketHoursLine(key) {
+  const cfg = MARKET_HOURS[key];
+  if (!cfg) return '';
+  const now = new Date();
+  const fmt = (h, m) => {
+    const offsetMin = tzOffsetMinutes(cfg.tz, now);
+    const localParts = new Intl.DateTimeFormat('en-US', {
+      timeZone: cfg.tz, year: 'numeric', month: '2-digit', day: '2-digit',
+    }).formatToParts(now).reduce((acc, p) => { acc[p.type] = p.value; return acc; }, {});
+    const utcMs = Date.UTC(localParts.year, localParts.month - 1, localParts.day, h, m) - offsetMin * 60000;
+    return new Date(utcMs).toLocaleTimeString('de-DE', { timeZone: 'Europe/Berlin', hour: '2-digit', minute: '2-digit' });
+  };
+  const openStr = fmt(cfg.open[0], cfg.open[1]);
+  const closeStr = fmt(cfg.close[0], cfg.close[1]);
+  return '<div class="big-index-hours">Handelszeiten: ' + openStr + '–' + closeStr + ' Uhr (dt. Zeit)</div>';
+}
+
 function isPriority(title) {
   const t = title.toLowerCase();
   return CONFIG.priorityKeywords.some(kw => t.includes(kw));
@@ -735,7 +780,7 @@ function sparklineSvg(closes, isUp, extraClass) {
 
 // Grosse, zentrierte Karte fuer einen ausgewaehlten Index (Nasdaq/S&P 500/
 // DAX/KOSPI) statt des kleinen Grid-Feldes - inkl. Mini-Graph der letzten Tage.
-function bigIndexCardHtml(label, row, flag) {
+function bigIndexCardHtml(label, row, flag, hoursKey) {
   row = row || {};
   const dir = direction(row.change_pct);
   const spark = sparklineSvg(row.sparkline, dir.cls !== 'down');
@@ -745,6 +790,7 @@ function bigIndexCardHtml(label, row, flag) {
     '<div class="big-index-price">' + priceDisplay(row) + '</div>' +
     changeHtmlFor(row.change_pct) +
     spark +
+    marketHoursLine(hoursKey) +
     '</div>';
 }
 
@@ -1034,7 +1080,7 @@ function setupMarketFilter(rowsByLabel) {
     bigIndexView.style.display = isIndexFilter ? '' : 'none';
     if (isIndexFilter) {
       const label = CONFIG.sectorTickerMap[filter][0];
-      bigIndexView.innerHTML = bigIndexCardHtml(label, rowsByLabel[label], CONFIG.tickerFlags[label] || '');
+      bigIndexView.innerHTML = bigIndexCardHtml(label, rowsByLabel[label], CONFIG.tickerFlags[label] || '', filter);
     } else {
       globalCards.forEach(card => card.classList.remove('dimmed'));
     }
