@@ -395,6 +395,177 @@ const CONFIG = {
     "032830.KS": "Samsung Life Insurance",
     "018260.KS": "Samsung SDS"
   },
+  // GICS-Sektor je Ticker (Standard-Marktklassifikation, unabhaengig von den
+  // eigenen 5 Themen-Sektoren) - fuer das kleine Badge auf jeder Karte, s.
+  // gicsTagHtml in app.js. Manuell klassifiziert (Stand Aug 2026).
+  "gicsSectors": {
+    "NVDA": "Information Technology",
+    "TSM": "Information Technology",
+    "MU": "Information Technology",
+    "AMD": "Information Technology",
+    "INTC": "Information Technology",
+    "AVGO": "Information Technology",
+    "QCOM": "Information Technology",
+    "TXN": "Information Technology",
+    "LRCX": "Information Technology",
+    "KLAC": "Information Technology",
+    "AMAT": "Information Technology",
+    "ASML": "Information Technology",
+    "ARM": "Information Technology",
+    "MRVL": "Information Technology",
+    "NXPI": "Information Technology",
+    "ADI": "Information Technology",
+    "ON": "Information Technology",
+    "MCHP": "Information Technology",
+    "MPWR": "Information Technology",
+    "SWKS": "Information Technology",
+    "LLY": "Health Care",
+    "JNJ": "Health Care",
+    "ABBV": "Health Care",
+    "MRK": "Health Care",
+    "UNH": "Health Care",
+    "AMGN": "Health Care",
+    "TMO": "Health Care",
+    "ABT": "Health Care",
+    "GILD": "Health Care",
+    "ISRG": "Health Care",
+    "PFE": "Health Care",
+    "DHR": "Health Care",
+    "BSX": "Health Care",
+    "SYK": "Health Care",
+    "VRTX": "Health Care",
+    "BMY": "Health Care",
+    "MDT": "Health Care",
+    "CVS": "Health Care",
+    "CI": "Health Care",
+    "ELV": "Health Care",
+    "GE": "Industrials",
+    "RTX": "Industrials",
+    "BA": "Industrials",
+    "HWM": "Industrials",
+    "GD": "Industrials",
+    "LHX": "Industrials",
+    "TDG": "Industrials",
+    "NOC": "Industrials",
+    "LMT": "Industrials",
+    "AXON": "Industrials",
+    "TXT": "Industrials",
+    "HEI": "Industrials",
+    "CW": "Industrials",
+    "TDY": "Information Technology",
+    "LDOS": "Industrials",
+    "HII": "Industrials",
+    "BWXT": "Industrials",
+    "WWD": "Industrials",
+    "KTOS": "Industrials",
+    "MRCY": "Industrials",
+    "XOM": "Energy",
+    "CVX": "Energy",
+    "COP": "Energy",
+    "EOG": "Energy",
+    "SLB": "Energy",
+    "WMB": "Energy",
+    "VLO": "Energy",
+    "PSX": "Energy",
+    "MPC": "Energy",
+    "BKR": "Energy",
+    "KMI": "Energy",
+    "TRG": "Energy",
+    "OXY": "Energy",
+    "FANG": "Energy",
+    "EQT": "Energy",
+    "HAL": "Energy",
+    "DVN": "Energy",
+    "CTRA": "Energy",
+    "HES": "Energy",
+    "APA": "Energy",
+    "WMT": "Consumer Staples",
+    "COST": "Consumer Staples",
+    "PG": "Consumer Staples",
+    "KO": "Consumer Staples",
+    "PM": "Consumer Staples",
+    "MDLZ": "Consumer Staples",
+    "PEP": "Consumer Staples",
+    "MO": "Consumer Staples",
+    "CL": "Consumer Staples",
+    "KR": "Consumer Staples",
+    "SYY": "Consumer Staples",
+    "KMB": "Consumer Staples",
+    "KVUE": "Consumer Staples",
+    "MNST": "Consumer Staples",
+    "STZ": "Consumer Staples",
+    "GIS": "Consumer Staples",
+    "KDP": "Consumer Staples",
+    "HSY": "Consumer Staples",
+    "KHC": "Consumer Staples",
+    "CHD": "Consumer Staples",
+    "AAPL": "Information Technology",
+    "MSFT": "Information Technology",
+    "AMZN": "Consumer Discretionary",
+    "GOOGL": "Communication Services",
+    "GOOG": "Communication Services",
+    "TSLA": "Consumer Discretionary",
+    "META": "Communication Services",
+    "NFLX": "Communication Services",
+    "ADBE": "Information Technology",
+    "CSCO": "Information Technology",
+    "TMUS": "Communication Services",
+    "INTU": "Information Technology",
+    "CMCSA": "Communication Services",
+    "BRK.B": "Financials",
+    "JPM": "Financials",
+    "V": "Financials",
+    "MA": "Financials",
+    "HD": "Consumer Discretionary",
+    "SAP.DE": "Information Technology",
+    "SIE.DE": "Industrials",
+    "ALV.DE": "Financials",
+    "DTE.DE": "Communication Services",
+    "AIR.DE": "Industrials",
+    "MUV2.DE": "Financials",
+    "MBG.DE": "Consumer Discretionary",
+    "ENR.DE": "Industrials",
+    "DB1.DE": "Financials",
+    "BAS.DE": "Materials",
+    "RHM.DE": "Industrials",
+    "IFX.DE": "Information Technology",
+    "BAYN.DE": "Health Care",
+    "VOW3.DE": "Consumer Discretionary",
+    "DBK.DE": "Financials",
+    "005930.KS": "Information Technology",
+    "000660.KS": "Information Technology",
+    "373220.KS": "Industrials",
+    "207940.KS": "Health Care",
+    "005380.KS": "Consumer Discretionary",
+    "068270.KS": "Health Care",
+    "035420.KS": "Communication Services",
+    "105560.KS": "Financials",
+    "055550.KS": "Financials",
+    "012330.KS": "Consumer Discretionary",
+    "051910.KS": "Materials",
+    "006400.KS": "Information Technology",
+    "028260.KS": "Industrials",
+    "032830.KS": "Financials",
+    "018260.KS": "Information Technology",
+    "ASML.AS": "Information Technology",
+    "ROG.SW": "Health Care",
+    "HSBA.L": "Financials",
+    "AZN.L": "Health Care",
+    "NOVN.SW": "Health Care",
+    "NESN.SW": "Consumer Staples",
+    "SHEL.L": "Energy",
+    "SAN.MC": "Financials",
+    "NXT": "Industrials",
+    "BE": "Industrials",
+    "FSLR": "Information Technology",
+    "IBE.MC": "Utilities",
+    "600900.SS": "Utilities",
+    "ORA": "Utilities",
+    "ENPH": "Information Technology",
+    "EQTL3.SA": "Utilities",
+    "VWS.CO": "Industrials",
+    "EDP.LS": "Utilities"
+  },
   // Kurzbeschreibung je Top-20-Holding (Markets-Tab, Klick zum Aufklappen).
   // Nur fuer die Anzeige, manuell verfasst - keine Live-Daten/API.
   "tickerDescriptions": {
@@ -922,10 +1093,39 @@ function currencySuffix(currency) {
   return ' <span class="price-currency">' + esc(CURRENCY_SYMBOLS[currency] || currency) + '</span>';
 }
 
+// Kurzform der 11 GICS-Sektoren fuers Badge - volle Namen in CONFIG.gicsSectors
+// (auch als title-Attribut auf dem Badge), hier nur zur Platzersparnis auf
+// der kompakten Karte.
+const GICS_SHORT_LABELS = {
+  "Information Technology": "Tech",
+  "Health Care": "Health",
+  "Industrials": "Industrials",
+  "Energy": "Energy",
+  "Materials": "Materials",
+  "Consumer Discretionary": "Discretionary",
+  "Consumer Staples": "Staples",
+  "Financials": "Financials",
+  "Communication Services": "Communication",
+  "Utilities": "Utilities",
+  "Real Estate": "Real Estate",
+};
+
+// GICS-Sektor-Badge - unabhaengig davon, in welchem eigenen Themen-Sektor
+// (Chips & AI, Ruestung, ...) die Karte gerade angezeigt wird, zeigt das die
+// tatsaechliche Marktkategorie (z.B. Teledyne im "Ruestung"-Sektor ist laut
+// GICS eigentlich Information Technology).
+function gicsTagHtml(ticker) {
+  const sector = CONFIG.gicsSectors[ticker];
+  if (!sector) return '';
+  const short = GICS_SHORT_LABELS[sector] || sector;
+  return '<span class="gics-tag" title="' + esc(sector) + '">' + esc(short) + '</span>';
+}
+
 // Kompakte Karte fuer Sektor-Positionen: Firmenname gross+fett+vorne (statt
 // Ticker-Symbol - besser lesbar, gerade bei kryptischen Symbolen wie
 // "005930.KS"), Ticker-Symbol klein darunter, Gewichtung im Sektor-ETF oben
-// rechts. Klick/Tap klappt eine kurze Firmenbeschreibung auf (falls vorhanden).
+// rechts, GICS-Sektor-Badge neben dem Namen. Klick/Tap klappt eine kurze
+// Firmenbeschreibung auf (falls vorhanden).
 function positionCardHtml(ticker, row, weight) {
   row = row || {};
   const name = CONFIG.tickerNames[ticker] || ticker;
@@ -942,7 +1142,10 @@ function positionCardHtml(ticker, row, weight) {
       '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
       weightHtml +
     '</div>' +
-    '<div class="ticker-name">' + esc(name) + '</div>' +
+    '<div class="ticker-name-row">' +
+      '<span class="ticker-name">' + esc(name) + '</span>' +
+      gicsTagHtml(ticker) +
+    '</div>' +
     '<div class="ticker-bottom">' +
       '<span class="ticker-price">' + priceDisplay(row) + '</span>' +
       changeHtmlFor(row.change_pct) +
