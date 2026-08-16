@@ -17,8 +17,7 @@ from curl_cffi import requests as cffi_requests
 
 sys.path.insert(0, os.path.dirname(__file__))
 from config import (
-    TICKER_GROUPS, SECTOR_POSITIONS, PERSONAL_ETFS, PERSONAL_ETF_TICKERS,
-    INDEX_HOLDINGS,
+    TICKER_GROUPS, SECTOR_POSITIONS, INDEX_HOLDINGS,
 )
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "market.json")
@@ -36,18 +35,16 @@ GROUP_TICKERS = {
     for label, ticker in group.items()
 }
 
-# Alle Einzel-Ticker aus Sektor-Positionen + persoenlichen ETFs, dedupliziert.
+# Alle Einzel-Ticker aus Sektor-Positionen + Index-Holdings, dedupliziert.
 # Hier ist Label == Ticker-Symbol selbst (Anzeigename kommt aus TICKER_NAMES
 # in build_page.py).
 _position_tickers = set()
 for _tickers in SECTOR_POSITIONS.values():
     _position_tickers.update(_tickers)
-for _tickers in PERSONAL_ETFS.values():
-    _position_tickers.update(_tickers)
 for _tickers in INDEX_HOLDINGS.values():
     _position_tickers.update(_tickers)
 
-ALL_TICKERS = {**GROUP_TICKERS, **PERSONAL_ETF_TICKERS, **{t: t for t in _position_tickers}}
+ALL_TICKERS = {**GROUP_TICKERS, **{t: t for t in _position_tickers}}
 
 # Anleihen-Renditen sind Prozentwerte, keine Geldbetraege - fuer diese Labels
 # wird nie in Euro umgerechnet (und das Waehrungsfeld wird verworfen, sonst
@@ -61,13 +58,12 @@ BOND_LABELS = set(TICKER_GROUPS["Anleihen (USA)"].keys())
 # ausnehmen.
 NO_CURRENCY_LABELS = BOND_LABELS | set(TICKER_GROUPS["Globale Indizes"].keys())
 
-# Fuer diese Labels (Globale Indizes + die 3 persoenlichen ETFs) wird
-# zusaetzlich eine kurze Kursreihe gespeichert - Grundlage fuer die Mini-
-# Graphen bei der Index-Detailansicht und den ETF-Karten im Invest-Tab.
+# Fuer diese Labels (Globale Indizes + Anleihen) wird zusaetzlich eine kurze
+# Kursreihe gespeichert - Grundlage fuer die Mini-Graphen bei der
+# Index-Detailansicht.
 SPARKLINE_LABELS = (
     set(TICKER_GROUPS["Globale Indizes"].keys())
     | set(TICKER_GROUPS["Anleihen (USA)"].keys())
-    | set(PERSONAL_ETF_TICKERS.keys())
 )
 
 
