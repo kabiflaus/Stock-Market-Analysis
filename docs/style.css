@@ -50,9 +50,12 @@ body {
 .refresh-btn:active { background: #ffffff10; }
 
 .tickers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-/* Anleihen: eigene Rubrik, Renditen als Kurve gedacht - deshalb immer
-   ein Block untereinander statt des 2-Spalten-Rasters. */
-#bonds-section .tickers { grid-template-columns: 1fr; }
+/* Anleihen und Top-20-Positionslisten (Sektoren + Index-Holdings): eigene
+   Rubrik bzw. Rangliste, bei der die Reihenfolge (Gewichtung von oben nach
+   unten) zaehlt - im 2-Spalten-Raster zickzackt die Reihenfolge und ist
+   schwer zu lesen, deshalb hier immer ein Block untereinander. */
+#bonds-section .tickers,
+.position-section .tickers { grid-template-columns: 1fr; }
 .ticker-card {
   background: transparent; border: 1px solid var(--border-dim); padding: 10px 12px;
   transition: opacity 0.35s ease, max-height 0.35s ease,
@@ -88,6 +91,13 @@ body {
    dadurch passt bei gleicher Grid-Breite etwa die doppelte Menge auf die
    gleiche Flaeche wie die alten 10er-Listen. */
 .ticker-card.compact { padding: 7px 10px; }
+/* Zeile aus Text-Block (links) + Mini-Chart (rechts) - nur moeglich, seit
+   die Positionslisten einspaltig sind (s. .position-section .tickers oben),
+   sonst waere pro Karte zu wenig Breite fuer einen lesbaren Graphen. */
+.ticker-card.compact .ticker-card-row { display: flex; align-items: center; gap: 10px; }
+.ticker-card.compact .ticker-card-main { flex: 1; min-width: 0; }
+.ticker-card.compact .ticker-card-spark { flex-shrink: 0; }
+.sparkline.mini { width: 72px; height: 32px; margin-top: 0; }
 .ticker-card.compact .ticker-top {
   display: flex; align-items: baseline; justify-content: space-between; gap: 6px;
 }

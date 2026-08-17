@@ -58,12 +58,16 @@ BOND_LABELS = set(TICKER_GROUPS["Anleihen (USA)"].keys())
 # ausnehmen.
 NO_CURRENCY_LABELS = BOND_LABELS | set(TICKER_GROUPS["Globale Indizes"].keys())
 
-# Fuer diese Labels (Globale Indizes + Anleihen) wird zusaetzlich eine kurze
-# Kursreihe gespeichert - Grundlage fuer die Mini-Graphen bei der
-# Index-Detailansicht.
+# Fuer diese Labels wird zusaetzlich eine kurze Kursreihe gespeichert -
+# Grundlage fuer die Mini-Graphen bei der Index-Detailansicht sowie (seit
+# der einspaltigen Top-20-Listendarstellung) den Mini-Chart auf jeder
+# Positions-/Holdings-Karte. Kein zusaetzlicher API-Call: fetch_ticker()
+# berechnet die Kursreihe ohnehin fuer jeden Ticker, sie wurde bisher nur
+# fuer Nicht-Positions-Ticker verworfen statt gespeichert.
 SPARKLINE_LABELS = (
     set(TICKER_GROUPS["Globale Indizes"].keys())
     | set(TICKER_GROUPS["Anleihen (USA)"].keys())
+    | _position_tickers
 )
 
 

@@ -1022,18 +1022,25 @@ function positionCardHtml(ticker, row, weight) {
   const desc = CONFIG.tickerDescriptions[ticker];
   const descHtml = desc ? '<div class="ticker-desc">' + esc(desc) + '</div>' : '';
   const expandableClass = desc ? ' expandable' : '';
+  const dir = direction(row.change_pct);
+  const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'mini');
   return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '">' +
-    '<div class="ticker-top">' +
-      '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
-      weightHtml +
-    '</div>' +
-    '<div class="ticker-name-row">' +
-      '<span class="ticker-name">' + esc(name) + '</span>' +
-      gicsTagHtml(ticker) +
-    '</div>' +
-    '<div class="ticker-bottom">' +
-      '<span class="ticker-price">' + priceDisplay(row) + '</span>' +
-      changeHtmlFor(row.change_pct) +
+    '<div class="ticker-card-row">' +
+      '<div class="ticker-card-main">' +
+        '<div class="ticker-top">' +
+          '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
+          weightHtml +
+        '</div>' +
+        '<div class="ticker-name-row">' +
+          '<span class="ticker-name">' + esc(name) + '</span>' +
+          gicsTagHtml(ticker) +
+        '</div>' +
+        '<div class="ticker-bottom">' +
+          '<span class="ticker-price">' + priceDisplay(row) + '</span>' +
+          changeHtmlFor(row.change_pct) +
+        '</div>' +
+      '</div>' +
+      (spark ? '<div class="ticker-card-spark">' + spark + '</div>' : '') +
     '</div>' +
     descHtml +
     '</div>';
