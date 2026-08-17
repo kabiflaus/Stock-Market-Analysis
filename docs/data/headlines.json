@@ -1,9 +1,58 @@
 [
   {
+    "label": "DAX",
+    "title": "DAX vor weiteren Rekorden: E.on, BASF, Airbus und SAP im Fokus - Der Aktionär",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa0RlQkNGd290MUZfajRPZV9iUGlBbF92a1dFM3BULXg1eXh6OXlWZ1Rmemd3LUpjV0ZySHFtNnk0SnlNR1FFYV9NQ3ZwMzVPRlBFdHZiOWUxeVdXYU9BNXlDZ1NRRXVZcERJMlVIZWs5aHdhVVlZajIxbEhPRjNZeThZTUs1NlhiZ1NLREN0UXdxMzBaR3Y2YTRQeFBKSU1rVFl4cEFnbjlxU1NDMHZJc0VTUEZaZw?oc=5",
+    "source": "Der Aktionär",
+    "published": "2026-08-17T05:16:14+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "SPX: S&P 500 Futures Nudge Higher as Traders Size Up Fed, Retail Earnings - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR2s5aFZKNnRSR0ZJUTJabnpVTUY0eHUtR1duVHcyQVBLcllOWXZYVldyanJVb09aeUJvWlVqUnN3Z29KR3BjR2dGRnFqdDdEbUszUExBOXM3YkZxMnlYOUtrTnhJMmdPSUhNY1hTSVQtUzdSZHBNVWdzVW9rcU40aWh2M0xLaU5XTVc1OVgzX0hXZm9QRUxEa0Y4Z1VHSzNjeWNfcHRncU1XaWpzVEE1d1d4Zk5xOEkxVEYySU43a1BXZzMtREpIZVVaUUZYdw?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-17T05:04:00+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "DAX-FLASH: Kleine Kursgewinne in Sichtweite des Rekordhochs - 17.08.26 - News - Ariva",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdDdSM3hXcHJ5TDJ6VHBkVWhnUUFsZkkyS01RV3FOVGxfdXRjOXhsZjlqVmZtei1uQWNlcXREczRVNkR3aEZLTnJHQnZqenZQcEx6Z0dZTnBON0ZfVm1hYzRZQVlUcmNKall2N0xVS3VkWEM1bkNUWG9qRmduVDBIUUdfRExYOGl3cXpKWThJZjh6X2k3YnY0SjNtT1N5TVlzZ1VtaWdR?oc=5",
+    "source": "Ariva",
+    "published": "2026-08-17T04:40:13+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
-    "title": "Japan Q2 Growth Misses Forecasts, Complicating BOJ’s September Rate-Hike Outlook - en.bloomingbit.io",
+    "title": "Goldman Says Markets Too Hawkish on Betting Fed Will Hike Rates - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaE1MaXJmaVEyMmx6U3JIRFdZd3JYSFdrWktWZTF5djd4enRjU01uYXNMU1hRbHlJM1htYUg5aWtLcWJkM1VsdWpIcVg0NnBWV1AyVnVDYzh4MmRwT3JXcE5mUV9KZlBkTHF0YUZzUGZPeUtzQUF0elRibnhReTJ0N0JRMnB1MTBzYW5ucEs2RFZMbzNFWm1SeVB4QjQtNmdIaW5FSVNhNXN6TEhRT0RGYlJWeXU?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-08-17T04:02:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "BOJ Should Raise Rates at Every Meeting, Ex-Currency Chief Says - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaXRXakhXUmpkMDdaMWExZU8wX2k3M2hkUGNQdjJib0ZkZ0VxSl9lR0RVdXRtd05rWlVpbnhTOXhibTV5aGpzLTV5dTRuUzVNTXYxcGE5c1NwMWtpWTFvQWlCWnNobVdhQ2FzRENGQnFPanlmTlg5RmVYU1ZQeWhRTURYelFPWFRSdTNfOHd6WnNNN0xVblpIRnN0TGJnOXIxa1I2LS1NZHBocjVnQWc1YmxYMA?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-08-17T03:57:00+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "WOCHENAUSBLICK: Experten sehen wenig Gefahr nach Dax-Rekordrally - 17.08.26 - News - Ariva",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeVR1OGdJOWdmX0xvZ0FNUE50UEE1OFc4VDdLNjVPM2VmZUg4RDkzRXV5NENNaG9wTVdMVDRRbUg4Q05EVlEzZUVqenNaTEROOW0zbS1kV0s4UkM1Y3djSmVCT1hGNncyc0VXc3Q5a1JvQU5LMmlYekE2VUJaMmhZeGpTVzc1QldoOC1aUV9aRmFlZU4weTRV?oc=5",
+    "source": "Ariva",
+    "published": "2026-08-17T03:50:17+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Japan 10-Year Yield Hits 30-Year High - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS29uSnY3X1paOHFCUzdOVlNoS29hM3BIcW53Q1YycnVuNk1YcUl1T0RLNVBURzNQcjVocnJtSzFselFRQTV2bGFHRFB1MkdxWnlRNGdGb0REaWtXLVpNUFVpdXJIWm0zeGducVQxWjdaeXJOQjhUMHQzc0xESVhhcXdOU3ZGeWxMcWdZc0g0dzZOQQ?oc=5",
+    "source": "TradingView",
+    "published": "2026-08-17T02:56:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Japan Q2 Growth Misses Forecasts, Complicating BOJ’s September Rate-Hike Outlook - bloomingbit",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02Rk9GalUxY2VLVWIxeHREUG1oTFhKN1lUU1lacTl1RHNJQUFHOXZlOWVJX21uS0wzSnoxWkhRd0EyNjF6YkREczN4Wlg2dzZBWEx0bQ?oc=5",
-    "source": "en.bloomingbit.io",
+    "source": "bloomingbit",
     "published": "2026-08-17T02:48:28+00:00"
   },
   {
@@ -31,6 +80,13 @@
     "label": "Makro & Weltpolitik",
     "title": "Oil Majors Reap $93 Billion Windfall From the Iran War - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDNDM1hWQllxUHpxblUwTlo1UGg5Z0hnd0FZU01QaUFRUVJ5U0RMeWR3cGw1OWFUUksyMlJKMkJBODBfZGNDaVBtcWw0TGs0YTVmaTl5YzdQNEd3TjlzV1ZCVW9URmQ0b29qQl9ucVh5SGtRVzlxcnhkM2FnV1pMNDZ4dElUS3N3bjhBOW5lVFp4QWFZMHluR3dFUkd0TjNKVEMw0gGoAUFVX3lxTE1lOWxaVkdZRTQ4RUx0bnkxTHhDLW01bUZ0RElsSVNfYTBicmJLd1hidVppcXMtV3FKUTBsRW5ickg0NVF3R1pIQkF4NThETUFkZF9ILUE4Z0lQZWFGckQ2Y2hQYkdJNjFkeTFFQl9oWloxWW9EUWZsUUc3NVBCMHlPNFNFUjVrVDc2dHIzaGd6X2hqZDZyWEZIYlRYc2Q4ejd5aVNkS3Q4Mg?oc=5",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "published": "2026-08-16T19:00:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Oil Majors Reap $93 Billion Windfall From the Iran War - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDNDM1hWQllxUHpxblUwTlo1UGg5Z0hnd0FZU01QaUFRUVJ5U0RMeWR3cGw1OWFUUksyMlJKMkJBODBfZGNDaVBtcWw0TGs0YTVmaTl5YzdQNEd3TjlzV1ZCVW9URmQ0b29qQl9ucVh5SGtRVzlxcnhkM2FnV1pMNDZ4dElUS3N3bjhBOW5lVFp4QWFZMHluR3dFUkd0TjNKVEMw?oc=5",
     "source": "Crude Oil Prices Today | OilPrice.com",
     "published": "2026-08-16T19:00:00+00:00"
   },
@@ -4669,6 +4725,13 @@
     "published": "2026-08-14T11:01:18+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "title": "Cooler inflation data may force Warsh's divided Fed to hold the line on rates - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbDJaOWp0UVZZRVd3MUp5UGNUVk1EOXNybWFfeXRKR2FQYzJsUnJCN3VEU1I2bldJWHFodHlUWXQxcUdzXzVtaTN4RmEyaHlwREhvdVpialZycTYyaFozME5kWWV3MGFqT1hGS00zTnMyQmVDZkZXZTFvT0VGR0RSMU1FMnBiT3dyZFlSQmx5RDRXX0JsZ1dPMy1KOTNteGVOaVJRemdUaDhtWkpmRndEeQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-14T10:59:51+00:00"
+  },
+  {
     "label": "SLB",
     "title": "SLB Ltd(SLB) Stock Options Chain | Quotes & News - Moomoo",
     "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOT0NObzc1S1dkR3g5Zk1nNThWMzlRRFJqX1c3SHNIX3c3X1NGYmJ2aENUN1Q3SU02NkpEdVlXd1dieGZIamRXaGZJa2hJZlNFdDNUWkFTTFJfLW41RFFXQmVpcmRaaDhPSFJNbE55Y2RwQWJ4bzR0czV4TTVpTEdtQldNdzlNa3E5WUxtWF9QTkk1RHVNdFhRcmFjWTRSbzJ6LUk0TFgxT3dlYkFoVm05LU9qSlcwNDBGREp4Y1VNQkZmX1JSNkM2N2JfUXRqSEFZZUJlYU9TMDJveTFCUGZpQ2trdFAtUDU5LUtWU2pUbW93V19rdzBsUDFINkg0QmtXTVREb083QUw5UkFEcS0zQ2FwcHdjTldqVzduc1BUVWk0d2YyVmlOZw?oc=5",
@@ -5090,9 +5153,9 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "title": "TACO No More: How Trump Won on Tariffs - Politico",
+    "title": "TACO No More: How Trump Won on Tariffs - politico.com",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSUxxZXAxZFZ5ZEIxTV83eDZEdmlYM0hOYUZBcU9lNHdvWUFQU3dkMW96a1lBLWVUa2RXRjFSc1AzcUtxOXRnVWp2c0VhbmJXSGlCNDJhNGpjNm9TbWMzUU9zZ3RwVDRyd1V1U0ZSTFhseW1vbHJ4UzBzTlNKU1Q1ejNiN0JITXhRVExhdm1NeHYzQlk?oc=5",
-    "source": "Politico",
+    "source": "politico.com",
     "published": "2026-08-14T09:00:00+00:00"
   },
   {
@@ -5220,6 +5283,13 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOc1pRMEJiRHpWWk9pcnp5M1BmcjVoUGJMaXROZkxsWmo3bmdnVmM1cnFGQ3JCbU9STFFwbEJxVW9pY1c1R1QzRFRlNFNtR2tnWFRyS3oySVdBZktZT3BQSGFRTnRwOE8xQzVGQVNuYmcwQVVZVkxaeWRKNmMwclN1Tl9FSGhEYkh4dUNpU29wZ0VEM3VyR2QyNHh3VzNKT05BcEk3blBsaGRESEJHUElWVjBQU3VUN3JfdElLZEFTbGxKRzJHNmNyeEkxQ1BJZw?oc=5",
     "source": "MarketBeat",
     "published": "2026-08-14T08:15:39+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "US Stock Market Today: S&P 500 Futures Edge Higher As Inflation Watch Intensifies - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZGRkX2lpSTNRbFVOdVBhY3NDT011MWluMW8yN3ExN3l0VExSVFYzd212alRzMENhNUF4bk9FQktKdExXUlZVT1d1cWJVdHJqS3RRSkpfZW14dzN4VGFBaVhTVkFqUU5qYk1NdVlLSmxkOVVEcS1NNEw2NURGbzFKYjB2ME5kVE8zOF94dHo5TzZVZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-14T08:12:25+00:00"
   },
   {
     "label": "HEI",
@@ -5675,6 +5745,13 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyZDBWNVV5dUJOOXhUcWk2YjhXbHhlYjJKLUtpQXB5V1NJV0VGZ0x4Q2dnX1BwemxfZWM0T3E4TzE1MkVfSTVfTzBxdnZXck1FNzJVZ1dXbFo1SWxrMnNTS1NfQ0xmNU1NSTB2RS1JOVl4R3Fr?oc=5",
     "source": "Businesskorea",
     "published": "2026-08-14T01:49:51+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Oil rises after US threatens indefinite blockade of Iran; set for weekly gains - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHh3dmRQTVJOaXBOODZqNzdueG9RbzJ0VUZ0TTJ3UGNyaXFfOUJ4c1BsWXdKXzFWY21VZTdaaHpySzhxYXFIYnBVcUpsWDdUUE1od3pKN2psUWI1dS10enVtNzBDX0xBQUpqNmkxVE1xZE1scnFHeS1DQkM4YTRwOE01NXpwU3RWREhIWGFZMlFTcndNQzRWc3NrM0xWa2hwdlMzSE5IeEhqUzVJVFBv?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-14T01:40:31+00:00"
   },
   {
     "label": "NOC",
@@ -8755,110 +8832,5 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSkdyUUpCbTBKdzQ5cWJqdjJLSVZCRnp1N01qQ1NIbUV6T05TMlE5Z016aEhVSkhBNzczQUQxbDJmMGtsaDI1UGNSNS1uVEhMdm9HZHBvVWU2LV83YUw1a3JHU3JTNmFjaUpVYWdTTWVNUmRfTm01VmE2Mlk2VkZtbmVzdGRheUZITk9OUVlnRkRQdjU3c3Z3T2tXaGhCZ0NSTmN0Szh2Zi1sRU4waEItcElaR0FGLXRoajNjcXZIQlk0bWhaa25rM1VoUTlPYlhqLUY0c9IB2gFBVV95cUxPdnZrM1lVZEpxWnR6UHhyYldoMTFLSjZtR19tQmdVX1JDQm9RcmhkdmZ1R3lzMmhuTFJfbnBlWndlaUFhNkFsWkQ5bmJfRDJZLW9NQUVPYXI1NTVOQnl0R2EtNmN6cWZEY2pfTGdmMnJIQ05EWHc5cEEzaWprc1drTVhCUnBTTjhvZmtHVktvSFREa2J3ZHZVOXRrX281UURkclFCZVhHblg4azNWTXliQTJXM2lYNTRhWW1nekJQN1gxRUVUQVpKaFhsV1VHV1JlbVZWcWZSblJrQQ?oc=5",
     "source": "simplywall.st",
     "published": "2026-08-13T05:35:39+00:00"
-  },
-  {
-    "label": "TSM",
-    "title": "$Taiwan Semiconductor (TSM.US)$ - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0JRU0NzSXUxVzdnMVBKM1ZsTy1BaU1VdEJBNE5GUkJqQWQ0WFVCNktTdXBSbmhvR2FRZTRkY1ZEVmR3Vk82M21CdnVxYWNtMF95ZXlKN3YxNjJxOVozcG9SSFhGQl9EOVFjMFZQZWhMUDdyZlI0UHJmMDM1QzFUTlY4OXhiTmRB?oc=5",
-    "source": "Moomoo",
-    "published": "2026-08-13T05:23:47+00:00"
-  },
-  {
-    "label": "KLAC",
-    "title": "KLA Corporation (KLAC) Stock Forecasts - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmNvUE5laFBTbktPcUM5QVBSbWpDWk5TZDRlUF9HYnFkREIxTVpUVWZ4Y0tkQmxZLXRDbjI3em1WbmRPOF8tSjNjZ1Ezejk1bFV6aFlZMm02dEx5WkdvamR4WUtaQnZEcUo0X3VVN3ozaDZVa2Y4ZEJWZHdDTjZ5d0pfeGs2Z3lubngwdFRoODU?oc=5",
-    "source": "Yahoo! Finance Canada",
-    "published": "2026-08-13T05:22:42+00:00"
-  },
-  {
-    "label": "MU",
-    "title": "What Is Micron Technology (MU) Up Against In The New AI Stock Race? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVThXeFpBRFBIS1E1SjVya2pWdm9McDU5ZFZuRGIxZ2ExMnJPMHhfdGc2SHRnd0xoendZREZ3dmZXUVlscXkwWUxWVDhDSndNbkt0YkhVNmxhbDd3aGc0NlJOSzF0bWFYajA4Z3EycGt5NUxIRGxOR056eG1PWVdSRFdEX1NJSmpzaFk5X0ZscC02WXk3dkY0Nk5uNA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-13T05:14:00+00:00"
-  },
-  {
-    "label": "Scalable MSCI ACWI",
-    "title": "Oil prices climb again, as global stocks gain - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTnAyM2F1aXRKeVZFQU5yVzdLbmplRS1vV28zVXZ0Slo3bmszQjM1enJHU2RlOG5EZWtLYUNmVHdjcHprM19fTnhjUE8tV3VGTFBrelZXM1pOekphNVF1S3EtSTlDcDl5Skw0R19ud3U5NmdhWEk5eVJjV1dudFNhSlhoRQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-13T05:11:53+00:00"
-  },
-  {
-    "label": "KOSPI",
-    "title": "South Korea's Kospi Surges Into Bull Market on Chip Rally - The Tech Buzz",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaTZ3d0JITFBSOW0wTTJGaTd3UzI1cVBpYUFXNUJJMHJRODdMdnRPTmRhaE1aTEllRDRjSVNBdldxdk5IXzFBcVNMMTJHOEhCa0hNQ0VtT0h6OXFPMTEyNVFtSnRDMnZfQjRfZDZTVG1nRkRGTEdYRF9PTzNodnFPN2pIRkZQWEhPLUFTZk52aEtCaldh?oc=5",
-    "source": "The Tech Buzz",
-    "published": "2026-08-13T05:09:00+00:00"
-  },
-  {
-    "label": "NESN.SW",
-    "title": "Nestlé India Stock Leads The Search For Defensive Consumer Staples In India - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUlJ6b1FKbG94RmV3aWs4MWdzcnVGbmNURGNFR0llSldhQ1lkbzJINXZxUHl3WllVTlk2UGtrUEw3MTJ4RWRaaTJpM0MyTUpCYTlMNHRmeDEyajRrMU5MTjhEelRvWmF2blp4dzNic1hpcWFuVVR5S2dpNHNMZHV4RnFENC1BUGV1TFhzdlRwMmNYc1dxNDJHRWtWZFBxRWd3SVdaLVR6S2ZlYVhyM2NDOEZjaWRBWXBtel85azFHdllvcXhxaDBVNHZ6cThicnlKYjFrckFUNUcyN3JOTkRpR0w1OWF5enltQ3fSAeoBQVVfeXFMTVJSem9RSmxveEZld2lrODFnc3J1Rm5jVERjRUdJZUpXYUNZZG8ySDV2cVB5d1pZVU5ZNlBra1BMNzEyeEVkWmkyaTNDMk1KQmE5TDR0ZngxMmo0azFOTE44RHpUb1phdm5aeHczYnNYaXFhblVUeUtnaTRzTGR1eEZxRDQtQVBldUxYc3ZUcDJjWHNXcTQyR0VrVmRQcUVnd0lXWi1UektmZWFYcjNjQzhGY2lkQVlwbXpfOWsxR3ZZb3F4cWgwVTR2enE4YnJ5SmIxa3JBVDVHMjdyTk5EaUdMNTlheXp5bUN3?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-13T05:01:07+00:00"
-  },
-  {
-    "label": "NESN.SW",
-    "title": "Nestlé India Stock Leads The Search For Defensive Consumer Staples In India - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOa1NiZWg1MWNaUGVEYjdXQmNRRFlxekVXTXl3US10bU5jY3Zwb3hBTzBiSEZFRDdiRWlaNDdTUlZPRktjNEJ6ZE5FZ2tMMzVWc2hURTVLbnVxN0pRaEZjblNtWDBHc2ZCVW1qNGdqeW1RTjVOaU90d0xvS2IyYXZRRGpZbzJMOUJXVUtmX1kwejJ3bG1qOFpGOUNiNHMwS3NQdE84Z05kWUFtdUU3X3N2bUZjV3BPTWVlaHRIbEZ3UGZoc0ZRdnQyTEs1eThSeWxOcDRHMjBkVm5iMHBtUlhBVUU3c2fSAeoBQVVfeXFMTVJSem9RSmxveEZld2lrODFnc3J1Rm5jVERjRUdJZUpXYUNZZG8ySDV2cVB5d1pZVU5ZNlBra1BMNzEyeEVkWmkyaTNDMk1KQmE5TDR0ZngxMmo0azFOTE44RHpUb1phdm5aeHczYnNYaXFhblVUeUtnaTRzTGR1eEZxRDQtQVBldUxYc3ZUcDJjWHNXcTQyR0VrVmRQcUVnd0lXWi1UektmZWFYcjNjQzhGY2lkQVlwbXpfOWsxR3ZZb3F4cWgwVTR2enE4YnJ5SmIxa3JBVDVHMjdyTk5EaUdMNTlheXp5bUN3?oc=5",
-    "source": "simplywall.st",
-    "published": "2026-08-13T05:01:04+00:00"
-  },
-  {
-    "label": "CVX",
-    "title": "Chevron (CVX) Stock May Still Look Reasonable Despite Its 125% Run - webull.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wTXM3aFVfbHVxUEJVbnRqMDdnQV9xUnpIeVRMQm9YNjlLTHB4ekhuUWpfYzBTS1NfVW9CcmtfR29VaGpkb3V4T3o5Y3dPejY4UVdUbXdLOXU?oc=5",
-    "source": "webull.com",
-    "published": "2026-08-13T05:00:32+00:00"
-  },
-  {
-    "label": "KOSPI",
-    "title": "South Korea's Kospi rebounds into bull market, led by semiconductor stocks amid AI optimism. - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTGotcGRlcnk4NUZrWHZGS0xWdUdxbDJGT21aZzBVRDJrR3pORnpxUkNFRkhzS1BsODktZVRlNGNpS19XazRub05nUHBYRXdpVVFncHJhQmw4ckhLLThEenBBNW9EeDJQX1k5MTZwbHBEb0dBZWhlbHU4WnU3eWh3NGh3?oc=5",
-    "source": "Pluang",
-    "published": "2026-08-13T04:47:43+00:00"
-  },
-  {
-    "label": "SYY",
-    "title": "Jim Cramer Says Investors Are Getting Sysco’s (SYY) Solid Quarter “For Free” - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQODY2MU84MExBYjREWXZid0ZXaGVDWFFGVXNmd3drT3NGRUg2MTh3VGFiS2hoTmEzbjl0ang3RHd3S1JzLXVnSm9xWGFTZ1FENmdYOWhGZVp1VVJSZ0k2ZG1vQVgyZm9FaUFXYmFhaEtiT2Q1T00zN201UDRMakhHS2FaZEtjVUVUblIwakxjcHk3R0FhZWFobkpJQ2Q0bW8?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-13T04:24:00+00:00"
-  },
-  {
-    "label": "KOSPI",
-    "title": "South Korea’s Kospi has staged a stunning comeback. How long will the bull market last? - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORkZ0cFBDaHRhS0pBZXBtSkJWTkl1T0NYNVNjVUhwSndhdTBVb3pIdFYtekJYX1VGamQ0Z1Bfb3hjNjA1ZnRjOW5PazlwZVNRZVNsSXBfcnZuelZVTXpzNS1xaklHX1cteXlZMEFhLTREZ0V0elhtb1ItQ0hXTUhuZC1oNzNxZVFiUHNCTlN0dm1qMm_SAZgBQVVfeXFMT3RrN1R2Z0dJUExBbHp4S2Z4STFwRndPczJxN3RLaG41STc1a1FqOEdjeWFtNlVPanFNTmljdW5US0liY0FCVENUdzhWWlZZN1hCYTVBX05MNXpsRlR5cGFaZVhFZjlGX3c1YlljbkhxMG13bE5lX3RFZjJDNUJPVUtCVzJ1LUotajJtRElMeDY0dXdYTlBPZks?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-13T04:22:36+00:00"
-  },
-  {
-    "label": "ISRG",
-    "title": "Intuitive Surgical (ISRG): 3 Reasons We Love This Stock - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR3BwQVNEeHFqeVhwN092SmNqbU5iTFFjZmEwWG1hRFJOY0EtbWsweFlYUjlfT0JWQnFIdGJiQnRncnlNT0kwUVRLTUFmNXM0Z3JjY1VRVnhDeU1VMnlxMEd0Ml9GT0t5WVZVLWZsYWNZbzU1Qk83SGIybVBfSThsdXdPLTJIb3hESmx6VkZJNTQ1NE9nMUJVNy16YXM0RGpoQ2VPZEJQN3g2NGFFSmd3MndCRm12Q3BVbmdES0NGMGNBVWNmcXJHaHJQN281OFVyYmVZ?oc=5",
-    "source": "The Globe and Mail",
-    "published": "2026-08-13T04:04:00+00:00"
-  },
-  {
-    "label": "Amundi Stoxx Europe 600",
-    "title": "Europe’s Stock Market Boom Is Hiding a Darker Truth - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcU5KMkpoSDBRVG90Zk9VZXptN1hHWFp0NXNkUkJXemVPSGtxMnBFcXRCM3p2eU1WS1BqUzhhMmFTOWNiQk4ybDFzYWxzUHczUzZmbHNYWFQxQzBYYjJ0NTItTThMQVR0MEdoMmZNN3Z0bVN0YjhacHVMRHdCRm5OWEZHeVRKOHBqVGo3TV81WmdvOHVhSEg3bktjVnNFdUNTdTl2Zk13?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-08-13T04:00:00+00:00"
-  },
-  {
-    "label": "HSBA.L",
-    "title": "Lenskart stock jumps 5% after Q1 results; Jefferies sees more upside, Citi and HSBC flag rich valuations - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNY1dwTHk5c0NFcGc0Y3FxOWhfUVhhdGdtdzNydzJMV29kRi1jNndSZndjanFvRXJvYlZVQzFGMmx4OWozUFFzVDh0VTJka29XYmNOT3VEbFloUWhzSnJqY0NRNjJpRHM3UEJDVGpRUEZwMkxfNHVFNkZBSDY1bVdVUHYxQkNQSXdiMlNsbHV6enVKZjl0VXlsbW1XNXFJeEhza1VtY0hYQzdtR0hycnJ4MmYwM2hmcVc3TjlhbFZlNmdtN1BWb0IzSEFIUEJMUUpLbVdCbGRWLXdzMTExaUNqVHRtSkxhX3FQaHpfY0hoZnJEWnVRSjMw?oc=5",
-    "source": "TradingView",
-    "published": "2026-08-13T03:52:00+00:00"
-  },
-  {
-    "label": "SYK",
-    "title": "Stryker (SYK) Stock Looks Fairly Valued As Its 37% Run Ages - webull.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OR2RVNURaR2xhUmNOR29zWk83MjduWk1xblhIeGJzWjd4QmlvZWJ1MkZZUVQyeXJpNGlkOV9CUFZmQTJScmtKM2NRMGVmemZ1SXF4ckF4SUM?oc=5",
-    "source": "webull.com",
-    "published": "2026-08-13T03:48:34+00:00"
   }
 ]

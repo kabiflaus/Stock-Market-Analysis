@@ -1,50 +1,50 @@
 {
-  "fetched_at": "2026-08-17T03:38:45.089469+00:00",
+  "fetched_at": "2026-08-17T05:25:39.470508+00:00",
   "rows": [
     {
       "label": "Nasdaq-100 Futures",
       "ticker": "NQ=F",
-      "price": 30232.25,
+      "price": 30244.5,
       "prev_close": 30141.75,
-      "change_pct": 0.3,
+      "change_pct": 0.34,
       "currency": "USD",
-      "price_eur": 26100.54
+      "price_eur": 26095.34
     },
     {
       "label": "S&P 500 Futures",
       "ticker": "ES=F",
-      "price": 7810.0,
+      "price": 7813.5,
       "prev_close": 7805.0,
-      "change_pct": 0.06,
+      "change_pct": 0.11,
       "currency": "USD",
-      "price_eur": 6742.64
+      "price_eur": 6741.59
     },
     {
       "label": "Dow Jones Futures",
       "ticker": "YM=F",
-      "price": 53736.0,
+      "price": 53751.0,
       "prev_close": 53807.0,
-      "change_pct": -0.13,
+      "change_pct": -0.1,
       "currency": "USD",
-      "price_eur": 46392.13
+      "price_eur": 46377.05
     },
     {
       "label": "Russell 2000 Futures",
       "ticker": "RTY=F",
-      "price": 3074.1,
+      "price": 3074.2,
       "prev_close": 3074.9,
-      "change_pct": -0.03,
+      "change_pct": -0.02,
       "currency": "USD",
-      "price_eur": 2653.98
+      "price_eur": 2652.46
     },
     {
       "label": "Nikkei 225 Futures",
       "ticker": "NIY=F",
-      "price": 68740.0,
+      "price": 68955.0,
       "prev_close": 68715.0,
-      "change_pct": 0.04,
+      "change_pct": 0.35,
       "currency": "JPY",
-      "price_eur": 373.07
+      "price_eur": 374.18
     },
     {
       "label": "VIX (Volatilität)",
@@ -71,66 +71,60 @@
     {
       "label": "Gold",
       "ticker": "GC=F",
-      "price": 4446.9,
+      "price": 4444.6,
       "prev_close": 4380.4,
-      "change_pct": 1.52,
+      "change_pct": 1.47,
       "currency": "USD",
       "sparkline": [
-        4383.0,
         4408.9,
         4363.6,
         4380.4,
-        4446.9
+        4444.6
       ],
       "sparkline_dates": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-17"
       ],
-      "price_eur": 3839.16
+      "price_eur": 3834.86
     },
     {
       "label": "Öl (WTI)",
       "ticker": "CL=F",
-      "price": 82.43,
+      "price": 82.2,
       "prev_close": 82.4,
-      "change_pct": 0.04,
+      "change_pct": -0.24,
       "currency": "USD",
       "sparkline": [
-        83.2,
         83.27,
         81.25,
         82.4,
-        82.43
+        82.2
       ],
       "sparkline_dates": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-17"
       ],
-      "price_eur": 71.16
+      "price_eur": 70.92
     },
     {
       "label": "Dollar-Index",
       "ticker": "DX-Y.NYB",
-      "price": 99.54,
-      "prev_close": 99.54,
+      "price": 99.52,
+      "prev_close": 99.52,
       "change_pct": -0.0,
       "currency": null,
       "sparkline": [
-        99.82,
         100.01,
         99.96,
         99.67,
-        99.54,
-        99.54
+        99.52,
+        99.52
       ],
       "sparkline_dates": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
@@ -187,16 +181,16 @@
     {
       "label": "Nikkei 225 (Japan)",
       "ticker": "^N225",
-      "price": 68721.44,
+      "price": 68912.71,
       "prev_close": 68713.8,
-      "change_pct": 0.01,
+      "change_pct": 0.29,
       "currency": null,
       "sparkline": [
         66970.22,
         67524.06,
         68308.59,
         68713.8,
-        68721.44
+        68912.71
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -277,16 +271,16 @@
     {
       "label": "Hang Seng (Hongkong)",
       "ticker": "^HSI",
-      "price": 25507.67,
+      "price": 25526.35,
       "prev_close": 25116.85,
-      "change_pct": 1.56,
+      "change_pct": 1.63,
       "currency": null,
       "sparkline": [
         25652.82,
         25440.17,
         25396.51,
         25116.85,
-        25507.67
+        25526.35
       ],
       "sparkline_dates": [
         "2026-08-11",
@@ -345,18 +339,18 @@
       ]
     },
     {
-      "label": "EQT",
-      "ticker": "EQT",
-      "price": 54.42,
-      "prev_close": 54.08,
-      "change_pct": 0.63,
-      "currency": "USD",
+      "label": "032830.KS",
+      "ticker": "032830.KS",
+      "price": 301000.0,
+      "prev_close": 291500.0,
+      "change_pct": 3.26,
+      "currency": "KRW",
       "sparkline": [
-        54.08,
-        54.37,
-        54.06,
-        54.08,
-        54.42
+        280500.0,
+        289500.0,
+        302500.0,
+        291500.0,
+        301000.0
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -365,21 +359,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 46.98
+      "price_eur": 183.75
     },
     {
-      "label": "MPWR",
-      "ticker": "MPWR",
-      "price": 1402.01,
-      "prev_close": 1362.55,
-      "change_pct": 2.9,
+      "label": "MCHP",
+      "ticker": "MCHP",
+      "price": 79.17,
+      "prev_close": 77.69,
+      "change_pct": 1.91,
       "currency": "USD",
       "sparkline": [
-        1381.1,
-        1402.11,
-        1425.01,
-        1362.55,
-        1402.01
+        81.39,
+        81.02,
+        79.44,
+        77.69,
+        79.17
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -388,67 +382,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 1210.4
+      "price_eur": 68.31
     },
     {
-      "label": "SLB",
-      "ticker": "SLB",
-      "price": 53.77,
-      "prev_close": 52.06,
-      "change_pct": 3.28,
-      "currency": "USD",
-      "sparkline": [
-        53.2,
-        53.68,
-        52.61,
-        52.06,
-        53.77
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 46.42
-    },
-    {
-      "label": "ISRG",
-      "ticker": "ISRG",
-      "price": 394.51,
-      "prev_close": 401.27,
-      "change_pct": -1.68,
-      "currency": "USD",
-      "sparkline": [
-        393.38,
-        401.23,
-        401.27,
-        401.27,
-        394.51
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 340.59
-    },
-    {
-      "label": "TXN",
-      "ticker": "TXN",
-      "price": 279.58,
-      "prev_close": 273.43,
+      "label": "HWM",
+      "ticker": "HWM",
+      "price": 289.18,
+      "prev_close": 282.82,
       "change_pct": 2.25,
       "currency": "USD",
       "sparkline": [
-        280.44,
-        281.24,
-        276.59,
-        273.43,
-        279.58
+        283.71,
+        281.34,
+        281.63,
+        282.82,
+        289.18
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -457,21 +405,44 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 241.37
+      "price_eur": 249.51
     },
     {
-      "label": "ADI",
-      "ticker": "ADI",
-      "price": 389.39,
-      "prev_close": 381.17,
-      "change_pct": 2.16,
+      "label": "018260.KS",
+      "ticker": "018260.KS",
+      "price": 243500.0,
+      "prev_close": 237000.0,
+      "change_pct": 2.74,
+      "currency": "KRW",
+      "sparkline": [
+        222500.0,
+        237000.0,
+        235500.0,
+        237000.0,
+        243500.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 148.65
+    },
+    {
+      "label": "KLAC",
+      "ticker": "KLAC",
+      "price": 203.72,
+      "prev_close": 209.37,
+      "change_pct": -2.7,
       "currency": "USD",
       "sparkline": [
-        383.93,
-        385.3,
-        384.43,
-        381.17,
-        389.39
+        192.74,
+        200.47,
+        208.25,
+        209.37,
+        203.72
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -480,21 +451,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 336.17
+      "price_eur": 175.77
     },
     {
-      "label": "UNH",
-      "ticker": "UNH",
-      "price": 401.73,
-      "prev_close": 399.06,
-      "change_pct": 0.67,
+      "label": "INTC",
+      "ticker": "INTC",
+      "price": 102.5,
+      "prev_close": 104.56,
+      "change_pct": -1.97,
       "currency": "USD",
       "sparkline": [
-        408.74,
-        402.19,
-        405.59,
-        399.06,
-        401.73
+        97.52,
+        97.71,
+        100.95,
+        104.56,
+        102.5
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -503,21 +474,205 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 346.83
+      "price_eur": 88.44
     },
     {
-      "label": "SIE.DE",
-      "ticker": "SIE.DE",
-      "price": 284.0,
-      "prev_close": 284.1,
-      "change_pct": -0.04,
+      "label": "TDY",
+      "ticker": "TDY",
+      "price": 679.67,
+      "prev_close": 673.66,
+      "change_pct": 0.89,
+      "currency": "USD",
+      "sparkline": [
+        690.25,
+        681.74,
+        686.49,
+        673.66,
+        679.67
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 586.43
+    },
+    {
+      "label": "207940.KS",
+      "ticker": "207940.KS",
+      "price": 1548000.0,
+      "prev_close": 1564000.0,
+      "change_pct": -1.02,
+      "currency": "KRW",
+      "sparkline": [
+        1569000.0,
+        1609000.0,
+        1549000.0,
+        1564000.0,
+        1548000.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 945.0
+    },
+    {
+      "label": "CVS",
+      "ticker": "CVS",
+      "price": 97.16,
+      "prev_close": 94.99,
+      "change_pct": 2.28,
+      "currency": "USD",
+      "sparkline": [
+        95.67,
+        93.5,
+        94.72,
+        94.99,
+        97.16
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 83.83
+    },
+    {
+      "label": "KMB",
+      "ticker": "KMB",
+      "price": 110.39,
+      "prev_close": 110.7,
+      "change_pct": -0.28,
+      "currency": "USD",
+      "sparkline": [
+        108.02,
+        108.57,
+        108.93,
+        110.7,
+        110.39
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 95.25
+    },
+    {
+      "label": "HD",
+      "ticker": "HD",
+      "price": 338.86,
+      "prev_close": 341.7,
+      "change_pct": -0.83,
+      "currency": "USD",
+      "sparkline": [
+        350.78,
+        354.48,
+        343.43,
+        341.7,
+        338.86
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 292.37
+    },
+    {
+      "label": "055550.KS",
+      "ticker": "055550.KS",
+      "price": 107400.0,
+      "prev_close": 106600.0,
+      "change_pct": 0.75,
+      "currency": "KRW",
+      "sparkline": [
+        106400.0,
+        104500.0,
+        103800.0,
+        106600.0,
+        107400.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 65.56
+    },
+    {
+      "label": "MSFT",
+      "ticker": "MSFT",
+      "price": 495.4,
+      "prev_close": 496.88,
+      "change_pct": -0.3,
+      "currency": "USD",
+      "sparkline": [
+        506.06,
+        503.81,
+        492.43,
+        496.88,
+        495.4
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 427.44
+    },
+    {
+      "label": "NXPI",
+      "ticker": "NXPI",
+      "price": 234.71,
+      "prev_close": 231.91,
+      "change_pct": 1.21,
+      "currency": "USD",
+      "sparkline": [
+        233.43,
+        236.38,
+        233.41,
+        231.91,
+        234.71
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 202.51
+    },
+    {
+      "label": "IFX.DE",
+      "ticker": "IFX.DE",
+      "price": 61.73,
+      "prev_close": 62.5,
+      "change_pct": -1.23,
       "currency": "EUR",
       "sparkline": [
-        276.95,
-        280.25,
-        281.95,
-        284.1,
-        284.0
+        62.53,
+        62.85,
+        63.09,
+        62.5,
+        61.73
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -528,18 +683,18 @@
       ]
     },
     {
-      "label": "DHR",
-      "ticker": "DHR",
-      "price": 202.45,
-      "prev_close": 203.89,
-      "change_pct": -0.71,
+      "label": "JNJ",
+      "ticker": "JNJ",
+      "price": 260.35,
+      "prev_close": 262.08,
+      "change_pct": -0.66,
       "currency": "USD",
       "sparkline": [
-        209.37,
-        207.44,
-        205.79,
-        203.89,
-        202.45
+        261.81,
+        259.8,
+        260.86,
+        262.08,
+        260.35
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -548,7 +703,303 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 174.78
+      "price_eur": 224.63
+    },
+    {
+      "label": "012330.KS",
+      "ticker": "012330.KS",
+      "price": 547000.0,
+      "prev_close": 511000.0,
+      "change_pct": 7.05,
+      "currency": "KRW",
+      "sparkline": [
+        505000.0,
+        495500.0,
+        498500.0,
+        511000.0,
+        547000.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 333.92
+    },
+    {
+      "label": "DB1.DE",
+      "ticker": "DB1.DE",
+      "price": 272.9,
+      "prev_close": 271.8,
+      "change_pct": 0.4,
+      "currency": "EUR",
+      "sparkline": [
+        275.6,
+        274.0,
+        272.1,
+        271.8,
+        272.9
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ]
+    },
+    {
+      "label": "TMO",
+      "ticker": "TMO",
+      "price": 588.29,
+      "prev_close": 595.89,
+      "change_pct": -1.28,
+      "currency": "USD",
+      "sparkline": [
+        599.69,
+        605.0,
+        603.01,
+        595.89,
+        588.29
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 507.58
+    },
+    {
+      "label": "ON",
+      "ticker": "ON",
+      "price": 82.66,
+      "prev_close": 81.56,
+      "change_pct": 1.35,
+      "currency": "USD",
+      "sparkline": [
+        79.78,
+        81.11,
+        83.32,
+        81.56,
+        82.66
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 71.32
+    },
+    {
+      "label": "KO",
+      "ticker": "KO",
+      "price": 87.71,
+      "prev_close": 87.42,
+      "change_pct": 0.33,
+      "currency": "USD",
+      "sparkline": [
+        86.87,
+        86.48,
+        86.71,
+        87.42,
+        87.71
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 75.68
+    },
+    {
+      "label": "TMUS",
+      "ticker": "TMUS",
+      "price": 182.61,
+      "prev_close": 183.38,
+      "change_pct": -0.42,
+      "currency": "USD",
+      "sparkline": [
+        178.2,
+        178.58,
+        177.13,
+        183.38,
+        182.61
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 157.56
+    },
+    {
+      "label": "006400.KS",
+      "ticker": "006400.KS",
+      "price": 516000.0,
+      "prev_close": 487000.0,
+      "change_pct": 5.95,
+      "currency": "KRW",
+      "sparkline": [
+        481500.0,
+        459500.0,
+        485500.0,
+        487000.0,
+        516000.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 315.0
+    },
+    {
+      "label": "BWXT",
+      "ticker": "BWXT",
+      "price": 173.22,
+      "prev_close": 170.35,
+      "change_pct": 1.68,
+      "currency": "USD",
+      "sparkline": [
+        168.88,
+        169.71,
+        172.56,
+        170.35,
+        173.22
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 149.46
+    },
+    {
+      "label": "005930.KS",
+      "ticker": "005930.KS",
+      "price": 274500.0,
+      "prev_close": 268000.0,
+      "change_pct": 2.43,
+      "currency": "KRW",
+      "sparkline": [
+        230000.0,
+        239500.0,
+        255500.0,
+        268000.0,
+        274500.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 167.57
+    },
+    {
+      "label": "MNST",
+      "ticker": "MNST",
+      "price": 46.82,
+      "prev_close": 46.68,
+      "change_pct": 0.3,
+      "currency": "USD",
+      "sparkline": [
+        45.53,
+        45.98,
+        46.68,
+        46.82
+      ],
+      "sparkline_dates": [
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 40.4
+    },
+    {
+      "label": "META",
+      "ticker": "META",
+      "price": 589.85,
+      "prev_close": 594.97,
+      "change_pct": -0.86,
+      "currency": "USD",
+      "sparkline": [
+        594.92,
+        599.12,
+        578.85,
+        594.97,
+        589.85
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 508.93
+    },
+    {
+      "label": "PEP",
+      "ticker": "PEP",
+      "price": 140.79,
+      "prev_close": 140.62,
+      "change_pct": 0.12,
+      "currency": "USD",
+      "sparkline": [
+        137.73,
+        138.41,
+        138.7,
+        140.62,
+        140.79
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 121.48
+    },
+    {
+      "label": "CMCSA",
+      "ticker": "CMCSA",
+      "price": 26.18,
+      "prev_close": 26.18,
+      "change_pct": 0.0,
+      "currency": "USD",
+      "sparkline": [
+        25.2,
+        25.65,
+        25.47,
+        26.18,
+        26.18
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 22.59
     },
     {
       "label": "RHM.DE",
@@ -573,51 +1024,6 @@
       ]
     },
     {
-      "label": "ALV.DE",
-      "ticker": "ALV.DE",
-      "price": 442.7,
-      "prev_close": 437.8,
-      "change_pct": 1.12,
-      "currency": "EUR",
-      "sparkline": [
-        437.7,
-        435.7,
-        438.9,
-        437.8,
-        442.7
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ]
-    },
-    {
-      "label": "CVX",
-      "ticker": "CVX",
-      "price": 200.0,
-      "prev_close": 197.7,
-      "change_pct": 1.16,
-      "currency": "USD",
-      "sparkline": [
-        194.91,
-        196.66,
-        196.6,
-        197.7,
-        200.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 172.67
-    },
-    {
       "label": "QCOM",
       "ticker": "QCOM",
       "price": 165.79,
@@ -638,21 +1044,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 143.13
+      "price_eur": 143.05
     },
     {
-      "label": "EOG",
-      "ticker": "EOG",
-      "price": 142.61,
-      "prev_close": 141.41,
-      "change_pct": 0.85,
+      "label": "UNH",
+      "ticker": "UNH",
+      "price": 401.73,
+      "prev_close": 399.06,
+      "change_pct": 0.67,
       "currency": "USD",
       "sparkline": [
-        142.22,
-        143.4,
-        143.14,
-        141.41,
-        142.61
+        408.74,
+        402.19,
+        405.59,
+        399.06,
+        401.73
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -661,38 +1067,7 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 123.12
-    },
-    {
-      "label": "CTRA",
-      "ticker": "CTRA",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "error": "HTTP Error 404: "
-    },
-    {
-      "label": "CMCSA",
-      "ticker": "CMCSA",
-      "price": 26.18,
-      "prev_close": 26.18,
-      "change_pct": 0.0,
-      "currency": "USD",
-      "sparkline": [
-        25.2,
-        25.65,
-        25.47,
-        26.18,
-        26.18
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 22.6
+      "price_eur": 346.62
     },
     {
       "label": "MBG.DE",
@@ -719,18 +1094,18 @@
       ]
     },
     {
-      "label": "RTX",
-      "ticker": "RTX",
-      "price": 222.97,
-      "prev_close": 220.48,
-      "change_pct": 1.13,
+      "label": "AMD",
+      "ticker": "AMD",
+      "price": 514.39,
+      "prev_close": 483.01,
+      "change_pct": 6.5,
       "currency": "USD",
       "sparkline": [
-        224.12,
-        223.86,
-        222.76,
-        220.48,
-        222.97
+        469.56,
+        474.32,
+        482.93,
+        483.01,
+        514.39
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -739,21 +1114,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 192.5
+      "price_eur": 443.82
     },
     {
-      "label": "CW",
-      "ticker": "CW",
-      "price": 699.31,
-      "prev_close": 688.83,
-      "change_pct": 1.52,
+      "label": "GILD",
+      "ticker": "GILD",
+      "price": 138.36,
+      "prev_close": 138.14,
+      "change_pct": 0.16,
       "currency": "USD",
       "sparkline": [
-        694.35,
-        705.96,
-        723.71,
-        688.83,
-        699.31
+        133.06,
+        135.77,
+        135.87,
+        138.14,
+        138.36
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -762,7 +1137,53 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 603.74
+      "price_eur": 119.38
+    },
+    {
+      "label": "LDOS",
+      "ticker": "LDOS",
+      "price": 143.83,
+      "prev_close": 142.61,
+      "change_pct": 0.86,
+      "currency": "USD",
+      "sparkline": [
+        139.1,
+        140.89,
+        140.38,
+        142.61,
+        143.83
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 124.1
+    },
+    {
+      "label": "TSM",
+      "ticker": "TSM",
+      "price": 426.35,
+      "prev_close": 430.49,
+      "change_pct": -0.96,
+      "currency": "USD",
+      "sparkline": [
+        418.47,
+        422.06,
+        429.15,
+        430.49,
+        426.35
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 367.86
     },
     {
       "label": "AMAT",
@@ -785,30 +1206,7 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 437.87
-    },
-    {
-      "label": "INTU",
-      "ticker": "INTU",
-      "price": 345.66,
-      "prev_close": 358.29,
-      "change_pct": -3.53,
-      "currency": "USD",
-      "sparkline": [
-        334.43,
-        336.44,
-        334.71,
-        358.29,
-        345.66
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 298.42
+      "price_eur": 437.6
     },
     {
       "label": "ARM",
@@ -831,21 +1229,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 241.25
+      "price_eur": 241.1
     },
     {
-      "label": "BWXT",
-      "ticker": "BWXT",
-      "price": 173.22,
-      "prev_close": 170.35,
-      "change_pct": 1.68,
+      "label": "HII",
+      "ticker": "HII",
+      "price": 327.71,
+      "prev_close": 325.76,
+      "change_pct": 0.6,
       "currency": "USD",
       "sparkline": [
-        168.88,
-        169.71,
-        172.56,
-        170.35,
-        173.22
+        330.81,
+        327.85,
+        326.8,
+        325.76,
+        327.71
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -854,21 +1252,67 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 149.55
+      "price_eur": 282.75
     },
     {
-      "label": "006400.KS",
-      "ticker": "006400.KS",
-      "price": 516000.0,
-      "prev_close": 487000.0,
-      "change_pct": 5.95,
+      "label": "MDLZ",
+      "ticker": "MDLZ",
+      "price": 63.61,
+      "prev_close": 63.53,
+      "change_pct": 0.13,
+      "currency": "USD",
+      "sparkline": [
+        61.53,
+        61.78,
+        62.18,
+        63.53,
+        63.61
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 54.88
+    },
+    {
+      "label": "INTU",
+      "ticker": "INTU",
+      "price": 345.66,
+      "prev_close": 358.29,
+      "change_pct": -3.53,
+      "currency": "USD",
+      "sparkline": [
+        334.43,
+        336.44,
+        334.71,
+        358.29,
+        345.66
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 298.24
+    },
+    {
+      "label": "373220.KS",
+      "ticker": "373220.KS",
+      "price": 369500.0,
+      "prev_close": 365500.0,
+      "change_pct": 1.09,
       "currency": "KRW",
       "sparkline": [
-        481500.0,
-        459500.0,
-        485500.0,
-        487000.0,
-        516000.0
+        367500.0,
+        354500.0,
+        358500.0,
+        365500.0,
+        369500.0
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -877,21 +1321,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 315.08
+      "price_eur": 225.57
     },
     {
-      "label": "MRCY",
-      "ticker": "MRCY",
-      "price": 111.12,
-      "prev_close": 109.79,
-      "change_pct": 1.21,
+      "label": "AMGN",
+      "ticker": "AMGN",
+      "price": 415.21,
+      "prev_close": 417.84,
+      "change_pct": -0.63,
       "currency": "USD",
       "sparkline": [
-        108.64,
-        109.15,
-        111.64,
-        109.79,
-        111.12
+        417.2,
+        414.3,
+        416.18,
+        417.84,
+        415.21
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -900,21 +1344,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 95.93
+      "price_eur": 358.25
     },
     {
-      "label": "INTC",
-      "ticker": "INTC",
-      "price": 102.5,
-      "prev_close": 104.56,
-      "change_pct": -1.97,
+      "label": "SYY",
+      "ticker": "SYY",
+      "price": 82.99,
+      "prev_close": 83.55,
+      "change_pct": -0.67,
       "currency": "USD",
       "sparkline": [
-        97.52,
-        97.71,
-        100.95,
-        104.56,
-        102.5
+        83.87,
+        84.26,
+        84.69,
+        83.55,
+        82.99
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -923,21 +1367,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 88.49
+      "price_eur": 71.6
     },
     {
-      "label": "MDT",
-      "ticker": "MDT",
-      "price": 91.27,
-      "prev_close": 90.58,
-      "change_pct": 0.76,
+      "label": "TXT",
+      "ticker": "TXT",
+      "price": 89.0,
+      "prev_close": 88.04,
+      "change_pct": 1.09,
       "currency": "USD",
       "sparkline": [
-        89.41,
-        90.68,
-        90.76,
-        90.58,
-        91.27
+        89.2,
+        88.21,
+        88.89,
+        88.04,
+        89.0
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -946,21 +1390,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 78.8
+      "price_eur": 76.79
     },
     {
-      "label": "LHX",
-      "ticker": "LHX",
-      "price": 291.82,
-      "prev_close": 288.46,
-      "change_pct": 1.16,
+      "label": "JPM",
+      "ticker": "JPM",
+      "price": 362.84,
+      "prev_close": 363.11,
+      "change_pct": -0.07,
       "currency": "USD",
       "sparkline": [
-        289.72,
-        286.02,
-        290.74,
-        288.46,
-        291.82
+        359.79,
+        362.04,
+        365.18,
+        363.11,
+        362.84
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -969,21 +1413,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 251.94
+      "price_eur": 313.06
     },
     {
-      "label": "BA",
-      "ticker": "BA",
-      "price": 231.67,
-      "prev_close": 230.33,
-      "change_pct": 0.58,
+      "label": "NVDA",
+      "ticker": "NVDA",
+      "price": 225.16,
+      "prev_close": 225.3,
+      "change_pct": -0.06,
       "currency": "USD",
       "sparkline": [
-        232.79,
-        233.24,
-        231.2,
-        230.33,
-        231.67
+        217.55,
+        217.5,
+        224.09,
+        225.3,
+        225.16
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -992,21 +1436,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 200.01
+      "price_eur": 194.27
     },
     {
-      "label": "012330.KS",
-      "ticker": "012330.KS",
-      "price": 547000.0,
-      "prev_close": 511000.0,
-      "change_pct": 7.05,
-      "currency": "KRW",
+      "label": "DVN",
+      "ticker": "DVN",
+      "price": 45.85,
+      "prev_close": 44.39,
+      "change_pct": 3.29,
+      "currency": "USD",
       "sparkline": [
-        505000.0,
-        495500.0,
-        498500.0,
-        511000.0,
-        547000.0
+        45.36,
+        45.4,
+        44.86,
+        44.39,
+        45.85
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -1015,7 +1459,190 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 334.01
+      "price_eur": 39.56
+    },
+    {
+      "label": "PM",
+      "ticker": "PM",
+      "price": 190.39,
+      "prev_close": 188.91,
+      "change_pct": 0.78,
+      "currency": "USD",
+      "sparkline": [
+        186.0,
+        186.22,
+        186.19,
+        188.91,
+        190.39
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 164.27
+    },
+    {
+      "label": "MPWR",
+      "ticker": "MPWR",
+      "price": 1402.01,
+      "prev_close": 1362.55,
+      "change_pct": 2.9,
+      "currency": "USD",
+      "sparkline": [
+        1381.1,
+        1402.11,
+        1425.01,
+        1362.55,
+        1402.01
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 1209.67
+    },
+    {
+      "label": "XOM",
+      "ticker": "XOM",
+      "price": 160.1,
+      "prev_close": 158.61,
+      "change_pct": 0.94,
+      "currency": "USD",
+      "sparkline": [
+        159.79,
+        159.8,
+        159.75,
+        158.61,
+        160.1
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 138.14
+    },
+    {
+      "label": "MUV2.DE",
+      "ticker": "MUV2.DE",
+      "price": 517.8,
+      "prev_close": 510.4,
+      "change_pct": 1.45,
+      "currency": "EUR",
+      "sparkline": [
+        517.2,
+        514.6,
+        514.8,
+        510.4,
+        517.8
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ]
+    },
+    {
+      "label": "GOOG",
+      "ticker": "GOOG",
+      "price": 343.54,
+      "prev_close": 343.94,
+      "change_pct": -0.12,
+      "currency": "USD",
+      "sparkline": [
+        355.84,
+        343.0,
+        342.37,
+        343.94,
+        343.54
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 296.41
+    },
+    {
+      "label": "BMY",
+      "ticker": "BMY",
+      "price": 63.83,
+      "prev_close": 64.65,
+      "change_pct": -1.27,
+      "currency": "USD",
+      "sparkline": [
+        64.84,
+        63.61,
+        63.7,
+        64.65,
+        63.83
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 55.07
+    },
+    {
+      "label": "PG",
+      "ticker": "PG",
+      "price": 144.55,
+      "prev_close": 144.26,
+      "change_pct": 0.2,
+      "currency": "USD",
+      "sparkline": [
+        146.44,
+        145.21,
+        144.08,
+        144.26,
+        144.55
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 124.72
+    },
+    {
+      "label": "CHD",
+      "ticker": "CHD",
+      "price": 101.3,
+      "prev_close": 101.32,
+      "change_pct": -0.02,
+      "currency": "USD",
+      "sparkline": [
+        103.3,
+        102.78,
+        101.24,
+        101.32,
+        101.3
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 87.4
     },
     {
       "label": "CI",
@@ -1038,21 +1665,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 243.94
+      "price_eur": 243.8
     },
     {
-      "label": "TDG",
-      "ticker": "TDG",
-      "price": 1256.9,
-      "prev_close": 1246.31,
-      "change_pct": 0.85,
+      "label": "RTX",
+      "ticker": "RTX",
+      "price": 222.97,
+      "prev_close": 220.48,
+      "change_pct": 1.13,
       "currency": "USD",
       "sparkline": [
-        1223.48,
-        1242.04,
-        1235.48,
-        1246.31,
-        1256.9
+        224.12,
+        223.86,
+        222.76,
+        220.48,
+        222.97
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -1061,7 +1688,191 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 1085.12
+      "price_eur": 192.38
+    },
+    {
+      "label": "SLB",
+      "ticker": "SLB",
+      "price": 53.77,
+      "prev_close": 52.06,
+      "change_pct": 3.28,
+      "currency": "USD",
+      "sparkline": [
+        53.2,
+        53.68,
+        52.61,
+        52.06,
+        53.77
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 46.39
+    },
+    {
+      "label": "KDP",
+      "ticker": "KDP",
+      "price": 31.44,
+      "prev_close": 31.12,
+      "change_pct": 1.03,
+      "currency": "USD",
+      "sparkline": [
+        29.3,
+        29.18,
+        29.56,
+        31.12,
+        31.44
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 27.13
+    },
+    {
+      "label": "051910.KS",
+      "ticker": "051910.KS",
+      "price": 280500.0,
+      "prev_close": 275500.0,
+      "change_pct": 1.81,
+      "currency": "KRW",
+      "sparkline": [
+        278000.0,
+        274000.0,
+        275500.0,
+        275500.0,
+        280500.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 171.23
+    },
+    {
+      "label": "ASML",
+      "ticker": "ASML",
+      "price": 1844.08,
+      "prev_close": 1847.9,
+      "change_pct": -0.21,
+      "currency": "USD",
+      "sparkline": [
+        1733.48,
+        1799.38,
+        1810.07,
+        1847.9,
+        1844.08
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 1591.1
+    },
+    {
+      "label": "ADBE",
+      "ticker": "ADBE",
+      "price": 264.02,
+      "prev_close": 270.49,
+      "change_pct": -2.39,
+      "currency": "USD",
+      "sparkline": [
+        272.96,
+        263.71,
+        258.75,
+        270.49,
+        264.02
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 227.8
+    },
+    {
+      "label": "V",
+      "ticker": "V",
+      "price": 364.15,
+      "prev_close": 365.45,
+      "change_pct": -0.36,
+      "currency": "USD",
+      "sparkline": [
+        361.32,
+        362.82,
+        359.42,
+        365.45,
+        364.15
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 314.19
+    },
+    {
+      "label": "068270.KS",
+      "ticker": "068270.KS",
+      "price": 201000.0,
+      "prev_close": 202000.0,
+      "change_pct": -0.5,
+      "currency": "KRW",
+      "sparkline": [
+        201000.0,
+        210500.0,
+        202000.0,
+        202000.0,
+        201000.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 122.7
+    },
+    {
+      "label": "COP",
+      "ticker": "COP",
+      "price": 126.78,
+      "prev_close": 124.52,
+      "change_pct": 1.81,
+      "currency": "USD",
+      "sparkline": [
+        123.03,
+        125.92,
+        127.3,
+        124.52,
+        126.78
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 109.39
     },
     {
       "label": "BAS.DE",
@@ -1086,175 +1897,6 @@
       ]
     },
     {
-      "label": "MCHP",
-      "ticker": "MCHP",
-      "price": 79.17,
-      "prev_close": 77.69,
-      "change_pct": 1.91,
-      "currency": "USD",
-      "sparkline": [
-        81.39,
-        81.02,
-        79.44,
-        77.69,
-        79.17
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 68.35
-    },
-    {
-      "label": "ABBV",
-      "ticker": "ABBV",
-      "price": 249.46,
-      "prev_close": 250.82,
-      "change_pct": -0.54,
-      "currency": "USD",
-      "sparkline": [
-        247.97,
-        250.09,
-        248.76,
-        250.82,
-        249.46
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 215.37
-    },
-    {
-      "label": "HES",
-      "ticker": "HES",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "error": "HTTP Error 404: "
-    },
-    {
-      "label": "HSY",
-      "ticker": "HSY",
-      "price": 184.22,
-      "prev_close": 186.12,
-      "change_pct": -1.02,
-      "currency": "USD",
-      "sparkline": [
-        182.75,
-        181.98,
-        184.23,
-        186.12,
-        184.22
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 159.04
-    },
-    {
-      "label": "HII",
-      "ticker": "HII",
-      "price": 327.71,
-      "prev_close": 325.76,
-      "change_pct": 0.6,
-      "currency": "USD",
-      "sparkline": [
-        330.81,
-        327.85,
-        326.8,
-        325.76,
-        327.71
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 282.92
-    },
-    {
-      "label": "035420.KS",
-      "ticker": "035420.KS",
-      "price": 228000.0,
-      "prev_close": 226500.0,
-      "change_pct": 0.66,
-      "currency": "KRW",
-      "sparkline": [
-        211500.0,
-        214000.0,
-        215500.0,
-        226500.0,
-        228000.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 139.22
-    },
-    {
-      "label": "000660.KS",
-      "ticker": "000660.KS",
-      "price": 1645000.0,
-      "prev_close": 1593000.0,
-      "change_pct": 3.26,
-      "currency": "KRW",
-      "sparkline": [
-        1420000.0,
-        1425000.0,
-        1504000.0,
-        1593000.0,
-        1645000.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 1004.46
-    },
-    {
-      "label": "COST",
-      "ticker": "COST",
-      "price": 961.1,
-      "prev_close": 961.85,
-      "change_pct": -0.08,
-      "currency": "USD",
-      "sparkline": [
-        952.75,
-        944.32,
-        949.58,
-        961.85,
-        961.1
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 829.75
-    },
-    {
       "label": "KMI",
       "ticker": "KMI",
       "price": 32.82,
@@ -1275,44 +1917,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 28.33
+      "price_eur": 28.32
     },
     {
-      "label": "005930.KS",
-      "ticker": "005930.KS",
-      "price": 274500.0,
-      "prev_close": 268000.0,
-      "change_pct": 2.43,
-      "currency": "KRW",
-      "sparkline": [
-        230000.0,
-        239500.0,
-        255500.0,
-        268000.0,
-        274500.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 167.61
-    },
-    {
-      "label": "CHD",
-      "ticker": "CHD",
-      "price": 101.3,
-      "prev_close": 101.32,
-      "change_pct": -0.02,
+      "label": "AAPL",
+      "ticker": "AAPL",
+      "price": 305.93,
+      "prev_close": 305.26,
+      "change_pct": 0.22,
       "currency": "USD",
       "sparkline": [
-        103.3,
-        102.78,
-        101.24,
-        101.32,
-        101.3
+        308.26,
+        304.91,
+        302.25,
+        305.26,
+        305.93
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -1321,21 +1940,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 87.46
+      "price_eur": 263.96
     },
     {
-      "label": "WMT",
-      "ticker": "WMT",
-      "price": 115.27,
-      "prev_close": 115.72,
-      "change_pct": -0.39,
+      "label": "CVX",
+      "ticker": "CVX",
+      "price": 200.0,
+      "prev_close": 197.7,
+      "change_pct": 1.16,
       "currency": "USD",
       "sparkline": [
-        112.66,
-        113.26,
-        116.01,
-        115.72,
-        115.27
+        194.91,
+        196.66,
+        196.6,
+        197.7,
+        200.0
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -1344,21 +1963,29 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 99.52
+      "price_eur": 172.56
     },
     {
-      "label": "051910.KS",
-      "ticker": "051910.KS",
-      "price": 280500.0,
-      "prev_close": 275500.0,
-      "change_pct": 1.81,
-      "currency": "KRW",
+      "label": "HES",
+      "ticker": "HES",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "error": "HTTP Error 404: "
+    },
+    {
+      "label": "MRVL",
+      "ticker": "MRVL",
+      "price": 222.02,
+      "prev_close": 222.18,
+      "change_pct": -0.07,
+      "currency": "USD",
       "sparkline": [
-        278000.0,
-        274000.0,
-        275500.0,
-        275500.0,
-        280500.0
+        208.56,
+        212.31,
+        217.08,
+        222.18,
+        222.02
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -1367,7 +1994,30 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 171.28
+      "price_eur": 191.56
+    },
+    {
+      "label": "TDG",
+      "ticker": "TDG",
+      "price": 1256.9,
+      "prev_close": 1246.31,
+      "change_pct": 0.85,
+      "currency": "USD",
+      "sparkline": [
+        1223.48,
+        1242.04,
+        1235.48,
+        1246.31,
+        1256.9
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 1084.47
     },
     {
       "label": "FANG",
@@ -1390,122 +2040,7 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 174.8
-    },
-    {
-      "label": "TSLA",
-      "ticker": "TSLA",
-      "price": 342.27,
-      "prev_close": 339.96,
-      "change_pct": 0.68,
-      "currency": "USD",
-      "sparkline": [
-        330.88,
-        332.81,
-        327.51,
-        339.96,
-        342.27
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 295.49
-    },
-    {
-      "label": "SYK",
-      "ticker": "SYK",
-      "price": 339.21,
-      "prev_close": 341.09,
-      "change_pct": -0.55,
-      "currency": "USD",
-      "sparkline": [
-        345.81,
-        348.15,
-        347.21,
-        341.09,
-        339.21
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 292.85
-    },
-    {
-      "label": "OXY",
-      "ticker": "OXY",
-      "price": 58.36,
-      "prev_close": 57.7,
-      "change_pct": 1.14,
-      "currency": "USD",
-      "sparkline": [
-        58.65,
-        59.06,
-        58.55,
-        57.7,
-        58.36
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 50.38
-    },
-    {
-      "label": "PM",
-      "ticker": "PM",
-      "price": 190.39,
-      "prev_close": 188.91,
-      "change_pct": 0.78,
-      "currency": "USD",
-      "sparkline": [
-        186.0,
-        186.22,
-        186.19,
-        188.91,
-        190.39
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 164.37
-    },
-    {
-      "label": "018260.KS",
-      "ticker": "018260.KS",
-      "price": 243500.0,
-      "prev_close": 237000.0,
-      "change_pct": 2.74,
-      "currency": "KRW",
-      "sparkline": [
-        222500.0,
-        237000.0,
-        235500.0,
-        237000.0,
-        243500.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 148.68
+      "price_eur": 174.69
     },
     {
       "label": "ENR.DE",
@@ -1530,18 +2065,18 @@
       ]
     },
     {
-      "label": "ASML",
-      "ticker": "ASML",
-      "price": 1844.08,
-      "prev_close": 1847.9,
-      "change_pct": -0.21,
+      "label": "TSLA",
+      "ticker": "TSLA",
+      "price": 342.27,
+      "prev_close": 339.96,
+      "change_pct": 0.68,
       "currency": "USD",
       "sparkline": [
-        1733.48,
-        1799.38,
-        1810.07,
-        1847.9,
-        1844.08
+        330.88,
+        332.81,
+        327.51,
+        339.96,
+        342.27
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -1550,7 +2085,1019 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 1592.06
+      "price_eur": 295.31
+    },
+    {
+      "label": "028260.KS",
+      "ticker": "028260.KS",
+      "price": 369000.0,
+      "prev_close": 365000.0,
+      "change_pct": 1.1,
+      "currency": "KRW",
+      "sparkline": [
+        336000.0,
+        344500.0,
+        357500.0,
+        365000.0,
+        369000.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 225.26
+    },
+    {
+      "label": "MPC",
+      "ticker": "MPC",
+      "price": 355.42,
+      "prev_close": 356.37,
+      "change_pct": -0.27,
+      "currency": "USD",
+      "sparkline": [
+        320.32,
+        336.42,
+        348.25,
+        356.37,
+        355.42
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 306.66
+    },
+    {
+      "label": "VLO",
+      "ticker": "VLO",
+      "price": 341.67,
+      "prev_close": 342.92,
+      "change_pct": -0.36,
+      "currency": "USD",
+      "sparkline": [
+        314.95,
+        323.92,
+        330.21,
+        342.92,
+        341.67
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 294.8
+    },
+    {
+      "label": "KVUE",
+      "ticker": "KVUE",
+      "price": 19.2,
+      "prev_close": 19.2,
+      "change_pct": 0.0,
+      "currency": "USD",
+      "sparkline": [
+        19.03,
+        19.05,
+        18.98,
+        19.2,
+        19.2
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 16.57
+    },
+    {
+      "label": "005380.KS",
+      "ticker": "005380.KS",
+      "price": 453000.0,
+      "prev_close": 418500.0,
+      "change_pct": 8.24,
+      "currency": "KRW",
+      "sparkline": [
+        408000.0,
+        403000.0,
+        409500.0,
+        418500.0,
+        453000.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 276.54
+    },
+    {
+      "label": "CSCO",
+      "ticker": "CSCO",
+      "price": 111.68,
+      "prev_close": 113.47,
+      "change_pct": -1.58,
+      "currency": "USD",
+      "sparkline": [
+        122.57,
+        120.43,
+        123.88,
+        113.47,
+        111.68
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 96.36
+    },
+    {
+      "label": "MU",
+      "ticker": "MU",
+      "price": 971.66,
+      "prev_close": 949.83,
+      "change_pct": 2.3,
+      "currency": "USD",
+      "sparkline": [
+        861.0,
+        868.52,
+        911.29,
+        949.83,
+        971.66
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 838.36
+    },
+    {
+      "label": "BRK.B",
+      "ticker": "BRK.B",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "error": "HTTP Error 404: "
+    },
+    {
+      "label": "LHX",
+      "ticker": "LHX",
+      "price": 291.82,
+      "prev_close": 288.46,
+      "change_pct": 1.16,
+      "currency": "USD",
+      "sparkline": [
+        289.72,
+        286.02,
+        290.74,
+        288.46,
+        291.82
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 251.79
+    },
+    {
+      "label": "DTE.DE",
+      "ticker": "DTE.DE",
+      "price": 28.67,
+      "prev_close": 28.42,
+      "change_pct": 0.88,
+      "currency": "EUR",
+      "sparkline": [
+        28.1,
+        28.56,
+        28.15,
+        28.42,
+        28.67
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ]
+    },
+    {
+      "label": "ABBV",
+      "ticker": "ABBV",
+      "price": 249.46,
+      "prev_close": 250.82,
+      "change_pct": -0.54,
+      "currency": "USD",
+      "sparkline": [
+        247.97,
+        250.09,
+        248.76,
+        250.82,
+        249.46
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 215.24
+    },
+    {
+      "label": "SYK",
+      "ticker": "SYK",
+      "price": 339.21,
+      "prev_close": 341.09,
+      "change_pct": -0.55,
+      "currency": "USD",
+      "sparkline": [
+        345.81,
+        348.15,
+        347.21,
+        341.09,
+        339.21
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 292.67
+    },
+    {
+      "label": "ISRG",
+      "ticker": "ISRG",
+      "price": 394.51,
+      "prev_close": 401.27,
+      "change_pct": -1.68,
+      "currency": "USD",
+      "sparkline": [
+        393.38,
+        401.23,
+        401.27,
+        401.27,
+        394.51
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 340.39
+    },
+    {
+      "label": "035420.KS",
+      "ticker": "035420.KS",
+      "price": 228000.0,
+      "prev_close": 226500.0,
+      "change_pct": 0.66,
+      "currency": "KRW",
+      "sparkline": [
+        211500.0,
+        214000.0,
+        215500.0,
+        226500.0,
+        228000.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 139.19
+    },
+    {
+      "label": "WMB",
+      "ticker": "WMB",
+      "price": 75.2,
+      "prev_close": 73.04,
+      "change_pct": 2.96,
+      "currency": "USD",
+      "sparkline": [
+        71.85,
+        72.31,
+        73.7,
+        73.04,
+        75.2
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 64.88
+    },
+    {
+      "label": "LMT",
+      "ticker": "LMT",
+      "price": 608.68,
+      "prev_close": 598.01,
+      "change_pct": 1.78,
+      "currency": "USD",
+      "sparkline": [
+        603.16,
+        597.77,
+        606.72,
+        598.01,
+        608.68
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 525.18
+    },
+    {
+      "label": "000660.KS",
+      "ticker": "000660.KS",
+      "price": 1645000.0,
+      "prev_close": 1593000.0,
+      "change_pct": 3.26,
+      "currency": "KRW",
+      "sparkline": [
+        1420000.0,
+        1425000.0,
+        1504000.0,
+        1593000.0,
+        1645000.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 1004.21
+    },
+    {
+      "label": "TRG",
+      "ticker": "TRG",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "currency": null,
+      "sparkline": [],
+      "sparkline_dates": []
+    },
+    {
+      "label": "ABT",
+      "ticker": "ABT",
+      "price": 111.25,
+      "prev_close": 111.27,
+      "change_pct": -0.02,
+      "currency": "USD",
+      "sparkline": [
+        108.62,
+        109.72,
+        110.91,
+        111.27,
+        111.25
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 95.99
+    },
+    {
+      "label": "BAYN.DE",
+      "ticker": "BAYN.DE",
+      "price": 47.79,
+      "prev_close": 48.06,
+      "change_pct": -0.56,
+      "currency": "EUR",
+      "sparkline": [
+        49.23,
+        48.95,
+        48.0,
+        48.06,
+        47.79
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ]
+    },
+    {
+      "label": "BA",
+      "ticker": "BA",
+      "price": 231.67,
+      "prev_close": 230.33,
+      "change_pct": 0.58,
+      "currency": "USD",
+      "sparkline": [
+        232.79,
+        233.24,
+        231.2,
+        230.33,
+        231.67
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 199.89
+    },
+    {
+      "label": "WWD",
+      "ticker": "WWD",
+      "price": 370.56,
+      "prev_close": 358.54,
+      "change_pct": 3.35,
+      "currency": "USD",
+      "sparkline": [
+        356.11,
+        356.58,
+        362.7,
+        358.54,
+        370.56
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 319.72
+    },
+    {
+      "label": "APA",
+      "ticker": "APA",
+      "price": 40.47,
+      "prev_close": 40.0,
+      "change_pct": 1.17,
+      "currency": "USD",
+      "sparkline": [
+        41.02,
+        40.62,
+        39.97,
+        40.0,
+        40.47
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 34.92
+    },
+    {
+      "label": "PFE",
+      "ticker": "PFE",
+      "price": 26.79,
+      "prev_close": 26.8,
+      "change_pct": -0.04,
+      "currency": "USD",
+      "sparkline": [
+        27.05,
+        26.62,
+        26.31,
+        26.8,
+        26.79
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 23.11
+    },
+    {
+      "label": "LRCX",
+      "ticker": "LRCX",
+      "price": 332.36,
+      "prev_close": 337.01,
+      "change_pct": -1.38,
+      "currency": "USD",
+      "sparkline": [
+        306.4,
+        311.41,
+        326.11,
+        337.01,
+        332.36
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 286.76
+    },
+    {
+      "label": "GOOGL",
+      "ticker": "GOOGL",
+      "price": 345.9,
+      "prev_close": 346.36,
+      "change_pct": -0.13,
+      "currency": "USD",
+      "sparkline": [
+        357.52,
+        343.8,
+        343.54,
+        346.36,
+        345.9
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 298.45
+    },
+    {
+      "label": "STZ",
+      "ticker": "STZ",
+      "price": 139.18,
+      "prev_close": 136.35,
+      "change_pct": 2.08,
+      "currency": "USD",
+      "sparkline": [
+        133.39,
+        133.98,
+        133.96,
+        136.35,
+        139.18
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 120.09
+    },
+    {
+      "label": "KHC",
+      "ticker": "KHC",
+      "price": 25.51,
+      "prev_close": 25.38,
+      "change_pct": 0.51,
+      "currency": "USD",
+      "sparkline": [
+        24.93,
+        24.65,
+        24.53,
+        25.38,
+        25.51
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 22.01
+    },
+    {
+      "label": "WMT",
+      "ticker": "WMT",
+      "price": 115.27,
+      "prev_close": 115.72,
+      "change_pct": -0.39,
+      "currency": "USD",
+      "sparkline": [
+        112.66,
+        113.26,
+        116.01,
+        115.72,
+        115.27
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 99.46
+    },
+    {
+      "label": "GE",
+      "ticker": "GE",
+      "price": 368.38,
+      "prev_close": 360.64,
+      "change_pct": 2.15,
+      "currency": "USD",
+      "sparkline": [
+        366.7,
+        368.06,
+        365.33,
+        360.64,
+        368.38
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 317.84
+    },
+    {
+      "label": "KR",
+      "ticker": "KR",
+      "price": 56.69,
+      "prev_close": 57.23,
+      "change_pct": -0.94,
+      "currency": "USD",
+      "sparkline": [
+        56.48,
+        56.25,
+        56.06,
+        57.23,
+        56.69
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 48.91
+    },
+    {
+      "label": "EOG",
+      "ticker": "EOG",
+      "price": 142.61,
+      "prev_close": 141.41,
+      "change_pct": 0.85,
+      "currency": "USD",
+      "sparkline": [
+        142.22,
+        143.4,
+        143.14,
+        141.41,
+        142.61
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 123.05
+    },
+    {
+      "label": "GD",
+      "ticker": "GD",
+      "price": 395.78,
+      "prev_close": 392.96,
+      "change_pct": 0.72,
+      "currency": "USD",
+      "sparkline": [
+        395.97,
+        391.89,
+        394.21,
+        392.96,
+        395.78
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 341.48
+    },
+    {
+      "label": "ELV",
+      "ticker": "ELV",
+      "price": 400.32,
+      "prev_close": 398.22,
+      "change_pct": 0.53,
+      "currency": "USD",
+      "sparkline": [
+        397.7,
+        390.37,
+        399.14,
+        398.22,
+        400.32
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 345.4
+    },
+    {
+      "label": "EQT",
+      "ticker": "EQT",
+      "price": 54.42,
+      "prev_close": 54.08,
+      "change_pct": 0.63,
+      "currency": "USD",
+      "sparkline": [
+        54.08,
+        54.37,
+        54.06,
+        54.08,
+        54.42
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 46.95
+    },
+    {
+      "label": "VRTX",
+      "ticker": "VRTX",
+      "price": 505.75,
+      "prev_close": 516.44,
+      "change_pct": -2.07,
+      "currency": "USD",
+      "sparkline": [
+        523.91,
+        529.65,
+        525.73,
+        516.44,
+        505.75
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 436.37
+    },
+    {
+      "label": "CTRA",
+      "ticker": "CTRA",
+      "price": null,
+      "prev_close": null,
+      "change_pct": null,
+      "error": "HTTP Error 404: "
+    },
+    {
+      "label": "OXY",
+      "ticker": "OXY",
+      "price": 58.36,
+      "prev_close": 57.7,
+      "change_pct": 1.14,
+      "currency": "USD",
+      "sparkline": [
+        58.65,
+        59.06,
+        58.55,
+        57.7,
+        58.36
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 50.35
+    },
+    {
+      "label": "TXN",
+      "ticker": "TXN",
+      "price": 279.58,
+      "prev_close": 273.43,
+      "change_pct": 2.25,
+      "currency": "USD",
+      "sparkline": [
+        280.44,
+        281.24,
+        276.59,
+        273.43,
+        279.58
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 241.23
+    },
+    {
+      "label": "CW",
+      "ticker": "CW",
+      "price": 699.31,
+      "prev_close": 688.83,
+      "change_pct": 1.52,
+      "currency": "USD",
+      "sparkline": [
+        694.35,
+        705.96,
+        723.71,
+        688.83,
+        699.31
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 603.37
+    },
+    {
+      "label": "COST",
+      "ticker": "COST",
+      "price": 961.1,
+      "prev_close": 961.85,
+      "change_pct": -0.08,
+      "currency": "USD",
+      "sparkline": [
+        952.75,
+        944.32,
+        949.58,
+        961.85,
+        961.1
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 829.25
+    },
+    {
+      "label": "VOW3.DE",
+      "ticker": "VOW3.DE",
+      "price": 73.72,
+      "prev_close": 72.94,
+      "change_pct": 1.07,
+      "currency": "EUR",
+      "sparkline": [
+        75.42,
+        75.44,
+        73.86,
+        72.94,
+        73.72
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ]
+    },
+    {
+      "label": "CL",
+      "ticker": "CL",
+      "price": 91.95,
+      "prev_close": 92.93,
+      "change_pct": -1.05,
+      "currency": "USD",
+      "sparkline": [
+        93.15,
+        92.31,
+        92.32,
+        92.93,
+        91.95
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 79.34
+    },
+    {
+      "label": "MO",
+      "ticker": "MO",
+      "price": 65.7,
+      "prev_close": 65.08,
+      "change_pct": 0.95,
+      "currency": "USD",
+      "sparkline": [
+        65.54,
+        65.03,
+        64.38,
+        65.08,
+        65.7
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 56.69
+    },
+    {
+      "label": "AVGO",
+      "ticker": "AVGO",
+      "price": 392.99,
+      "prev_close": 417.82,
+      "change_pct": -5.94,
+      "currency": "USD",
+      "sparkline": [
+        422.4,
+        416.08,
+        416.05,
+        417.82,
+        392.99
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 339.08
+    },
+    {
+      "label": "GIS",
+      "ticker": "GIS",
+      "price": 39.2,
+      "prev_close": 38.91,
+      "change_pct": 0.75,
+      "currency": "USD",
+      "sparkline": [
+        37.26,
+        37.93,
+        38.18,
+        38.91,
+        39.2
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 33.82
     },
     {
       "label": "DBK.DE",
@@ -1577,166 +3124,6 @@
       ]
     },
     {
-      "label": "KO",
-      "ticker": "KO",
-      "price": 87.71,
-      "prev_close": 87.42,
-      "change_pct": 0.33,
-      "currency": "USD",
-      "sparkline": [
-        86.87,
-        86.48,
-        86.71,
-        87.42,
-        87.71
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 75.72
-    },
-    {
-      "label": "VOW3.DE",
-      "ticker": "VOW3.DE",
-      "price": 73.72,
-      "prev_close": 72.94,
-      "change_pct": 1.07,
-      "currency": "EUR",
-      "sparkline": [
-        75.42,
-        75.44,
-        73.86,
-        72.94,
-        73.72
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ]
-    },
-    {
-      "label": "XOM",
-      "ticker": "XOM",
-      "price": 160.1,
-      "prev_close": 158.61,
-      "change_pct": 0.94,
-      "currency": "USD",
-      "sparkline": [
-        159.79,
-        159.8,
-        159.75,
-        158.61,
-        160.1
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 138.22
-    },
-    {
-      "label": "BSX",
-      "ticker": "BSX",
-      "price": 51.83,
-      "prev_close": 51.69,
-      "change_pct": 0.27,
-      "currency": "USD",
-      "sparkline": [
-        50.46,
-        51.19,
-        51.42,
-        51.69,
-        51.83
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 44.75
-    },
-    {
-      "label": "APA",
-      "ticker": "APA",
-      "price": 40.47,
-      "prev_close": 40.0,
-      "change_pct": 1.17,
-      "currency": "USD",
-      "sparkline": [
-        41.02,
-        40.62,
-        39.97,
-        40.0,
-        40.47
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 34.94
-    },
-    {
-      "label": "MRVL",
-      "ticker": "MRVL",
-      "price": 222.02,
-      "prev_close": 222.18,
-      "change_pct": -0.07,
-      "currency": "USD",
-      "sparkline": [
-        208.56,
-        212.31,
-        217.08,
-        222.18,
-        222.02
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 191.68
-    },
-    {
-      "label": "NOC",
-      "ticker": "NOC",
-      "price": 585.87,
-      "prev_close": 574.74,
-      "change_pct": 1.94,
-      "currency": "USD",
-      "sparkline": [
-        577.89,
-        575.69,
-        577.32,
-        574.74,
-        585.87
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 505.8
-    },
-    {
       "label": "MA",
       "ticker": "MA",
       "price": 569.29,
@@ -1757,1092 +3144,7 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 491.49
-    },
-    {
-      "label": "COP",
-      "ticker": "COP",
-      "price": 126.78,
-      "prev_close": 124.52,
-      "change_pct": 1.81,
-      "currency": "USD",
-      "sparkline": [
-        123.03,
-        125.92,
-        127.3,
-        124.52,
-        126.78
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 109.45
-    },
-    {
-      "label": "META",
-      "ticker": "META",
-      "price": 589.85,
-      "prev_close": 594.97,
-      "change_pct": -0.86,
-      "currency": "USD",
-      "sparkline": [
-        594.92,
-        599.12,
-        578.85,
-        594.97,
-        589.85
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 509.24
-    },
-    {
-      "label": "VRTX",
-      "ticker": "VRTX",
-      "price": 505.75,
-      "prev_close": 516.44,
-      "change_pct": -2.07,
-      "currency": "USD",
-      "sparkline": [
-        523.91,
-        529.65,
-        525.73,
-        516.44,
-        505.75
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 436.63
-    },
-    {
-      "label": "STZ",
-      "ticker": "STZ",
-      "price": 139.18,
-      "prev_close": 136.35,
-      "change_pct": 2.08,
-      "currency": "USD",
-      "sparkline": [
-        133.39,
-        133.98,
-        133.96,
-        136.35,
-        139.18
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 120.16
-    },
-    {
-      "label": "IFX.DE",
-      "ticker": "IFX.DE",
-      "price": 61.73,
-      "prev_close": 62.5,
-      "change_pct": -1.23,
-      "currency": "EUR",
-      "sparkline": [
-        62.53,
-        62.85,
-        63.09,
-        62.5,
-        61.73
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ]
-    },
-    {
-      "label": "KMB",
-      "ticker": "KMB",
-      "price": 110.39,
-      "prev_close": 110.7,
-      "change_pct": -0.28,
-      "currency": "USD",
-      "sparkline": [
-        108.02,
-        108.57,
-        108.93,
-        110.7,
-        110.39
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 95.3
-    },
-    {
-      "label": "DVN",
-      "ticker": "DVN",
-      "price": 45.85,
-      "prev_close": 44.39,
-      "change_pct": 3.29,
-      "currency": "USD",
-      "sparkline": [
-        45.36,
-        45.4,
-        44.86,
-        44.39,
-        45.85
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 39.58
-    },
-    {
-      "label": "TMUS",
-      "ticker": "TMUS",
-      "price": 182.61,
-      "prev_close": 183.38,
-      "change_pct": -0.42,
-      "currency": "USD",
-      "sparkline": [
-        178.2,
-        178.58,
-        177.13,
-        183.38,
-        182.61
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 157.65
-    },
-    {
-      "label": "GE",
-      "ticker": "GE",
-      "price": 368.38,
-      "prev_close": 360.64,
-      "change_pct": 2.15,
-      "currency": "USD",
-      "sparkline": [
-        366.7,
-        368.06,
-        365.33,
-        360.64,
-        368.38
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 318.04
-    },
-    {
-      "label": "V",
-      "ticker": "V",
-      "price": 364.15,
-      "prev_close": 365.45,
-      "change_pct": -0.36,
-      "currency": "USD",
-      "sparkline": [
-        361.32,
-        362.82,
-        359.42,
-        365.45,
-        364.15
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 314.38
-    },
-    {
-      "label": "BRK.B",
-      "ticker": "BRK.B",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "error": "HTTP Error 404: "
-    },
-    {
-      "label": "JNJ",
-      "ticker": "JNJ",
-      "price": 260.35,
-      "prev_close": 262.08,
-      "change_pct": -0.66,
-      "currency": "USD",
-      "sparkline": [
-        261.81,
-        259.8,
-        260.86,
-        262.08,
-        260.35
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 224.77
-    },
-    {
-      "label": "055550.KS",
-      "ticker": "055550.KS",
-      "price": 107400.0,
-      "prev_close": 106600.0,
-      "change_pct": 0.75,
-      "currency": "KRW",
-      "sparkline": [
-        106400.0,
-        104500.0,
-        103800.0,
-        106600.0,
-        107400.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 65.58
-    },
-    {
-      "label": "GD",
-      "ticker": "GD",
-      "price": 395.78,
-      "prev_close": 392.96,
-      "change_pct": 0.72,
-      "currency": "USD",
-      "sparkline": [
-        395.97,
-        391.89,
-        394.21,
-        392.96,
-        395.78
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 341.69
-    },
-    {
-      "label": "AAPL",
-      "ticker": "AAPL",
-      "price": 305.93,
-      "prev_close": 305.26,
-      "change_pct": 0.22,
-      "currency": "USD",
-      "sparkline": [
-        308.26,
-        304.91,
-        302.25,
-        305.26,
-        305.93
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 264.12
-    },
-    {
-      "label": "068270.KS",
-      "ticker": "068270.KS",
-      "price": 201000.0,
-      "prev_close": 202000.0,
-      "change_pct": -0.5,
-      "currency": "KRW",
-      "sparkline": [
-        201000.0,
-        210500.0,
-        202000.0,
-        202000.0,
-        201000.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 122.73
-    },
-    {
-      "label": "BMY",
-      "ticker": "BMY",
-      "price": 63.83,
-      "prev_close": 64.65,
-      "change_pct": -1.27,
-      "currency": "USD",
-      "sparkline": [
-        64.84,
-        63.61,
-        63.7,
-        64.65,
-        63.83
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 55.11
-    },
-    {
-      "label": "MSFT",
-      "ticker": "MSFT",
-      "price": 495.4,
-      "prev_close": 496.88,
-      "change_pct": -0.3,
-      "currency": "USD",
-      "sparkline": [
-        506.06,
-        503.81,
-        492.43,
-        496.88,
-        495.4
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 427.7
-    },
-    {
-      "label": "PSX",
-      "ticker": "PSX",
-      "price": 233.61,
-      "prev_close": 232.61,
-      "change_pct": 0.43,
-      "currency": "USD",
-      "sparkline": [
-        215.52,
-        224.36,
-        225.58,
-        232.61,
-        233.61
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 201.68
-    },
-    {
-      "label": "TMO",
-      "ticker": "TMO",
-      "price": 588.29,
-      "prev_close": 595.89,
-      "change_pct": -1.28,
-      "currency": "USD",
-      "sparkline": [
-        599.69,
-        605.0,
-        603.01,
-        595.89,
-        588.29
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 507.89
-    },
-    {
-      "label": "CL",
-      "ticker": "CL",
-      "price": 91.95,
-      "prev_close": 92.93,
-      "change_pct": -1.05,
-      "currency": "USD",
-      "sparkline": [
-        93.15,
-        92.31,
-        92.32,
-        92.93,
-        91.95
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 79.38
-    },
-    {
-      "label": "028260.KS",
-      "ticker": "028260.KS",
-      "price": 369000.0,
-      "prev_close": 365000.0,
-      "change_pct": 1.1,
-      "currency": "KRW",
-      "sparkline": [
-        336000.0,
-        344500.0,
-        357500.0,
-        365000.0,
-        369000.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 225.32
-    },
-    {
-      "label": "MNST",
-      "ticker": "MNST",
-      "price": 46.82,
-      "prev_close": 46.68,
-      "change_pct": 0.3,
-      "currency": "USD",
-      "sparkline": [
-        45.53,
-        45.98,
-        46.68,
-        46.82
-      ],
-      "sparkline_dates": [
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 40.42
-    },
-    {
-      "label": "VLO",
-      "ticker": "VLO",
-      "price": 341.67,
-      "prev_close": 342.92,
-      "change_pct": -0.36,
-      "currency": "USD",
-      "sparkline": [
-        314.95,
-        323.92,
-        330.21,
-        342.92,
-        341.67
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 294.98
-    },
-    {
-      "label": "MO",
-      "ticker": "MO",
-      "price": 65.7,
-      "prev_close": 65.08,
-      "change_pct": 0.95,
-      "currency": "USD",
-      "sparkline": [
-        65.54,
-        65.03,
-        64.38,
-        65.08,
-        65.7
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 56.72
-    },
-    {
-      "label": "005380.KS",
-      "ticker": "005380.KS",
-      "price": 453000.0,
-      "prev_close": 418500.0,
-      "change_pct": 8.24,
-      "currency": "KRW",
-      "sparkline": [
-        408000.0,
-        403000.0,
-        409500.0,
-        418500.0,
-        453000.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 276.61
-    },
-    {
-      "label": "GOOGL",
-      "ticker": "GOOGL",
-      "price": 345.9,
-      "prev_close": 346.36,
-      "change_pct": -0.13,
-      "currency": "USD",
-      "sparkline": [
-        357.52,
-        343.8,
-        343.54,
-        346.36,
-        345.9
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 298.63
-    },
-    {
-      "label": "NVDA",
-      "ticker": "NVDA",
-      "price": 225.16,
-      "prev_close": 225.3,
-      "change_pct": -0.06,
-      "currency": "USD",
-      "sparkline": [
-        217.55,
-        217.5,
-        224.09,
-        225.3,
-        225.16
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 194.39
-    },
-    {
-      "label": "PEP",
-      "ticker": "PEP",
-      "price": 140.79,
-      "prev_close": 140.62,
-      "change_pct": 0.12,
-      "currency": "USD",
-      "sparkline": [
-        137.73,
-        138.41,
-        138.7,
-        140.62,
-        140.79
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 121.55
-    },
-    {
-      "label": "KLAC",
-      "ticker": "KLAC",
-      "price": 203.72,
-      "prev_close": 209.37,
-      "change_pct": -2.7,
-      "currency": "USD",
-      "sparkline": [
-        192.74,
-        200.47,
-        208.25,
-        209.37,
-        203.72
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 175.88
-    },
-    {
-      "label": "GILD",
-      "ticker": "GILD",
-      "price": 138.36,
-      "prev_close": 138.14,
-      "change_pct": 0.16,
-      "currency": "USD",
-      "sparkline": [
-        133.06,
-        135.77,
-        135.87,
-        138.14,
-        138.36
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 119.45
-    },
-    {
-      "label": "MU",
-      "ticker": "MU",
-      "price": 971.66,
-      "prev_close": 949.83,
-      "change_pct": 2.3,
-      "currency": "USD",
-      "sparkline": [
-        861.0,
-        868.52,
-        911.29,
-        949.83,
-        971.66
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 838.87
-    },
-    {
-      "label": "105560.KS",
-      "ticker": "105560.KS",
-      "price": 168500.0,
-      "prev_close": 168100.0,
-      "change_pct": 0.24,
-      "currency": "KRW",
-      "sparkline": [
-        171700.0,
-        166600.0,
-        166000.0,
-        168100.0,
-        168500.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 102.89
-    },
-    {
-      "label": "GIS",
-      "ticker": "GIS",
-      "price": 39.2,
-      "prev_close": 38.91,
-      "change_pct": 0.75,
-      "currency": "USD",
-      "sparkline": [
-        37.26,
-        37.93,
-        38.18,
-        38.91,
-        39.2
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 33.84
-    },
-    {
-      "label": "CVS",
-      "ticker": "CVS",
-      "price": 97.16,
-      "prev_close": 94.99,
-      "change_pct": 2.28,
-      "currency": "USD",
-      "sparkline": [
-        95.67,
-        93.5,
-        94.72,
-        94.99,
-        97.16
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 83.88
-    },
-    {
-      "label": "TXT",
-      "ticker": "TXT",
-      "price": 89.0,
-      "prev_close": 88.04,
-      "change_pct": 1.09,
-      "currency": "USD",
-      "sparkline": [
-        89.2,
-        88.21,
-        88.89,
-        88.04,
-        89.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 76.84
-    },
-    {
-      "label": "TDY",
-      "ticker": "TDY",
-      "price": 679.67,
-      "prev_close": 673.66,
-      "change_pct": 0.89,
-      "currency": "USD",
-      "sparkline": [
-        690.25,
-        681.74,
-        686.49,
-        673.66,
-        679.67
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 586.78
-    },
-    {
-      "label": "ADBE",
-      "ticker": "ADBE",
-      "price": 264.02,
-      "prev_close": 270.49,
-      "change_pct": -2.39,
-      "currency": "USD",
-      "sparkline": [
-        272.96,
-        263.71,
-        258.75,
-        270.49,
-        264.02
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 227.94
-    },
-    {
-      "label": "MPC",
-      "ticker": "MPC",
-      "price": 355.42,
-      "prev_close": 356.37,
-      "change_pct": -0.27,
-      "currency": "USD",
-      "sparkline": [
-        320.32,
-        336.42,
-        348.25,
-        356.37,
-        355.42
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 306.85
-    },
-    {
-      "label": "BAYN.DE",
-      "ticker": "BAYN.DE",
-      "price": 47.79,
-      "prev_close": 48.06,
-      "change_pct": -0.56,
-      "currency": "EUR",
-      "sparkline": [
-        49.23,
-        48.95,
-        48.0,
-        48.06,
-        47.79
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ]
-    },
-    {
-      "label": "BKR",
-      "ticker": "BKR",
-      "price": 64.82,
-      "prev_close": 63.44,
-      "change_pct": 2.18,
-      "currency": "USD",
-      "sparkline": [
-        64.07,
-        64.81,
-        64.28,
-        63.44,
-        64.82
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 55.96
-    },
-    {
-      "label": "HEI",
-      "ticker": "HEI",
-      "price": 374.67,
-      "prev_close": 371.56,
-      "change_pct": 0.84,
-      "currency": "USD",
-      "sparkline": [
-        363.94,
-        366.92,
-        373.1,
-        371.56,
-        374.67
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 323.47
-    },
-    {
-      "label": "ELV",
-      "ticker": "ELV",
-      "price": 400.32,
-      "prev_close": 398.22,
-      "change_pct": 0.53,
-      "currency": "USD",
-      "sparkline": [
-        397.7,
-        390.37,
-        399.14,
-        398.22,
-        400.32
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 345.61
-    },
-    {
-      "label": "WMB",
-      "ticker": "WMB",
-      "price": 75.2,
-      "prev_close": 73.04,
-      "change_pct": 2.96,
-      "currency": "USD",
-      "sparkline": [
-        71.85,
-        72.31,
-        73.7,
-        73.04,
-        75.2
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 64.92
-    },
-    {
-      "label": "HAL",
-      "ticker": "HAL",
-      "price": 34.42,
-      "prev_close": 32.84,
-      "change_pct": 4.81,
-      "currency": "USD",
-      "sparkline": [
-        33.64,
-        33.8,
-        33.29,
-        32.84,
-        34.42
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 29.72
-    },
-    {
-      "label": "LDOS",
-      "ticker": "LDOS",
-      "price": 143.83,
-      "prev_close": 142.61,
-      "change_pct": 0.86,
-      "currency": "USD",
-      "sparkline": [
-        139.1,
-        140.89,
-        140.38,
-        142.61,
-        143.83
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 124.17
-    },
-    {
-      "label": "AXON",
-      "ticker": "AXON",
-      "price": 612.83,
-      "prev_close": 615.59,
-      "change_pct": -0.45,
-      "currency": "USD",
-      "sparkline": [
-        596.33,
-        636.31,
-        599.78,
-        615.59,
-        612.83
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 529.08
-    },
-    {
-      "label": "207940.KS",
-      "ticker": "207940.KS",
-      "price": 1548000.0,
-      "prev_close": 1564000.0,
-      "change_pct": -1.02,
-      "currency": "KRW",
-      "sparkline": [
-        1569000.0,
-        1609000.0,
-        1549000.0,
-        1564000.0,
-        1548000.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 945.23
+      "price_eur": 491.19
     },
     {
       "label": "AIR.DE",
@@ -2867,18 +3169,18 @@
       ]
     },
     {
-      "label": "LRCX",
-      "ticker": "LRCX",
-      "price": 332.36,
-      "prev_close": 337.01,
-      "change_pct": -1.38,
+      "label": "HAL",
+      "ticker": "HAL",
+      "price": 34.42,
+      "prev_close": 32.84,
+      "change_pct": 4.81,
       "currency": "USD",
       "sparkline": [
-        306.4,
-        311.41,
-        326.11,
-        337.01,
-        332.36
+        33.64,
+        33.8,
+        33.29,
+        32.84,
+        34.42
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -2887,351 +3189,7 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 286.94
-    },
-    {
-      "label": "LMT",
-      "ticker": "LMT",
-      "price": 608.68,
-      "prev_close": 598.01,
-      "change_pct": 1.78,
-      "currency": "USD",
-      "sparkline": [
-        603.16,
-        597.77,
-        606.72,
-        598.01,
-        608.68
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 525.49
-    },
-    {
-      "label": "HD",
-      "ticker": "HD",
-      "price": 338.86,
-      "prev_close": 341.7,
-      "change_pct": -0.83,
-      "currency": "USD",
-      "sparkline": [
-        350.78,
-        354.48,
-        343.43,
-        341.7,
-        338.86
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 292.55
-    },
-    {
-      "label": "MUV2.DE",
-      "ticker": "MUV2.DE",
-      "price": 517.8,
-      "prev_close": 510.4,
-      "change_pct": 1.45,
-      "currency": "EUR",
-      "sparkline": [
-        517.2,
-        514.6,
-        514.8,
-        510.4,
-        517.8
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ]
-    },
-    {
-      "label": "MDLZ",
-      "ticker": "MDLZ",
-      "price": 63.61,
-      "prev_close": 63.53,
-      "change_pct": 0.13,
-      "currency": "USD",
-      "sparkline": [
-        61.53,
-        61.78,
-        62.18,
-        63.53,
-        63.61
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 54.92
-    },
-    {
-      "label": "LLY",
-      "ticker": "LLY",
-      "price": 1180.16,
-      "prev_close": 1209.0,
-      "change_pct": -2.39,
-      "currency": "USD",
-      "sparkline": [
-        1231.94,
-        1215.02,
-        1220.28,
-        1209.0,
-        1180.16
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 1018.87
-    },
-    {
-      "label": "HWM",
-      "ticker": "HWM",
-      "price": 289.18,
-      "prev_close": 282.82,
-      "change_pct": 2.25,
-      "currency": "USD",
-      "sparkline": [
-        283.71,
-        281.34,
-        281.63,
-        282.82,
-        289.18
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 249.66
-    },
-    {
-      "label": "AMZN",
-      "ticker": "AMZN",
-      "price": 262.65,
-      "prev_close": 265.13,
-      "change_pct": -0.94,
-      "currency": "USD",
-      "sparkline": [
-        278.09,
-        272.27,
-        267.28,
-        265.13,
-        262.65
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 226.75
-    },
-    {
-      "label": "PFE",
-      "ticker": "PFE",
-      "price": 26.79,
-      "prev_close": 26.8,
-      "change_pct": -0.04,
-      "currency": "USD",
-      "sparkline": [
-        27.05,
-        26.62,
-        26.31,
-        26.8,
-        26.79
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 23.13
-    },
-    {
-      "label": "SYY",
-      "ticker": "SYY",
-      "price": 82.99,
-      "prev_close": 83.55,
-      "change_pct": -0.67,
-      "currency": "USD",
-      "sparkline": [
-        83.87,
-        84.26,
-        84.69,
-        83.55,
-        82.99
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 71.65
-    },
-    {
-      "label": "AMD",
-      "ticker": "AMD",
-      "price": 514.39,
-      "prev_close": 483.01,
-      "change_pct": 6.5,
-      "currency": "USD",
-      "sparkline": [
-        469.56,
-        474.32,
-        482.93,
-        483.01,
-        514.39
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 444.09
-    },
-    {
-      "label": "TSM",
-      "ticker": "TSM",
-      "price": 426.35,
-      "prev_close": 430.49,
-      "change_pct": -0.96,
-      "currency": "USD",
-      "sparkline": [
-        418.47,
-        422.06,
-        429.15,
-        430.49,
-        426.35
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 368.08
-    },
-    {
-      "label": "CSCO",
-      "ticker": "CSCO",
-      "price": 111.68,
-      "prev_close": 113.47,
-      "change_pct": -1.58,
-      "currency": "USD",
-      "sparkline": [
-        122.57,
-        120.43,
-        123.88,
-        113.47,
-        111.68
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 96.42
-    },
-    {
-      "label": "MRK",
-      "ticker": "MRK",
-      "price": 135.84,
-      "prev_close": 135.55,
-      "change_pct": 0.21,
-      "currency": "USD",
-      "sparkline": [
-        130.92,
-        130.42,
-        132.92,
-        135.55,
-        135.84
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 117.28
-    },
-    {
-      "label": "032830.KS",
-      "ticker": "032830.KS",
-      "price": 301000.0,
-      "prev_close": 291500.0,
-      "change_pct": 3.26,
-      "currency": "KRW",
-      "sparkline": [
-        280500.0,
-        289500.0,
-        302500.0,
-        291500.0,
-        301000.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 183.79
-    },
-    {
-      "label": "NXPI",
-      "ticker": "NXPI",
-      "price": 234.71,
-      "prev_close": 231.91,
-      "change_pct": 1.21,
-      "currency": "USD",
-      "sparkline": [
-        233.43,
-        236.38,
-        233.41,
-        231.91,
-        234.71
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 202.63
+      "price_eur": 29.7
     },
     {
       "label": "SAP.DE",
@@ -3246,327 +3204,6 @@
         175.96,
         175.38,
         180.14
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ]
-    },
-    {
-      "label": "NFLX",
-      "ticker": "NFLX",
-      "price": 78.16,
-      "prev_close": 78.24,
-      "change_pct": -0.1,
-      "currency": "USD",
-      "sparkline": [
-        76.29,
-        74.79,
-        74.21,
-        78.24,
-        78.16
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 67.48
-    },
-    {
-      "label": "JPM",
-      "ticker": "JPM",
-      "price": 362.84,
-      "prev_close": 363.11,
-      "change_pct": -0.07,
-      "currency": "USD",
-      "sparkline": [
-        359.79,
-        362.04,
-        365.18,
-        363.11,
-        362.84
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 313.25
-    },
-    {
-      "label": "WWD",
-      "ticker": "WWD",
-      "price": 370.56,
-      "prev_close": 358.54,
-      "change_pct": 3.35,
-      "currency": "USD",
-      "sparkline": [
-        356.11,
-        356.58,
-        362.7,
-        358.54,
-        370.56
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 319.92
-    },
-    {
-      "label": "KR",
-      "ticker": "KR",
-      "price": 56.69,
-      "prev_close": 57.23,
-      "change_pct": -0.94,
-      "currency": "USD",
-      "sparkline": [
-        56.48,
-        56.25,
-        56.06,
-        57.23,
-        56.69
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 48.94
-    },
-    {
-      "label": "GOOG",
-      "ticker": "GOOG",
-      "price": 343.54,
-      "prev_close": 343.94,
-      "change_pct": -0.12,
-      "currency": "USD",
-      "sparkline": [
-        355.84,
-        343.0,
-        342.37,
-        343.94,
-        343.54
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 296.59
-    },
-    {
-      "label": "KVUE",
-      "ticker": "KVUE",
-      "price": 19.2,
-      "prev_close": 19.2,
-      "change_pct": 0.0,
-      "currency": "USD",
-      "sparkline": [
-        19.03,
-        19.05,
-        18.98,
-        19.2,
-        19.2
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 16.58
-    },
-    {
-      "label": "AMGN",
-      "ticker": "AMGN",
-      "price": 415.21,
-      "prev_close": 417.84,
-      "change_pct": -0.63,
-      "currency": "USD",
-      "sparkline": [
-        417.2,
-        414.3,
-        416.18,
-        417.84,
-        415.21
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 358.46
-    },
-    {
-      "label": "KHC",
-      "ticker": "KHC",
-      "price": 25.51,
-      "prev_close": 25.38,
-      "change_pct": 0.51,
-      "currency": "USD",
-      "sparkline": [
-        24.93,
-        24.65,
-        24.53,
-        25.38,
-        25.51
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 22.02
-    },
-    {
-      "label": "SWKS",
-      "ticker": "SWKS",
-      "price": 69.62,
-      "prev_close": 69.76,
-      "change_pct": -0.2,
-      "currency": "USD",
-      "sparkline": [
-        68.79,
-        68.33,
-        69.68,
-        69.76,
-        69.62
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 60.11
-    },
-    {
-      "label": "AVGO",
-      "ticker": "AVGO",
-      "price": 392.99,
-      "prev_close": 417.82,
-      "change_pct": -5.94,
-      "currency": "USD",
-      "sparkline": [
-        422.4,
-        416.08,
-        416.05,
-        417.82,
-        392.99
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 339.28
-    },
-    {
-      "label": "ABT",
-      "ticker": "ABT",
-      "price": 111.25,
-      "prev_close": 111.27,
-      "change_pct": -0.02,
-      "currency": "USD",
-      "sparkline": [
-        108.62,
-        109.72,
-        110.91,
-        111.27,
-        111.25
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 96.05
-    },
-    {
-      "label": "ON",
-      "ticker": "ON",
-      "price": 82.66,
-      "prev_close": 81.56,
-      "change_pct": 1.35,
-      "currency": "USD",
-      "sparkline": [
-        79.78,
-        81.11,
-        83.32,
-        81.56,
-        82.66
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 71.36
-    },
-    {
-      "label": "373220.KS",
-      "ticker": "373220.KS",
-      "price": 369500.0,
-      "prev_close": 365500.0,
-      "change_pct": 1.09,
-      "currency": "KRW",
-      "sparkline": [
-        367500.0,
-        354500.0,
-        358500.0,
-        365500.0,
-        369500.0
-      ],
-      "sparkline_dates": [
-        "2026-08-10",
-        "2026-08-11",
-        "2026-08-12",
-        "2026-08-13",
-        "2026-08-14"
-      ],
-      "price_eur": 225.62
-    },
-    {
-      "label": "DTE.DE",
-      "ticker": "DTE.DE",
-      "price": 28.67,
-      "prev_close": 28.42,
-      "change_pct": 0.88,
-      "currency": "EUR",
-      "sparkline": [
-        28.1,
-        28.56,
-        28.15,
-        28.42,
-        28.67
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -3597,21 +3234,21 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 55.75
+      "price_eur": 55.72
     },
     {
-      "label": "KDP",
-      "ticker": "KDP",
-      "price": 31.44,
-      "prev_close": 31.12,
-      "change_pct": 1.03,
+      "label": "DHR",
+      "ticker": "DHR",
+      "price": 202.45,
+      "prev_close": 203.89,
+      "change_pct": -0.71,
       "currency": "USD",
       "sparkline": [
-        29.3,
-        29.18,
-        29.56,
-        31.12,
-        31.44
+        209.37,
+        207.44,
+        205.79,
+        203.89,
+        202.45
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -3620,21 +3257,228 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 27.14
+      "price_eur": 174.68
     },
     {
-      "label": "DB1.DE",
-      "ticker": "DB1.DE",
-      "price": 272.9,
-      "prev_close": 271.8,
-      "change_pct": 0.4,
+      "label": "105560.KS",
+      "ticker": "105560.KS",
+      "price": 168500.0,
+      "prev_close": 168100.0,
+      "change_pct": 0.24,
+      "currency": "KRW",
+      "sparkline": [
+        171700.0,
+        166600.0,
+        166000.0,
+        168100.0,
+        168500.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 102.86
+    },
+    {
+      "label": "HSY",
+      "ticker": "HSY",
+      "price": 184.22,
+      "prev_close": 186.12,
+      "change_pct": -1.02,
+      "currency": "USD",
+      "sparkline": [
+        182.75,
+        181.98,
+        184.23,
+        186.12,
+        184.22
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 158.95
+    },
+    {
+      "label": "SWKS",
+      "ticker": "SWKS",
+      "price": 69.62,
+      "prev_close": 69.76,
+      "change_pct": -0.2,
+      "currency": "USD",
+      "sparkline": [
+        68.79,
+        68.33,
+        69.68,
+        69.76,
+        69.62
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 60.07
+    },
+    {
+      "label": "BSX",
+      "ticker": "BSX",
+      "price": 51.83,
+      "prev_close": 51.69,
+      "change_pct": 0.27,
+      "currency": "USD",
+      "sparkline": [
+        50.46,
+        51.19,
+        51.42,
+        51.69,
+        51.83
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 44.72
+    },
+    {
+      "label": "ADI",
+      "ticker": "ADI",
+      "price": 389.39,
+      "prev_close": 381.17,
+      "change_pct": 2.16,
+      "currency": "USD",
+      "sparkline": [
+        383.93,
+        385.3,
+        384.43,
+        381.17,
+        389.39
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 335.97
+    },
+    {
+      "label": "BKR",
+      "ticker": "BKR",
+      "price": 64.82,
+      "prev_close": 63.44,
+      "change_pct": 2.18,
+      "currency": "USD",
+      "sparkline": [
+        64.07,
+        64.81,
+        64.28,
+        63.44,
+        64.82
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 55.93
+    },
+    {
+      "label": "LLY",
+      "ticker": "LLY",
+      "price": 1180.16,
+      "prev_close": 1209.0,
+      "change_pct": -2.39,
+      "currency": "USD",
+      "sparkline": [
+        1231.94,
+        1215.02,
+        1220.28,
+        1209.0,
+        1180.16
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 1018.26
+    },
+    {
+      "label": "NOC",
+      "ticker": "NOC",
+      "price": 585.87,
+      "prev_close": 574.74,
+      "change_pct": 1.94,
+      "currency": "USD",
+      "sparkline": [
+        577.89,
+        575.69,
+        577.32,
+        574.74,
+        585.87
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 505.5
+    },
+    {
+      "label": "MRK",
+      "ticker": "MRK",
+      "price": 135.84,
+      "prev_close": 135.55,
+      "change_pct": 0.21,
+      "currency": "USD",
+      "sparkline": [
+        130.92,
+        130.42,
+        132.92,
+        135.55,
+        135.84
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 117.2
+    },
+    {
+      "label": "ALV.DE",
+      "ticker": "ALV.DE",
+      "price": 442.7,
+      "prev_close": 437.8,
+      "change_pct": 1.12,
       "currency": "EUR",
       "sparkline": [
-        275.6,
-        274.0,
-        272.1,
-        271.8,
-        272.9
+        437.7,
+        435.7,
+        438.9,
+        437.8,
+        442.7
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -3645,28 +3489,18 @@
       ]
     },
     {
-      "label": "TRG",
-      "ticker": "TRG",
-      "price": null,
-      "prev_close": null,
-      "change_pct": null,
-      "currency": null,
-      "sparkline": [],
-      "sparkline_dates": []
-    },
-    {
-      "label": "PG",
-      "ticker": "PG",
-      "price": 144.55,
-      "prev_close": 144.26,
-      "change_pct": 0.2,
+      "label": "AMZN",
+      "ticker": "AMZN",
+      "price": 262.65,
+      "prev_close": 265.13,
+      "change_pct": -0.94,
       "currency": "USD",
       "sparkline": [
-        146.44,
-        145.21,
-        144.08,
-        144.26,
-        144.55
+        278.09,
+        272.27,
+        267.28,
+        265.13,
+        262.65
       ],
       "sparkline_dates": [
         "2026-08-10",
@@ -3675,7 +3509,167 @@
         "2026-08-13",
         "2026-08-14"
       ],
-      "price_eur": 124.79
+      "price_eur": 226.62
+    },
+    {
+      "label": "AXON",
+      "ticker": "AXON",
+      "price": 612.83,
+      "prev_close": 615.59,
+      "change_pct": -0.45,
+      "currency": "USD",
+      "sparkline": [
+        596.33,
+        636.31,
+        599.78,
+        615.59,
+        612.83
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 528.76
+    },
+    {
+      "label": "HEI",
+      "ticker": "HEI",
+      "price": 374.67,
+      "prev_close": 371.56,
+      "change_pct": 0.84,
+      "currency": "USD",
+      "sparkline": [
+        363.94,
+        366.92,
+        373.1,
+        371.56,
+        374.67
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 323.27
+    },
+    {
+      "label": "PSX",
+      "ticker": "PSX",
+      "price": 233.61,
+      "prev_close": 232.61,
+      "change_pct": 0.43,
+      "currency": "USD",
+      "sparkline": [
+        215.52,
+        224.36,
+        225.58,
+        232.61,
+        233.61
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 201.56
+    },
+    {
+      "label": "NFLX",
+      "ticker": "NFLX",
+      "price": 78.16,
+      "prev_close": 78.24,
+      "change_pct": -0.1,
+      "currency": "USD",
+      "sparkline": [
+        76.29,
+        74.79,
+        74.21,
+        78.24,
+        78.16
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 67.44
+    },
+    {
+      "label": "MRCY",
+      "ticker": "MRCY",
+      "price": 111.12,
+      "prev_close": 109.79,
+      "change_pct": 1.21,
+      "currency": "USD",
+      "sparkline": [
+        108.64,
+        109.15,
+        111.64,
+        109.79,
+        111.12
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 95.88
+    },
+    {
+      "label": "SIE.DE",
+      "ticker": "SIE.DE",
+      "price": 284.0,
+      "prev_close": 284.1,
+      "change_pct": -0.04,
+      "currency": "EUR",
+      "sparkline": [
+        276.95,
+        280.25,
+        281.95,
+        284.1,
+        284.0
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ]
+    },
+    {
+      "label": "MDT",
+      "ticker": "MDT",
+      "price": 91.27,
+      "prev_close": 90.58,
+      "change_pct": 0.76,
+      "currency": "USD",
+      "sparkline": [
+        89.41,
+        90.68,
+        90.76,
+        90.58,
+        91.27
+      ],
+      "sparkline_dates": [
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "price_eur": 78.75
     },
     {
       "label": "Deutschland 10-Jahre",
