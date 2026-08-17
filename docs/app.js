@@ -64,22 +64,22 @@ const CONFIG = {
     ]
   },
   "sectorOrder": [
-    "Chips & AI",
-    "Healthcare",
+    "AI",
+    "Health",
     "Rüstung",
-    "Energie & Rohstoffe",
-    "Konsumgüter",
+    "Energy",
+    "Konsum",
     "Nasdaq",
     "S&P 500",
     "DAX",
     "KOSPI"
   ],
   "sectorPositions": {
-    "Chips & AI": [
+    "AI": [
       "NVDA", "TSM", "MU", "AMD", "INTC", "AVGO", "QCOM", "TXN", "LRCX", "KLAC",
       "AMAT", "ASML", "ARM", "MRVL", "NXPI", "ADI", "ON", "MCHP", "MPWR", "SWKS"
     ],
-    "Healthcare": [
+    "Health": [
       "LLY", "JNJ", "ABBV", "MRK", "UNH", "AMGN", "TMO", "ABT", "GILD", "ISRG",
       "PFE", "DHR", "BSX", "SYK", "VRTX", "BMY", "MDT", "CVS", "CI", "ELV"
     ],
@@ -87,11 +87,11 @@ const CONFIG = {
       "GE", "RTX", "BA", "HWM", "GD", "LHX", "TDG", "NOC", "LMT", "AXON",
       "TXT", "HEI", "CW", "TDY", "LDOS", "HII", "BWXT", "WWD", "KTOS", "MRCY"
     ],
-    "Energie & Rohstoffe": [
+    "Energy": [
       "XOM", "CVX", "COP", "EOG", "SLB", "WMB", "VLO", "PSX", "MPC", "BKR",
       "KMI", "TRG", "OXY", "FANG", "EQT", "HAL", "DVN", "CTRA", "HES", "APA"
     ],
-    "Konsumgüter": [
+    "Konsum": [
       "WMT", "COST", "PG", "KO", "PM", "MDLZ", "PEP", "MO", "CL", "KR",
       "SYY", "KMB", "KVUE", "MNST", "STZ", "GIS", "KDP", "HSY", "KHC", "CHD"
     ]
@@ -1004,7 +1004,7 @@ const GICS_SHORT_LABELS = {
 };
 
 // GICS-Sektor-Badge - unabhaengig davon, in welchem eigenen Themen-Sektor
-// (Chips & AI, Ruestung, ...) die Karte gerade angezeigt wird, zeigt das die
+// (AI, Ruestung, ...) die Karte gerade angezeigt wird, zeigt das die
 // tatsaechliche Marktkategorie (z.B. Teledyne im "Ruestung"-Sektor ist laut
 // GICS eigentlich Information Technology).
 function gicsTagHtml(ticker) {

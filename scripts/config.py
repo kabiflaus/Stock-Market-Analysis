@@ -16,11 +16,11 @@ NEWS_QUERIES = [
     {"label": "Makro & Weltpolitik", "query": "oil price Iran", "hl": "en-US", "gl": "US"},
     {"label": "Makro & Weltpolitik", "query": "Trump tariffs markets", "hl": "en-US", "gl": "US"},
     {"label": "Makro & Weltpolitik", "query": "Treasury yields bond market", "hl": "en-US", "gl": "US"},
-    {"label": "Chips & AI", "query": "AI chip stocks Nvidia semiconductor capex", "hl": "en-US", "gl": "US"},
-    {"label": "Healthcare", "query": "healthcare pharma stocks news", "hl": "en-US", "gl": "US"},
+    {"label": "AI", "query": "AI chip stocks Nvidia semiconductor capex", "hl": "en-US", "gl": "US"},
+    {"label": "Health", "query": "healthcare pharma stocks news", "hl": "en-US", "gl": "US"},
     {"label": "Rüstung", "query": "defense stocks military spending", "hl": "en-US", "gl": "US"},
-    {"label": "Energie & Rohstoffe", "query": "oil price OPEC energy commodities", "hl": "en-US", "gl": "US"},
-    {"label": "Konsumgüter", "query": "consumer goods retail sales stocks", "hl": "en-US", "gl": "US"},
+    {"label": "Energy", "query": "oil price OPEC energy commodities", "hl": "en-US", "gl": "US"},
+    {"label": "Konsum", "query": "consumer goods retail sales stocks", "hl": "en-US", "gl": "US"},
     # require_in_title: Google-News-RSS matcht auch auf den Volltext, nicht
     # nur den Titel - ein Artikel ueber "5 Aktien, die den DAX outperformt
     # haben" waere sonst als "DAX-News" einsortiert, obwohl er nicht wirklich
@@ -122,8 +122,8 @@ SECTOR_TICKER_MAP = {
 # Sektor-Filter mehr (siehe app.js: eigener, immer sichtbarer News-Block
 # oberhalb der Pillen statt Filter-Option).
 SECTOR_ORDER = [
-    "Chips & AI", "Healthcare", "Rüstung",
-    "Energie & Rohstoffe", "Konsumgüter", "Nasdaq", "S&P 500", "DAX", "KOSPI",
+    "AI", "Health", "Rüstung",
+    "Energy", "Konsum", "Nasdaq", "S&P 500", "DAX", "KOSPI",
 ]
 
 # Top-20-Positionen je Sektor, angelehnt an den jeweils groessten/bekanntesten
@@ -132,16 +132,16 @@ SECTOR_ORDER = [
 # Gewichtungen (fuer die Anzeige im Markets-Tab) stehen in SECTOR_WEIGHTS in
 # app.js - hier nur die Ticker, da die Python-Seite die Gewichte nicht braucht.
 SECTOR_POSITIONS = {
-    "Chips & AI": ["NVDA", "TSM", "MU", "AMD", "INTC", "AVGO", "QCOM", "TXN", "LRCX", "KLAC",
-                   "AMAT", "ASML", "ARM", "MRVL", "NXPI", "ADI", "ON", "MCHP", "MPWR", "SWKS"],  # ref: VanEck SMH
-    "Healthcare": ["LLY", "JNJ", "ABBV", "MRK", "UNH", "AMGN", "TMO", "ABT", "GILD", "ISRG",
-                   "PFE", "DHR", "BSX", "SYK", "VRTX", "BMY", "MDT", "CVS", "CI", "ELV"],  # ref: XLV
+    "AI": ["NVDA", "TSM", "MU", "AMD", "INTC", "AVGO", "QCOM", "TXN", "LRCX", "KLAC",
+           "AMAT", "ASML", "ARM", "MRVL", "NXPI", "ADI", "ON", "MCHP", "MPWR", "SWKS"],  # ref: VanEck SMH
+    "Health": ["LLY", "JNJ", "ABBV", "MRK", "UNH", "AMGN", "TMO", "ABT", "GILD", "ISRG",
+               "PFE", "DHR", "BSX", "SYK", "VRTX", "BMY", "MDT", "CVS", "CI", "ELV"],  # ref: XLV
     "Rüstung": ["GE", "RTX", "BA", "HWM", "GD", "LHX", "TDG", "NOC", "LMT", "AXON",
                 "TXT", "HEI", "CW", "TDY", "LDOS", "HII", "BWXT", "WWD", "KTOS", "MRCY"],  # ref: iShares ITA
-    "Energie & Rohstoffe": ["XOM", "CVX", "COP", "EOG", "SLB", "WMB", "VLO", "PSX", "MPC", "BKR",
-                            "KMI", "TRG", "OXY", "FANG", "EQT", "HAL", "DVN", "CTRA", "HES", "APA"],  # ref: XLE
-    "Konsumgüter": ["WMT", "COST", "PG", "KO", "PM", "MDLZ", "PEP", "MO", "CL", "KR",
-                    "SYY", "KMB", "KVUE", "MNST", "STZ", "GIS", "KDP", "HSY", "KHC", "CHD"],  # ref: XLP
+    "Energy": ["XOM", "CVX", "COP", "EOG", "SLB", "WMB", "VLO", "PSX", "MPC", "BKR",
+               "KMI", "TRG", "OXY", "FANG", "EQT", "HAL", "DVN", "CTRA", "HES", "APA"],  # ref: XLE
+    "Konsum": ["WMT", "COST", "PG", "KO", "PM", "MDLZ", "PEP", "MO", "CL", "KR",
+               "SYY", "KMB", "KVUE", "MNST", "STZ", "GIS", "KDP", "HSY", "KHC", "CHD"],  # ref: XLP
 }
 
 # Top-Holdings je Index-Filter (Nasdaq/S&P 500/DAX/KOSPI aus dem "Indizes"-
@@ -220,7 +220,7 @@ TICKER_NAMES = {
 # eigenen "Ruestung"-Sektor Teledyne (TDY) eigentlich Information Technology
 # ist. Manuell klassifiziert nach GICS-Konvention (Stand Aug 2026).
 GICS_SECTORS = {
-    # --- Chips & AI (alle Information Technology / Halbleiter) ---
+    # --- AI (alle Information Technology / Halbleiter) ---
     "NVDA": "Information Technology", "TSM": "Information Technology", "MU": "Information Technology",
     "AMD": "Information Technology", "INTC": "Information Technology", "AVGO": "Information Technology",
     "QCOM": "Information Technology", "TXN": "Information Technology", "LRCX": "Information Technology",
@@ -229,7 +229,7 @@ GICS_SECTORS = {
     "ADI": "Information Technology", "ON": "Information Technology", "MCHP": "Information Technology",
     "MPWR": "Information Technology", "SWKS": "Information Technology",
 
-    # --- Healthcare (alle Health Care) ---
+    # --- Health (alle Health Care) ---
     "LLY": "Health Care", "JNJ": "Health Care", "ABBV": "Health Care", "MRK": "Health Care",
     "UNH": "Health Care", "AMGN": "Health Care", "TMO": "Health Care", "ABT": "Health Care",
     "GILD": "Health Care", "ISRG": "Health Care", "PFE": "Health Care", "DHR": "Health Care",
@@ -244,13 +244,13 @@ GICS_SECTORS = {
     "CW": "Industrials", "TDY": "Information Technology", "LDOS": "Industrials", "HII": "Industrials",
     "BWXT": "Industrials", "WWD": "Industrials", "KTOS": "Industrials", "MRCY": "Industrials",
 
-    # --- Energie & Rohstoffe (alle Energy) ---
+    # --- Energy (alle Energy) ---
     "XOM": "Energy", "CVX": "Energy", "COP": "Energy", "EOG": "Energy", "SLB": "Energy",
     "WMB": "Energy", "VLO": "Energy", "PSX": "Energy", "MPC": "Energy", "BKR": "Energy",
     "KMI": "Energy", "TRG": "Energy", "OXY": "Energy", "FANG": "Energy", "EQT": "Energy",
     "HAL": "Energy", "DVN": "Energy", "CTRA": "Energy", "HES": "Energy", "APA": "Energy",
 
-    # --- Konsumgueter (alle Consumer Staples) ---
+    # --- Konsum (alle Consumer Staples) ---
     "WMT": "Consumer Staples", "COST": "Consumer Staples", "PG": "Consumer Staples", "KO": "Consumer Staples",
     "PM": "Consumer Staples", "MDLZ": "Consumer Staples", "PEP": "Consumer Staples", "MO": "Consumer Staples",
     "CL": "Consumer Staples", "KR": "Consumer Staples", "SYY": "Consumer Staples", "KMB": "Consumer Staples",
