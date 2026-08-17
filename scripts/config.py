@@ -45,6 +45,17 @@ TICKER_GROUPS = {
         "Russell 2000 Futures": "RTY=F",
         "Nikkei 225 Futures": "NIY=F",
     },
+    # Sentiment-Barometer fuer die Start-Ansicht: VIX (klassischer Angst-
+    # Gauge), Gold/Oel (Risk-on/Risk-off-Signale) und Dollar-Index. Immer
+    # sichtbar, unabhaengig vom Sektor-/Indizes-/Anleihen-Filter - wie
+    # Futures. VIX und Dollar-Index sind Punktestaende (kein echter
+    # Geldbetrag), s. NO_CURRENCY_LABELS unten.
+    "Makro-Barometer": {
+        "VIX (Volatilität)": "^VIX",
+        "Gold": "GC=F",
+        "Öl (WTI)": "CL=F",
+        "Dollar-Index": "DX-Y.NYB",
+    },
     # Reihenfolge bewusst an die Futures-Gruppe angelehnt (Nasdaq, S&P 500,
     # Nikkei zuerst - in der Reihenfolge, wie sie dort auftauchen), damit die
     # gleichen Maerkte in beiden Sektionen an vergleichbarer Position stehen.

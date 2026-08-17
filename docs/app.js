@@ -12,6 +12,12 @@ const CONFIG = {
       "Russell 2000 Futures": "RTY=F",
       "Nikkei 225 Futures": "NIY=F"
     },
+    "Makro-Barometer": {
+      "VIX (Volatilität)": "^VIX",
+      "Gold": "GC=F",
+      "Öl (WTI)": "CL=F",
+      "Dollar-Index": "DX-Y.NYB"
+    },
     "Globale Indizes": {
       "Nasdaq Composite (USA)": "^IXIC",
       "S&P 500 (USA)": "^GSPC",
@@ -1070,6 +1076,32 @@ function renderFutures(rowsByLabel) {
   document.querySelector('#futures-section .tickers').innerHTML = cards.join('');
 }
 
+function renderMacroBarometer(rowsByLabel) {
+  const cards = Object.keys(CONFIG.tickerGroups['Makro-Barometer']).map(label =>
+    priceCardHtml(label, rowsByLabel[label])
+  );
+  document.querySelector('#macro-barometer-section .tickers').innerHTML = cards.join('');
+}
+
+// Top 5 Einzel-Ticker (Sektor-Positionen + Index-Holdings) mit der groessten
+// Tagesbewegung (unabhaengig von Richtung) - sofort sichtbar auf der Start-
+// Ansicht, damit man nicht jeden Sektor einzeln durchklicken muss, um zu
+// sehen wo's brennt. Nur Einzel-Ticker (CONFIG.tickerNames-Eintrag), nicht
+// Futures/Indizes/Anleihen/Makro-Barometer - die sind schon eigene Karten.
+function renderTopMovers(rowsByLabel) {
+  const movers = Object.values(rowsByLabel)
+    .filter(r => r && CONFIG.tickerNames[r.label] && typeof r.change_pct === 'number')
+    .sort((a, b) => Math.abs(b.change_pct) - Math.abs(a.change_pct))
+    .slice(0, 5);
+  const section = document.getElementById('top-movers-section');
+  // Sichtbarkeit selbst regelt apply() unten (abhaengig vom Start-Filter) -
+  // hier nur merken, ob es ueberhaupt Daten gibt, damit apply() bei leerem
+  // Datensatz (z.B. ganz am Anfang) keine leere Ueberschrift zeigt.
+  section.dataset.hasData = movers.length ? '1' : '0';
+  const cards = movers.map(r => positionCardHtml(r.label, r, undefined));
+  section.querySelector('.tickers').innerHTML = cards.join('');
+}
+
 function renderGlobalIndices(rowsByLabel) {
   const cards = Object.keys(CONFIG.tickerGroups['Globale Indizes']).map(label => {
     const relevantFor = Object.keys(CONFIG.sectorTickerMap).filter(
@@ -1172,6 +1204,8 @@ const INDIZES_OVERVIEW = 'IndizesUebersicht';
 function setupMarketFilter(rowsByLabel) {
   const pillsContainer = document.getElementById('pills-markets');
   const headlines = document.querySelectorAll('#headlines-markets .headline');
+  const topMoversSection = document.getElementById('top-movers-section');
+  const macroBarometerSection = document.getElementById('macro-barometer-section');
   const futuresSection = document.getElementById('futures-section');
   const bondsSection = document.getElementById('bonds-section');
   const globalSection = document.getElementById('global-indices-section');
@@ -1229,6 +1263,11 @@ function setupMarketFilter(rowsByLabel) {
     const isBondsFilter = filter === 'Anleihen';
     const isStartFilter = filter === 'Alle';
     globalSection.style.display = isIndizesCategory ? '' : 'none';
+    // Groesste Bewegungen + Makro-Barometer (VIX/Gold/Oel/Dollar) sind wie
+    // Futures immer auf der Start-Ansicht sichtbar, unabhaengig vom
+    // gewaehlten Sektor - morgendlicher Marktueberblick auf einen Blick.
+    topMoversSection.style.display = (isStartFilter && topMoversSection.dataset.hasData === '1') ? '' : 'none';
+    macroBarometerSection.style.display = isStartFilter ? '' : 'none';
     // Futures gelten nur der Vorboersen-Uebersicht: nur auf der Start-Ansicht
     // und nur solange die Kassaboerse noch geschlossen ist.
     futuresSection.style.display = (isStartFilter && !marketOpen) ? '' : 'none';
@@ -1552,6 +1591,8 @@ async function init() {
   const rowsByLabel = {};
   (market.rows || []).forEach(r => { rowsByLabel[r.label] = r; });
 
+  renderTopMovers(rowsByLabel);
+  renderMacroBarometer(rowsByLabel);
   renderFutures(rowsByLabel);
   renderGlobalIndices(rowsByLabel);
   renderBonds(rowsByLabel);

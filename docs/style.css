@@ -55,6 +55,7 @@ body {
    unten) zaehlt - im 2-Spalten-Raster zickzackt die Reihenfolge und ist
    schwer zu lesen, deshalb hier immer ein Block untereinander. */
 #bonds-section .tickers,
+#top-movers-section .tickers,
 .position-section .tickers { grid-template-columns: 1fr; }
 .ticker-card {
   background: transparent; border: 1px solid var(--border-dim); padding: 10px 12px;
