@@ -21,6 +21,10 @@ NEWS_QUERIES = [
     {"label": "Rüstung", "query": "defense stocks military spending", "hl": "en-US", "gl": "US"},
     {"label": "Energy", "query": "oil price OPEC energy commodities", "hl": "en-US", "gl": "US"},
     {"label": "Konsum", "query": "consumer goods retail sales stocks", "hl": "en-US", "gl": "US"},
+    # Eigene Anleihen-Suche statt der generischeren Makro-Query oben (Zinsen/
+    # Inflation-Fokus) - hier direkt Anleihen-Kursbewegungen/-Renditen,
+    # passend zur Anleihen-Rubrik (US/DE/UK/JP 10-Jahre).
+    {"label": "Anleihen", "query": "bond yields Treasury 10-year", "hl": "en-US", "gl": "US"},
     # require_in_title: Google-News-RSS matcht auch auf den Volltext, nicht
     # nur den Titel - ein Artikel ueber "5 Aktien, die den DAX outperformt
     # haben" waere sonst als "DAX-News" einsortiert, obwohl er nicht wirklich
