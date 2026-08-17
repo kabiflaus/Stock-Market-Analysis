@@ -14,9 +14,10 @@ from urllib.parse import quote
 import feedparser
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import NEWS_QUERIES, MAX_ITEMS_PER_QUERY, RETENTION_DAYS, ALLOWED_SOURCES
+from config import NEWS_QUERIES, MAX_ITEMS_PER_QUERY, RETENTION_DAYS, ALLOWED_SOURCES, TICKER_NAMES
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "headlines.json")
+MARKET_DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "market.json")
 
 # feedparser.parse() hat keinen eigenen Timeout-Parameter und haengt sich an
 # den globalen Socket-Timeout - ohne den kann eine einzelne haengende Google-
@@ -47,9 +48,33 @@ def is_allowed(source: str) -> bool:
     return any(allowed in source_lower for allowed in ALLOWED_SOURCES)
 
 
-def fetch_all() -> list[dict]:
+def load_top_movers() -> list[str]:
+    """Liest die von fetch_market.py ermittelten 5 groessten Tagesbewegungen
+    (setzt voraus, dass "Kurse abrufen" VOR "News sammeln" laeuft, s.
+    collect.yml) - Grundlage fuer gezielte "warum bewegt sich das"-Suchen
+    zusaetzlich zu den statischen NEWS_QUERIES unten."""
+    if not os.path.exists(MARKET_DATA_PATH):
+        return []
+    try:
+        with open(MARKET_DATA_PATH, "r", encoding="utf-8") as f:
+            return json.load(f).get("top_movers", [])
+    except (json.JSONDecodeError, FileNotFoundError):
+        return []
+
+
+def mover_queries(tickers: list[str]) -> list[dict]:
+    # Label = Ticker-Symbol selbst (nicht wie bei den statischen Queries ein
+    # Themen-Name) - app.js matcht darueber die Schlagzeile auf die passende
+    # Positions-Karte in "Groesste Bewegungen".
+    return [
+        {"label": ticker, "query": f"{TICKER_NAMES.get(ticker, ticker)} stock", "hl": "en-US", "gl": "US"}
+        for ticker in tickers
+    ]
+
+
+def fetch_all(queries: list[dict]) -> list[dict]:
     items = []
-    for query in NEWS_QUERIES:
+    for query in queries:
         url = build_url(query)
         try:
             feed = feedparser.parse(url)
@@ -112,7 +137,8 @@ def merge_and_clean(existing: list[dict], new: list[dict]) -> list[dict]:
 
 def main():
     existing = load_existing()
-    new_items = fetch_all()
+    queries = NEWS_QUERIES + mover_queries(load_top_movers())
+    new_items = fetch_all(queries)
     merged = merge_and_clean(existing, new_items)
 
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)

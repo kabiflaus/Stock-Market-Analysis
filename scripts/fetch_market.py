@@ -246,10 +246,26 @@ def fetch_snapshot() -> list[dict]:
     return rows
 
 
+def compute_top_movers(rows: list[dict], count: int = 5) -> list[str]:
+    """5 Einzel-Ticker (Sektor-Positionen/Index-Holdings) mit der groessten
+    Tagesbewegung - nicht fuer die Anzeige (das berechnet renderTopMovers()
+    in app.js nochmal selbst client-seitig aus denselben Daten), sondern
+    damit fetch_news.py weiss, fuer welche Ticker sich eine gezielte "warum
+    bewegt sich das" News-Suche lohnt. Zahl (5) muss mit app.js uebereinstimmen."""
+    candidates = [
+        r for r in rows
+        if r["label"] in _position_tickers and isinstance(r.get("change_pct"), (int, float))
+    ]
+    candidates.sort(key=lambda r: abs(r["change_pct"]), reverse=True)
+    return [r["label"] for r in candidates[:count]]
+
+
 def main():
+    rows = fetch_snapshot()
     snapshot = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "rows": fetch_snapshot(),
+        "rows": rows,
+        "top_movers": compute_top_movers(rows),
     }
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
