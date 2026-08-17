@@ -14,7 +14,7 @@ from urllib.parse import quote
 import feedparser
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import NEWS_QUERIES, MAX_ITEMS_PER_QUERY, RETENTION_DAYS, BLOCKED_SOURCES
+from config import NEWS_QUERIES, MAX_ITEMS_PER_QUERY, RETENTION_DAYS, ALLOWED_SOURCES
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "headlines.json")
 
@@ -42,9 +42,9 @@ def parse_time(entry) -> str:
     return dt.isoformat()
 
 
-def is_blocked(source: str) -> bool:
+def is_allowed(source: str) -> bool:
     source_lower = source.lower()
-    return any(blocked in source_lower for blocked in BLOCKED_SOURCES)
+    return any(allowed in source_lower for allowed in ALLOWED_SOURCES)
 
 
 def fetch_all() -> list[dict]:
@@ -64,7 +64,7 @@ def fetch_all() -> list[dict]:
             if getattr(entry, "source", None):
                 source = getattr(entry.source, "title", "") or ""
 
-            if is_blocked(source):
+            if not is_allowed(source):
                 continue
 
             title = entry.get("title", "").strip()
