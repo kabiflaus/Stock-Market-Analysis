@@ -24,7 +24,15 @@ body {
 }
 .updated { color: var(--text-dim); font-size: 0.8rem; text-align: center; margin-bottom: 18px; }
 
-.pills { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 16px; }
+/* Sticky, damit beim Reinscrollen in einen Sektor/Anleihen/Indizes immer
+   sichtbar bleibt, wo man gerade ist - sonst verschwindet die aktive
+   Markierung (s. .pill.active) beim Scrollen aus dem Bild. */
+.pills {
+  display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 16px;
+  position: sticky; top: 0; z-index: 5; background: var(--bg);
+  padding: 8px 0 10px; margin-top: -8px;
+  border-bottom: 1px solid var(--border-dim);
+}
 .pills-top { display: flex; gap: 8px; justify-content: center; align-items: center; }
 .pills-row { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; position: relative; }
 .pill {
