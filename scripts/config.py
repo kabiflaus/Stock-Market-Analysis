@@ -289,15 +289,17 @@ PRIORITY_KEYWORDS = [
     "upgrade", "bankruptcy", "insolvenz", "warnung", "profit warning",
 ]
 
-BLOCKED_SOURCES = [
-    "motley fool", "seeking alpha", "tipranks", "benzinga", "tradingkey",
-    "gurufocus", "smartkarma", "barchart.com", "stocktwits", "finviz",
-    "24/7 wall st", "thestreet.com", "zacks",
-    # Harte Bezahlschranke - Artikel nach 1-2 Saetzen abgeschnitten, ohne
-    # Abo nicht lesbar. Lieber ganz weglassen als einen Teaser verlinken.
-    "welt", "faz.net", "handelsblatt", "wiwo.de", "wirtschaftswoche",
-    "sueddeutsche", "bild.de", "wsj.com", "the wall street journal",
-    "ft.com", "financial times", "barron's", "barrons.com",
-    "the economist", "new york times", "washington post", "the times",
-    "the telegraph", "investor's business daily",
+# Positivliste statt Sperrliste (Stand Aug 2026): eine wachsende Sperrliste
+# ("alles ausser diesen dubiosen/klickbaitigen Quellen") liess neue, noch
+# nicht aufgefallene Billig-/KI-generierte Quellen erstmal ungefiltert durch,
+# bis sie manuell nachgesperrt wurden. Umgekehrt einfacher zu pflegen: nur
+# grosse, etablierte Nachrichtenagenturen/-sender, die oeffentlich frei
+# lesbar sind (kein Hard-Paywall wie Bloomberg/WSJ/FT/Handelsblatt/Welt/FAZ -
+# die fallen dadurch automatisch raus, ohne einzeln gelistet werden zu
+# muessen). Nicht abschliessend - bei Bedarf gerne erweitern.
+ALLOWED_SOURCES = [
+    "reuters", "associated press", "ap news",
+    "cnbc", "marketwatch", "yahoo finance",
+    "bbc", "guardian", "cnn", "axios",
+    "tagesschau", "n-tv",
 ]

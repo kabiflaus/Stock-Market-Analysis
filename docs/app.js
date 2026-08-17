@@ -1184,20 +1184,22 @@ function renderMarketHeadlines(headlines) {
   return marketHeadlines;
 }
 
-const MACRO_MAX_VISIBLE = 1;
+const MACRO_MAX_VISIBLE = 2;
+const TOP_NEWS_MAX_VISIBLE = 3;
 
-// "Makro & Weltpolitik" ist kein Sektor-Filter, sondern ein eigener, immer
-// sichtbarer Block oberhalb der Pillen (unabhaengig vom gewaehlten Filter) -
-// deckt Zinsentscheide, Inflationsdaten und marktbewegende Geopolitik ab.
+// "Makro & Weltpolitik" ist kein Sektor-Filter, sondern liegt direkt unter
+// dem Makro-Barometer (VIX/Gold/Oel/Dollar-Index) - deckt Zinsentscheide,
+// Inflationsdaten und marktbewegende Geopolitik ab, unabhaengig vom
+// gewaehlten Sektor-Filter (sichtbar nur auf der Start-Ansicht, s. apply()).
 function renderMacroBlock(headlines) {
   const macroHeadlines = headlines.filter(h => h.label === 'Makro & Weltpolitik');
   const html = macroHeadlines.map((h, i) => headlineHtml(h, i, null)).join('');
-  document.getElementById('headlines-fedmakro').innerHTML = html || '<p>Noch keine Makro-Schlagzeilen gesammelt.</p>';
+  document.getElementById('headlines-macro').innerHTML = html || '<p>Noch keine Makro-Schlagzeilen gesammelt.</p>';
   return macroHeadlines;
 }
 
 function setupMacroExpand() {
-  const items = document.querySelectorAll('#headlines-fedmakro .headline');
+  const items = document.querySelectorAll('#headlines-macro .headline');
   const moreBtn = document.getElementById('macro-more-btn');
   let expanded = false;
   function apply() {
@@ -1208,6 +1210,32 @@ function setupMacroExpand() {
     moreBtn.style.display = items.length > MACRO_MAX_VISIBLE ? 'block' : 'none';
     moreBtn.addEventListener('click', () => { expanded = !expanded; apply(); });
   }
+  apply();
+}
+
+// "Wichtigste News": statt eines eigenen, optisch abgesetzten Makro-Blocks
+// nur noch die 3 wichtigsten Schlagzeilen ueber ALLE Kategorien hinweg
+// (Prioritaets-markierte zuerst, s. isPriority/PRIORITY_KEYWORDS, sonst
+// nach Datum) - unabhaengig vom Sektor-Filter, immer ganz oben sichtbar.
+function renderTopNews(headlines) {
+  const priority = headlines.filter(h => isPriority(h.title));
+  const rest = headlines.filter(h => !isPriority(h.title));
+  const sorted = [...priority, ...rest];
+  const html = sorted.map((h, i) => headlineHtml(h, i, TOP_NEWS_MAX_VISIBLE)).join('');
+  document.getElementById('headlines-top').innerHTML = html || '<p>Noch keine Schlagzeilen gesammelt.</p>';
+  document.getElementById('top-news-more-btn').style.display = sorted.length > TOP_NEWS_MAX_VISIBLE ? 'block' : 'none';
+  return sorted;
+}
+
+function setupTopNewsExpand() {
+  const items = document.querySelectorAll('#headlines-top .headline');
+  const moreBtn = document.getElementById('top-news-more-btn');
+  let expanded = false;
+  function apply() {
+    items.forEach((el, i) => { el.style.display = (i >= TOP_NEWS_MAX_VISIBLE && !expanded) ? 'none' : ''; });
+    if (moreBtn) moreBtn.textContent = expanded ? 'Weniger anzeigen' : 'Mehr anzeigen';
+  }
+  if (moreBtn) moreBtn.addEventListener('click', () => { expanded = !expanded; apply(); });
   apply();
 }
 
@@ -1638,6 +1666,7 @@ async function init() {
   renderIndexHoldings(rowsByLabel);
   renderMarketHeadlines(headlines);
   renderMacroBlock(headlines);
+  renderTopNews(headlines);
 
   document.getElementById('updated-line').textContent =
     'Kurse zuletzt: ' + (market.fetched_at ? fmtTime(market.fetched_at) : 'n/a');
@@ -1645,6 +1674,7 @@ async function init() {
   setupMarketFilter(rowsByLabel);
   setupPositionExpand();
   setupMacroExpand();
+  setupTopNewsExpand();
   setupIndexChartTooltip();
   startLiveUpdates();
 }

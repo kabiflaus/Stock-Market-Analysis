@@ -7,7 +7,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Morgen-Feed</title>
-<link rel="stylesheet" href="style.css?v=2026-08-17g">
+<link rel="stylesheet" href="style.css?v=2026-08-17h">
 </head>
 <body>
   <h1 class="site-title">Morgen-Feed</h1>
@@ -15,12 +15,12 @@
   <button class="refresh-btn" id="markets-refresh-btn" title="Aktualisieren">↻</button>
 
   <div id="view-markets">
-    <div class="section fedmakro-block" id="fedmakro-block">
-      <div class="fedmakro-header">
-        <h2>Makro &amp; Weltpolitik</h2>
-        <button id="macro-more-btn" style="display:none">Mehr anzeigen</button>
+    <div class="section" id="top-news-section">
+      <div class="section-header">
+        <h2>Wichtigste News</h2>
+        <button id="top-news-more-btn" style="display:none">Mehr anzeigen</button>
       </div>
-      <div class="headlines" id="headlines-fedmakro"></div>
+      <div class="headlines" id="headlines-top"></div>
     </div>
 
     <div class="pills" id="pills-markets">
@@ -41,6 +41,8 @@
     <div class="section" id="macro-barometer-section">
       <h2>Makro-Barometer</h2>
       <div class="tickers"></div>
+      <div class="headlines" id="headlines-macro"></div>
+      <button id="macro-more-btn" style="display:none">Mehr anzeigen</button>
     </div>
 
     <div class="section" id="futures-section">
@@ -67,6 +69,6 @@
     <button id="more-btn" style="display:none">Mehr anzeigen</button>
   </div>
 
-  <script src="app.js?v=2026-08-17i"></script>
+  <script src="app.js?v=2026-08-17j"></script>
 </body>
 </html>

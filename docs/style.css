@@ -226,17 +226,12 @@ body {
 .index-chart-tooltip-bg { fill: var(--bg); stroke: var(--idx-accent); stroke-width: 1; }
 .index-chart-tooltip-text { font: 700 9px var(--idx-mono); fill: var(--text); }
 
-/* Fed/Makro: eigener, optisch abgesetzter Block oberhalb der Sektor-Pillen -
-   kein Filter mehr, immer sichtbar unabhaengig vom gewaehlten Sektor. */
-.fedmakro-block {
-  background: transparent; border: 1px solid var(--border-dim); border-left: 3px solid var(--accent);
-  padding: 12px 14px 4px; margin-bottom: 20px;
-}
-.fedmakro-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
-.fedmakro-block h2 { color: var(--accent); margin: 0; }
-.fedmakro-block .headline:last-child { border-bottom: none; }
 #macro-more-btn {
-  flex-shrink: 0; background: transparent; color: var(--accent);
+  display: block; margin: 10px auto 0; background: transparent; color: var(--text-dim);
+  border: 1px solid var(--border); padding: 6px 14px; font-size: 0.75rem;
+}
+#top-news-more-btn {
+  flex-shrink: 0; background: transparent; color: var(--text-dim);
   border: 1px solid var(--border); padding: 4px 10px; font-size: 0.7rem;
 }
 
