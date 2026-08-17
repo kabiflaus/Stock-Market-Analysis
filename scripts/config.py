@@ -57,14 +57,14 @@ TICKER_GROUPS = {
         "KOSPI (Südkorea)": "^KS11",
         "Hang Seng (Hongkong)": "^HSI",
     },
-    # US-Renditen ueber CBOE-Zinsindizes (^IRX/^FVX/^TNX/^TYX) - offizielle
-    # Yahoo-Produkte, verlaesslich, taeglich. Fuer Deutschland/UK/Japan hat
+    # US-Renditen ueber CBOE-Zinsindizes (^TNX/^TYX) - offizielle Yahoo-
+    # Produkte, verlaesslich, taeglich. Nur 10/30 Jahre, damit es zu den
+    # DE/UK/JP-Laufzeiten unten passt (einheitlich 10 Jahre, dort zusaetzlich
+    # 30 Jahre als zweiter US-Datenpunkt). Fuer Deutschland/UK/Japan hat
     # Yahoo keine aequivalenten Indizes (6 direkt versuchte Ticker-Kandidaten
     # scheiterten alle mit HTTP 404, Aug 2026) - die kommen stattdessen ueber
     # FRED_BOND_SERIES unten (andere Quelle, andere Aktualisierungsfrequenz).
     "Anleihen": {
-        "US 3-Monate": "^IRX",
-        "US 5-Jahre": "^FVX",
         "US 10-Jahre": "^TNX",
         "US 30-Jahre": "^TYX",
     },
@@ -90,8 +90,6 @@ TICKER_FLAGS = {
     "FTSE 100 (UK)": "🇬🇧",
     "KOSPI (Südkorea)": "🇰🇷",
     "Hang Seng (Hongkong)": "🇭🇰",
-    "US 3-Monate": "🇺🇸",
-    "US 5-Jahre": "🇺🇸",
     "US 10-Jahre": "🇺🇸",
     "US 30-Jahre": "🇺🇸",
     "Deutschland 10-Jahre": "🇩🇪",
