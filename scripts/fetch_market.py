@@ -146,7 +146,7 @@ def fetch_fx_rates(currencies: set[str]) -> dict[str, float]:
     rates: dict[str, float] = {}
     for ccy in sorted(currencies):
         try:
-            price, _, _, _ = fetch_ticker(f"EUR{ccy}=X")
+            price, _, _, _, _ = fetch_ticker(f"EUR{ccy}=X")
             if price:
                 rates[ccy] = price
         except Exception as e:
