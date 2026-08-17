@@ -5,10 +5,11 @@ on:
     # Feste Laufzeiten, umgerechnet fuer MESZ (UTC+2, Sommerzeit).
     # Im Winter (MEZ, UTC+1) verschieben sich die Zeiten um -1h relativ
     # zur deutschen Uhrzeit - dann muessen die Werte um 1h erhoeht werden.
-    - cron: "0 3 * * *"    # 05:00 MESZ
-    - cron: "0 5 * * *"    # 07:00 MESZ
+    - cron: "30 5 * * *"   # 07:30 MESZ
+    - cron: "0 6 * * *"    # 08:00 MESZ
+    - cron: "0 7 * * *"    # 09:00 MESZ
     - cron: "30 12 * * *"  # 14:30 MESZ
-    - cron: "0 20 * * *"   # 22:00 MESZ
+    - cron: "0 13 * * *"   # 15:00 MESZ
   workflow_dispatch: {}   # erlaubt manuellen Start über den "Actions"-Tab
 
 permissions:

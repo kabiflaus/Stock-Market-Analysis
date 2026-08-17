@@ -10,6 +10,7 @@
   --down: #f85149;
   --neutral: #d4a72c;
   --accent: #6ea8fe;
+  --pill-accent: #f0a020;
 }
 * { box-sizing: border-box; }
 body {
@@ -39,7 +40,7 @@ body {
   background: transparent; color: var(--text-dim); border: 1px solid var(--border);
   padding: 5px 13px; font-size: 0.78rem; font-weight: 500;
 }
-.pill.active { background: var(--text); color: var(--bg); border-color: var(--text); font-weight: 700; }
+.pill.active { background: var(--pill-accent); color: var(--bg); border-color: var(--pill-accent); font-weight: 700; }
 .pill-all {
   font-size: 0.85rem; padding: 6px 22px; border-width: 2px; font-weight: 700;
 }
@@ -187,12 +188,10 @@ body {
    und #index-holdings sind seit der Navigation-Umstellung ausschliesslich
    innerhalb der Indizes-Rubrik sichtbar, daher reicht die Scope-Grenze hier.
    =========================================================================== */
-:root { --idx-mono: ui-monospace, 'SF Mono', 'Roboto Mono', 'Courier New', monospace; --idx-accent: #f0a020; }
+/* --idx-accent = --pill-accent (dieselbe Farbe, jetzt fuer alle Pillen -
+   s. .pill.active oben) - eigener Name nur zur Lesbarkeit hier unten. */
+:root { --idx-mono: ui-monospace, 'SF Mono', 'Roboto Mono', 'Courier New', monospace; --idx-accent: var(--pill-accent); }
 
-#pill-indizes-markets.active,
-#indizes-row .pill.active {
-  background: var(--idx-accent); border-color: var(--idx-accent); color: var(--bg);
-}
 #indizes-row .pill { font-family: var(--idx-mono); }
 
 #global-indices-section .ticker-card,
