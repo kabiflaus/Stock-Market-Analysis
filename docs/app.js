@@ -666,7 +666,6 @@ const CONFIG = {
   ]
 };
 
-const MAX_VISIBLE = 10;
 const NEUTRAL_THRESHOLD = 0.1; // Prozent - darunter gilt ein Ticker als "neutral" (gelb)
 
 // Finnhub-API-Key fuer Live-Kurse (Einzelpositionen, siehe isLiveEligible()).
@@ -1019,7 +1018,7 @@ function gicsTagHtml(ticker) {
 // "005930.KS"), Ticker-Symbol klein darunter, Gewichtung im Sektor-ETF oben
 // rechts, GICS-Sektor-Badge neben dem Namen. Klick/Tap klappt eine kurze
 // Firmenbeschreibung auf (falls vorhanden).
-function positionCardHtml(ticker, row, weight) {
+function positionCardHtml(ticker, row, weight, newsItem) {
   row = row || {};
   const name = CONFIG.tickerNames[ticker] || ticker;
   const weightHtml = (weight !== undefined) ? '<span class="ticker-weight">' + weight + '%</span>' : '';
@@ -1032,6 +1031,13 @@ function positionCardHtml(ticker, row, weight) {
   const expandableClass = desc ? ' expandable' : '';
   const dir = direction(row.change_pct);
   const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'mini');
+  // Nur bei "Groesste Bewegungen" gesetzt (s. renderTopMovers) - Schlagzeile
+  // aus einer gezielten, nur fuer die aktuellen Top-5-Mover ausgefuehrten
+  // Suche (label = Ticker-Symbol, s. mover_queries() in fetch_news.py),
+  // Antwort auf "warum bewegt sich das heute so stark".
+  const newsHtml = newsItem ? '<div class="ticker-news-hint">' +
+    '<a href="' + esc(newsItem.link) + '" target="_blank" rel="noopener">' + esc(newsItem.title) + '</a>' +
+    '</div>' : '';
   return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '">' +
     '<div class="ticker-card-row">' +
       '<div class="ticker-card-main">' +
@@ -1050,6 +1056,7 @@ function positionCardHtml(ticker, row, weight) {
       '</div>' +
       (spark ? '<div class="ticker-card-spark">' + spark + '</div>' : '') +
     '</div>' +
+    newsHtml +
     descHtml +
     '</div>';
 }
@@ -1088,7 +1095,7 @@ function renderMacroBarometer(rowsByLabel) {
 // Ansicht, damit man nicht jeden Sektor einzeln durchklicken muss, um zu
 // sehen wo's brennt. Nur Einzel-Ticker (CONFIG.tickerNames-Eintrag), nicht
 // Futures/Indizes/Anleihen/Makro-Barometer - die sind schon eigene Karten.
-function renderTopMovers(rowsByLabel) {
+function renderTopMovers(rowsByLabel, allHeadlines) {
   const movers = Object.values(rowsByLabel)
     .filter(r => r && CONFIG.tickerNames[r.label] && typeof r.change_pct === 'number')
     .sort((a, b) => Math.abs(b.change_pct) - Math.abs(a.change_pct))
@@ -1098,7 +1105,13 @@ function renderTopMovers(rowsByLabel) {
   // hier nur merken, ob es ueberhaupt Daten gibt, damit apply() bei leerem
   // Datensatz (z.B. ganz am Anfang) keine leere Ueberschrift zeigt.
   section.dataset.hasData = movers.length ? '1' : '0';
-  const cards = movers.map(r => positionCardHtml(r.label, r, undefined));
+  // "Warum bewegt sich das": fetch_news.py sucht gezielt fuer die zuletzt
+  // ermittelten Top-5-Mover (label = Ticker-Symbol, s. mover_queries()) -
+  // allHeadlines ist bereits nach Datum sortiert, also reicht der erste Treffer.
+  const cards = movers.map(r => {
+    const newsItem = allHeadlines.find(h => h.label === r.label);
+    return positionCardHtml(r.label, r, undefined, newsItem);
+  });
   section.querySelector('.tickers').innerHTML = cards.join('');
 }
 
@@ -1176,14 +1189,6 @@ function renderIndexHoldings(rowsByLabel) {
   container.innerHTML = html;
 }
 
-function renderMarketHeadlines(headlines) {
-  const marketHeadlines = headlines.filter(h => h.label !== 'Makro & Weltpolitik');
-  const html = marketHeadlines.map((h, i) => headlineHtml(h, i, MAX_VISIBLE)).join('');
-  document.getElementById('headlines-markets').innerHTML = html || '<p>Noch keine Schlagzeilen gesammelt.</p>';
-  document.getElementById('more-btn').style.display = marketHeadlines.length > MAX_VISIBLE ? 'block' : 'none';
-  return marketHeadlines;
-}
-
 const MACRO_MAX_VISIBLE = 2;
 const TOP_NEWS_MAX_VISIBLE = 3;
 
@@ -1213,30 +1218,30 @@ function setupMacroExpand() {
   apply();
 }
 
-// "Wichtigste News": statt eines eigenen, optisch abgesetzten Makro-Blocks
-// nur noch die 3 wichtigsten Schlagzeilen ueber ALLE Kategorien hinweg
-// (Prioritaets-markierte zuerst, s. isPriority/PRIORITY_KEYWORDS, sonst
-// nach Datum) - unabhaengig vom Sektor-Filter, immer ganz oben sichtbar.
-function renderTopNews(headlines) {
-  const priority = headlines.filter(h => isPriority(h.title));
-  const rest = headlines.filter(h => !isPriority(h.title));
-  const sorted = [...priority, ...rest];
-  const html = sorted.map((h, i) => headlineHtml(h, i, TOP_NEWS_MAX_VISIBLE)).join('');
-  document.getElementById('headlines-top').innerHTML = html || '<p>Noch keine Schlagzeilen gesammelt.</p>';
-  document.getElementById('top-news-more-btn').style.display = sorted.length > TOP_NEWS_MAX_VISIBLE ? 'block' : 'none';
-  return sorted;
+function sortByPriority(list) {
+  const priority = list.filter(h => isPriority(h.title));
+  const rest = list.filter(h => !isPriority(h.title));
+  return [...priority, ...rest];
 }
 
-function setupTopNewsExpand() {
-  const items = document.querySelectorAll('#headlines-top .headline');
-  const moreBtn = document.getElementById('top-news-more-btn');
-  let expanded = false;
-  function apply() {
-    items.forEach((el, i) => { el.style.display = (i >= TOP_NEWS_MAX_VISIBLE && !expanded) ? 'none' : ''; });
-    if (moreBtn) moreBtn.textContent = expanded ? 'Weniger anzeigen' : 'Mehr anzeigen';
+// "Wichtigste News": zeigt an derselben Stelle je nach gewaehltem Filter
+// unterschiedliche Schlagzeilen - auf der Start-Ansicht die 3 wichtigsten
+// ueber ALLE Kategorien hinweg, bei einem Sektor/Anleihen nur dessen
+// Schlagzeilen, bei Indizes die der 4 Index-Pillen zusammen (Prioritaets-
+// markierte zuerst, s. isPriority/PRIORITY_KEYWORDS, sonst nach Datum).
+// Wird bei jedem Filterwechsel neu aufgerufen, s. apply() in setupMarketFilter.
+function headlinesForFilter(allHeadlines, filter, indexPillSet) {
+  if (filter === 'Alle') return sortByPriority(allHeadlines);
+  if (filter === INDIZES_OVERVIEW) {
+    return sortByPriority(allHeadlines.filter(h => indexPillSet.has(h.label)));
   }
-  if (moreBtn) moreBtn.addEventListener('click', () => { expanded = !expanded; apply(); });
-  apply();
+  return sortByPriority(allHeadlines.filter(h => h.label === filter));
+}
+
+function topNewsHeadingFor(filter) {
+  if (filter === 'Alle') return 'Wichtigste News';
+  if (filter === INDIZES_OVERVIEW) return 'Indizes – News';
+  return filter + ' – News';
 }
 
 function headlineHtml(item, index, maxVisible) {
@@ -1255,9 +1260,11 @@ function headlineHtml(item, index, maxVisible) {
 // DAX/KOSPI), die auf die grosse Detailkarte mit Top-Holdings springen.
 const INDIZES_OVERVIEW = 'IndizesUebersicht';
 
-function setupMarketFilter(rowsByLabel) {
+function setupMarketFilter(rowsByLabel, allHeadlines) {
   const pillsContainer = document.getElementById('pills-markets');
-  const headlines = document.querySelectorAll('#headlines-markets .headline');
+  const topNewsHeading = document.getElementById('top-news-heading');
+  const topNewsContainer = document.getElementById('headlines-top');
+  const topNewsMoreBtn = document.getElementById('top-news-more-btn');
   const topMoversSection = document.getElementById('top-movers-section');
   const macroBarometerSection = document.getElementById('macro-barometer-section');
   const futuresSection = document.getElementById('futures-section');
@@ -1269,7 +1276,6 @@ function setupMarketFilter(rowsByLabel) {
   const bigIndexView = document.getElementById('big-index-view');
   const positionSections = document.querySelectorAll('.position-section[data-sector]');
   const indexHoldingSections = document.querySelectorAll('.position-section[data-index]');
-  const moreBtn = document.getElementById('more-btn');
   const refreshBtn = document.getElementById('markets-refresh-btn');
   const titleEl = document.querySelector('.site-title');
   const sektorBtn = document.getElementById('pill-sektoren-markets');
@@ -1279,6 +1285,8 @@ function setupMarketFilter(rowsByLabel) {
   const indizesRow = document.getElementById('indizes-row');
   const indexPillSet = new Set(CONFIG.indexPills);
   const sektorPillSet = new Set(CONFIG.sectorOrder.filter(l => !indexPillSet.has(l)));
+  // Ob "Wichtigste News" gerade aufgeklappt ist - wird bei jedem Filter-
+  // wechsel zurueckgesetzt (neue Auswahl startet immer eingeklappt).
   let expanded = false;
   // "Alle" ist kein eigener Button mehr (Start-Seite ist einfach der
   // Zustand vor jeder Kategorie-Auswahl) - zeigt nur noch Futures + Makro
@@ -1308,6 +1316,9 @@ function setupMarketFilter(rowsByLabel) {
   }
   if (refreshBtn) {
     refreshBtn.addEventListener('click', () => location.reload());
+  }
+  if (topNewsMoreBtn) {
+    topNewsMoreBtn.addEventListener('click', () => { expanded = !expanded; apply(); });
   }
   // Einziger Weg zurueck zur Start-Ansicht (Futures/Makro-Barometer/Groesste
   // Bewegungen) - es gibt keinen eigenen "Alle"-Button mehr, und seit die
@@ -1362,13 +1373,20 @@ function setupMarketFilter(rowsByLabel) {
     indexHoldingSections.forEach(sec => {
       sec.style.display = (sec.dataset.index === filter) ? '' : 'none';
     });
-    headlines.forEach((h, i) => {
-      const matches = isStartFilter || (h.dataset.label === filter);
-      if (!matches) { h.style.display = 'none'; return; }
-      const hiddenByLimit = isStartFilter && (i >= MAX_VISIBLE) && !expanded;
-      h.style.display = hiddenByLimit ? 'none' : '';
+    // "Wichtigste News" zeigt je nach Filter etwas anderes an derselben
+    // Stelle (s. headlinesForFilter) - komplett neu gerendert statt nur
+    // ein-/auszublenden, da sich Inhalt und Reihenfolge je Filter unterscheiden.
+    if (topNewsHeading) topNewsHeading.textContent = topNewsHeadingFor(filter);
+    const topNews = headlinesForFilter(allHeadlines, filter, indexPillSet);
+    topNewsContainer.innerHTML = topNews.map((h, i) => headlineHtml(h, i, TOP_NEWS_MAX_VISIBLE)).join('')
+      || '<p>Noch keine Schlagzeilen zu dieser Auswahl.</p>';
+    topNewsContainer.querySelectorAll('.headline').forEach((el, i) => {
+      el.style.display = (i >= TOP_NEWS_MAX_VISIBLE && !expanded) ? 'none' : '';
     });
-    if (moreBtn) moreBtn.style.display = (isStartFilter && !expanded && headlines.length > MAX_VISIBLE) ? 'block' : 'none';
+    if (topNewsMoreBtn) {
+      topNewsMoreBtn.style.display = topNews.length > TOP_NEWS_MAX_VISIBLE ? 'block' : 'none';
+      topNewsMoreBtn.textContent = expanded ? 'Weniger anzeigen' : 'Mehr anzeigen';
+    }
 
     // Die 3 Kategorie-Pillen sind aktiv, sobald der Filter zu ihrer Kategorie
     // gehoert (nicht 1:1 gleich dem Filterwert - "Sektoren" z.B. fuer alle 5
@@ -1415,7 +1433,6 @@ function setupMarketFilter(rowsByLabel) {
     apply();
   });
 
-  if (moreBtn) moreBtn.addEventListener('click', () => { expanded = true; apply(); });
   apply();
 }
 
@@ -1657,24 +1674,21 @@ async function init() {
   const rowsByLabel = {};
   (market.rows || []).forEach(r => { rowsByLabel[r.label] = r; });
 
-  renderTopMovers(rowsByLabel);
+  renderTopMovers(rowsByLabel, headlines);
   renderMacroBarometer(rowsByLabel);
   renderFutures(rowsByLabel);
   renderGlobalIndices(rowsByLabel);
   renderBonds(rowsByLabel);
   renderPositionSections(rowsByLabel);
   renderIndexHoldings(rowsByLabel);
-  renderMarketHeadlines(headlines);
   renderMacroBlock(headlines);
-  renderTopNews(headlines);
 
   document.getElementById('updated-line').textContent =
     'Kurse zuletzt: ' + (market.fetched_at ? fmtTime(market.fetched_at) : 'n/a');
 
-  setupMarketFilter(rowsByLabel);
+  setupMarketFilter(rowsByLabel, headlines);
   setupPositionExpand();
   setupMacroExpand();
-  setupTopNewsExpand();
   setupIndexChartTooltip();
   startLiveUpdates();
 }

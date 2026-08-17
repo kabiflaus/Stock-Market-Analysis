@@ -245,7 +245,11 @@ body {
           padding: 2px 7px; border: 1px solid var(--down); margin-left: 6px; }
 .meta { color: var(--text-dimmer); font-size: 0.75rem; margin-top: 4px; }
 
-#more-btn {
-  display: block; margin: 18px auto 0; background: transparent; color: var(--text);
-  border: 1px solid var(--border); padding: 10px 20px; font-size: 0.85rem;
+/* "Warum bewegt sich das": Schlagzeile auf den Karten in "Groesste
+   Bewegungen" (s. renderTopMovers) - kompakt, eigene Zeile unter Preis/
+   Sparkline statt im aufklappbaren Beschreibungstext, da direkt relevant. */
+.ticker-news-hint { margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--border-dim); }
+.ticker-news-hint a {
+  color: var(--text-dim); text-decoration: none; font-size: 0.72rem; line-height: 1.35;
 }
+.ticker-news-hint a:hover { text-decoration: underline; }

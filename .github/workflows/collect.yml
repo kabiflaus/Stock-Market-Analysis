@@ -28,11 +28,15 @@ jobs:
       - name: Dependencies installieren
         run: pip install -r requirements.txt
 
-      - name: News sammeln
-        run: python scripts/fetch_news.py
-
       - name: Kurse abrufen
         run: python scripts/fetch_market.py
+
+      # Muss NACH "Kurse abrufen" laufen - liest die dort ermittelten
+      # groessten Tagesbewegungen (docs/data/market.json: top_movers) fuer
+      # gezielte "warum bewegt sich das"-Suchen, s. load_top_movers() in
+      # fetch_news.py.
+      - name: News sammeln
+        run: python scripts/fetch_news.py
 
       - name: Änderungen committen
         run: |
