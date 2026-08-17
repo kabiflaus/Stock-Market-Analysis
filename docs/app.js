@@ -26,12 +26,9 @@ const CONFIG = {
       "US 5-Jahre": "^FVX",
       "US 10-Jahre": "^TNX",
       "US 30-Jahre": "^TYX",
-      "Deutschland 5-Jahre": "DE5Y-DE",
-      "Deutschland 10-Jahre": "DE10Y-DE",
-      "UK 5-Jahre": "GB5Y-GB",
-      "UK 10-Jahre": "GB10Y-GB",
-      "Japan 5-Jahre": "JP5Y-JP",
-      "Japan 10-Jahre": "JP10Y-JP"
+      "Deutschland 10-Jahre": "IRLTLT01DEM156N",
+      "UK 10-Jahre": "IRLTLT01GBM156N",
+      "Japan 10-Jahre": "IRLTLT01JPM156N"
     }
   },
   "tickerFlags": {
@@ -46,11 +43,8 @@ const CONFIG = {
     "US 5-Jahre": "🇺🇸",
     "US 10-Jahre": "🇺🇸",
     "US 30-Jahre": "🇺🇸",
-    "Deutschland 5-Jahre": "🇩🇪",
     "Deutschland 10-Jahre": "🇩🇪",
-    "UK 5-Jahre": "🇬🇧",
     "UK 10-Jahre": "🇬🇧",
-    "Japan 5-Jahre": "🇯🇵",
     "Japan 10-Jahre": "🇯🇵"
   },
   "sectorTickerMap": {
