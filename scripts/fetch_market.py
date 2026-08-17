@@ -49,7 +49,7 @@ ALL_TICKERS = {**GROUP_TICKERS, **{t: t for t in _position_tickers}}
 # Anleihen-Renditen sind Prozentwerte, keine Geldbetraege - fuer diese Labels
 # wird nie in Euro umgerechnet (und das Waehrungsfeld wird verworfen, sonst
 # koennte die Anzeige faelschlich einen Waehrungs-Badge dazu zeigen).
-BOND_LABELS = set(TICKER_GROUPS["Anleihen (USA)"].keys())
+BOND_LABELS = set(TICKER_GROUPS["Anleihen"].keys())
 
 # Globale Indizes sind Punktestaende, keine Geldbetraege - Yahoo haengt zwar
 # trotzdem eine "Waehrung" der jeweiligen Boerse dran (z.B. KRW fuer KOSPI),
@@ -66,7 +66,7 @@ NO_CURRENCY_LABELS = BOND_LABELS | set(TICKER_GROUPS["Globale Indizes"].keys())
 # fuer Nicht-Positions-Ticker verworfen statt gespeichert.
 SPARKLINE_LABELS = (
     set(TICKER_GROUPS["Globale Indizes"].keys())
-    | set(TICKER_GROUPS["Anleihen (USA)"].keys())
+    | set(TICKER_GROUPS["Anleihen"].keys())
     | _position_tickers
 )
 

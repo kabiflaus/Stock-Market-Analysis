@@ -60,11 +60,22 @@ TICKER_GROUPS = {
     # US-Staatsanleihen-Renditen als Makro-Barometer. Bewusst nur USA: fuer
     # Deutschland/UK/Japan gibt es bei Yahoo keine verlaesslichen Rendite-Ticker
     # (anders als bei Aktienindizes) - lieber ehrlich weglassen als geraten.
-    "Anleihen (USA)": {
+    # US-Renditen ueber CBOE-Zinsindizes (^IRX/^FVX/^TNX/^TYX) - offizielle
+    # Yahoo-Produkte, verlaesslich. Fuer DE/UK/JP hat Yahoo keine
+    # aequivalenten Indizes, deshalb dort direkte Staatsanleihen-Symbole
+    # (unbestaetigt, s. Kommentar in fetch_market.py - fallen bei Fehler
+    # einfach als "n/a" raus statt falsche Werte zu zeigen).
+    "Anleihen": {
         "US 3-Monate": "^IRX",
         "US 5-Jahre": "^FVX",
         "US 10-Jahre": "^TNX",
         "US 30-Jahre": "^TYX",
+        "Deutschland 5-Jahre": "DE5Y-DE",
+        "Deutschland 10-Jahre": "DE10Y-DE",
+        "UK 5-Jahre": "GB5Y-GB",
+        "UK 10-Jahre": "GB10Y-GB",
+        "Japan 5-Jahre": "JP5Y-JP",
+        "Japan 10-Jahre": "JP10Y-JP",
     },
 }
 
@@ -80,6 +91,12 @@ TICKER_FLAGS = {
     "US 5-Jahre": "🇺🇸",
     "US 10-Jahre": "🇺🇸",
     "US 30-Jahre": "🇺🇸",
+    "Deutschland 5-Jahre": "🇩🇪",
+    "Deutschland 10-Jahre": "🇩🇪",
+    "UK 5-Jahre": "🇬🇧",
+    "UK 10-Jahre": "🇬🇧",
+    "Japan 5-Jahre": "🇯🇵",
+    "Japan 10-Jahre": "🇯🇵",
 }
 
 # Welche "Globale Indizes"-Ticker bei welchem Sektor-Filter eingeblendet
