@@ -1217,6 +1217,7 @@ function setupMarketFilter(rowsByLabel) {
   const indexHoldingSections = document.querySelectorAll('.position-section[data-index]');
   const moreBtn = document.getElementById('more-btn');
   const refreshBtn = document.getElementById('markets-refresh-btn');
+  const titleEl = document.querySelector('.site-title');
   const sektorBtn = document.getElementById('pill-sektoren-markets');
   const indizesBtn = document.getElementById('pill-indizes-markets');
   const anleihenBtn = document.getElementById('pill-anleihen-markets');
@@ -1253,6 +1254,17 @@ function setupMarketFilter(rowsByLabel) {
   }
   if (refreshBtn) {
     refreshBtn.addEventListener('click', () => location.reload());
+  }
+  // Einziger Weg zurueck zur Start-Ansicht (Futures/Makro-Barometer/Groesste
+  // Bewegungen) - es gibt keinen eigenen "Alle"-Button mehr, und seit die
+  // Ansicht in localStorage gemerkt wird, kaeme man sonst ohne manuelle
+  // URL-Aenderung nie wieder dorthin zurueck.
+  if (titleEl) {
+    titleEl.addEventListener('click', () => {
+      filter = 'Alle';
+      expanded = false;
+      apply();
+    });
   }
 
   function apply() {
