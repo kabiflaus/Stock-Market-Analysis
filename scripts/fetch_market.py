@@ -57,8 +57,11 @@ BOND_LABELS = set(TICKER_GROUPS["Anleihen"].keys()) | set(FRED_BOND_SERIES.keys(
 # trotzdem eine "Waehrung" der jeweiligen Boerse dran (z.B. KRW fuer KOSPI),
 # aber der Indexstand durch den EUR/KRW-Kurs zu teilen ergibt keinen echten
 # Euro-Preis, nur eine sinnlose Zahl. Also wie Anleihen von der Umrechnung
-# ausnehmen.
-NO_CURRENCY_LABELS = BOND_LABELS | set(TICKER_GROUPS["Globale Indizes"].keys())
+# ausnehmen. VIX und Dollar-Index sind ebenfalls Punktestaende (kein reales
+# Handelsgut wie Gold/Oel) - Gold/Oel aus "Makro-Barometer" bekommen
+# bewusst KEINEN Sonderstatus und werden ganz normal in Euro umgerechnet.
+INDEX_STYLE_LABELS = {"VIX (Volatilität)", "Dollar-Index"}
+NO_CURRENCY_LABELS = BOND_LABELS | set(TICKER_GROUPS["Globale Indizes"].keys()) | INDEX_STYLE_LABELS
 
 # Fuer diese Labels wird zusaetzlich eine kurze Kursreihe gespeichert -
 # Grundlage fuer die Mini-Graphen bei der Index-Detailansicht sowie (seit
@@ -69,6 +72,7 @@ NO_CURRENCY_LABELS = BOND_LABELS | set(TICKER_GROUPS["Globale Indizes"].keys())
 SPARKLINE_LABELS = (
     set(TICKER_GROUPS["Globale Indizes"].keys())
     | set(TICKER_GROUPS["Anleihen"].keys())
+    | set(TICKER_GROUPS["Makro-Barometer"].keys())
     | set(FRED_BOND_SERIES.keys())
     | _position_tickers
 )
