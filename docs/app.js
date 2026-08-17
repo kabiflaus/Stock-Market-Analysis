@@ -21,11 +21,14 @@ const CONFIG = {
       "KOSPI (Südkorea)": "^KS11",
       "Hang Seng (Hongkong)": "^HSI"
     },
-    "Anleihen (USA)": {
+    "Anleihen": {
       "US 3-Monate": "^IRX",
       "US 5-Jahre": "^FVX",
       "US 10-Jahre": "^TNX",
-      "US 30-Jahre": "^TYX"
+      "US 30-Jahre": "^TYX",
+      "Deutschland 10-Jahre": "IRLTLT01DEM156N",
+      "UK 10-Jahre": "IRLTLT01GBM156N",
+      "Japan 10-Jahre": "IRLTLT01JPM156N"
     }
   },
   "tickerFlags": {
@@ -39,7 +42,10 @@ const CONFIG = {
     "US 3-Monate": "🇺🇸",
     "US 5-Jahre": "🇺🇸",
     "US 10-Jahre": "🇺🇸",
-    "US 30-Jahre": "🇺🇸"
+    "US 30-Jahre": "🇺🇸",
+    "Deutschland 10-Jahre": "🇩🇪",
+    "UK 10-Jahre": "🇬🇧",
+    "Japan 10-Jahre": "🇯🇵"
   },
   "sectorTickerMap": {
     "Nasdaq": [
@@ -1080,7 +1086,7 @@ function renderGlobalIndices(rowsByLabel) {
 }
 
 function renderBonds(rowsByLabel) {
-  const cards = Object.keys(CONFIG.tickerGroups['Anleihen (USA)']).map(label =>
+  const cards = Object.keys(CONFIG.tickerGroups['Anleihen']).map(label =>
     priceCardHtml(label, rowsByLabel[label], CONFIG.tickerFlags[label] || '')
   );
   document.querySelector('#bonds-section .tickers').innerHTML = cards.join('');
@@ -1198,22 +1204,29 @@ function setupMarketFilter(rowsByLabel) {
   let lastSector = [...sektorPillSet][0];
   const marketOpen = isUsMarketOpen();
 
-  // Aktualisieren-Button laedt die Seite neu, haengt dabei den aktuellen
-  // Filter an die URL, damit man nach dem Reload auf derselben Seite bleibt
-  // statt immer wieder auf die Start-Ansicht zu springen.
+  // Die zuletzt gewaehlte Ansicht wird in localStorage gemerkt (in apply()
+  // unten), damit JEDE Art von Neuladen - Aktualisieren-Button, Browser-
+  // Reload, Pull-to-Refresh, erneutes Oeffnen ueber ein Lesezeichen - auf
+  // derselben Seite landet statt immer auf die Start-Ansicht zu springen.
+  // Ein Filter in der URL (z.B. bei einem geteilten Link) hat Vorrang.
+  const FILTER_STORAGE_KEY = 'marketFilter';
   const knownFilters = new Set([...CONFIG.sectorOrder, 'Alle', 'Anleihen', INDIZES_OVERVIEW]);
   const urlFilter = new URLSearchParams(location.search).get('filter');
-  if (urlFilter && knownFilters.has(urlFilter)) {
-    filter = urlFilter;
-    if (sektorPillSet.has(urlFilter)) lastSector = urlFilter;
+  let storedFilter = null;
+  try { storedFilter = localStorage.getItem(FILTER_STORAGE_KEY); } catch (e) { /* z.B. Privatmodus */ }
+  const initialFilter = (urlFilter && knownFilters.has(urlFilter)) ? urlFilter
+    : (storedFilter && knownFilters.has(storedFilter)) ? storedFilter
+    : null;
+  if (initialFilter) {
+    filter = initialFilter;
+    if (sektorPillSet.has(initialFilter)) lastSector = initialFilter;
   }
   if (refreshBtn) {
-    refreshBtn.addEventListener('click', () => {
-      location.href = location.pathname + '?t=' + Date.now() + '&filter=' + encodeURIComponent(filter);
-    });
+    refreshBtn.addEventListener('click', () => location.reload());
   }
 
   function apply() {
+    try { localStorage.setItem(FILTER_STORAGE_KEY, filter); } catch (e) { /* z.B. Privatmodus */ }
     const isSektorFilter = sektorPillSet.has(filter);
     const isIndexFilter = indexPillSet.has(filter);
     const isIndizesCategory = isIndexFilter || filter === INDIZES_OVERVIEW;

@@ -17,7 +17,7 @@ from curl_cffi import requests as cffi_requests
 
 sys.path.insert(0, os.path.dirname(__file__))
 from config import (
-    TICKER_GROUPS, SECTOR_POSITIONS, INDEX_HOLDINGS,
+    TICKER_GROUPS, SECTOR_POSITIONS, INDEX_HOLDINGS, FRED_BOND_SERIES,
 )
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "market.json")
@@ -27,6 +27,7 @@ DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "marke
 SESSION = cffi_requests.Session(impersonate="chrome")
 
 CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
+FRED_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
 
 # Gruppen-Ticker (Futures/Globale Indizes) - Label != Ticker-Symbol
 GROUP_TICKERS = {
@@ -48,8 +49,9 @@ ALL_TICKERS = {**GROUP_TICKERS, **{t: t for t in _position_tickers}}
 
 # Anleihen-Renditen sind Prozentwerte, keine Geldbetraege - fuer diese Labels
 # wird nie in Euro umgerechnet (und das Waehrungsfeld wird verworfen, sonst
-# koennte die Anzeige faelschlich einen Waehrungs-Badge dazu zeigen).
-BOND_LABELS = set(TICKER_GROUPS["Anleihen (USA)"].keys())
+# koennte die Anzeige faelschlich einen Waehrungs-Badge dazu zeigen). Gilt
+# fuer beide Anleihen-Quellen (Yahoo + FRED).
+BOND_LABELS = set(TICKER_GROUPS["Anleihen"].keys()) | set(FRED_BOND_SERIES.keys())
 
 # Globale Indizes sind Punktestaende, keine Geldbetraege - Yahoo haengt zwar
 # trotzdem eine "Waehrung" der jeweiligen Boerse dran (z.B. KRW fuer KOSPI),
@@ -66,7 +68,8 @@ NO_CURRENCY_LABELS = BOND_LABELS | set(TICKER_GROUPS["Globale Indizes"].keys())
 # fuer Nicht-Positions-Ticker verworfen statt gespeichert.
 SPARKLINE_LABELS = (
     set(TICKER_GROUPS["Globale Indizes"].keys())
-    | set(TICKER_GROUPS["Anleihen (USA)"].keys())
+    | set(TICKER_GROUPS["Anleihen"].keys())
+    | set(FRED_BOND_SERIES.keys())
     | _position_tickers
 )
 
@@ -113,13 +116,37 @@ def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float], 
     return price, prev_close, closes, currency, dates
 
 
+def fetch_fred_series(series_id: str, points: int = 6) -> tuple[float, float | None, list[float], list[str]]:
+    """Monatliche Anleihen-Rendite von FRED (St. Louis Fed) - oeffentlicher
+    CSV-Export, kein API-Key noetig. Nutzt dieselbe curl_cffi-Session wie
+    Yahoo, auch wenn die Bot-Erkennung bei FRED kein Thema ist."""
+    resp = SESSION.get(FRED_CSV_URL.format(series_id=series_id), timeout=10)
+    resp.raise_for_status()
+    lines = resp.text.strip().splitlines()
+    dates: list[str] = []
+    values: list[float] = []
+    for line in lines[1:]:  # erste Zeile ist der Spaltenkopf
+        date, _, value = line.partition(",")
+        if not value or value == ".":  # "." = fehlender Monatswert bei FRED
+            continue
+        dates.append(date)
+        values.append(round(float(value), 2))
+    if not values:
+        raise ValueError(f"Keine Datenpunkte fuer FRED-Serie {series_id}")
+    values = values[-points:]
+    dates = dates[-points:]
+    price = values[-1]
+    prev_close = values[-2] if len(values) >= 2 else None
+    return price, prev_close, values, dates
+
+
 def fetch_fx_rates(currencies: set[str]) -> dict[str, float]:
     """EUR-Wechselkurse fuer alle Fremdwaehrungen, die tatsaechlich gebraucht
     werden (z.B. EURKRW=X liefert, wie viel Won 1 Euro gerade wert ist)."""
     rates: dict[str, float] = {}
     for ccy in sorted(currencies):
         try:
-            price, _, _, _ = fetch_ticker(f"EUR{ccy}=X")
+            price, _, _, _, _ = fetch_ticker(f"EUR{ccy}=X")
             if price:
                 rates[ccy] = price
         except Exception as e:
@@ -166,6 +193,36 @@ def fetch_snapshot() -> list[dict]:
                 "error": str(e),
             })
         time.sleep(1.5)  # Burst-Anfragen vermeiden
+
+    # Zusaetzliche Anleihen-Renditen ueber FRED statt Yahoo (s. Kommentar bei
+    # FRED_BOND_SERIES in config.py) - eigener Durchlauf, da andere Quelle/
+    # Funktion als die Yahoo-Ticker oben.
+    for label, series_id in FRED_BOND_SERIES.items():
+        try:
+            price, prev_close, values, dates = fetch_fred_series(series_id)
+            change_pct = None
+            if price is not None and prev_close:
+                change_pct = round((price - prev_close) / prev_close * 100, 2)
+            row = {
+                "label": label,
+                "ticker": series_id,
+                "price": price,
+                "prev_close": prev_close,
+                "change_pct": change_pct,
+                "currency": None,
+            }
+            if label in SPARKLINE_LABELS:
+                row["sparkline"] = values
+                row["sparkline_dates"] = dates
+            rows.append(row)
+        except Exception as e:
+            print(f"[WARN] Fehler bei {label} ({series_id}): {e}", file=sys.stderr)
+            rows.append({
+                "label": label, "ticker": series_id,
+                "price": None, "prev_close": None, "change_pct": None,
+                "error": str(e),
+            })
+        time.sleep(1.5)
 
     # Alles in Euro umrechnen (bewusst nicht fuer Anleihen/Indizes, s.
     # NO_CURRENCY_LABELS oben) - Nutzerin ist in Europa und will keine

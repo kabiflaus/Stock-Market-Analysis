@@ -57,15 +57,29 @@ TICKER_GROUPS = {
         "KOSPI (Südkorea)": "^KS11",
         "Hang Seng (Hongkong)": "^HSI",
     },
-    # US-Staatsanleihen-Renditen als Makro-Barometer. Bewusst nur USA: fuer
-    # Deutschland/UK/Japan gibt es bei Yahoo keine verlaesslichen Rendite-Ticker
-    # (anders als bei Aktienindizes) - lieber ehrlich weglassen als geraten.
-    "Anleihen (USA)": {
+    # US-Renditen ueber CBOE-Zinsindizes (^IRX/^FVX/^TNX/^TYX) - offizielle
+    # Yahoo-Produkte, verlaesslich, taeglich. Fuer Deutschland/UK/Japan hat
+    # Yahoo keine aequivalenten Indizes (6 direkt versuchte Ticker-Kandidaten
+    # scheiterten alle mit HTTP 404, Aug 2026) - die kommen stattdessen ueber
+    # FRED_BOND_SERIES unten (andere Quelle, andere Aktualisierungsfrequenz).
+    "Anleihen": {
         "US 3-Monate": "^IRX",
         "US 5-Jahre": "^FVX",
         "US 10-Jahre": "^TNX",
         "US 30-Jahre": "^TYX",
     },
+}
+
+# Zusaetzliche Anleihen-Renditen ueber FRED (St. Louis Fed, fred.stlouisfed.org)
+# statt Yahoo - kostenlos, kein API-Key noetig (oeffentlicher CSV-Export).
+# Fuehrt OECD-Langfristzinsen (10-Jahre) monatlich, mit ein paar Wochen
+# Meldeverzug - reicht fuer diesen Zweck, muss ja nicht taeglich aktuell sein.
+# Fuer 5-Jahre gibt es dort (und sonst frei zugaenglich) keine vergleichbare
+# Serie fuer diese Laender gefunden - deshalb hier nur 10-Jahre.
+FRED_BOND_SERIES = {
+    "Deutschland 10-Jahre": "IRLTLT01DEM156N",
+    "UK 10-Jahre": "IRLTLT01GBM156N",
+    "Japan 10-Jahre": "IRLTLT01JPM156N",
 }
 
 TICKER_FLAGS = {
@@ -80,6 +94,9 @@ TICKER_FLAGS = {
     "US 5-Jahre": "🇺🇸",
     "US 10-Jahre": "🇺🇸",
     "US 30-Jahre": "🇺🇸",
+    "Deutschland 10-Jahre": "🇩🇪",
+    "UK 10-Jahre": "🇬🇧",
+    "Japan 10-Jahre": "🇯🇵",
 }
 
 # Welche "Globale Indizes"-Ticker bei welchem Sektor-Filter eingeblendet
