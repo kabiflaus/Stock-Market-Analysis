@@ -1120,6 +1120,29 @@ function renderBonds(rowsByLabel) {
   document.querySelector('#bonds-section .tickers').innerHTML = cards.join('');
 }
 
+// Sektor-Sentiment: Durchschnitt der heutigen %-Bewegung aller Top-20-
+// Positionen des Sektors, grob in Buy/Hold/Sell uebersetzt. Bewusst simpel
+// (nur Tagesbewegung, kein Kursziel/keine Anlageberatung) - reiner
+// Schnelleindruck "ist der Sektor heute insgesamt eher gruen oder rot".
+const SENTIMENT_BUY_THRESHOLD = 0.5;
+const SENTIMENT_SELL_THRESHOLD = -0.5;
+function sectorSentimentHtml(tickers, rowsByLabel) {
+  const values = tickers
+    .map(t => rowsByLabel[t] && rowsByLabel[t].change_pct)
+    .filter(v => typeof v === 'number');
+  if (!values.length) return '';
+  const avg = values.reduce((a, b) => a + b, 0) / values.length;
+  let label, cls;
+  if (avg >= SENTIMENT_BUY_THRESHOLD) { label = 'Buy'; cls = 'up'; }
+  else if (avg <= SENTIMENT_SELL_THRESHOLD) { label = 'Sell'; cls = 'down'; }
+  else { label = 'Hold'; cls = 'neutral'; }
+  const sign = avg > 0 ? '+' : '';
+  return '<span class="sentiment-badge sentiment-' + cls + '" ' +
+    'title="Durchschnittliche Tagesbewegung der ' + values.length + ' angezeigten Positionen - ' +
+    'grober Schnelleindruck, keine Anlageberatung.">' +
+    esc(label) + ' &middot; ' + sign + avg.toFixed(1) + '%</span>';
+}
+
 function renderPositionSections(rowsByLabel) {
   const container = document.getElementById('position-sections');
   let html = '';
@@ -1127,7 +1150,10 @@ function renderPositionSections(rowsByLabel) {
     const tickers = CONFIG.sectorPositions[sector];
     const cards = tickers.map(t => positionCardHtml(t, rowsByLabel[t], CONFIG.sectorWeights[t]));
     html += '<div class="section position-section" data-sector="' + esc(sector) + '" style="display:none">' +
-      '<h2>' + esc(sector) + ' – Top ' + tickers.length + '</h2>' +
+      '<div class="section-header">' +
+        '<h2>' + esc(sector) + ' – Top ' + tickers.length + '</h2>' +
+        sectorSentimentHtml(tickers, rowsByLabel) +
+      '</div>' +
       '<div class="tickers">' + cards.join('') + '</div></div>';
   });
   container.innerHTML = html;

@@ -49,6 +49,15 @@ body {
   font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em;
   color: var(--text-dim); font-weight: 600; margin: 0 0 10px;
 }
+.section-header { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.section-header h2 { margin: 0 0 10px; }
+.sentiment-badge {
+  flex-shrink: 0; font-size: 0.68rem; font-weight: 700; padding: 2px 8px;
+  border: 1px solid; text-transform: uppercase; letter-spacing: 0.02em; white-space: nowrap;
+}
+.sentiment-badge.sentiment-up { color: var(--up); border-color: var(--up); }
+.sentiment-badge.sentiment-down { color: var(--down); border-color: var(--down); }
+.sentiment-badge.sentiment-neutral { color: var(--neutral); border-color: var(--neutral); }
 
 .refresh-btn {
   position: absolute; top: 16px; right: 16px; z-index: 1;
