@@ -22,8 +22,6 @@ const CONFIG = {
       "Hang Seng (Hongkong)": "^HSI"
     },
     "Anleihen": {
-      "US 3-Monate": "^IRX",
-      "US 5-Jahre": "^FVX",
       "US 10-Jahre": "^TNX",
       "US 30-Jahre": "^TYX",
       "Deutschland 10-Jahre": "IRLTLT01DEM156N",
@@ -39,8 +37,6 @@ const CONFIG = {
     "FTSE 100 (UK)": "🇬🇧",
     "KOSPI (Südkorea)": "🇰🇷",
     "Hang Seng (Hongkong)": "🇭🇰",
-    "US 3-Monate": "🇺🇸",
-    "US 5-Jahre": "🇺🇸",
     "US 10-Jahre": "🇺🇸",
     "US 30-Jahre": "🇺🇸",
     "Deutschland 10-Jahre": "🇩🇪",
