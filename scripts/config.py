@@ -16,11 +16,17 @@ NEWS_QUERIES = [
     {"label": "Makro & Weltpolitik", "query": "oil price Iran", "hl": "en-US", "gl": "US"},
     {"label": "Makro & Weltpolitik", "query": "Trump tariffs markets", "hl": "en-US", "gl": "US"},
     {"label": "Makro & Weltpolitik", "query": "Treasury yields bond market", "hl": "en-US", "gl": "US"},
-    {"label": "AI", "query": "AI chip stocks Nvidia semiconductor capex", "hl": "en-US", "gl": "US"},
-    {"label": "Health", "query": "healthcare pharma stocks news", "hl": "en-US", "gl": "US"},
-    {"label": "Rüstung", "query": "defense stocks military spending", "hl": "en-US", "gl": "US"},
-    {"label": "Energy", "query": "oil price OPEC energy commodities", "hl": "en-US", "gl": "US"},
-    {"label": "Konsum", "query": "consumer goods retail sales stocks", "hl": "en-US", "gl": "US"},
+    # Kuerzere, ereignisnahe Suchbegriffe statt generischer "wie laeuft der
+    # Sektor"-Phrasen (Aug 2026: mit der ALLOWED_SOURCES-Positivliste lieferten
+    # die alten, laengeren Queries 0 Treffer - solche generischen Themen-
+    # Rundum-Artikel schreiben fast nur kleine Finanz-Blogs, keine grossen
+    # Agenturen; weniger Woerter = groesserer, weniger eingeschraenkter Pool
+    # an Treffern, darunter eher auch mal ein erlaubter Wire-Service-Artikel).
+    {"label": "AI", "query": "Nvidia AI chip stocks", "hl": "en-US", "gl": "US"},
+    {"label": "Health", "query": "pharma drug stocks", "hl": "en-US", "gl": "US"},
+    {"label": "Rüstung", "query": "defense stocks military", "hl": "en-US", "gl": "US"},
+    {"label": "Energy", "query": "oil price OPEC", "hl": "en-US", "gl": "US"},
+    {"label": "Konsum", "query": "consumer retail sales stocks", "hl": "en-US", "gl": "US"},
     # Eigene Anleihen-Suche statt der generischeren Makro-Query oben (Zinsen/
     # Inflation-Fokus) - hier direkt Anleihen-Kursbewegungen/-Renditen,
     # passend zur Anleihen-Rubrik (US/DE/UK/JP 10-Jahre).
@@ -298,7 +304,7 @@ PRIORITY_KEYWORDS = [
 # nicht aufgefallene Billig-/KI-generierte Quellen erstmal ungefiltert durch,
 # bis sie manuell nachgesperrt wurden. Umgekehrt einfacher zu pflegen: nur
 # grosse, etablierte Nachrichtenagenturen/-sender, die oeffentlich frei
-# lesbar sind (kein Hard-Paywall wie Bloomberg/WSJ/FT/Handelsblatt/Welt/FAZ -
+# lesbar sind (kein Hard-Paywall wie Bloomberg/WSJ/Handelsblatt/Welt/FAZ -
 # die fallen dadurch automatisch raus, ohne einzeln gelistet werden zu
 # muessen). Nicht abschliessend - bei Bedarf gerne erweitern.
 ALLOWED_SOURCES = [
@@ -306,6 +312,12 @@ ALLOWED_SOURCES = [
     "cnbc", "marketwatch", "yahoo finance",
     "bbc", "guardian", "cnn", "axios",
     "tagesschau", "n-tv",
+    # Investopedia/Business Insider: kein Paywall, redaktionell betreut -
+    # dazugenommen, weil die 5 Sektor-Themen-Suchen (AI/Health/Ruestung/
+    # Energy/Konsum) mit der reinen Wire-Service-Liste oben 0 Treffer
+    # lieferten (Aug 2026) - generische "wie laeuft der Sektor"-Artikel
+    # schreiben grosse Agenturen selten, diese beiden aber schon.
+    "investopedia", "business insider",
     # FT hat einen "metered" Paywall (X Gratis-Artikel/Monat je Geraet/
     # Browser), keinen harten Cutoff wie Welt.de/Handelsblatt - Artikel sind
     # deshalb nicht IMMER lesbar, sondern abhaengig vom eigenen Kontingent.
