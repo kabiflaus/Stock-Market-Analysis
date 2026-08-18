@@ -1263,7 +1263,11 @@ function renderIndexHoldings(rowsByLabel) {
 }
 
 const MACRO_MAX_VISIBLE = 2;
-const TOP_NEWS_MAX_VISIBLE = 3;
+// Immer nur 1 Schlagzeile sichtbar, Rest hinter "Mehr anzeigen" - damit der
+// Block "Wichtigste News" immer gleich hoch ist (1 vs. 3 Zeilen liess vorher
+// die sticky Pillen-Navigation je nach Filter an unterschiedlicher Stelle
+// landen).
+const TOP_NEWS_MAX_VISIBLE = 1;
 
 // "Makro & Weltpolitik" ist kein Sektor-Filter, sondern liegt direkt unter
 // dem Makro-Barometer (VIX/Gold/Oel/Dollar-Index) - deckt Zinsentscheide,
@@ -1457,7 +1461,7 @@ function setupMarketFilter(rowsByLabel, allHeadlines) {
       el.style.display = (i >= TOP_NEWS_MAX_VISIBLE && !expanded) ? 'none' : '';
     });
     if (topNewsMoreBtn) {
-      topNewsMoreBtn.style.display = topNews.length > TOP_NEWS_MAX_VISIBLE ? 'block' : 'none';
+      topNewsMoreBtn.classList.toggle('has-more', topNews.length > TOP_NEWS_MAX_VISIBLE);
       topNewsMoreBtn.textContent = expanded ? 'Weniger anzeigen' : 'Mehr anzeigen';
     }
 
