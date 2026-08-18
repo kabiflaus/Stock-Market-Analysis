@@ -801,14 +801,14 @@ function isLiveEligible(ticker) {
   return !!ticker && !ticker.includes('.') && !ticker.startsWith('^') && !ticker.endsWith('=F');
 }
 
-function priceCardHtml(label, row, flag, extraAttrs, ticker) {
+function priceCardHtml(label, row, flag, extraAttrs, ticker, sparkClass) {
   row = row || {};
   const live = ticker && isLiveEligible(ticker) && FINNHUB_API_KEY;
   const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
   const prefix = flag ? flag + ' ' : '';
   const tickerAttr = live ? ' data-ticker="' + esc(ticker) + '"' : '';
   const dir = direction(row.change_pct);
-  const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'small');
+  const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', sparkClass === undefined ? 'small' : sparkClass);
   return '<div class="ticker-card"' + (extraAttrs || '') + tickerAttr + '>' +
     '<div class="ticker-label">' + prefix + esc(label) + liveDot + '</div>' +
     '<div class="ticker-price">' + priceDisplay(row) + '</div>' +
@@ -1127,8 +1127,12 @@ function renderGlobalIndices(rowsByLabel) {
 }
 
 function renderBonds(rowsByLabel) {
+  // Anleihen zeigen den vollen Sparkline (nicht "small") - seit fetch_market.py
+  // die YTD-Kursreihe liefert (statt nur der letzten paar Tage), lohnt sich
+  // der groessere, detailliertere Graph; passt auch besser zur einspaltigen
+  // Anleihen-Rubrik mit viel Platz pro Karte.
   const cards = Object.keys(CONFIG.tickerGroups['Anleihen']).map(label =>
-    priceCardHtml(label, rowsByLabel[label], CONFIG.tickerFlags[label] || '')
+    priceCardHtml(label, rowsByLabel[label], CONFIG.tickerFlags[label] || '', undefined, undefined, '')
   );
   document.querySelector('#bonds-section .tickers').innerHTML = cards.join('');
 }

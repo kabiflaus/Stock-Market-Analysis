@@ -78,10 +78,12 @@ SPARKLINE_LABELS = (
 )
 
 
-def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float], str | None, list[str]]:
+def fetch_ticker(
+    ticker: str, range_: str = "5d"
+) -> tuple[float | None, float | None, list[float], str | None, list[str]]:
     resp = SESSION.get(
         CHART_URL.format(ticker=ticker),
-        params={"interval": "1d", "range": "5d"},
+        params={"interval": "1d", "range": range_},
         timeout=10,
     )
     resp.raise_for_status()
@@ -120,10 +122,16 @@ def fetch_ticker(ticker: str) -> tuple[float | None, float | None, list[float], 
     return price, prev_close, closes, currency, dates
 
 
-def fetch_fred_series(series_id: str, points: int = 6) -> tuple[float, float | None, list[float], list[str]]:
-    """Monatliche Anleihen-Rendite von FRED (St. Louis Fed) - oeffentlicher
-    CSV-Export, kein API-Key noetig. Nutzt dieselbe curl_cffi-Session wie
-    Yahoo, auch wenn die Bot-Erkennung bei FRED kein Thema ist."""
+def fetch_fred_series(
+    series_id: str, since: str | None = None, tail: int = 6
+) -> tuple[float, float | None, list[float], list[str]]:
+    """Anleihen-Rendite von FRED (St. Louis Fed) - oeffentlicher CSV-Export,
+    kein API-Key noetig, liefert die komplette Historie (FRED filtert nicht
+    serverseitig). "since" (YYYY-MM-DD) schneidet hier lokal auf einen
+    Zeitraum zu (z.B. Jahresanfang fuer eine YTD-Ansicht) - ein Punkt VOR
+    dem Cutoff bleibt zusaetzlich drin, damit z.B. im Januar trotzdem ein
+    echter Vortagesschluss fuer change_pct existiert. Ohne "since": nur die
+    letzten `tail` Punkte (Kurzform fuer Faelle ohne YTD-Bedarf)."""
     resp = SESSION.get(FRED_CSV_URL.format(series_id=series_id), timeout=10)
     resp.raise_for_status()
     lines = resp.text.strip().splitlines()
@@ -137,8 +145,12 @@ def fetch_fred_series(series_id: str, points: int = 6) -> tuple[float, float | N
         values.append(round(float(value), 2))
     if not values:
         raise ValueError(f"Keine Datenpunkte fuer FRED-Serie {series_id}")
-    values = values[-points:]
-    dates = dates[-points:]
+    if since:
+        idx = next((i for i, d in enumerate(dates) if d >= since), len(dates))
+        start = max(idx - 1, 0)
+        dates, values = dates[start:], values[start:]
+    else:
+        values, dates = values[-tail:], dates[-tail:]
     price = values[-1]
     prev_close = values[-2] if len(values) >= 2 else None
     return price, prev_close, values, dates
@@ -159,11 +171,18 @@ def fetch_fx_rates(currencies: set[str]) -> dict[str, float]:
     return rates
 
 
+YTD_SINCE = f"{datetime.now(timezone.utc).year}-01-01"
+
+
 def fetch_snapshot() -> list[dict]:
     rows = []
     for label, ticker in ALL_TICKERS.items():
         try:
-            price, prev_close, closes, currency, dates = fetch_ticker(ticker)
+            # Anleihen zeigen einen detaillierten YTD-Graph statt nur der
+            # letzten paar Tage - Yahoo liefert das direkt ueber range=ytd,
+            # keine eigene Backfill-/Speicherlogik noetig.
+            range_ = "ytd" if label in TICKER_GROUPS["Anleihen"] else "5d"
+            price, prev_close, closes, currency, dates = fetch_ticker(ticker, range_=range_)
             # Yahoos meta.previousClose haengt manchmal der taeglichen
             # Schlusskurs-Reihe hinterher (asynchrone Cache-Aktualisierung) -
             # das fuehrt zu falschen Tagesveraenderungen, die nicht zum
@@ -203,7 +222,7 @@ def fetch_snapshot() -> list[dict]:
     # Funktion als die Yahoo-Ticker oben.
     for label, series_id in FRED_BOND_SERIES.items():
         try:
-            price, prev_close, values, dates = fetch_fred_series(series_id)
+            price, prev_close, values, dates = fetch_fred_series(series_id, since=YTD_SINCE)
             change_pct = None
             if price is not None and prev_close:
                 change_pct = round((price - prev_close) / prev_close * 100, 2)
