@@ -306,4 +306,9 @@ ALLOWED_SOURCES = [
     "cnbc", "marketwatch", "yahoo finance",
     "bbc", "guardian", "cnn", "axios",
     "tagesschau", "n-tv",
+    # FT hat einen "metered" Paywall (X Gratis-Artikel/Monat je Geraet/
+    # Browser), keinen harten Cutoff wie Welt.de/Handelsblatt - Artikel sind
+    # deshalb nicht IMMER lesbar, sondern abhaengig vom eigenen Kontingent.
+    # Falls das in der Praxis zu oft auf die Paywall laeuft, wieder raus.
+    "financial times", "ft.com",
 ]
