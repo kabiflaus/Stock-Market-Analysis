@@ -25,7 +25,7 @@ NEWS_QUERIES = [
     {"label": "AI", "query": "Nvidia AI chip stocks", "hl": "en-US", "gl": "US"},
     {"label": "Health", "query": "pharma drug stocks", "hl": "en-US", "gl": "US"},
     {"label": "Rüstung", "query": "military spending", "hl": "en-US", "gl": "US"},
-    {"label": "Energy", "query": "oil price", "hl": "en-US", "gl": "US"},
+    {"label": "Energy", "query": "energy stocks oil", "hl": "en-US", "gl": "US"},
     {"label": "Konsum", "query": "consumer retail sales stocks", "hl": "en-US", "gl": "US"},
     # Eigene Anleihen-Suche statt der generischeren Makro-Query oben (Zinsen/
     # Inflation-Fokus) - hier direkt Anleihen-Kursbewegungen/-Renditen,
