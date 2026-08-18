@@ -237,6 +237,14 @@ body {
 .index-chart-tooltip-bg { fill: var(--bg); stroke: var(--idx-accent); stroke-width: 1; }
 .index-chart-tooltip-text { font: 700 9px var(--idx-mono); fill: var(--text); }
 
+/* .ticker-card hat regulaer max-height:150px+overflow:hidden (fuer den
+   Ein-/Ausblend-Uebergang via .dimmed, s. oben) - der Detailchart ist
+   deutlich hoeher (SVG-Seitenverhaeltnis 320:176 bei voller Kartenbreite
+   plus Preis-/Change-Zeilen darueber) und wurde dadurch abgeschnitten.
+   Anleihen-Karten werden nie gedimmt, koennen die Begrenzung also gefahrlos
+   aufheben. */
+#bonds-section .ticker-card { max-height: none; overflow: visible; }
+
 #macro-more-btn {
   display: block; margin: 10px auto 0; background: transparent; color: var(--text-dim);
   border: 1px solid var(--border); padding: 6px 14px; font-size: 0.75rem;
