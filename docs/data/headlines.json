@@ -1,10 +1,17 @@
 [
   {
     "label": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures extend losses amid US-Iran tensions as Treasury yields creep higher - Yahoo Finance",
+    "title": "Stock market today: Nasdaq leads Dow and S&P 500 lower as rising Treasury yields weigh on tech stocks - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb05YTlhtdm5CWWFjelNPMWFrWWtzUk9Vb05PZVRJT2FiSHc0em50elRIQ0lQX3Y1R0xlbVNKZjNPMDFKdHA1VWVjWnllN0ZqYUN4SWhWb01GWC16WTBCRXFGUUtBem54QVNrUE9SZnVZV19NRU1jQ245bEE5eHpzYWx4RTVWQXUwZjVZVG9LTlhKVGx6SXFsUjhORDY1dUhCYW1GNUMwdUdTQnJf?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-08-18T12:59:29+00:00"
+    "published": "2026-08-18T13:32:04+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "S&P 500 futures drop, under pressure from rising yields and oil: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbTl6YmIwMk5iZFRFdDN1Ui11VTRNUGlDRjlEclNDNl9HTlhUM1lIZWZUVHpudmFHWHM5cUVnOGRqOW1EUjVBSFBYNzJvSTBqMVRma3piQmozU1BLRnZrS2xoNjUyeFUxV1lOZzQ3bUFkMzJNV0530gF8QVVfeXFMTjVFc3dmV1gybFdhUzhwTFJMMmIwYXZvVjhuMzNHdU0wNktMTWZYRzh4YmtsclhkY1dlU1YzUHRWRjhmR0w0M19rWjd1bGk0Yy1UekduWGFoekR2bkNYWGNjb19tLTNCeVk5R3FrbVhlUGowX2dIYkNCNXZrOA?oc=5",
+    "source": "CNBC",
+    "published": "2026-08-18T12:46:13+00:00"
   },
   {
     "label": "Anleihen",
@@ -21,6 +28,13 @@
     "published": "2026-08-18T12:16:15+00:00"
   },
   {
+    "label": "META",
+    "title": "Alphabet vs. Meta Platforms: Which Is the Better AI Advertising Stock to Own for the Next 5 Years? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY25SWGhJR1RmVDhYZG0tclNBMVFUbmRINTRXSlJNbmlFWEtSQXRYXzh6enV3d2E1VUtnRExkdTZhTkRCVHZOVzhqaDNpRXBxNFYxU1RKWlliQWd5V2tNd2M1OXBFbkhZamgyMEdmLWpNZ01remZYalBFaFFWalRHVGp6ZXIycmloWFVLMzlsMU0xNG9xR2VZeWx5S1NJTGk0LVNZ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-18T11:20:00+00:00"
+  },
+  {
     "label": "Anleihen",
     "title": "U.S. 30-year Treasury yield hits highest level since 2007 amid global bond sell-off - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdWY4OHl2UGRIVURjM2pUcUJpVC1KcUdneFBFMFZuWlBmWS1SeTZHVElXQkxsMDMyak9jN2RlbkR2TEEzcGF3aG1ERFprc2JzcXNQMnU0R3hWaWNLVUlSOUdrOF9PSlRmai1Jd3ZaTXRvTUNrT0Fvc1VzSnFlWjVEOHdheTczbVFSeVluY01wcUNUSlhrY3VHa3dSRVpaZ3RNOVFPYTNLOExac3hOMHFqRm1mZkdCaDZEYXN0STJ3S21ZRjg?oc=5",
@@ -35,18 +49,18 @@
     "published": "2026-08-18T09:45:01+00:00"
   },
   {
-    "label": "S&P 500",
-    "title": "S&P 500 futures slip, putting Wall Street on track for further declines after Monday's drop: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbTl6YmIwMk5iZFRFdDN1Ui11VTRNUGlDRjlEclNDNl9HTlhUM1lIZWZUVHpudmFHWHM5cUVnOGRqOW1EUjVBSFBYNzJvSTBqMVRma3piQmozU1BLRnZrS2xoNjUyeFUxV1lOZzQ3bUFkMzJNV0530gF8QVVfeXFMTjVFc3dmV1gybFdhUzhwTFJMMmIwYXZvVjhuMzNHdU0wNktMTWZYRzh4YmtsclhkY1dlU1YzUHRWRjhmR0w0M19rWjd1bGk0Yy1UekduWGFoekR2bkNYWGNjb19tLTNCeVk5R3FrbVhlUGowX2dIYkNCNXZrOA?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-18T09:42:31+00:00"
-  },
-  {
     "label": "Makro & Weltpolitik",
     "title": "Oil Prices Reach Near Three-Week High as US-Iran Peace Prospects Deteriorate - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR3V1a1pNZ1k1RUppUG14MTMwbnpXQk1qOXJ1Z1lxRkZLUEVWc2Nfb0JoR3BiOFVaZ0NZRWlKcFd5R3d0T1FPeTdPUVUtekVTclhtQnY4anNaeG1ZaHFiXzFwMVBfeDV6MXR3WFVtX2tqTHFjSXBQNHJoUUsxaVdfWDdweC1uRXJCTFU4Yg?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-18T09:29:48+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "Why Are Nasdaq, S&P 500 Futures Tumbling Premarket? META, TSLA, NVDA, MU, NBIS, SLS, HD Stocks In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQmJ4NjZpMHJ5aTYwejVYcmlOUy1aT1NESkVJMTJMblFWWDB1TFpWcHhjRVBkYlRCVkljbS1MeXRaSmtxVkZ6V2ptYWxpajJOUDJjYnlmVENvd0dGeVF5bmpaTC1nWU5BSDZCYkRFNThKTzc2d2NiQllUNnJ2bUV2WVpXYUFCWkZVay1IZkpFYlpQRlE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-18T09:03:12+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -105,8 +119,8 @@
     "published": "2026-08-18T01:34:00+00:00"
   },
   {
-    "label": "Anleihen",
-    "title": "Bond yields rise, oil extends gains as US-Iran ceasefire expires - Reuters",
+    "label": "Makro & Weltpolitik",
+    "title": "Bonds, stocks jolted as Middle East tensions shatter market calm - Reuters",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1IRXVLRUlydV9LUjVfX3hOQ0hKc2d0aE5MS0hqLXBrbTg2QXNhcEc2MnlhOU15dkxXSDV4V2hTM2lCR19Gc3BUWUpJYk0za3VXTTFTYTlDdXk3cjhoa19SdFJxcWk3N01rSGkwSmF3MUlMcm9BU09ZMW5QNA?oc=5",
     "source": "Reuters",
     "published": "2026-08-18T01:16:00+00:00"
@@ -131,6 +145,13 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBldjNhUVMzNm9CXzlqUkY2MGF2RTc1R1lEY3Bpb3h1M05ka0Z6TWZPdk92SEF6WmZVN0wxd1F3Vnowd08yV0VZRE1sTi01WFZESHhuQ1lDMTYyWlIwSXNoSk5DN3oxeE9oajFpUA?oc=5",
     "source": "Axios",
     "published": "2026-08-17T22:55:17+00:00"
+  },
+  {
+    "label": "SWKS",
+    "title": "Skyworks Solutions Inc. stock underperforms Monday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLXdzb2UtU3A4TjhjMms3T3RmbUpjUFhKdlBEbWYxS1lKNUp5STZQTTNUWUc2aGVjYmx0bS1oMVR5LXRObDdvWFQ3YTFZLVpxeW9UMXhROUZDNExHekt4SEI0dHlFcXk0akE4ckt1bmllSTcxbjBzT0VUQXU2R2phbjUwQ0tzX1dOcmoxN0JKR1FjSVZaZE1kT3RYNEVWbTlsdFdvSVBXM3JhVmh1ME9wWUc4TU1LTUN0b0l4T3ZzRlRHT291NkhPWENMaEZjVVlGSmVPbQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-17T21:17:00+00:00"
   },
   {
     "label": "MU",
@@ -180,6 +201,13 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWFNybGl1cWJiVThKUWVveG9waWY1cjdXc2hsRDZxMGlXTTFfektkcXBLZUV1Vml5dHZlSEhwVlVHaGc3QlNvOVkxRDI3M1RFcnQxekhoS0J4NzRKTVRSalVXc2Z0bkVsQjlaRnFNOWNGTGhBa1Izc29MT2lfSWFHakhwNlAyS1RvUmJ0V2lKS043LTRTZzdxYlNILWJrNXFMbEVVcW9SVVRQYWk4WjB2V2ZPczZtb0Q3TFNPQkNGbUJ6TXJ5RXpzNzhR?oc=5",
     "source": "Reuters",
     "published": "2026-08-17T19:29:11+00:00"
+  },
+  {
+    "label": "META",
+    "title": "Why Meta Platforms Stock Is Falling Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbExXX05pa2xsVEdydTNwQ09uUlUwY0Q4b05Ddk5EbjNrbUFoUUxxRlBlRXByeXlBWC1yVVUyWThsQnBVYklzTkRkNG9LZ0lia0NWcE5EaFN4bHBSVUU3VUhBaVcwVzI5c1VXTEZZa0lHNGVWNDdtNmlCemliUVJGV1NHd0FRRlUzbkdGX0hob0s2M0oxcWIyVGktZUg2Zw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-17T19:08:57+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -4667,54 +4695,5 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZDlXekVMYmF4ZTU2OEZPQXZwbGplWFZMMFV1aUZoLTJuYWhQcmpwellrb3JrNnJJVWVpNWtPal9zbEJQVU9uZzZxaFJIdFFrMnhsN0hQTTlndXFNdjdkT3NhM2RyblIzSFl2S3JOeWJBbWpjQ1MxR1p2amlyZndXdjFxNnRXMVZzRmc1TjJEU3pvQlRfOHdIZGkyMXpGM1da0gGmAUFVX3lxTE45STl6VmtVNy0zU2lNVkZNSEo2cVJRVXhrdk9VeUgyUWZEM3V1bzhRbHVJZnZJelVMQnVzako2R2RmRDJqbXM3Q3M5UkljVGhjNlNrWlF6STRCVGVYcWdQNnIzNUJlNDZMSjZjQjRuRW4wLUNDYWJQMTdrbjdETWFhZlRDbmNTQ3BqVEZ1TG5tcUZIajlFTU9lc0lmMFNoSkxrRV9yanc?oc=5",
     "source": "Crude Oil Prices Today | OilPrice.com",
     "published": "2026-08-14T14:00:00+00:00"
-  },
-  {
-    "label": "AMAT",
-    "title": "Applied Materials slips as investors seek faster growth after stellar run - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUFlrcFhLMmZGclJ2RWRqTlJJdDRoenVPcUJVZUduajRrNEZueVBjejJiU2dQMFAtVG94SjRCU1E0V0h0OG1oOU82LXlrLVFnZjdGQ1dvaXdEQlBrQjl2M1JDMlN2WmpURXJQMEtmX1pFOFpkb3dwOWRTTW14UjNrbXBvQWU0SXFRTG5nZ2FKcWxCYlp3NjZySWJNQVVOZGJvd19qTnp1Mm1yQXRNZzFidHM3bmlSQQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-14T13:51:35+00:00"
-  },
-  {
-    "label": "TRG",
-    "title": "Targa Resources Q2 Earnings Beat Estimates, Revenues Miss - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUxhT3ZLWHVORWRiZ2pyd0RodFZfX25qSnlyb3RVbW1FWFNsNmZ3c1lxUzZnMWFkLWRsXzRxUTFXQTE3SGRxTkwwQW5acUlpanNPbnFIeDlGdVdIRTh1bXpxR1RxUWVvSWlONHhXZWhTTndiNnVuTE9NSF9YWWpydzQyWnZDbnFiZ0haQlFOOGY3bVFKYVRKNWhfbVFHQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-14T13:51:00+00:00"
-  },
-  {
-    "label": "Health",
-    "title": "3 Large-Cap Stocks to Watch as Pharma Recovery Takes Hold - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX1VBRVVzT1JJdlB5WU5jaWxFa0JnVFVZV2U0X25pWE1iSjRyTzJyOEQxNWc4SVlGTl82Z1BUM2oyVXRtaEJzVUNnUVBKQTBuZFNGZnEwd0NkNHlWZnd2c1hiWEdBakY0OXJOOG9qNWlEV1NmOW40dW0wU3pkdGF3YzJXS3JSZGRkeFU3eFBR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-14T13:50:00+00:00"
-  },
-  {
-    "label": "DHR",
-    "title": "Danaher Stock: Is Wall Street Bullish or Bearish? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3NVWnJkdHRScEU4RERqZ3ZSZE1udWJ2ZjF6UHc3dEZvVlpVemVSaE8tdEV5US1PQnc3Y3g3dUJHaFB2V0d6UTlyVVpuQ3Y2eWcyZkNhYWxwQjEwSDdacXpEZkU4WGNubE5TM2YzRGNoZmFwUmNNZ1VoNzJHTXhOVG53NklhMGZJbnBNN2NMd2Nzbk16VHlrWkZ2cmV5SDg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-14T13:49:02+00:00"
-  },
-  {
-    "label": "AAPL",
-    "title": "KeyBanc reiterates Apple stock underweight on valuation concerns By Investing.com - Investing.com UK",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaFRJTlk4ei1TZ1ZuTndoQ0VmUUcyWmtqMGRUVW5VTGRVblBpWml0WHM3X0RyQlRNbXA0MzAydEhXWnN5MWlkSjI0bmFDbXZQZHVjWDRTQVhldm4xUUFBR1ZFS3J5dTVxbHFSUG5VT0Y0V3V0TTUwNkREVnl0OGcybjRNMDBYNVI1T2hNX1BPaUw2eUIzZ1VVaHhkNzVKV1BKQXE0dTUzb0QxbVY3SHMtLURwb3Q5WEV1blVERmxYT2JNUlU?oc=5",
-    "source": "Investing.com UK",
-    "published": "2026-08-14T13:46:00+00:00"
-  },
-  {
-    "label": "EDP.LS",
-    "title": "EDP stock holds below analyst targets as energy price outlook sharpens - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVEVMWFFWT1VpbUlRWnN3Q1E4TjRGcHFRUUhBY0tYVEYyeS0yQ0dTakNrTDZBQ2RzeWpmYm1qVUl4TmFSMzNmMERaQWllZ3JrVXU2WEtnVzhzSkdXbmZBeXhBakJaNEhuQVhrbXU3MTdwaE9hZ1J6dzV3ejNqdGdVYUczQTQ3UHdDOWh2bnlnWXh5RVU2VnU3dzBtQVNldnF1VHZWQ0VPU0E4UTMxekpZTGJlTmpCcTBWSnJBeEIzdDZ1YjR3VlNiTms5MUJJZw?oc=5",
-    "source": "ad-hoc-news.de",
-    "published": "2026-08-14T13:40:44+00:00"
-  },
-  {
-    "label": "LRCX",
-    "title": "Why Lam Research (LRCX) Became This Portfolio’s Top Performer - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQajd4MmlZM21qazVPOF9hTm5OLU9qUE1LSjZ5bkR4c2ltQ1Y0RXhXZFlxZjlSZE9tUmhpTl9GcGk3VnBOWGdZMnhILXM2QmZvc3g3NnQxZlV3QWZPZnlUNV9MZExDQk5SaEpIczRjUGZjYlBpcWVHMlc5MTVPeEw4VE92S2g3WV9qRWQtbGpHZk90S01tbWt0MA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-14T13:28:37+00:00"
   }
 ]
