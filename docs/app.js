@@ -1140,27 +1140,36 @@ function positionCardHtml(ticker, row, weight, newsItem) {
   // Die kurze Beschreibung (descHtml) bleibt weiterhin hinter dem Klick
   // versteckt (s. setupPositionExpand/.ticker-card.expanded .ticker-desc).
   const fundamentalsPlaceholder = '<div class="ticker-fundamentals">Lade Kennzahlen…</div>';
-  return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '">' +
-    '<div class="ticker-card-row">' +
-      '<div class="ticker-card-main">' +
-        '<div class="ticker-top">' +
-          '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
-          weightHtml +
-        '</div>' +
-        '<div class="ticker-name-row">' +
-          '<span class="ticker-name">' + esc(name) + '</span>' +
-          gicsTagHtml(ticker) +
-        '</div>' +
-        '<div class="ticker-bottom">' +
-          '<span class="ticker-price">' + priceDisplay(row) + '</span>' +
-          changeHtmlFor(row.change_pct) +
-        '</div>' +
-      '</div>' +
-      (spark ? '<div class="ticker-card-spark">' +
-        '<div class="spark-chart">' + spark + '</div>' +
-        sparkRangeToggle +
-      '</div>' : '') +
+  // Aufgeklappt ordnet ein CSS-Grid (s. .ticker-card.compact.expanded.has-spark
+  // in style.css) die Karte um: Kennzahlen+Beschreibung wandern in eine
+  // schmalere linke Spalte, der Chart wird auf die rechte Haelfte der Karte
+  // vergroessert (mehr Platz fuer den Woche/Monat-Umschalter) statt winzig
+  // neben der Kopfzeile zu kleben. Dafuer sind main/spark/news/fund/desc
+  // hier alle direkte Kind-Elemente von .ticker-card (Grid-Items) statt in
+  // .ticker-card-row verschachtelt - eingeklappt sieht es dank des anderen
+  // Grid-Templates trotzdem wie vorher aus (Chart klein oben rechts).
+  const hasSparkClass = spark ? ' has-spark' : '';
+  const mainHtml = '<div class="ticker-card-main">' +
+    '<div class="ticker-top">' +
+      '<span class="ticker-symbol">' + esc(ticker) + liveDot + '</span>' +
+      weightHtml +
     '</div>' +
+    '<div class="ticker-name-row">' +
+      '<span class="ticker-name">' + esc(name) + '</span>' +
+      gicsTagHtml(ticker) +
+    '</div>' +
+    '<div class="ticker-bottom">' +
+      '<span class="ticker-price">' + priceDisplay(row) + '</span>' +
+      changeHtmlFor(row.change_pct) +
+    '</div>' +
+  '</div>';
+  const sparkHtml = spark ? '<div class="ticker-card-spark">' +
+    '<div class="spark-chart">' + spark + '</div>' +
+    sparkRangeToggle +
+  '</div>' : '';
+  return '<div class="ticker-card compact' + expandableClass + hasSparkClass + '" data-ticker="' + esc(ticker) + '">' +
+    mainHtml +
+    sparkHtml +
     newsHtml +
     fundamentalsPlaceholder +
     descHtml +

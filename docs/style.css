@@ -118,12 +118,38 @@ body {
    dadurch passt bei gleicher Grid-Breite etwa die doppelte Menge auf die
    gleiche Flaeche wie die alten 10er-Listen. */
 .ticker-card.compact { padding: 7px 10px; }
-/* Zeile aus Text-Block (links) + Mini-Chart (rechts) - nur moeglich, seit
-   die Positionslisten einspaltig sind (s. .position-section .tickers oben),
-   sonst waere pro Karte zu wenig Breite fuer einen lesbaren Graphen. */
-.ticker-card.compact .ticker-card-row { display: flex; align-items: center; gap: 10px; }
-.ticker-card.compact .ticker-card-main { flex: 1; min-width: 0; }
-.ticker-card.compact .ticker-card-spark { flex-shrink: 0; text-align: center; }
+/* Grid statt verschachteltem Flex - main/spark/news/fund/desc sind direkte
+   Kind-Elemente (s. positionCardHtml in app.js), damit sich das Layout beim
+   Aufklappen per anderem Grid-Template umsortieren laesst (Chart wird
+   groesser + wandert neben statt ueber Kennzahlen/Beschreibung), ohne die
+   Elemente selbst im DOM verschieben zu muessen. Eingeklappt (Standard-
+   Template unten) sieht es weiterhin wie vorher aus: Text-Block links,
+   Mini-Chart klein oben rechts, Rest darunter volle Breite. */
+.ticker-card.compact {
+  display: grid; column-gap: 10px;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "main spark" "news news" "fund fund" "desc desc";
+}
+.ticker-card.compact .ticker-card-main { grid-area: main; min-width: 0; }
+.ticker-card.compact .ticker-card-spark { grid-area: spark; text-align: center; }
+.ticker-card.compact .ticker-news-hint { grid-area: news; }
+.ticker-card.compact .ticker-fundamentals,
+.ticker-card.compact .fund-note { grid-area: fund; }
+.ticker-card.compact .ticker-desc { grid-area: desc; }
+/* Aufgeklappt: Chart nimmt die rechte Haelfte der Karte ein (statt winzig
+   oben rechts zu kleben), Kennzahlen+Beschreibung ruecken in die schmalere
+   linke Spalte - mehr Platz fuer Graph und Woche/Monat-Umschalter. Nur mit
+   .has-spark (s. app.js), sonst bliebe bei Karten ohne Chart eine leere
+   rechte Spalte reserviert. */
+.ticker-card.compact.expanded.has-spark {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "main main" "news news" "fund spark" "desc spark";
+}
+.ticker-card.compact.expanded.has-spark .ticker-card-spark {
+  min-height: 160px; display: flex; flex-direction: column; justify-content: center;
+}
+.ticker-card.compact.expanded.has-spark .spark-chart { flex: 1; min-height: 0; }
+.ticker-card.compact.expanded.has-spark .spark-chart svg.sparkline { width: 100%; height: 100%; }
 .sparkline.mini { width: 72px; height: 32px; margin-top: 0; }
 /* Woche/Monat-Umschalter fuer den Mini-Chart (s. setSparkRange in app.js) -
    nur sichtbar, wenn die Karte aufgeklappt ist (eingeklappt zeigt der Chart
