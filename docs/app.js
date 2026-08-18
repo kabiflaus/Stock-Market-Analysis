@@ -801,14 +801,17 @@ function isLiveEligible(ticker) {
   return !!ticker && !ticker.includes('.') && !ticker.startsWith('^') && !ticker.endsWith('=F');
 }
 
-function priceCardHtml(label, row, flag, extraAttrs, ticker) {
+function priceCardHtml(label, row, flag, extraAttrs, ticker, sparkClass, chartHtml) {
   row = row || {};
   const live = ticker && isLiveEligible(ticker) && FINNHUB_API_KEY;
   const liveDot = live ? '<span class="live-dot" title="Live-Kurs (Finnhub)"></span>' : '';
   const prefix = flag ? flag + ' ' : '';
   const tickerAttr = live ? ' data-ticker="' + esc(ticker) + '"' : '';
   const dir = direction(row.change_pct);
-  const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'small');
+  // chartHtml (s. renderBonds) ersetzt den einfachen Sparkline komplett
+  // durch den groesseren Detailchart mit Achsen + Ziehen-Tooltip.
+  const spark = chartHtml !== undefined ? chartHtml
+    : sparklineSvg(row.sparkline, dir.cls !== 'down', sparkClass === undefined ? 'small' : sparkClass);
   return '<div class="ticker-card"' + (extraAttrs || '') + tickerAttr + '>' +
     '<div class="ticker-label">' + prefix + esc(label) + liveDot + '</div>' +
     '<div class="ticker-price">' + priceDisplay(row) + '</div>' +
@@ -858,6 +861,12 @@ function sparklineSvg(closes, isUp, extraClass) {
 // Framework - row.sparkline_dates kommt parallel zu row.sparkline aus
 // fetch_market.py (Yahoos Timestamp-Array).
 function formatChartAxisPrice(v) {
+  // Kleine Werte (z.B. Anleihen-Renditen wie 2,97) brauchen Nachkommastellen,
+  // sonst rundet's auf "3" und die eigentliche Information ist weg. Grosse
+  // Werte (Indexstaende wie 26.729) als glatte Zahl mit Tausendertrennung.
+  if (Math.abs(v) < 100) {
+    return v.toLocaleString('de-DE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
   return Math.round(v).toLocaleString('de-DE');
 }
 function formatChartDate(iso) {
@@ -891,11 +900,20 @@ function bigIndexChartHtml(closes, dates, isUp) {
       'class="index-chart-axis-label">' + esc(formatChartAxisPrice(v)) + '</text>';
   }).join('');
 
-  // X-Achse: Datum unter jedem Punkt.
-  const xAxis = coords.map(([x], i) =>
-    '<text x="' + x.toFixed(1) + '" y="' + (h - 6) + '" text-anchor="middle" ' +
-    'class="index-chart-axis-label">' + esc(formatChartDate(dates[i])) + '</text>'
-  ).join('');
+  // X-Achse: hoechstens 5 gleichmaessig verteilte Datumsbeschriftungen -
+  // bei einem YTD-Verlauf (150+ Punkte, s. Anleihen) waere ein Label pro
+  // Punkt voellig ueberladen/unleserlich.
+  const labelCount = Math.min(5, coords.length);
+  const labelIndices = [...new Set(
+    Array.from({ length: labelCount }, (_, i) =>
+      labelCount <= 1 ? 0 : Math.round(i * (coords.length - 1) / (labelCount - 1))
+    )
+  )];
+  const xAxis = labelIndices.map(i => {
+    const [x] = coords[i];
+    return '<text x="' + x.toFixed(1) + '" y="' + (h - 6) + '" text-anchor="middle" ' +
+      'class="index-chart-axis-label">' + esc(formatChartDate(dates[i])) + '</text>';
+  }).join('');
 
   const toPoints = (arr) => arr.map(([x, y]) => x.toFixed(1) + ',' + y.toFixed(1)).join(' ');
   const splitIdx = coords.length - 2;
@@ -908,20 +926,22 @@ function bigIndexChartHtml(closes, dates, isUp) {
   const todayLine = '<polyline points="' + toPoints(todayCoords) + '" fill="none" stroke="' + color + '" stroke-width="2.5" ' +
     'stroke-linejoin="round" stroke-linecap="round"/>';
 
-  // Je Punkt ein Tipp-Ziel (grosser transparenter Kreis fuer den Finger,
-  // kleiner sichtbarer Punkt) mit Datum/Kurs als data-Attribute fuer den
-  // Tooltip-Klick-Handler (siehe setupIndexChartTooltip).
-  const dots = coords.map(([x, y], i) => {
-    const isToday = i === coords.length - 1;
-    return '<g class="index-chart-dot" data-date="' + esc(formatChartDate(dates[i])) + '" ' +
-      'data-price="' + esc(formatChartAxisPrice(closes[i])) + '" data-x="' + x.toFixed(1) + '" data-y="' + y.toFixed(1) + '">' +
-      '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="10" fill="transparent"/>' +
-      '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="' + (isToday ? 3.5 : 2.5) + '" ' +
-      'fill="' + (isToday ? color : '#6e7681') + '"/></g>';
-  }).join('');
+  // Einzelner sichtbarer Punkt fuer "heute" als Orientierung - kein Punkt
+  // mehr pro Handelstag im DOM (waeren bei einem Jahresverlauf 150-250+
+  // Elemente PRO Chart). Stattdessen ist die ganze Kursreihe kompakt als
+  // JSON im "data-points"-Attribut hinterlegt (s. setupIndexChartTooltip) -
+  // das Ziehen sucht sich den naechsten Punkt rein rechnerisch.
+  const last = coords[coords.length - 1];
+  const todayDot = '<circle cx="' + last[0].toFixed(1) + '" cy="' + last[1].toFixed(1) + '" r="3.5" fill="' + color + '"/>';
+  const points = coords.map(([x, y], i) =>
+    [Math.round(x * 10) / 10, Math.round(y * 10) / 10, formatChartDate(dates[i]), formatChartAxisPrice(closes[i])]
+  );
 
-  return '<svg class="index-chart" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="xMidYMid meet">' +
-    yAxis + historyLine + todayLine + dots +
+  return '<svg class="index-chart" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="xMidYMid meet" ' +
+    'data-points="' + esc(JSON.stringify(points)) + '">' +
+    yAxis + historyLine + todayLine + todayDot +
+    '<line class="index-chart-crosshair" x1="0" x2="0" y1="' + padTop + '" y2="' + (h - padBottom) + '" style="display:none"/>' +
+    '<circle class="index-chart-scrub-dot" r="3.5" style="display:none"/>' +
     '<g class="index-chart-tooltip" style="display:none">' +
       '<rect class="index-chart-tooltip-bg" rx="3" ry="3"></rect>' +
       '<text class="index-chart-tooltip-text" text-anchor="middle"></text>' +
@@ -930,26 +950,45 @@ function bigIndexChartHtml(closes, dates, isUp) {
     '</svg>';
 }
 
-// Tippen auf einen Chart-Punkt zeigt Datum+Kurs als Tooltip - ein delegierter
-// Handler auf dem staendigen Container reicht, da nur das SVG-Innere sich
-// bei jedem Index-Wechsel neu aufbaut.
+// Ziehen auf einem Detailchart (Indizes-Detailkarte, Anleihen-Karten) zeigt
+// laufend Datum+Kurs zum naechstgelegenen Punkt als Fadenkreuz+Tooltip -
+// wie bei Trading-Apps, statt nur einzelne Punkte antippen zu muessen.
+// Delegierter Pointer-Handler auf document (nicht nur ein Container), da
+// mehrere Charts gleichzeitig auf der Seite stehen koennen (z.B. 5
+// Anleihen-Karten); .index-chart hat "touch-action:none" (s. CSS), damit
+// Ziehen nicht mit dem Scrollen der Seite kollidiert.
 function setupIndexChartTooltip() {
-  const container = document.getElementById('big-index-view');
-  if (!container) return;
-  container.addEventListener('click', (e) => {
-    const svg = container.querySelector('.index-chart');
-    if (!svg) return;
+  let activeSvg = null;
+
+  function nearestPoint(svg, clientX) {
+    let points;
+    try { points = JSON.parse(svg.dataset.points || '[]'); } catch (e) { return null; }
+    if (!points.length) return null;
+    const rect = svg.getBoundingClientRect();
+    if (!rect.width) return null;
+    const svgX = ((clientX - rect.left) / rect.width) * svg.viewBox.baseVal.width;
+    let nearest = points[0], minDist = Infinity;
+    for (const p of points) {
+      const dist = Math.abs(p[0] - svgX);
+      if (dist < minDist) { minDist = dist; nearest = p; }
+    }
+    return nearest;
+  }
+
+  function showAt(svg, point) {
+    const [x, y, date, price] = point;
     const tooltip = svg.querySelector('.index-chart-tooltip');
-    const dot = e.target.closest('.index-chart-dot');
-    if (!dot) { if (tooltip) tooltip.style.display = 'none'; return; }
-    const x = parseFloat(dot.dataset.x), y = parseFloat(dot.dataset.y);
-    const label = dot.dataset.date + '   ' + dot.dataset.price;
+    if (!tooltip) return;
+    const crosshair = svg.querySelector('.index-chart-crosshair');
+    const scrubDot = svg.querySelector('.index-chart-scrub-dot');
     const bg = tooltip.querySelector('.index-chart-tooltip-bg');
     const text = tooltip.querySelector('.index-chart-tooltip-text');
+    const label = date + '   ' + price;
     text.textContent = label;
     const boxW = label.length * 5.4 + 12;
     const boxH = 16;
-    const tx = Math.min(Math.max(x - boxW / 2, 2), 320 - boxW - 2);
+    const viewBoxW = svg.viewBox.baseVal.width;
+    const tx = Math.min(Math.max(x - boxW / 2, 2), viewBoxW - boxW - 2);
     const ty = Math.max(y - boxH - 8, 2);
     bg.setAttribute('x', tx);
     bg.setAttribute('y', ty);
@@ -958,7 +997,33 @@ function setupIndexChartTooltip() {
     text.setAttribute('x', tx + boxW / 2);
     text.setAttribute('y', ty + boxH / 2 + 3);
     tooltip.style.display = '';
+    if (crosshair) {
+      crosshair.setAttribute('x1', x);
+      crosshair.setAttribute('x2', x);
+      crosshair.style.display = '';
+    }
+    if (scrubDot) {
+      scrubDot.setAttribute('cx', x);
+      scrubDot.setAttribute('cy', y);
+      scrubDot.style.display = '';
+    }
+  }
+
+  document.addEventListener('pointerdown', (e) => {
+    const svg = e.target.closest('.index-chart');
+    if (!svg) return;
+    activeSvg = svg;
+    const point = nearestPoint(svg, e.clientX);
+    if (point) showAt(svg, point);
   });
+  document.addEventListener('pointermove', (e) => {
+    if (!activeSvg) return;
+    const point = nearestPoint(activeSvg, e.clientX);
+    if (point) showAt(activeSvg, point);
+  });
+  const release = () => { activeSvg = null; };
+  document.addEventListener('pointerup', release);
+  document.addEventListener('pointercancel', release);
 }
 
 // Grosse, zentrierte Karte fuer einen ausgewaehlten Index (Nasdaq/S&P 500/
@@ -1127,9 +1192,17 @@ function renderGlobalIndices(rowsByLabel) {
 }
 
 function renderBonds(rowsByLabel) {
-  const cards = Object.keys(CONFIG.tickerGroups['Anleihen']).map(label =>
-    priceCardHtml(label, rowsByLabel[label], CONFIG.tickerFlags[label] || '')
-  );
+  // Anleihen zeigen den grossen Detailchart mit Achsen + Ziehen-Tooltip
+  // (wie die Indizes-Detailkarte) statt der einfachen Sparkline - seit
+  // fetch_market.py die YTD-Kursreihe liefert (statt nur der letzten paar
+  // Tage), lohnt sich das; passt auch zur einspaltigen Anleihen-Rubrik mit
+  // viel Platz pro Karte.
+  const cards = Object.keys(CONFIG.tickerGroups['Anleihen']).map(label => {
+    const row = rowsByLabel[label] || {};
+    const dir = direction(row.change_pct);
+    const chart = bigIndexChartHtml(row.sparkline, row.sparkline_dates, dir.cls !== 'down');
+    return priceCardHtml(label, row, CONFIG.tickerFlags[label] || '', undefined, undefined, undefined, chart);
+  });
   document.querySelector('#bonds-section .tickers').innerHTML = cards.join('');
 }
 

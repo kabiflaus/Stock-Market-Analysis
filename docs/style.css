@@ -225,11 +225,15 @@ body {
 .big-index-card .chg { font-size: 1rem; display: inline-flex; margin-top: 4px; }
 .big-index-hours { font-size: 0.68rem; color: var(--text-dimmer); margin-top: 12px; font-family: var(--idx-mono); }
 
-/* Index-Detailchart: X-/Y-Achse + antippbare Punkte mit Tooltip statt der
-   kleinen Sparkline, s. bigIndexChartHtml/setupIndexChartTooltip in app.js. */
-.index-chart { display: block; width: 100%; height: auto; margin-top: 14px; }
+/* Detailchart (Indizes-Detailkarte + Anleihen-Karten): X-/Y-Achse, auf
+   Ziehen reagierendes Fadenkreuz+Tooltip statt der kleinen Sparkline, s.
+   bigIndexChartHtml/setupIndexChartTooltip in app.js. touch-action:none
+   verhindert, dass ein Ziehen auf dem Chart als Seiten-Scroll interpretiert
+   wird (sonst kollidieren beide Gesten auf Touch-Geraeten). */
+.index-chart { display: block; width: 100%; height: auto; margin-top: 14px; touch-action: none; cursor: crosshair; }
 .index-chart-axis-label { font: 9px var(--idx-mono); fill: var(--text-dimmer); }
-.index-chart-dot { cursor: pointer; }
+.index-chart-crosshair { stroke: var(--idx-accent); stroke-width: 1; stroke-dasharray: 2,2; pointer-events: none; }
+.index-chart-scrub-dot { fill: var(--idx-accent); pointer-events: none; }
 .index-chart-tooltip-bg { fill: var(--bg); stroke: var(--idx-accent); stroke-width: 1; }
 .index-chart-tooltip-text { font: 700 9px var(--idx-mono); fill: var(--text); }
 
