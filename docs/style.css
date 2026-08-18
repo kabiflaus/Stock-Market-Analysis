@@ -237,6 +237,14 @@ body {
 .index-chart-tooltip-bg { fill: var(--bg); stroke: var(--idx-accent); stroke-width: 1; }
 .index-chart-tooltip-text { font: 700 9px var(--idx-mono); fill: var(--text); }
 
+/* .ticker-card hat regulaer max-height:150px+overflow:hidden (fuer den
+   Ein-/Ausblend-Uebergang via .dimmed, s. oben) - der Detailchart ist
+   deutlich hoeher (SVG-Seitenverhaeltnis 320:176 bei voller Kartenbreite
+   plus Preis-/Change-Zeilen darueber) und wurde dadurch abgeschnitten.
+   Anleihen-Karten werden nie gedimmt, koennen die Begrenzung also gefahrlos
+   aufheben. */
+#bonds-section .ticker-card { max-height: none; overflow: visible; }
+
 #macro-more-btn {
   display: block; margin: 10px auto 0; background: transparent; color: var(--text-dim);
   border: 1px solid var(--border); padding: 6px 14px; font-size: 0.75rem;
@@ -244,11 +252,27 @@ body {
 #top-news-more-btn {
   flex-shrink: 0; background: transparent; color: var(--text-dim);
   border: 1px solid var(--border); padding: 4px 10px; font-size: 0.7rem;
+  /* visibility statt display:none - reserviert immer denselben Platz in der
+     Kopfzeile, damit die sticky Pillen-Navigation direkt darunter nicht je
+     nach Filter (mit/ohne "Mehr anzeigen") an unterschiedlicher Stelle landet. */
+  visibility: hidden; pointer-events: none;
 }
+#top-news-more-btn.has-more { visibility: visible; pointer-events: auto; }
 
 .headlines { margin-top: 8px; }
+/* Feste Mindesthoehe fuer eine Zeile "Wichtigste News" - haelt die Position
+   der sticky Pillen-Navigation direkt darunter auch dann stabil, wenn eine
+   Kategorie (voruebergehend) noch keine Schlagzeile hat (s. Fallback-Text
+   in headlinesForFilter/apply()). */
+#headlines-top { min-height: 96px; }
 .headline { border-bottom: 1px solid var(--border-dim); padding: 12px 0; }
-.headline a { color: var(--text); text-decoration: none; font-size: 0.95rem; display: block; margin-top: 4px; }
+.headline a {
+  color: var(--text); text-decoration: none; font-size: 0.95rem; margin-top: 4px;
+  /* Feste Zeilenzahl statt variabler Titel-Laenge - haelt die Hoehe der
+     sichtbaren Schlagzeile (und damit die Position der Pillen-Navigation
+     direkt darunter) unabhaengig vom jeweiligen Artikeltitel konstant. */
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
 .headline a:hover { text-decoration: underline; }
 .tag { display: inline-block; background: transparent; color: var(--accent); font-size: 0.7rem;
         padding: 2px 7px; border: 1px solid var(--accent); }
