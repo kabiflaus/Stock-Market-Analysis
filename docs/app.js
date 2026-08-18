@@ -854,6 +854,25 @@ function sparklineSvg(closes, isUp, extraClass) {
     '</svg>';
 }
 
+// Kursreihe + Datum je Holding-Ticker, gefuellt beim Rendern (s.
+// positionCardHtml) - Grundlage fuer den Woche/Monat-Umschalter auf den
+// Top-20-/Index-Holdings-Karten (s. setSparkRange). Der Server liefert
+// ohnehin die komplette YTD-Reihe, das Herausschneiden von "letzte 7/30
+// Tage" passiert rein client-seitig, kein zusaetzlicher Abruf noetig.
+const sparklineDataByTicker = new Map();
+
+// dates ist ein zu closes paralleles Array von "YYYY-MM-DD"-Strings,
+// aeltestes zuerst - String-Vergleich reicht fuer den Cutoff (ISO-Format
+// sortiert lexikografisch wie chronologisch), keine Date-Objekte noetig.
+function sliceSparklineByDays(closes, dates, days) {
+  if (!closes || !dates || !days) return closes;
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - days);
+  const cutoffStr = cutoff.toISOString().slice(0, 10);
+  const startIdx = dates.findIndex(d => d >= cutoffStr);
+  return startIdx === -1 ? closes : closes.slice(startIdx);
+}
+
 // ---------- Index-Detailchart (nur Indizes-Rubrik) ----------
 // Groesserer Chart mit X-/Y-Achse statt der kleinen Sparkline - dieselbe
 // gedimmte-Woche/farbiges-Heute-Logik wie sparklineSvg, nur mit Beschriftung
@@ -1095,7 +1114,19 @@ function positionCardHtml(ticker, row, weight, newsItem) {
   const descHtml = desc ? '<div class="ticker-desc">' + esc(desc) + '</div>' : '';
   const expandableClass = desc ? ' expandable' : '';
   const dir = direction(row.change_pct);
-  const spark = sparklineSvg(row.sparkline, dir.cls !== 'down', 'mini');
+  const isUp = dir.cls !== 'down';
+  // Eingeklappt zeigt der Mini-Chart YTD (row.sparkline kommt seit Kurzem
+  // schon so vom Server, s. fetch_market.py), aufgeklappt zoomt er auf 1
+  // Monat (per Default) mit Umschalter auf 1 Woche - beides aus derselben
+  // YTD-Reihe client-seitig herausgeschnitten, kein zusaetzlicher Abruf
+  // noetig. Dafuer hier fuer den Klick-Handler (setSparkRange) gecacht.
+  sparklineDataByTicker.set(ticker, { closes: row.sparkline, dates: row.sparkline_dates, isUp });
+  const spark = sparklineSvg(row.sparkline, isUp, 'mini');
+  const sparkRangeToggle = spark ?
+    '<div class="spark-range-toggle">' +
+      '<button type="button" data-range="1w">1W</button>' +
+      '<button type="button" data-range="1m" class="active">1M</button>' +
+    '</div>' : '';
   // Nur bei "Groesste Bewegungen" gesetzt (s. renderTopMovers) - Schlagzeile
   // aus einer gezielten, nur fuer die aktuellen Top-5-Mover ausgefuehrten
   // Suche (label = Ticker-Symbol, s. mover_queries() in fetch_news.py),
@@ -1125,7 +1156,10 @@ function positionCardHtml(ticker, row, weight, newsItem) {
           changeHtmlFor(row.change_pct) +
         '</div>' +
       '</div>' +
-      (spark ? '<div class="ticker-card-spark">' + spark + '</div>' : '') +
+      (spark ? '<div class="ticker-card-spark">' +
+        '<div class="spark-chart">' + spark + '</div>' +
+        sparkRangeToggle +
+      '</div>' : '') +
     '</div>' +
     newsHtml +
     fundamentalsPlaceholder +
@@ -1526,16 +1560,43 @@ function setupMarketFilter(rowsByLabel, allHeadlines) {
   apply();
 }
 
+// Schneidet die gecachte YTD-Reihe (s. sparklineDataByTicker) auf den
+// gewuenschten Zeitraum zu und zeichnet den Mini-Chart der Karte neu -
+// Aufruf beim Auf-/Zuklappen (1M beim Aufklappen, YTD beim Zuklappen) und
+// beim Antippen des Woche/Monat-Umschalters selbst.
+const SPARK_RANGE_DAYS = { '1w': 7, '1m': 30 };
+function setSparkRange(card, range) {
+  const cached = sparklineDataByTicker.get(card.dataset.ticker);
+  const chartBox = card.querySelector('.spark-chart');
+  if (!cached || !chartBox) return;
+  const days = SPARK_RANGE_DAYS[range];
+  const closes = days ? sliceSparklineByDays(cached.closes, cached.dates, days) : cached.closes;
+  chartBox.innerHTML = sparklineSvg(closes, cached.isUp, 'mini');
+  const toggle = card.querySelector('.spark-range-toggle');
+  if (toggle) {
+    toggle.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.dataset.range === range));
+  }
+}
+
 // Klick/Tap auf eine Holding-Karte (Markets Top-20 + Index-Holdings) klappt
-// nur noch die kurze Firmenbeschreibung auf/zu - Kennzahlen (Marktkap./KGV/
-// Marge) laufen separat automatisch, s. loadFundamentalsForContainer. Ein
-// Handler je Container statt pro Karte, da die Karten dynamisch sind.
+// die kurze Firmenbeschreibung auf/zu und zoomt den Mini-Chart von YTD auf
+// 1 Monat (nochmal antippen klappt beides wieder zu -> zurueck auf YTD) -
+// aufgeklappt laesst sich per Umschalter zusaetzlich auf 1 Woche zoomen.
+// Kennzahlen (Marktkap./KGV/Marge) laufen separat automatisch, s.
+// loadFundamentalsForContainer. Ein Handler je Container statt pro Karte,
+// da die Karten dynamisch sind.
 function setupPositionExpand() {
   ['position-sections', 'index-holdings'].forEach(id => {
     document.getElementById(id).addEventListener('click', (e) => {
+      const rangeBtn = e.target.closest('.spark-range-toggle button');
+      if (rangeBtn) {
+        setSparkRange(rangeBtn.closest('.ticker-card'), rangeBtn.dataset.range);
+        return;
+      }
       const card = e.target.closest('.ticker-card.expandable');
       if (!card) return;
-      card.classList.toggle('expanded');
+      const nowExpanded = card.classList.toggle('expanded');
+      setSparkRange(card, nowExpanded ? '1m' : 'ytd');
     });
   });
 }

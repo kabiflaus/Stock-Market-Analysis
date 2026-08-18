@@ -123,8 +123,21 @@ body {
    sonst waere pro Karte zu wenig Breite fuer einen lesbaren Graphen. */
 .ticker-card.compact .ticker-card-row { display: flex; align-items: center; gap: 10px; }
 .ticker-card.compact .ticker-card-main { flex: 1; min-width: 0; }
-.ticker-card.compact .ticker-card-spark { flex-shrink: 0; }
+.ticker-card.compact .ticker-card-spark { flex-shrink: 0; text-align: center; }
 .sparkline.mini { width: 72px; height: 32px; margin-top: 0; }
+/* Woche/Monat-Umschalter fuer den Mini-Chart (s. setSparkRange in app.js) -
+   nur sichtbar, wenn die Karte aufgeklappt ist (eingeklappt zeigt der Chart
+   immer YTD, s. .ticker-card.expanded .spark-range-toggle button.active
+   fuer den aktiven Zeitraum). */
+.spark-range-toggle { display: none; gap: 3px; margin-top: 3px; justify-content: center; }
+.ticker-card.expanded .spark-range-toggle { display: flex; }
+.spark-range-toggle button {
+  font-size: 0.6rem; padding: 1px 5px; background: transparent; color: var(--text-dim);
+  border: 1px solid var(--border-dim); font-family: inherit; cursor: pointer;
+}
+.spark-range-toggle button.active {
+  background: var(--pill-accent); color: var(--bg); border-color: var(--pill-accent); font-weight: 700;
+}
 .ticker-card.compact .ticker-top {
   display: flex; align-items: baseline; justify-content: space-between; gap: 6px;
 }
