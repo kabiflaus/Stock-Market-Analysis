@@ -178,10 +178,17 @@ def fetch_snapshot() -> list[dict]:
     rows = []
     for label, ticker in ALL_TICKERS.items():
         try:
-            # Anleihen zeigen einen detaillierten YTD-Graph statt nur der
+            # Anleihen, Globale Indizes (Detailchart) und alle einzelnen
+            # Holdings zeigen einen detaillierten YTD-Graph statt nur der
             # letzten paar Tage - Yahoo liefert das direkt ueber range=ytd,
-            # keine eigene Backfill-/Speicherlogik noetig.
-            range_ = "ytd" if label in TICKER_GROUPS["Anleihen"] else "5d"
+            # keine eigene Backfill-/Speicherlogik noetig. Futures/Makro-
+            # Barometer bleiben bei "5d" (kurzfristige Signale, YTD waere
+            # dort wenig aussagekraeftig).
+            range_ = "ytd" if (
+                label in TICKER_GROUPS["Anleihen"]
+                or label in TICKER_GROUPS["Globale Indizes"]
+                or label in _position_tickers
+            ) else "5d"
             price, prev_close, closes, currency, dates = fetch_ticker(ticker, range_=range_)
             # Yahoos meta.previousClose haengt manchmal der taeglichen
             # Schlusskurs-Reihe hinterher (asynchrone Cache-Aktualisierung) -

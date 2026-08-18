@@ -155,6 +155,11 @@ body {
 .price-currency { font-size: 0.7em; color: var(--text-dim); font-weight: 500; }
 .ticker-card.compact .chg { font-size: 0.76rem; }
 .ticker-card.compact.expandable { cursor: pointer; }
+/* Kennzahlen (.ticker-fundamentals) sind jetzt immer sichtbar statt erst
+   nach dem Aufklappen (s. loadFundamentalsForContainer in app.js) - die
+   Karte braucht dafuer auch im eingeklappten Zustand mehr Platz als die
+   Basis-150px von .ticker-card oben. */
+.ticker-card.compact { max-height: 260px; }
 .ticker-card.compact.expanded { max-height: 480px; }
 .ticker-desc {
   font-size: 0.7rem; color: var(--text-dim); line-height: 1.35;

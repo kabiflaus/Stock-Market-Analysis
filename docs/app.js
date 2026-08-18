@@ -1103,6 +1103,12 @@ function positionCardHtml(ticker, row, weight, newsItem) {
   const newsHtml = newsItem ? '<div class="ticker-news-hint">' +
     '<a href="' + esc(newsItem.link) + '" target="_blank" rel="noopener">' + esc(newsItem.title) + '</a>' +
     '</div>' : '';
+  // Kennzahlen (Marktkap./KGV/Nettomarge) werden jetzt automatisch geladen
+  // (s. loadFundamentalsForContainer), sobald die Karte sichtbar wird - nicht
+  // mehr erst beim Antippen. Der Platzhalter wird von loadCardExtras ersetzt.
+  // Die kurze Beschreibung (descHtml) bleibt weiterhin hinter dem Klick
+  // versteckt (s. setupPositionExpand/.ticker-card.expanded .ticker-desc).
+  const fundamentalsPlaceholder = '<div class="ticker-fundamentals">Lade Kennzahlen…</div>';
   return '<div class="ticker-card compact' + expandableClass + '" data-ticker="' + esc(ticker) + '">' +
     '<div class="ticker-card-row">' +
       '<div class="ticker-card-main">' +
@@ -1122,6 +1128,7 @@ function positionCardHtml(ticker, row, weight, newsItem) {
       (spark ? '<div class="ticker-card-spark">' + spark + '</div>' : '') +
     '</div>' +
     newsHtml +
+    fundamentalsPlaceholder +
     descHtml +
     '</div>';
 }
@@ -1420,7 +1427,9 @@ function setupMarketFilter(rowsByLabel, allHeadlines) {
     // Groesste Bewegungen + Makro-Barometer (VIX/Gold/Oel/Dollar) sind wie
     // Futures immer auf der Start-Ansicht sichtbar, unabhaengig vom
     // gewaehlten Sektor - morgendlicher Marktueberblick auf einen Blick.
-    topMoversSection.style.display = (isStartFilter && topMoversSection.dataset.hasData === '1') ? '' : 'none';
+    const showTopMovers = isStartFilter && topMoversSection.dataset.hasData === '1';
+    topMoversSection.style.display = showTopMovers ? '' : 'none';
+    if (showTopMovers) loadFundamentalsForContainer(topMoversSection);
     macroBarometerSection.style.display = isStartFilter ? '' : 'none';
     // Futures gelten nur der Vorboersen-Uebersicht: nur auf der Start-Ansicht
     // und nur solange die Kassaboerse noch geschlossen ist.
@@ -1444,11 +1453,15 @@ function setupMarketFilter(rowsByLabel, allHeadlines) {
       globalCards.forEach(card => card.classList.remove('dimmed'));
     }
     positionSections.forEach(sec => {
-      sec.style.display = (sec.dataset.sector === filter) ? '' : 'none';
+      const visible = sec.dataset.sector === filter;
+      sec.style.display = visible ? '' : 'none';
+      if (visible) loadFundamentalsForContainer(sec);
     });
     // Top-Holdings des ausgewaehlten Index unter der grossen Index-Karte zeigen.
     indexHoldingSections.forEach(sec => {
-      sec.style.display = (sec.dataset.index === filter) ? '' : 'none';
+      const visible = sec.dataset.index === filter;
+      sec.style.display = visible ? '' : 'none';
+      if (visible) loadFundamentalsForContainer(sec);
     });
     // "Wichtigste News" zeigt je nach Filter etwas anderes an derselben
     // Stelle (s. headlinesForFilter) - komplett neu gerendert statt nur
@@ -1514,7 +1527,8 @@ function setupMarketFilter(rowsByLabel, allHeadlines) {
 }
 
 // Klick/Tap auf eine Holding-Karte (Markets Top-20 + Index-Holdings) klappt
-// die Firmenbeschreibung auf und laedt bei Bedarf Kennzahlen nach. Ein
+// nur noch die kurze Firmenbeschreibung auf/zu - Kennzahlen (Marktkap./KGV/
+// Marge) laufen separat automatisch, s. loadFundamentalsForContainer. Ein
 // Handler je Container statt pro Karte, da die Karten dynamisch sind.
 function setupPositionExpand() {
   ['position-sections', 'index-holdings'].forEach(id => {
@@ -1522,7 +1536,6 @@ function setupPositionExpand() {
       const card = e.target.closest('.ticker-card.expandable');
       if (!card) return;
       card.classList.toggle('expanded');
-      if (card.classList.contains('expanded')) loadCardExtras(card);
     });
   });
 }
@@ -1646,40 +1659,85 @@ async function loadFundamentals(ticker) {
   return data;
 }
 
-// Laedt beim Aufklappen einer Holding-Karte die Kennzahlen (nur US-gelistete
-// Ticker, siehe isLiveEligible - Finnhubs Free-Tier deckt auslaendische
-// Boersen nicht ab). Ueber card.dataset.extrasLoaded nur einmal PRO ERFOLG
-// geladen - schlaegt der Abruf fehl (z.B. Finnhubs Free-Tier-Rate-Limit von
-// 60 Calls/Min, das die staendig laufende Live-Kurs-Abfrage schon fast
-// ausschoepft), wird das Flag NICHT gesetzt, damit ein erneutes Auf-/
-// Zuklappen einen neuen Versuch macht statt den Fehler fuer den Rest der
-// Sitzung einzufrieren.
+// Laedt die Kennzahlen fuer eine Holding-Karte (nur US-gelistete Ticker,
+// siehe isLiveEligible - Finnhubs Free-Tier deckt auslaendische Boersen
+// nicht ab) - ersetzt den in positionCardHtml immer vorhandenen Platzhalter.
+// Wird jetzt automatisch fuer jede sichtbare Karte angestossen (s.
+// loadFundamentalsForContainer), nicht mehr erst beim Antippen. Ueber
+// card.dataset.extrasLoaded nur einmal PRO ERFOLG geladen - schlaegt der
+// Abruf fehl (z.B. Finnhubs Free-Tier-Rate-Limit von 60 Calls/Min, das die
+// staendig laufende Live-Kurs-Abfrage schon ausschoepft), wird das Flag
+// NICHT gesetzt, damit ein erneuter Besuch der Kategorie es nochmal versucht.
 async function loadCardExtras(card) {
   const ticker = card.dataset.ticker;
-  if (!ticker) return;
+  const box = card.querySelector('.ticker-fundamentals');
+  if (!ticker || !box) return;
   if (card.dataset.extrasLoaded === '1') return;
-  const desc = card.querySelector('.ticker-desc');
   const canFetchFundamentals = FINNHUB_API_KEY && isLiveEligible(ticker);
   if (!canFetchFundamentals) {
     // Finnhubs Free-Tier deckt nur US-gelistete Ticker ab - ohne diesen
     // Hinweis sieht eine leere Karte (z.B. bei 600900.SS) wie ein Fehler
     // aus, ist aber gewollt (lieber ehrlich nichts zeigen als geraten).
-    const note = '<div class="fund-note">Kennzahlen nur für US-gelistete Werte verfügbar.</div>';
-    desc.insertAdjacentHTML('afterend', note);
+    box.outerHTML = '<div class="fund-note">Kennzahlen nur für US-gelistete Werte verfügbar.</div>';
     card.dataset.extrasLoaded = '1';
     return;
   }
-  // Reste eines fehlgeschlagenen Vorversuchs entfernen, sonst wuerde der neue
-  // Versuch daneben dupliziert statt sie zu ersetzen.
-  const oldBox = card.querySelector('.ticker-fundamentals');
-  if (oldBox) oldBox.remove();
-  const box = document.createElement('div');
-  box.className = 'ticker-fundamentals';
-  box.textContent = 'Lade Kennzahlen…';
-  desc.insertAdjacentElement('afterend', box);
   const data = await loadFundamentals(ticker);
-  box.outerHTML = fundamentalsHtml(data);
+  // Karte kann inzwischen neu gerendert worden sein (z.B. Live-Preis-Update) -
+  // Platzhalter darum erst jetzt frisch nachschlagen statt der alten Referenz
+  // von oben zu vertrauen.
+  const freshBox = card.querySelector('.ticker-fundamentals');
+  if (freshBox) freshBox.outerHTML = fundamentalsHtml(data);
   if (!data.metricError) card.dataset.extrasLoaded = '1';
+}
+
+// Serialisierte Warteschlange fuer die Kennzahlen-Abfrage: laedt jetzt
+// automatisch fuer alle sichtbaren Holding-Karten (statt erst beim Antippen),
+// aber weiterhin nacheinander mit Abstand statt parallel - sonst wuerde das
+// Aufrufen einer 20er-Liste sofort 20 gleichzeitige Finnhub-Calls ausloesen
+// und zusammen mit der laufenden Live-Kurs-Abfrage (s. startLiveUpdates)
+// das Free-Tier-Limit von 60 Calls/Min sprengen.
+const fundamentalsQueue = [];
+let fundamentalsQueueRunning = false;
+function enqueueFundamentals(card) {
+  fundamentalsQueue.push(card);
+  runFundamentalsQueue();
+}
+async function runFundamentalsQueue() {
+  if (fundamentalsQueueRunning) return;
+  fundamentalsQueueRunning = true;
+  while (fundamentalsQueue.length) {
+    const card = fundamentalsQueue.shift();
+    try {
+      await loadCardExtras(card);
+    } catch (e) {
+      console.warn('Kennzahlen-Ladefehler', e);
+    }
+    delete card.dataset.extrasQueued;
+    await new Promise(r => setTimeout(r, FINNHUB_POLL_DELAY_MS));
+  }
+  fundamentalsQueueRunning = false;
+}
+
+// Wird bei jedem Filterwechsel fuer die gerade sichtbare Sektion aufgerufen
+// (s. apply() in setupMarketFilter) - stoesst nur Karten an, die noch nicht
+// geladen/eingereiht sind, wiederholte Besuche derselben Kategorie sind
+// dadurch billig (ueberspringen bereits geladene Karten sofort).
+function loadFundamentalsForContainer(container) {
+  if (!container) return;
+  container.querySelectorAll('.ticker-card.compact[data-ticker]').forEach(card => {
+    if (card.dataset.extrasLoaded === '1' || card.dataset.extrasQueued === '1') return;
+    // Nur-US-Ticker (kein Finnhub-Call, s. loadCardExtras) muessen nicht in
+    // der ratenbegrenzten Warteschlange auf US-Ticker vor ihnen warten -
+    // sofort aufloesen, damit sie nicht unnoetig den "Lade..."-Platzhalter
+    // haengen lassen.
+    if (FINNHUB_API_KEY && isLiveEligible(card.dataset.ticker)) {
+      card.dataset.extrasQueued = '1';
+      enqueueFundamentals(card);
+    } else {
+      loadCardExtras(card);
+    }
+  });
 }
 
 // ---------- Live-Kurse (Finnhub) ----------
