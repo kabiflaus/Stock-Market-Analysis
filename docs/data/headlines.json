@@ -1,5 +1,33 @@
 [
   {
+    "label": "S&P 500",
+    "title": "Dow tumbles 700 points, S&P 500 falls as Treasury plan to subdue yields fails - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8teUxWQ1hsU240emRnZElJWExIWnE4UDEyV2xEWEVmZTZYVklUeWU3YlU5NUhaMGNOemdRdXJOOHFSb2ZVeXh6SmVjQUNLMmhzRHRrczZLYUhieVdxSGxPWEs0OFFyR2RoTlNaYnFUbWsxQ00tRjQ00gF8QVVfeXFMUEVDcDhJU2RrSk9PdEwySEhJTUZLdFdXNHFLeUhrRjJPLW1yTk05MmJpTTU2WndPbjlYeXJkVERRLU8tbHNHQnp0eVJwdWV3ZzBoejI2UVVmMEtic3psYS1vbWFwc0RHU2Z1VGRHdUQ2UEN1STl5cGJWQkVCTQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-08-21T07:23:59+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "DAX Turbo S 26735.7298 open end (GS) | Kurs, Chart, Analysen | DE000GG7E3D5 - n-tv.de",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbk82X25kYUpSS2RHS3lVUWhueDV1OEZDX0RRc0dVRHhoamI4ZFFyd1U5cGR2a3dtdTNRNzlxZWdaM2tsSWUxdFBoWk8tSEFxVTZOd21kVlljVHNqV2VHckluR0w1bG5jNk12VGxfU0dTRW5KLWpNNWViX1B4S2FPN3hERTlIcDdYRzZXNQ?oc=5",
+    "source": "n-tv.de",
+    "published": "2026-08-21T07:13:55+00:00"
+  },
+  {
+    "label": "DAX",
+    "title": "DAX Turbo L 21250 2026/12 (SG) | Kurs, Chart, Analysen | DE000FE64JJ4 - n-tv.de",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQa3ZTU1V5VUZjcHNKOS0wZ05rZkxfcnNmV0gxaVFacUVOaklsamJad2toU2JJaGgwb2RzYzc5TzV4WkNoaXVUMV9kOHpmTTV3SjNqOE9JZ0taQWxWVXpyU1RKcFlqQXJvWnRqZkhSSGhKZjZ3dFFNdWJOT2RObDJOY2s2S2c5dw?oc=5",
+    "source": "n-tv.de",
+    "published": "2026-08-21T07:11:01+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "A date on the calendar could shape the BOJ's endgame on interest rates - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVjkxSmZWV095MVlmYnd6Z1JzOWU5UVFYMm54YWp0M1FDaXczVzREMWRkeDFMZWZhNTBYbFlocDlVVlh4c3FrcjZwMzdvZXMyWENicVlVNzdvaWRtcW1NV1BlNS01MkVzOG5RNnVHZEZ1dkZ2bEdWc1VCOFA2NU1yZUlCQmtrWEROcDhOekNqMTBJMW9PRmphMndITlRNRVlsU0pDdHNDM1o3UHZX?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-21T06:02:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "title": "Japanese inflation rises as BoJ weighs rate rise - Financial Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUnVHUHFacWlGLVpBYWs5V1pONXhkRm13REFiSXQxUlg2OXNLVThUZ3FjTUtOQnBkVzRBWVhlamNPdjRWMVFGMzVPbVA0Yi1rWXUtb2ROeVpuQjJyUkFWd0Qxc0F1clI3LXBuN1cxbmw3U014eUYyQWxDaHVmdlFlR1Uxc2w?oc=5",
@@ -7,11 +35,18 @@
     "published": "2026-08-21T04:55:26+00:00"
   },
   {
-    "label": "S&P 500",
-    "title": "Dow tumbles 700 points, S&P 500 falls as Treasury plan to subdue yields fails - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8teUxWQ1hsU240emRnZElJWExIWnE4UDEyV2xEWEVmZTZYVklUeWU3YlU5NUhaMGNOemdRdXJOOHFSb2ZVeXh6SmVjQUNLMmhzRHRrczZLYUhieVdxSGxPWEs0OFFyR2RoTlNaYnFUbWsxQ00tRjQ00gF8QVVfeXFMUEVDcDhJU2RrSk9PdEwySEhJTUZLdFdXNHFLeUhrRjJPLW1yTk05MmJpTTU2WndPbjlYeXJkVERRLU8tbHNHQnp0eVJwdWV3ZzBoejI2UVVmMEtic3psYS1vbWFwc0RHU2Z1VGRHdUQ2UEN1STl5cGJWQkVCTQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-21T03:49:20+00:00"
+    "label": "Nasdaq",
+    "title": "Dow, S&P 500, Nasdaq Futures Climb After Sharp Selloff On Rising Treasury Yields: MSTR, MARA, COIN, WMT Stocks In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1BBVm5UVy01TGdwRjhBZ2dIaHYtalE0Tm51NU9pX25NakdJWnpkNWVKSUEyOUJSbHhPaUlhTnMtU2p0T2ZUTFVVSmtvdV9LaUQwdHh0cXhOUE5ncC05ejdTLTBMYkdqdmdzcXZHRWFTbUtVQWtoRzQzN3lwdEtVeWxmZ3NPdW0zSmhNQjlhaE1HQms?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-21T02:38:00+00:00"
+  },
+  {
+    "label": "WMT",
+    "title": "Why Walmart Stock Fell Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQblFQMnVGQjlRYTFPUWNmTXI1VWtkaHF3cmo3WnItdFB5Z1hlUE9VNTREVG1IaWlWS1JOQkRRVVZwTkVCNXgxWnQ4d3VvRW9xcEtpX2ZITmRIbXY1N20wQTdUQkZDV2tFaFN4WVNXSi0wSEZuZlFLdUxwTWVBY1lLME5kYWpwNzB3dlVCcnBQTHJ5QWJQaFlFNQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-20T23:55:10+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -22,10 +57,24 @@
   },
   {
     "label": "WMT",
+    "title": "Walmart raises outlook, but drug price declines hit hard - Axios",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wOWZudXdzMlYyUkROMW5JUFBERjJPYjJQVERJY3VBb05FNFJlSDFVR2tmYXZWQXlHX1dKTHJYOEptSzU4UGZ5RHpqelhaQUpiSjd3VTdBYjRYY1JzNE5PVWV0dWQ4UFJCeVcyLV91amI?oc=5",
+    "source": "Axios",
+    "published": "2026-08-20T23:05:55+00:00"
+  },
+  {
+    "label": "WMT",
     "title": "Wall Street sinks as bond yields rise, Walmart results disappoint - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTmlyUENlX1M1NzRGQmNObkJzQ0dIMDNtcm9oU3VVLWMzTTdfNEp6M2Z0ZDF5U1lpUThkRnRTWGlRaC1tNl8wdDJaWnBRSmhKRE5ob1BDczVOVGg4a3N4eXNjMDM4eHpOMnpSbVNsZGJrX3dxOHk2Sktyc2hTQ1RJWjRTVFJuTkRzc2RlNVZXX29md3NsbzRYbUFjTm9Jc0cyMlRLRGxIcEphY19McEpERmdNbnl6LXlULVE?oc=5",
     "source": "Reuters",
     "published": "2026-08-20T22:19:11+00:00"
+  },
+  {
+    "label": "ISRG",
+    "title": "Intuitive Surgical Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTXlreXVjdFJONnVFWDU4MFZxcXI5MHF6bTZXNmcwUFc2M3p3cU1PN0hvTGwyZkQ3eW02eWkyTlgxUmZZTElJZDVxMmZlOHYyUUo2ZU5XYnRrang5cm4xRnFjYkQ2Mi1UU1dLclJJM1dlOC04MnVJYWdpTTc2dkk5b0dJUmJXY19YeVc1Tks4d1VuOUM4aFl4cUtKUnJOY0Fsa3JwNThEdFQ4RTRqM0VPVVBzRHRoQ0lzOHVxTjF3U0lEaUVtNEVCMUEwZlAyWUFBMlcxckJkTQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-20T20:30:00+00:00"
   },
   {
     "label": "WMT",
@@ -197,7 +246,7 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "title": "Oil hits over 3-week high on Middle East supply concerns amid war impasse - Reuters",
+    "title": "Oil settles up more than 2% after Trump threatens countries supporting Iran - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1ZTcG5JRHQxeFFrOEd6Q0s4eWdFZGZwRmUyaFlPQkEwWEFLZ2xtLUJxMDFGRzZEZ1VEMjA5MjlMazgtZkJRM01FRXJ3Yk5wZUJSRW8yUEc5THM4VEZBd3V0LVhiRHBBWExnTElPMTRCX3d1ODhKR2lDdHVDVktTZS1BTUtuLXN2ZGRwUmpnNzhEdDJBZnp3cHExVndUYWlrenVEOXI0dVppdw?oc=5",
     "source": "Reuters",
     "published": "2026-08-20T01:11:00+00:00"
@@ -404,6 +453,13 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORk4tTmUzMktJUXpIbHRnR0wyQUVDRG9YckV5R3JaVjd6RXBaSEl1b19kYlRJMWt2WFQwaHlPVmUwT21QaVB0WGx1Y245TF9KSjQzVmF2dXpZX0FUNlVCVTRaeUl3ZzhESnZkU0tDSGVZMkgyY2JFcnprdVcwNG1HSUJoY29sd2hXbWdYR2FOa1d0d3Vxdmtjci1DQXV3Qy1JZ3c?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-18T20:29:41+00:00"
+  },
+  {
+    "label": "ISRG",
+    "title": "Intuitive Surgical Stock Is Having Its Worst Year Since 2008. What's Behind the Sell-Off? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbWs4M3VBTlRRX2ljX3ZPcGx1dlBhRDRSQzFjZVhqWEJyekwxM2xjaXFucm81WjBfYkJwQV90bWkwaVdhTmdJRHdwZ3FHaE9ieHBfeG9FQi1WRVgxcG1CYldXLVRaUFo5Q3FtVTMwOUMtUkFIQmJVM25TZHY1SWkycDUweldKTmlIZ1ZNTnpSUmVvRFZVVGxiaGZzWjFWSnh5a256MA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-18T20:09:51+00:00"
   },
   {
     "label": "Nasdaq",
@@ -831,12 +887,5 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSlROQUZGcnFZeVc5VHZjWGdpMmItNGNiUWxyV1EwRzdBRWFIRFNuVTIwRkZaSjVlV3FzX0FkSXdyeGtkZFlnUEUzbDdxRTVXLVEzNXBHVTFwU3IweHVfS1dzd3oxeFM3SkdqYldqbkdpaXZYbk9meHIyTWw2Q2tOS3JjSTI3TUY30gGOAUFVX3lxTFBJdnk5T2RxZi1kOGVodnlRdXE0SU00MnJPZnZPTUswMzFFMmJXZnZYa1FxUlNERFU0MHluTnppVTY2NkFVeWRDZ2JTaWJOOFFpTDNMal9ZMEpmQW5oSkpaRWZpQldsR1ExcVdhWTFHLTRtdi1kMlJRMV9GU3A2Q0hBOEFjUHB3eU56OXE5LWc?oc=5",
     "source": "CNBC",
     "published": "2026-08-17T08:08:17+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "title": "Stock futures fall after S&P 500 posts three-week win streak: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RM1hCU0w1Ymc5bmJYUlpoT0FsMXpRY1VZSWtvbExwb2hycWN6eUhtdjJZWE9FTmRVdkV6WmpkQkhjNjVMVVZUY1J3WmRQZ2JKMFZFVWpGRUlfbjVlX180SzNQRWNpNEVwVlRQUVE4bml6TWRZTUNGRNIBfkFVX3lxTE9qWkJMWFk2bGV0U1ZiZmt4eFlUSUtueGNhd3JoQW80cFN4TDQ5dVp1RWk0ajllYXhycUpqV2FNMWtwaHJVS3JCRHZkS3M3RktRTXpoQkFTcXp4WnRycDhiOWNvNFlsRFpudXk0UDN3RjVRN0hwc0M4alZ6Q1BqUQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-17T06:40:51+00:00"
   }
 ]
