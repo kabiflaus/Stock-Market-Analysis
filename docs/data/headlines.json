@@ -1,10 +1,31 @@
 [
   {
+    "label": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures drift higher as bitcoin surges - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUjg1dUFUenpZVUZkX2FWa2JncmdfQ0MyZDg4YnlPNlkwSmpYSHNyQ2JtYnpobGh3MDJfNkhqWFREMi11OUpQbG04bWRYUnpycHZFcE1aNTFCSFY3RmRLU1dsbnk2d0R2aEhRTFJwaVJLYVBMNXN1ZVNyRTdGSkQxOU13dm1ZUTVQM2QtMDc3ZGFUOGJFMW1kc0luLVMyY0xkMDdDUzNFejBsMGs?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-21T12:54:44+00:00"
+  },
+  {
     "label": "S&P 500",
     "title": "Dow tumbles 700 points, S&P 500 falls as Treasury plan to subdue yields fails - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8teUxWQ1hsU240emRnZElJWExIWnE4UDEyV2xEWEVmZTZYVklUeWU3YlU5NUhaMGNOemdRdXJOOHFSb2ZVeXh6SmVjQUNLMmhzRHRrczZLYUhieVdxSGxPWEs0OFFyR2RoTlNaYnFUbWsxQ00tRjQ00gF8QVVfeXFMUEVDcDhJU2RrSk9PdEwySEhJTUZLdFdXNHFLeUhrRjJPLW1yTk05MmJpTTU2WndPbjlYeXJkVERRLU8tbHNHQnp0eVJwdWV3ZzBoejI2UVVmMEtic3psYS1vbWFwc0RHU2Z1VGRHdUQ2UEN1STl5cGJWQkVCTQ?oc=5",
     "source": "CNBC",
-    "published": "2026-08-21T07:23:59+00:00"
+    "published": "2026-08-21T10:12:32+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "title": "Nasdaq, S&P 500 Futures Rebound, Rising Yields And Bitcoin In Focus: Why NVDA, MU, SPCX, WMT, MSTR, ASTS, RKLB Stocks Are In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTGZxUUw1TUpSVUxCZ3d4YU9NYmtqWUlmbEJaT2dZRUJXa01KRy1jM2ctTGoydGRkcHZxdzhXU0lXRzFhUjVMcW1PcXRNQ050WWVUUDN6WDAxWU9abzIzYnJ1REFLMl9tWEx6S3BzdjdibmFpa2NTWHRrVEdOOHJLaTZHT01mWTN2LVljME1oVXVQNEw5T2xVTw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-21T08:55:33+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "title": "Longer-dated Treasury yields hold steady after Bessent's bond buyback rally fizzles out - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zdkN2SURXc0pxNUsxbnFOazZUQ05fb2JQYWNQMTFOcVB0ZmRaXzRxNEtCV0paRVBtOGxya3lVUURPUWE1a3RQVFFsWmRGXzJGUTc0My02bTQ5czhxbHFlUzlwSkFmYU9WdzdRdWlfSzJVQzlTLVotMjAxRUlwODTSAYQBQVVfeXFMUGliQ04zRUFPR3RTcGpUYTlNd0F3al9YVVFJMFB6M3ZMVzBCS2JxVzAybG5IVHBDRG90VlVCYXNjX1Y5WWVWRU42aTFMbmdQMnVETW5ESG13d2FZejJ2MUFlanp1dFhfWkJqcTJSb3hwQlZVajB6S19uc3d4eFViNnNSa0Q1?oc=5",
+    "source": "CNBC",
+    "published": "2026-08-21T08:36:34+00:00"
   },
   {
     "label": "DAX",
@@ -25,7 +46,14 @@
     "title": "A date on the calendar could shape the BOJ's endgame on interest rates - Reuters",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVjkxSmZWV095MVlmYnd6Z1JzOWU5UVFYMm54YWp0M1FDaXczVzREMWRkeDFMZWZhNTBYbFlocDlVVlh4c3FrcjZwMzdvZXMyWENicVlVNzdvaWRtcW1NV1BlNS01MkVzOG5RNnVHZEZ1dkZ2bEdWc1VCOFA2NU1yZUlCQmtrWEROcDhOekNqMTBJMW9PRmphMndITlRNRVlsU0pDdHNDM1o3UHZX?oc=5",
     "source": "Reuters",
-    "published": "2026-08-21T06:02:00+00:00"
+    "published": "2026-08-21T06:09:06+00:00"
+  },
+  {
+    "label": "WMT",
+    "title": "Walmart raises outlook, but drug price declines hit hard - Axios",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wOWZudXdzMlYyUkROMW5JUFBERjJPYjJQVERJY3VBb05FNFJlSDFVR2tmYXZWQXlHX1dKTHJYOEptSzU4UGZ5RHpqelhaQUpiSjd3VTdBYjRYY1JzNE5PVWV0dWQ4UFJCeVcyLV91amI?oc=5",
+    "source": "Axios",
+    "published": "2026-08-21T05:05:55+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -57,17 +85,17 @@
   },
   {
     "label": "WMT",
-    "title": "Walmart raises outlook, but drug price declines hit hard - Axios",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wOWZudXdzMlYyUkROMW5JUFBERjJPYjJQVERJY3VBb05FNFJlSDFVR2tmYXZWQXlHX1dKTHJYOEptSzU4UGZ5RHpqelhaQUpiSjd3VTdBYjRYY1JzNE5PVWV0dWQ4UFJCeVcyLV91amI?oc=5",
-    "source": "Axios",
-    "published": "2026-08-20T23:05:55+00:00"
-  },
-  {
-    "label": "WMT",
     "title": "Wall Street sinks as bond yields rise, Walmart results disappoint - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTmlyUENlX1M1NzRGQmNObkJzQ0dIMDNtcm9oU3VVLWMzTTdfNEp6M2Z0ZDF5U1lpUThkRnRTWGlRaC1tNl8wdDJaWnBRSmhKRE5ob1BDczVOVGg4a3N4eXNjMDM4eHpOMnpSbVNsZGJrX3dxOHk2Sktyc2hTQ1RJWjRTVFJuTkRzc2RlNVZXX29md3NsbzRYbUFjTm9Jc0cyMlRLRGxIcEphY19McEpERmdNbnl6LXlULVE?oc=5",
     "source": "Reuters",
     "published": "2026-08-20T22:19:11+00:00"
+  },
+  {
+    "label": "MRCY",
+    "title": "Mercury Systems, BWX, Kratos, Parsons, and Huntington Ingalls Shares Plummet, What You Need To Know - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdUZhWTFNeVMtZldKM3RVQ0h3T0xQUVlyQ3oyNFF2Z1FLMGpQQmVOSUxoLTRXTTJDMjRQeEhkbHRuUmMyWVhWZnBmeFZ3M0VOTXF6TXZzeE9mVnU3Nms5M3JyTzhCZjhUMUx4b3Z2elJNYmEwdEpkN0toRk5uQkpCdm13MF9EZ0VBZmdwT00ySEVVYlZzV2wwSVF4S19KNXEx?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-20T22:11:15+00:00"
   },
   {
     "label": "ISRG",
@@ -162,6 +190,13 @@
   },
   {
     "label": "S&P 500",
+    "title": "S&P 500 futures give back early gains as Treasury yields rise again - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNWm9xMVhaLTE3SjZqSTFyVFFsVHB1eGhQcEdUZFBuSkpqLVktd3BFVm1XbG5ReXFwWjNKQ2VqWEloeDlDazNZM3AzVWFYQlItUm12TGRhVS1xR2VCOGZlMHZDS3RrRkhCVHpLMEdKYXBjU1hEbXNVUFR3Y2Z2NEZhaFVPS1FpaXpnSW9rUHVKaE8wU1NnZ2VGU2Y4S05HV3pVMFpGaFlYNzhYdjAtcDZpN1lKZUFCbDBSNXhmOEpIU2ZxOFlWdWZKQ3dyV3M3MFhtRWFJSXF0SVdNWnFmUHBXSk9PZzRBYkFYY1NPbllQVW5IeHg4MVZtOHBXZkl4ZDdXaFVIWmw3aHpnYzlEekhxcm9mZ1RraVVTY3hkUXVsYzBEWFJHNW5lRTBFREM5SG1fUjVuZkw5SkdINzFoMDFjSlo1bEd4enBSYll1VVdtbERjQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-20T11:25:00+00:00"
+  },
+  {
+    "label": "S&P 500",
     "title": "S&P 500 futures are little changed after index snaps three-day slide - CNBC",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWVBpV3pBajRGczc5YzQzQVp6aV85aHcxcjRoNzFNRU0yMEVhSldZWE9RT0QwWGNFQ0NaWGZ5WTZ2XzlBUXpIM2l1VlJNREtjdk5KRjJLQ2lGWXVTVVk3MWk4T2hQcDBnTW0zMWh1bTA2cklET3R6MEhfUm5NSTRJa1M0R0x6dTljSVRPNzAxNTNTOFRGUk5kOEQ1N3dHSlpFT3JFcjIwcmJSaTlQbUVR?oc=5",
     "source": "CNBC",
@@ -194,6 +229,13 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
     "source": "CNBC",
     "published": "2026-08-20T08:33:57+00:00"
+  },
+  {
+    "label": "MRCY",
+    "title": "Mercury Systems (MRCY) Stock Looks Fully Priced As Its 155% Run Continues - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNmw1YXlHd0J6TlZ6TGR6WERLa0xNVDNSRlVrLXFxTGtLcFdLdVFNWHcxcEFYYU4ybEJVUUNrSkZaei1JR2FUNG9fakNWbUx4Mk9LaEtLM0N5VzlUYlVUejR0bXM4TkowVTVmRTVwMDdqOTRtQ1pZMzN1dXBfUWh2RWpITHl4OTBZckUwM0dMVDNKZlU5cUhsTEotM3l3dw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-20T08:13:14+00:00"
   },
   {
     "label": "S&P 500",
@@ -299,6 +341,13 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT183dy1fOGNrM19aUzJGYTFlMXdxS25EMW5FNEZCU0t2QzNxTklWVkQyUG5pNEpPUnJsdFZ4b08wZEpiejZjOEE2czc2a1NyUkxhNkNKemhQbUpZUUIyU1ZHYXU0d0wzM094S1dnODNNbUExa1Z6MDdCVHN1THdDWng5WnpFNzhSX0h5dXM0b3hYeUFt?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-19T18:48:57+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "title": "Several Fed officials wanted to raise rates last month. If inflation doesn't come down, more of them see hikes. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVEw1S2JfLTVyZ29zUEFCNVRRYVZPbDdtR0dfM3M5N21FYjREZnF4UVYtaUw3ZHJ4SDh4Nlk0VVA2bEdTS2gtMUpTT1ZlMU5wOVRzTTlYX1NiN1V4UWt1MjdaSkNvR3JOdm15X2F3TXhXLUtTc2xtMkc5YXV4Wkp0V3RqRVE0cGlkVHpITUdGRjExY0FiRjRJcWxhLXdtUDJFSWRsdDV5TlVYZUduUGl4NnVERXA2eGJFMG44R0FXd0RBcmoza2pKaG03dS1BLTJfcVU2MjVpX25idEtqbF92clp1b0xPTExVZHpPZWFHSXZfTTZhOVRQN2lEdFg5VEJr?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-19T18:41:12+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -803,89 +852,5 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQTlwRGlBc3Rxdkg5QVVndUpCTWF1X0xMamJGZUpsM3M3SXJ5VHgwdjRiak9uMFBrbk9SV2dXVDFJVVFnZGc0VHN4b2ZfU3NraHlOSTUtZ1NOV3pjZnczb2trVE9ReTZ1SlQ0SldIRlNMRXM1c3pJY1Y1ZjhFZDBrUTR3cDNrREVkcVVvZGZYU2I2UQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-17T13:56:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "title": "S&P 500, Nasdaq futures rise on tech boost - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-17T11:52:24+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "title": "S&P 500 hits all-time high; Wall Street futures slip Monday - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYXd5a3RoVTFtSUw1UUNiN0JxZVQxeUpfZDU0TTFzb1k2TGdiN3pDRmdnRFppVGFLa2FNRGZPSUNVLWc1VktIUE5kQlFOZWdEajVJTkl0OU16NkI3VjhOa3JGdTR4NnYweUNXay1rUnp3NjJNRGVwZkVody00aXFFcUxUMHVpQ1hPck4wR2t3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-17T11:35:32+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "title": "What rising Treasury yields are telling us - Axios",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBldjNhUVMzNm9CXzlqUkY2MGF2RTc1R1lEY3Bpb3h1M05ka0Z6TWZPdk92SEF6WmZVN0wxd1F3Vnowd08yV0VZRE1sTi01WFZESHhuQ1lDMTYyWlIwSXNoSk5DN3oxeE9oajFpUA?oc=5",
-    "source": "Axios",
-    "published": "2026-08-17T11:14:14+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "title": "Fed to hold interest rates this year, economists say, sticking to their view: Reuters poll - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ0p0REVVbU5Jemw4S3l1Z1l6d1phN25HR3lMck44YjJlQld3bFh0M0l3ZEROT0o3cjdIbTVrNjVSS2xzMjhPTjE0VHA2eE9kUlREVUZpWTZwbUQ1dDVpa1VmRGQ4eVU1OHh4S1BtSnkyLUZkZ2VTTU9IU0Fsc3VucUZNVm9zM1N3RUdpc0gzdk5zOGV3bzNROUlXaXdvZFdoR2tId0N6bHJyUTZlUmp0MzJXRQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-17T11:08:09+00:00"
-  },
-  {
-    "label": "Energy",
-    "title": "Vista Energy up 4% after billionaire Peter Thiel buys stake in the Argentine shale oil producer - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbUs3V2FwQUg5N1ZLeUE0eG9kMnR0bE9CRElUUGl2LVdpOHVzaV85ZDhsQ2FlbkdYanNpMWFOcVdUM2U0RndRWkNZTElJVlBWdWRMT1JubGxHRHlxRDQ3cUw1SGVFczFxX3JwY3BJMUllMVllMlJJaUt2QWpWakQwUF9oWmNON3JGNlVndW8xRldkd9IBlwFBVV95cUxNMVdfVkVXM1JRQk9Vbm93ZldLLXdxVExJY0RGMEU2VTZNbTEya0VzQUFRc2pPMGIwUkQxTHA2Y0EwTUxNMGNPcFJrVHlvc0pDRWVKUzkxSE90WEZKV2ZSeWxGdkpDVkl6dUJZdUtaVHdFV1hIcmNSdDNVRVJvZG90MS12Z056ZVB4bktNS25TeVNZTUZDZ1BV?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-17T11:05:58+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "title": "Japan’s debt crisis deepens as borrowing costs hit 30-year high - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb0JiVUxvck5yeU1KamY3M2RQa2g2ZldXbXZ6LS1QUEdxczBHYkRCdl9qc1FXMkp2X3BuRUZ3T09WOE9XV3hIZnZqOVhjNld5M051bUQ2SEx2U0JxMjVIVlRvSlFydFkydjloa3NmZXlPZ3dlUHZBYUF1TG9jR2xSWHFJdUxtV2lIOUhGaFhwVXhoQU9ZcEkyOHQ3ZWtXQWhUd0E?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-17T10:59:58+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "title": "AI Is Driving Up Treasury Yields: ‘It Just Touches Everything’ - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMGJlR1hGTWh5S2c0d0FWSE5ra0k1YjNQaEw1TkxQRU03MTAzTTJJdGR1dEdnaFN1M2FLTWUyRUFXOW94czJhU01lT2h3bWhIMGYtWW9NWENCZU9WTkxsYXhoSkpOUV9CSnhBM2didDNhRTlwdVEweHg5bWw2eGFDdHdlb3NWTHdoRU45TXNmLUdxT0FxOE9HQ3ZzSlc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-17T09:30:00+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? SPCX, NVDA, SNDK, MU, NLST, BABA, SLS, RKLB Stocks In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSDNENEs4ZTdkVlFVVm03enZ1OERZNWx2NTh5ZFVua0NQU0hPdXpjSWdVQzU1UFpfeFdyQ2tsSkhLaTU3dlFCZUJ6RFA5WVJrWDJBQUNoU2M2bW9WbUZkcWNtU3NkT2tSMDJVOXdYZXBoVk1McTNTNGdqY3FSTTg4V18wS3Q1R1hDbFNFTW8zVXdXQjA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-17T08:40:35+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "title": "S&P 500 futures hint at another record to come, but tech set to dominate to start the week - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOVGQ3TmxWMi1YMVUxQ1ZIb3lUMUsyLWdtc1R1UUFoRlFLZ3JvRVJQN2w5bHFQX2F6Zkt1SW0tRlNlbGdkcWFoWXlLeVVXZmh5aUhyem15MS1yR09PbWNDVkV1SWV2RXpYU3NLdmVvaXZZVjUzbFdGNC1XeS1OSEFZZS1keFZhcDZTek5PLTdaek82bUtzc3RZZXVtLWlJeWtXUzBoclBUcUNqcFNxSldFckoyMmcydm1CUXdzT2RMaVBhMjVCcDN2dHNnLUZsVktlbTZaSVlkSHB4LVQ0ck9Oa2h5SUpsMVYwSnAxMHhLbE55V2JhNlNoSjljN2t3UWNkNWdEcHhPRkU1aDdITkJiQ0NpanotcWlMZGxjcHFyNGVsOEpuMWhHblRuczd2dGFoT2ZQSmxIRDMzOHZQN2dXcjhGa2psdS1ZVm00NFVYb0E0REhTYzkyQ05JVjVOeFJD?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-08-17T08:32:00+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "title": "Taiwan's president says record defence spending an investment in peace - reuters.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMUhtZ0k5WElRd1ZLNlEtejNuLTZGcXQ0ZXMzRkpVWnk3aFVGaC1GV1EtOWwxQjM5eEdfNm85WGowWGlWQlhSekw2WnV3OXNtV1JRVjdsY2NzcF9HY1VPSDNhcktuV2l3ZWZXaVBNZExsaFN6dGZpcFBBall2MktGME84N2dHbi03WnVqRHRCU1hSMWxOdE5MZE94QnRUTHZWcDBYWFM0MkRqejlUc2xlanlIWQ?oc=5",
-    "source": "reuters.com",
-    "published": "2026-08-17T08:12:22+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "title": "US Stock Market Today S&P 500 Futures Dip As Inflation Concerns Resurface - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSmd6R3JpazRnTWlZS1g2LUVsTG1GUDZmWDMwVFhvN1BRcUJ6YXdFQkg2T2RNai1jcnRHdGR1V0Rpandmc2FXTWc4QktkZjNKbmMyWlFHZzdMcTF1OW5yMTltLVZUMGw5ZS1zLVNOUXc3ZmRDVWdrTl8xVDAzRTk0MndENEloMVF0SmVScTlEbXlLQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-17T08:10:43+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "title": "30-year Treasury yield tops 5.31%, the highest in 19 years - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSlROQUZGcnFZeVc5VHZjWGdpMmItNGNiUWxyV1EwRzdBRWFIRFNuVTIwRkZaSjVlV3FzX0FkSXdyeGtkZFlnUEUzbDdxRTVXLVEzNXBHVTFwU3IweHVfS1dzd3oxeFM3SkdqYldqbkdpaXZYbk9meHIyTWw2Q2tOS3JjSTI3TUY30gGOAUFVX3lxTFBJdnk5T2RxZi1kOGVodnlRdXE0SU00MnJPZnZPTUswMzFFMmJXZnZYa1FxUlNERFU0MHluTnppVTY2NkFVeWRDZ2JTaWJOOFFpTDNMal9ZMEpmQW5oSkpaRWZpQldsR1ExcVdhWTFHLTRtdi1kMlJRMV9GU3A2Q0hBOEFjUHB3eU56OXE5LWc?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-17T08:08:17+00:00"
   }
 ]
