@@ -309,6 +309,10 @@ body {
    Kategorie (voruebergehend) noch keine Schlagzeile hat (s. Fallback-Text
    in headlinesForFilter/apply()). */
 #headlines-top { min-height: 96px; }
+/* Aufgeklappt (bis zu 10 Eintraege, s. TOP_NEWS_MAX_EXPANDED in app.js)
+   scrollt der Block intern statt die Seite - und damit die sticky Pillen-
+   Navigation darunter - beliebig weit nach unten zu schieben. */
+#headlines-top.expanded { max-height: 420px; overflow-y: auto; }
 .headline { border-bottom: 1px solid var(--border-dim); padding: 12px 0; }
 .headline a {
   color: var(--text); text-decoration: none; font-size: 0.95rem; margin-top: 4px;

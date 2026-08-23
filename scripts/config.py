@@ -8,14 +8,19 @@ NEWS_QUERIES = [
     # Geopolitik (Oel, Iran, Zoelle). Immer sichtbarer Block oben im Markets-Tab,
     # unabhaengig vom Sektor-Filter. Kurze Suchbegriffe, da Google-News-RSS
     # praktisch alle Woerter der Query im selben Artikel verlangt (Leerzeichen = UND).
-    {"label": "Makro & Weltpolitik", "query": "Federal Reserve interest rate", "hl": "en-US", "gl": "US"},
-    {"label": "Makro & Weltpolitik", "query": "US inflation CPI", "hl": "en-US", "gl": "US"},
-    {"label": "Makro & Weltpolitik", "query": "ECB interest rate", "hl": "en-US", "gl": "US"},
-    {"label": "Makro & Weltpolitik", "query": "China inflation CPI", "hl": "en-US", "gl": "US"},
-    {"label": "Makro & Weltpolitik", "query": "Bank of Japan interest rate", "hl": "en-US", "gl": "US"},
-    {"label": "Makro & Weltpolitik", "query": "oil price Iran", "hl": "en-US", "gl": "US"},
-    {"label": "Makro & Weltpolitik", "query": "Trump tariffs markets", "hl": "en-US", "gl": "US"},
-    {"label": "Makro & Weltpolitik", "query": "Treasury yields bond market", "hl": "en-US", "gl": "US"},
+    # "label" bleibt die gemeinsame Kategorie fuer Filter/Routing (Makro-Block,
+    # "Alle"-Ansicht in app.js) - "topic" ist das konkrete Thema, das statt des
+    # generischen Labels als Tag auf der Schlagzeile angezeigt wird (s.
+    # headlineHtml in app.js), sonst stuenden 8 verschiedene Meldungen alle
+    # nur als "Makro & Weltpolitik" da.
+    {"label": "Makro & Weltpolitik", "topic": "Fed", "query": "Federal Reserve interest rate", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "topic": "US-Inflation", "query": "US inflation CPI", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "topic": "EZB", "query": "ECB interest rate", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "topic": "China", "query": "China inflation CPI", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "topic": "BOJ", "query": "Bank of Japan interest rate", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "topic": "Öl & Iran", "query": "oil price Iran", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "topic": "Zölle", "query": "Trump tariffs markets", "hl": "en-US", "gl": "US"},
+    {"label": "Makro & Weltpolitik", "topic": "US-Renditen", "query": "Treasury yields bond market", "hl": "en-US", "gl": "US"},
     # Kuerzere, ereignisnahe Suchbegriffe statt generischer "wie laeuft der
     # Sektor"-Phrasen (Aug 2026: mit der ALLOWED_SOURCES-Positivliste lieferten
     # die alten, laengeren Queries 0 Treffer - solche generischen Themen-

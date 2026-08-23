@@ -109,6 +109,12 @@ def _fetch_one_query(query: dict) -> list[dict]:
 
         items.append({
             "label": query["label"],
+            # Konkretes Thema statt der gemeinsamen Kategorie fuer den Tag auf
+            # der Schlagzeile (s. Kommentar bei NEWS_QUERIES in config.py) -
+            # faellt auf das Label zurueck, wenn kein eigenes Thema gesetzt ist
+            # (bei allen Queries ausser "Makro & Weltpolitik" ist Label bereits
+            # spezifisch genug).
+            "topic": query.get("topic", query["label"]),
             "title": title,
             "link": entry.get("link", ""),
             "source": source,
