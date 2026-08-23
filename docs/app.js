@@ -23,6 +23,7 @@ const CONFIG = {
       "S&P 500 (USA)": "^GSPC",
       "Nikkei 225 (Japan)": "^N225",
       "DAX (Deutschland)": "^GDAXI",
+      "EURO STOXX 50 (Eurozone)": "^STOXX50E",
       "FTSE 100 (UK)": "^FTSE",
       "KOSPI (Südkorea)": "^KS11",
       "Hang Seng (Hongkong)": "^HSI"
@@ -39,6 +40,7 @@ const CONFIG = {
     "S&P 500 (USA)": "🇺🇸",
     "Nasdaq Composite (USA)": "🇺🇸",
     "DAX (Deutschland)": "🇩🇪",
+    "EURO STOXX 50 (Eurozone)": "🇪🇺",
     "Nikkei 225 (Japan)": "🇯🇵",
     "FTSE 100 (UK)": "🇬🇧",
     "KOSPI (Südkorea)": "🇰🇷",
@@ -1661,7 +1663,13 @@ function fundamentalsHtml(data) {
   if (!data) return '<div class="ticker-fundamentals">Kennzahlen aktuell nicht verfügbar.</div>';
   const m = data.metric || {};
   const marketCap = formatMarketCap(m.marketCapitalization);
-  const pe = m.peBasicExclExtraTTM ?? m.peExclExtraTTM ?? m.peTTM ?? m.peNormalizedAnnual;
+  // Finnhub befuellt je nach Ticker unterschiedliche PE-Varianten (z.B. bei
+  // Intel wegen der volatilen/negativen Gewinne durch die Restrukturierung
+  // 2024/25 waren die TTM-Basic-Felder leer, obwohl andere PE-Felder einen
+  // Wert hatten) - deshalb eine laengere Fallback-Kette statt nur der 4
+  // gaengigsten Varianten.
+  const pe = m.peBasicExclExtraTTM ?? m.peExclExtraTTM ?? m.peTTM ?? m.peNormalizedAnnual
+    ?? m.peInclExtraTTM ?? m.peBasicExclExtraAnnual ?? m.peExclExtraAnnual ?? m.peInclExtraAnnual;
   const peStr = peDisplay(pe);
   const peHtml = '<span class="chg ' + peColorClass(pe) + '">' + peStr + '</span>';
   const margin = m.netProfitMarginTTM ?? m.netProfitMarginAnnual ?? m.netMarginTTM;
