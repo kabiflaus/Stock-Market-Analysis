@@ -1480,8 +1480,13 @@ function headlineHtml(item, index, maxVisible) {
   const relatedHtml = (item.relatedCount && item.relatedCount > 1)
     ? ' &middot; +' + (item.relatedCount - 1) + ' weitere Quelle' + (item.relatedCount > 2 ? 'n' : '')
     : '';
+  // item.topic (konkretes Thema, z.B. "Fed"/"EZB"/"BOJ") statt item.label
+  // (gemeinsame Kategorie "Makro & Weltpolitik" fuer alle 8 Makro-Queries,
+  // s. NEWS_QUERIES in config.py) - Fallback auf label fuer aeltere,
+  // bereits gespeicherte Eintraege ohne topic-Feld.
+  const tag = item.topic || item.label;
   return '<div class="headline' + extraClass + '" data-label="' + esc(item.label) + '">' +
-    '<span class="tag">' + esc(item.label) + '</span>' + badge +
+    '<span class="tag">' + esc(tag) + '</span>' + badge +
     '<a href="' + item.link + '" target="_blank" rel="noopener">' + esc(item.title) + '</a>' +
     '<div class="meta">' + esc(item.source || '') + relatedHtml + ' &middot; ' + fmtTime(item.published) + '</div>' +
     '</div>';
