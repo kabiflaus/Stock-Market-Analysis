@@ -1,6 +1,7 @@
 [
   {
     "label": "Makro & Weltpolitik",
+    "topic": "Zölle",
     "title": "Tariffs raised prices you paid. But most businesses won’t be passing tariffs refunds back to you - CNN",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVZRT1RDXzJNSllfVGMzeE1ZZnpKSkE4eDRxSlJzbWV1Sml5RjlobzBleXhqa21hbWhCbVNkUEpCSHlpWHhNLXhxN1pkVFllNmoxQXIzTkxoZHlHSlF4bXZ6MHZtNEFUOHIzaDNQNVFVaEVQaEZRbmlIMUo0VjVRbA?oc=5",
     "source": "CNN",
@@ -8,6 +9,7 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "Zölle",
     "title": "Negotiators say a tariff deal with Canada is ‘very close’ with concessions already in evidence from autos to liquor - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWkp0b21rTXg4UnFQb1JHSFJPUXgwUnZ0eUItTUtrSjUyRUxNdURMVHdiUm9MNW92blB1OVZZYndjX2JJWXJWSFFqSWlsS1gwajhueWlXaEY3TEJHUk9TaEZhdmZmaEpQWlhGdU1uMkpld2NEc21PQUxtcGNpU1NoWHZXQmdNZ0F5blBTLTJrbkpVQ21WdUU4LWNibHFjdmJ5MENqZnExNzRpUklIdkZVT184Vlpfc0N5Yk1mVQ?oc=5",
     "source": "Yahoo Finance",
@@ -15,13 +17,7 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "title": "Why oil markets are ignoring Trump's \"truths\" - Axios",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTkJuaEJhT252YTBDcDRnSkk5cVV3TlpHakpBdHhBdndteWJSX1dicUZwcFNaRFpNcVlLWGg3NWJ0T2NtbDZXZzFMd3lFbGVPMl9tRG5odXVDVnNncmZQRl9LMmRFeGdIV2UydnczTW5oN3l0OU54enJtdkhqZHB2ag?oc=5",
-    "source": "Axios",
-    "published": "2026-08-22T07:03:43+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
     "title": "Oil rises as Trump threatens sanctions on Iran partners - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
     "source": "Reuters",
@@ -36,6 +32,7 @@
   },
   {
     "label": "TSLA",
+    "topic": "TSLA",
     "title": "Why Is Tesla Stock Up Today? - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVVNTX2hfeFU4R3lwVHE0d0VmUGR6LUVNTEpEVXRaV21oR3RibGFlamowZTZOcHdhVGdhVlozNUlFdmlyYjVnWlRremR2RkJZTTlKeWlna2o5RnR6ZzQtQkZEbEZ3dnIwSGJOVzhpMm03LS12QWs2bHdWQkxKMTdYZ0h4cW1lQ3VKSGJURnZ5QQ?oc=5",
     "source": "Yahoo Finance",
@@ -57,6 +54,7 @@
   },
   {
     "label": "TSLA",
+    "topic": "TSLA",
     "title": "Tesla’s stock jumps as the company gets cleared for a Las Vegas robotaxi launch - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTU5MR2pXQlZoMDgzSWFXVEZsNEZpcEg1ei15RkNOQkpPaXRYLW8xbEswb1VQa0ZlWFNBcGQwamtuMEZ2dUgtUnp0RHllYWI2WnBTMjhDVVRCM05PUGhaZ25zNm9pdDRGOV95TzZ3bTdtUF9TY19BRVY1d2hJajNjT2taTW0wMjFDMmNGUGE4dEdaVmdjU050WkdnRkZWVmQycndBdi1VcW40c3M?oc=5",
     "source": "MarketWatch",
@@ -64,6 +62,7 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "Bond yields head higher again, giving back almost all gains since Treasury Department intervention - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOS2J3dS1qa0VEMmQ3N2doSFlOSHF4MTlJeXM3bDhTc21RVnQwNTNuU1NYbFpjenlleS13UFhxU0dhcnktV2E3cWxMRHJiWmtyX0t2RlQzajhYajcybThVVFJuNTRMbGVfLXhXdlNHN2tzSWlxVnloUi13LXBLdXJFUGdPZDczMlRFeDd0VFJtcjljRkJfUWtXTzNCajlPTkZiMjRwYnBaRjI3ZXdsbzNYXzFtbkJlbVJ0QVVOcEl1MldwTVJLQzB2Rk5Gc3RkdmZBdXMxMURTLThZaF9GaVRTSEZUQmRuMXlEYlE?oc=5",
     "source": "Yahoo Finance",
@@ -112,6 +111,14 @@
     "published": "2026-08-21T13:31:34+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Why oil markets are ignoring Trump's \"truths\" - Axios",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTkJuaEJhT252YTBDcDRnSkk5cVV3TlpHakpBdHhBdndteWJSX1dicUZwcFNaRFpNcVlLWGg3NWJ0T2NtbDZXZzFMd3lFbGVPMl9tRG5odXVDVnNncmZQRl9LMmRFeGdIV2UydnczTW5oN3l0OU54enJtdkhqZHB2ag?oc=5",
+    "source": "Axios",
+    "published": "2026-08-21T09:16:55+00:00"
+  },
+  {
     "label": "S&P 500",
     "title": "Nasdaq, S&P 500 Futures Rebound, Rising Yields And Bitcoin In Focus: Why NVDA, MU, SPCX, WMT, MSTR, ASTS, RKLB Stocks Are In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTGZxUUw1TUpSVUxCZ3d4YU9NYmtqWUlmbEJaT2dZRUJXa01KRy1jM2ctTGoydGRkcHZxdzhXU0lXRzFhUjVMcW1PcXRNQ050WWVUUDN6WDAxWU9abzIzYnJ1REFLMl9tWEx6S3BzdjdibmFpa2NTWHRrVEdOOHJLaTZHT01mWTN2LVljME1oVXVQNEw5T2xVTw?oc=5",
@@ -120,6 +127,7 @@
   },
   {
     "label": "Anleihen",
+    "topic": "Anleihen",
     "title": "Longer-dated Treasury yields rise as Bessent's bond buyback rally fizzles out - CNBC",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zdkN2SURXc0pxNUsxbnFOazZUQ05fb2JQYWNQMTFOcVB0ZmRaXzRxNEtCV0paRVBtOGxya3lVUURPUWE1a3RQVFFsWmRGXzJGUTc0My02bTQ5czhxbHFlUzlwSkFmYU9WdzdRdWlfSzJVQzlTLVotMjAxRUlwODTSAYQBQVVfeXFMUGliQ04zRUFPR3RTcGpUYTlNd0F3al9YVVFJMFB6M3ZMVzBCS2JxVzAybG5IVHBDRG90VlVCYXNjX1Y5WWVWRU42aTFMbmdQMnVETW5ESG13d2FZejJ2MUFlanp1dFhfWkJqcTJSb3hwQlZVajB6S19uc3d4eFViNnNSa0Q1?oc=5",
     "source": "CNBC",
@@ -134,6 +142,7 @@
   },
   {
     "label": "S&P 500",
+    "topic": "S&P 500",
     "title": "US Stock Market Today: S&P 500 Futures Edge Lower As Higher For Longer Worries Build - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcFlWNk9yRG1TVDFleVhjVThUbVI0ZlpmR2V0WUNFQXowZmp1WWN4bnBtLUJjSUhXZVRZdXM5cjUwd0xfRG5KVk02NngtTTJzVDN5X2pBcHNkS1NwQ1MyRzl4cktjMnRlSDV1NExIWGZZX1VfQzlBLXpRSVhvck4tR0lLNkpJNkVzZV9iaTIxQmpyQQ?oc=5",
     "source": "Yahoo Finance",
@@ -162,6 +171,7 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
     "title": "A date on the calendar could shape the BOJ's endgame on interest rates - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWU53dWNMV0VuaktpaHA3dGQwMTN6dWFNX1BWYXlaNGVnSm92M0pDVjktSjhsNkJob0NJVkUzckNZSjAzMWZOTkFYZmZUYi1DNUJPQ2d6MlNES1oyVUViOG9sbWEzNi1aMXRjT2gtVGNaSHJSQm9EaHdacTdRdExxNkh3?oc=5",
     "source": "Yahoo Finance",
@@ -211,6 +221,7 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "Fed",
     "title": "Fed minutes show September rate hike still on the table - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSVRUSV8yamU0TV9KS0l6VjdObHdFelZjd2QxY2ZhWXBJTjN5b3hRbzZGekxuNWVQUHFVSXNHdFFscG1LTTVMX2xKZkx2Nk1GNzRBY3E4RGlGcXpUSkVxUnRaQllXeFlrT2lFd0UycUpVV1Q2MHpYQzU2TFBaM3JYTW50dHFKTlJtd2Y3QzViUWpRRklDSU13VzlHUjRHMmRrSlFibHM3Rzlsa0NNcHh1Tm9XdG1qRTdZ?oc=5",
     "source": "Reuters",
@@ -253,6 +264,7 @@
   },
   {
     "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq slide as bond relief evaporates, Walmart stock takes a hit - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdzdxUmhFb0Qyc1RFNWJpakw0ZFZaWV83NlRMSWRVYnhFSkktX29vUWZJd2JmU0lTa0l4RUhPaDlSOW5VSVBLNHRqdHpRU251UXhIdjIxY193QmxNNWdPVjlLM3loaHNWbWNlMUQyZEFyVVd6R2xOeUVKS2NHWExwNjdReGlBRnNhc3Rpd24xRWRIWFFTMEk0OGFvVUVNSFlMM0RpMnRrWHBJV1BYckE?oc=5",
     "source": "Yahoo Finance",
@@ -274,6 +286,7 @@
   },
   {
     "label": "Health",
+    "topic": "Health",
     "title": "Celon Pharma's generic semaglutide drug matches Ozempic in early study, shares jump - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdmZqUWR5MGt1TzZHMzk1SGs0dkZ3Y2R4Q0JLMWJVSENHbkM5QmlfMzliclZTcVpFWnpzLWllbG1aeUxZZXlMWUxqSF9xN0JfRWZDazhkYXlyWUNlMDdITXlzUTZyMGNZRW9zZHNFQkU5REtrZFBlRkp0V3cyMkZIQkVEbWhJck5FTS0yM044RGZkWURIVy1nSGxPQmRGakNHZTVmdVBpeHlvaHdnM0NYNi1Qal93YjU4UmdfMk9CVUtTRmQtNG5iMEVXZw?oc=5",
     "source": "Reuters",
@@ -281,6 +294,7 @@
   },
   {
     "label": "Energy",
+    "topic": "Energy",
     "title": "Are Oils-Energy Stocks Lagging Ampol Limited - Unsponsored ADR (CTXAY) This Year? - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVFdOZXo1aGtuSURXS2dKUVlCeXQ3M1hoNjJFX3YxeVYtNnAwVm5MdHpZU01aQjRjTWlZc1prWXpWNVFDRXJGS2RUeGs4azY1UHdmV19FLVZBa0REUzNSenNkX2lzUjZ1WHN4Ni1xTGpqQ0F5Zk56b1RjU0J2d01WekRuclFwX05EckQyaDZEaU56Z3hNUW1KYVM3c2Rhdw?oc=5",
     "source": "Yahoo Finance",
@@ -337,6 +351,7 @@
   },
   {
     "label": "S&P 500",
+    "topic": "S&P 500",
     "title": "S&P 500 futures are little changed after index snaps three-day slide - CNBC",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWVBpV3pBajRGczc5YzQzQVp6aV85aHcxcjRoNzFNRU0yMEVhSldZWE9RT0QwWGNFQ0NaWGZ5WTZ2XzlBUXpIM2l1VlJNREtjdk5KRjJLQ2lGWXVTVVk3MWk4T2hQcDBnTW0zMWh1bTA2cklET3R6MEhfUm5NSTRJa1M0R0x6dTljSVRPNzAxNTNTOFRGUk5kOEQ1N3dHSlpFT3JFcjIwcmJSaTlQbUVR?oc=5",
     "source": "CNBC",
@@ -358,6 +373,7 @@
   },
   {
     "label": "Anleihen",
+    "topic": "Anleihen",
     "title": "Treasury yields rebound, wiping out the decline following Bessent's intervention - CNBC",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNEVUdmY5YUpuaFJKQ0g2MGdLTUZsX0lmc3FERjZlRTNVSGRyR2ZyQUpBZGN3RHNIWExlajJpS3VOMVZOQTl4VWxFelp4dnBwbzdEQkRrdVpZMEJjUkc1clZKMEVPX20tNUh1TUhYZERPcHdSa1RtZ1ZuelIta0hOWHMxUGFqZGlXdUR1c2Rock1UOHRXZFhOd29YclpnTEMzT3ZyNEtLWTnSAa4BQVVfeXFMUDJXVzY5dHRmMVcwS2RXRFNqbDVsUkFhMHpPRDdPd2pYYVZJZ293dUtXNU85M3BNR2pQaVNQa3I5MVY0eE5HS2JVZGFwM2J5eS1OVHBubTI5bEZZa2o5ZDBjUWdOeEF4b295NTc3XzNhUjNDUkZIaDN1Qy1FN2dhbDF6WWxweUhRUm00bVUxS3Ywd1F5M052cVViQ3NCX1MtNzJVVWkzVnAzZnZFbEJ3?oc=5",
     "source": "CNBC",
@@ -365,6 +381,7 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
     "title": "Oil prices rise after Treasury Secretary says U.S. will collapse Iran with economic pressure - CNBC",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
     "source": "CNBC",
@@ -428,6 +445,7 @@
   },
   {
     "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Dow, S&P 500, Nasdaq Futures Climb As Treasury Yields Pull Back: MRNA, BULL, MSTR, NVAX Stocks In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeEtxVkhMcXpLRlZSb2kzd2ZqNlN4aVJNRmhmWnhHTVNLaGtpejFhXzA1dlAybVQ1cEo2dDAwT1hVV3ZtbC1RdUpPZGtDYTJLa1VkSTZ5M2pCd2ZVTG9xT3EyVGh5OHdfX0ppVFlKaXpYV3Y1blk4X0lEQTRtT3dZWENCQU0zV0JJMFZiOTlEQWpGOVk?oc=5",
     "source": "Yahoo Finance",
@@ -456,6 +474,7 @@
   },
   {
     "label": "MRVL",
+    "topic": "MRVL",
     "title": "Marvell Technology (MRVL) Stock Trades Up, Here Is Why - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPelVoc1N6SVhPeHBQbEZaTUJyNGdUOFpIUjJ5Z05lVFM5bXJhdm5CT2FGSzdabXhrcUNvOXVnNGNlalRnTnd4dFY3T0ljc1B1VTN0UjNJdWV1cFRVY3N6Ql94VzQweXM0dDc2WE1uZ0FuZ0xURGFlQWRkd216NkdUdFo0NnBYdndiWGdCZTFObGNqTFE3NEV2eWlHOTVKcWVvT193?oc=5",
     "source": "Yahoo Finance",
@@ -470,6 +489,7 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "Fed",
     "title": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less - CNBC",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjhMcXlGelNialZZS3RvOVY3SEVreGlyV1dabkJZV0JqcnpSM0ZGcGo2czdoM01KVXZOUDJYUTBVdXFfMWtZZi1meWRqa2dmYXhKR2RPalNEdllhSFNlczhVbkhRR1g4ZGNvQWp6RHQtV0dsZHUzdEFkTW55RmlHSWpacS01WWxHVXpjQ1F6TUJKQ0ZGNlA0MlIzVjFTSy1UR1F0RHNGb0RLbTlKY2Zz0gG0AUFVX3lxTE43N2E0eUEzem1JR1ZwR0ZVWk5ocWp4WlRmRWQ3VEotRDBhUllXZkdUUmVGd2o5akJiakNYcHdJelk3eHJvalJVWUZia3NtU1RRSExNYUJqLWROejZzV0ZxcnlNMUdLSkxXUTZtcGtGd0RHVWlLeXUtWGplbG5Od3ZXOExYUS00V0NfSWNGcVdqdkRFYTg3ZUJ2UGZ0OVFpTFNrcXNCLVQzMDRITzBzcm1rNk44Yw?oc=5",
     "source": "CNBC",
@@ -540,6 +560,7 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "Bond market takes a breather after surprise move by Treasury Department - CNN",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UTFNwMU44MDBqTWpSRkFINm50ZUptWERXeWVhUW5ucTFDV2c5U2pPbjVsaXBkZGJXVXJUUjhtRDJPZDk3VTVmRHh5RmFDUDV2a0hHeWtHQWFjX1JyQWdvTHZUeWxtZ0Q3OW1OM19JeHVWc2xfRFFXWg?oc=5",
     "source": "CNN",
@@ -547,6 +568,7 @@
   },
   {
     "label": "MRVL",
+    "topic": "MRVL",
     "title": "Marvell's stock pops 10% on AI chip deal that lets Google buy up to $12.2 billion in shares - CNBC",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01ZjN6RG5qZ2hsZU5Db1FlOVdDNWJsX2dpVHVlMnAwdEpIa1BaV21fZ290eTNhVUdqOEVqSkdlRGZCclRtellnd05GQm9JWlpKRC11X1p6Y21CLUdyUWUwaThFUDFwQ01TWmNDUdIBckFVX3lxTE1mNEJ4WHBveW1zdm5DeGU2X3RTcndUbDdfNW5ZcjVlX1g0dGZERE5YdVJjbG9ZVHZnaDhzSklJcnRkb08wd1Bsd1pLeHZCd0xfbkx2dHJkaXJNVHZyaUZhMWw2V1hZVThYclhzdHJVVVh6Zw?oc=5",
     "source": "CNBC",
@@ -554,6 +576,7 @@
   },
   {
     "label": "MRVL",
+    "topic": "MRVL",
     "title": "Marvell gives Google option to buy $12.2 billion stake in custom AI chip deal - Reuters",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM25qTEk3MUd3ajdfTUxKdHdZRFBJLVpWT0ZKemNURzlTVUQ5SUNtVGF3WTF0N0NfRndKaENWdDRqVVBXSmZRS0xiY24wTFEyc1I3NWI5eU1PVDJxZ1lFb0Y1VVEzMDZmb2k2dkV3WmxhNk1LMG5HN3ItRmRwQ3lvQ2pjRU5JRDN3MXJpLWo5aGlJR3hyVG5EdkswS3k2RlhzMXU2cGctR1EzOE50Zk1PXw?oc=5",
     "source": "Reuters",
@@ -603,6 +626,7 @@
   },
   {
     "label": "S&P 500",
+    "topic": "S&P 500",
     "title": "US Stock Market Today: S&P 500 Futures Slip On Rising Yields And Costly Energy - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZW45Mnhhc1hmRVhGbk5IbzQxRW90dkE3Yy1mQVYwVVRBaURTQTlmZXR1WjQ2c2piUVhMcVlMbzlhSHRQZ0pUNDA0QXpZTy1hbXpQWEV3dEt1RkZSY2pfMjZKeTQwSTltQUpfaDlDbzBEU2UtZDdwMFpaNjh5WWhnbFZubUlYWXBYaHQ5NUFsRmFvZw?oc=5",
     "source": "Yahoo Finance",
