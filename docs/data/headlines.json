@@ -9,6 +9,14 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYVhFbThLODU5RTAzdGFGSkJwRVRDdU41emxIbF9fUnBXVnlkRmhxQ0ttUFYxU1dkTmdLYXVVX2RnM2JwQ2ppUWlHR3VFdlVpZzhuQjJBUmhHY29oaHRyODhaaFdyUm5RSFZOa1lHN3RyMnd2bnFTc05VeTZ1bVg1UzBSeVFKTXVvcHREbm1qdHd2Y28?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-22T16:00:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "Zölle",
     "title": "Negotiators say a tariff deal with Canada is ‘very close’ with concessions already in evidence from autos to liquor - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWkp0b21rTXg4UnFQb1JHSFJPUXgwUnZ0eUItTUtrSjUyRUxNdURMVHdiUm9MNW92blB1OVZZYndjX2JJWXJWSFFqSWlsS1gwajhueWlXaEY3TEJHUk9TaEZhdmZmaEpQWlhGdU1uMkpld2NEc21PQUxtcGNpU1NoWHZXQmdNZ0F5blBTLTJrbkpVQ21WdUU4LWNibHFjdmJ5MENqZnExNzRpUklIdkZVT184Vlpfc0N5Yk1mVQ?oc=5",
@@ -398,6 +406,14 @@
     "published": "2026-08-20T09:00:29+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Why Are Nasdaq, S&P 500 Futures Falling Premarket? NVDA, SKHY, SPCX, TSLA, MRNA, MSTR, PURR, WMT Stocks In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTGhtdTFoWHFwd1JJclB1dXVIcFQ2ZV9leUI0R1JSZGtndmN2cmY0NGM3VUZteE9CZ2hmRHluTXBGcTlyS05GNUNKcEh0NkdNUzA2eHBMalRrbFNVOXd4WHpTLUtibVk5THpRQ0c1aS16b1lnQVU5VXVYYmZNa2N6ZUdxbGNUVFgtU01EYndjWG5SaGs?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-20T08:58:55+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Treasury yields rebound, wiping out the decline following Bessent's intervention - CNBC",
@@ -422,6 +438,7 @@
   },
   {
     "label": "S&P 500",
+    "topic": "S&P 500",
     "title": "US Stock Market Today: S&P 500 Futures Tick Higher As Long Term Rate Questions Linger - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbmVfejBUalRJaDhXSHg1RFBMc2Y2RG5TQ2tvYmxHaFRkVkg4Zks2S0dGbUh4V0tfZkxyc1Q5T0x6YWZ4MWxmd2t2Y0JBSEFBc0FYZENjT3ZCVm8xZkVzUU4yUVo4aEFvQnphc0ZRelZKZ2hzQTc1ZWNHYTZMbGJaTS1qNzVhWXVGVjFpVUlSNXpuUQ?oc=5",
     "source": "Yahoo Finance",
@@ -457,6 +474,7 @@
   },
   {
     "label": "Rüstung",
+    "topic": "Rüstung",
     "title": "Taiwan proposes boosting 2027 defence spending 18% to a record high - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZkhITHJrak1JYzUzNnhrb1lqUVVRY1J0NWJ1VExDVGptcDJYNTZhYnlhS3ZJbEFtejZYdlFHbVhpRzNDaTVWOEZvb0xJNXNneG1rZllid1FlQVR6dkgyZEJnMGFIcmZDV1picjdfMVZiTXJsZVNuX25nVEttNUxfVUc1WkxmQTRxUUtxdEdJTnZzaHFYM1pFd2p6OWh6LWdkQXJtSXNmQjNLbUdlTEk2Q2xmVG9KNHc?oc=5",
     "source": "Reuters",
@@ -609,48 +627,5 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDd0UzdBdG4zNGJ1YXJzRXg3TFlYVllaaGtqcGtxeFNYTXYxa3ZZRlkyemxETkkwU2QzTUItYldoaU4zMzJHUVBEeW9iT1BZQTk5OTFLM2EzbFlJNXJ4WmdvVjFRR3c2NHY1RWZxREpTMmhhNS1lU1ZpV21aNExRN0dteFBUa3BQVGZOaA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-19T14:43:52+00:00"
-  },
-  {
-    "label": "MRVL",
-    "title": "Marvell gives Google option to buy $12.2 billion stake in custom AI chip deal - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMGJtYjVLaXdOWGtqeDQ1Nk9MWkdTMnUwYXhGTUNnODVfX09qZlRfbHRMaDBLRnU3Y0VqQm5NRVhKTGJVUmQyWjhCOVJKc2NXT24xY3FOQ0RlU3RSdndhZmIwR2VCZllJdWFhVGxGQjBvQ2tfeTRock1lc09ZNEwxMV9vcWtVNV9VSXFoOGtTZE8?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-19T12:38:12+00:00"
-  },
-  {
-    "label": "MRK",
-    "title": "Moderna, Merck cancer vaccine shows promise in late-stage trial; Moderna stock soars 90% - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUlktR2pLY0JiWFdHWWtNb2ozX2ltdUZPV0F3SlNud0o5aUF0Nk16bEZjTU9yWW1sd044bnlwYWxrM0pGaDE5TGRQS2hlWGNtbVJIOF8zNVpQOWF5S1FMUXdCeV85Y1oxOG9Dck9ydjZGcGN2czgxOE5aeFY5Y3BVVExITTZpY1JUbG9sMHYtZmpCRzZGa1dGNUJBR0JvTl9TRmZ6R0NxSdIBrAFBVV95cUxNSDhhdThuTXRTbkNHRzIzVklfb3M0S1pjWWFSNTBhal9GQlVWZzBZVkpDeEVlREc2eEYyNTRNSkdvSzZ3cVBQanc3S012LWZocFVoTXJNMHVJaHFNSFBlZG1vMFZ3eTk0NzhSUEdXSGR4QXY5N1o5Q1FPN3czNTFHOURrektERU02MFQxRmMtTDJrNFhDeEE5OHBFVHBHRzRCeGZZNjBjV3BNZmVY?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-19T10:46:09+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "title": "50% tariffs on Canadian goods paused 'for a three day period' as Trump says there's a last-minute deal - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNa2NsaXdKc0ZaakpWNEtBbTVUdkJRUzVtX2hiY0ZNLWhHOUd1WFJ3d0tFTnYyN2ZyZmlSUmRHMXdJMEx3OC1RS1VXWFE2SDBPLWpmS3gyMFBSRTVWNXRWZjRLOURTM21XWms5Sk9lT1dlbnNGUlVxVWdVcW8zbnllTFpFTTdUWFdMTWEtQlpkLWxGc0RNZ0JtcFV5Y0dxZTh4NFVIaVpjV0U2NW5VZjZ5bmtYNzMxN0RuY3NfdGVxV1lJb2FmZDdNZnpOeU01OExoX0lXUkxrWlg2dXFXdzFiSlQwV0lJVExIZzUw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-19T10:25:26+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? NVDA, MU, SNDK, SKHY, CVNA Stocks In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdTBFMEZtSl9ySE1wNmFEZFJ5cDgyWk45X09mWnBUMHVuNWNFVFdMX1NCTG5EVjVkc01VR1FNOElWcS12aU5XVF9vS2xvSmlUTnBJV0tkSUwwVTR1bk9PbzlaQU0zV2x0NW1jTVdaLVRxOXNSODNfbTZMTHR3MVdqV3lYcU5WMk1SZ3BDVHZINGdEVDg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-19T09:12:26+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "title": "Yields pull back from multi-year highs after Treasury Department says it will double government debt repurchase size - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS3pqSU0xNlBxTzEzTmJqWl9YSnpVaUtnUmRHUzFyZTdsbWw0aVMwT1dfRkhQZjd5c3BnRmdiQWliYWxDbERsY2xpLXlsZW13N0x2LXRrNUYzaHJ3N3loR0FhTXhEeUp4WHk1S2toeVh5aW1xdDdmZ05PWFdwYXVmOEF2SlB2X0J6Y3JqaDVFc1jSAZYBQVVfeXFMTzBXRjRROG0wcS1uOTZCUXBHVVFna2VNSXdLcEE5MGpSUXpwUXk1TUVjTmJncThKY1RMOFpkNXZycW9HWnRIRjY3bkdzOUQ5SjFPc1doWThpU2lrY0NyTWtibWFzQ1p2dFJ4TjFBZlBqYWY1aTZRTWEyNnFBaktnclNvYXhNMmZlSFZYbllqclBWRnJMRkhR?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-19T08:33:21+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "US Stock Market Today: S&P 500 Futures Slip On Rising Yields And Costly Energy - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZW45Mnhhc1hmRVhGbk5IbzQxRW90dkE3Yy1mQVYwVVRBaURTQTlmZXR1WjQ2c2piUVhMcVlMbzlhSHRQZ0pUNDA0QXpZTy1hbXpQWEV3dEt1RkZSY2pfMjZKeTQwSTltQUpfaDlDbzBEU2UtZDdwMFpaNjh5WWhnbFZubUlYWXBYaHQ5NUFsRmFvZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-19T08:13:10+00:00"
   }
 ]
