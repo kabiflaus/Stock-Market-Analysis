@@ -10,7 +10,8 @@ Der Chart-Endpunkt liefert Kurs + Vortagesschluss ohne diesen Aufwand.
 import json
 import os
 import sys
-import time
+import threading
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 from curl_cffi import requests as cffi_requests
@@ -22,9 +23,29 @@ from config import (
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "market.json")
 
+# Anzahl gleichzeitiger Anfragen an Yahoo/FRED. Frueher lief das strikt
+# sequenziell mit 1.5s Pause zwischen jedem Call (~170 Ticker * 1.5s = ueber
+# 4 Min. allein fuer diesen Schritt, ohne dass dafuer je ein konkretes
+# Rate-Limit-Problem beobachtet wurde - reine Vorsicht). Ein Thread-Pool
+# schickt stattdessen bis zu 8 Anfragen gleichzeitig raus, was den Schritt
+# auf ca. 15-25s druecken sollte. 8 ist bewusst moderat (kein unbegrenztes
+# asyncio-Sperrfeuer) - reicht fuer die Beschleunigung, ohne wie ein DoS
+# auf Yahoos Endpunkt auszusehen.
+MAX_WORKERS = 8
+
 # curl_cffi imitiert einen echten Chrome-Browser (TLS-Fingerprint) -
 # umgeht Yahoos Bot-/Cloud-IP-Erkennung besser als ein normaler requests-Call.
-SESSION = cffi_requests.Session(impersonate="chrome")
+# Eine Session pro Thread (nicht global geteilt) - curl_cffi-Sessions sind
+# nicht als thread-safe dokumentiert, parallele .get()-Aufrufe auf demselben
+# Objekt waeren ein Risiko. threading.local() gibt jedem Worker-Thread seine
+# eigene, wiederverwendete Session (kein Handshake-Overhead pro Ticker).
+_thread_local = threading.local()
+
+
+def _session() -> cffi_requests.Session:
+    if not hasattr(_thread_local, "session"):
+        _thread_local.session = cffi_requests.Session(impersonate="chrome")
+    return _thread_local.session
 
 CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
 FRED_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
@@ -81,7 +102,7 @@ SPARKLINE_LABELS = (
 def fetch_ticker(
     ticker: str, range_: str = "5d"
 ) -> tuple[float | None, float | None, list[float], str | None, list[str]]:
-    resp = SESSION.get(
+    resp = _session().get(
         CHART_URL.format(ticker=ticker),
         params={"interval": "1d", "range": range_},
         timeout=10,
@@ -132,7 +153,7 @@ def fetch_fred_series(
     dem Cutoff bleibt zusaetzlich drin, damit z.B. im Januar trotzdem ein
     echter Vortagesschluss fuer change_pct existiert. Ohne "since": nur die
     letzten `tail` Punkte (Kurzform fuer Faelle ohne YTD-Bedarf)."""
-    resp = SESSION.get(FRED_CSV_URL.format(series_id=series_id), timeout=10)
+    resp = _session().get(FRED_CSV_URL.format(series_id=series_id), timeout=10)
     resp.raise_for_status()
     lines = resp.text.strip().splitlines()
     dates: list[str] = []
@@ -159,100 +180,117 @@ def fetch_fred_series(
 def fetch_fx_rates(currencies: set[str]) -> dict[str, float]:
     """EUR-Wechselkurse fuer alle Fremdwaehrungen, die tatsaechlich gebraucht
     werden (z.B. EURKRW=X liefert, wie viel Won 1 Euro gerade wert ist)."""
-    rates: dict[str, float] = {}
-    for ccy in sorted(currencies):
+    def _one(ccy: str) -> tuple[str, float | None]:
         try:
             price, _, _, _, _ = fetch_ticker(f"EUR{ccy}=X")
-            if price:
-                rates[ccy] = price
+            return ccy, price
         except Exception as e:
             print(f"[WARN] Wechselkurs EUR/{ccy} nicht abrufbar: {e}", file=sys.stderr)
-        time.sleep(1.5)
+            return ccy, None
+
+    rates: dict[str, float] = {}
+    if not currencies:
+        return rates
+    with ThreadPoolExecutor(max_workers=min(MAX_WORKERS, len(currencies))) as pool:
+        for ccy, price in pool.map(_one, sorted(currencies)):
+            if price:
+                rates[ccy] = price
     return rates
 
 
 YTD_SINCE = f"{datetime.now(timezone.utc).year}-01-01"
 
 
-def fetch_snapshot() -> list[dict]:
-    rows = []
-    for label, ticker in ALL_TICKERS.items():
-        try:
-            # Anleihen, Globale Indizes (Detailchart) und alle einzelnen
-            # Holdings zeigen einen detaillierten YTD-Graph statt nur der
-            # letzten paar Tage - Yahoo liefert das direkt ueber range=ytd,
-            # keine eigene Backfill-/Speicherlogik noetig. Futures/Makro-
-            # Barometer bleiben bei "5d" (kurzfristige Signale, YTD waere
-            # dort wenig aussagekraeftig).
-            range_ = "ytd" if (
-                label in TICKER_GROUPS["Anleihen"]
-                or label in TICKER_GROUPS["Globale Indizes"]
-                or label in _position_tickers
-            ) else "5d"
-            price, prev_close, closes, currency, dates = fetch_ticker(ticker, range_=range_)
-            # Yahoos meta.previousClose haengt manchmal der taeglichen
-            # Schlusskurs-Reihe hinterher (asynchrone Cache-Aktualisierung) -
-            # das fuehrt zu falschen Tagesveraenderungen, die nicht zum
-            # angezeigten Sparkline-Verlauf passen (beobachtet u.a. bei DAX,
-            # Amundi Stoxx Europe 600, iShares Global Clean Energy, Jul 2026).
-            # Die tatsaechliche Kursreihe ist verlaesslicher: der vorletzte
-            # Eintrag (der letzte ist der aktuelle Kurs) ist der echte
-            # Vortagesschluss.
-            if len(closes) >= 2:
-                prev_close = closes[-2]
-            change_pct = None
-            if price is not None and prev_close:
-                change_pct = round((price - prev_close) / prev_close * 100, 2)
-            row = {
-                "label": label,
-                "ticker": ticker,
-                "price": round(price, 2) if price is not None else None,
-                "prev_close": round(prev_close, 2) if prev_close else None,
-                "change_pct": change_pct,
-                "currency": None if label in NO_CURRENCY_LABELS else currency,
-            }
-            if label in SPARKLINE_LABELS:
-                row["sparkline"] = closes
-                row["sparkline_dates"] = dates
-            rows.append(row)
-        except Exception as e:
-            print(f"[WARN] Fehler bei {label} ({ticker}): {e}", file=sys.stderr)
-            rows.append({
-                "label": label, "ticker": ticker,
-                "price": None, "prev_close": None, "change_pct": None,
-                "error": str(e),
-            })
-        time.sleep(1.5)  # Burst-Anfragen vermeiden
+def _fetch_yahoo_row(label: str, ticker: str) -> dict:
+    try:
+        # Anleihen, Globale Indizes (Detailchart) und alle einzelnen Holdings
+        # zeigen einen detaillierten YTD-Graph statt nur der letzten paar
+        # Tage - Yahoo liefert das direkt ueber range=ytd, keine eigene
+        # Backfill-/Speicherlogik noetig. Futures/Makro-Barometer bleiben bei
+        # "5d" (kurzfristige Signale, YTD waere dort wenig aussagekraeftig).
+        range_ = "ytd" if (
+            label in TICKER_GROUPS["Anleihen"]
+            or label in TICKER_GROUPS["Globale Indizes"]
+            or label in _position_tickers
+        ) else "5d"
+        price, prev_close, closes, currency, dates = fetch_ticker(ticker, range_=range_)
+        # Yahoos meta.previousClose haengt manchmal der taeglichen
+        # Schlusskurs-Reihe hinterher (asynchrone Cache-Aktualisierung) - das
+        # fuehrt zu falschen Tagesveraenderungen, die nicht zum angezeigten
+        # Sparkline-Verlauf passen (beobachtet u.a. bei DAX, Amundi Stoxx
+        # Europe 600, iShares Global Clean Energy, Jul 2026). Die
+        # tatsaechliche Kursreihe ist verlaesslicher: der vorletzte Eintrag
+        # (der letzte ist der aktuelle Kurs) ist der echte Vortagesschluss.
+        if len(closes) >= 2:
+            prev_close = closes[-2]
+        change_pct = None
+        if price is not None and prev_close:
+            change_pct = round((price - prev_close) / prev_close * 100, 2)
+        row = {
+            "label": label,
+            "ticker": ticker,
+            "price": round(price, 2) if price is not None else None,
+            "prev_close": round(prev_close, 2) if prev_close else None,
+            "change_pct": change_pct,
+            "currency": None if label in NO_CURRENCY_LABELS else currency,
+        }
+        if label in SPARKLINE_LABELS:
+            row["sparkline"] = closes
+            row["sparkline_dates"] = dates
+        return row
+    except Exception as e:
+        print(f"[WARN] Fehler bei {label} ({ticker}): {e}", file=sys.stderr)
+        return {
+            "label": label, "ticker": ticker,
+            "price": None, "prev_close": None, "change_pct": None,
+            "error": str(e),
+        }
 
-    # Zusaetzliche Anleihen-Renditen ueber FRED statt Yahoo (s. Kommentar bei
-    # FRED_BOND_SERIES in config.py) - eigener Durchlauf, da andere Quelle/
-    # Funktion als die Yahoo-Ticker oben.
-    for label, series_id in FRED_BOND_SERIES.items():
-        try:
-            price, prev_close, values, dates = fetch_fred_series(series_id, since=YTD_SINCE)
-            change_pct = None
-            if price is not None and prev_close:
-                change_pct = round((price - prev_close) / prev_close * 100, 2)
-            row = {
-                "label": label,
-                "ticker": series_id,
-                "price": price,
-                "prev_close": prev_close,
-                "change_pct": change_pct,
-                "currency": None,
-            }
-            if label in SPARKLINE_LABELS:
-                row["sparkline"] = values
-                row["sparkline_dates"] = dates
-            rows.append(row)
-        except Exception as e:
-            print(f"[WARN] Fehler bei {label} ({series_id}): {e}", file=sys.stderr)
-            rows.append({
-                "label": label, "ticker": series_id,
-                "price": None, "prev_close": None, "change_pct": None,
-                "error": str(e),
-            })
-        time.sleep(1.5)
+
+def _fetch_fred_row(label: str, series_id: str) -> dict:
+    try:
+        price, prev_close, values, dates = fetch_fred_series(series_id, since=YTD_SINCE)
+        change_pct = None
+        if price is not None and prev_close:
+            change_pct = round((price - prev_close) / prev_close * 100, 2)
+        row = {
+            "label": label,
+            "ticker": series_id,
+            "price": price,
+            "prev_close": prev_close,
+            "change_pct": change_pct,
+            "currency": None,
+        }
+        if label in SPARKLINE_LABELS:
+            row["sparkline"] = values
+            row["sparkline_dates"] = dates
+        return row
+    except Exception as e:
+        print(f"[WARN] Fehler bei {label} ({series_id}): {e}", file=sys.stderr)
+        return {
+            "label": label, "ticker": series_id,
+            "price": None, "prev_close": None, "change_pct": None,
+            "error": str(e),
+        }
+
+
+def fetch_snapshot() -> list[dict]:
+    # Frueher sequenziell mit 1.5s Pause zwischen jedem der ~170 Ticker (ueber
+    # 4 Min. allein hierfuer). ALL_TICKERS ist bereits vollstaendig
+    # dedupliziert (kein Ticker wird doppelt abgefragt, s. _position_tickers/
+    # ALL_TICKERS oben) - der Zeitgewinn kommt also nicht aus weniger
+    # Anfragen, sondern daraus, bis zu MAX_WORKERS davon gleichzeitig statt
+    # nacheinander zu stellen (s. MAX_WORKERS-Kommentar oben).
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        rows = list(pool.map(_fetch_yahoo_row, ALL_TICKERS.keys(), ALL_TICKERS.values()))
+
+        # Zusaetzliche Anleihen-Renditen ueber FRED statt Yahoo (s. Kommentar
+        # bei FRED_BOND_SERIES in config.py) - eigener, kleiner Durchlauf, da
+        # andere Quelle/Funktion als die Yahoo-Ticker oben. Laeuft im selben
+        # Pool, sobald die Yahoo-Ticker-Futures abgearbeitet sind.
+        rows += list(pool.map(
+            _fetch_fred_row, FRED_BOND_SERIES.keys(), FRED_BOND_SERIES.values(),
+        ))
 
     # Alles in Euro umrechnen (bewusst nicht fuer Anleihen/Indizes, s.
     # NO_CURRENCY_LABELS oben) - Nutzerin ist in Europa und will keine

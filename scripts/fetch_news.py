@@ -8,6 +8,7 @@ import json
 import os
 import socket
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from urllib.parse import quote
 
@@ -72,41 +73,55 @@ def mover_queries(tickers: list[str]) -> list[dict]:
     ]
 
 
-def fetch_all(queries: list[dict]) -> list[dict]:
+# Anzahl gleichzeitiger Google-News-RSS-Abfragen. Frueher liefen alle
+# Queries (Themen-Suchen + Top-Mover) strikt nacheinander - bei ~35 Queries
+# je ~0.5-2s Netzwerklatenz kommen da leicht 30-60s zusammen. Ein Thread-Pool
+# ueberlappt die Wartezeit statt sie aufzusummieren. Gleicher Wert wie
+# fetch_market.py's MAX_WORKERS, aus demselben Grund moderat gehalten.
+MAX_WORKERS = 8
+
+
+def _fetch_one_query(query: dict) -> list[dict]:
+    url = build_url(query)
+    try:
+        feed = feedparser.parse(url)
+    except Exception as e:
+        print(f"[WARN] Fehler bei {query['label']}: {e}", file=sys.stderr)
+        return []
+
+    require_in_title = query.get("require_in_title")
     items = []
-    for query in queries:
-        url = build_url(query)
-        try:
-            feed = feedparser.parse(url)
-        except Exception as e:
-            print(f"[WARN] Fehler bei {query['label']}: {e}", file=sys.stderr)
+    for entry in feed.entries[:MAX_ITEMS_PER_QUERY]:
+        source = ""
+        if getattr(entry, "source", None):
+            source = getattr(entry.source, "title", "") or ""
+
+        if not is_allowed(source):
             continue
 
-        require_in_title = query.get("require_in_title")
+        title = entry.get("title", "").strip()
+        # Google-News-RSS matcht die Suche auch auf den Volltext, nicht nur
+        # den Titel - ohne diesen Check landen Artikel, die das Thema nur
+        # am Rande erwaehnen (z.B. "DAX" nur als Vergleichswert), faelschlich
+        # als eigene Schlagzeile dazu.
+        if require_in_title and require_in_title.lower() not in title.lower():
+            continue
 
-        for entry in feed.entries[:MAX_ITEMS_PER_QUERY]:
-            source = ""
-            if getattr(entry, "source", None):
-                source = getattr(entry.source, "title", "") or ""
+        items.append({
+            "label": query["label"],
+            "title": title,
+            "link": entry.get("link", ""),
+            "source": source,
+            "published": parse_time(entry),
+        })
+    return items
 
-            if not is_allowed(source):
-                continue
 
-            title = entry.get("title", "").strip()
-            # Google-News-RSS matcht die Suche auch auf den Volltext, nicht nur
-            # den Titel - ohne diesen Check landen Artikel, die das Thema nur
-            # am Rande erwaehnen (z.B. "DAX" nur als Vergleichswert), faelschlich
-            # als eigene Schlagzeile dazu.
-            if require_in_title and require_in_title.lower() not in title.lower():
-                continue
-
-            items.append({
-                "label": query["label"],
-                "title": title,
-                "link": entry.get("link", ""),
-                "source": source,
-                "published": parse_time(entry),
-            })
+def fetch_all(queries: list[dict]) -> list[dict]:
+    items = []
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        for query_items in pool.map(_fetch_one_query, queries):
+            items.extend(query_items)
     return items
 
 
