@@ -313,6 +313,30 @@ body {
    scrollt der Block intern statt die Seite - und damit die sticky Pillen-
    Navigation darunter - beliebig weit nach unten zu schieben. */
 #headlines-top.expanded { max-height: 420px; overflow-y: auto; }
+/* Themen-Gruppe (s. headlineGroupHtml in app.js): Hauptartikel + kompakte
+   Liste weiterer Artikel zum selben Thema. Der Trennstrich zwischen zwei
+   Gruppen wandert auf den Gruppen-Wrapper, .headline selbst verliert seinen
+   eigenen (sonst doppelte Linie vor der Rest-Liste). */
+.headline-group { border-bottom: 1px solid var(--border-dim); }
+.headline-group .headline { border-bottom: none; }
+/* Nur sichtbar wenn "Wichtigste News" aufgeklappt ist - eingeklappt zeigt
+   nur den Hauptartikel der ersten Gruppe, sonst wuerde die eingeklappte
+   Vorschau je nach Gruppengroesse unterschiedlich hoch (s. Kommentar bei
+   headlineGroupHtml). */
+.headline-related {
+  display: none; flex-direction: column; gap: 6px;
+  margin-top: 8px; padding: 8px 0 12px; border-top: 1px solid var(--border-dim);
+}
+#headlines-top.expanded .headline-related { display: flex; }
+.headline-related-item { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+.headline-related-item a {
+  flex: 1; min-width: 0; color: var(--text-dim); text-decoration: none; font-size: 0.8rem;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.headline-related-item a:hover { text-decoration: underline; }
+.headline-related-source { flex-shrink: 0; color: var(--text-dimmer); font-size: 0.68rem; white-space: nowrap; }
+.headline-related-more { color: var(--text-dimmer); font-size: 0.72rem; }
+
 .headline { border-bottom: 1px solid var(--border-dim); padding: 12px 0; }
 .headline a {
   color: var(--text); text-decoration: none; font-size: 0.95rem; margin-top: 4px;

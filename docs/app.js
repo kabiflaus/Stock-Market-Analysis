@@ -1327,7 +1327,7 @@ const TOP_NEWS_MAX_VISIBLE = 1;
 // gewaehlten Sektor-Filter (sichtbar nur auf der Start-Ansicht, s. apply()).
 function renderMacroBlock(headlines) {
   const macroHeadlines = headlines.filter(h => h.label === 'Makro & Weltpolitik');
-  const html = macroHeadlines.map((h, i) => headlineHtml(h, i, null)).join('');
+  const html = macroHeadlines.map(h => headlineHtml(h)).join('');
   document.getElementById('headlines-macro').innerHTML = html || '<p>Noch keine Makro-Schlagzeilen gesammelt.</p>';
   return macroHeadlines;
 }
@@ -1430,10 +1430,52 @@ function isImportant(item) {
   return isPriority(item.title) || (item.distinctSourceCount || 1) >= CONSENSUS_IMPORTANT_THRESHOLD;
 }
 
-function sortByPriority(list) {
-  const priority = list.filter(h => isImportant(h));
-  const rest = list.filter(h => !isImportant(h));
-  return [...priority, ...rest];
+// Sortiert eine Gruppe (gleiches Thema) so, dass der repraesentativste
+// Artikel vorne steht: wichtig zuerst, dann groessere Duplikat-Cluster
+// (relatedCount, s. dedupeHeadlines), dann neuester. Wird sowohl fuer die
+// Hauptartikel-Auswahl innerhalb einer Themen-Gruppe als auch fuer die
+// Gruppen-Reihenfolge untereinander verwendet.
+function bestFirst(list) {
+  return [...list].sort((a, b) => {
+    const ai = isImportant(a) ? 0 : 1, bi = isImportant(b) ? 0 : 1;
+    if (ai !== bi) return ai - bi;
+    if ((b.relatedCount || 1) !== (a.relatedCount || 1)) return (b.relatedCount || 1) - (a.relatedCount || 1);
+    return new Date(b.published) - new Date(a.published);
+  });
+}
+
+// Fasst bereits duplikatbereinigte Schlagzeilen (s. dedupeHeadlines) nach
+// Thema zusammen (item.topic || item.label - dieselbe Groesse, die auch als
+// Tag angezeigt wird), damit "Wichtigste News" einen Ueberblick ueber die
+// Themen des Tages gibt statt einer flachen Liste einzelner Artikel: ein
+// fett hervorgehobener Hauptartikel je Thema, der Rest klein darunter.
+// totalArticles zaehlt auch die durch dedupeHeadlines bereits zusammen-
+// gefassten Duplikate mit - ein Thema mit vielen Artikeln (egal ob
+// verschiedene Blickwinkel oder Duplikate derselben Meldung) ist "heute
+// gerade wichtig" und soll entsprechend weiter oben stehen.
+function groupHeadlinesByTheme(list) {
+  const byTheme = new Map();
+  for (const item of list) {
+    const theme = item.topic || item.label;
+    if (!byTheme.has(theme)) byTheme.set(theme, []);
+    byTheme.get(theme).push(item);
+  }
+  return [...byTheme.entries()].map(([theme, items]) => {
+    const sorted = bestFirst(items);
+    const totalArticles = items.reduce((sum, it) => sum + (it.relatedCount || 1), 0);
+    return {
+      theme, main: sorted[0], rest: sorted.slice(1),
+      important: isImportant(sorted[0]), totalArticles,
+    };
+  });
+}
+
+function sortThemeGroups(groups) {
+  const byRelevance = (a, b) =>
+    b.totalArticles - a.totalArticles || new Date(b.main.published) - new Date(a.main.published);
+  const important = groups.filter(g => g.important).sort(byRelevance);
+  const rest = groups.filter(g => !g.important).sort(byRelevance);
+  return [...important, ...rest];
 }
 
 // Ticker-Labels (aus mover_queries() in fetch_news.py, Label = Symbol wie
@@ -1444,7 +1486,7 @@ function sortByPriority(list) {
 // kommt, hat eines dieser Labels.
 const THEMATIC_HEADLINE_LABELS = new Set([...CONFIG.sectorOrder, 'Anleihen', 'Makro & Weltpolitik']);
 
-// Maximal so viele Schlagzeilen aufgeklappt anzeigen - der Block scrollt
+// Maximal so viele Themen-Gruppen aufgeklappt anzeigen - der Block scrollt
 // intern statt beliebig in die Laenge zu wachsen (s. #headlines-top.expanded
 // in style.css).
 const TOP_NEWS_MAX_EXPANDED = 10;
@@ -1453,9 +1495,12 @@ const TOP_NEWS_MAX_EXPANDED = 10;
 // unterschiedliche Schlagzeilen - auf der Start-Ansicht nur themenbezogene
 // (keine einzelnen Ticker-Meldungen), bei einem Sektor/Anleihen nur dessen
 // Schlagzeilen, bei Indizes die der 4 Index-Pillen zusammen. Duplikate
-// werden zusammengefasst (dedupeHeadlines), wichtige zuerst (sortByPriority/
-// isImportant), auf maximal 10 gekappt. Wird bei jedem Filterwechsel neu
-// aufgerufen, s. apply() in setupMarketFilter.
+// werden zusammengefasst (dedupeHeadlines) und nach Thema gruppiert
+// (groupHeadlinesByTheme) - so sieht man auf einen Blick, welche Themen
+// heute am meisten Artikel/Aufmerksamkeit bekommen, statt eine flache Liste
+// aehnlicher Einzelartikel durchzuscrollen. Auf maximal 10 Themen-Gruppen
+// gekappt. Wird bei jedem Filterwechsel neu aufgerufen, s. apply() in
+// setupMarketFilter.
 function headlinesForFilter(allHeadlines, filter, indexPillSet) {
   let list;
   if (filter === 'Alle') {
@@ -1465,7 +1510,8 @@ function headlinesForFilter(allHeadlines, filter, indexPillSet) {
   } else {
     list = allHeadlines.filter(h => h.label === filter);
   }
-  return sortByPriority(dedupeHeadlines(list)).slice(0, TOP_NEWS_MAX_EXPANDED);
+  const groups = groupHeadlinesByTheme(dedupeHeadlines(list));
+  return sortThemeGroups(groups).slice(0, TOP_NEWS_MAX_EXPANDED);
 }
 
 function topNewsHeadingFor(filter) {
@@ -1474,8 +1520,7 @@ function topNewsHeadingFor(filter) {
   return filter + ' – News';
 }
 
-function headlineHtml(item, index, maxVisible) {
-  const extraClass = (maxVisible !== null && index >= maxVisible) ? ' extra' : '';
+function headlineHtml(item) {
   const badge = isImportant(item) ? '<span class="badge">Wichtig</span>' : '';
   const relatedHtml = (item.relatedCount && item.relatedCount > 1)
     ? ' &middot; +' + (item.relatedCount - 1) + ' weitere Quelle' + (item.relatedCount > 2 ? 'n' : '')
@@ -1485,11 +1530,43 @@ function headlineHtml(item, index, maxVisible) {
   // s. NEWS_QUERIES in config.py) - Fallback auf label fuer aeltere,
   // bereits gespeicherte Eintraege ohne topic-Feld.
   const tag = item.topic || item.label;
-  return '<div class="headline' + extraClass + '" data-label="' + esc(item.label) + '">' +
+  return '<div class="headline" data-label="' + esc(item.label) + '">' +
     '<span class="tag">' + esc(tag) + '</span>' + badge +
     '<a href="' + item.link + '" target="_blank" rel="noopener">' + esc(item.title) + '</a>' +
     '<div class="meta">' + esc(item.source || '') + relatedHtml + ' &middot; ' + fmtTime(item.published) + '</div>' +
     '</div>';
+}
+
+// Eine Themen-Gruppe: Hauptartikel gross (wie eine einzelne Schlagzeile),
+// die restlichen Artikel desselben Themas klein darunter - nur Titel+Quelle,
+// anklickbar, ohne eigene Karten-Optik. index/maxVisible steuern wie bei
+// einzelnen Schlagzeilen frueher das Ein-/Ausblenden beim Auf-/Zuklappen
+// (s. apply() in setupMarketFilter), jetzt auf Gruppenebene. Die Rest-Liste
+// selbst bleibt per CSS (#headlines-top.expanded .headline-related) auch
+// bei der sichtbaren ersten Gruppe versteckt, solange nicht aufgeklappt ist -
+// sonst wuerde die eingeklappte Vorschau je nach Gruppengroesse unterschied-
+// lich hoch, was die sticky Pillen-Navigation darunter verschieben wuerde.
+// Nur die ersten 3 verwandten Artikel als Links, Rest als reine "+N
+// weitere"-Notiz - bei einem grossen Thema (z.B. 11 aehnliche Makro-
+// Artikel) waere eine komplette Liste selbst schon wieder unuebersichtlich.
+const RELATED_MAX_VISIBLE = 3;
+
+function headlineGroupHtml(group, index, maxVisible) {
+  const extraClass = (maxVisible !== null && index >= maxVisible) ? ' extra' : '';
+  const visibleRest = group.rest.slice(0, RELATED_MAX_VISIBLE);
+  const hiddenCount = group.rest.length - visibleRest.length;
+  const restHtml = group.rest.length ? (
+    '<div class="headline-related">' +
+      visibleRest.map(r =>
+        '<div class="headline-related-item">' +
+          '<a href="' + esc(r.link) + '" target="_blank" rel="noopener">' + esc(r.title) + '</a>' +
+          '<span class="headline-related-source">' + esc(r.source || '') + '</span>' +
+        '</div>'
+      ).join('') +
+      (hiddenCount > 0 ? '<div class="headline-related-more">+' + hiddenCount + ' weitere</div>' : '') +
+    '</div>'
+  ) : '';
+  return '<div class="headline-group' + extraClass + '">' + headlineHtml(group.main) + restHtml + '</div>';
 }
 
 // ---------- Interaktion: Markets-Filter ----------
@@ -1622,9 +1699,9 @@ function setupMarketFilter(rowsByLabel, allHeadlines) {
     // ein-/auszublenden, da sich Inhalt und Reihenfolge je Filter unterscheiden.
     if (topNewsHeading) topNewsHeading.textContent = topNewsHeadingFor(filter);
     const topNews = headlinesForFilter(allHeadlines, filter, indexPillSet);
-    topNewsContainer.innerHTML = topNews.map((h, i) => headlineHtml(h, i, TOP_NEWS_MAX_VISIBLE)).join('')
+    topNewsContainer.innerHTML = topNews.map((g, i) => headlineGroupHtml(g, i, TOP_NEWS_MAX_VISIBLE)).join('')
       || '<p>Noch keine Schlagzeilen zu dieser Auswahl.</p>';
-    topNewsContainer.querySelectorAll('.headline').forEach((el, i) => {
+    topNewsContainer.querySelectorAll('.headline-group').forEach((el, i) => {
       el.style.display = (i >= TOP_NEWS_MAX_VISIBLE && !expanded) ? 'none' : '';
     });
     // Aufgeklappt (bis zu TOP_NEWS_MAX_EXPANDED=10 Eintraege, s.
