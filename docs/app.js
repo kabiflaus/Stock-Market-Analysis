@@ -1347,24 +1347,125 @@ function setupMacroExpand() {
   apply();
 }
 
+// ---------- Schlagzeilen: Duplikate zusammenfassen + Relevanz ----------
+// Google News liefert oft mehrere fast identische Artikel zur selben Meldung
+// (z.B. 4 kaum unterscheidbare Yen-Artikel von verschiedenen Portalen) -
+// ohne Zusammenfassen wuerde "Wichtigste News" bei sowas nur Wiederholung
+// statt Themenvielfalt zeigen. Da wir nur Titel/Quelle/Datum haben (kein
+// Volltext, keine Zitat-Erkennung wie "zitieren 3 Artikel denselben
+// Bloomberg-Artikel" moeglich), gruppieren wir stattdessen nach Titel-
+// Aehnlichkeit (gemeinsame, nicht-triviale Wortstaemme) - praktisch fuehrt
+// das zum selben Ergebnis: pro Meldung bleibt nur ein Artikel uebrig.
+const HEADLINE_STOPWORDS = new Set([
+  'this', 'that', 'with', 'from', 'have', 'will', 'says', 'said', 'after',
+  'over', 'amid', 'their', 'into', 'more', 'than', 'about', 'what', 'when',
+  'where', 'which', 'while', 'could', 'would', 'should', 'these', 'those',
+]);
+function titleTokens(title) {
+  return (title || '').toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .split(/\s+/)
+    .filter(w => w.length > 3 && !HEADLINE_STOPWORDS.has(w));
+}
+// Overlap-Koeffizient (Schnittmenge / kleinere Wortmenge) statt Jaccard -
+// robuster gegen unterschiedlich lange Titel: ein kurzer, praegnanter Titel,
+// der komplett in einem laengeren steckt, gilt trotzdem als Duplikat.
+function titleSimilarity(a, b) {
+  const setA = new Set(titleTokens(a));
+  const setB = new Set(titleTokens(b));
+  if (!setA.size || !setB.size) return 0;
+  let overlap = 0;
+  setA.forEach(w => { if (setB.has(w)) overlap++; });
+  return overlap / Math.min(setA.size, setB.size);
+}
+const TITLE_SIMILARITY_THRESHOLD = 0.5;
+
+// Grobe Reputations-Rangfolge unter den ohnehin schon vorgefilterten
+// ALLOWED_SOURCES (s. config.py) - nur um zu entscheiden, welcher Artikel
+// eine Duplikat-Gruppe vertritt (Wire-Services/oeffentlich-rechtliche
+// Sender zuerst), keine allgemeine Qualitaetsbewertung.
+const SOURCE_REPUTATION = [
+  'reuters', 'associated press', 'ap news', 'bbc',
+  'financial times', 'ft.com',
+  'cnbc', 'marketwatch', 'guardian', 'cnn', 'axios', 'tagesschau', 'n-tv',
+  'yahoo finance', 'investopedia', 'business insider',
+];
+function sourceRank(source) {
+  const s = (source || '').toLowerCase();
+  const idx = SOURCE_REPUTATION.findIndex(name => s.includes(name));
+  return idx === -1 ? SOURCE_REPUTATION.length : idx;
+}
+
+// Gruppiert aehnliche Titel und gibt pro Gruppe nur den Artikel der
+// ranghoechsten Quelle zurueck (bei Gleichstand: neuester), zusammen mit der
+// Gruppengroesse (relatedCount, fuer die Anzeige "+N weitere Quellen") und
+// der Anzahl UNTERSCHIEDLICHER Quellen (distinctSourceCount) - mehrere
+// unabhaengige Quellen zur selben Meldung sind ein Relevanz-Signal (s.
+// isImportant() unten), dieselbe Quelle mit mehreren aehnlichen Artikeln
+// (z.B. wiederkehrende Boersenbrief-/Zertifikate-Seiten) dagegen nicht.
+function dedupeHeadlines(list) {
+  const clusters = [];
+  for (const item of list) {
+    const cluster = clusters.find(c => titleSimilarity(item.title, c[0].title) >= TITLE_SIMILARITY_THRESHOLD);
+    if (cluster) cluster.push(item);
+    else clusters.push([item]);
+  }
+  return clusters.map(cluster => {
+    const best = [...cluster].sort((a, b) =>
+      sourceRank(a.source) - sourceRank(b.source) || new Date(b.published) - new Date(a.published)
+    )[0];
+    const distinctSourceCount = new Set(cluster.map(c => (c.source || '').toLowerCase())).size;
+    return Object.assign({}, best, { relatedCount: cluster.length, distinctSourceCount });
+  });
+}
+
+// Wichtig-Flag: entweder Schlagwort-Treffer (s. isPriority/PRIORITY_KEYWORDS)
+// ODER mehrere UNABHAENGIGE Quellen berichten aehnlich (s. dedupeHeadlines) -
+// Konsens ueber verschiedene Quellen ist selbst ein Relevanz-Signal, auch
+// wenn der Titel keines der festen Schlagwoerter enthaelt. Bewusst
+// distinctSourceCount statt relatedCount, sonst wuerden mehrere aehnliche
+// Artikel DERSELBEN Quelle (kein echter Konsens) faelschlich als wichtig gelten.
+const CONSENSUS_IMPORTANT_THRESHOLD = 3;
+function isImportant(item) {
+  return isPriority(item.title) || (item.distinctSourceCount || 1) >= CONSENSUS_IMPORTANT_THRESHOLD;
+}
+
 function sortByPriority(list) {
-  const priority = list.filter(h => isPriority(h.title));
-  const rest = list.filter(h => !isPriority(h.title));
+  const priority = list.filter(h => isImportant(h));
+  const rest = list.filter(h => !isImportant(h));
   return [...priority, ...rest];
 }
 
+// Ticker-Labels (aus mover_queries() in fetch_news.py, Label = Symbol wie
+// "NVDA") sind fuer die "warum bewegt sich das"-Hinweise auf den Top-Mover-
+// Karten gedacht, nicht fuer die allgemeine Startseite - ohne diesen Filter
+// tauchten bei "Alle" auch einzelne Ticker-Meldungen zwischen den
+// Themen-Schlagzeilen auf. Alles, was aus den themenbezogenen NEWS_QUERIES
+// kommt, hat eines dieser Labels.
+const THEMATIC_HEADLINE_LABELS = new Set([...CONFIG.sectorOrder, 'Anleihen', 'Makro & Weltpolitik']);
+
+// Maximal so viele Schlagzeilen aufgeklappt anzeigen - der Block scrollt
+// intern statt beliebig in die Laenge zu wachsen (s. #headlines-top.expanded
+// in style.css).
+const TOP_NEWS_MAX_EXPANDED = 10;
+
 // "Wichtigste News": zeigt an derselben Stelle je nach gewaehltem Filter
-// unterschiedliche Schlagzeilen - auf der Start-Ansicht die 3 wichtigsten
-// ueber ALLE Kategorien hinweg, bei einem Sektor/Anleihen nur dessen
-// Schlagzeilen, bei Indizes die der 4 Index-Pillen zusammen (Prioritaets-
-// markierte zuerst, s. isPriority/PRIORITY_KEYWORDS, sonst nach Datum).
-// Wird bei jedem Filterwechsel neu aufgerufen, s. apply() in setupMarketFilter.
+// unterschiedliche Schlagzeilen - auf der Start-Ansicht nur themenbezogene
+// (keine einzelnen Ticker-Meldungen), bei einem Sektor/Anleihen nur dessen
+// Schlagzeilen, bei Indizes die der 4 Index-Pillen zusammen. Duplikate
+// werden zusammengefasst (dedupeHeadlines), wichtige zuerst (sortByPriority/
+// isImportant), auf maximal 10 gekappt. Wird bei jedem Filterwechsel neu
+// aufgerufen, s. apply() in setupMarketFilter.
 function headlinesForFilter(allHeadlines, filter, indexPillSet) {
-  if (filter === 'Alle') return sortByPriority(allHeadlines);
-  if (filter === INDIZES_OVERVIEW) {
-    return sortByPriority(allHeadlines.filter(h => indexPillSet.has(h.label)));
+  let list;
+  if (filter === 'Alle') {
+    list = allHeadlines.filter(h => THEMATIC_HEADLINE_LABELS.has(h.label));
+  } else if (filter === INDIZES_OVERVIEW) {
+    list = allHeadlines.filter(h => indexPillSet.has(h.label));
+  } else {
+    list = allHeadlines.filter(h => h.label === filter);
   }
-  return sortByPriority(allHeadlines.filter(h => h.label === filter));
+  return sortByPriority(dedupeHeadlines(list)).slice(0, TOP_NEWS_MAX_EXPANDED);
 }
 
 function topNewsHeadingFor(filter) {
@@ -1375,11 +1476,14 @@ function topNewsHeadingFor(filter) {
 
 function headlineHtml(item, index, maxVisible) {
   const extraClass = (maxVisible !== null && index >= maxVisible) ? ' extra' : '';
-  const badge = isPriority(item.title) ? '<span class="badge">Wichtig</span>' : '';
+  const badge = isImportant(item) ? '<span class="badge">Wichtig</span>' : '';
+  const relatedHtml = (item.relatedCount && item.relatedCount > 1)
+    ? ' &middot; +' + (item.relatedCount - 1) + ' weitere Quelle' + (item.relatedCount > 2 ? 'n' : '')
+    : '';
   return '<div class="headline' + extraClass + '" data-label="' + esc(item.label) + '">' +
     '<span class="tag">' + esc(item.label) + '</span>' + badge +
     '<a href="' + item.link + '" target="_blank" rel="noopener">' + esc(item.title) + '</a>' +
-    '<div class="meta">' + esc(item.source || '') + ' &middot; ' + fmtTime(item.published) + '</div>' +
+    '<div class="meta">' + esc(item.source || '') + relatedHtml + ' &middot; ' + fmtTime(item.published) + '</div>' +
     '</div>';
 }
 
@@ -1518,6 +1622,11 @@ function setupMarketFilter(rowsByLabel, allHeadlines) {
     topNewsContainer.querySelectorAll('.headline').forEach((el, i) => {
       el.style.display = (i >= TOP_NEWS_MAX_VISIBLE && !expanded) ? 'none' : '';
     });
+    // Aufgeklappt (bis zu TOP_NEWS_MAX_EXPANDED=10 Eintraege, s.
+    // headlinesForFilter) scrollt der Block intern statt die Seite (und
+    // damit die sticky Pillen-Navigation darunter) beliebig nach unten zu
+    // schieben, s. #headlines-top.expanded in style.css.
+    topNewsContainer.classList.toggle('expanded', expanded);
     if (topNewsMoreBtn) {
       topNewsMoreBtn.classList.toggle('has-more', topNews.length > TOP_NEWS_MAX_VISIBLE);
       topNewsMoreBtn.textContent = expanded ? 'Weniger anzeigen' : 'Mehr anzeigen';
