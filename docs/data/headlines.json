@@ -2,6 +2,14 @@
   {
     "label": "AI",
     "topic": "AI",
+    "title": "Nvidia ignites chip stock rally as forecast shows AI boom is intact - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYmFTYjRhRjAzTnZXU3lJa1V4a3ZlVy1INVptbHZUc3V6b2NyOGJFRnRtQTFWQ2lrU2pYc0M3N01TcW9tVkh6ZmRQTU81OUd1VlBnQ0o1b3pZSlFqZmtSM1NjYzd5T2xnZE12clJPM3ZlUjdhdWxfbVB4MlQ1UWowZGhNNmxYZXNJRVdGVk1nZ3ZIMjlZdU5WWEg4ak5mYmUy?oc=5",
+    "source": "Reuters",
+    "published": "2026-08-27T17:33:05+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
     "title": "Nvidia boosts tech stocks but caution dominates ahead of Fed speech - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOEhPZ2xpNUZQV1JVbHkwNzlVS0NzZzlfdlpTQzRGc1NiR3Z0cXd0QlUtUVVTdW9GMUNzdG5uc3VzQU9YMmdGZzdNZXhOckxsY3VmLXpSOVFZdTAxZVJlbXBEdnRuMG0waWpwdXczRFV1aFplZzd1NzNZa3FJaXNBR1ZWQ2U3UVU1bkw3VkZXLWJwSnRYTFN1MVdIOA?oc=5",
     "source": "Yahoo Finance",
@@ -32,20 +40,20 @@
     "published": "2026-08-27T14:01:01+00:00"
   },
   {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Nvidia ignites chip stock rally as forecast shows AI boom is intact - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYmFTYjRhRjAzTnZXU3lJa1V4a3ZlVy1INVptbHZUc3V6b2NyOGJFRnRtQTFWQ2lrU2pYc0M3N01TcW9tVkh6ZmRQTU81OUd1VlBnQ0o1b3pZSlFqZmtSM1NjYzd5T2xnZE12clJPM3ZlUjdhdWxfbVB4MlQ1UWowZGhNNmxYZXNJRVdGVk1nZ3ZIMjlZdU5WWEg4ak5mYmUy?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-27T13:58:19+00:00"
-  },
-  {
     "label": "Energy",
     "topic": "Energy",
     "title": "Has Marathon Petroleum (MPC) Outpaced Other Oils-Energy Stocks This Year? - Yahoo Finance Singapore",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNklTV2k3SmtKdDNrRDlqWE1mVURTcVlrNTlMVVF1UUFOb05RV3ZmNTRXNTJQeDV1T0RIVmpEM2swRC1nUmtGTWtVRTlUcjFzMVIzUTJOSm5nTVpoM0c3SE1WZTJHN1pGRmRISW9UblRSTEtXbWMzdTU2cWd3YVVSMlpxSkhPdHp4MnRtQzJjUQ?oc=5",
     "source": "Yahoo Finance Singapore",
     "published": "2026-08-27T13:40:03+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "ECB will return to data dependence after a September rate rise - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02LUg2ZmJqZnVRR19FUFhVYUZ2Y2lOVmhTN0FXampKNm1fYmVQbFVpZlJfQ096NTJWMExOZFNoRmFZNVVJcFE1WWs0LWlYeHlUeDhKWDc5a1ZUUVItRXU2X051SnVCVGk0QTBLQjd5Qmo?oc=5",
+    "source": "Financial Times",
+    "published": "2026-08-27T13:00:06+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -104,20 +112,28 @@
     "published": "2026-08-27T08:54:14+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Treasury Department's bond intervention seems to be working - Axios",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qTnp5d2Z0aUpYUEk1cENWMmZaMmo3RFM5dUlPckZoZWd2Q0p3ZTY4Vnk5N25zZG5KbVVOckVsWVdTVlRQUGhSTnVoUzRUYmZ3enNCc05JdXIycEdrMVJvS1IyOGk5bzFpcHgwMERQNTVCX0k?oc=5",
-    "source": "Axios",
-    "published": "2026-08-27T08:25:01+00:00"
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as Nvidia, Salesforce earnings boost tech - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV19GV21jUzBTUXUzS1l3ZW5obXFHNDU3emZTLXRyMzVaVl9aTVpXUHlaSmdXeHdNbXpDeEFObmVZblQ0UFNFQmNrcGV5Vk9NaTZJemNwTjNuMTV0S3lBVFdDY1NsejRjcjRSTDdCS1Vobzk3ZWJUTkhsejhPdFEwc1ZoWHhySDFKekVHblV0TEFOLTZSMkJYMkFVMlBtYzI1VFE3U2I0a0plcXJITFE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-27T08:21:44+00:00"
   },
   {
-    "label": "NVDA",
-    "topic": "NVDA",
-    "title": "Nvidia jumps 7% after blockbuster earnings boost AI confidence - CNBC",
+    "label": "AI",
+    "topic": "AI",
+    "title": "Nvidia jumps nearly 10% after blockbuster earnings boost AI confidence - CNBC",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wT0tKVG5QdjJIV3RXNmZNYUROM1dJYWJ3d3VOUzdKUEZjTFgweTFXNlhFT3RwLUoxZ1E4SXYzQ0g4LUFYdW9tNkNVUmE5OE5TendnYU02ekhBeThSZDRpTVBwcmlCRXdkcDVoetIBckFVX3lxTFBTYXloWFBxMWUxVXBhV1VLdkJzbWpITXdabzh3b00zYXlnb0ZHcEZlRjFqRHRtWmF4QjA2ei1Id3hTQ3N3X1lQcGZyQkJKRzhZalpsbmZrd3lRd2gxQXRpMWpQUUpiVTFxTHJ3N0NEY0k1Zw?oc=5",
     "source": "CNBC",
     "published": "2026-08-27T08:04:33+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields are little changed ahead of Jackson Hole - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MU0V3SVFudmo3eDhuNDZEb2k3bTFUZDcyVmR5SHJRMkVDMHRpTFpUWkV4Z1lXeF80Q25EZjhhX2QtMnR4bmVIdDFYZlcwS2RwLWRXUmlLUENFbUNwdEpBbVFqWEtBVGVlVXJOcEhCeF9yQdIBd0FVX3lxTE5INUI5S3p1LUxKT1daNkh3cDByOUxray1vSzhDNG1uZm4wZHN3N0h0ZmRtclliYUR5cDZIdjhVTmRxcEdIV1lidzBBdVVUaGRkdVZrQnNxTU9lekprSzV0elU4Z09hMTRWOGNhZUxfTW01Z2YwZmlV?oc=5",
+    "source": "CNBC",
+    "published": "2026-08-27T07:44:20+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -125,7 +141,7 @@
     "title": "Yen weakness and rising inflation put pressure on the Bank of Japan for earlier tightening - Financial Times",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85R3VnemRuQjFNWHNfU2ZwVGRqOE5FNUZZNUhpREp0Ynk0cGVndmRiUUxRVDQ3Ul91WUdRYmZSY1EwYUljY21sZ2wxc2t5MGlCWURkYVMzeDlrQWw2UV8xS2UxajE3YlNzN2NSa2M0Z24?oc=5",
     "source": "Financial Times",
-    "published": "2026-08-27T04:30:07+00:00"
+    "published": "2026-08-27T05:55:30+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -166,6 +182,14 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY3o2MDNINVVIa0c5akp3ZGM1SDlyVlVNV1BMV09nMm4yMjlybGtYM09TX3MyOUd3QnBydDVFVjQybzlTd2xHcFJmYUtIMW9NaW1nZWJUM01HWHRiNG5XcXRzUmI5YzEwSDB6TkVHRGkxMnRhYUEzcEhDUlM1MGx1TGdmTE5Rb3BnVXRNbm9acXY?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-26T19:19:35+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury Department's bond intervention seems to be working - Axios",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qTnp5d2Z0aUpYUEk1cENWMmZaMmo3RFM5dUlPckZoZWd2Q0p3ZTY4Vnk5N25zZG5KbVVOckVsWVdTVlRQUGhSTnVoUzRUYmZ3enNCc05JdXIycEdrMVJvS1IyOGk5bzFpcHgwMERQNTVCX0k?oc=5",
+    "source": "Axios",
+    "published": "2026-08-26T16:32:03+00:00"
   },
   {
     "label": "BSX",
@@ -574,6 +598,14 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPd3pKSW1aX2QwSmxvejhTTXFLWXE4aG5KQlkxeS1xM3EzUG9POHlZYWtja2FGYVlQLVlLNFU2eVpGRTFFZjNSRTBQUUdZQ1dkM1Y3ZExYLWJqdlVsZzdFamlKMUJGNlBFejVEeV9RWmU5Z2lpazA1cjYtTVBoS3RSYVJIeEQ3SlhmZ2tRN2IyNmdnZDRySGxwU1Vlb2dfSlNjMmNoLXRLVUZRNUxOUVZxWkxNTW14ejMtUG1lTQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-24T17:49:31+00:00"
+  },
+  {
+    "label": "ADBE",
+    "topic": "ADBE",
+    "title": "Adobe Rises 16% in a Month: Should You Buy, Sell or Hold the Stock? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOenFwS3F3VkVBaTNkdE11aFRMaFp2eU1BY1ZuV3YydlZUUWlBdFIxUHBoVWdfVGg4Z2VwVjh5ZmdKcTNGTGtTMHNRdk5BV245dUZBQUtnM2d2NnhSd3RGOGRTdHJ2eE0zZ3kxQ1pENE1waDJ4YjFDajcxdDVJSjVzdFJtUTlvSTRHVVNwQl9ET1p4X00?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-24T17:03:00+00:00"
   },
   {
     "label": "ADBE",
