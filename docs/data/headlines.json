@@ -1,5 +1,13 @@
 [
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices surge higher as US and Iran exchange fire for first time in a month - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaGgxQTlxdFZxWVVhWlpKUi1BWEtYZFd0N09MeWVucEpHbldVVV9jV2lnQy0tZDhoS1NOeG5nQ2o1QTF6RVczQnVEaTJEZDI1Uld4RXhiNkNMdk1rMjdDTmFIb3Jwd000ZTc2MHpZYmxKdGJzdHVxcTlfYkhOcHF2b1g4THU0aWl2M3g2eFVpLUFrbDFVSTMwb1NnOXgwQndoTGJhaklaejV3Wmk1WFFPYW9jMUFjYzlOQWFaME5seDFiS2FKS0tPYXBUamlYSlJU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-31T13:16:12+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as US strikes Iran, rate-hike bets jump - Yahoo Finance",
@@ -26,7 +34,7 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields tick lower as U.S.-Iran war moves back into the spotlight - CNBC",
+    "title": "10-year Treasury yield rises as U.S.-Iran war moves back into spotlight; G20 meeting underway - CNBC",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWWxBNVE0Sk1PUy1wdnphd3pISWR1VTZjSFZkT09KdnhBdHlUNjE3SDNVY25JNVBqZXloWXVhUlBkb3NKNWUxLVJSOHJYUUphTEtpZGotWUgtbG9qSF9rVER6SFh5ZS0weDI3dldpMEpLdWRrZHd2cjlJclBrTlpOUElEa2VEZGRmTUR0bG5leGl3RzZmUG9BcC1UeUQ5YThrMGVv0gGoAUFVX3lxTFBYZC0wbG05MHJ4NlZGeUNuVDctLWtiUHZfekJHam4waWNWOVlKRk1aRmk1TzJ4ZDZwUmlLSmZNSWpDWkVlWnM2VUJ1cHBnQ3hpZHJoYkZTWGFfZ2hVX19kRzZ1NDBxMThNbE11aTZEWVVhdWlEWi13Sm9ReTY4MUNybjdKVUxOdElLY1MxM3JkRFNPdnpld19NMHU3SmFZRVNITVhEc3lxSQ?oc=5",
     "source": "CNBC",
     "published": "2026-08-31T07:42:31+00:00"
@@ -37,7 +45,7 @@
     "title": "Bessent pushes back on fears over US debt market strains - Reuters",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdmNsa1QyN3lTZU1IX1hDN0VjWHI3M2pQbW1IU3N5ZHJMQTBna3hkNUtYWFRNa2NBaVRTRlM3eVVxOVFHMHhLaUJBX0tqWi1WY0lTbkwyVGFfMTNNWTdVTk5CQVRUUl9pcG1HQXR0MDhnQTlFRGJtaU5xZFRBME5zVU1ZdGxCV0NDVDBpOVdCSVpmbHk3OHh2azFvXzlsR0E?oc=5",
     "source": "Reuters",
-    "published": "2026-08-31T04:38:05+00:00"
+    "published": "2026-08-31T04:37:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -56,9 +64,25 @@
     "published": "2026-08-31T03:47:00+00:00"
   },
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "How Are Nasdaq, Dow, S&P 500 Futures Reacting As US Launches Fresh Strike On Iran? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMHlZMTZTX2ZfdzZVeURPVzVsYXI5LUQxTHdFNTl5NHRBbjZVMEJSMkhRR1lvNkpPZlNaQWVwd2JuTnl5dlpTZEtvVE9MSm9CRHJlYW14aS1jS1VKcWZmanU0RnJIT2cwRll1c2FjdlBYV05CTHRYcnRPM3hfLUVzdHV2SUNZNjlBd0U3WDF5TTVmU0U?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-08-31T02:13:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Brent jumps 3% to above $90 after flare-up in U.S.-Iran hostilities - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaTdVeFlkNy1DdDJfR1c1Y3hPYVJBd280eEppcDZpaGdyWE1PXzlobldLdUUwSHc4ZUVrX0lJMjJnOVZocVVDeDlDcnZlc3hFVVhPcmJpZzF6dGs0Zm9RSzRGNC14X1FCcnFROXVfenpEWVMzYVFsRnNLMGxROTZ0MG5ZbkRMbU3SAYwBQVVfeXFMTVZSdnpDbU41d3JQN3hDU3p1c3hLSHhCdW91Smo3UFNDc25oSkxuSFowQlZUNGFhYjFpMlBBYXg3MkpHbFdDLWtwenVWWHd2YmVwM2JhT1hSMFpFN2R4cEwyU3JNd2hqdVI2emNGQmk5LVRUempxbFMzNUV2NUxxazhvTjB0Q200WnhuMTI?oc=5",
+    "source": "CNBC",
+    "published": "2026-08-31T00:46:00+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Stocks cautious on US-Iran escalation, bond yields hit multi-year highs - Reuters",
+    "title": "Bond markets face fresh selling as oil prices jump, stocks cautious - Reuters",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
     "source": "Reuters",
     "published": "2026-08-31T00:38:00+00:00"
@@ -150,6 +174,14 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWkJXM3liLXgxNExPZnYzYW9FeG10QzB1cUdHZWxsdEpnUHRUY0lrQ3BFazdJNGJMcDBGV0NfdkFJQy03Y1h1NU9TQjFoNDNOb2JNV3d5cWNqd2hjaFd1Mm1hblo5aTFiSjB6R3R0akF4ZU16MFRSeU9uTzZydllpWDFWUmlLWlNCYmNLOWxlcU1GdWNFOENJaExVOHZQMnpwUXc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-29T00:15:00+00:00"
+  },
+  {
+    "label": "AXON",
+    "topic": "AXON",
+    "title": "Axon Enterprise Inc. stock underperforms Friday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOck1yX01yN21KekNjLTFaWVlBT1gxODRlQjQtZmtGZ3lsNlRKSUZqNmRMTS10ZlFuaW1Gb1FiU1FFY055QWFkYUZLWkR6NHhrYUk4UmtHcGprMVNCeFZBVkgwWnZPMTF0THhpdEJDa1g2cnQ5RXh5OVc2UEwyRjRvUFpoeGdyNE1uMlQybEFrODZhbHFUUjJnRVdIeFhHZzZ4dExUcG9GSnc4V1p3bExGbE5OQzJIZUpLM1AycG5RejN5U1JwNi1FbnJ3cE5DekdH?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-08-28T20:50:00+00:00"
   },
   {
     "label": "KLAC",
@@ -470,69 +502,5 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdU9wZ2VOZHRZMWRpME8zTm9BSVlXTFJOektQd3ZLdmVtdGhzQVJDbENGTWJFVlRBNkoxalJJT2RQN3lYVjBnYTYta096R2JsR1B3d2dhR0RHbHB0ZlA5WV9HcG5Jb1kyMlpCeXBhZW9RMVBWaU42cUZkejlsVEJuWDRjRGo2ZDV4WHRfUGZpUQ?oc=5",
     "source": "CNBC",
     "published": "2026-08-27T15:57:51+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed's Hammack says 'now is the time to act' on raising interest rates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYzhMUzYyajNpakhHREF2VjBuaGFYbzQ4VXd6dUtNMTV0VHBJcVh2a21Lb0pSZFNTaVFHczdHeEUzT1JmRnFWMmQ4bm1hZC1XNlQxeWFpV2FUazVIVXQzZWl3QkM4TGZxak4wUWwxU0dKNW5BUHVWVS01NWMyXzlqODE5ZzRZenZIRGNubjdLeW5OZVdSZHNlSG1SZTJ4M202VjZmZUxn0gGrAUFVX3lxTE55QjRqWHBxbVNNakk1RDlBZTNVTkJEZUljbS1wUXFCVE5XdVhMMFlOOTNwQTJ5YTAxM1RiNDVtQVJHVWctV1JwMXN2Z29HUkNiU2NvWnVyWjFUclFpWm9RektWNFBGR3hQclNjcTE3Y09rRWtTRG5hR1FPNVJEdjA3UzBDc2lxSmswV3U0N0ZWd00xTGlyMUgtXzdjYWc1aHhMLTBBd29PUFdrdw?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-27T14:27:17+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "The Nvidia effect: How the market is reacting to the chip maker's blowout Q2 earnings - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMzk3a0RmQS1sV1ZGaVMzRUhIc2dkckcxS0dHYU91MjNIVmlEOUFoUDVUV19pczI0YVF1UkFuTExodG9wTkhrQnpwalpkVTB2MFg1Z0dMTGlnNUpfNG1fR1Z6aW5tS05RaFB0MGROTTRLSmh5dmQyWmVjTzNiYnZLQTJsUnEzbkFUWHN3dTVGeURaaG5oTHJkU3drSm0?oc=5",
-    "source": "Business Insider",
-    "published": "2026-08-27T14:10:22+00:00"
-  },
-  {
-    "label": "NVDA",
-    "topic": "NVDA",
-    "title": "Dividends could be the next big Nvidia stock catalyst, just like they were for Apple - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWUwwYkIzTXVES19wWnU0MTlHVzdONHJqMWY0T1VmVllhdkJpeVdPbDN4Q1Y0ejIxNmZTeWtKN2xjQVhmcmg0T2htVG13S2Rma1VaWUNrRUpSQkdxTGIweW9xcC0tTGgtNUNPU3dILUFZRE9uMEN1VVJDcm9TZkpRSXhoQnl4U3RBeWtGekpla1JWVlh1dkd0cVRzOHRNRlBVaU9wcnYtbVVMWmsxNHlCNDgxd3E5Q0VOb1loMmV2Mzl6eUdUb0tCMjVvMEE4bXFaWHVFR2JHdW1pcng2M3dlWg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-27T14:01:01+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Has Marathon Petroleum (MPC) Outpaced Other Oils-Energy Stocks This Year? - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNklTV2k3SmtKdDNrRDlqWE1mVURTcVlrNTlMVVF1UUFOb05RV3ZmNTRXNTJQeDV1T0RIVmpEM2swRC1nUmtGTWtVRTlUcjFzMVIzUTJOSm5nTVpoM0c3SE1WZTJHN1pGRmRISW9UblRSTEtXbWMzdTU2cWd3YVVSMlpxSkhPdHp4MnRtQzJjUQ?oc=5",
-    "source": "Yahoo Finance Singapore",
-    "published": "2026-08-27T13:40:03+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "ECB will return to data dependence after a September rate rise - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02LUg2ZmJqZnVRR19FUFhVYUZ2Y2lOVmhTN0FXampKNm1fYmVQbFVpZlJfQ096NTJWMExOZFNoRmFZNVVJcFE1WWs0LWlYeHlUeDhKWDc5a1ZUUVItRXU2X051SnVCVGk0QTBLQjd5Qmo?oc=5",
-    "source": "Financial Times",
-    "published": "2026-08-27T13:00:06+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "New Fed chair Kevin Warsh under pressure to clarify views on inflation, interest rates - AP News",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ0haYVBvVFJqZ2FhYl9lalJicEl6eU1ucWdjUlJ0OWpqQzItdGF3d1pyTWpnRlZaT3lEaE1pRjg0RHJUQXlOT2VicWN1WE5tVm9Hd1VwZlpjQTVJMVJHTy1hbEcxTUdBei1hbE5fTnZZcnI1ci11ejRNd21ULWkzZDBBMkRkUXQ4a2FtMEV2aE5VTmRiRmRPZFc3N2RfcUtCTFE?oc=5",
-    "source": "AP News",
-    "published": "2026-08-27T12:58:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "ECB saw a further hike as likely at July meeting - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaDBJVVNFblBPSy11dmRWMWRibVZPOXZkNmY1bzZTUXI4S3hPQk50b05IbWR2VUd3RVJUNUsyRG4zNVUxWXhhUGFDSk1WN3B3QXp6YmRaeW0xUTYzMnlpZlA1TzRqc2ZYeHpHSDJ2dzZ2Y3FwS211V0JzczRSY0ZwR1h0aUZjZmNERXJoY3N1TGNiQ1R3dmZr?oc=5",
-    "source": "Reuters",
-    "published": "2026-08-27T12:14:14+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed's September interest rate decision isn't a 'no-brainer': Fmr. Fed official - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSkVBZGZPekQwZ3JzUVVUSmIxbkkyeFI1UW9ZZnBZdWlVR0QwMTc5cGp4NXpNd1lkZXFRNG9YM0RoZWQ0ampDUUtqTmpsNU1oRzdsYlJMRkFsa3pBSFpudjdQVGtDQkllQUE3aFVoQ1I2Mnp2Z2JOcXBYNEVZOFhDOUVIVmZUNlV0ZkN1LQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-27T12:00:00+00:00"
   }
 ]
