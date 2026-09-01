@@ -1,5 +1,13 @@
 [
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1URThiREt2Skg4dk9BX21rNVlzMWcwSTBYcG16RVZrYnE1aVZsMkZtYXpmcDdNSk1CRWdyX3pHdW5aM20zSzF3OENGYmJGQnpJbHZUandzV2ZJSGJZLTVDU2ptaldzbG9ucWVPekp3TkNCd0RI0gF6QVVfeXFMUGxFSndfRm8zeHFCVFhEX1VjQVV1T0xDQkkxM0pYRWZzZHJ4dVFTWTl5UmVpcXRHUS1wQWNwV3RVaUVYRlFDZFpFR0J5SUJpZXJ1aEJMQ3U1ZmFLQ0ZqdmtBRXItTDBvT3Z2N0hjdU5XYU5QVUZNWVNmM1E?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-01T09:56:12+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears - CNBC",
@@ -32,6 +40,14 @@
     "published": "2026-09-01T08:20:32+00:00"
   },
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "US Stock Market Today: S&P 500 Futures Edge Lower As Inflation Concerns Resurface - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUU85WHF5c1l6N0V6VHN3YWZhWExxOTlWVzVZX2JaR3ZiTmIyR0xELURvaUVFZ194RFE4R2ZRRXdqdmxnVFVKZnZSWUlKT0NYbk0wWEVQbGZUV2hHT3FHXzl5eXM3SmZUWWhST0hnUXlqOTBmTFI1cXVnT29sakV4bjJCTVQwYTZ0eHZVbFVLcWZyUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-01T08:13:48+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver as inflation, Fed rate-hike fears persist - Yahoo Finance",
@@ -58,9 +74,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
-    "title": "Japan's benchmark bond yield rises to 3% for first time in 30 years - reuters.com",
+    "title": "Japan's benchmark bond yield rises to 3% for first time in 30 years - Reuters",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTkpJbXp0djFzYkFEeHBOTDlQZ0pJZzZlakNKb3pQNlFhTEFLSGQwbTUyRTVRVWlNSlBpbUdDbkpRU0dIU0ZQZlVmci10eXRCMzZFN0xLMVZnSGpGTzFfSlpOWk8zUXJ2eTZWWno5YnNDTkducUkwWDlMQWZKVFVRdEVjM3U3N0hEMFV0YnN3blA0MWVDNDFkSFRMV3BJMk5qTVR4aks0R1ZncEtGdHBJ?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-01T06:33:00+00:00"
   },
   {
@@ -74,10 +90,18 @@
   {
     "label": "Energy",
     "topic": "Energy",
-    "title": "Bond selloff deepens as rising energy prices stoke inflation fears - reuters.com",
+    "title": "Bond selloff deepens as rising energy prices stoke inflation fears - Reuters",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-01T01:46:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices rise as latest fighting revives Mideast supply disruption risks - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNXzNva1pxcDRaVGJ0WkYwOFJ2Zm8wNFBiMmkxLUVIZVJZaUV4WlRGNVRZbk1JZHdpMUpXbXJ6VHZsVUtzS2haZ0M2bDd4d3RTa19vTHZTOWc3MFlGaW1jU3gwMG13cFhFY0hOR2tWSjM1cWQzd2pfUEZFRlpSRWdEcmJ3NHdlM3BydlNkQUgxY3lMYjBybFMwZ1Vxcjk2clc3cHZKdWxtMHlFWHBMNDREaEJoZlBIc2U5TGMyWF9GaEZhX0JlMlA4THpn?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-01T00:56:00+00:00"
   },
   {
     "label": "Nasdaq",
@@ -242,9 +266,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
-    "title": "Barclays sees two more Fed rate hikes this year after Warsh speech - reuters.com",
+    "title": "Barclays sees two more Fed rate hikes this year after Warsh speech - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcjVHcjZWTGVra3FoZ29XVXdDS05fZlh6S3ZwZHdzb2Z1bHo1Tm12NUNBZWZxN21sTG5hYkdfVVA5VmlBMm5xOERKNXJYZDJURkI2Yk5Lb1JNZFFyNEJVZUdKSjhtdFZtbm5MdHJfN3cwN1FTUzRlUkJwUWxnWjlqLVVpdHZrQkRnaUx0Y1oyZlQ1VzY0LUhmRlI5d2RKbU9lQWVZUC0xTG81QjljYzRwdDRQRndsY3FXZWdR?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-08-31T04:29:00+00:00"
   },
   {
@@ -542,21 +566,5 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNnl0Mzg5Skphc29Pd2psYWwtbFZuSElEQ1oxekU1Slk4Z3N1SW92S2hnY1NYUXk2UG9EM3F5QW1JeG9UNXFfV0tvNkp4MWEzem43Rl9fYjBTN2dQbUhKaWtOMVNwSG95SWJCZ3NrSS1tdnI0cGxncEZnaTBIZ0NWOUVIdmZSSkhibDlfb2FxckhmRF9FMXdrTWFHV3R4dzNUX0lFVE9ZYnRHTXA3RU5ES2w4Y0czak1NMGc?oc=5",
     "source": "CNBC",
     "published": "2026-08-28T10:41:00+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYl9tcXFQeFdWemVHTXBxVXNiaFFPLVJUU3R5V05Vd0xBdFU1NGd4VnJBZUZpNHREZlJSX2pYcXhCX0VibHMxS0kxNkZnLXdtaWhCNmw1Y3Fla2tSQ3YwRjNoRzNrVlExZjEtaHN2dlA5UGVJaUY3b9IBfkFVX3lxTE1Pdk0zWE1wQl80T2FEaWFlU05kMUYtSEY4SEtXVkVOWU9CVWJZM2p1NWk0dXNQenVzWWhsc2U3THJnQ290d3J3Y1hremFfcVJUZ3YwQ2pNbG9ETzNfUlNhMkdyQ2NZRUw4dzJYbEpXS2pEU2pPSkZJV25SMTRCdw?oc=5",
-    "source": "CNBC",
-    "published": "2026-08-28T10:19:13+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Marvell Technology shares fall despite Q2 earnings beat and higher revenue outlook - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYnJrSGcwUmxHV1ZyUUlJa1Z3WDNzRTAwUFpwVl9tUFhlbDd2WTdKd0liQ1QtY0VPUWNuTkpGUHRHalRvUWhyVUJMeEJ5UnV1b25PMUFpczhUVWIwMlJYZzlSNkJIemliYlpLUXdHVEZiUFRWWGU4WE1WdWhjWDktX2RQR0hCZy1jZV9ZcnVKYTI4dlh6RnpuaHNtS2x2Q0N1S1UxeTFn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-28T10:18:06+00:00"
   }
 ]
