@@ -1,6 +1,38 @@
 [
   {
     "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Stocks fall, bond rout deepens as US and Iran trade attacks - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-02T09:13:43+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures little changed as US-Iran war escalates, inflation jitters return - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYXctcnVGX1dZRXpzLVoxeVhrUWxzVDFPQVROMVY1b2oxN1FFc1RyR0ZFcWFMZ0FlYklFajlRc0YzSzFEX0ZMdFp2eE1sTjV4RjRwcHFqTFl2RzRYOGRmTzdWMUh3N09KRTlHRkhsUXE2My16MTlycmgzVlJWSzNoUTN0VUhuV0YwR1ZUMkZHaWItMGxOWnlHbl8wQXp2UUZNTGhLNWhVdWhUM1FLcUNVaGdR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-02T09:00:49+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "No shortage of culprits in panic over long US Treasury yields - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVVczNWtaWmZ0TmRaZTk0UjJBaHBJb3ZmWVIwdEt4RnFwRTVLdnNQVEV6RmhJTmItdlFiR1pkTXZEUEZXZjk4elVNUE55TFJ4ckt1MHJzekhGVFhHRGNpby1Pel8xOGUydmRGdlV3REQtbFJ4VnRRc3U3c0pGaHZSTmhabDVqX0pyVWlBZzFOUWZ6dVJaNTA1QXctTm5xbnNTT3FNQ1gtckUwMnBpVEhFWg?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-02T05:05:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "ECB must be prepared to lift interest rates further, says top policymaker - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbDJRcVBGVVFKekJXSk1NaC1iOTdIMW1faGtzOG9ESVI2Q0JGYWxZaFBNb3V3TTZ4Y3Z1bV9jcFBldFRzdkRzdElRRG1EYlVYVXBKVmxYSFpXcURhUnNydzYtUUgxdFJGUUZFOVdwdnlyQXZmcTVJT1NBcUFoZWNrT093dkY?oc=5",
+    "source": "Financial Times",
+    "published": "2026-09-02T04:00:26+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "BOJ",
     "title": "BOJ chief signals chance of September rate hike, debate on price risks - Reuters",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLWUxd0t2ZFAyQy10SlowSmZwczhNZjRXZTkzdk1RV0dWU3lvX0NONU40ak5KT2NudEdwNU1qR2ZXSHdRX0tRcHk0MF8yci0xaWhQbVZTZ3lTdHYzQ2lFOUlWaTlvLWo0VkhMaHotalJBLVV2aGFlUm1ESUJKWGxoVC10a0FJRk9mLUJDbHM5Nm9yaEpkYnRJLVNmaEtjUWg1Q0VsU1duRkVWMWxuRm5LWQ?oc=5",
@@ -32,12 +64,36 @@
     "published": "2026-09-01T20:57:49+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "This could be the 10-year Treasury’s tipping point into the danger zone - marketwatch.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTHMxUHpERm10U1IzQ2VWZ29oQU9XUGFnQm0tZDQ2SUtuS05odFJOakVCVEhsZEZram1hQm96RU9PRk91RzlqVVhFOVdjdmFibGlVVk1FSVNBN0lxQXR1QTB1b2x1eDZ3SE5FcFJpNVJlaEd0Vy1rMTN6bE9aRS1WUnR3aXcxM2FQSktUVE5JOXlEcTNrZUN3UFVrcEEwbkhsV3NBS1FXeW9CVmtfcnpPZ29EWQ?oc=5",
+    "source": "marketwatch.com",
+    "published": "2026-09-01T20:36:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Global bond markets are tumbling all at once as macro concerns spiral - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOHN0MWpVemZEYnVyS1ZwRVRiV091V3RINTIxNktKQXV1VDdNNjdOSWNjOGhEWHVPVVlmRFRELTFBQXl5Tk1EV3FoRXE3NmtOM2hoYUhKZnhENXRGUDE0Y19lX3pvSEtZZXBLOTloRk9fOUFMcldSeW5ucjF0WDY2N3pfVHRGWTVOWk96VElrVE9ZbDRXbGptT0ZuaER4WF9DVjVmVg?oc=5",
+    "source": "Business Insider",
+    "published": "2026-09-01T20:27:00+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq drop as oil tops $95, bond yields rise - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOald3VXBlOEFnQTdDa01pSGNQcEtILUJQQTBRYlZOTzloVDBISXA1MzIxMkczUXljVEx6YkdYcTNBWi01eW9WSUZNTDEwNlpDV2w1UEtjNHhCa25DR3hMYVFIdWtsMWhiTkR0d0dLUXF3ZWZYUUtpUTgzNzhDd1hvbVFfd3E0SXBtMGZWYlAwWjNsUF9hSzJ0TElzQmtZclNvZkRydUVsWTQ0RDk0aHQ4?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-01T20:00:41+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "Japan's benchmark bond yield rises to 3% for first time in 30 years - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTkpJbXp0djFzYkFEeHBOTDlQZ0pJZzZlakNKb3pQNlFhTEFLSGQwbTUyRTVRVWlNSlBpbUdDbkpRU0dIU0ZQZlVmci10eXRCMzZFN0xLMVZnSGpGTzFfSlpOWk8zUXJ2eTZWWno5YnNDTkducUkwWDlMQWZKVFVRdEVjM3U3N0hEMFV0YnN3blA0MWVDNDFkSFRMV3BJMk5qTVR4aks0R1ZncEtGdHBJ?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-01T17:53:29+00:00"
   },
   {
     "label": "Anleihen",
@@ -72,8 +128,8 @@
     "published": "2026-09-01T16:23:13+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "How soaring Treasury yields could hit your finances - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT09fdFlYQ2tEY1ZOTkZjUUM3RVdKaldYVFBOcWdGb1o2NGJLSUlXVUFPTUlXTVFVTHhwRnRiWlBWd05fUlpEZDhxbWE4Z1pRR2lfLW1SSFRadlI0TlNyYnJWLUNFT0pXczRTcV9vLUNpYS1DR013TXZ2NmtobkxGZXdwdV9QdG1GcExxMzRWVEdhRlhYeWxZLTZNTkZaMF84dllMOVNycXRyWTJyQVRRRC1jZ3NfTXpfRFljczZZYkJpRERuNkE?oc=5",
     "source": "Yahoo Finance",
@@ -106,9 +162,9 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Nasdaq futures lead the way lower for stocks - MarketWatch",
+    "title": "Nasdaq futures lead the way lower for stocks - marketwatch.com",
     "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUWVvaVl4U2M5LXpMSzUyd2JnT1pzNDVCMk05a3dESFZNTjhGN0lsQUJSS0paSm1iN0NIQVBHdGk3OTRNenk3WUVnME9reTRWQ2FGRzhBakNLMWZVc0pNcTE3LTdaWFJRbVRnM0MwNy1XTWRlNlNzTHVZQ3dxY0VBVUxGM0RWeEdFWGluWFY2YVNoM25QUlpOVjNHYWV6U3F2aTM4ZlU5ZU1WQkNsSnpwbmFMMTJ3cEYycl9GamlXR25tdVd6ZmpVaVN5bVJUX1M0cUpnWDhMNkZNU2Rfd3YtYVAtZXFOMVZVU1BtYXFjUmhQdy1ZV2xaOG04TmdLN3dCbFR0cmtsMjJ3SlhIaHYzUUxXVGhvZklGYzlvcEhLSkVKOFN2V1g4dURQSlpFX0VPNnV3MEJB?oc=5",
-    "source": "MarketWatch",
+    "source": "marketwatch.com",
     "published": "2026-09-01T12:51:00+00:00"
   },
   {
@@ -193,14 +249,6 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "topic": "BOJ",
-    "title": "Japan's benchmark bond yield rises to 3% for first time in 30 years - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTkpJbXp0djFzYkFEeHBOTDlQZ0pJZzZlakNKb3pQNlFhTEFLSGQwbTUyRTVRVWlNSlBpbUdDbkpRU0dIU0ZQZlVmci10eXRCMzZFN0xLMVZnSGpGTzFfSlpOWk8zUXJ2eTZWWno5YnNDTkducUkwWDlMQWZKVFVRdEVjM3U3N0hEMFV0YnN3blA0MWVDNDFkSFRMV3BJMk5qTVR4aks0R1ZncEtGdHBJ?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-01T06:33:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
     "topic": "EZB",
     "title": "‘Conflict of attrition’ in Iran could keep inflation high, ECB policymaker warns - ft.com",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTmJOb19mc01kRTRlbi1Hd2VNR1RUUGtrVHZHeUNQT2F2aDJjajlqNU5LeEVweVA4cko3QmNPcFJyN0d4dE92ZWNWYzlQUkNKTW1KbF9FeW9ZVzZIaGNqSWVOU1lJMHl4V0ZlV0FOS0tXaGpXVkhPOXdoU3I0NzhsaGZzc2o?oc=5",
@@ -274,17 +322,17 @@
   {
     "label": "AXON",
     "topic": "AXON",
-    "title": "Axon Enterprise Inc. stock underperforms Monday when compared to competitors - MarketWatch",
+    "title": "Axon Enterprise Inc. stock underperforms Monday when compared to competitors - marketwatch.com",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM1dNNGIzelhGUUgyWHI5czFCSEpqRFJPdVJnOWJMWGFiRGt3SVZGSl9XdnluQ2tXeUJ6cS12U0ZpUk5CUWdvZV8tRGdJSEwyd1c1cGlHWmJpYXdiOEdlMkJLTDFYdnpKVjJWdGt0S2ZqNnpnSFV0Qk9HVUhFSV92RWNWT0phYnVaUTltSEJOcklKa3k3NXIxRmlsV2pnakR1LWZ6Q1E4dG9QQUNEUERKR2E3akwwclNEa2NoVmJuS0FQYmZkOVdjSVlOUmFJMXpq?oc=5",
-    "source": "MarketWatch",
+    "source": "marketwatch.com",
     "published": "2026-08-31T20:30:00+00:00"
   },
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’ - MarketWatch",
+    "title": "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’ - marketwatch.com",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYTJWMDluczQxSnVjYWZUZHFQVTdDcUJkRlF0WjZ5b2lMNFYtRHozcVJZaEwzc3U0NjFQQXpCS2YyV3dvMFNpbWhWWTR6MktZUFRRNHFUaXdYSElmaEtSV3l5eUo4ejl3TnVGWHpXeVBTWXc3dXlhT2FGbFFCRV9YYU5wOG91LXdUaTNCbURqRjBCNW5VTjZVcThnRFdZWXItUW5Bd3FRVWNDVUVPMGFRaDRXd3hGS3hVaDBIZ2dobE9TNnMwSUpZT25fMUJPSXZPUWZLTzhmSTlJZDVmMWc?oc=5",
-    "source": "MarketWatch",
+    "source": "marketwatch.com",
     "published": "2026-08-31T20:26:00+00:00"
   },
   {
@@ -514,9 +562,9 @@
   {
     "label": "Health",
     "topic": "Health",
-    "title": "Pharma stocks soar as investors seek AI alternatives - ft.com",
+    "title": "Pharma stocks soar as investors seek AI alternatives - Financial Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRTBkZmJvaW4wUHdYQk4wZjhCWVpoVU13WThlYlpTWFo5dnczWDhGMmk0aUR0akVtZkdnY01manJtSzBIQUlRbXlsWnpXQk82WGpnc0tHZkE3dFNqZEtTTWJYWFJ0Q3p3UmN0OU9JankwdU9PeUVEMGpDbGtCZDVVcjBaZmI?oc=5",
-    "source": "ft.com",
+    "source": "Financial Times",
     "published": "2026-08-30T10:00:01+00:00"
   },
   {
