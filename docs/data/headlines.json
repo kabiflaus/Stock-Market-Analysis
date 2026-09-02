@@ -1,6 +1,30 @@
 [
   {
     "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Bond market selloff: What fixed-income investors can do to protect their money without panicking - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeVZwUTRpcDRiQlc2Ui1LQ2U3NWd3dkhJa3ZWSENPQTM1SkNJcEJwU2pJRlhBbC1WbGcxRlNGMHhBWTc5VDEweFoyTHR6Y2VoSG5QZHJZTkpSWEF5UEVoUlpVa3hEZW9KM1ZLOHIyQlF4anJ0bUZ4VlZCb195TWJfa25Xakh5cDhaSklJSDlWY3QwZjk0MGfSAZsBQVVfeXFMT2x1YUFxcVVJOEp6MnIxQ3ZweWFEYnV3TWRNM1NLd2lpUWk3MEtYaDBNQmEtXzNHeXhxbDAwRmNMNGJBSXBQbTRXQXBQNVVhVENXWHZoVFZwVTBiYnRBSUppRTdWdFRST0d4T0I3eVZJUzJ5STFzSmpWWHlCR3JieE9WWEVNcEFTUUIyUjRhXzRXdVk5TDRnMEJ0Wm8?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-02T11:00:29+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "ECB must be prepared to lift interest rates further, says top policymaker - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbDJRcVBGVVFKekJXSk1NaC1iOTdIMW1faGtzOG9ESVI2Q0JGYWxZaFBNb3V3TTZ4Y3Z1bV9jcFBldFRzdkRzdElRRG1EYlVYVXBKVmxYSFpXcURhUnNydzYtUUgxdFJGUUZFOVdwdnlyQXZmcTVJT1NBcUFoZWNrT093dkY?oc=5",
+    "source": "Financial Times",
+    "published": "2026-09-02T09:39:45+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-year U.S. Treasury yield hits highest level since November 2023 as global bond sell-off continues - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kTzdvcFpPblpSZkZpcWRPSHhhU21LNEVydjZneUlLVl82dEgtc25DSHg3Uzg0QktBazF5a0RLbnhpN093VklqRWI5VERFWXhzcUk2clJaeURaakN2c2UtdUhSVFNTaDAtNW1XN1JONzVlZFdVWlI00gF8QVVfeXFMTkJLbUdLZ1lYM1l3S3pSUUZQZ2xRWDd6R2NhOVlsOXFZTGszZGhhZHJvSWRrNDd4Q2Y1dHd3Tm9paDRIdGYtUmZJNzUwSDFGRlRwRG5XNEhUUDZMS05qSlhFWjM4cEV4SklPOTAzU3NyNWM1SDE2MC0wdy1vcA?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-02T09:14:56+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "Stocks fall, bond rout deepens as US and Iran trade attacks - Reuters",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
@@ -16,28 +40,28 @@
     "published": "2026-09-02T09:00:49+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq Futures Slip As Rising Iran Tensions, Oil, Treasury Yields Keep Wall Street On Edge: NVDA, DELL, CRDO, NIO, RKLB, MSTR In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQWlhd1Ezdnltb1drVTRMamJjWV9rQ3ZQSWUxenloSkVTQUxleGphRGlvNjE4QXgzdjYwUlIzTERiRWQ1UlF5QVl4aTZHVm1YUW14RVd6V0RnOUw4eGxLakNqX2Z5QnNpYjJuQzRlY3ZBeno3SHJ6YnczV3hwTkpHMFM0X0xSekZSM2kyYVFKaVFoaHpoYVFYRGJVcy0?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-02T08:41:27+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Defence spending shows determination to protect Taiwan, president says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbm9ieTRlNkp0Rll3R2RnR2k0WDZnN1A2aUpmRF9PbmlJNzJfSlFYYk9IQmlHbDlwMkE2VkVHblgzaXprUEthbGxwN3ZuRE9xcS1tSllPYnJGclhzREhsVE9iSlM5UHdNWnhLWnc4cjBvaG9nenp3bFVUTDFRM1cwWnI1dllRMXFvekg2MndtbmhpZjA0ZTRiWm44ZE9jMjN6a1pEMHpfX3VkcTdqV3ZtQ2F2aW1mNkRRYzlKbTd0c01FeVU5X3c?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-02T05:16:17+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
     "title": "No shortage of culprits in panic over long US Treasury yields - Reuters",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVVczNWtaWmZ0TmRaZTk0UjJBaHBJb3ZmWVIwdEt4RnFwRTVLdnNQVEV6RmhJTmItdlFiR1pkTXZEUEZXZjk4elVNUE55TFJ4ckt1MHJzekhGVFhHRGNpby1Pel8xOGUydmRGdlV3REQtbFJ4VnRRc3U3c0pGaHZSTmhabDVqX0pyVWlBZzFOUWZ6dVJaNTA1QXctTm5xbnNTT3FNQ1gtckUwMnBpVEhFWg?oc=5",
     "source": "Reuters",
     "published": "2026-09-02T05:05:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "ECB must be prepared to lift interest rates further, says top policymaker - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbDJRcVBGVVFKekJXSk1NaC1iOTdIMW1faGtzOG9ESVI2Q0JGYWxZaFBNb3V3TTZ4Y3Z1bV9jcFBldFRzdkRzdElRRG1EYlVYVXBKVmxYSFpXcURhUnNydzYtUUgxdFJGUUZFOVdwdnlyQXZmcTVJT1NBcUFoZWNrT093dkY?oc=5",
-    "source": "Financial Times",
-    "published": "2026-09-02T04:00:26+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "BOJ",
-    "title": "BOJ chief signals chance of September rate hike, debate on price risks - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLWUxd0t2ZFAyQy10SlowSmZwczhNZjRXZTkzdk1RV0dWU3lvX0NONU40ak5KT2NudEdwNU1qR2ZXSHdRX0tRcHk0MF8yci0xaWhQbVZTZ3lTdHYzQ2lFOUlWaTlvLWo0VkhMaHotalJBLVV2aGFlUm1ESUJKWGxoVC10a0FJRk9mLUJDbHM5Nm9yaEpkYnRJLVNmaEtjUWg1Q0VsU1duRkVWMWxuRm5LWQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-02T03:38:29+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -54,6 +78,22 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd3NvTmc3Z2RhR2tVLUVxZjU4LTlUVjlTSHIybm13Z1YtQWxWdm5VOEs3enRCYnY3MEYtWkRNUnItaG5WOXE5cTdxamtmaGpTa3NBbVZ4anlZTkY1d2tDc0hKRlFVRDM5czBnNHpZV2FBWjBvUkNQWHpjaURwUnhIeVVDelZTWm1vc0hweGVtbVdPckstbHJaUFlxS09haU8tdGRNOE5ORVoxQQ?oc=5",
     "source": "Reuters",
     "published": "2026-09-02T02:23:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "BOJ chief signals chance of September rate hike, debate on price risks - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLWUxd0t2ZFAyQy10SlowSmZwczhNZjRXZTkzdk1RV0dWU3lvX0NONU40ak5KT2NudEdwNU1qR2ZXSHdRX0tRcHk0MF8yci0xaWhQbVZTZ3lTdHYzQ2lFOUlWaTlvLWo0VkhMaHotalJBLVV2aGFlUm1ESUJKWGxoVC10a0FJRk9mLUJDbHM5Nm9yaEpkYnRJLVNmaEtjUWg1Q0VsU1duRkVWMWxuRm5LWQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-02T00:25:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFFGYXFZUWpsV1lUVlAzci14MHluQ0VWY2I0NmJGdVVXSlY4eDM2M3MyeUxNZkZMNzRVY2NaUk8yRnFObUViQVhrdVJiMEFtclBjMVp0SVFpSHBGaGs4ckc0VGFjRGZRdk9WRXVUSDBuUDF5bHFjNTFaRTJOVnlrQUUzelFnWV9DWkZrVHdkc3lBU1k?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-02T00:01:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -86,6 +126,14 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOald3VXBlOEFnQTdDa01pSGNQcEtILUJQQTBRYlZOTzloVDBISXA1MzIxMkczUXljVEx6YkdYcTNBWi01eW9WSUZNTDEwNlpDV2w1UEtjNHhCa25DR3hMYVFIdWtsMWhiTkR0d0dLUXF3ZWZYUUtpUTgzNzhDd1hvbVFfd3E0SXBtMGZWYlAwWjNsUF9hSzJ0TElzQmtZclNvZkRydUVsWTQ0RDk0aHQ4?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-01T20:00:41+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Euro zone inflation rises above 3%, cementing ECB rate hike bets - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWlU0ZGJQMWt6NVhpVng4SW1jUk1SM3NXZWlRZzliNnV5emhYeDRaVF9FYnA1aWNDUVphdW1hQTcwRWVOVGR1YjBfdm9sOUlWcFpCSnFwOVNubkh6VnZrTjRyMERVTWRKaXYzZHNaVjBZZ2hYT015OHgzb2o5S25uaG1OaFNGVzRpZk1XSDZMMVhhUUM1V19VbWktVnRmXy1YbEFUS3JxeGEtY0E?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-01T18:04:38+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -138,7 +186,7 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
-    "title": "US Treasury yields are rising — Why does it matter? - Reuters",
+    "title": "Explainer: US Treasury yields are rising — Why does it matter? - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWnItbnFodHQ0d1loUUlucU9LSmJKWWM1bWZlTXV5dmZnZ25Ub2FzZG5tWmRwREpkWTU4WUxFT0lFQ3RTZEJhUUFwOFh4bEZ1Z01fSUgwZXFUREZndGgxNklibXUtNC1meFNPaGNob0dGdUpQM3luRFo4RkdZUnYxakh0RUd2amU2bzJOMDRsM3JXanA4bWtmR3BaMl9fVHJqbllB?oc=5",
     "source": "Reuters",
     "published": "2026-09-01T15:01:00+00:00"
@@ -162,24 +210,24 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Nasdaq futures lead the way lower for stocks - marketwatch.com",
+    "title": "Nasdaq futures lead the way lower for stocks - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUWVvaVl4U2M5LXpMSzUyd2JnT1pzNDVCMk05a3dESFZNTjhGN0lsQUJSS0paSm1iN0NIQVBHdGk3OTRNenk3WUVnME9reTRWQ2FGRzhBakNLMWZVc0pNcTE3LTdaWFJRbVRnM0MwNy1XTWRlNlNzTHVZQ3dxY0VBVUxGM0RWeEdFWGluWFY2YVNoM25QUlpOVjNHYWV6U3F2aTM4ZlU5ZU1WQkNsSnpwbmFMMTJ3cEYycl9GamlXR25tdVd6ZmpVaVN5bVJUX1M0cUpnWDhMNkZNU2Rfd3YtYVAtZXFOMVZVU1BtYXFjUmhQdy1ZV2xaOG04TmdLN3dCbFR0cmtsMjJ3SlhIaHYzUUxXVGhvZklGYzlvcEhLSkVKOFN2V1g4dURQSlpFX0VPNnV3MEJB?oc=5",
-    "source": "marketwatch.com",
+    "source": "MarketWatch",
     "published": "2026-09-01T12:51:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "Euro zone inflation rises above 3%, cementing ECB rate hike bets - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWlU0ZGJQMWt6NVhpVng4SW1jUk1SM3NXZWlRZzliNnV5emhYeDRaVF9FYnA1aWNDUVphdW1hQTcwRWVOVGR1YjBfdm9sOUlWcFpCSnFwOVNubkh6VnZrTjRyMERVTWRKaXYzZHNaVjBZZ2hYT015OHgzb2o5S25uaG1OaFNGVzRpZk1XSDZMMVhhUUM1V19VbWktVnRmXy1YbEFUS3JxeGEtY0E?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-01T10:15:30+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
     "topic": "EZB",
     "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow - CNBC",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1URThiREt2Skg4dk9BX21rNVlzMWcwSTBYcG16RVZrYnE1aVZsMkZtYXpmcDdNSk1CRWdyX3pHdW5aM20zSzF3OENGYmJGQnpJbHZUandzV2ZJSGJZLTVDU2ptaldzbG9ucWVPekp3TkNCd0RI0gF6QVVfeXFMUGxFSndfRm8zeHFCVFhEX1VjQVV1T0xDQkkxM0pYRWZzZHJ4dVFTWTl5UmVpcXRHUS1wQWNwV3RVaUVYRlFDZFpFR0J5SUJpZXJ1aEJMQ3U1ZmFLQ0ZqdmtBRXItTDBvT3Z2N0hjdU5XYU5QVUZNWVNmM1E?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-01T09:56:12+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1URThiREt2Skg4dk9BX21rNVlzMWcwSTBYcG16RVZrYnE1aVZsMkZtYXpmcDdNSk1CRWdyX3pHdW5aM20zSzF3OENGYmJGQnpJbHZUandzV2ZJSGJZLTVDU2ptaldzbG9ucWVPekp3TkNCd0RI?oc=5",
     "source": "CNBC",
     "published": "2026-09-01T09:56:12+00:00"
   },
@@ -322,17 +370,17 @@
   {
     "label": "AXON",
     "topic": "AXON",
-    "title": "Axon Enterprise Inc. stock underperforms Monday when compared to competitors - marketwatch.com",
+    "title": "Axon Enterprise Inc. stock underperforms Monday when compared to competitors - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM1dNNGIzelhGUUgyWHI5czFCSEpqRFJPdVJnOWJMWGFiRGt3SVZGSl9XdnluQ2tXeUJ6cS12U0ZpUk5CUWdvZV8tRGdJSEwyd1c1cGlHWmJpYXdiOEdlMkJLTDFYdnpKVjJWdGt0S2ZqNnpnSFV0Qk9HVUhFSV92RWNWT0phYnVaUTltSEJOcklKa3k3NXIxRmlsV2pnakR1LWZ6Q1E4dG9QQUNEUERKR2E3akwwclNEa2NoVmJuS0FQYmZkOVdjSVlOUmFJMXpq?oc=5",
-    "source": "marketwatch.com",
+    "source": "MarketWatch",
     "published": "2026-08-31T20:30:00+00:00"
   },
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’ - marketwatch.com",
+    "title": "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’ - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYTJWMDluczQxSnVjYWZUZHFQVTdDcUJkRlF0WjZ5b2lMNFYtRHozcVJZaEwzc3U0NjFQQXpCS2YyV3dvMFNpbWhWWTR6MktZUFRRNHFUaXdYSElmaEtSV3l5eUo4ejl3TnVGWHpXeVBTWXc3dXlhT2FGbFFCRV9YYU5wOG91LXdUaTNCbURqRjBCNW5VTjZVcThnRFdZWXItUW5Bd3FRVWNDVUVPMGFRaDRXd3hGS3hVaDBIZ2dobE9TNnMwSUpZT25fMUJPSXZPUWZLTzhmSTlJZDVmMWc?oc=5",
-    "source": "marketwatch.com",
+    "source": "MarketWatch",
     "published": "2026-08-31T20:26:00+00:00"
   },
   {
@@ -598,13 +646,5 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3l1ZFdIOGlwUVRoTlRJdTRTRF9fYWdtNVMzdTlCT25rMHhPck1DYUV5UjJhSDhoQlRCTkZKcS1Xcjc4T19kNzlZNWh5ejRMMUFUanZrU3lnNF9zbjVtWkVnM21nbWlsZDBGc0NjY1JGQjJmUmdzYVk0RXNsd3FQQngxMjZfMnJUTk1tODVpSDJ4dXc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-08-29T15:04:46+00:00"
-  },
-  {
-    "label": "NVDA",
-    "topic": "NVDA",
-    "title": "How Likely Is It That Shiba Inu Outperforms Nvidia Stock in 5 Years? Here's What History Tells Us. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTXlJdENrb3JuWW9GeDdQYkJXVnZfdU40SlBucS1zVWZ4MkJnanBHcWpuSndQOU1FVEw5dno1U0FsZzc3dmJrdzBDZFIxMG1ON1BPWFBaQlJ3RzQ3UEk5Y25TdUl3MDJNY2kxRTFRT0xqNUNLUkd6emdWNWRkc1lJZnM4bW9iQUJ4d3YtM0xucy1QRl90S1JiRzI5ellzbGd5MUE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-08-29T10:50:00+00:00"
   }
 ]
