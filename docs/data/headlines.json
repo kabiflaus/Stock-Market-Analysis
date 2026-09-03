@@ -1,5 +1,13 @@
 [
   {
+    "label": "TSLA",
+    "topic": "TSLA",
+    "title": "Tesla’s stock is rallying as investors prepare for a ‘storm of Cybercabs’ - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV1RyZmJEci1JdndPVE45WVFiLTBXOHhUaUo2MHlHdURwNmFZLThsYWt4SjlBS0hzaHJFTXRyUmZRR3pQUTdmeTlCOGtKb25fRTZsbTRpSWlic1hmN2hyejNnYlVQeVRQYmNET0dISk11Zl82ajh0MGVZWFNDVlFnakNSbXRjaWg3MjJCS3lmNVBxcVdYWkU4THR3TkFqWnBDd3NkYWRfZGxMZDBpcHlSajVEdw?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-03T16:50:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "Not so fast on rate hikes, some Fed officials say - Axios",
@@ -33,6 +41,14 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices jump as Iran strikes US targets - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ2pQeXVGV1JKTDVlS1haTXhGcEhkTXVKMUxkMXRzeTY2WThUVnBBaUpJUWhueGg3bllOR3NOSHRkaWptZG43cmhDMnhDMTliZGltQjBZQjRER2hkYVNiR0NHdEdQMkhyQkRDQUJaem9kd2JGZWRvR05xVmgzbEZaQlY0ZUhkN3BIVnl2eWtWTUdFVlVuV1JzdWlobWZuVUJK?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-03T11:33:18+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "BOJ",
     "title": "Yen soars as Bank of Japan tipped to raise interest rates - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTURCTkU3ZnB0MEs3MTl0ZHJYQ0c3dV9SdHFuWUJ1ZmNlYkpoYS1jR2xZODBGUzdjaVFCbXNoQy1VcE05WjU3QW1XejR1enJXSVR0X3ppcHY1Um5KemxfWTk1bmhydmJlRnA5amVsZXg4eUlkVVVsMUt1eEt4UDFHcGktbzBzMzF0YjZ3U1loQUdzRmdjYVF2SkJHbGdXeXpZeG8tUlVn?oc=5",
@@ -56,12 +72,28 @@
     "published": "2026-09-03T11:00:00+00:00"
   },
   {
+    "label": "TSLA",
+    "topic": "TSLA",
+    "title": "Why Tesla Stock Surged 18% in August -- and Why the Robotaxi Story Is Just Getting Started - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQXgxZWUyQ2dRS3A3a25oRWZJTERSdzdNeTc2WEttYzJNUjA2Z01sdHQ3aEd6bGNYemJXN0VlekFXWFRINFBoZVRiVXZJTzRSVDV5RXV2TnBzbzc4X0Y4cEZmUldxZmJvdUpqYXdCa01tSkpsSk9hZHh1d3VHNkd3TkpuQTdyR2N2QnZQSlVHOFdxUUdu?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-03T10:12:03+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
     "title": "Yen jumps to one-month high as traders weigh chance of further intervention - CNBC",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xVmVaTGFTOURLLWx6bFhQemQ5SzVybDVTYUwxYU8xWjlwUzdOa0ZVLVNoUUdxQUJsamVEUTUtaFFMeEpXUU9Ha2dzOEpFcVliYV9WQWJFSG5sa0xtNXdyNTBWMlRpVDVKTm5YNzNDQUzSAXZBVV95cUxONDQ1RU5ibThWb2laYkZGd2tEdWhlNDJjNTQxR05vWGVIRU43YUV3NktFLVNEVGVNVWt4dkZNNTdIR0syLXA3X0JZMkEydTFoSDJ4djh3b09VU1pxS05DVzQ3YUtsN3pwMUh3Q0Y4a04zcFNleU5B?oc=5",
     "source": "CNBC",
     "published": "2026-09-03T09:41:39+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Markets can't ignore the war anymore - Axios",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSYkxiUGpfYlYzUlpQM3FZc3lsNUFlTjNONW5xbnRaZkIwSzQ0TEFJNl93RWNuREJoMlRhTG9vVXc0d3RBX0ZxeDJZNHBHdzZYMDQyXzZqU1V2SEwyaFRtMEhGOEo?oc=5",
+    "source": "Axios",
+    "published": "2026-09-03T08:56:55+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -374,6 +406,14 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOHN0MWpVemZEYnVyS1ZwRVRiV091V3RINTIxNktKQXV1VDdNNjdOSWNjOGhEWHVPVVlmRFRELTFBQXl5Tk1EV3FoRXE3NmtOM2hoYUhKZnhENXRGUDE0Y19lX3pvSEtZZXBLOTloRk9fOUFMcldSeW5ucjF0WDY2N3pfVHRGWTVOWk96VElrVE9ZbDRXbGptT0ZuaER4WF9DVjVmVg?oc=5",
     "source": "Business Insider",
     "published": "2026-09-01T20:27:00+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Why Rising Bond Yields Could Throw a Wrinkle in the Stock Market’s Outlook - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQnh4Nmt1NFlGd0Vmel9VR3NNQkVUa25iU2RhZGhQc3VSWlBzZFhIbThrQ3M5M1FUelBiY0M5ejQ0NjNYUk5ZSFhIVXlHTTNMaXdaUzFPS2xheWQ5UTBpaU1NWXhIZFh0VElWdEhsaTVZMlRQTC1jRzJJTHdMNzFRQUF2dzhqUjJKdU1WeXFaTUZpUEp0UlZOQjBTRGtjU1hzYjhWbEVqWmI5ZHR3ajVHSG1wWjg2djVIWWg4WlBNQ3NqUQ?oc=5",
+    "source": "Investopedia",
+    "published": "2026-09-01T20:05:22+00:00"
   },
   {
     "label": "Nasdaq",
