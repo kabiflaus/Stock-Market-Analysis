@@ -1,5 +1,45 @@
 [
   {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "Why Micron and SK Hynix Sit in the Most Valuable Spot in the Entire Compute Stack - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOGJROS0xX0xkUFVOS3Q3eVhWTnd5S2Y3TFJ3UVZrbFg0Q0tzUjN2Y2ZvYU5RTlRSSi0wTVZTWks2b1pjSVJYTnJxcXFnSTdqd0NYdmJ3c2xSRHJBblp3UVBLS0t0bG1pLTNKR0lfaVo2c2t4eUotR1ZBYktWYVp6Q1hOaEotcXowaGNpejhnTHZsdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-07T16:45:33+00:00"
+  },
+  {
+    "label": "ADBE",
+    "topic": "ADBE",
+    "title": "Is Adobe's Stock Heading for $300? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYlpBYU1fSm5wLWJVYlBka2cybHJRUlhfakJCYTFYVE9uSHdIcllVbUkxSkFwSGd4c25oSDQwSXNGWHNsdTFDd0FndXI4eXIycE9rRXBLaVBJWm9KSkMta0dON0pqN0NQbWxjamFzM25yUHpOeG9GZV9paVpFbEIxYW1iUWxSUEdfaU1ucDRnV0NKR1U?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-07T16:22:29+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "London stocks end lower as rising oil, rate-hike bets weigh - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV29mQ0Z1bjc2TzlmTm9aRXJVRm5xYTRNMHI3QU5hZDVqalVXdE5WZENCU3c1ampzSTN5aWZzeHZoZHZTelAtSlB0MUF1cXlmdS1XYXRjSHZ3cWw3dl9PR2pyQXkzdlNpN0p6S3Y0UVVaUER6bkdCQWpuUWJuNnIxVGxnTGVoU2lJQWpVVXZNWjg2UVMtYmQ0YlZVdldnbGhsZlV1WG1MX1JKaVBKY2ItajRBd0hvUQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-07T16:18:04+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Is Baytex Energy (BTE) Stock Outpacing Its Oils-Energy Peers This Year? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRlR0MGV4djFpUHVVZWNGalN6Q3l4YlRDZjJzX1NleGVtWE91LVdhdUhXank3MlZJdDdlamJBZWY5eWxoWE95RUNDS1F1Zi1zLVpTbzZHV0o0d1ZiU2xxVHNhU2IwMlU0OVN5czNraEEwT2R5Y1o3R3lrMWl3UVpGVG1RVkpzSjEzcVFpQUZTZEh6OUh0d0tmWWdabFZaaHc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-07T13:40:04+00:00"
+  },
+  {
+    "label": "MRVL",
+    "topic": "MRVL",
+    "title": "Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeWpaZGlKcjloMHRCd3JpOFVLSGE3a3c5X0QzcXlHcmJDWTFRamwxNXlZcUlSYVdQazJRQ2Z0bEwwbDJoYmo3SGtVOEJNWnRvZVBkUkZWMlNibmRVMXRGd1kwaU53LTBIN1ZmQVphcERoUUk0RVJwY096Qm10ZkNvcXVOeW1xMGZkV05QemxaUlhSN2pBVUE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-07T13:38:52+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Zölle",
     "title": "Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite - Yahoo Finance",
@@ -8,12 +48,12 @@
     "published": "2026-09-07T12:02:00+00:00"
   },
   {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "London stocks muted as rising oil, rate-hike bets weigh; energy stocks gain - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV29mQ0Z1bjc2TzlmTm9aRXJVRm5xYTRNMHI3QU5hZDVqalVXdE5WZENCU3c1ampzSTN5aWZzeHZoZHZTelAtSlB0MUF1cXlmdS1XYXRjSHZ3cWw3dl9PR2pyQXkzdlNpN0p6S3Y0UVVaUER6bkdCQWpuUWJuNnIxVGxnTGVoU2lJQWpVVXZNWjg2UVMtYmQ0YlZVdldnbGhsZlV1WG1MX1JKaVBKY2ItajRBd0hvUQ?oc=5",
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXNXbFhiR0xaOTliU21YN051SmZxSndRR1d0WkFHUEFBbHRsSS1EdE1zMUJ6ZlQ2NFRwNFZFWVlSMGx5WUc5RFVhYmE0WnNpTWJfbXRraUVTemlyU0U3ZFMzSGxwZDdMWVloTERkSkdfa2NiX3N2cThqbkRIUzhSVGNaRl9wak9YZVV2YXg0UVVZRWtXaG9PYUllRnl6dnNoY0NIQlZwNkRwVEpDOHIw?oc=5",
     "source": "Reuters",
-    "published": "2026-09-07T09:35:43+00:00"
+    "published": "2026-09-07T09:07:43+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -74,7 +114,7 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
-    "title": "Oil prices hold near six-week highs on US-Iran attacks - Reuters",
+    "title": "Oil prices rise to six-week highs on worsening Middle East conflict - Reuters",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
     "source": "Reuters",
     "published": "2026-09-07T00:15:00+00:00"
@@ -606,77 +646,5 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQX3ZGQmxraTBxUFRDaUFUVVZlM3NIM0JsbHVCY1VTVzRnVHBORFRXbldFbXRjYTVyZDRyRFpNV3o3TDgyU2lLVnJCdUxSNl9nY3FRbnRzd25nQkExcUZJb1hrWHUtUFp2amtrdW9BbTJTdlAxSDNLMmxlYk40VEtaaUY5aDR3Z9IBiwFBVV95cUxQb1VUX2p4NlhOSEN2X2tTMmE0M3hJS2QwMmZ5Y3VOeVhnbGMxRUMzbG5saTdGWFc5TTMyNlMwekg4WHVjTkNYT2xmZk80WE1DRWptSmFzVTJiR2hKQVA1X3F3OWowUWtsbDVhVUEtLWRpbHFFWGJZbV9WTGg1UVRmMWs4M1pLbWNpNFdv?oc=5",
     "source": "CNBC",
     "published": "2026-09-03T19:18:59+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Jim Cramer Explains Why He Isn’t Ready to Pull the Trigger on Marvell (MRVL) Stock Yet - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaGg0Y2pRSnQtb215UzNQUm5vX2I3UkMyM2U0Ml9EMXBvR2NoMFd6X1dTaEFQWlhLLVdOQi1oVFRYVENnU2RkVHhwbFlOREM5Qks5dWNObzByQ2lqbkF3bTYzaGUzQ0xWYUEzczhjaFl4MHF5ZkZOMUhPVlhqVE9USzFOREZ0UFFjWWJfcnNvX2VNdXJjZVVz?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-03T17:31:28+00:00"
-  },
-  {
-    "label": "KLAC",
-    "topic": "KLAC",
-    "title": "Jim Cramer Explains Why He Recommends Buying KLA (KLAC) Stock in Small Doses - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSk1aYWNQRWZ6NjFFb201dmJhVlhHOUlLSlBOTEJyb0hCYXB4VWRockJkR0FzbW8yaDVzUDJQMENCd05OdTRxbXUxX0ptMk11dXNvN1VCXzJSSkpJaHQteHh2VXdKSXJJOUNMU0ZXXzB1OWNSb3NqamNpejIyUTJmTVJ6SXlsQlRhRktkdVJnNC1ZcGRJNVZCaUJPVm9pUkRa?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-03T17:19:46+00:00"
-  },
-  {
-    "label": "TSLA",
-    "topic": "TSLA",
-    "title": "Tesla’s stock is rallying as investors prepare for a ‘storm of Cybercabs’ - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV1RyZmJEci1JdndPVE45WVFiLTBXOHhUaUo2MHlHdURwNmFZLThsYWt4SjlBS0hzaHJFTXRyUmZRR3pQUTdmeTlCOGtKb25fRTZsbTRpSWlic1hmN2hyejNnYlVQeVRQYmNET0dISk11Zl82ajh0MGVZWFNDVlFnakNSbXRjaWg3MjJCS3lmNVBxcVdYWkU4THR3TkFqWnBDd3NkYWRfZGxMZDBpcHlSajVEdw?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-09-03T16:50:00+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Badenoch accuses Burnham of kicking defence spending into the long grass - BBC",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjN1JqRmdYcko5QjIwNkZHTFd3dlRFYmtqWDVGTlhfR0sxTHloMnlHWkdUZTh5NjBfS0xGdEFYXy1CQ0JPb2QxYVpsLXNGYzFQVTY3em91S1BhQQ?oc=5",
-    "source": "BBC",
-    "published": "2026-09-03T16:23:16+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Not so fast on rate hikes, some Fed officials say - Axios",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xWHBtQmZjbGZySmcteGF0R3VqMVprbjlPbHZhQzdUUi0wRWZNaEhNNmxTWnRqT2ZDdjh5QkV3TGJvTk1PS2FEeW94bFROaTBZbVQzZGg4R3l4aHFWTW1pNWtfc3hWR2VDckxrNXVmZFRWcG0yYnc?oc=5",
-    "source": "Axios",
-    "published": "2026-09-03T16:08:31+00:00"
-  },
-  {
-    "label": "DAX",
-    "topic": "DAX",
-    "title": "17:37 Über 26.000: Dax gelingt Befreiungsschlag - n-tv.de",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSmIyc2hVRTgwbmpnOTJIUTRLYkZFUGVKZmxqZU9mRFVnMlZLSkJ3bDA5Sm1VaUowVWFNak5yTTZXZE4xU0ZSRW1tTy0waGdUeWxSNnN0OFNRQVJqRFYyNzlTV0tiV1hWMVFUTlRodjZQT19qTnJOTWVjYkNCVmQ4OWlBbnVLYVdUN0l0Ylo1djNFMHlLZjA3Zm9tQ0pJSk1xMjZ6MExaNzZkUQ?oc=5",
-    "source": "n-tv.de",
-    "published": "2026-09-03T15:53:37+00:00"
-  },
-  {
-    "label": "Health",
-    "topic": "Health",
-    "title": "Generic Pharmaceuticals Stocks Q2 Results: Benchmarking Amneal (NASDAQ:AMRX) - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVXJ2Nk5nZU15VlJhUmhIS1hBSHRaUFlXdm50dV9acWJPMEtIQUw2QUVWWEE2SjZmUE5QaFVKWGVjVFFCc29hUjQ4Zl9aUDZBOW40MDNGWkl5UVpkbGZTa1NRamFmZW1qakNfT0poTmMwR2xHZDRWbW4zbVAtYTBHNXk3U2YwV1JTWWRURkpqWkZ6cFNobk9lQ2xPUzR1ZUR6WUNnTw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-03T14:07:18+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Are Oils-Energy Stocks Lagging Kosmos Energy (KOS) This Year? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX2FCMldCTlhpOGtZYzN2N09pZWRDb3NhU2F5c21CLUEyYkxWaXZncTBDMHZneTBjYUxEVjdpS2xaUzlybTVJV045OEYxNGF2M1l2RHR1Z1ppOXVNNWl0YkZaS3VzSzNHckVTTmljbzZvdk5CMUcwNmpPY3plY2dEczB0R2N2dl82TE0tcy1kQjViVThmQTF6QjNjalN0a1E?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-03T13:40:06+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices little changed after Iran fires missiles at Kuwait - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM1dVOUlGV2F6SHFhU0lGa0xCMFl0R3hmb25KTEpBVGFnUFlYcjRmSnR1RF9FelQ3THNaMjVRMERZYTRLYTItYTVyc3QtUVFoSFZoQ1dCU3pvQUpjdVRPZ3hPbldqODNyNTktdkhhbU9Oc1VqU25reEdZblhSMlg5QtIBhgFBVV95cUxNWVlmRTVYNWxjWElZQ19ramVxV0l2Z2wzbll4OXRGc2o3bHBjeEduTkd5VDF3Z2hoVS1lbjE5emNLb1MzSENyMnh6NTE5NmpqaWQtdUF2ZmNJeEo1VUxJbGU1Y2UyQWNHQl9LamhiSWY2aU5CdU11dDIweVoxTVIwWnlNQVBuUQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-03T13:28:22+00:00"
   }
 ]
