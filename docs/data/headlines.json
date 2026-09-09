@@ -1,5 +1,21 @@
 [
   {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Trump's oil investments have gained millions during Iran war as his accounts keep trading - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBvY3VjaVVsTWJ5Y1VQRGtFRndkSUp5QkZBX3VWcHJkMS1JZmhyLU1Ob2w0ZTRQWllXc1ZfcGZobmoydEk4cE8zVHhkQWF5eHdYa1I2OVl3c2ZfUmVOMmlqV0g5WXFPdnE5RjJEb3dVN294ZkVLSWRz0gF8QVVfeXFMTm9lR3RuTDlFaTlhYUtoeUx1cG9Md29aUTFfOHVwTjNHektGMl9NQVVIVHZJQnhzVEdIeE92RVcyWl9yMDU0WXpFYmpjZU1mSTRHZmtmY3p0SWFEN0ttSXRlVmtKc01uVXoyUGxkdFV1VnFmOWgteGZlVEs1bw?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-09T10:30:01+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady as oil prices near $100 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXMzRmZVcjdTMGRTaW0tdjJXWmZCM0tIdHYzNDg2NEx6MmY2bGZ3UFVySXhWYXIyLWxnQ2VNY1J5c3h0ZE5zMVVPelBHOGV2dmFjaGhROFVJVTlISXV2UmRyQmtDLXBuS2h6VHFHWm4yVV9fZmZVUHVTSUZob1NjMDZKWVNfcXA2a1lOVGxXNTZrN2ZxYjB2Z2NoMXotUE8zNHo1a0JmNmh3djIzMXVENXpMU2JqOENIcEtrbw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-09T10:00:13+00:00"
+  },
+  {
     "label": "DAX",
     "topic": "DAX",
     "title": "DAX Turbo L 19174.6703 open end (MST) | Kurs, Chart, Analysen | DE000ME4S1U3 - n-tv.de",
@@ -14,14 +30,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTTAzOHJRMTRXSmozdnNkR1dNMjRuVTVxYjF6ZWx4RlEzbHhicE9kNHpldHV3dlFsOXlpdVN1eGxEY2lHQ0s0LXNxRVpXWE5WUERGRXBKeXRQUGhqdTZMdF9ObjRBVlRIQXFoX0NSZXBoTHc4T1hCZmlQbzhyQ2tCdlU0ZzBsR21oQ1dr?oc=5",
     "source": "Yahoo Finance UK",
     "published": "2026-09-09T09:00:54+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady as oil prices near $100 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXMzRmZVcjdTMGRTaW0tdjJXWmZCM0tIdHYzNDg2NEx6MmY2bGZ3UFVySXhWYXIyLWxnQ2VNY1J5c3h0ZE5zMVVPelBHOGV2dmFjaGhROFVJVTlISXV2UmRyQmtDLXBuS2h6VHFHWm4yVV9fZmZVUHVTSUZob1NjMDZKWVNfcXA2a1lOVGxXNTZrN2ZxYjB2Z2NoMXotUE8zNHo1a0JmNmh3djIzMXVENXpMU2JqOENIcEtrbw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-09T09:00:03+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -42,9 +50,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "China",
-    "title": "Rising energy costs lift China's producer, consumer inflation in August - reuters.com",
+    "title": "Rising energy costs lift China's producer, consumer inflation in August - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDFLd1BDaVVNS01JdGxKYmQ5QVNtYlh3QlJEMTRUaWRHUUw1OTJqWnNTME94LUFkZk1BQU1GcnlaRmswN2gtTDYzeUduZjF3bi03QUlYUGRJR2Zqd1ptR0Ftek5kNGVXaFRZSE5HTE90YnA1ZDM4T0FPN2VOeDVfeDBzQVdaRjI4ajhEUFp2dHdnVXRWejYtLTBQOE8tSTNxcW1iTlU3MA?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-09T03:51:19+00:00"
   },
   {
@@ -74,10 +82,18 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
-    "title": "COMMENTARY: Unloved, but unbroken — the US bond market is working as it should - reuters.com",
+    "title": "COMMENTARY: Unloved, but unbroken — the US bond market is working as it should - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY3ltQXNrazU1eW16ZGNyXzViRnZuMDhLbUFGV1JvQzl3RGEtbi1zeDY3SFFHZ3hOelRRZEFhVldhZUs3SlZrbVBBLVBLZldvd29WQTlZRE1SamYwY3p4MkE5cTJ5SGtpVGc0ZXFiU00yNWxtSmZ5aW80UXpDcGlIdzE3eGoxLXRXMVQ0QUpOLUl6RndXTFB6OHAwNDlBMzQzRUp1YmU0Y3J6RWdOeTM0WmJvRjI2eHRmanFvQUFn?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-08T23:30:26+00:00"
+  },
+  {
+    "label": "INTC",
+    "topic": "INTC",
+    "title": "Intel’s stock is rising as the company looks primed to boost prices even more - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbDA3cTFHbG0tYkF3X0ZyaXpIclo1R2wzNmZuOGtkU2pLbUpaOTRQcmNfT2FodDk4aTB0VkFka3haTWhqbmZNQ1l0ejhUVF82M0xRQzVxbXlvd3FBNVR5SEY5Y0tUT0ZjY1o2WFJKU0lsZXJuc1p2MG5wVjF0VUlWNzAxSExJcHFXaTMxaXFtcGpocjJLSVNzcnBvT3Q2U3dhTEVnS0ZiVE5HTlVIQnhyV1dVRllPX09ISVY0?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-08T21:30:00+00:00"
   },
   {
     "label": "INTC",
@@ -105,6 +121,14 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "US-Inflation",
+    "title": "Gold lackluster ahead of inflation data as oil prices rise - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-08T18:36:15+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "Why the Fed's interest rate call could come down to a few hundredths of a percentage point - CNBC",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVFlvci1qSTJXOWUzS2UyWDFOYW01ZWpPOFJ2eTdibHE1T0NHbXR3RndadzhfOURid2VHNkY2dmJLeERJSkdZbFZ3TkJxSnk5VHhURm13ZUUtLVZGTEVidW1jUnBmMk1CUEJfZUtYNm5LcUxjUnBia0RDSzVzNTdrbEdJcmNEaXpoTU9zazllWFBNVEhvaHZUcw?oc=5",
@@ -118,6 +142,14 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xS0xVRGFsRlhGb1BFXy1Vc1c5Zjd1NkxfajlLZ0JUQkZfM1VkVVhhUkh1TnZHZnlMeTI4R3Rkb0dqMG1CWVk4WFhYdkxyMUVhVUM3TUhtdWdqeDlMRTZpVjU5UTBTN3VGOVZzZA?oc=5",
     "source": "CNN",
     "published": "2026-09-08T17:33:57+00:00"
+  },
+  {
+    "label": "INTC",
+    "topic": "INTC",
+    "title": "Intel Stock Jumps on Major Analyst Upgrade - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYjJMcjJ5OUtKTk82eDkzcG9nZzRvb2xiZ0Fzak9BZmhNVXA4STJkSzFnbklISWYybEZXWi1TMXNUVnhrbmJOWC0wVldZbl9teXNuNFVZYVRJamd2Y3BqYnNVaXdKSnVPN0xLZjVpbElKdlkwUnBWZWFpZmx2T0k3VnN5ZjJHbERwRFNrNUZxUjlDTEttYnlKaVhVYlg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-08T17:26:36+00:00"
   },
   {
     "label": "INTC",
@@ -182,14 +214,6 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcDBQUDlLZnhnalJOYnFISU1JNE80cG9CdXU4RDk5eFBsNTNDMnRMQlFod01oYmpXbGRPYnBuQVZtMDdjQmhQTXhiNlNqbHBFU0lvN2ZrMU9HdV84YmY2UHRiVW9JS2ltQkxHa0RSb3A5WThRNzNuOXNKVDNXZE9Rb1VHUzJvVzgyekc0Q0tVdm1HWDY2TjM2SklUcGFoZF8zSklDN2V4dw?oc=5",
     "source": "n-tv.de",
     "published": "2026-09-08T15:45:13+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "Intel’s stock is rising as the company looks primed to boost prices even more - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbDA3cTFHbG0tYkF3X0ZyaXpIclo1R2wzNmZuOGtkU2pLbUpaOTRQcmNfT2FodDk4aTB0VkFka3haTWhqbmZNQ1l0ejhUVF82M0xRQzVxbXlvd3FBNVR5SEY5Y0tUT0ZjY1o2WFJKU0lsZXJuc1p2MG5wVjF0VUlWNzAxSExJcHFXaTMxaXFtcGpocjJLSVNzcnBvT3Q2U3dhTEVnS0ZiVE5HTlVIQnhyV1dVRllPX09ISVY0?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-09-08T15:20:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -282,9 +306,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
-    "title": "Why the BOJ will bet small on rate hikes now to avoid a bigger shock later - reuters.com",
+    "title": "Why the BOJ will bet small on rate hikes now to avoid a bigger shock later - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUUYyQzRuc2hRZ211U0hTZkRkWWVfTzFGaGhUVEt0STdfSDdFM3lfdGlzYXRvN1NLT18zTlBLSlpoa0MxTFFNc0pXTG1fSnpFRWpveW4xNVhVT3RyWGZWOWplTFJobDQ0MG5oSTRBN0ZXUHNwamgyR2NLSFAzM0JiTjIyaVIyNVAzTEpvZmlXcXRfTHlZSDRoOHByN29DT0hwT0ZaODZ6dFE2NXVCak9BbkRfREplUDZq?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-08T05:47:00+00:00"
   },
   {
@@ -386,9 +410,9 @@
   {
     "label": "Energy",
     "topic": "Energy",
-    "title": "London stocks end lower as rising oil, rate-hike bets weigh - reuters.com",
+    "title": "London stocks end lower as rising oil, rate-hike bets weigh - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV29mQ0Z1bjc2TzlmTm9aRXJVRm5xYTRNMHI3QU5hZDVqalVXdE5WZENCU3c1ampzSTN5aWZzeHZoZHZTelAtSlB0MUF1cXlmdS1XYXRjSHZ3cWw3dl9PR2pyQXkzdlNpN0p6S3Y0UVVaUER6bkdCQWpuUWJuNnIxVGxnTGVoU2lJQWpVVXZNWjg2UVMtYmQ0YlZVdldnbGhsZlV1WG1MX1JKaVBKY2ItajRBd0hvUQ?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-07T16:18:04+00:00"
   },
   {
@@ -402,9 +426,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
-    "title": "Takaichi's reflationist aide projects Bank of Japan rate hike in September - reuters.com",
+    "title": "Takaichi's reflationist aide projects Bank of Japan rate hike in September - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQV0ptVDM1RGtFSlctTFdkV2pzWjNRM0pPT3lyUlBSSFpkTm5ZTEk4UEF3ZFNkQ2ZmUHI1SS1tMThnM3h2LVF3SXJfY3VZeDc4WDd1WEdBbzZVOTduZzVxUk1tcmE5TV9mVnpoZjVlLU9xc1B3SjAtZWg5SmFaNEVBaGFOcDlVaV9jVFRLalNDSml2cDFOU0EyTlppOHZ5Rm5DUTBQZU92SmdILWpMcVlVYW1ETkh3N3dMTmN1SWtTcw?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-07T14:02:17+00:00"
   },
   {
@@ -466,9 +490,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
-    "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report - reuters.com",
+    "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report - Reuters",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXNXbFhiR0xaOTliU21YN051SmZxSndRR1d0WkFHUEFBbHRsSS1EdE1zMUJ6ZlQ2NFRwNFZFWVlSMGx5WUc5RFVhYmE0WnNpTWJfbXRraUVTemlyU0U3ZFMzSGxwZDdMWVloTERkSkdfa2NiX3N2cThqbkRIUzhSVGNaRl9wak9YZVV2YXg0UVVZRWtXaG9PYUllRnl6dnNoY0NIQlZwNkRwVEpDOHIw?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-07T09:07:43+00:00"
   },
   {
@@ -490,9 +514,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "EZB",
-    "title": "Another rate hike, just for insurance: Five questions for the ECB - reuters.com",
+    "title": "Another rate hike, just for insurance: Five questions for the ECB - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUUFuUFh6VTdaUzh1amJOYk43S256U1ZCVzJ1aXhBTE9UdkN4TTJLTG1LcUZKYURQd0RLRThKNzBzQkFaOE5pdmRZbUpLRWEwa09lX2xDLTlGNlJvVk1PSDA3dG15SUg1Qk5aejlNSGp2dmxYemRzeFZFdXQ0WjIyakFRYkUzT2kwcHR2a3BBZXNCRzFKUFRVN2FybzVmSFB4bEI5VWJLcw?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-07T04:03:00+00:00"
   },
   {
@@ -622,29 +646,5 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaW1CeGh2SVd2cWxsSlNYMk13SmdHRkNVeDVIbjUxUkVkcXNscGVrQ1N5YjQ2a2lCOUNsS2ZTaDNyald1czB4ZzNaWVRsY3VHVEtqSm5YbFpQVl9fUEFMVnQ2aERneERmSHhRQm81RmltWE9TeC11Wmc2WkZSNWZaWkdtcmxnQS15S2ZRR0t2NjBMYnNxNjdkMFpvZnNUWW1GakE?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-05T14:00:02+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "Recent News From Nvidia and SK Hynix Reveals Exactly What the Market Expects for Micron Technology's Future - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNGZmaGJHUWQ3Y1VCTjN6cy1QQUNFY28xZ1Zlc3NwSExMRnJZWXctNlo0bTBFSzJjREJzT3lzN0VFa0hOWnQ1SlIwY0l0anVVLWNiZ0E2eWhfX1FldDc0SGllT1ZJMHBteGNYempyOTY3NUVjLTZZcHlvUWhaNW9XT08yaEZ6OVBCTjdTcUQ5SHlwRUkwQTBN?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-05T12:05:00+00:00"
-  },
-  {
-    "label": "MU",
-    "topic": "MU",
-    "title": "China's Biggest Memory Chip Stock Is Almost as Good as Micron - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWVotR3ZEOEdkS1U3S1NPT25IY1NsemxpTHJENy1NQ0QtX1hSREtDSE9seXpiOWFuUWY2bWtXSTRxZDNLaVV1QTIwZGJCX2tTZ05nbXpkNHlTQm1qS3ZJOE96Q3hVd3JwMmJPMUVKdC11bVAzd0RheUVZWFhyU3hqRVZkMFE3N2loNVFWQW5vSmZCUDJ5U3lGWDRNWXFiZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-05T10:26:00+00:00"
-  },
-  {
-    "label": "Health",
-    "topic": "Health",
-    "title": "Amphastar Pharmaceuticals (AMPH) Stock Looks Cheap With Earnings Doing The Heavy Lifting - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT3lldmJPVG1rYWdUR2YwMXdDZzctQS0xZWtPVFNTb2lqeXh4dDlyWjFkNmdWR3d5M2VLcmNQMGY3b0ZfQ3lRejJkS1h5Q0hyZWU1R2tKU2g1QXlMdnU4YXJNVTRwSXppUHVXWmJlR3ZVRGh2dkQzeHB6VE85VjZjTURveUNybW54clNUZVFBZG9zblF0VUFsd0FCbUlrOGxpbVVYRHNrc2pEZTQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-05T10:11:26+00:00"
   }
 ]
