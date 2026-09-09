@@ -1,5 +1,53 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq sink as oil prices surpass $100 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXMzRmZVcjdTMGRTaW0tdjJXWmZCM0tIdHYzNDg2NEx6MmY2bGZ3UFVySXhWYXIyLWxnQ2VNY1J5c3h0ZE5zMVVPelBHOGV2dmFjaGhROFVJVTlISXV2UmRyQmtDLXBuS2h6VHFHWm4yVV9fZmZVUHVTSUZob1NjMDZKWVNfcXA2a1lOVGxXNTZrN2ZxYjB2Z2NoMXotUE8zNHo1a0JmNmh3djIzMXVENXpMU2JqOENIcEtrbw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-09T16:35:02+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Opinion: Oil at $100? Why you should always have energy stocks in your 401(k). - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1lGbGFTcXRUVUItSTdMOW1pbWMzNzNUd29wU3lRRlhlMnZnbmJad0Y1c2h1X3VRcjN6WmdHTi1UVmprWXhLQ085TjNUNHhMWE5IWWxjM3dtaUVYbFRfcXRnQnRYRVp1QXdFMndQWWlBdGR0OERaRFlpcldqSUdvMkVnUHlwUThuZk9LSW5yM05vLUFhR2E3MEtHOTRhbDRSZDM1anl0c3dUWEFT?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-09T16:19:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "US Treasury yields jump as plans for $6bn buybacks disappoint investors - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcE95dDNESHJwT3Fpc3dxT3pERW81ZXRhdUh2LXpub2hzN2YxM0hWS0U2ejROZmtwUXR2UUNyMjZmelVXV3BuUmZ1emdNMHZlQmxmSlltazdvTEdEc2U1NEFMNWsyNXNKV1BXaVI1aDFQaU93SlhlR0hGdno1Wi0wNEcyQ1o?oc=5",
+    "source": "Financial Times",
+    "published": "2026-09-09T15:16:35+00:00"
+  },
+  {
+    "label": "META",
+    "topic": "META",
+    "title": "Mark Zuckerberg's Net Worth Jumped $13 Billion in a Week as Meta Stock Extended Its Rally - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeWdZZ05CQXZ2U25HMVlCUjRNSXF4dUdlWEdRVEdSTUhOUGswdGxNdmYxaFdmX3owRGZZWS1SangwdmdnNUZBZXFvVmZnd094VDR0dHdvWkFKbEI1YWI4NHZDVk54bU1ZOUxlZHRna3cxa05lSXMyOEpFVGY3MmpLdVlrOTJ4dUMzekZPUEhRZjJ6enB1andLR1RCcW9QWVU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-09T15:10:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed to hold rates steady in rest of 2026; rising number of analysts see at least one hike: Reuters poll - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ0NreUFoTnFxX3ZzQnd3YU9FNFVkQmhfZlBrSVBUUm12Q0lCckxRTHdWcUVHbmJpcDZKbVhNZG5RektYQlpqaUZGMjl2TnJ0amhPMGJBWnB6OG9FVTB5dVJPTlc1ZjJaa2djUl9HR3VhYzIxODJjVEx1NUswdkVkblYxNVNSY1dYWlpUdzlEQU9UNTNzaUtVWXVtdXljVEUzSnVOQTV2bTJHSXN6Q2E3U0pzcVk5U19qUmc?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-09T13:29:11+00:00"
+  },
+  {
+    "label": "META",
+    "topic": "META",
+    "title": "Meta’s stock jumps as new personal AI agent Muse addresses a major investor concern - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTk5wMjNDc21DN1A4eDdyOXdsVWVOUGd4YWQzSzhNNkVXbVJGakE3SVZqaFJkYmdaaXhHc1JDTnU0T2s5NWpIYkl4Szl1ZDJfQVlUdU8waTZRWEZvX1Z1NFdTNkJ0R2tOZFRtZXpwa0EyT2JOZW9lZkpybFJPMjByWVFfQkROdTc2aTU2RnZsOEdOenFWN2psazZGdy1WWExHSkpqTXZEUF90UzRqNE81TjRTSXNmS1Q3WXBwZW1NSmt1Zw?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-09T12:43:00+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "Trump's oil investments have gained millions during Iran war as his accounts keep trading - CNBC",
@@ -8,20 +56,20 @@
     "published": "2026-09-09T10:30:01+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady as oil prices near $100 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXMzRmZVcjdTMGRTaW0tdjJXWmZCM0tIdHYzNDg2NEx6MmY2bGZ3UFVySXhWYXIyLWxnQ2VNY1J5c3h0ZE5zMVVPelBHOGV2dmFjaGhROFVJVTlISXV2UmRyQmtDLXBuS2h6VHFHWm4yVV9fZmZVUHVTSUZob1NjMDZKWVNfcXA2a1lOVGxXNTZrN2ZxYjB2Z2NoMXotUE8zNHo1a0JmNmh3djIzMXVENXpMU2JqOENIcEtrbw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-09T10:00:13+00:00"
-  },
-  {
     "label": "DAX",
     "topic": "DAX",
     "title": "DAX Turbo L 19174.6703 open end (MST) | Kurs, Chart, Analysen | DE000ME4S1U3 - n-tv.de",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU2xjRXpfbzkwb2RDbnRYV0M4Wk5iZFlodF9oRmRlYjZVa0xVSk5fZV92N3ZSc2UwdWlxazFteVJaTnlWOGEtMlRoQVZtS3JBcG1oUDRjZnV2MjdUNzRteDV3OExKZ2MwU0l1NnVrWU41Tld3NVhtc3B6anh2c0RWZXRONk94dmNaWDk4cF9R?oc=5",
     "source": "n-tv.de",
     "published": "2026-09-09T09:35:20+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Oil reaches $100 as markets assess Middle East conflict, rates and US-Canada trade tensions: Dow Jones, S&P, Nasdaq, Wall Street Futures - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcDB0S2RWLVVUd1VDZjJzMGYwWm4xZXVxbG1CekZSOWJlZ3FoMFZ0SlJMZUtyZkx5dkhFbVhuLWltTkYyQVd3YXRJd2NGQmRMZ3ltdHlEcUNRcUxlQ0g1Q1lJRmZvUW53dGZkNmRZLU5sMWROa3o5MVp5UVdJeV94ajEyaGwyb0czUjMzVV9LOTQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-09T09:26:02+00:00"
   },
   {
     "label": "Energy",
@@ -50,18 +98,18 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "China",
-    "title": "Rising energy costs lift China's producer, consumer inflation in August - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDFLd1BDaVVNS01JdGxKYmQ5QVNtYlh3QlJEMTRUaWRHUUw1OTJqWnNTME94LUFkZk1BQU1GcnlaRmswN2gtTDYzeUduZjF3bi03QUlYUGRJR2Zqd1ptR0Ftek5kNGVXaFRZSE5HTE90YnA1ZDM4T0FPN2VOeDVfeDBzQVdaRjI4ajhEUFp2dHdnVXRWejYtLTBQOE8tSTNxcW1iTlU3MA?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-09T03:51:19+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "China",
     "title": "China consumer, wholesale inflation rebound in August - CNBC",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUGtvY1BHU2cwUmFyZXM5dXl2ZGFpWGFjWF9CSFBFRUNIcEFXaXBDblhJZFpRVE5JcUJQQ0dUamRleHZwYTc2MlZNQ2pSOEFPNWlfVTBxaU5NQTc1NkNXdzB4YnFwdHd6Q1hzdExsQnlwdlVrT1RmT2VraXBiSExub3F2d1pXRTV4aDB2dnljYXlrdw?oc=5",
     "source": "CNBC",
     "published": "2026-09-09T02:06:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "China",
+    "title": "Rising energy costs lift China's producer, consumer inflation in August - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDFLd1BDaVVNS01JdGxKYmQ5QVNtYlh3QlJEMTRUaWRHUUw1OTJqWnNTME94LUFkZk1BQU1GcnlaRmswN2gtTDYzeUduZjF3bi03QUlYUGRJR2Zqd1ptR0Ftek5kNGVXaFRZSE5HTE90YnA1ZDM4T0FPN2VOeDVfeDBzQVdaRjI4ajhEUFp2dHdnVXRWejYtLTBQOE8tSTNxcW1iTlU3MA?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-09T01:43:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -118,14 +166,6 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkxvUk5WMHlpUV9fRkVwNlhrcGJ3QVdleGh0LThTbHZmWjFVTENnWW1GTWQxc2JtM3R3ZkdBZWZZbWNJRkxTSUF3dnpNVl95ZHNVTnFwczJ4QktvdThRdHc1TlBJYW1KYThqeGdhN3FBLXQ0dWJlbi1jMW8xWjhoeW5CSFdNckl2WXEzc1ViZGZlTGNGNnkwdmRIcUJ0cWhFOXNTQjFRMjlXREYwQW84?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-08T20:01:56+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Gold lackluster ahead of inflation data as oil prices rise - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-08T18:36:15+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -336,6 +376,14 @@
     "published": "2026-09-08T04:00:27+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Inflation",
+    "title": "Gold lackluster ahead of inflation data as oil prices rise - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-08T02:28:00+00:00"
+  },
+  {
     "label": "S&P 500",
     "topic": "S&P 500",
     "title": "Dow, S&P 500 Futures Decline Amid Rising Oil Prices As Iran War Escalates: MU, ORCL, INTC, BE Stocks In Focus - Yahoo Finance",
@@ -358,6 +406,14 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZDR2TnN2RHZyOGg3TXNvaU9vM1YxTFF5OTBVUWJSNENxUTZqb1B2S19GUVYtQ01SVk9RdlBoakF5dnpycWhBUlIzYVhGX3VfS053SGF6SGI4cEw4dFk4VGVpSDBjUGRkTklkbUFJNlhMQUZKYTFoM25YS3VTSzVGa20xMGRRMF9qaXZjQzV0R212ZE9Fa0kyQw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-07T21:36:21+00:00"
+  },
+  {
+    "label": "KMB",
+    "topic": "KMB",
+    "title": "Kenvue's Kimberly-Clark Deal Nears Closing With Key Risks Still Ahead - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeGI5TU5MYTBwSExicnpEMVdISWtMNHo4T05tOGdnall1MUFkYmd2Y2tyYk40MGlkQjVobEVmS3NfcHNwQXR1a3U0V04yLWx6dzVheW53REp6b0pYWWtCU29HYzkwTnVkS2NmbmZPYjhYcWw5S2lSZzNHN0dTNmE2QmZQWG0yMEsxZXdlWFg3dllPZjNXWlhHbEZ6VEJlemc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-07T19:28:00+00:00"
   },
   {
     "label": "TSLA",
@@ -630,21 +686,5 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSGZEM1N3Z3lBc0hpOEFhSVpvb3A4Qm9rMV9qZEMtXzltbklyOWZMWnU3bWZkNy00XzVNTlZlamRqeUx2aE5wS045UzVOT0k5eWpIdXo2QlN5YkNEcGtmNTVkOVp5UHF2dHRPbnJBRUVjTTRRRjA4djl2bmY5bmZodmNkSFpPUzZYb1B0cmF3aVM1dTRMNFpR?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-05T18:10:50+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil ends week higher on renewed US-Iran strikes, diesel hits record - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZJdUE0TzFvS2xtSUJLOVUxZUVRZVRpMi1aUlNuSFZzX3h5TW4zSGJya0w3SjFlSno4QUlvdU90cHBBOS1xRllCZjR2aVRnUW16ZmQyN3M1SlRVSl9BYlk2Z2dvWGIzdEo3cXdTZjdWZkIzYXRNRzk3ZkM2cWMwN2ZWMVh1T09pNnRKVVAwRDhNSnJnSTFwVi1MZXdMNUNwOFJTU215REpkR1V0X1pVa09vNkVHeG9oX2lpVjdoTVl1ajI5MzU0dUN3?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-05T16:35:41+00:00"
-  },
-  {
-    "label": "MU",
-    "topic": "MU",
-    "title": "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaW1CeGh2SVd2cWxsSlNYMk13SmdHRkNVeDVIbjUxUkVkcXNscGVrQ1N5YjQ2a2lCOUNsS2ZTaDNyald1czB4ZzNaWVRsY3VHVEtqSm5YbFpQVl9fUEFMVnQ2aERneERmSHhRQm81RmltWE9TeC11Wmc2WkZSNWZaWkdtcmxnQS15S2ZRR0t2NjBMYnNxNjdkMFpvZnNUWW1GakE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-05T14:00:02+00:00"
   }
 ]
