@@ -1,11 +1,51 @@
 [
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 futures are flat as oil prices gain, traders brace for inflation data: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1nZjEwdFhFYzdKY2ppVDA2ZzU3OGl1S2c0Vl83ZWYwOURBU2ppWEQzQWk2ZVVMZmRVRG9OQnJlSFYzWEtkZC1YQ2R1Q0RIdFpJb0tlWmVST3Y2VUpIQ3BScXY3Mnl3YTdhTl9RVXpVcjNWaFI5TE5B0gF8QVVfeXFMUGMwZzI5N1JJSFVENkNxY19DWE5aUm9RMHlldVl5MzJ5RnppUkozclVyOUlETUNveDZMd3RZbHBucG9LN3FTdUlhejBxM1c2R3R6ZE9tUTZlSkdfQnUyZjlaczh2OEt3MUZWVzdoZGFRaXgyZDhLX0lSUld1eQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-10T11:43:15+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Live: ECB interest rate hike expected as $100 oil revives inflation fears - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRElqdjNqSFV2NjNwYjVvWGphVmdpaU5GSFpVaU9HMnI0dkJKUkhYU0J4cGMwMFA2WkJzTHk3Y1VlLXQ2SnBaNFNHakJGaThweXlaSmNUdTlJcXlNY2pfcWk0bHJ6V3BxTFBjZUxJcGt2cDJrS1YxaXhscXZReU5veDRPZENtUm42YWNPdi04bXZ2dGxIYXdkdmwzalByc1JlQ0h3V3ZZOExyS0wyUFE?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-10T11:06:34+00:00"
+  },
+  {
+    "label": "KOSPI",
+    "topic": "KOSPI",
+    "title": "KOSPI falls - Yonhap News Agency",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBvU19zSUxTR0FjSnlnbkVSdzZ1empmbkIwRmtFenQzdy14b25wZzBGMjMxTFpNVERaOENOa2owek9oNGNnMXZaTTJyYi1uVkRzZWNfWHZFVEJaNXFPUU5XR0U4TV9nNUNWT0VqNWMxNXlEamdHeUdN?oc=5",
+    "source": "Yonhap News Agency",
+    "published": "2026-09-10T11:01:07+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures look to snap 3-day losing streak as oil pauses rally - Yahoo Finance",
+    "title": "Stock market today: Nasdaq futures sink, Dow and S&P 500 look to snap 3-day losing streak ahead of inflation data - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV3ViejZyVGk1QnUxZzdzV1BvV05zZ3g1c0dqWkNRSnhETkVPT284bGNZUDNHTXo1cXNBdWdKNVBlUDExQ2hlenVfNXBsd295dHRtVXhiY2JtbDcwMXRYWmxMTkNGUnRmanFNbnhOelVfYXVGeml6My14bGRQc0JhOGFWeDNBeWxBS2t3SU40QW5GTWlOVmFuTmF2STgzSVJkVDhOUGRES0QyeWtKTzg1bktB?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-10T10:00:18+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Trouble in US bond market could mean higher prices are here to stay - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3VGNYYk5QX0VuSlpFdWsxeERKYXZrWVM1T1RpclB0TzQwVDVQTUVuUk9HU1ZFU19RakRpTUJXZFd5LXlnaGx2NTkwUkRtYnF6bG5NVXU1STJXeEd5V293Vy1vM1NPaDRiUHdMbURCV1NSc3l0ZnAwajdGVzAyZw?oc=5",
+    "source": "The Guardian",
+    "published": "2026-09-10T10:00:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "The ECB is virtually certain to raise rates. Wall Street is bracing for what comes next. - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMWJIeFhBbzZnMHNMUTZQQTFpYS0tN3plaE9POGFYVWdTVktMWUpObmNtZnFPNU5UTUZUS0VHbV9wRnJHelhmbVFyZFJIRGJMVW55RWNFMWNrVXVFd01zZGxPWTlxM0JuQ1hZQTloQVZ6WTFKbUNUeElRX29wVVFrRU5uN2pVajNaeGluVzBEN2VMaFdYdUhUTkFITlpVYnp3T2ZYSjN2N1RsbjRva290bFJaS0N6b0xoSVlzcXUyQzBhVXBpNmVoLTQxUFpSSEtURjlBdXhTakU0YUQ1SlB2b2F2SQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-10T09:27:00+00:00"
   },
   {
     "label": "Nasdaq",
@@ -16,6 +56,22 @@
     "published": "2026-09-10T08:45:46+00:00"
   },
   {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Russia’s actions have strengthened European case for boosting defence spending, says Nato chief – Europe live - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeE9KWF9ONGk3LTNxTjlLd01VMTZOeGlwcEQ1enRwTzNJemk4eEpSOGlTbE80NnVwRTJRQksyNW9oWGFCNU1OZkduY1VnV2JzeWdrbXYwMG42RElXdEpnM1JzWmNqdGN3Z0FUWmNJaF8xMlZZN0kwMlZJV2t3cS1mMC1LNEw5V3g5Qlp4UlM3c1BxU3AwRjAxYzRDWVQwYTNKYzZJSFduYUpiT2FxanVlbE9WdzRwRVNEZ0dfcExRbXBuNy1tV0E?oc=5",
+    "source": "The Guardian",
+    "published": "2026-09-10T07:48:00+00:00"
+  },
+  {
+    "label": "DAX",
+    "topic": "DAX",
+    "title": "DAX Turbo S 28605.1636 open end (MST) | Kurs, Chart, Analysen | DE000MR5HMG0 - n-tv.de",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWEh2WFZ6RkVNRUxJWWxFelFBTzdjdGJpSjNib3dJRDNibzkyYlVyQzZwYmx6YzctOGo2X0pZR002V0ZmUU5RakVmWjZMTnQ0RVNLcUpwVU84MjEwLUpUVjYyVkJ5d1h1NlZELUFlTnFvcWczODE5RXFQNU93MXUxQlZWWW1heTQyYXBoQkd3?oc=5",
+    "source": "n-tv.de",
+    "published": "2026-09-10T07:29:58+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "'Saved the day': How China helped keep the lid on oil price surge as Iran war disrupted supplies - CNBC",
@@ -24,11 +80,19 @@
     "published": "2026-09-10T06:17:16+00:00"
   },
   {
+    "label": "KOSPI",
+    "topic": "KOSPI",
+    "title": "KOSPI Struggles to Hold 7,000 as Bank of Korea Flags Record Volatility - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONGpfTmJWWTBpaWREakFoVTZScl9OTW1HTThwN2Jyb0tIejZ6dTUwQWY4S2ZCa2U3aUZ4eWp6RkRIcllTOUQtaE9xbjFTSV93T0dqVHpJU1UtcXluWE9NeC1xdy1mWVhJM282bjNDZHJVSVpHeHdNaUhiZ3VEMlljZUE0azBFRHo0S2REc3RVVF9Ic0h1Q1Q1b21kSjMtUWc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-10T05:52:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
-    "title": "Japan must raise rates, central banker says - ft.com",
+    "title": "Japan must raise rates, central banker says - Financial Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcWlMYTl2YXBoM1d5Z2JzNVBvWGF1U205NktqRVJFSjBPbUk3UGVEN3ZmS2w2c2FpLXBfeEZOaDV3dm5yamtsMDU4cmRweHJhR04yQ0tQTlJYeDBnTnpVTW1FZms0ekJKX1dWZm1zOHd4azlaV3VhV0dxaEdVcWZXMDZMb0E?oc=5",
-    "source": "ft.com",
+    "source": "Financial Times",
     "published": "2026-09-10T05:34:56+00:00"
   },
   {
@@ -152,8 +216,8 @@
     "published": "2026-09-09T16:23:00+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "Bond yields hit highest levels since 2023 after Treasury Department announces up to $6 billion buyback - CNN",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0bE9oUndpVkQ3aE9QM1c2R1gtWkw5UVYxcUp3d05MdU9IQ1VhcFl3bGFEd1BhaW12V1ROQU01Q2w5QjFaX2ZCZ3RsVUs4a2ZUSk1jLVVnUy1NVGlNbkRncjU1TlltWVJKSm5J?oc=5",
     "source": "CNN",
@@ -192,12 +256,28 @@
     "published": "2026-09-09T14:58:55+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU1FFbFpVa3M2WXNaN21VSmp0aEgteF9aaUNJVVFULVVpMndyQ1Nzd3R6c1pJdDBrQS1xWE9XQXFHVmd4dGRSQkRwRndScHVGZ2doR04yM0NTaE9tNmxiUVdEMVBRN0ZDRHhaN1FSTDF0WmtJM2d5Y2lmUTRCUUpla1Q4WXViNlBSeGJWNU9jNU5OT2RXSUE?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-09T14:58:55+00:00"
+  },
+  {
     "label": "AI",
     "topic": "AI",
     "title": "Prediction: These 3 Artificial Intelligence (AI) Stocks Will Be the Top Performers to End 2026 - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTG9pQ21CMEwzNFRDa0pMdHV1eWxhS3B4a2VNeE9zS2JrX0IzWVJnVnhzREZ6Zm1lUnk4a0N2enQxWC1UZXBhUWJmeUdVR3N3VUpaMW9rcXVNT0pCa1ZyZGdRalRLNHJpSjhKUnZ6SHU0THpFc3pEQjBicWprUWY4cWZ5YU9rUnJVaEg0MjNWQTluNm42cjE3UnJwQXZ0Q3c5ZjdDV0VMYw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-09T14:13:00+00:00"
+  },
+  {
+    "label": "META",
+    "topic": "META",
+    "title": "Meta stock surges with Wall Street bullish on new AI agent - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVU5VM2xXTTFmS0lWVkU4cmgtWFNvSU1EUDItZ3FwbmlaXzBiSnBJU1paVGpqNEl5TEJGc2lBNVE5QmN2c1FpMmVycjBOUm9sRzNxZ25yY0k0M2lBb3pLLTczMU1IX0t1NmFSY3dZTi1TVEdCZW5JYk1JNW1WenZsX3BrdmN1NUNFVm5wQ3M4dTdzaE9TSHlfYmVJZDljNGdMWEwxTHNCWU9DNExRakF0d2F6RkNodUIxb2Zpb1IzNA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-09T14:09:59+00:00"
   },
   {
     "label": "MRVL",
@@ -658,9 +738,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Zölle",
-    "title": "Trump says Canada's Bombardier must build jets in US or lose market access - reuters.com",
+    "title": "Trump says Canada's Bombardier must build jets in US or lose market access - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdzREc0pTbkJYakNVdk83YXAxTmpwU2gyMGNfbHFpVk4zTEdnVExLcHFUNUpYc0Zya0NyMnVQTGFObXZIeVk3X1I2MFRZQWFGWVJteHdMWEdod3k3N0FhbmliMFRrMG42OTV2bWNvSHZ6Y0lGT0Z1Ymc5NEZTeXExOGtmZkNRcXNfSWpGcXZGLUlHNElxNHVFQk5QN3JoR05xR2JxU29DZ0RiTC1NLWxzMWZiV3p3SnFUcHI1T2oyNElJMWFQMjFscVpB?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-07T17:51:00+00:00"
   },
   {
@@ -846,13 +926,5 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMFFXNWJMbFJ0WDlDU0tXMW9IcGZOLVVxdVVCSFp2cVdCWVJmVFlUOXN5SVo4WjMxclEtNnR4NmNWV1A3YTZ2X2FfbGt1NjRxTTlkdy1iUmFIT0ZxMko5bE5Sakt3aVpYWXlkZjFMNmJKVkdYWlQ4NWJCNTRyOUpqdHl6Rmg5OUdEeG5JMnhiY3QwZDUxaGhkbTNjQWdSUDkya244X0R3?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-06T13:32:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Will US inflation data persuade the Fed to raise rates this month? - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkl2TXVUS2Vmd0x5bVlfVWhCM25hYU1qTlRxcEdreEYxNGJ6NEw1Qnl2OGIwX1hXb3ZfVTVtNVFkT2VxbjdzSXpIMWVYZGxHRXRoRTRmay1QSjE2ZFE5X1pQZGFELUVDdG9SeGhRYlBJNXNkelFCQ0dCRVRfa081N2gxRy0?oc=5",
-    "source": "Financial Times",
-    "published": "2026-09-06T11:00:02+00:00"
   }
 ]
