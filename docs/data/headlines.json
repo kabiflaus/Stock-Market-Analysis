@@ -1,11 +1,27 @@
 [
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields steady as traders await consumer inflation data amid oil price pressure - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BYnVhZnRLMjNfTURqaGdKS3kweldtU0ZzdmlLZllvcE1uUzRBbjFCNmdjcjdJTmozVUhUbG5JX2lWVnRSQm5kMTUyQmlFbXhNRnlXS1RaYUcyZk1XN0JPaDhpZjdKYkxhcEV0RHE1UdIBdEFVX3lxTE1ldmROYW9MQTFHWEx3b0Q5SWwzMjFDd3BNQkd1RExKdk9HRWZubEVydUJDTXZkS3N0MWwtQkllTWVIVDhtRWFhQ3FwU1FpSGxKYXo1aGQta2dweEpJQmtEdERzaDVZWVdwRmNuRGRKaGVha0dj?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-11T08:35:57+00:00"
+  },
+  {
     "label": "S&P 500",
     "topic": "S&P 500",
     "title": "Nasdaq, Dow, S&P 500 Futures Rise After 4-Day Market Slide As CPI Looms Large: ORCL, ADBE, MU, TSLA, RKLB, IBRX, HOOD, GME In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTFNCZGphaDJOMnBER3QwQUNUMkNyMnJ1UW1kU0xzamYzdzVweTdGNWQ2aGx3bERSYWNHU21xOGVQenJqT2tBMjhrcFRpYWpvNXFaTUo5UExkVFh4XzNWYk0zNFFtR1hZbDZqelIzN1pEWGtqN21ZMWtSMmFPbmpoQ0E2MWpIMHpRNU9ieXA5UEs1VUk?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-11T08:33:52+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Global bond selloff keeps 10-year US yield near 5% on oil, rate-hike fears - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUXdFU1JwNmpyVFVfRzltQlQwcVJDUmFOWHVzNGdjWlZfZmJSd2FFQ2VpbFdOVTFQRHJtMlhremRVa2JSeWc5Smptc2J4Mmp0QnZoMTQ4NGdLaVBiekNRYlNqdWRtOTV2TUdIbmFkaTdCNmlRams2emVUc2Nsb244bW1hNHIwSHdDRm93M25LZGJlT3p0LTNaTE1kSTk5SHRSVFVkdXNuQjhHQ29UZm4yeHNqeEg2RkVwYVA3clpR?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-11T05:54:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -137,14 +153,6 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "ECB hikes interest rates as $100 oil revives inflation fears - as it happened - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRElqdjNqSFV2NjNwYjVvWGphVmdpaU5GSFpVaU9HMnI0dkJKUkhYU0J4cGMwMFA2WkJzTHk3Y1VlLXQ2SnBaNFNHakJGaThweXlaSmNUdTlJcXlNY2pfcWk0bHJ6V3BxTFBjZUxJcGt2cDJrS1YxaXhscXZReU5veDRPZENtUm42YWNPdi04bXZ2dGxIYXdkdmwzalByc1JlQ0h3V3ZZOExyS0wyUFE?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-10T15:14:37+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "The likelihood of a Fed interest rate hike next week just got a lot higher - CNBC",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONjAwZFZ6bi16bV9pV1FMWDdfMzlhZUVicnJQaThwYjZySUZTbGhMQkNscFdkdHB1ME1Hc0RsaWYzVDM1SEk0ZmNSX3czTmlESXR1U0R1Zy1DMnU0cWU4REpYYWNVMHdBYlp3TjRkRHAyQ0pqLXdTZ2hoUUlkYnlPMHFCeUhZb2hEYmRVenQ1bWxpT0E1anFMT2NCRDFIdmlUaUlPVUtJX05idUVJa3lCd9IBtgFBVV95cUxNb09kWUpPaTFYX1J3T0ZYVDM1YjZURW4zVnh3R29VUWU2bzlsTWQxZ051RElKY1BzZmZ0X2RNT3BUWFR6TUpEV3pIOURqamZmMDM0YlJVSWpELXRJOUJhYkI1RU9xc2hvdFdiRHZNOWVVVXB0SFFfWG5NMFIwdXlwZ0ZsUUtfS1FsVGJBQ3RBZzJQbEx1NFNiN196NmNTdW5rZDB3TkpYbS1Ld3AwRThybGt5VjVEUQ?oc=5",
@@ -182,6 +190,14 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1nZjEwdFhFYzdKY2ppVDA2ZzU3OGl1S2c0Vl83ZWYwOURBU2ppWEQzQWk2ZVVMZmRVRG9OQnJlSFYzWEtkZC1YQ2R1Q0RIdFpJb0tlWmVST3Y2VUpIQ3BScXY3Mnl3YTdhTl9RVXpVcjNWaFI5TE5B0gF8QVVfeXFMUGMwZzI5N1JJSFVENkNxY19DWE5aUm9RMHlldVl5MzJ5RnppUkozclVyOUlETUNveDZMd3RZbHBucG9LN3FTdUlhejBxM1c2R3R6ZE9tUTZlSkdfQnUyZjlaczh2OEt3MUZWVzdoZGFRaXgyZDhLX0lSUld1eQ?oc=5",
     "source": "CNBC",
     "published": "2026-09-10T11:43:15+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "ECB hikes interest rates as $100 oil revives inflation fears - as it happened - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRElqdjNqSFV2NjNwYjVvWGphVmdpaU5GSFpVaU9HMnI0dkJKUkhYU0J4cGMwMFA2WkJzTHk3Y1VlLXQ2SnBaNFNHakJGaThweXlaSmNUdTlJcXlNY2pfcWk0bHJ6V3BxTFBjZUxJcGt2cDJrS1YxaXhscXZReU5veDRPZENtUm42YWNPdi04bXZ2dGxIYXdkdmwzalByc1JlQ0h3V3ZZOExyS0wyUFE?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-10T11:25:14+00:00"
   },
   {
     "label": "KOSPI",
@@ -458,9 +474,9 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury Dept. Announces $6B Buyback; 10-Year Yield Surges Amid Market Uncertainty - Investopedia",
+    "title": "Treasury Dept. Announces $6B Buyback; 10-Year Yield Surges Amid Market Uncertainty - investopedia.com",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdnZ2dTNHR3pyaWZveTRidzA3dFFYeFJydjlBU0c1b1RtZFdfWGJZY25GYW90X3hrRjdIVk5zQ3pURHVOUFptTTJybEsyOXFpa3BQaU5abjduUC1JbldNOWhJRzRwbTFQNXhXRXZ0VU9wSE5nSldfMXBXZ1dTQ3MwZGw2alpQWFI3SU1JRkREd3l3allPcGc3cXNnREY0YUJ6WG5nMXF6VXFkaHFPV00zUTQySVlvTGJyUVBuREhvQ2swMTBBQkJV?oc=5",
-    "source": "Investopedia",
+    "source": "investopedia.com",
     "published": "2026-09-09T17:21:45+00:00"
   },
   {
@@ -1118,21 +1134,5 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRGNES0hoVGlPMVZfR041a2MwVUNQOUI5dzBweW04UlNvWjNJUnJYUEdGMkkyb1I1MWdRcUp5SDJybUV4YlRTWEZ5aFd4M3NaTnE5clF1Y200Tk9oNFoxd3lncVkzbjFNdTVKazRLNVpSSloteGRvakNZWmxwLW5uUWo5V0U2dDc2TFE0Nkg4VWVOU1dpdE5tNUhzOWtXcUNjTUZQMmF3T2ZOQkpWRURmX20wSFlvam9UV1Yw?oc=5",
     "source": "reuters.com",
     "published": "2026-09-07T12:24:51+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Zölle",
-    "title": "Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTDFNd2VmZW9YckxXdlBCbUZsb3JNTU9ka0htZnZ4WTNVam96eV9FMkppMldmVUE2cDNobW1IS0NmRDNLWHdJSnAxSUt6NFJzVE9QZnllMFJ4Vk1pNjQxQ011dHhGWllCZjNYMjNQc2MxbjNTNE8wY3c4RTBoY19EeTdIc2VtUWFSaTdrUV9BSHAxd25iTktB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-07T12:02:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Tech firms rally, with eyes on US inflation update - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNkY5VDM0Qk5YaDIyMVVkS1Z4SlI0Yi0yS05ESTdVYXJKRm5XeWNVeUNPaEYzR0ROS3Y5eGd2bjFLempKa0tLT2FYZTYyQXBGanB5YUs4UjVmUm1iczVqVjlTR3hoV2xPVklneWxSc093MUJkMUlXRDUzeWY5SXdsYU9JQ214dUpUalBFM203ZzE0NGhIWGRhUEFaMkg0dXc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-07T11:36:28+00:00"
   }
 ]
