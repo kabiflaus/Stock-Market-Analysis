@@ -1,5 +1,13 @@
 [
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "Nasdaq, Dow, S&P 500 Futures Rise After 4-Day Market Slide As CPI Looms Large: ORCL, ADBE, MU, TSLA, RKLB, IBRX, HOOD, GME In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTFNCZGphaDJOMnBER3QwQUNUMkNyMnJ1UW1kU0xzamYzdzVweTdGNWQ2aGx3bERSYWNHU21xOGVQenJqT2tBMjhrcFRpYWpvNXFaTUo5UExkVFh4XzNWYk0zNFFtR1hZbDZqelIzN1pEWGtqN21ZMWtSMmFPbmpoQ0E2MWpIMHpRNU9ieXA5UEs1VUk?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-11T08:33:52+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
     "title": "BOJ set to lift rates next week but offer few clues on terminal, sources say - Reuters",
@@ -416,6 +424,14 @@
     "published": "2026-09-09T20:20:00+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Treasury yields climb, oil tops $100 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXMzRmZVcjdTMGRTaW0tdjJXWmZCM0tIdHYzNDg2NEx6MmY2bGZ3UFVySXhWYXIyLWxnQ2VNY1J5c3h0ZE5zMVVPelBHOGV2dmFjaGhROFVJVTlISXV2UmRyQmtDLXBuS2h6VHFHWm4yVV9fZmZVUHVTSUZob1NjMDZKWVNfcXA2a1lOVGxXNTZrN2ZxYjB2Z2NoMXotUE8zNHo1a0JmNmh3djIzMXVENXpMU2JqOENIcEtrbw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-09T20:04:13+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "How $100 oil has moved energy stocks - CNBC",
@@ -454,14 +470,6 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRbExqQkEtQkJxYmJsZl9xNGFJOXVsTVdDbnFpMUJQUHBWRnFMdU1ZWERfV21Bemc2YnRkNldNWmVPd0VocXV4Rk5tSzAycUVpRTJDUllhcnJpUTlYLXFubDlXVm9hLVZZSmpwSExzWlB6bXBWSG5fZ3Vn?oc=5",
     "source": "The Guardian",
     "published": "2026-09-09T16:41:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq sink as oil prices surpass $100 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXMzRmZVcjdTMGRTaW0tdjJXWmZCM0tIdHYzNDg2NEx6MmY2bGZ3UFVySXhWYXIyLWxnQ2VNY1J5c3h0ZE5zMVVPelBHOGV2dmFjaGhROFVJVTlISXV2UmRyQmtDLXBuS2h6VHFHWm4yVV9fZmZVUHVTSUZob1NjMDZKWVNfcXA2a1lOVGxXNTZrN2ZxYjB2Z2NoMXotUE8zNHo1a0JmNmh3djIzMXVENXpMU2JqOENIcEtrbw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-09T16:35:02+00:00"
   },
   {
     "label": "MRVL",
