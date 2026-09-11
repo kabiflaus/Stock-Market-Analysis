@@ -1,19 +1,123 @@
 [
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "BOJ set to lift rates next week but offer few clues on terminal, sources say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUDJYYmtlZ2lxWFNpOF9MM1lMeXRsQy1ubmstN1Frampjb0xyM1dSWVFsM0s2ZXh6OFJaQmpLbFNoczk0cTRHQXdYTGVxTE9feEhTRlp6OE1BVmRMMV9RcFRLOW0wRUFWVHp5YXAzTFlrQjMydjZ0aWF2clJFalVDWlFRYUQ4TjZ0dzRpZGdLZVg1TU9oQnJYLU5HZ1ExM1ZMZ2JxOWduZ0FXXzNyMHQtUVc0TUtmX096YVVyUw?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-11T02:56:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500, Nasdaq, Dow Futures Mixed Ahead Of CPI As Hot PPI, Oil Surge Keep Fed In Focus: Why Traders Are Eyeing GME, ORCL, USO, ADBE Stocks - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd09tR1ZOUnBfOTctYXd3azNheTAzUG5zVnZlZzRzU2VwZDItbTRsMkV6dXpjZy1SWXdTUGt3S05JODI1Z0xDOU9kZDZPcGxzV215V0ZJSGc1SzlRQ1NEYms4MFVWQXpIOVBhWlRTVDlzczYzZkdCQVZpVHNhcmZQQ3RSdU5GbXZIUVhIUXZzQnQzTjQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-11T02:30:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Inflation",
+    "title": "COMMENTARY: US CPI, where the significant and the silly collide - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSmhLc3dLcnJOclBhYjVoYmZrWG5RRHBzQ1VramVqZmxoczVpUXBIQndSRWIzTGhBUW5lV3d5eGhrTEZRZTB6WkhpcDAyaEtRaHVIRXdXOW9SVFVnN2NoMThjN2I4NWtVYU9obGo4elJHZTRLbzdYUlhWZGV1TUNyTTU3VDJrUlRmRTRkNndKREdoSzBBVnFVV2pzejUwMXdvU21aOUtKaUQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-10T23:31:43+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Trouble in US bond market could mean higher prices are here to stay - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3VGNYYk5QX0VuSlpFdWsxeERKYXZrWVM1T1RpclB0TzQwVDVQTUVuUk9HU1ZFU19RakRpTUJXZFd5LXlnaGx2NTkwUkRtYnF6bG5NVXU1STJXeEd5V293Vy1vM1NPaDRiUHdMbURCV1NSc3l0ZnAwajdGVzAyZw?oc=5",
+    "source": "The Guardian",
+    "published": "2026-09-10T22:21:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Bond rout as it happened: US Treasury yields rise to session highs after Scott Bessent’s buyback operation undershoots target; ECB raises interest rates - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOUt4STZLajFRZnctWWZIWnM5MnlmTC0tRW52eWFtWHhUcnNnMkxKWm5sSkhvaHkyRjd4VC03ZUtPRDNYRzFMY3RodUxXSUR5aFFjMUQ3bjlFMjhTbTFFRW9nMkIwMTRlemtiWExPWW94Ti1mT2tyRTJGNDY1Z0tHUjVqV0Y?oc=5",
+    "source": "Financial Times",
+    "published": "2026-09-10T20:36:13+00:00"
+  },
+  {
+    "label": "SWKS",
+    "topic": "SWKS",
+    "title": "Skyworks Solutions Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWnZuZkdfczdXYkpRdmxQalZMNl9zbzl0MWgycFRRcjJlOHRqemdKN0ZUdlNkZnE1dXBySG1pZmZiSzhfV0ViMERMX2Z0NlNNaEpYQTQ1SURtUGFuc0JFVHhOcmNUV0FmczVFczljVzlCTlMwUHJBTGNBRjVGU3lOUzdLeWdLdXBFeWxTb29mdVZKUjNRdHJGcC1xS1FwQkpZNU95azFCdnVlUVdaT3VYNm1sMEY5Q1MtTS1XcHAtajhBU2NOQXRQN2RXODduc0E?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-10T20:30:00+00:00"
+  },
+  {
+    "label": "BKR",
+    "topic": "BKR",
+    "title": "Baker Hughes Co. stock underperforms Thursday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZTBpdWpqN2pjOGJYeHhvWEF5UjJIdGNBNExmcEVzdlFPenFreUxkUVJqeHQ2RTk1c1pyVVhaek5xRUNEa2FjQVJITENvcEQwbGQwM3MzTHNSOXRneU5BeDd5MmIxeHlHSldnMHJJY1ByOV8xMVVlcFFFQ1VPVE1HV3h4cXVURmZTZW85YUZnQWlPbGZwbE04T0YtbWZ5YVhXQjIySmczZE90dnotcjdqcjBPRkc3Wm1ld0xUVFVlRXdsdlNIcGozeHItQTY4QQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-10T20:30:00+00:00"
+  },
+  {
+    "label": "LRCX",
+    "topic": "LRCX",
+    "title": "Lam Research Corp. stock underperforms Thursday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUjRPRnYyY2NRTmpxVW5iYW4xOW5FZHU0VXVOSGtzOWNGakZKOUYtMTZSWTNZOVlqRXE3V1doS1AycmFicFhRQXI4LV9kQi1TSWJaWlh1QXBieExzaS1lS2djckNfakRmaHMwOE9URElJT2JfU1p2c193cEcyQlB4bDg3YVJNeDVrczFDdzhuTXBwVGZscW40SlRnbjdFeEJYZUlDMHpNMS1CeUNJN0w0RWFqOTdZR095aVlmZ2RJRU1xZE9tSFc3TExybFJpZ2o2?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-10T20:30:00+00:00"
+  },
+  {
+    "label": "ELV",
+    "topic": "ELV",
+    "title": "Elevance Health Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdzlWb1B5Rml4LXBNOGVIT2gzY3MxODQ0YXhxOWJDay1NNi1jUm9IUFNYbVl3YU1xQWVSa0E4U2pVd2QxNElJT3U0V24wZ3M4MFF0WWdjUGNCekxHSlNCTVJsN2FTQTNCMHpaMk1xQXVNZDdGdGZESVdoYzg5VnhvS3hXVXgwVDFqWm00Qy1uRkFUOHNFakRxTkM3bjA0SnItelB4aEhvZGp6OFU2UlplYS1mZ0FPMkE1eHdaQ0lLR2YtV0xXa0hpbEk5NA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-10T20:30:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Treasury yields surge after Bessent’s beefed-up buyback operation fails to calm market - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQl9FeEc2X2wzd2pVQ0w0d2Z6THg5Vm1vSHJEcndZX3hpYXR6bkpFQ3RkTzZPT2czbHJ1S0JaZ3hFY2d0QXNld1VxQlAwclAzS3pVcmY5SXdoQ2VEdkJ6aHFCU3FELUZHcThKNWdieWljak1oRDlIYXJZRV9NVmpiZmlZcVd2VTBSTlZ5Um04ajBrMEliQVlFcFBRWGc1TU1ydWtvVzN1NmhtY05QMzRra2dMbC1naFYxeVRNUEt0NWRrRFFZU1JyOQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-10T20:24:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Inflation",
+    "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSkFnRHhFSnduaGNSQ05kNUU2c24wNVBGY0RESmxraW1iUENhc0xUb2NZSmhrWWxieWFkQVNqRlJucmUwTmUzUjltRko5ZndVLWxqTGFTc3IxMEhvOTlQeU1QUjdFWVRlSjhmSGRkb25YUGxxVXdlM01RLTFDcXo3cFdtLVN3WGZXUDNCR00tSl9xdUFXRHlybGpCWUNiT0gtcjJDWlRtd0FDWHRfdDZ2bVl0U2FXUTJfdlN2RtIBwgFBVV95cUxQUXg3aHY1MXh2THBMazQwZGFKUGhFZWpHdXU3N2hnblVyV0gtaEJBeGRfeFVJb0lOZ0RUYWlhcFBaRmRfbDNTSkRhWGgydXhvX2hjT3ZvZFRfcmtFU1JBQ3NuUTVFajJQRlNEQ2xJdG91VUFoNzFHZU54LVhuRGxpQmVVaEVKUmtISzhEWjBXemhhQ3hWT1gzaGcxX210Mk9iMTBHT0Zhei1aWlRobGgydzQ3aHI2S1hfRVVqUndGdktoQQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-10T19:18:05+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "The 10-year Treasury yield is approaching 5%. What it means for income-seeking investors - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR2ZzRVNHbGhYQUYxM1ZlclA4MnVEdENFcHFCb3FXS3pQUFRaVHZ4VURlc0k0YjZZU2UyXzZBQVd3ZWgxd24wQk05SlpYNnU3ZHdNMFpFSGFsSWF3cjN1SjV1WlB6a2NFU3ZxRG9BZGNUX082OWR2WjFPSVJ0S0RmdTJQX0JHYksxbzZqSVhSRkl4Y3lKb1dBQ0F2NjZyTWRtTGoyRzJXX2lSdF9NWEgyaFlhTQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-10T19:10:43+00:00"
+  },
+  {
+    "label": "INTC",
+    "topic": "INTC",
+    "title": "Intel Stock Plunges 4% as Piper Sandler Turns Neutral on Chipmaker - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbE1TMDdmWlNjaC1KWDBaQjQzSUxZekpDbEY1dmdPWkJkZlI3T1FqUmNWbXBpLTd2a0FTN2I2R0ZUeVBhVlRIbklBLUlzU2kxbUtmWWRlV04zR01KT1dwM3k0Skp4aVh3cXZfVl9IWWQ1M1ZkVkFUVk5hWmpLcnFUUzFYVjIyV2RlYVlKVnNrX2hqZGF6cVVr?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-10T18:22:38+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq extend losses as bond yields jump, oil holds above $100 - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV3ViejZyVGk1QnUxZzdzV1BvV05zZ3g1c0dqWkNRSnhETkVPT284bGNZUDNHTXo1cXNBdWdKNVBlUDExQ2hlenVfNXBsd295dHRtVXhiY2JtbDcwMXRYWmxMTkNGUnRmanFNbnhOelVfYXVGeml6My14bGRQc0JhOGFWeDNBeWxBS2t3SU40QW5GTWlOVmFuTmF2STgzSVJkVDhOUGRES0QyeWtKTzg1bktB?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-09-10T16:34:54+00:00"
+    "published": "2026-09-10T17:58:42+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "Markets live: Traders turn attention to US Treasury auction as government debt rout intensifies - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOUt4STZLajFRZnctWWZIWnM5MnlmTC0tRW52eWFtWHhUcnNnMkxKWm5sSkhvaHkyRjd4VC03ZUtPRDNYRzFMY3RodUxXSUR5aFFjMUQ3bjlFMjhTbTFFRW9nMkIwMTRlemtiWExPWW94Ti1mT2tyRTJGNDY1Z0tHUjVqV0Y?oc=5",
-    "source": "Financial Times",
-    "published": "2026-09-10T16:15:49+00:00"
+    "label": "SWKS",
+    "topic": "SWKS",
+    "title": "Skyworks Solutions Surges 10%, Qorvo Climbs 6% While Chip Stocks Fall: Is the Merger Finally Clearing? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMS1acFhVRVU0S25SZi1fY1BzZzBUcFRtUVVEd1pwaWw1Q1FIb3phNmZlclJiOUtQOTVvbFlwcHVVR2o5NDJWQlFQaDFNMjZ1M1YyRDV3aTd1ZjBfVTRDdXZvOVloX0VsckJGcC1wVDN3WmZWMjRDZU02aEFFZW1CZHA3R1FULWpEQlNWeV9NT0xfVWhKQ1JINnA0a0xhWmNE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-10T16:47:26+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -56,14 +160,6 @@
     "published": "2026-09-10T13:37:00+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "COMMENTARY: US CPI, where the significant meets the silly - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSmhLc3dLcnJOclBhYjVoYmZrWG5RRHBzQ1VramVqZmxoczVpUXBIQndSRWIzTGhBUW5lV3d5eGhrTEZRZTB6WkhpcDAyaEtRaHVIRXdXOW9SVFVnN2NoMThjN2I4NWtVYU9obGo4elJHZTRLbzdYUlhWZGV1TUNyTTU3VDJrUlRmRTRkNndKREdoSzBBVnFVV2pzejUwMXdvU21aOUtKaUQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-10T13:03:20+00:00"
-  },
-  {
     "label": "AI",
     "topic": "AI",
     "title": "3 AI Chip Stocks to Buy in September - Yahoo Finance",
@@ -89,11 +185,19 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
-    "title": "Trouble in US bond market could mean higher prices are here to stay - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3VGNYYk5QX0VuSlpFdWsxeERKYXZrWVM1T1RpclB0TzQwVDVQTUVuUk9HU1ZFU19RakRpTUJXZFd5LXlnaGx2NTkwUkRtYnF6bG5NVXU1STJXeEd5V293Vy1vM1NPaDRiUHdMbURCV1NSc3l0ZnAwajdGVzAyZw?oc=5",
-    "source": "The Guardian",
-    "published": "2026-09-10T10:00:00+00:00"
+    "topic": "Zölle",
+    "title": "White House copper tariff plan stalls amid affordability concerns, sources say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNURGbmRQdjJaanFqS0VBQUVyTjZCNkZyeTBrV2NVcWtGLVRQdk5jaG9pYU5FejR3REpqdHJSQWM0NlRUSVdnclJOR0RiWEpUNlV1ZXRUU1RPSTFlNF90elZIZWFxbFhDYm1nUlFjQ3l0UjRMbGstTmItU3BiOVZDYi0tRUxPelM0V1J6TmhVTnJJQkdxdUFBemtkdWxTdUNScndiZlNiQm1rQXRsMlh6ZFhxNnRmemFLN2ZfMnk2UQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-10T10:08:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 futures pare gains as oil prices and Treasury yields rise again - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQcnpFZzNWUVhMVnIxNlllVVpvejFmeHVORGxyMHlCckxvNzZ1NU5RMzBOclhkanZoYW9TLVIyZWJ6YkdPN2g1eWFUbjJ6Y2FnOEdWRGlsM1M0QUNwMFI0TmlBRzV3Z1hCc3I5V3BGaDdPaGJUdHllNUlJQXdUaFk3Zk54dldKLWt3QkJRNm1ZQmZaU3MzZFd4QkRIQzV5blhRTEhxU0hXNVdpYW9qMzl1T1djMzhGYlR2YlNoN05keHhPcGRERTlyckM4TXktakg0azVVb2pPM3VSZkdvOEhYMmRCNjBhQjNrUDh4TmhJcDFGQjMwbW5GMGNxdE9yd0pWMVpfWGQzUk9RVkJPdmdFaHZmdmtkQ2Y3UTcwcG1JemJKX0QtNkEybGRTS2hKVkxpR1ZsWGRwbDl6Ymw0YTNjc2tGck1waEdBX2hrVlNfVlhybUg5aWttQXZKOA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-10T09:50:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -118,6 +222,14 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EaFNHbGNZVzJjeVppT2pHMkg3NW9EMnk2S3V5MExsRVNVeUxlNVRrb3N1aWh4Ni1VaWJmakFWVUZ1UHN3T0lSZTNMWkx2Y2d6ZmxvY0xUTGFiUnJ6MjlwOXJtTGRkQ3M0RE5QMnl30gFzQVVfeXFMTTRucHY0eHZ5TU5CbG8xWGZDUF9CR1dHaXBXUFJwLUxBMTZMTnRnaG5vSl93S2E3aDRfUU5meEcxMGVYcEhWSDNWQThsNjIyelZYZFJUVVFfTVM4c0lLNlVnM0xQLWNTVWI4VTc5bDdtYVMwQQ?oc=5",
     "source": "CNBC",
     "published": "2026-09-10T08:13:17+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "US Treasury yields surge as $6 billion bond buyback disappoints markets - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYUx5RXVxVGhuajN1QTBtUEhxU2JrTXJSTlVmd2YwTjhmWlpDbW9wTW1Pa1pIZ3B3U2tHd1BlSE81WlFFRUNuYUZaSkVhdk1TY2pKNTB6VnpOWElMRUtoc0llSkc5cENYRXhzdGVpVmhiLTRRUUdIUnlkWGJMdjg1ak83Z1BFSEhjcnBpdnJfR0FZWG16T0E?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-10T08:12:54+00:00"
   },
   {
     "label": "Rüstung",
@@ -192,6 +304,14 @@
     "published": "2026-09-10T02:27:00+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "BOJ policymaker warns of price risks that may trigger rapid rate hikes - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUTQ5OWFWZ1gxTHpOWlRZNkFqanE0VHBCeEYyLVNoTWtwczd2c3FhMHlONlpVdHFNZkdBYnZLeU9wZG9LSDh5TzJRZm0tRDgyRDdpa1A0aFNra1prRTV6akpKOG5zOXdDVzNjVWNFM3lWa2FSNU9WQ25UbVNabmVZTEM3SHZIbE8tNzZSUDE5aERBY0JrRlZoRlF0X3hpeEllUmM5elBjTkVVRnAxdmxBWUV4bnFGQ181RmlVR2lSOWlxSUwtMXVkSnM4enRIZm8?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-10T02:26:00+00:00"
+  },
+  {
     "label": "MRVL",
     "topic": "MRVL",
     "title": "Marvell Technology (MRVL) Stock Is Up, What You Need To Know - Yahoo Finance",
@@ -224,6 +344,14 @@
     "published": "2026-09-10T00:09:00+00:00"
   },
   {
+    "label": "ELV",
+    "topic": "ELV",
+    "title": "symbol__ Stock Quote Price and Forecast - CNN",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9McnA0d3Y0YTlfTVpTRVltU3VYaUs3X0VhSmZVSDhWd1JfWFdEZTNhbnZabkpucVhiWDZrNVhCbG9sTS1aR0wzbHZkVnpacU0?oc=5",
+    "source": "CNN",
+    "published": "2026-09-09T23:18:24+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "S&P 500 ends down as oil tops $100 per barrel - Reuters",
@@ -238,6 +366,14 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb0JFcGROYUdWNmdfUHl6ZnkySmlqU0k5b3BHRDNEZnVjQlktcGwwRldFeG1nVldhSkNFQWx6OWo5TW1YUFFzdHZ6anMxVm54bDYzX3VoNkNJbWUyM012UUJ6LWNPU0ZqYzVDT2E4b2U4YjZqOWQ4VEhGLVBSTVNGbmx2bEJUZ1NJc1Qzb1NNOGl4STN0Xy05aDUzbGlKT0VicWEzMjAxR2R2LWk3U3cxdlI0OTBZRms?oc=5",
     "source": "Reuters",
     "published": "2026-09-09T22:11:36+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "ECB raises interest rates, bolstering bets for further moves - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzZJOUlHUzJVTF9DZ2dQc2ZUMHlVckE0OFR5Rks1a1lMYUNfRUpEOXFObkp2VEFtTk1veHdKWHZrVTJBMlVBT2xucWZUVnVXVTZPMm4xbzdyX0QzN1RsM2x2WEhJcGt5UTRseDZBdTdZaVFzdWI1d2xlXzR5MVhrNWlQNnRDd1NOZTlxM2tDd0Nob0NfWDJkWk1FeDdUdmpCdzExdQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-09T22:02:00+00:00"
   },
   {
     "label": "LRCX",
@@ -256,11 +392,19 @@
     "published": "2026-09-09T21:12:24+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-year yields highest since 2023 - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX2JTdW9sQmN4V2h4TnFrb1MyM04ySnZUN012U2JERWNCaE1vMjBBeXR1SFJtQUxEalN0c1BrVWd5d1FyLUFJS0E5LXhYbzQyMUthaGNvUTE4dUt3cFlPMzNQN3BVSnkwXzVXSkN3YTFEdXJCVVBCekVPRXFwckxIYjU1ZHA?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-09T20:51:42+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
-    "title": "Opinion: You should always have energy stocks in your 401(k). Yes, even when oil is at $100. - marketwatch.com",
+    "title": "Opinion: You should always have energy stocks in your 401(k). Yes, even when oil is at $100. - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1lGbGFTcXRUVUItSTdMOW1pbWMzNzNUd29wU3lRRlhlMnZnbmJad0Y1c2h1X3VRcjN6WmdHTi1UVmprWXhLQ085TjNUNHhMWE5IWWxjM3dtaUVYbFRfcXRnQnRYRVp1QXdFMndQWWlBdGR0OERaRFlpcldqSUdvMkVnUHlwUThuZk9LSW5yM05vLUFhR2E3MEtHOTRhbDRSZDM1anl0c3dUWEFT?oc=5",
-    "source": "marketwatch.com",
+    "source": "MarketWatch",
     "published": "2026-09-09T20:27:00+00:00"
   },
   {
@@ -277,7 +421,7 @@
     "title": "How $100 oil has moved energy stocks - CNBC",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPV1VVdE43N0ZRUEotWjM4M01aQ2d4d3F4bjg0WHBrUnlDcDZMeTdKaUdNbEM4bW5VOW9ORXltR0VZeExqSEZNTHJQU0RMQ21Zd0VGbFE4Szl5TlpCQ1Z5cldsWmFaWjEzYXZHMXVPcVlrVS1Od2dsVFo4amt3NjhlNWhYUEo?oc=5",
     "source": "CNBC",
-    "published": "2026-09-09T19:25:02+00:00"
+    "published": "2026-09-09T19:25:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -294,6 +438,14 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZk1ZbWRLYlA3NmxWQVkyZmdtSFQ4cFd1dlIzTmhRakpCemt1ZjlLM0N1U0E1dkpreEZJd1BJREFRaDl0ejBtZGpBa0FNNzJmNmxIczVLYjdVdERRZjhPbDd4aWg3VWF3bVgtQTRnM2R4VHdxa1ZTY29QYThabnVfaXI3MnhFVHctZXhEUjdXbWVSdUhQdmw1dlFRbE1QS0NZczVUbk5LWG9sYXdjcTJ4bVBOeHYxdW01aVFBWkM3a3dPQm1vZWVIM0doR2hpdGtlcnB3ZG5CbGQ5OHdZ?oc=5",
     "source": "Investopedia",
     "published": "2026-09-09T17:26:12+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury Dept. Announces $6B Buyback; 10-Year Yield Surges Amid Market Uncertainty - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdnZ2dTNHR3pyaWZveTRidzA3dFFYeFJydjlBU0c1b1RtZFdfWGJZY25GYW90X3hrRjdIVk5zQ3pURHVOUFptTTJybEsyOXFpa3BQaU5abjduUC1JbldNOWhJRzRwbTFQNXhXRXZ0VU9wSE5nSldfMXBXZ1dTQ3MwZGw2alpQWFI3SU1JRkREd3l3allPcGc3cXNnREY0YUJ6WG5nMXF6VXFkaHFPV00zUTQySVlvTGJyUVBuREhvQ2swMTBBQkJV?oc=5",
+    "source": "Investopedia",
+    "published": "2026-09-09T17:21:45+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -456,6 +608,14 @@
     "published": "2026-09-09T09:26:02+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "China",
+    "title": "Rising energy costs lift China's producer, consumer inflation in August - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDFLd1BDaVVNS01JdGxKYmQ5QVNtYlh3QlJEMTRUaWRHUUw1OTJqWnNTME94LUFkZk1BQU1GcnlaRmswN2gtTDYzeUduZjF3bi03QUlYUGRJR2Zqd1ptR0Ftek5kNGVXaFRZSE5HTE90YnA1ZDM4T0FPN2VOeDVfeDBzQVdaRjI4ajhEUFp2dHdnVXRWejYtLTBQOE8tSTNxcW1iTlU3MA?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-09T09:24:05+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "European energy shares rise as Middle East conflict lifts Brent toward $100 - Yahoo Finance UK",
@@ -489,19 +649,19 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Another rate hike, just for insurance: Five questions for the ECB - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUUFuUFh6VTdaUzh1amJOYk43S256U1ZCVzJ1aXhBTE9UdkN4TTJLTG1LcUZKYURQd0RLRThKNzBzQkFaOE5pdmRZbUpLRWEwa09lX2xDLTlGNlJvVk1PSDA3dG15SUg1Qk5aejlNSGp2dmxYemRzeFZFdXQ0WjIyakFRYkUzT2kwcHR2a3BBZXNCRzFKUFRVN2FybzVmSFB4bEI5VWJLcw?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-09T07:00:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "China",
     "title": "China consumer, wholesale inflation rebound in August - CNBC",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUGtvY1BHU2cwUmFyZXM5dXl2ZGFpWGFjWF9CSFBFRUNIcEFXaXBDblhJZFpRVE5JcUJQQ0dUamRleHZwYTc2MlZNQ2pSOEFPNWlfVTBxaU5NQTc1NkNXdzB4YnFwdHd6Q1hzdExsQnlwdlVrT1RmT2VraXBiSExub3F2d1pXRTV4aDB2dnljYXlrdw?oc=5",
     "source": "CNBC",
     "published": "2026-09-09T02:06:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "China",
-    "title": "Rising energy costs lift China's producer, consumer inflation in August - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDFLd1BDaVVNS01JdGxKYmQ5QVNtYlh3QlJEMTRUaWRHUUw1OTJqWnNTME94LUFkZk1BQU1GcnlaRmswN2gtTDYzeUduZjF3bi03QUlYUGRJR2Zqd1ptR0Ftek5kNGVXaFRZSE5HTE90YnA1ZDM4T0FPN2VOeDVfeDBzQVdaRjI4ajhEUFp2dHdnVXRWejYtLTBQOE8tSTNxcW1iTlU3MA?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-09T01:43:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -694,6 +854,14 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGpLMjFjVktrd3Z3OF84U2p4Ylc2ZUltY3loZlhrQ05TWFlJYjhyMWZtc3ZiczBEZnl5Qk1IQU1BQWctcTRyTzF2MjdKWXZPSHV6amxPdGNtT1JoVUt6M3RHRGNfbXRNd2hKemhIdVdjS29IVW13RndwOXl6WF9YSWVGRko1WnphamhYQnlQVThYNzI0bG5uY2pUUERzdEpsWXBocw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-08T14:36:31+00:00"
+  },
+  {
+    "label": "ELV",
+    "topic": "ELV",
+    "title": "2 Reasons to Watch ELV and 1 to Stay Cautious - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOS1lNU1GVFlfTTA4ZUcxZjB5cUxPQTliQzBJRW1zOEVTeWNzcUIwRnBVaDV4czNTT1o1OVc4dnctQm9CQnJ5X0VKbG9GdjU1N3hRTk01Um9iWjF0VTFKal8tNEJtREV5WkpMdlE5OU9nN293VmFMcUVCWkZpTmVUNElmTkxGWFE0dlFRR2tCcw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-08T14:15:18+00:00"
   },
   {
     "label": "AMD",
@@ -928,6 +1096,14 @@
     "published": "2026-09-07T13:38:52+00:00"
   },
   {
+    "label": "LRCX",
+    "topic": "LRCX",
+    "title": "Lam Research Nearly Triples in a Year: Is the Stock Still Worth Buying? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2w0UjVFOW9HMWRtMnp0TTNpQ2t1Qk1ZZk1wOVNhUTV0ZlJ5blFFZkczSU42aklRQ3l1blJPdkZadm5sYXp4SVBRb3ZfdUlCM1JRczBfNmppUXJDckU4RkF5dEZtSkhBXzlzWC1XOVhsYmRkYU5YV3Q0SkpjTG5IdjV1aG1tWW91RFgzSnZJVWwyS1hONWQxbjVvWl9CUkE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-07T12:58:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Inflation",
     "title": "Gold eases as strong US jobs data boosts Fed rate-hike bets - reuters.com",
@@ -950,85 +1126,5 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNkY5VDM0Qk5YaDIyMVVkS1Z4SlI0Yi0yS05ESTdVYXJKRm5XeWNVeUNPaEYzR0ROS3Y5eGd2bjFLempKa0tLT2FYZTYyQXBGanB5YUs4UjVmUm1iczVqVjlTR3hoV2xPVklneWxSc093MUJkMUlXRDUzeWY5SXdsYU9JQ214dUpUalBFM203ZzE0NGhIWGRhUEFaMkg0dXc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-07T11:36:28+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Zölle",
-    "title": "Jaguar Land Rover confirms plan to cut 4,000 jobs over two years - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTGJvd2puYjRGS0xWYnZiU3ZQZFFGZ0M1aHpRR0N5T0s3bDlYcW9LZC1aZVJXNGtVaks2cmxHN1ZTWlRRZ25oY2RFSE5NM21BMlpXWTBIaVdaRFd2N1BZSFoxWVZINUc4enFYVXFxaWFQSFBOSHlvY3cwR1I0b2FJSHZqUnVIT2k3dC1pYQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-09-07T09:37:00+00:00"
-  },
-  {
-    "label": "TSLA",
-    "topic": "TSLA",
-    "title": "Where Will Tesla Be in 5 Years? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaEJhZW8tcWhsRXRTc0NnVHUza2pJbGRoYTJnakFRUHlIbXFLYnk1d2l5Smk2ajl0WG16ZVFxOFNmaUZGM1lSb2Q1Rkc0V1JRa2dHNnZVdkltbGJHMTNMZHpnd0dacE1PYWdqbXVzbmdTem5LSUpiS180YjNpOXpfTUlGTTlIVUN4RFYwYQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-07T09:35:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXNXbFhiR0xaOTliU21YN051SmZxSndRR1d0WkFHUEFBbHRsSS1EdE1zMUJ6ZlQ2NFRwNFZFWVlSMGx5WUc5RFVhYmE0WnNpTWJfbXRraUVTemlyU0U3ZFMzSGxwZDdMWVloTERkSkdfa2NiX3N2cThqbkRIUzhSVGNaRl9wak9YZVV2YXg0UVVZRWtXaG9PYUllRnl6dnNoY0NIQlZwNkRwVEpDOHIw?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-07T09:07:43+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "AMD and Intel Soared as Nvidia Lagged: Has the AI Trade Changed? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSnMySG9Rd1RqdndBZ2ZfbXhVeEl5VEJOSXYxUkRsRU02VXJaSnVxR2R6UDQzbU9sRFUwTXdzMWFXQ1lkeWRsR3ZkREQ2c2gyM09tMWVaTVNxRGxUWF9mU1BXcDVpU3QzRkFENzl0VnNRU0hxTDJ5X2V6TFctQnB3M0NwS1NwRWZtLTJoODFlaGg5UElSa0llQVgwTQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-07T08:25:39+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
-    "title": "Amazon, Meta Are Now Serious Competition to Uncle Sam: Big Tech's AI Debt Boom 'Driving' Treasury Yields Higher, Says Market Commentator - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX1BXSHZoMU1kWUFZQTJXZmV2LXg2N0p2dHJYZ0V3bjktODVublJ3d2FlTnVYZ0FnLVd6Zm0tUWRIT25lcS12QWVmcGRGVGMxd2R5Vk1aNUNHeU00THBkUEhmTVQ2WWlJaHZxVUl4bTlMOEhlQS1NaE9LWXZTQ2ZoNVFpNHcyczBiMVVielFvbzFBekotSm1JZFZDTUl6b2wxckE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-07T06:56:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "Another rate hike, just for insurance: Five questions for the ECB - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUUFuUFh6VTdaUzh1amJOYk43S256U1ZCVzJ1aXhBTE9UdkN4TTJLTG1LcUZKYURQd0RLRThKNzBzQkFaOE5pdmRZbUpLRWEwa09lX2xDLTlGNlJvVk1PSDA3dG15SUg1Qk5aejlNSGp2dmxYemRzeFZFdXQ0WjIyakFRYkUzT2kwcHR2a3BBZXNCRzFKUFRVN2FybzVmSFB4bEI5VWJLcw?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-07T04:03:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
-    "title": "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcGtDcDVaREoxQzFxVG1INXhHRmVnV2x0XzF1bmNDS2plclpiY0FSR2FzWFhscEhvb2hEaFZ5N1hlTFBOLWlodTBpbExKRm55aFd5eDFwRjlUZVhNaFhiTGdGQkZiTHYxY2ktMVdKcUdBdzkzbkpvQkIyTEd4Y2c3aG5Pb9IBiAFBVV95cUxOQ0RZenZlQm1vblVaUXBtR3B6ektHZndOWWd5a1E5Q0p4VmdCTGt2NFBrb2pXWUxCQ01XZ2Q0aHJoZC1OMjk2Vzg5VTQ4aXJ4QTFCd3dvRFMzZW1ScXdzei1ERVNVaFY5aE9PMXdZYW1lMFREZjhwZUJILTVYTW1JcFhVa0h1anZv?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-07T02:01:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "ECB set to hike interest rates as Iran war flares anew - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1ViOG5EYndfVTczTlBmMkxHVjJ1R1VXMTFnTll4OENHaG80YWJzTTh2SmRaYk5iR254Ni1Ybm9YSExSR3F5cExkc2gydFhPRTNjUWhuN0FiVUVDN1VLdDdaX1ptOHY4anktZkpNNmxDTjRGa0Fmc0VMWFVDTnNxaXh3?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-09-07T01:35:00+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Falklands row shows urgent need to commit to 3% target, says Labour defence committee chair - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWHhkTnBpalNnU0dBdHFwbXBibDI5Q0tjZXlMbXdzZHZnOVFHeWp2YTFoVGsyTGlzWUJMUWFVaTQwYmp2dUYwV2haWUlNcGpQSTU2UlFvbU8tR21nbnVERlBpQ2Vzek9ndkFXUEtxdFVlWC1kcjB6eDNjYm5pcU9LNHMwZWM2czlQSmNINEFwMDFuNFFsRDFqeXdLYjg3MWlEY2gxaA?oc=5",
-    "source": "The Guardian",
-    "published": "2026-09-07T01:30:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices rise to six-week highs on worsening Middle East conflict - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-07T00:15:00+00:00"
   }
 ]
