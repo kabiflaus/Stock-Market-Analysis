@@ -497,14 +497,6 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Trump says oil prices that spiked because of Iran war likely won't come down until after midterms - AP News",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMXltZEtoQUhXVTQ1bWJMekROZWpIeXVtZmljZlVNejktRWE0TlZEdWY3X1hGMnNQRXVUUm9mTGN1RUFYOGh5SlF0LWRnWnZCaV9sYllTLVoyekU3TWlxNTYxenMteGVNSEw2d1ZmMnhOVXdoRGFmS2I5R2ljdTdkN3JwamRjbFJlb2JST2Q5YUgtXzRw?oc=5",
-    "source": "AP News",
-    "published": "2026-09-10T02:27:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
     "topic": "BOJ",
     "title": "BOJ policymaker warns of price risks that may trigger rapid rate hikes - Reuters",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUTQ5OWFWZ1gxTHpOWlRZNkFqanE0VHBCeEYyLVNoTWtwczd2c3FhMHlONlpVdHFNZkdBYnZLeU9wZG9LSDh5TzJRZm0tRDgyRDdpa1A0aFNra1prRTV6akpKOG5zOXdDVzNjVWNFM3lWa2FSNU9WQ25UbVNabmVZTEM3SHZIbE8tNzZSUDE5aERBY0JrRlZoRlF0X3hpeEllUmM5elBjTkVVRnAxdmxBWUV4bnFGQ181RmlVR2lSOWlxSUwtMXVkSnM4enRIZm8?oc=5",
@@ -630,6 +622,14 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPV1VVdE43N0ZRUEotWjM4M01aQ2d4d3F4bjg0WHBrUnlDcDZMeTdKaUdNbEM4bW5VOW9ORXltR0VZeExqSEZNTHJQU0RMQ21Zd0VGbFE4Szl5TlpCQ1Z5cldsWmFaWjEzYXZHMXVPcVlrVS1Od2dsVFo4amt3NjhlNWhYUEo?oc=5",
     "source": "CNBC",
     "published": "2026-09-09T19:25:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Trump says oil prices that spiked because of Iran war likely won't come down until after midterms - AP News",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMXltZEtoQUhXVTQ1bWJMekROZWpIeXVtZmljZlVNejktRWE0TlZEdWY3X1hGMnNQRXVUUm9mTGN1RUFYOGh5SlF0LWRnWnZCaV9sYllTLVoyekU3TWlxNTYxenMteGVNSEw2d1ZmMnhOVXdoRGFmS2I5R2ljdTdkN3JwamRjbFJlb2JST2Q5YUgtXzRw?oc=5",
+    "source": "AP News",
+    "published": "2026-09-09T18:46:30+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -1126,21 +1126,5 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNXAxeWVveDlhWnF0Ni1vRTU2UU5QcTB1YllDZXlpTTlkNldtcUFfb3ZjSjVMSEd5TkViUmx4ZUpZN3ZidS16aTl4V3JvVVJxRUpIYlk5dHhHbzdFR0ZXVlZmaWQ1ZlcwbWhxQW5ZS2d1WFZmUHBCZWp4VnV1NmEzX1ZGZ0RvcjhEa3pGQXdjZU1XOGVKSE5mV3h5alBZTE0?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-08T13:00:00+00:00"
-  },
-  {
-    "label": "AMGN",
-    "topic": "AMGN",
-    "title": "Amgen Shares Fall as Investors Assess Novartis Lp(a) Trial Result and BMO Downgrade - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT2pZMUM2TlFZTEFEZ1I5UnRkbnIybkJNNE1pSDF4d01GNWdQQ1Jmb3l4SG5sUVgyYW16V0xCVm45czh6RktWejQ2QlJsYmYwSkhyd3hqSG9LdnZ2QWtRd3VzZS1QTXNNLTNNa1FhWEE3ZExRa1RtekVfcDhFaWM3cHcxWjhxVEY0aWRfRG5XYkQ1dzAwSVFldU0zSQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-08T10:52:08+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "The Morning Catch-Up: ASX set to retreat as oil climbs and rate concerns weigh - Yahoo Finance Australia",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZzRxRkZSbEhmVnJJZHE3eW9zTUlMX0ozWW4tMG02bXkxUVBqbDNYNGdoZUlrYzBxNGlOS0s4ajNyZ3liNUo0MTItY3Z1XzFucUlqNGx4eGQ3eFJ4WjlvYnEwc2NpbmZrck9nSHpHM2FqNm43RzBQcThaSGhvUUVBcTdiT21ZNzZp?oc=5",
-    "source": "Yahoo Finance Australia",
-    "published": "2026-09-08T09:40:03+00:00"
   }
 ]
