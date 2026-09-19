@@ -1,10 +1,18 @@
 [
   {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying. - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYmVOR1lFNlFEaGVrVmZpX1Y5dmtrVUFCZDZQYXh4RW0xWVIzZC1PWm1Ma25sTHY0ZDlqZkN0Ykg2SXRua016THh2MXc3MzZsYWQ4TWdQcV8tMkxGX0QtT3JBT2xCWDltSUt1cWNEZWVRLUxNZFBvQVZnVnktYnJKX0F4QlRVbGxmWmxfaVh2QVdiSml6ek5IUjRtdU1uR2sxSjJsMW95Wk9Sdm1tRXBJd0dpQUgtcjZtQk9DbmdJbm5rWWFTOVhZOGF0RnpIdFJDaHQtTlpSaVFGME9ETlhkRDhpRF9UUmFxT3ptRlFqaE1MQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-19T12:00:00+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "S&P 500, Nasdaq advance, turning the page on a tumultuous week - reuters.com",
+    "title": "S&P 500, Nasdaq advance, turning the page on a tumultuous week - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2p6dkpCd0xfbVRBMnhySFRVbm5OSElMZXRXc0NpaGhoRmw2MzNfSUstaC1RVFFnUU1DNUM0MEpHTmxhbHJxOC1Ec2lMWU0xMFVaSVdsZGdVSi1JaWpDX093SHhBdlBkdFdGZnFpd05yYW9LRXk2NkdOMnRWSzJ2dkhuTFpDN01LM1JvNjhyamFZM2dLRFRzM24xSUZwRGVBakhwM3N3em1ycFBuWVg2UVB2OTQ?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-18T23:10:24+00:00"
   },
   {
@@ -22,6 +30,22 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeURfVnRlX2VMVWJ4OEVNNHVhNm9sTlE2Mkt6LVVIdGtLQ19yNkRPS18tTUUyb1J4dHhnTi1zSllHeURsWHlTaGx1Szlydk1LY0dzT2pRTzl4T2Q1YXZ4ZGc0YTA5ajQ0U0NZMWRIdEdOUjlMTWZ0UWo4dTd2bWdsM3ZqXzk2bldmTGtacFMxSjNzb1k4VTBFWmJvLXhka2tUdjVCTlZNelZvbkIydzJ4YmttbDJ2aWR5dEVsRGE3ZklHWGE1T0h6ejBycUFpUQ?oc=5",
     "source": "MarketWatch",
     "published": "2026-09-18T20:30:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-18T19:58:55+00:00"
+  },
+  {
+    "label": "QCOM",
+    "topic": "QCOM",
+    "title": "Qualcomm Drops 6% as Past Month’s Rally Unwinds; Skyworks and Qorvo Slip - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWjhMdWFTSjB2WWhTdDFTV250TWFOcDhMMnpVV3p2VnFNTlBEMW1aZHV4WEQ0VUhLMy1fMFE2aDYyTGJEZkxGNUJFV3pwNzM5YnJqX3NfVVZTMl8xM0RkdjVZYlZrcHN2Y1FnelVnYjNaN2x1SXdzNnRzaDY2ZHdQMWs3dmxheUJ4b1RvbDRZVWhDRExYTWc4?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-18T17:58:45+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -50,9 +74,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
-    "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes - CNBC",
+    "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes - cnbc.com",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXdfWXNIMEY2YkdDSGh2cWVONW03aXdjUFFuUGV5cmswQnNjQlgzNTJTWTBiM3ZnZmY4Wl95MmRYOGFyeDB6YjJwTTdDdk94QU1jendxcHZxemF2dExzdFh1WWwzeE0tMTdnWUFLWUhqeTdUMm9ORG53UGVoaU1zSVhVU3hkV1RNaDNqNmNjMVo2VUVteXR0NnE1dHZUZGo2WUZUMWNYdzlnR3FGcWNrRlhqU0hUX21VUUI4aE50bUFmb2tVdDZMMldYNG_SAdIBQVVfeXFMTy1qakhvTjZoRU1JZjNhZDFtUjN3cWg5N3JmQjQ4RnpsZGFUVW5pVWFOOXdlWDhnMjBMRzN2SnBObjF2OTBTTGZCWW5sX3NheHNjVHhEY2NVVkt5YXU2S1AyNFRRamM1UXhYN0NWTGUwOHRTc0hxVVdMT0xITXZXN05MZ01jOGdIU1pfVTkybXMyY081a1hIYUtqTWFKMzdFVXIwYVZmT19PbXlOTzNIenN1YXhKY1RvTkd2SkctZ01VOGVFN0p0bTR5X2RTQ1MyVlhn?oc=5",
-    "source": "CNBC",
+    "source": "cnbc.com",
     "published": "2026-09-18T16:33:43+00:00"
   },
   {
@@ -112,20 +136,20 @@
     "published": "2026-09-18T09:47:44+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields move higher as volatile week wraps up - cnbc.com",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLTJFQ0pUdjl1NGp2Y3RETkpmbEpPWi0tUU1ZRVpZc3RJa0R1TUdQZ2lxOWtmS0pKY3JpNUNXdnFLRm5pUE9XZFIweVE2OE5pZmhDZmNKY2FNRUZzOTROS2pjNVRkbFlweG10a1dOUU1YdzZLel9uZVpRaU92Y2VSVGF30gGHAUFVX3lxTE1XdmZqdkQ2WEF1R1ROaU1vc3h3LWVEVmloZDBOS2lEUC1SMXZBdlc5MURUMWRKSGtaX3JlUXpxR3JYRmV3MVdNZzNTUG1uNFR6cklXb09oLXc1bnpIMklCeUJtZ0xQaUFJU3lNcWJSZlpCUWdGQkRhZDA5emx4UjVrZkZ0N1dCNA?oc=5",
+    "source": "cnbc.com",
+    "published": "2026-09-18T09:22:17+00:00"
+  },
+  {
     "label": "S&P 500",
     "topic": "S&P 500",
     "title": "US Stock Market Today S&P 500 Futures Climb On Fed Hike Resilience Hope - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSXNMM3FaNWhFU3VVWWJiV21XZWxFSDZaa3pGOHdSSklwR0xBaEVlWkN1eWJXejBsSGxHd1JfZWZqU0Iwcmp5ZmRuM213bkZTSWxCSjdQMTN0ZFNBLWYzMGdOZDY4ejlDVDBFNjZ2TXlSSGZLNmRWQVFvb0RjRS02bkNDZi01YzlEdXNzcXdvTGo1dw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-18T08:13:16+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "BOJ",
-    "title": "Japan’s central bank raises benchmark interest rate to 1.25%, the highest in 31 years - AP News",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMFZVMzlCMTR3aWVFV2pMdW9NZHp0bFJqYnZDSHhOZVNFWlp4TFl0dHZRclFCd2V0UXY3UHptV2tzX3hRQTB5M2hYMkVMSFJOTDNSaHFmcTE3azZpbnhyMmU5bWl5Yl9RMmRKVXE3UGlQUXVmeUtwNURteENVOUxseGR0blp5bTdCM2d3Y0o5d0otd1BKZ25mZERvU05WWXc?oc=5",
-    "source": "AP News",
-    "published": "2026-09-18T07:30:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -150,6 +174,22 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZHptaTIyQVY5XzB3b3VoTXdHcGRINjdhYmpzekNBVzNyTkdRcFVNQUhNa2FNVGQ4RHBMazhRZHdzWG9ySWJ6empUN1pwTVFJRWN2eTluZkJPUUJRQUVHWnZDbWhlelhRNXl0ejRoTUM2dmZWdnBUemFYbDA0TnZkdWR0R0NwSjB3dHNfWE1PQTA1TTlPWXc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-18T05:17:29+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "Japan’s central bank raises benchmark interest rate to 1.25%, the highest in 31 years - AP News",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMFZVMzlCMTR3aWVFV2pMdW9NZHp0bFJqYnZDSHhOZVNFWlp4TFl0dHZRclFCd2V0UXY3UHptV2tzX3hRQTB5M2hYMkVMSFJOTDNSaHFmcTE3azZpbnhyMmU5bWl5Yl9RMmRKVXE3UGlQUXVmeUtwNURteENVOUxseGR0blp5bTdCM2d3Y0o5d0otd1BKZ25mZERvU05WWXc?oc=5",
+    "source": "AP News",
+    "published": "2026-09-18T05:11:55+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Russia's wartime economy faces long-term erosion from debt and military spending - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVzVqVHpGeXpzdVRFNEdodTJRVHY0R19qN3MxUzFkdXV4Y0dWalFRSGtId2V2ejkwWEd4MHk4cGdTVWcwa3VSdUsyejJZc0xCY296TnlZUTNTREFBa1JHRnFOd2lfd1VMcDdETnExa2NPYUEtZENqZ3BZNHBaYmlVOE01eXJHQmU3VVlVQzQwY3lTS3FIaFVZ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-18T04:09:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -182,14 +222,6 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdWtVenRCZS1KcTBSUGFZazItUkpONmlIdkNlUHlMWjZSU2tiVGs0ckJZekRrdVM1d05pa2RmWFd5c3BiYVJUbjlCY25EWlZyeVk2SmNxU2JNRW5UU2w3Vzh6UjdFcnByall2T3pvVFBReGhKX0pLV3Y2QmRhY0pmVkxmakZNOUtXSUNzR1NNeENpRW52YXc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-18T02:32:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - reuters.com",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
-    "source": "reuters.com",
-    "published": "2026-09-18T01:01:00+00:00"
   },
   {
     "label": "AMD",
@@ -262,6 +294,14 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmTU9fTTRrVmFoWnZFTmNmQmdpRWdWaUhhY3p6NlpFbjJDNjJyTXhjSkxvLVRvS19GVGhnZ1QxQXA0NTltWXpuX1VXejlFLXdZREVhUEJvQ2JJSWs?oc=5",
     "source": "BBC",
     "published": "2026-09-17T18:02:26+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Jensen Huang says Nvidia will sell twice as many chips next year - cnbc.com",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMZUVscTltc3BSMGJoVVhPeWlDQ2JiendDa3ZsRmF4VGwzVXAtYlNfUE5vVE13OXBsT1N3MXFYdFdRd25jYkhGaFp4QXEwb0g5cXNQdFhicVl0SWlySk1JTXhoc05qd08tcmhBR2VxQU5DLTVq0gF6QVVfeXFMTXo3S3oxZXdkNml4VG1yM09rSUh4cWp4Tlh2SXdSSGZ1Q0Z4NHBPclhJdmdmbUtWTWVUQnd4YUY0N25IV204WWY1QnZISUJ6bl9ZaXVEQ0dnMU1QdHdva0dSdmVOZWctZnBQaHE0WUdBSkFDYWItM2tQTXc?oc=5",
+    "source": "cnbc.com",
+    "published": "2026-09-17T17:52:29+00:00"
   },
   {
     "label": "ARM",
@@ -402,9 +442,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
-    "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions - reuters.com",
+    "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions - Reuters",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-17T02:05:00+00:00"
   },
   {
@@ -658,9 +698,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
-    "title": "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household - CNBC",
+    "title": "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household - cnbc.com",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQmR3RHcwRGxVczZOSFZNSE45djBxV3JfbTZ6bmtfc240UjE2QzRUSWJzNWRWWGpQRzZKbThJckRVeFYzSGFSV19TVUgtSTNXX2NNRXJoZnAzYXNaaFZLVDEtYTJUTDRHeDVrNVBKU1NmRUU4Z052TGhBd2UzY2FtQVlnVW3SAYoBQVVfeXFMT3RUOUFnbm5YZ1RUdE1xYVJVellUZ0lmRnBMTnc0Y1hvS0hselc4OEoyN1BJeVVrUkp4UjZWT0ZyUW43T19SYVZWQTZyY1BZS2F5X1RycldNVmhqR2dBdzFXMDZxYWdyQmJXTEQ5M2ZGZ0lpY3RLTGVQcFpJSGF5LUI1RGRLM1FBRGR3?oc=5",
-    "source": "CNBC",
+    "source": "cnbc.com",
     "published": "2026-09-16T12:02:18+00:00"
   },
   {
@@ -894,37 +934,5 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOURuc3JRT21qQVVDU3pjOER0Sk0zM1dpV3N1dzlGVFdjM19pT0N6ZTZDeGhCUzc2Rmc0N29YOG9XMDU4MjROblV2aWZmNzktVkRITEljeEhoQ3kwaUpNSlYzYjVaTWtlWnJIMkxCY3psaTduT0YxY09QS1BYZXFhcmFjOG5tWG5CU1RvbDhVUl9ZdnpMUEtFSUVFdw?oc=5",
     "source": "CNBC",
     "published": "2026-09-15T16:03:28+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "MU Stock Rises After Micron Debuts 512GB DDR5 Server Memory – AMD, Intel To Validate New Server Technology - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSGV5X2JITUVkWFNZRU9kYUd0ZWtBTnlDS1huX2JJLW5NNmRfSE1uY1Q1VmdkVDRpZjVuWXQ3SzJJNFFhN1ctTkYteTBHNUdydlRhZ3kyOFYyN3pDMGVmcnZkUWhnczV4RkxQX3EtVl9yb3YweFQ1dVFtY2ZpWjV6RWNZd1EwcUhNV084bjBwekxhYkdJODVkSg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-15T14:23:03+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "10-year Treasury yield hits highest level since 2007 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUHExLXJJRXZjbEYwR0tyc0xQMktEb1djdXNMbU9YdmthN2VoTkRTZ0tYRjl0LXBlS01Vb0lRM2JNUzBSM2hVdUs0YU1TSlN5eHVlQVRmQ1JDZkFvRUhYLXcxaEVhVEcxaU1lYmh2eVN5YXdnbkk4VFRzT1M0VFdPMDB1RmZMMi1lMTU0SjJQeGJIdkQ5S2JycTBJckVfYXVjb2otU1lwX0FmRW1la0E?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-15T14:12:43+00:00"
-  },
-  {
-    "label": "AXON",
-    "topic": "AXON",
-    "title": "Axon Enterprise Shares Fall 5% After $1 Billion Convertible Notes Offering Announced - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR1BhLUhldC1TeS1STnMxTVYxckR0clMxdXBWUHRkWUZJajByVUxrSnNQajVNdFJxTS01dVFWVnpkcUxVVmdmU0ZTbXZkZ2JPTGtGYTdwaDNFTWtBV1A3YXFsVDRRUk9tUVdNM2REMnZ0aHZsRndab3JDMlpvSnlEaGl4RDFBeDJTZjI1TkZ6c21mNlhBSU4yN2dn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-15T13:36:53+00:00"
-  },
-  {
-    "label": "DVN",
-    "topic": "DVN",
-    "title": "Devon Energy Corporation (DVN) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcHMyc0pwdU1YWmFnaW00dlRiZTBySkhwUi1YZzVlcG1CTnpCTnRqbEl0c3JaWWh6XzgtZHphR0x4VktHRjZxU3d0RzlCZU55YkdLd1Z6eF9JVm1icVVCc1hwa21YWEtxcjRONEhlRERmWGJSZU4yVnFfR0ZlaWU2ampDeV94VVp1T0lvak84bzJibURrcUlKdVVYZmNLZHBQT2haV1RwVQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-15T13:00:05+00:00"
   }
 ]
