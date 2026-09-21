@@ -1,5 +1,29 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq rise as oil falls, anticipation builds for Trump-Xi summit - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUmw5dTU0bUtGQk1BdkpteVFtOFpEN0tycVhJNnIwQndiRVVaZjlMcG9lanhVZkxLd1lMVlRRMGMyNXctZkRDVnE4YVNXQkg2QUFxcEhKdVJ0eWl6Yk9HOXRKMTNoUWNyNmtMX2FZOEdJd0FETUU4Mmc1SVFXcllLVmt1bDhoMUdWRzN2VGUzMnVIWk1qRXBONUZSN3BkMDBvOG9zMTA3WUdVLVFDTXlj?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-21T13:19:46+00:00"
+  },
+  {
+    "label": "META",
+    "topic": "META",
+    "title": "Meta Stock Jumps Despite Another Facebook Outage. Here's Why - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR0pvYkZjNWFTcmZLWG8tSTVFM1JCRldQTGRkeEJ5anUxemlKQTJZc0ZwRjBSY0JqM1ZkMGt1YXkteW1DVVlPaWlnRUNpMTF3d2NacWw4dWZhVTFwelN1MUVhWW9HOTY3akVJY2R6Tm13UXE1NF9Rb2N0TDV1bGpOb2prZUdOUVVOWFZsRkZyVWxHYlhDblNhRkh6dmhhUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-21T12:30:46+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying. - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYmVOR1lFNlFEaGVrVmZpX1Y5dmtrVUFCZDZQYXh4RW0xWVIzZC1PWm1Ma25sTHY0ZDlqZkN0Ykg2SXRua016THh2MXc3MzZsYWQ4TWdQcV8tMkxGX0QtT3JBT2xCWDltSUt1cWNEZWVRLUxNZFBvQVZnVnktYnJKX0F4QlRVbGxmWmxfaVh2QVdiSml6ek5IUjRtdU1uR2sxSjJsMW95Wk9Sdm1tRXBJd0dpQUgtcjZtQk9DbmdJbm5rWWFTOVhZOGF0RnpIdFJDaHQtTlpSaVFGME9ETlhkRDhpRF9UUmFxT3ptRlFqaE1MQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-21T11:49:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
     "title": "3 Stocks That Could Benefit If Treasury Yields Keep Rising - Yahoo Finance",
@@ -8,12 +32,12 @@
     "published": "2026-09-21T09:13:39+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil falls, anticipation builds for Trump-Xi summit - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUmw5dTU0bUtGQk1BdkpteVFtOFpEN0tycVhJNnIwQndiRVVaZjlMcG9lanhVZkxLd1lMVlRRMGMyNXctZkRDVnE4YVNXQkg2QUFxcEhKdVJ0eWl6Yk9HOXRKMTNoUWNyNmtMX2FZOEdJd0FETUU4Mmc1SVFXcllLVmt1bDhoMUdWRzN2VGUzMnVIWk1qRXBONUZSN3BkMDBvOG9zMTA3WUdVLVFDTXlj?oc=5",
+    "label": "INTC",
+    "topic": "INTC",
+    "title": "Intel Stock And 2 AI Infrastructure Leaders Tied To Chip Policy - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaWMyWjNsTGo0cnFWRl9CcWt0VWRJRHdydTAweEctclQxYzlPbmQ4a1BvRTBwLTk2U00xWHVGQTc0VjgyQ2ZjQTBfNWhEcUViSGN4T2w0S3Q2ZkZSY1JFZTdkSFNOMFpyN1JJeldfWWtnYW5USnZlWkpHR2IwUVdnU1g0SDBKdC01cXp1WkJSVkhYZ2ZpOW12STBkRQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-09-21T08:02:14+00:00"
+    "published": "2026-09-21T07:13:18+00:00"
   },
   {
     "label": "VOW3.DE",
@@ -54,14 +78,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM2l6bE51clNrcTJMSUE3c0RyX2J3SzdNemhmSWZxMXhPZ1l2eHRaOGNkdWFSMzRmZlpFTy1mMlZzTkd1dXNnTXNwVkhlbmFXUzMtbllZSzVTQkRUWmpMTnM3dWdocXAzUUY2YzAzUVExWkpRc2JsS1FLTXFkMkxmZk14S05xOUI1YkR6OThhX080MXNIdWR1UXNlN3E2Tnhyb0tWVzdieXNiZw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-19T16:23:16+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying. - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYmVOR1lFNlFEaGVrVmZpX1Y5dmtrVUFCZDZQYXh4RW0xWVIzZC1PWm1Ma25sTHY0ZDlqZkN0Ykg2SXRua016THh2MXc3MzZsYWQ4TWdQcV8tMkxGX0QtT3JBT2xCWDltSUt1cWNEZWVRLUxNZFBvQVZnVnktYnJKX0F4QlRVbGxmWmxfaVh2QVdiSml6ek5IUjRtdU1uR2sxSjJsMW95Wk9Sdm1tRXBJd0dpQUgtcjZtQk9DbmdJbm5rWWFTOVhZOGF0RnpIdFJDaHQtTlpSaVFGME9ETlhkRDhpRF9UUmFxT3ptRlFqaE1MQQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-09-19T12:00:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -154,9 +170,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
-    "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes - CNBC",
+    "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes - cnbc.com",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXdfWXNIMEY2YkdDSGh2cWVONW03aXdjUFFuUGV5cmswQnNjQlgzNTJTWTBiM3ZnZmY4Wl95MmRYOGFyeDB6YjJwTTdDdk94QU1jendxcHZxemF2dExzdFh1WWwzeE0tMTdnWUFLWUhqeTdUMm9ORG53UGVoaU1zSVhVU3hkV1RNaDNqNmNjMVo2VUVteXR0NnE1dHZUZGo2WUZUMWNYdzlnR3FGcWNrRlhqU0hUX21VUUI4aE50bUFmb2tVdDZMMldYNG_SAdIBQVVfeXFMTy1qakhvTjZoRU1JZjNhZDFtUjN3cWg5N3JmQjQ4RnpsZGFUVW5pVWFOOXdlWDhnMjBMRzN2SnBObjF2OTBTTGZCWW5sX3NheHNjVHhEY2NVVkt5YXU2S1AyNFRRamM1UXhYN0NWTGUwOHRTc0hxVVdMT0xITXZXN05MZ01jOGdIU1pfVTkybXMyY081a1hIYUtqTWFKMzdFVXIwYVZmT19PbXlOTzNIenN1YXhKY1RvTkd2SkctZ01VOGVFN0p0bTR5X2RTQ1MyVlhn?oc=5",
-    "source": "CNBC",
+    "source": "cnbc.com",
     "published": "2026-09-18T16:33:43+00:00"
   },
   {
@@ -242,14 +258,6 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
-    "title": "Japan raises interest rates to 31-year high to curb impact of rising prices | Bank of Japan - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOVhza1NzR202aG1nOTNQMGFmN1ExZGgxb3NfaWZGWTRaUi11blRFaHZaazBDZ2k4MVR6ckpzSi1wa1QzQjNTeTRuQkRYOXZoUzEyaWt4YVJZczdtaGRTNnZpWHNxWXlmTndSaU50bjhtSG8yMVhSb0xyZGpGQldpUDdfQjNQSUU5ZVFUNVlUemU3TXQ5a3RmbmZuSWZFX3dYcmxRNzhVZDVudw?oc=5",
-    "source": "The Guardian",
-    "published": "2026-09-18T11:27:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "BOJ",
     "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
     "source": "Reuters",
@@ -274,9 +282,9 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields move higher as volatile week wraps up - CNBC",
+    "title": "Treasury yields move higher as volatile week wraps up - cnbc.com",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLTJFQ0pUdjl1NGp2Y3RETkpmbEpPWi0tUU1ZRVpZc3RJa0R1TUdQZ2lxOWtmS0pKY3JpNUNXdnFLRm5pUE9XZFIweVE2OE5pZmhDZmNKY2FNRUZzOTROS2pjNVRkbFlweG10a1dOUU1YdzZLel9uZVpRaU92Y2VSVGF30gGHAUFVX3lxTE1XdmZqdkQ2WEF1R1ROaU1vc3h3LWVEVmloZDBOS2lEUC1SMXZBdlc5MURUMWRKSGtaX3JlUXpxR3JYRmV3MVdNZzNTUG1uNFR6cklXb09oLXc1bnpIMklCeUJtZ0xQaUFJU3lNcWJSZlpCUWdGQkRhZDA5emx4UjVrZkZ0N1dCNA?oc=5",
-    "source": "CNBC",
+    "source": "cnbc.com",
     "published": "2026-09-18T09:22:17+00:00"
   },
   {
@@ -310,6 +318,14 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhNkRsZVl0OU5ob3FDR0l5WTZsM21feGs2OWpJNzlqMjVjT09RMkk0MDZOc0NZTzZyQzB1T2xSZTM5TmxMRHZXcElrTU5FNDQtVEQ5R1VGc2YzUnM?oc=5",
     "source": "BBC",
     "published": "2026-09-18T07:14:57+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "Japan raises interest rates to 31-year high to curb impact of rising prices | Bank of Japan - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOVhza1NzR202aG1nOTNQMGFmN1ExZGgxb3NfaWZGWTRaUi11blRFaHZaazBDZ2k4MVR6ckpzSi1wa1QzQjNTeTRuQkRYOXZoUzEyaWt4YVJZczdtaGRTNnZpWHNxWXlmTndSaU50bjhtSG8yMVhSb0xyZGpGQldpUDdfQjNQSUU5ZVFUNVlUemU3TXQ5a3RmbmZuSWZFX3dYcmxRNzhVZDVudw?oc=5",
+    "source": "The Guardian",
+    "published": "2026-09-18T07:14:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -362,9 +378,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
-    "title": "Bank of Japan raises interest rates to 31-year high, flags concerns over inflation - CNBC",
+    "title": "Bank of Japan raises interest rates to 31-year high, flags concerns over inflation - cnbc.com",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcGZUTWp4UUptVDhMTEczWmNqd05NNFpDQ0llOE1ZNVBDejdFOFFvMGdFTmEtNVZNdVBEWDRmWFhTcUdQcEVUZzBzcmdOQndTamlxZGJLVDZBbWVuZFl4Smo5M0dtUTVVOERZZFhGNTZISU00NWg5X0djN1R6d1BxSW130gGHAUFVX3lxTE5na19kdTFFT0lDRmZFWUhvNUNMQzBLYVJ3eHBlNG9MOGg2ZmVsZ0c0OTl4anQ2U3hpZVM0V1FRd2Uta2tPejd5RGRyd0RqOGFVYmVWTVdhTU9DdndaZVF5TTJyUF9zay1HRzItd1otRjJSTHg5WXpZb1d4OVVuWDUxblFSTlZKOA?oc=5",
-    "source": "CNBC",
+    "source": "cnbc.com",
     "published": "2026-09-18T03:16:00+00:00"
   },
   {
@@ -502,29 +518,5 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObEd2OFRORzBXaGRaMTJlUlFlMEZSNW44a20tdlpvbDh2dGg1bm1iMGdIdDVRc2dmUGYwQ2stM1VOeHNSLVhFY2tKTEhXMmNhckRuMk03SHo1dmpVb0lwcmdZeUxFbGdaR0VKTDM0bW9RNXR0WEx1b2NaY0NqOTd0NkZvVWhhbzdjRlZMSWdyOUNkNXItcWUzMDlNZFlWU3dnd21XRg?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-17T14:07:51+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Is INPLAY OIL CP (IPOOF) Outperforming Other Oils-Energy Stocks This Year? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWnVvS0pGNXBKQzRhZGUtMVZTSmpKR05LeF90Q3FkN29mbTRMSm1ocWxoT2FIMkVWQ202NWZmQ0FvcVlGZGJ4MmZlRlllTW80bjBqV1hlTXkybjd0REh0QmRWT2hHZHdqbnpnbkxocWY2V3lROVpES2s2S0hUbzlFcWQyS3dEVE4xbEJSZGZmUlYydExPbVRwNXRFYm9LY1k?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-17T13:40:04+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLWxGZm40SmNpQnJ4cVoyeExfYkJPWVRqeVdtZU5IZ0dha0pTdlltZF9QOTBVdHd4aHM1TWNDbWRLd0pvQmZwd3BtOE9EdDF4R2xBYUU5MXlFWi1ZNTJpTE93LWZOTWNxTGoxR3pLTTZnUkJKdjZpajNhTkdjZGhQMVhnalNQWkxmTzJXTXhFSzFGS1Q3Wi1TVWlHcFFGNjlMcld4WmpR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-17T13:00:05+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Top strategist thinks the Federal Reserve interest rate hike won't fix this huge earnings risk - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZV9EbjVUMmtzczNuYzZxTUxrb1ZuOTZzWFhSc0RTd2YzVWtxQVhrckJaYkNXTkx4LTdfS3dDWXZpbXdDY3JfVHlqbEJPeEJJYVdJMnN6VUkwVjBEbUVHY0hBdXZZb1A0dUhuN2szeWVVckE3NTIyWVlWdmJ6cVF3dndsUGZzTjYtYmg1QWotbHJpd0l3WmpZaF9yYjllbDA3ZTJPZHZsUE9nUWRwZzhZcFp6bTVrZzdxb3ZZeXFIc2x1QU93blVCSEpDbDd5VkY4d3o1OTcwRXpOeVJ0Q2wtZlNmNkY?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-17T12:16:19+00:00"
   }
 ]
