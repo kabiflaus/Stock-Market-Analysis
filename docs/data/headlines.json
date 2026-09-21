@@ -1,5 +1,29 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Nasdaq surges 2%, Dow and S&P 500 gain as chip stocks rally, oil prices fall - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUmw5dTU0bUtGQk1BdkpteVFtOFpEN0tycVhJNnIwQndiRVVaZjlMcG9lanhVZkxLd1lMVlRRMGMyNXctZkRDVnE4YVNXQkg2QUFxcEhKdVJ0eWl6Yk9HOXRKMTNoUWNyNmtMX2FZOEdJd0FETUU4Mmc1SVFXcllLVmt1bDhoMUdWRzN2VGUzMnVIWk1qRXBONUZSN3BkMDBvOG9zMTA3WUdVLVFDTXlj?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-21T17:35:12+00:00"
+  },
+  {
+    "label": "META",
+    "topic": "META",
+    "title": "We Think Meta Could Keep Soaring Higher and Wells Fargo Agrees - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdVVqMlowd0NaNVpxZHBBNld0Nkh4Mm1yZldJcERVMVlpXzlpb0piWlkzRHdoMUU4dGlQZ3E3MEg3S3dNYnFudUJETGJQYkx3UHBaOXI0aWtOb1FZZ1dTSzlxOFZxdTN1TjdvNnB1YV9CeEhNdnFYV3VuUmtEVEctZE1nUGw1RFl2Q2xoQzZsRm1EeFhjdkMzZTdB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-21T16:45:35+00:00"
+  },
+  {
+    "label": "META",
+    "topic": "META",
+    "title": "Why Meta Platforms Stock Skyrocketed Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZVZFZURBMUF1MDRySGpfMUFaM0I4Ynk5T3JKOG1FdTdxSHI5dUU5YURzUG9RekEtUWdkQS00dEl3bkZUMWZodWhQd1liREtNcE1xQWRpcFpVcWwtMUVWQWVRT3JiemxyUjJ3SUdDS2FoQUNlRkx5MmFYeGtGdmdIRmNxZXRjZlA0RDh4cEtVVXMxZVU0b25NdXY0Sll0REtZcm1n?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-21T15:50:26+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "AMD joins $1 trillion club as chipmakers rally on AI-driven demand - Reuters",
@@ -8,12 +32,12 @@
     "published": "2026-09-21T15:32:11+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Nasdaq leads Dow, S&P 500 higher as chip stocks and bitcoin rally, oil prices fall - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUmw5dTU0bUtGQk1BdkpteVFtOFpEN0tycVhJNnIwQndiRVVaZjlMcG9lanhVZkxLd1lMVlRRMGMyNXctZkRDVnE4YVNXQkg2QUFxcEhKdVJ0eWl6Yk9HOXRKMTNoUWNyNmtMX2FZOEdJd0FETUU4Mmc1SVFXcllLVmt1bDhoMUdWRzN2VGUzMnVIWk1qRXBONUZSN3BkMDBvOG9zMTA3WUdVLVFDTXlj?oc=5",
+    "label": "ARM",
+    "topic": "ARM",
+    "title": "Arm Surges 13% as Meta’s Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9% - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaUhkMHlxeHpkMGNPb3RCSEs2b2wyaVJNS2J1X1h3ZGdfbTBONHhtbGVrdjRxWHB0N0E1eUhLTlYxZ1ZnaUhSMldBb1dGRW11OVNDamxVZnY4RmptaWVhTzZJc3JiUG1BTmxYOXl1U3JjaktXMTg5ZDU1Q2EzcFFNYXdzVUNvVzNpU29pQ1gxV1Z6UQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-09-21T15:28:49+00:00"
+    "published": "2026-09-21T15:24:10+00:00"
   },
   {
     "label": "Energy",
@@ -30,6 +54,14 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUlJZMmdrOUdFdFZjb1BjZUdSclVGYk5xbm9lTXF0UGZVdXl5V2xMdzlLbXJIN05jems5Q2ZIcWdQWi1nbXF3cE41T0R5dmc4bjBYWlpKcEFaSUV5ZjM1UXdFREh3UUwwdUQ2bUxEZFppSk1Tcm5NdkV6dnVPM3Q3REc0WjNMUDVDVkU5ZEg2ay1rRGliaFBlUzFFeWFIQQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-21T13:14:29+00:00"
+  },
+  {
+    "label": "MRVL",
+    "topic": "MRVL",
+    "title": "Can Investing in Marvell Technology Stock Double Your Money? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeEh0RFhLSVlVR0pRU0RPUl9kZW9oY0h5eWNRS1lpejdKVzU2b0lmaHhCVVJFSlFna1QweWlucldPc0VrOVRvSEhNV3NaeVQ3WlctZ18zWVpqVWc2ZmJKNUx4Ry1xdW83cnlZQ0FZT2diQm5XSWhkYjNuelRUNlFiNUNGU2tmcEZQcDNmMWRTZzRWUUhqTUk5d2NDMFlaOXRpekFVc0RPVGx0UQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-21T12:34:29+00:00"
   },
   {
     "label": "META",
