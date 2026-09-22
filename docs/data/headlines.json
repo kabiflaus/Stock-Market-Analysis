@@ -1,7 +1,31 @@
 [
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
+    "label": "MU",
+    "topic": "MU",
+    "title": "SanDisk Jumps 6% as Rosenblatt Starts Coverage at Buy With $2,400 Target; Micron Rises 3%, Seagate Ticks Up - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT1JWa19SbTFBbEZCZFBsWFdXSUZJak5seWpIdVY2X3Z5ak5GRmN5WFN4T19HQTV0YWdld09NVk9vYWlPTFhkcGw2THdtd0F3MUxzam9uZllvQlZlWTNJT1NHYlFXQ0loaklCb2RURXZMUHBoQlRLX0RkcS1BcjV5SV9iX29mMV9jT0E5VF9fR1h6Yy1HN3RISkV1UjdOLVU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-22T16:04:48+00:00"
+  },
+  {
+    "label": "MU",
+    "topic": "MU",
+    "title": "Micron Jumps 2.6% While Taiwan Labor Targets AI Profits - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03VlNhVzVRalZXcmxQMVNwY0N4YVdqOE5xQlUyYWRhZnJEdXdwSmFZWTMwV19PN0lYdWk3SnIzb0xQZXZKbmtaVHdyYUFZejh6TXFwSUdwdGFjcWxxVG5Cc0tMcURMRWRSc3lSVEdSOEtvTmZSTUlFZkVyNA?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-09-22T15:40:09+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Rising Treasury Yields Are Wreaking Havoc on the Bond Market. Here's How It Could Affect Stock Investors. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSXpJSUIzZ3RBUVhGSWh4SUFUZFJDM3BuRkpZTkJtOWtPR2xUZGtQcmpHdTlCMVk0RXU4VUc2WjYyWDhSZGg4dnkzRGtrbHFzS1ZWRnkzaC1TNTlNNEVMYzNSOTdSSGdUaGJKN3JoOUtsTl9SZ3ZXTkNEQ2FtcEhFaGZvMW5DOTVlUnBpVWJVZEViLXdQOHNiVWdUQ0pzRjZ2LWlNWQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-22T10:11:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
     "title": "Nasdaq, S&P 500 Futures Pause After Record AI-Driven Rally: AMD, META, BABA, GME, HOOD, GRAB, VKTX Stocks In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVnJJMDBMTEg4VGN4dG9keDRaSWdDZHVNM005bmxHTFYwRGU3SFJZVkNiZHowbGZ1a2ZGWmgtcG5MTDY5eGs1dmFhTDhBM3FPOGRnWmVvVmdiV1Y5LTdtVUVTX01fRGdydVE3WmUzekg0S0hZcWNFUlJVUzBqdzc5ZHRGeGRLVVBMa2xJSm1HMGEtXzZMM2c?oc=5",
     "source": "Yahoo Finance",
@@ -104,6 +128,14 @@
     "published": "2026-09-21T20:30:00+00:00"
   },
   {
+    "label": "MPWR",
+    "topic": "MPWR",
+    "title": "Monolithic Power Systems Inc. stock outperforms competitors on strong trading day - marketwatch.com",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdnA1TVZ5VXZFeWhGejNmdWhYY3B2NjlWYUdMZzVVWTBfdzJhVi1Ea0E5cUlRa19DcmtYQWlQTzdfRk9NZDE1M1MzcWFmdWNMMlEyVGJEZkE3SDRkbG8zck1TcFZoLW53RkhuOURCUkZSanJKdzBMTTJmRVRLQXRzalJDYmo0c0hzeTJaTjBCRGFWa1R0VE5IZE81ZkR5dDF1dTJvUlVXVmFuRnBKdDR6cWFib3RYUzFkVGxvVkk3SmM3X3FHYmxwQV9HRW0wT0NUMTRXOTJ4SQ?oc=5",
+    "source": "marketwatch.com",
+    "published": "2026-09-21T20:30:00+00:00"
+  },
+  {
     "label": "QCOM",
     "topic": "QCOM",
     "title": "Qualcomm Surges 7% as Amazon Validates Its Data-Center Pivot - Yahoo Finance",
@@ -126,6 +158,14 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZzI4YnhZNlBqdlNVTGpvS2Z0Q2lZdmVCY19Fa1Z5TGllM2NHWVhLUk9rV3FUSUZsV0lmbHpya2pfWDhiT01hcGdMV1BMWi1OaXEtRGRKSWp3X1pzUWZCUGttS0xJQlBta2ZVUWNEc0hTMUlSX3IwTTktQ1Q2eVVqUnhkZUcxRWVhcXJvaUJEUnlUekdfUHh5UXJ6Wl90U0x3SC1UQXRFUkJUVVBp?oc=5",
     "source": "CNBC",
     "published": "2026-09-21T18:37:57+00:00"
+  },
+  {
+    "label": "MU",
+    "topic": "MU",
+    "title": "Micron Stock Flashes Signal Before Earnings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMGM3NWk3X212RS03NlFpUmtpLUxINkY3eTNfM3d4YVFfRUE5WlZDNndxWTBZbW1qVVBCLV9UN29EaVRWdElmZTZtZFduMHRjb1JKTHRCRVo0d0FFYzFNX3F3SFBuWHF6YUlYWGI1MkxTUlVwTUl0MG5PaGZpQ3hFOVBCWWJlQU9pZlEyRVdhWmxEYmdYVjdHeVRCaEVyQ01jdlFJRg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-21T18:24:14+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -248,6 +288,14 @@
     "published": "2026-09-21T13:14:29+00:00"
   },
   {
+    "label": "CSCO",
+    "topic": "CSCO",
+    "title": "Here is What to Know Beyond Why Cisco Systems, Inc. (CSCO) is a Trending Stock - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWlhhSlU3SmExVTVsQTZKWUhZcXhBV2NOTzBjSzA3bTMwTm5IXzZUTE5NUGFmclR5RndSZGQ1bS1tYmlDOEQzVDFZblFNNjhTbGs3VmRWRENaUExwQ1cwV3Y4S0hjR0tlczFPY0VodmRQU3pLN1RURGQtV2FVQldUQkpZSU1uRmtCcWFmdGMwMHVLT1FsZXp3MlRn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-21T13:00:05+00:00"
+  },
+  {
     "label": "MRVL",
     "topic": "MRVL",
     "title": "Can Investing in Marvell Technology Stock Double Your Money? - Yahoo Finance",
@@ -274,9 +322,9 @@
   {
     "label": "Energy",
     "topic": "Energy",
-    "title": "A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying. - MarketWatch",
+    "title": "A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying. - marketwatch.com",
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYmVOR1lFNlFEaGVrVmZpX1Y5dmtrVUFCZDZQYXh4RW0xWVIzZC1PWm1Ma25sTHY0ZDlqZkN0Ykg2SXRua016THh2MXc3MzZsYWQ4TWdQcV8tMkxGX0QtT3JBT2xCWDltSUt1cWNEZWVRLUxNZFBvQVZnVnktYnJKX0F4QlRVbGxmWmxfaVh2QVdiSml6ek5IUjRtdU1uR2sxSjJsMW95Wk9Sdm1tRXBJd0dpQUgtcjZtQk9DbmdJbm5rWWFTOVhZOGF0RnpIdFJDaHQtTlpSaVFGME9ETlhkRDhpRF9UUmFxT3ptRlFqaE1MQQ?oc=5",
-    "source": "MarketWatch",
+    "source": "marketwatch.com",
     "published": "2026-09-21T11:49:00+00:00"
   },
   {
@@ -352,6 +400,22 @@
     "published": "2026-09-20T13:45:00+00:00"
   },
   {
+    "label": "MPWR",
+    "topic": "MPWR",
+    "title": "Wall Street Thinks Monolithic Power Stock Is Worth 50% More. Here’s the Catch. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZW1Wa0g3NGxoeTJ0aUd5dkt5ZFVsSGZUWm81NU5oM1VWcVZ2djVwS0p3SHNDTDAyZjl0NTJQUnlHZHhNRkoxSHZ3RlNxaGhvSEp0VUwyeVJLWDZWNVZtWnBWQ09KNzZvUlZZZzQ2aVI4dGpZcVdjZjYwbFN0NTlmWVhXc3Z3UWpRY2doczh1R1JGYmNzZUU1SmFVbXBqYVhQa0E?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-20T10:49:37+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Nvidia Stock And 2 US AI Infrastructure Plays Tied To Federal Defense Spending - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaXBENW0tZU0tRjF2cUQ3eWo5U2pGSnNFOXI5TDhneHN0LWFoRXdraUtUZUM0bEdQcHU2Rm1BdENJbVNwU0Q2aGRWRTZRZDZxRmhyMlpJblFPT1JrTDZPMVRoakpnRGw3WC1JTGMwLW9pZDVNYjhIbi03S1UtMFp5SmxLTFZxZmd4R2R1Tw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-20T02:11:00+00:00"
+  },
+  {
     "label": "AMAT",
     "topic": "AMAT",
     "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy in 2026? - Yahoo Finance",
@@ -390,6 +454,14 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZS1uVExKbkFEcHpfQ19mc3hFQVZVaEtDdWdZS2RzSWltbFNoMXVUTzhweDBURFBsQXJGYmE5a1MwWkctWG03SG5ZYTd0dDhKLWUxdElNRGgwTmVyTmhoMl9YOW1XVnU5TlJtV3lwU2lqUWcyeFlSNWFjUVhOY3VLVVZ0dk53MDJ6ejFF?oc=5",
     "source": "AP News",
     "published": "2026-09-19T04:08:00+00:00"
+  },
+  {
+    "label": "AMGN",
+    "topic": "AMGN",
+    "title": "Amgen (AMGN) Stock Sees Modest Fair Value Lift As Analysts Weigh Pipeline Risks - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM1N2SWgtQnl2MVZwaHR0ZVFNZXpCeDdCYktJVlRIUXBZdEpfWHNrWktCTmdQSDFxZlJJM3BiWmVzaXpTdEptYldnVHNnYTZXMkNraW1wNlhIemlrYjEwb19xbVhWRk1YMFZPeHI3NUY4RTNGckVyUnZ2S2s0dWFuNThmcjU0djR2NnhibUdIYTVHajJlVnhJUw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-19T02:09:00+00:00"
   },
   {
     "label": "Nasdaq",
@@ -446,69 +518,5 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRENEWUxlWTEwLWs5UHVZcjBOMWNkYjBQUGpnUU1JTFNqNEtLaXo4X3R3UFl3Mm9sdzJtdU5YZS1XbVhMSlgxYWc1VERyLWFJMHkyekRjeklyTWoxVHhNcDRpRkl1RkppNkd5aUEyM3g0aVN3MGZjT09iWWRIeEF6MktFVVE3aG1OVU5tak92RkdnT3AtY3NNdXFGdzU2RGxtTjU0c2tQM00?oc=5",
     "source": "AP News",
     "published": "2026-09-18T17:15:00+00:00"
-  },
-  {
-    "label": "LRCX",
-    "topic": "LRCX",
-    "title": "Lam Research Climbs 5% as Chip Equipment Names Outrun the Sector; Applied Materials Rises 4%, KLA Corp. Gains 3% - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNTBUSGtNV0U3cFZYMFZCV0NyNzljOVNWaFJpcUg5a2JWRFd6dklxVDhqeU4tMDE2RFkxRHdUUVA3TEthN0pmVE5aUWEwejRVamI2RVJseE13T0czNXBIVVdZWmFwMnp1Ty1vV3ZpVDNFU3FJMGZFZUJJcUM5TFFfVlg3SVhyckIxb3ZScHh2WVc5dE1KeWc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-18T16:59:44+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes - cnbc.com",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXdfWXNIMEY2YkdDSGh2cWVONW03aXdjUFFuUGV5cmswQnNjQlgzNTJTWTBiM3ZnZmY4Wl95MmRYOGFyeDB6YjJwTTdDdk94QU1jendxcHZxemF2dExzdFh1WWwzeE0tMTdnWUFLWUhqeTdUMm9ORG53UGVoaU1zSVhVU3hkV1RNaDNqNmNjMVo2VUVteXR0NnE1dHZUZGo2WUZUMWNYdzlnR3FGcWNrRlhqU0hUX21VUUI4aE50bUFmb2tVdDZMMldYNG_SAdIBQVVfeXFMTy1qakhvTjZoRU1JZjNhZDFtUjN3cWg5N3JmQjQ4RnpsZGFUVW5pVWFOOXdlWDhnMjBMRzN2SnBObjF2OTBTTGZCWW5sX3NheHNjVHhEY2NVVkt5YXU2S1AyNFRRamM1UXhYN0NWTGUwOHRTc0hxVVdMT0xITXZXN05MZ01jOGdIU1pfVTkybXMyY081a1hIYUtqTWFKMzdFVXIwYVZmT19PbXlOTzNIenN1YXhKY1RvTkd2SkctZ01VOGVFN0p0bTR5X2RTQ1MyVlhn?oc=5",
-    "source": "cnbc.com",
-    "published": "2026-09-18T16:33:43+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSXdfWXNIMEY2YkdDSGh2cWVONW03aXdjUFFuUGV5cmswQnNjQlgzNTJTWTBiM3ZnZmY4Wl95MmRYOGFyeDB6YjJwTTdDdk94QU1jendxcHZxemF2dExzdFh1WWwzeE0tMTdnWUFLWUhqeTdUMm9ORG53UGVoaU1zSVhVU3hkV1RNaDNqNmNjMVo2VUVteXR0NnE1dHZUZGo2WUZUMWNYdzlnR3FGcWNrRlhqU0hUX21VUUI4aE50bUFmb2tVdDZMMldYNG8?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-18T16:33:43+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq slip as bond yields rise - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSTQ4ZWJNcGhmdVVSY0JsQWxWb2dYRUJLU1cxWnNMU0tRRUtEeXVjTkFUZzdObEljT0ZOY0x0TDZDd1J1X1E2TExEdTBWSzFMMmdjRnRXS3BJQ3l1RURIV1V3elFCck5TcTZPTGUyV3FUSXJ0cFhVaEI3ajRCaFB0c2E4M09LMUo0WEs0MmJ4Sk1haU5tYmRwQjRtRGE2OUdFXzFVV0tqSVE1QXBFc2Rr?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-18T16:08:43+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "Eisman Says Buy Micron And SK Hynix. “In This Knife Fight You Want To Be The One Selling The Knives” - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNczdhejV5UzJ6VUpvQThScVBzdWxGRV84OWJDalU3WDUxWWt0T2o1WEt0TGdFVTdaVFpHLW1JVC12UVNIVmp5SnVGSmxlUTYyOGliZU9zVW5mejVWV2xZR2RZM2F6Q2IyUVZTWFFLMWZvNldnUXVUZmJIVU8tSnJiWUROVmxvbGZuOTRCc0lsbl9RbWhl?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-18T14:38:52+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "US envoy raps Czech Republic for lagging on defence spending - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjRra2p4Mll1WENLMEpndmdmTk40Qm51OE8zN3VVdkUtS19fWmhfQXpWamJFZ2R6QTV4QzNlT0xPZnJqTzBlUzdJV2tlX0dUTGJ3UnZ2WUNYYkpjdHFlSUlYNDNrVC1SbkZROTBQbXdVckdrSWd3dWp4RlF2MHFXOHF4WHBkQWs0aTAxWVAtLTU4NkxNbUtUUEVkQQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-18T13:33:42+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500 futures are little changed after Thursday's post-Fed bounce: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zb1FPNjVUSjZxQjBrLTQtUmxMUk1DZVlPcmMyZDk4cy10VXJ1djlDNVJKUVRJcUdQN0t1N1VMZl9pNUdNT3ZLRXpyZkhESDRjdlR0T2EwUFYzSEVyR3ZsaEQzbTlUVno5UzRBTTJCckt4N09xb1h30gF8QVVfeXFMTkNJQ1JtdXJ5cnhhZnB4OERzOFBZS0tkaFNCLTR5TUVGR1VwWEM2cEVKT2dNN0RXRW9BNXJwYl9oN00wSm14b196ZEZoMnpoOVc5NDB6T2UwQ21yV2pVYzZFRWFlTC1YRE1SeC1wLVhEMWU2VGZ1eUZVel9IbA?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-18T13:26:26+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "The Federal Reserve Just Raised Interest Rates for the First Time Since 2023. Here's What History Says Happens in the Stock Market Next. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQWtlaHBuZzFtWE53S2UwVkR1dVFKQS0wVXRuTFNnQWtpX21USzI2dVI0VVEyZDROem9FU3BrVElobktNX21Zb2kxM0l3N2pEWUQ4QVBGaEh1YmU5b2hKeFVsSGRLbWgwZV84bk1URS1VMkhIY3U2VzZKWTRsbDFCeG1iWG5wdGZraHplTlpZZDVUQVFmR2g5WnpoYjF5Umh5?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-18T13:24:00+00:00"
   }
 ]
