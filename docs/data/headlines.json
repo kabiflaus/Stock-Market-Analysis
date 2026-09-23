@@ -1,11 +1,67 @@
 [
   {
+    "label": "GOOGL",
+    "topic": "GOOGL",
+    "title": "Alphabet Drops 4%, Meta Edges Higher as AI Rotation Splits Big Tech; Microsoft Holds Flat - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcF9IbUE2SGFHTTljaWJBV3F6ZHJPWW5mM2FOMk5vZWI5OVBlRkdGV251TXVsV1Jscm5haXZuYXh1bjMybGRUWWJxdU1oaXBTeHVzOTZhOG1Qb1FISzY4N0sxb0RsT1V0c25SM2JkazV0bjhJckJVcjNhMHpIRGRKZkFNOTJwYk5WQ2xfOWZnWGdQb1FnTTdj?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-23T16:57:41+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq fall as 10-year yield surges to 2007 high ahead of Trump-Xi meeting - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOFh1eVpnV2kwYk5mNDA5SWtNeUlra1k3NlRWSnZ4cmNXRThjVkFYa3AxcVpxekZCV2l5dWV6a0VqSlN0M0VXYjJxQzZrQ1llZXVrZ25MZmNIM0JDSHVGR2F5WkE1Z0tJTUU3TV9TTVdXaF9laE1CcXZvSkcwRW1mM1plWDBOYmJMTzdGb0hhRE9oeHhXcUZ0SjUwLUhreTl3MUFoVTRpN2pxZG9hcTJtdlk4QQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-23T16:55:56+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil holds near two-week lows while diesel cracks hit record peak - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-23T12:09:53+00:00"
+    "topic": "US-Renditen",
+    "title": "What's the Significance of the 10-Year Treasury Yield? Here's Why It Matters to Stock and Bond Investors - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSDItMGFsRE9KcEhOZVdUckhJbUlrbkpVVXZkVUNVdGZ3WXBXOFpPcTRmU05aSHdpU0pwRk96MUtnRXFzRmRxLUFiSzRXOHRKSmlualBUUkxzSktNeVM0RVhpRWpvTmVhN0d1LWV0WkVRczVfbkxuMjZiUGRKc3VVV1hhV0N2M0V2ZGV3VThhWUNiZUwyVTJQQ1NMWDh0X3dIcGYw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-23T15:30:00+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-year Treasury yield hits highest level since 2007 as market prices in another Fed rate hike - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNejhIT3hkdy1lNS1yaVAzak4wRml4OFdvUVcwSkhpUHBKREZ6cTRGNGRDYkZXOFhaS1h4NHhHUWpOZXBvWWU5ZUp0aC0tb2Z4Z1FzVEZIVFp1cDN5VFJpdDkyM2x4cDFpZ2JQSzktWDZmZjZOUXYtUmlIcGZ5cDl5VXhEYy1MX2ExMW5reXNoeklqYl9GX2N0SzM3VmxpeEh2UEphc3k2VjcwNXNvSVBzOUQ5MHdzVFJ4akxoS1JtZmFkeklxWk1NOVJYNTN3UG1oYWI1eUZIT2xaXy11MlNvemRDWXlyQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-23T15:27:44+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Bond market losses may offer a sizable tax savings opportunity to investors right now - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZFVCXzJJeGVrMVJjUEN6Wm5xUDhxbkxUbXRrc2pRSl9keXFrVnpzZGp5cENHaFIwazU0OWVqRFlGM0R2ZTFVRUQtLU51SW9VN3pFNWduV05qaVZLUzQ2WWxjUzVhWjh6Z29vX1VGZFVrU3pHWEU5WnpsSW1SVEtCedIBhgFBVV95cUxNWmpwSW1MWmE0M3NhNHFQU2JCZzFPc2VjN0dwQkNOUC1WaE5lZktMRDJkMUhxYkNnazU2NjVJRFBaWkl1YXl0Q2p2enlqQ2h2aUVrNGJ1cG9RV0gtY1ViUnhFX3pMRVVrbndyTWpZdkdOSzY5QWxrNDlqRGg3RWlGb0wwU2FxUQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-23T14:15:02+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock Market Today (Sept. 23, 2026): Nasdaq futures edge higher as U.S.-Iran talks continue - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTEZ6SFNOQllKRzBTR0pUek5JMGlTZS02UVRmcXhDbjBpN3dFY3E3a0c4dXpRMjdOTTJES1JXUktUWmJ2R2RxMEdpM3NLckhKQVdpcGVoZmYtS010RlVTa3BhenBmQXhYTjQwNFI2b0gybjhzM3hDdFJ0ZVB2dmFQTmQwMWpVV0VIMFN1V19mMzA3THBPdHc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-23T13:48:02+00:00"
+  },
+  {
+    "label": "GOOG",
+    "topic": "GOOG",
+    "title": "Prediction: The Cheapest Mega Cap in the AI Trade, Alphabet Could Hit $600 in 2027 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdDQ3Q1FiXy1pS2w1Q0tmcy1CdTZidHU3bzhsM3BoSS1NMFpEVG54aHBNb3Nzb0t4cEJOMzlJU244LTlvQ2dkalI5MFNfX21OQ3lUUDFISzI4aTlVSDlKR091VkVhOVVjWEJWQXVXMVNmLUJjWHBwVnJoWE5zajZQSkphQWNwaG5aMjcya255Z01HNUZVV1NBYmtodkI?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-23T13:30:31+00:00"
+  },
+  {
+    "label": "INTU",
+    "topic": "INTU",
+    "title": "Intuit Crashed Over Agentic AI Fears in 2026: One Wall Street Analyst Says Nope, Near 50% Gains on the Way - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMkxtbEY0V213bzB1SEZOMWl5S0tGeG9iaEhtQVJfUzV4S0VGNWZRaXhiX3daWUdpRVlRbFRYbkhCanRqbEhMQ3Z2Q3NZTXZvX0M1Rk56c2IwT2tjcXlYdjRMc09Cb05LdmxqbG9GM0Rad2FsZzUtWEMzNWpVOURYeTlLWWhCZjlpR0lidlJKeXZhNVBYdEljQ1hsaw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-23T13:24:27+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -69,7 +125,7 @@
     "title": "A more hawkish ECB will respond to prolonged high energy prices - Financial Times",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LVm1LSXFOVEhYbjBMTklZa3BPZWk3RDZWT1pWb29hRll1YTNXdFFaZTNxc2M5dGJuUDN4V0lIckdFbTVzS2dSeU95MGZiUFhIRmJ2SlRWNnRPbG1VS0lzSE9IdkxBeWF4NHRIdXRGVDM?oc=5",
     "source": "Financial Times",
-    "published": "2026-09-23T04:34:32+00:00"
+    "published": "2026-09-23T04:30:08+00:00"
   },
   {
     "label": "Nasdaq",
@@ -82,7 +138,15 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
-    "title": "Oil prices mixed after U.S. and Iran talk for hours at UN meeting - CNBC",
+    "title": "Oil up almost 2% as Iran's president vows to never surrender - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-23T01:44:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices rise after five-day losing streak - CNBC",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jRmVBbWp6NkRiRDNUZGZDQXl4STBBNVlqdl9sSzNNZGxNbEg0bHkzaE5sNm9NVkRRRE9zSHVjdERobTN3V2lTRDhGdllrcTd0dzk4eDN3a3RUeEY4bGI1c2F5azluVDZvRmluNlBETVdnVlgxQWfSAXtBVV95cUxNYnBvYXFFNUQ2STVBNmI4c2V4VEZIWlA3bTlYRnlRRy1ZMnNDcGhjOGNUWmJ1SUV4eG5hdXJXNGxINkZuYUJfQ2QxRktBMkIzQzIyR0F1NklJNWFOZmxvdXNsNGFTVnRSVTZPTk9fRGl0N1ljMUl4NDNEQzg?oc=5",
     "source": "CNBC",
     "published": "2026-09-23T01:04:00+00:00"
@@ -94,6 +158,14 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbFhLX0NvRjVVMllHRHFlVkFsWmJJQzNoM2lFREtQR2ZCZl9xWHFZNFdsU2JhT3ZnbDcxdUVvR1l1SE5wNF9idm5YYzA1OXV5OHdBOGVCVi1xZVRMZXNsbmZhZlNDTGU1VldEVDVJTHZsQi1XN3ZWVGF4THZSU0ZEOW1yZDBFR04zcUlPbg?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-22T21:17:07+00:00"
+  },
+  {
+    "label": "INTU",
+    "topic": "INTU",
+    "title": "Intuit Inc. stock outperforms competitors despite losses on the day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNVRKT3dFbzFfNi03MmxUdjU5TTM0Sy1reUNaZ3BpR0pkV1BUdjcxMXBrYThwOEw5b3loaC1POW1SNnNVX081cmNIOVlqeTh0TElLNGFlNWhEWG5nUmttb1J3SWZkdTY1ZUlIaE85eUUwcWFna0gxNlhOcDJ3b1RES1RuUlB1Z2lSYnl1T3FPOXBaaFRWekMtdW1mQmxMWENsYmFqZkcxeDBfSmFnVHMtWUVHb0x2eHNmc29IYU1EYXk4M3hGV3ppd0wzU1NyTldicXhCYUltUGF4ZE9l?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-22T20:42:00+00:00"
   },
   {
     "label": "ADBE",
@@ -110,6 +182,22 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMUJMNWVIeENVNTR2RDVpX2NYTmxMUTJsT2pndndBZFRibTFWVFhyVFFBR2NaOFlZTzNnY3d3LXNYb2NST0N0UzVKRTlvdVRWNWFSTVpVNklJS21DbTlWcXZIM0RaMHZpV1YzUk9jTDl2STE4TkFkcFluSEYyVmFVT1JLWG1EN3hHUFdkNWcxc1lIMlBBWlBTSFNqeWduWHl4V0I5R0FXLUZkVEFZQi1OVjBYajJSOUFjQ094XzB3?oc=5",
     "source": "MarketWatch",
     "published": "2026-09-22T20:30:00+00:00"
+  },
+  {
+    "label": "INTU",
+    "topic": "INTU",
+    "title": "Trump made over 1,000 July stock trades worth up to $270m, filings reveal - theguardian.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMG00ZkZTSHBpNzY0MFUxeWNqUVdNSnlpeERpWW9FVFNIRUlZakg5c1VqN1V0SFNYMEM0S1BuUVV6SEQ2SlBTS2t2WkxpSzc1LXNKOU1ZWUtqUjc2MmktYnZJODZKeG41SW5JQ001WkJ6V0E4VURseXFjX2xrSWphUVhsZmM?oc=5",
+    "source": "theguardian.com",
+    "published": "2026-09-22T20:16:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices settle lower as crude flows from Middle East improve - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMzJ5LUNVMlYtZzRwaGc4MDRoSlpkWFJpVkZnUWlIR2dhbHlqc3ltYXpEQTd2SmhDWlhydUFqMkpMQ2FrZkk0NzlUYWwwR0R2SDBKcWMxaklPcV9FNGpvN2tYOExMb1kzMzZFTGJrNHpvY1FvSElhUDBBSDgxakxoUTlJOXVncjJJbXQyZy15bHFkUzViQlhlTHpMeUNpa2lxN0E?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-22T19:35:11+00:00"
   },
   {
     "label": "CSCO",
@@ -576,6 +664,14 @@
     "published": "2026-09-20T15:13:44+00:00"
   },
   {
+    "label": "MPC",
+    "topic": "MPC",
+    "title": "Marathon Petroleum (MPC) Could Smash its All-Time High, UBS Says - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX2tiV2Jady1weW00SDVxckQ4WXZSWFh4bnI4Vlg2YlBoZnYzVUNhT1NObUdFNjNUSmVLc2pyOHdocVcwY3RxNFhqZmY3LVluY0RpMWIxSm1GNEZVUnRXQUFXNVh5eWp3dGlpWF9PUlhBNjlNR2YzcmoycEVnSk4yNy1DaDJVRTVmQ0t6VGJkNzg4aTd1RDBlYTYwZlRQUHlQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-20T15:06:34+00:00"
+  },
+  {
     "label": "INTU",
     "topic": "INTU",
     "title": "Intuit Stock Analysis: Why Street Sees 34% Upside. - Yahoo Finance",
@@ -614,13 +710,5 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYTZEZTFYSm9UU00ySXZIQTdLcEt1N0JkZGFSNVUzUDZPeGFaQmptVDRxS05fWWRtRUxBeHQ0TFI1YnhLa005Q1lMT0VnQWx3ZVdMX3Nfc3Zfdnc4T3lid3lBYWlWN1R3VGlqbXRrTVdzYjcwZFgxNlVINnZOVUlOZW5UVUVWR3l5bUFTa253OG5XZUczZkJsUl9YV0JLdw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-20T01:35:00+00:00"
-  },
-  {
-    "label": "KLAC",
-    "topic": "KLAC",
-    "title": "Better Artificial Intelligence Stock: Aehr Test Systems vs. KLA Corporation - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM2l6bE51clNrcTJMSUE3c0RyX2J3SzdNemhmSWZxMXhPZ1l2eHRaOGNkdWFSMzRmZlpFTy1mMlZzTkd1dXNnTXNwVkhlbmFXUzMtbllZSzVTQkRUWmpMTnM3dWdocXAzUUY2YzAzUVExWkpRc2JsS1FLTXFkMkxmZk14S05xOUI1YkR6OThhX080MXNIdWR1UXNlN3E2Tnhyb0tWVzdieXNiZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-19T16:23:16+00:00"
   }
 ]
