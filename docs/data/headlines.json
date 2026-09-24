@@ -1,5 +1,21 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures slide as bond sell-off troubles markets, China's Xi Jinping lands in US - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaVZEcVBrek55VmF3RHMxd3ZnamdrdlFzdW40dkJtS2dFeWp1bnFzcU00SnVpaGJ1eWVsZ0doRVRMTVJYdERjUXFvaUkwR2FxNlAtQ0l3cXllTXpkMHNHRkpxZzBPazFkeWJGY29YenV5T0ZXWkUxTnY5UEdyUUZhY01ZRnlyVGV2blpmeWZnV1Z2b1FJcXgxZWhjTWdlVnU1VU11MHRJUFJlUVo4UENHRXF3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-24T12:00:12+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices rise more than 2% amid stalled US-Iran diplomatic efforts - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUzlKS2E0OHNrb3hvdVY0bFA0RTNEM3dFNXQzaldSMDk3cFlfbnFtZkQ2TEFabTZGRzF2NUpMWmFSeUZmVldTb05keEI2NTlKT0d2NEdCS3RnWWR6S0NFV0JoT2F2cGNIUmxma09UQkxEZHdqaFdLM1BScURsM2Q1ZmRYeWVOUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-24T10:45:35+00:00"
+  },
+  {
     "label": "INTU",
     "topic": "INTU",
     "title": "Intuit (INTU) Bets on AI and Big Bets. Can They Offset Slower Growth? - Yahoo Finance",
@@ -10,18 +26,18 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures slide as bond sell-off troubles markets, China's Xi Jinping lands in US - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaVZEcVBrek55VmF3RHMxd3ZnamdrdlFzdW40dkJtS2dFeWp1bnFzcU00SnVpaGJ1eWVsZ0doRVRMTVJYdERjUXFvaUkwR2FxNlAtQ0l3cXllTXpkMHNHRkpxZzBPazFkeWJGY29YenV5T0ZXWkUxTnY5UEdyUUZhY01ZRnlyVGV2blpmeWZnV1Z2b1FJcXgxZWhjTWdlVnU1VU11MHRJUFJlUVo4UENHRXF3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-24T10:00:21+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
     "title": "Nasdaq futures fall 1% after soaring Treasury yields trigger market sell-off: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kSThnZGdDMlpreHVoQ2NfOEs2blNBWnhLZWZyZjUzUVdhT0JwTjBQMDJ0b1F4cFRiaW1icDNTNHpSdEFLVmpKM2MxT3Voa25WSUxwY1RsYno3UU5qTG1Ec09mU3lveEFYUTk5VVFTbDdXQU9PT2xj0gF8QVVfeXFMT3hBNUw4aTh3Q1VGT1RZUXZ2RUtmamZLZXd6TGRkVExWQmVFVWw0RHJPNnBxMjJMcXREZF93enk1VFdkMGEwS21ZX21GbG54QWVqZ3hQZFgzZ3VockF0enVCdkhQYkhNbk1VNndtNFIxY2F2bnRNZHYxLVdCaA?oc=5",
     "source": "CNBC",
     "published": "2026-09-24T09:17:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed's Williams says it is reasonable to see another US rate hike this year - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkdqZ3lLWVItQUduVDZkZW45dEhCcmIwUEM4QlZFSVoxN0QxVEl0NTk4MmtqYVktY3JjNGFGOGZSaVRNMDJFX1QzTXRjYnVkWm0yQUFlU1hWRTNsbXRlY0pIa3RGWEtkamtjdUhERE1qLVlsQTgyNjBGSzA0ZXFLS29pQXM3QTBOTHZuYXRZT2paWlBPWk90eFM3NzFBRnBTZFZaVGF3cFA0V3lCY1I5T09FQWVhdw?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-24T09:04:00+00:00"
   },
   {
     "label": "S&P 500",
@@ -34,7 +50,7 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields continue to rise after 10-year hit 19-year high as investors ramp-up rate hike bets - CNBC",
+    "title": "30-year Treasury yield hits highest level since 2004 - CNBC",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNUZ0WWI3VTlPbHQ3STNaSkxXYlY4V3VuWjl1Vk1NekZVVF8yc25tcEJCSTYyRXNwRHNQTDFIdDUwNjBZeDFKMVE1cjFYR2lKYVBhNVAzVTZwWDFJaHJVamJNOUw3c2daanUtNVJHZUwzdDJqYzJsLUdSQ2hhbEdDU9IBhgFBVV95cUxNbUlucHpWTkdaWTZyZFR2M3JFOTFEVFFFVHgzRXpDSlgzVXZMU3c2UG5VYzRKbDJpeUJxeWMzcVRCVWlfa0ZYc0k4N25UMk03MHI4RF95cW43YklydExmNkJhblZscWo3cWNqZEVLblVzSjBIbFdkY0FhUzdHX1JrZ3VVb0dhZw?oc=5",
     "source": "CNBC",
     "published": "2026-09-24T07:16:10+00:00"
@@ -96,8 +112,8 @@
     "published": "2026-09-23T20:24:49+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "Bond yields surge above 5% as Wall Street fears more Fed rate hikes - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWWJMOGx4MkZURnVjUExNcnhnajRQQ0dnN0hieTVZUEtlQUp2cjdmRWpGZXFub2VxSVByYlVKUnpWSm9kb09DQ2h1UTJMa1pKSlVwbHhYR29jZ3I4ZUR1MGo1SHpwQUQ4U3BkOHhUUGVfOWQyb3Q1QU9ZcEpzX05Ld1BCNktGcUJCRzkxUnBYVmhYWXBBOVF5MUZuS1pZdVJMVG9sWHdEMTljYXRjVC14QUY0RlJsdDY4WlhQbm1fak4?oc=5",
     "source": "MarketWatch",
@@ -166,6 +182,14 @@
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNejhIT3hkdy1lNS1yaVAzak4wRml4OFdvUVcwSkhpUHBKREZ6cTRGNGRDYkZXOFhaS1h4NHhHUWpOZXBvWWU5ZUp0aC0tb2Z4Z1FzVEZIVFp1cDN5VFJpdDkyM2x4cDFpZ2JQSzktWDZmZjZOUXYtUmlIcGZ5cDl5VXhEYy1MX2ExMW5reXNoeklqYl9GX2N0SzM3VmxpeEh2UEphc3k2VjcwNXNvSVBzOUQ5MHdzVFJ4akxoS1JtZmFkeklxWk1NOVJYNTN3UG1oYWI1eUZIT2xaXy11MlNvemRDWXlyQQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-23T15:27:44+00:00"
+  },
+  {
+    "label": "Konsum",
+    "topic": "Konsum",
+    "title": "3 Retail Stocks Facing Margin Pressure as Consumers Trade Down - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM3d1dHo2LWc1UzFMb0JlcENkNXRLY2ppeG1iMlZhVHBBeG1MdnJSdFRQeWo0QW9tTzY4eTNsY3RsS3NQR29ma3pnUERfQ2lMRE1tVXRMLUc5azNDWDRpVjFCVTdSMWM5cXV6TVlLcEpVNElSSVlNRUx0X2dORDk4cUd3bV9tOWdwRkU0dkZnRmlTSTdpMk42QUJR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-23T15:21:01+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -648,6 +672,14 @@
     "published": "2026-09-21T15:50:26+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil price dips to $100 on hopes of US-Iran diplomacy, partial recovery in Saudi exports - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEljbFotbFNVU2Nyb1oyaElIUXJJc1ltUmF5a1FrMl9xbEwyNG9LOWwyZ3F2dUZIUl9QYnd6OXU1cU10UGx0QzkxaVp6QkoxY3ZYSm1qc3FvbFprT29VcldJZ3V1Y1YtZ1A3MjEtTUo2dk9laHFBaWZBMFNOMmZDVC16aDBhYUdmdmZFdUJ4d0hoMW5hZTgxRk1ETQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-21T15:45:38+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "AMD Stock Jumps. Record Chip Exports Point to Strong AI Demand - Yahoo Finance",
@@ -808,14 +840,6 @@
     "published": "2026-09-21T04:00:18+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil price dips to $100 on hopes of US-Iran diplomacy, partial recovery in Saudi exports - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEljbFotbFNVU2Nyb1oyaElIUXJJc1ltUmF5a1FrMl9xbEwyNG9LOWwyZ3F2dUZIUl9QYnd6OXU1cU10UGx0QzkxaVp6QkoxY3ZYSm1qc3FvbFprT29VcldJZ3V1Y1YtZ1A3MjEtTUo2dk9laHFBaWZBMFNOMmZDVC16aDBhYUdmdmZFdUJ4d0hoMW5hZTgxRk1ETQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-20T22:10:00+00:00"
-  },
-  {
     "label": "AI",
     "topic": "AI",
     "title": "3 AI Hardware Stocks Linked To Nvidia And US China Trade Talks - Yahoo Finance",
@@ -846,13 +870,5 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeUxpb0hhaEY4MGl0T21yM2ZObndRRlBrc0owTWxDM1FKMlFrWmF5Q21aNGFXdFh2QW5RRTJMMkVZSnJkdnpJMEdTWEFzTjFLQ2RCUWNqWXdlVVJoalBTLUxTMFJHN3pQVlAyLTdGLXBDdnlWbFlzMEJRTlowcklrY2NOaXEyOUE0cG4zQS1oRkxFR1JORWFBNHdJUXRnSGpILWc?oc=5",
     "source": "AP News",
     "published": "2026-09-20T13:45:00+00:00"
-  },
-  {
-    "label": "MPWR",
-    "topic": "MPWR",
-    "title": "Wall Street Thinks Monolithic Power Stock Is Worth 50% More. Here’s the Catch. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZW1Wa0g3NGxoeTJ0aUd5dkt5ZFVsSGZUWm81NU5oM1VWcVZ2djVwS0p3SHNDTDAyZjl0NTJQUnlHZHhNRkoxSHZ3RlNxaGhvSEp0VUwyeVJLWDZWNVZtWnBWQ09KNzZvUlZZZzQ2aVI4dGpZcVdjZjYwbFN0NTlmWVhXc3Z3UWpRY2doczh1R1JGYmNzZUU1SmFVbXBqYVhQa0E?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-20T10:49:37+00:00"
   }
 ]
