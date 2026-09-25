@@ -8,6 +8,14 @@
     "published": "2026-09-25T16:40:09+00:00"
   },
   {
+    "label": "BAS.DE",
+    "topic": "BAS.DE",
+    "title": "Germany's BASF approaches Evonik to create global chemicals giant - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVTRzNmNGdnRuX1ByTm9KcTA4M3RPc2otTG5idGplY255bk9aVjJaYjJSNjAyakVvWHpjaDBpeENQTTB0dUNQNkJWckpndXB0YXY4X0lGYWNLaVFVZlFRUHNPNVIydFRxXzI2UDA3cXhYUlNMTnVrVFd3MHJoUnYtWlZjZU5SYzM5WjRzZ2M2RjhPRVk0dk5qSldSMFdvN2lCaS1nSzVHNDNlR2lZVHJtZTFXYkxVZWc?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-25T16:27:18+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "UK shares log weekly gains as banks, miners offset energy drag - reuters.com",
@@ -17,11 +25,27 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Crude Prices Fall as Iran Offers to Reopen Strait of Hormuz - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaHBfZ3BUeHhObTlnTTBBUTJLdGM2RnkzN1VweG1FWEs5NEJ2V0xtUWFsR21RQnlYdGhfeUJOYnQ0NnQ0bDVXTWt5OXZfZUl4T0hRTmdFc05Lb1ViemdtOWpVUXJpTVIzbDhfUDZ0TWluRHFrMU0tcTJqQW1DaElscjVDYU55LWg4ZWxIWUxxdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-25T15:10:58+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
-    "title": "Why investors aren’t buying yet another attempt by the Treasury Department to calm the rattled bond market - MarketWatch",
+    "title": "Why investors aren’t buying yet another attempt by the Treasury Department to calm the rattled bond market - marketwatch.com",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNa29VVWtzaFZBc2t3OThsbW1XVzNCbG1GMTlBbEtxSzhZZEJRRDlJVWl4aXpmLVpTNEZyZERRUy1CSjZ0LXVobW9QRGlVc1g4UHVjTmx2YzJXR0NIVk96WUlLT3dTcFd2OF9HdTNCdDRiVmNYUVphM0tfcEREMnRoREFxb2gtdXN3bFNyWlhDSXJoZnNua2tpc2lQY29BT3BDRkhSYVY5ZzI1RktPOXFGTGMtQ3cyZ3BxZmpOMU5Xc3NGQzRjQ21GLWpyWDBBbEdjcnFV?oc=5",
-    "source": "MarketWatch",
+    "source": "marketwatch.com",
     "published": "2026-09-25T14:17:00+00:00"
+  },
+  {
+    "label": "BAS.DE",
+    "topic": "BAS.DE",
+    "title": "BASF proposes takeover of German chemical rival Evonik, Financial Times reports - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYUpzMlhMcm5GbkJPV3d2VVQ0d3JwblpCbWdkSU1QdGNFUGlQdFlzR3JVekZCMjdfeldCYTVTdi1scFZWZW9Ock4xa1pUZDgzdkNlRFZEU2d5MW5fSjB6LTlmbUplWGVSYm9rSDZMckQtbnBaZTk2YUJtQzZ4eG5KZ25wV3RwU1l5MVRTUjh5cHVnVzJPSldYdHRhd2hzWHZ0RExDUE5n?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-25T13:09:28+00:00"
   },
   {
     "label": "MSFT",
@@ -34,9 +58,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
-    "title": "UK diesel price close to all-time high - bbc.com",
+    "title": "UK diesel price close to all-time high - BBC",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vN0tpNVdZWWNRUC1TdVFmZE1FNWpURGFiUlVQYU9ENW92U1k0U0tCMnVXcjdSd2xHRUV2bTFZMnVfM3pQWEFqNDdDalBIakJMOF80dXlVVTlRdw?oc=5",
-    "source": "bbc.com",
+    "source": "BBC",
     "published": "2026-09-25T10:50:49+00:00"
   },
   {
@@ -80,12 +104,28 @@
     "published": "2026-09-25T05:12:01+00:00"
   },
   {
+    "label": "MCHP",
+    "topic": "MCHP",
+    "title": "Microchip Technology (MCHP) Has Investors Asking A New Question - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVXJhN1A5a2pMcFhiN2tjU0NjYTEwbzJOcUlFaFd3TnJycDg3RVRoY1BWMU42M2wzRDdIdlNxQmlfcEZobzhnVDRuS0NNbGVLdHJOeUljQm9hblVLMHkxWEl2VzRsYmZ4QWdHTVQyOGlvb0VvdHZEQ3AtYU1ZMHczRmY5YTVnNmhYMXhwcWFGZjNCVEp5MlhkOFVpS2VWNExvRWprRjB6THU4X2s?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-25T04:25:00+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Treasury yields rip higher on renewed inflation fear - Axios",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KR09CcUNkLXdlajBEdjVCWWlmLVo1aWVDYXlJbkhQTkFKcUFnQXQwUXphazNFOVZUQWpNcWNuLTZxU2plMHcwT1RfcFhvd2FQR2ZwOUdEa2NyRWlpRnVfdGVDYXVBcjh3YkVVSWJhdGd6UQ?oc=5",
     "source": "Axios",
     "published": "2026-09-25T04:16:12+00:00"
+  },
+  {
+    "label": "MSFT",
+    "topic": "MSFT",
+    "title": "Microsoft vs. Amazon: Which AI Cloud Stock Converts Capex Into Profits Better? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWVGTjZ1VzJQbjJfemxFWHppOTkzYmZJbDVLWTlrRzZqUV9FYmN6SHdCOURKekNqWGo3c0lYMXZIcG11T2RBZ3V6dTQ3RktRSXpDRVkwZmJPeTN4Y2o3blIyblRjMFU1c2IxNm9vYjZlUzNjVmFoZnQ3TldmeS1hR3BnZUpuaDBzR1JMZDh1bi1RQlhXSUxR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-25T03:52:00+00:00"
   },
   {
     "label": "S&P 500",
@@ -98,9 +138,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
-    "title": "Oil prices drop about 3% as US, Iran explore path out of war - reuters.com",
+    "title": "Oil prices drop about 3% as US, Iran explore path out of war - Reuters",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-25T01:11:00+00:00"
   },
   {
@@ -146,9 +186,9 @@
   {
     "label": "MCHP",
     "topic": "MCHP",
-    "title": "Microchip Technology Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
+    "title": "Microchip Technology Inc. stock underperforms Thursday when compared to competitors - marketwatch.com",
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOOUNuOE9BVHowNDg2RFhnbmFLM3ViN2I4T0g5NXY3VS14NUlwR1Z3bmJqdkNzQ3NGYW1qdXZaVi04YWhBNkJvWnF1bTR0cGYzdEozeEZJbkJhVmk5VVBncUluQ3J5NW5FdmV4MWJ2eWFwa2RQdW9GekdERWZTOUtZVjlBamZsajZLVUtwamdvdGNTOFFRNHY2VDdjam00XzNhNFhBY0JfQ1AwMjJ3Z0hwQklHSFpLUkhWSUF3ZVRWNjFib0Y3SjRZQWFmQ1ltOFR5RV96LS1oTEZhUXdUUXExd3BFMS1xV1I1QVdGanhCYTJDUQ?oc=5",
-    "source": "MarketWatch",
+    "source": "marketwatch.com",
     "published": "2026-09-24T20:53:00+00:00"
   },
   {
@@ -176,6 +216,14 @@
     "published": "2026-09-24T20:31:34+00:00"
   },
   {
+    "label": "AI",
+    "topic": "AI",
+    "title": "5 AI Semiconductor Stocks to Buy and Hold Through 2031 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV3JhdHBmSUZycVRqV3hYTDlac2Jyd29yR21Kb3pqWThVWTRvSmxtby1wQXE5enBTY1BLeHJqOGhJSlVZbnI3WWd4c3JFTlhBalBxRTZIcDQ3OFpnYmMyU1pPNDBBR1plS2tSUGtNd2RPSnVQOUJHSER0M2NlQlZXT0JRMTZmVWw2MzE0WEItUnotSUNaZllwbw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-24T19:20:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
     "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed - CNBC",
@@ -192,6 +240,14 @@
     "published": "2026-09-24T17:57:23+00:00"
   },
   {
+    "label": "QCOM",
+    "topic": "QCOM",
+    "title": "What's Going On With Qualcomm Stock Thursday - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTXpjV2hTYXRXNExrRHNCWmhsMm9YSk9ld3dvR3JYd3VvVHpDS2JYM0NiejdVd2FONERQTFpDczlaZDlOa2lZUkpjcE5yVU84Vy1EcHNBUmV2NFVtSWRUN2tPQi15MlJBZXhJUURhMEQxZlM5a2JhbUdFdEpQb2lNUy1abHhYa1V4cHZ3VW1XNl9HVmJkVUFJSEdCVFBnNHpJMXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-24T17:49:16+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
     "title": "Global bond rout rolls on, pushing US 30-year yield to highest since 2004 - Reuters",
@@ -202,9 +258,9 @@
   {
     "label": "Rüstung",
     "topic": "Rüstung",
-    "title": "Russia plans array of tax hikes in 2027-29 to fund military spending - reuters.com",
+    "title": "Russia plans array of tax hikes in 2027-29 to fund military spending - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHZybjA2emc3M2RUZ1VZVGNGMWx4cVNON1d3aFc5dk5OdGtzR3RvNTFnOEVLR053Ql8zSUEzTzZsMEY3RzhrenhHa2NMOWtSV0JsNk5FWnZGVXNTNEQ2Z0VuMm5yeHBkaHZpVE1kVllTUWtoQ3dhUldrMUpjN2cydGVURUZzaDVqWDJPN1FZd1F0VEhoY055NGk4b28zZV82QmtPb1R0RQ?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-24T14:44:39+00:00"
   },
   {
@@ -250,9 +306,9 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Zölle",
-    "title": "US farmers push for China commitments on imports as Trump and Xi talk trade - reuters.com",
+    "title": "US farmers push for China commitments on imports as Trump and Xi talk trade - Reuters",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDdvUXBmX0hNUWRzdm5EckNpOUdzekVxTkh3MGY0Ync2TlBXcjlLY2daRFYzVW1Qb1VnT0RmRWVHZ0NGVVVWVFotbmFoNXJ1VkxET0NiWl9ENFRRMEpQTHRqWVJxU3VDS1dWRFN6VEUtTmlyNjZXdlpGeW10M01PUXdCMjktUnpUUGNIT2E4bjZiVkpXTnFlQ3pYbW8tSzRvQkloWFZnY3h3clBPMkE?oc=5",
-    "source": "reuters.com",
+    "source": "Reuters",
     "published": "2026-09-24T10:32:34+00:00"
   },
   {
@@ -398,6 +454,14 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU0ZXSlEta0N4WGxzcHJBNUM1cUI0d0U4TGFwa2NMbDM4U0Q3MWt0YXY5TGpQQ2xxdmJWNm0yeGl0ckJNanVPOU5HOUd5R0hNc19pZXcyd3FwWkFkY1hyUEpOdTZyMVZoN3R0eHZLdkxUYzRXV1hoRDctTXhUa3pvckNvLUktNDBmWm1OV3lhOTluQVRDQzUyQTN3Q0V0YmN2Q1E?oc=5",
     "source": "Reuters",
     "published": "2026-09-23T20:24:49+00:00"
+  },
+  {
+    "label": "MSFT",
+    "topic": "MSFT",
+    "title": "A rare Microsoft bear warms up to the stock. Here's what changed its mind - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbU5HVzlPVFhtQmN0MnlCSUJmZ0hCQ2hnZVRjdXZudjBSMm91WnhFUFE4eWZCNWRrWU5TdTRNcmpvX3NnSjVFWGNEamlHdDM1SEVnNk4wMHYwdDR1OHJHZVBfaTRPX1U4VDlaTVUyaTdrZ1RJNzBWZXNPeS0wVEFoVnFaVjNpNjM0MXNuSzQ4bnNpTk4zRE5qTGF0SjVLS0E5aDlZMmJZbm95LVBLNmRJ?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-23T19:53:16+00:00"
   },
   {
     "label": "Anleihen",
@@ -888,6 +952,14 @@
     "published": "2026-09-21T20:30:00+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUmw5dTU0bUtGQk1BdkpteVFtOFpEN0tycVhJNnIwQndiRVVaZjlMcG9lanhVZkxLd1lMVlRRMGMyNXctZkRDVnE4YVNXQkg2QUFxcEhKdVJ0eWl6Yk9HOXRKMTNoUWNyNmtMX2FZOEdJd0FETUU4Mmc1SVFXcllLVmt1bDhoMUdWRzN2VGUzMnVIWk1qRXBONUZSN3BkMDBvOG9zMTA3WUdVLVFDTXlj?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-21T20:05:02+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "Oil price dips to $100 on hopes of US-Iran diplomacy, partial recovery in Saudi exports - Yahoo Finance",
@@ -926,13 +998,5 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMGM3NWk3X212RS03NlFpUmtpLUxINkY3eTNfM3d4YVFfRUE5WlZDNndxWTBZbW1qVVBCLV9UN29EaVRWdElmZTZtZFduMHRjb1JKTHRCRVo0d0FFYzFNX3F3SFBuWHF6YUlYWGI1MkxTUlVwTUl0MG5PaGZpQ3hFOVBCWWJlQU9pZlEyRVdhWmxEYmdYVjdHeVRCaEVyQ01jdlFJRg?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-21T18:24:14+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Nasdaq surges 2%, Dow and S&P 500 gain as chip stocks rally, oil prices fall - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUmw5dTU0bUtGQk1BdkpteVFtOFpEN0tycVhJNnIwQndiRVVaZjlMcG9lanhVZkxLd1lMVlRRMGMyNXctZkRDVnE4YVNXQkg2QUFxcEhKdVJ0eWl6Yk9HOXRKMTNoUWNyNmtMX2FZOEdJd0FETUU4Mmc1SVFXcllLVmt1bDhoMUdWRzN2VGUzMnVIWk1qRXBONUZSN3BkMDBvOG9zMTA3WUdVLVFDTXlj?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-21T17:35:12+00:00"
   }
 ]
