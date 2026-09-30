@@ -32,6 +32,14 @@
     "published": "2026-09-30T08:12:52+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Bonds suffer bruising September, but stocks remain resilient - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkhETkh2bThQM2VXdlJQZHdqOHVHRTFNX2dRMVZVMGhhMzczY0xIYkRfdmVldzNlVFdEbWZTVC1aYW1fekVfOW9Db28yd0czQVk5MURaaWVfNjdTVFVGeE1Dcy16dk9vQmNZb3c2bklRd3l0cTNwQXBqemxxbWxwS3RaYw?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-30T01:58:00+00:00"
+  },
+  {
     "label": "MRVL",
     "topic": "MRVL",
     "title": "Why Marvell Technology (MRVL) Stock Is Trading Up Today - Yahoo Finance",
@@ -142,6 +150,22 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNzFnRDdnTXlqbUU0N0NGSzhTWHdxbHhKeGJ1LTdLdWFhVzhPWDMybDdueGtPdUVGS0lyUzI5cFZBcFZyUlNjcXJzMXdpMkNrWVhianBMMXFWMWR4Qk9Rb3BtVFd5NklGbzN2MXctenZjblZyTjIyTlc4RU4wc1ZlVGtqMjQxeXJ0dnVLVjNkQW9hRVM1ZURuSkJvUDlicDJwWlhXeEZ4UTZJSWM?oc=5",
     "source": "Business Insider",
     "published": "2026-09-29T09:50:17+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "EXCLUSIVE: Russia raises 2027 military spending by 27%, budget documents show - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHg0MGZvUkU3a2FULXNNc1pDUkE5VTZaZFptZ0R0dHhoc29SbmotRkg5SndfWk1rcy1hbzAxY2VKbDhzUVIxUlpoaVZCU0MwYmRub0FGR1VOaHpjaXBxTmhPcnJ5MDJUOExCTE56X3h6aDVRR2FRN1V1VWRJMmNnYTNBOXhxVjlJd1hHbnZfVWo1Rk55d04xM1FGOTdfbU1BVmZHYVgyb0tYUQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-29T09:47:47+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Zölle",
+    "title": "Trump’s huge tariffs on some drugmakers could end up backfiring - CNN",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16M01NTjJkVm45SkQwaDNYVjc3TXlkelBxUGp3b0t6am5rcDItdTBUblQtTEZfODU0WmdRMDRULXpfZXc0ZGJCS1FaU2xtZ0NraktXMHJuRk9veEhEZFNPNmZiZTl6elhGV282QTlRMFQ?oc=5",
+    "source": "CNN",
+    "published": "2026-09-29T09:00:29+00:00"
   },
   {
     "label": "Nasdaq",
@@ -286,14 +310,6 @@
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNb01aNWtZMEVyR2hscXVzbDNfLTVRZ2F1dFBYVS1sQXYxY0tqLVljU0xUcUdSYllvQ2RZWnFLQ3hUdnI0T05ReG9UaTFvNmMwNzdQWktUZUk1Y1c4aml0OVFjUDJLUkVET0c5SUZfUnFRUWxneFJxWTFhZ1c2WGxQVlprdFA0ZTg1RDIzRjluUjhBUTRVaE1BcFAyWVVkT0FIeW1pRFVWdXc2cTRHdkUtOF9mMzdkYUQzTkhLeXhYVmhKOG9aV3EwNjNEeVQwXzJPU3NxT2Fpc25wMTlEUXpHQVBn?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-28T18:37:19+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "EXCLUSIVE: Russia raises 2027 military spending by 27%, budget documents show - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHg0MGZvUkU3a2FULXNNc1pDUkE5VTZaZFptZ0R0dHhoc29SbmotRkg5SndfWk1rcy1hbzAxY2VKbDhzUVIxUlpoaVZCU0MwYmRub0FGR1VOaHpjaXBxTmhPcnJ5MDJUOExCTE56X3h6aDVRR2FRN1V1VWRJMmNnYTNBOXhxVjlJd1hHbnZfVWo1Rk55d04xM1FGOTdfbU1BVmZHYVgyb0tYUQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-28T17:49:00+00:00"
   },
   {
     "label": "AI",
