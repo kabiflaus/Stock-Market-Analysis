@@ -1,5 +1,13 @@
 [
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Inflation jumps across euro zone, raising pressure on ECB to hike - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNzhjNlBXdURXZEpPX1pMd09GOFFzUDBhQTNvdjJpUUQ4RG9HLXM5cTZrOXQzQU56b091OUpkOWhqVktnUWg5SGxmUDM1NGQwRXRPQzJ3cno0djZQWjJkTUFFYjJSaEVueFU4a0NPM1ZQZWt0dmxqbkR4cjExdk1WZHZXTlVtWHozRlQwM2dfaHFMODdQQ2tSeTZGY2YtQl9BclRpWnR6NmJvMHM?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-30T13:19:59+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures little changed ahead of PCE inflation data - Yahoo Finance",
@@ -16,12 +24,36 @@
     "published": "2026-09-30T09:09:36+00:00"
   },
   {
+    "label": "HII",
+    "topic": "HII",
+    "title": "1 Oversold Stock Primed to Rebound and 2 We Ignore - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ2hvamRBX083V19yV2R1dy02NEk3ZDBFSmd2bHVLY1QtRkNBQjVXQXJEdUdpQkgwT25uZWkwQjZyWlN4OENHSEVhZk1kQU5GZnBVNFNoWGJ1UG9UWXAyalZ1XzhsblowcWVza2hubnhQSWVaOVFoaEVkdXIzOFpmRGNjeHFkeEhSaHFyc0FmVVhpd3J5ek82T003Nms?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-30T09:09:13+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Zölle",
     "title": "Trump’s tariffs are back in court — again - CNN",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRlY4S1BubkJYVHRVOERKczNwUWdJYWZkWTRDWDQtQ0pGclJSWTQyRnRvRWpfRF96TlM5R2N5ZHlhd3RtcDFWWVpGakM5XzJycklwS2VzUGhwdVFINmtpbkVWakxrcm16Nk9VeDRXRFZJblkwbi1rY3NTUkRXRVJUTW5kRQ?oc=5",
     "source": "CNN",
     "published": "2026-09-30T09:00:29+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Why Are Nasdaq Futures Rising Premarket? MU, TSLA, CAPR, VNDA, ASTS, HOOD, BA Stocks In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGZyOVZ4RUNLZUxleGhCSTFyUnhZYWxURTBFcFNDSVRWN19DclprVEpadmV0dDlqb1F4VEhZb3V5VUEzRFM5WUo0RWMzdWZLM0YtVXVJZVVMcEp3bFFvZkkzMDdlTENac2hGSlZQQXJZQ3ZtT0JnRjlsdXRHZ2stR01Ed3VyUDUxOE5tQ3FVSWxDQ0pZRFBCRkRyQWRhNW9pYnc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-30T08:29:53+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "BOJ's policy pivot opens scope for faster rate hikes - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdlYyRXlkcG8tZF9kMVI5aFViNDNsdzNGUC1SZlpCTnI5ZXMzeFVJTHBvbE9EVTktU3FocEd2QnoxZUF2Q0NLQUY0MExQdExVS2hoSVlzT2dTemZGV2ZZSjVsM0dUdGRjRzNqdW5VMFlybkdqWVVnbGRUNDlUSVRtdUZFWXFSWEQxUjFJa3BLY1R1OU1RajE5TzZB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-30T08:23:44+00:00"
   },
   {
     "label": "S&P 500",
@@ -200,14 +232,6 @@
     "published": "2026-09-29T05:54:00+00:00"
   },
   {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Nvidia sets biggest-ever buyback plan as AI chip competition weighs on stock performance - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTzg4UzFUbWw0cThEbUEwYVdsdF9WVVpuSDZ0RkJjLWd1UE5XdVJFWjRKazNRU2lyVkxiX2xIZFplVnkxTTl4QUhnV1NaM21SdFNxTFBMYXVJMlJVU2lobmtWYkpqa2wyWlRPLWxuZTMtTzhRUVpHZ1V6VkRLS0psbzlQTWQwcGNpVXNuSGRYSjlCQU9sU3lXcXVteXk2ZmZf?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-29T05:25:32+00:00"
-  },
-  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Battered bond market braces for a new era of interest rates - Reuters",
@@ -248,6 +272,14 @@
     "published": "2026-09-28T23:02:36+00:00"
   },
   {
+    "label": "SWKS",
+    "topic": "SWKS",
+    "title": "Skyworks Solutions and Himax Stocks Trade Down, What You Need To Know - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdVdVWS1sZU5VVmhuR0F6MmRrV1hOZW5oSFFpOFlVZWFSLU43cHBLNGIzdGJ6ZnVTaVRlTHJLTk1GTkpLc1ZVSkZBN05wcVNBcXFqR1VlUzJpemc1cEZ5amJNYnJKZnpXX04wdXVoZC1TVnMzdDJrbGRlNVVRTnZyRUNrVHdBY3l6RHUxWXlJUW0ySkxib0tYRDN5a0VoUW1OY2dPbA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-28T22:46:36+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "Jim Cramer says these stocks can win even as oil and bond yields squeeze the market - CNBC",
@@ -262,6 +294,14 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWVDcjI5dWgwWXpWMGhLWm1aMFRlQXUzNlhNekN5amMyYzcxSFdaVVFEVTVoY2hEWDM5N0ZOeEg2Z2ZWY2ZJbXEtbUdnOGtGVUZyOGRtZFpJN3J4aXoyN3BjRGZyOVIzd1o4bHBNc2hxQzlPcGJQQ0cwM21nVDFubXhFWDc?oc=5",
     "source": "Financial Times",
     "published": "2026-09-28T21:38:05+00:00"
+  },
+  {
+    "label": "SWKS",
+    "topic": "SWKS",
+    "title": "Skyworks Solutions Inc. stock underperforms Monday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMVhuMUxmZWUxangxMEhWcXctT1pjMmo2eVNYeDh3UzBmcm5UOUJOOUJ2dkFaR3Jpdm14OHVCcFJoR0tESlVNSmtTLUwtVFZPV25xU0IxamJwWWVoWEowMzBTRFlaVjhROXduVkljdTl2Qk1FbDd6a3NfbWdEdGpRdW1aRmFUSkQyemw0Nm56cDkzTmtmVkZzTUZtS3lZYmtDZUhSU0dwMm9hT3dhNkZyWXZuNDVZYkJ6VnhUSlQ2c0VGTzlVZ2p5WjhSTHY4RGxTNUtLX3BfR2JwdUVGeDU1b1NOQTBpenY1ekRuRQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-28T21:14:00+00:00"
   },
   {
     "label": "BA",
@@ -376,6 +416,14 @@
     "published": "2026-09-28T13:30:21+00:00"
   },
   {
+    "label": "NOC",
+    "topic": "NOC",
+    "title": "Boeing vs. Northrop Grumman: Which Stock Offers Better Growth? - Yahoo Finance Australia",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS2xVSmp4RFhKVWxPNGJrVTlIeGVjZlg1THlEVmItNmZ1R2NMaFgyTDZWWjVrZTM4OF9WdnpDcmc1MGtNM2FiRnBvNWV5UVlidDJXWFgzOUhVaGhyUDlQUzV6TUFoVFFqa3FSanhZb3lYMHR2WDhrb3ZCT2pvVHBudV9LdGh3aW5C?oc=5",
+    "source": "Yahoo Finance Australia",
+    "published": "2026-09-28T13:06:00+00:00"
+  },
+  {
     "label": "BA",
     "topic": "BA",
     "title": "Boeing Drops 3% as 737 MAX Landing Software Glitch Draws Regulator Review; GE Aerospace Eases, RTX Treads Water - Yahoo Finance",
@@ -392,20 +440,20 @@
     "published": "2026-09-28T12:40:02+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices settle slightly higher on supply worries as Trump rejects Iran proposal - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-28T12:26:27+00:00"
-  },
-  {
     "label": "META",
     "topic": "META",
     "title": "Stocks making the biggest moves premarket: Meta Platforms, United Airlines, Nvidia & more - CNBC",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ0ZRTl8tR3BSSEhfYS1GX3FrRDNwS2xpV0U0LWVoeFhPZ3Y0VXNWSnZHeUtTdnV6N3JES2VmNU15c1Bpc212VmZBTzcydDJfVU1nQVFLcUtEZjV6QS1KRGVUbG1BeHFrY1pJS2YxX3pxTExKTUo5a2NYaHpEX3NYQ0RVYUlVcE9NSEU3YldxRThROTRGMlFB?oc=5",
     "source": "CNBC",
     "published": "2026-09-28T11:29:28+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Nvidia sets biggest-ever buyback plan as AI chip competition weighs on stock performance - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTzg4UzFUbWw0cThEbUEwYVdsdF9WVVpuSDZ0RkJjLWd1UE5XdVJFWjRKazNRU2lyVkxiX2xIZFplVnkxTTl4QUhnV1NaM21SdFNxTFBMYXVJMlJVU2lobmtWYkpqa2wyWlRPLWxuZTMtTzhRUVpHZ1V6VkRLS0psbzlQTWQwcGNpVXNuSGRYSjlCQU9sU3lXcXVteXk2ZmZf?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-28T11:06:00+00:00"
   },
   {
     "label": "Energy",
@@ -552,6 +600,14 @@
     "published": "2026-09-27T23:58:57+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices settle slightly higher on supply worries as Trump rejects Iran proposal - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-27T22:18:13+00:00"
+  },
+  {
     "label": "ON",
     "topic": "ON",
     "title": "Prediction: ON Semiconductor Could Be a Sleeper AI Infrastructure Winner - Yahoo Finance",
@@ -606,13 +662,5 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX01hMXVtTm1PYUZMdElkdUJ5OVZEZW9ua2VXQXFLUUVNczM4N2VNazdBUDdPTGFKSjFCUGJPOWxoYjE1TzJfUC1fUHVSdTNqUjhWMXhlaWdiaE04aWo2SG1DWHl3c0JwUkFXQmVqMUlrN0FEdThwek9XSHdyd0dyTkdvc0N6QXd1ekZV?oc=5",
     "source": "Yahoo Finance UK",
     "published": "2026-09-26T23:44:09+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdjRseTh3M19YMmZMRzZwNmNzU2lKOXBaQWZFY3h6NmljdHFJbk1MaHBrSHdnUHYzQ3Z2emhBZUV0eGNDT21JcVIwaE84d0diZHpTTmxydzZhaElHSVR2VHV4RzVMS0RKUktMMU1RaDhxQ08zTER0UDkyMVVUX1p5ZXRaZTltWmNzdHVGOGotdjB3OVNCbGtvV3A5Z3ZyU05QVGNWSVB3WmzSAa4BQVVfeXFMUEZ0RlpZaDh6bGxuVzVZalpuRHEyMEM2ZnE3SGxpUHdQbXZPcVBYRkJkYzhITFVHa091bUZ0eldHbW9tTTRlRW5kU0ZPTFctNjk2TC1WaHA2Qm9kNV9TX1F1b0R3NFlUblFtek95a3dVVzk3QlFGbjZaSWVkZDBBTjdRRE5RMS12ZUxITldWalVwRU9sT3Nsc1hLdGNrQi1MSktCM0cwSThjX1ZPY3JB?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-26T13:30:06+00:00"
   }
 ]
