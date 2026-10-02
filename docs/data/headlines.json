@@ -1,5 +1,37 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures tick higher amid September jobs miss - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTW4zeUoxak9vX3NlMFVEZWE1U2ZxZFE4VUFRX1FTRWI2T004aUZWZWw2b0FnZlJUTnZ1UEtpeVNfczhIaS1FcElOUVJxb2tRSWFyd3Y0U0xJMjgzMW1YUlplQ09nemhSaHhPMy1WdDVnZFpZbkMycEpYN1hYLXNybkxfR1pIRU85VENnSlRnNllSQ3pUX090d2lkR3gxcVAxdk81ZGRHT05LSk9CRUJBbE9WRTJHcW91UDVySWZyMkRvMG9VaFZxbA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-02T12:50:33+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "The mystery of spiking Treasury yields - Axios",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ocnhfTHBGODQyMmpLRTM2eDNzZnRXNnJPUE9aZy1fR2lBY2c0ekkzR19SWm93Y1ZiZVFicG9Oa2VfUGFMQ2l1V3NIbW83eVBMdE9NZ0d6THJrc3hHY05OUmFmS2N3bFpvbmVQOVpDenNRNTlTVVYySE4zaw?oc=5",
+    "source": "Axios",
+    "published": "2026-10-02T11:35:13+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Nvidia and Micron Can't Make AI Chips Without This Growth Stock. Here's Why It Could Soar. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmhYREx6VzdTcmlyMEVzYlJEUXg2MU42NWxyR19UdElqa2tidS1neUo4MldiWlpjei0wejdQbU9uSmFtWXVMT1FMRXhvVS1SeGFuMmtZSThNVV95UzY4ZXNGdFBLTE9oeEctdGFkalc3b2g0UUgzT2sxQUdSNUFudmtheDN5OTMxZ2N4cWlVM1IxQXFhZXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-02T11:20:00+00:00"
+  },
+  {
+    "label": "ON",
+    "topic": "ON",
+    "title": "ON Semiconductor Shares Rise 6.5% After Synaptics Acquisition Terms Revised - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY3FFbi1pSFJSS3hJOFhWcW1NODlFNjhDQ2Z5NGFCbmFmcG5Hajlfbl9oOUZfN2ZPb2NkSnh1RUlRUzl4YkVuRVJha21UdUtSbW1FaEpyeWxmQ0Q3Qmx5UzZTWjBXeVo0UHl3b3Qza29UWUR2UUZIZ01GeDlwRkljYjd2aENsM0ktdVZ1emtUSWRlV0Y2VmU5MTF3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-02T10:23:29+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "EZB",
     "title": "Euro zone inflation surges more than expected, keeping pressure on ECB to hike rates - Reuters",
@@ -22,14 +54,6 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS3Z0dTZacFU3NExpQzA0ZHlfVUZxdUNZQThYTjlnc0JBb01SRGU4T2VfVnVMS3ZBTEdyRGozeEREMlNTdFhSN09ZV2Vxd1U0Q196S1ZCcksxYlZWVV9zbzQ5Z3g1bU5PczA5TzlQQm9pRi1WMkhWYVFvWDRBUzJhOWI3cV9UX2M?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-02T08:09:27+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise ahead of key jobs report as oil steadies - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTW4zeUoxak9vX3NlMFVEZWE1U2ZxZFE4VUFRX1FTRWI2T004aUZWZWw2b0FnZlJUTnZ1UEtpeVNfczhIaS1FcElOUVJxb2tRSWFyd3Y0U0xJMjgzMW1YUlplQ09nemhSaHhPMy1WdDVnZFpZbkMycEpYN1hYLXNybkxfR1pIRU85VENnSlRnNllSQ3pUX090d2lkR3gxcVAxdk81ZGRHT05LSk9CRUJBbE9WRTJHcW91UDVySWZyMkRvMG9VaFZxbA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-02T08:08:42+00:00"
   },
   {
     "label": "Energy",
@@ -62,6 +86,14 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY25fbkF3U3FzTGZISkVoSW1IeGNCbXhTYUZIVWRzRkpIZGpWZ3FxWjNkS3c3d19fS2cyLTZHcnpVTUt3elpTQTdhMkxVd2VRM0JQaHRVOGVkV2FFS1RDc0FPbFZfcHpwNXNRUHEtcUx3VENpeWxiOWI2Q1lOb19kVFliWFptNXM1Y21rcw?oc=5",
     "source": "Reuters",
     "published": "2026-10-01T23:33:06+00:00"
+  },
+  {
+    "label": "MPWR",
+    "topic": "MPWR",
+    "title": "Monolithic Power Systems Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNjN1bFlIb1gwdlhpdjIxU3pyTkg4VVI1WjVLZ28wMVA4dmdMYUREUDM3SkJMYkV5WFBfTzRla1FYMU5oYWlNZnlPbG1lRk1BZW85bTItUVc4WGFMeEFuVnhPa1haMUtLZGdDUlc1dm9qWDBTTjlqeGtQUXNhcDloandjRkdnNWUzY0JxZkNIMmRwaDRXa3NZbjFyb2FOOVV2WC1NVHkwUkZTbnhxb2R2UHJhbzdsc1pNVmdpdDB4Y2h5eTFEY2oyVXhJS1dHTlEwOFVuNTN4TVZMaWtWMlBfZFRSX2xfdkswZFNVb1BhVQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-01T20:44:00+00:00"
   },
   {
     "label": "MPC",
@@ -400,6 +432,14 @@
     "published": "2026-09-30T15:48:42+00:00"
   },
   {
+    "label": "MPWR",
+    "topic": "MPWR",
+    "title": "Monolithic Power (MPWR) is a Great Momentum Stock: Should You Buy? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV2tIOFBYZlEyZndtdHBBdmlKSDRCUlI0ZjdXT2Fzc0VkWXI5dlNHdm5EbzFrXzRfSzdFcWM4OTc3ek53Sml6eXFaUFktcThqVXl1c0hibmI1ZnBTV3dLRHhqWG03QlJPeUhkZjY4ejNzeWdBdXZHeUJKVVdieHhMMmR2UllpWjhsNHpTbGxPbElDMWtSSXV6bW5yY3JUQVFxQWln?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-30T15:00:02+00:00"
+  },
+  {
     "label": "S&P 500",
     "topic": "S&P 500",
     "title": "Stock Market Today (Sept. 30, 2026): S&P 500 futures rise as PCE inflation comes in below expectations - Yahoo Finance Singapore",
@@ -528,6 +568,14 @@
     "published": "2026-09-29T22:55:48+00:00"
   },
   {
+    "label": "TXN",
+    "topic": "TXN",
+    "title": "Texas Instruments Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVWx1NHZSRUJYZVFuV29hUjVTNU41dHVORTBTTU9OOEJZY1hUMWFtZGV2THpHUFRUWFVOQ01CbW5mOWRoZ3dfS3FrLTNiS2NIM0x3QjdMTzQwWm91R25xektURWhLVHlQLV82clA3Ynlxdm0xN0o3d080TTJMY1JsZk9DWHhTZkVVQmhwckY2aVZPaHpoUS1oREJ5NlRuLVhhOFRSZGRaSkdTck5Da1N5cDFkeF9VbG10Rkd1RG85UUVEZTU3bGxBSnNYWnMwQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-09-29T20:34:00+00:00"
+  },
+  {
     "label": "KLAC",
     "topic": "KLAC",
     "title": "KLA Corp. stock underperforms Tuesday when compared to competitors despite daily gains - MarketWatch",
@@ -654,6 +702,14 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdVIyQTdYa1I1UkVIOGJjN3VVbHpYcFlhU011MlhtT3VKcTJzWXBDbkRaV1U5UU9LLUU4TTd1ajd0aFpMQ2txOTJNaWVfMGhEUFJEUGQ1ejFXQ2dGMXFxX01abTQ3ZmJkUnl4ZUpyT0x3MVR5YTBsTFhRb2xjeEY0b3Rzb0lqelZuOG5vVkZGWFp6XzY0cXFvSnZwcDZ0UQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-29T11:57:56+00:00"
+  },
+  {
+    "label": "TXN",
+    "topic": "TXN",
+    "title": "Texas Instruments (TXN) Stock Looks Expensive Against Its Cash Flow Outlook - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcTA4bW5VX3VsOUNHc1lsWkg0aTZUN3ZfeFp6LWZqSDNfZ0I5VGJYX0NTb3ZWTHZRVVdBeS1LOFlMYW92cW1kVk1Cc1k1bUNDMndfUGdfemk1MlBrRnhJeHp6M1htdXhPTktIa0RLdWZJek1RX3hzWk5mNDZWS0pNWHpkSl83TFpyc0VmNlJYZ0NUOTZONkJIdjAyZ3RNMXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-09-29T10:05:04+00:00"
   },
   {
     "label": "META",
@@ -870,61 +926,5 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaktBdHRiMkYwUGJFN3FLeGtJVkc4dFRjclFMV05ZcmNXeGx3bnJjWmwwMEV3V2k2VXdxY21Oc1V2eS16VjlUZzBUblFqOE96NGdrWHZlczE5QVNNaFdaeWVzS2tuNlNwY0xGUlYtRlZoTkg5T2lGSVBKY28yNGFROEhUQ3NKVUxpczluaE1Ha1p0NGM?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-28T14:33:20+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "CEO Predicts: “Demand Will Continue to Rise” as AMD and Intel Soar up to 17% Thanks to Muse - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUWQySEgyMWlBc1liRHY3ZlBhQnZxQzVZbXJTdkpsLXZhcUFubnk3aGpwUjNNOHJqRm1oMmllYS03UnhMQzI4VHVRRFlGUTh4cnpIOXkzd1RxWGt1X3pFclBPd0huaWJYQVV5R3NPTFJ4V0FxZ1BBN0pGb25Qd3ZOSk5OZUp3cXJuVkxLWGZuX3hWV3BzZ1lZdWl0dnZkTzA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T13:33:23+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices jump 3% as stop-start negotiations between the US and Iran faded hopes of a quick deal. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU25lN2N4UndOY2RSVTFBaFpuYk4tVmhXWjFwU19JdlFhVGNETzBxa2piUHc1LUVjTE5iWmJaQXY1N2VBc1FrSmYtcGhKbFdPMFZ3Q1pVU0JDQ1FaZDN3amI4b2ZMOFB4NXpEMlUxUkNHYVpBekgwOExBclJ6Y3Q1WjR5N2luamVBTFYzWk1wNnFqOXFvUEV3LUxKU1dYR3g0MEJNc1MwMmE3Qm5uWmpIQWduSnVSWDJDNE5sUjlaNDB4NGRKS0JEM1pB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T13:30:21+00:00"
-  },
-  {
-    "label": "NOC",
-    "topic": "NOC",
-    "title": "Boeing vs. Northrop Grumman: Which Stock Offers Better Growth? - Yahoo Finance Australia",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS2xVSmp4RFhKVWxPNGJrVTlIeGVjZlg1THlEVmItNmZ1R2NMaFgyTDZWWjVrZTM4OF9WdnpDcmc1MGtNM2FiRnBvNWV5UVlidDJXWFgzOUhVaGhyUDlQUzV6TUFoVFFqa3FSanhZb3lYMHR2WDhrb3ZCT2pvVHBudV9LdGh3aW5C?oc=5",
-    "source": "Yahoo Finance Australia",
-    "published": "2026-09-28T13:06:00+00:00"
-  },
-  {
-    "label": "BA",
-    "topic": "BA",
-    "title": "Boeing Drops 3% as 737 MAX Landing Software Glitch Draws Regulator Review; GE Aerospace Eases, RTX Treads Water - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVGJPQjFNZDF6Z3Nzajk2QlRMUUpMVV8wN2pMZ2hWTFJHRVdqLU9oOGN1bnE1dWRTVkY4MnEzY1AxcFplRVVXUVNJMlZ6Z1NVLUpEMHp0MzliTGZwV0l0RG5oak50MjBNOWxka0dGZXhfVUFyajBMTVFnZDJ3RzRjZjhuMDJ4VGVWWkZ3emx6RUI?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T13:00:09+00:00"
-  },
-  {
-    "label": "MPC",
-    "topic": "MPC",
-    "title": "Is Marathon Petroleum (MPC) Stock Undervalued Right Now? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUjd1VTh4bWl3N2hWVXNxNThRNGM4OGpzOGo4eldYeEQwTUlnLTdsNExKVWVyVE9HWEZRZ1U4d0xYd0hvSlgwWXJub0RjOWFIVW5XWnFEZGs2RlJVdE1ETmwzekZ4UDFSeUFLRkxHeXg1V3E2cEIwc2trQmIxSHBXdmFtNEdGeUVYd0hWa19oRGJ1VGJtUnpDUXFHQ25uLVRXbDJDS3RKWXE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T12:40:04+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Is Eni (E) Stock Outpacing Its Oils-Energy Peers This Year? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMFlXeUtldkZTU2ZPZTk0bVoxN01uODN0MDdTTVNtTHRvSGFpRUJjVnltdmE0YUNjZ2ZfMi1DRDJNbjJRaThLenRyT3JqRnhKU2xPRUYxUldqMUhPME5EYlVua3lXYlBPM0sxVlFGZmgycHV6WFN2amkwS3JfMnpRcGxFdTlBWE9fZnh1VExxSkRpTzhyZ2pUX1VhekJRdnA5YTln?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T12:40:02+00:00"
-  },
-  {
-    "label": "META",
-    "topic": "META",
-    "title": "Stocks making the biggest moves premarket: Meta Platforms, United Airlines, Nvidia & more - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ0ZRTl8tR3BSSEhfYS1GX3FrRDNwS2xpV0U0LWVoeFhPZ3Y0VXNWSnZHeUtTdnV6N3JES2VmNU15c1Bpc212VmZBTzcydDJfVU1nQVFLcUtEZjV6QS1KRGVUbG1BeHFrY1pJS2YxX3pxTExKTUo5a2NYaHpEX3NYQ0RVYUlVcE9NSEU3YldxRThROTRGMlFB?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-28T11:29:28+00:00"
   }
 ]
