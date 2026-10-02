@@ -1,11 +1,35 @@
 [
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures tick higher amid September jobs miss - Yahoo Finance",
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq jump as traders pare Fed rate-hike bets after September jobs miss - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTW4zeUoxak9vX3NlMFVEZWE1U2ZxZFE4VUFRX1FTRWI2T004aUZWZWw2b0FnZlJUTnZ1UEtpeVNfczhIaS1FcElOUVJxb2tRSWFyd3Y0U0xJMjgzMW1YUlplQ09nemhSaHhPMy1WdDVnZFpZbkMycEpYN1hYLXNybkxfR1pIRU85VENnSlRnNllSQ3pUX090d2lkR3gxcVAxdk81ZGRHT05LSk9CRUJBbE9WRTJHcW91UDVySWZyMkRvMG9VaFZxbA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-10-02T12:50:33+00:00"
+    "published": "2026-10-02T17:25:50+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "EXCLUSIVE: G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-02T16:56:32+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "AMD Climbs 3% as Chip Stocks Extend Their Run; Arm Jumps 8%, NVIDIA Rises 2% - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTFI0T2JmY3NJSUVxRnEyQndVaWQ5MDBIU3IyT2tOd3FDdnF2NWpHQlB1TWhBak1qQk1xN2Rla1FrLXp2TUlhZzJqOUw1eEl2U1U1NlQ2a2I3WWtQUFFqS09HX2lEa3g2UlMwVGp6a0toT2lpZldkU20yTzgyRUNsMXRQaHE3STVrQXdENmQ2SmtvSUE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-02T15:47:31+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Amazon Looks to Offload $8B of Nvidia AI Chips From Its Balance Sheet - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHphc3o4Y0dGRnBTaE5jUTd0S1dJWFA1OUppaXBsY1hhb0pkRHZZbUUwSWZYQnYyRTl2WDF6d084bnpLSFNZV3ZRRW5jcllFQ1dQWjFIMmZMTkZsYWZrNkNVM3FJazNxTEFfMHJBbzJxeVM4TU9iS1FBWFppYXNhNHh6OV80Rjg0dy0wVkVNOTg4eVJ5cEZva3l6b0J3S1k0QmlnbXZhOHh5S1JYMDFRREhuZ19SOXJ0WTBWTGFkYzZIVE1qcTdZM29R?oc=5",
+    "source": "Investopedia",
+    "published": "2026-10-02T14:59:46+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -13,7 +37,15 @@
     "title": "The mystery of spiking Treasury yields - Axios",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ocnhfTHBGODQyMmpLRTM2eDNzZnRXNnJPUE9aZy1fR2lBY2c0ekkzR19SWm93Y1ZiZVFicG9Oa2VfUGFMQ2l1V3NIbW83eVBMdE9NZ0d6THJrc3hHY05OUmFmS2N3bFpvbmVQOVpDenNRNTlTVVYySE4zaw?oc=5",
     "source": "Axios",
-    "published": "2026-10-02T11:35:13+00:00"
+    "published": "2026-10-02T14:31:34+00:00"
+  },
+  {
+    "label": "TSLA",
+    "topic": "TSLA",
+    "title": "Tesla stock jumps 5% on better-than-expected vehicle deliveries report - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLTV2TThXeklJVmVnSl9pMDYzQnNoaWVielg0ekwyYTJVemhmRDdKdlpaekRVYXdTcndZNGRyelluczN1MUIxQ3J6M2FDWTQ4dnQwd3c1OEVURkdBUGdQLTBXaE1iUWxXOGFUVlZOLWdscVp0UkFTSEpsWkM3QTRDT3pMdkFlME41OHRn0gGQAUFVX3lxTFBoR1hCMDN2NU1mQ1ZJdFg3XzBQYWJSMzZmQk5aVnlBTTg5YnBfUi1KMm9seGMydVVOU2p1WnloTVVUV25QRXdYT1hwQ1Y4ODlvc0RBcUhwOG9VWUh3OG9CSnJ6N2ZuQUlBUjdWT0xPTnFaN3JHOTdjMk8tZnpWamkwOF9FaHNSUnZHQ1ZpQWkwZQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-02T13:03:51+00:00"
   },
   {
     "label": "AI",
@@ -69,7 +101,7 @@
     "title": "Global bond market steadies after sharp sell-off - Financial Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcnhubU5fNVhBN2R0UnZLX3d6ZTB5ZVhmQm1FUDNmdXMxTm5wMlF0LVgyUlJ5eE9MRWh5aVVITVJvWE1LUWk2V0VOT2cxakJvMktPWExTb3RrcWYwNHhWeGpIbVhOWk1TdTlXeF84THVFV2VjOW5sTF82MndMalVnMENuR20?oc=5",
     "source": "Financial Times",
-    "published": "2026-10-02T05:09:09+00:00"
+    "published": "2026-10-02T05:10:06+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -878,53 +910,5 @@
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNb01aNWtZMEVyR2hscXVzbDNfLTVRZ2F1dFBYVS1sQXYxY0tqLVljU0xUcUdSYllvQ2RZWnFLQ3hUdnI0T05ReG9UaTFvNmMwNzdQWktUZUk1Y1c4aml0OVFjUDJLUkVET0c5SUZfUnFRUWxneFJxWTFhZ1c2WGxQVlprdFA0ZTg1RDIzRjluUjhBUTRVaE1BcFAyWVVkT0FIeW1pRFVWdXc2cTRHdkUtOF9mMzdkYUQzTkhLeXhYVmhKOG9aV3EwNjNEeVQwXzJPU3NxT2Fpc25wMTlEUXpHQVBn?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-28T18:37:19+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Chip stocks fall as AI breach fuels safety concerns, but Nvidia bucks the trend: Chart of the Day - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRmw5ak5yb3R1Y3A0TGk2cVk0dEJDQkQzZkJTZVNQMGpvcDZHWVYyZ1RLN0g4cGtnSFdpdi1UbVl4LUNHcncwckV2bkNBZnByVkpSTTZjQkJIdmM1dHRlS3FraURNQW5jUHBPWFpiNDBDcjNCVk5WeVhYLUJ0U0Q3T0JfbTZIcVoyWXVrUE93NlMyWWlyYlMxODBScE5fRzZqMjZmbGY0eVAwaWhxLWI4TXpyZjNSRTZhWDNYZVRTRGdtd3dIQXpLcXJRNTBOb3VqSndMLWJZd3hTNmc5ZWdJdHM0ajAyQ1U?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T17:07:21+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Why the historic US bond sell-off is getting even worse - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQV3pVX1JCZ1RwSWNWdFlZY1dGTWppS3dvX3V3X2hadkgyR1AzZmN1N3RBZlRUaTREdXBKZXJiX2EyS1pEVld2SFhJanpFOW5meGlIdzBSZVBMazA3Z2VBOFVxbWc5bmF0Yl8zWjVMdi1FZGIycGxydG9XRmtrOHFQcWJSQVlqbk1SVDBFRWtJbERiS2Y3RURvYS1rY0x6Zw?oc=5",
-    "source": "Business Insider",
-    "published": "2026-09-28T16:40:00+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "Intel Shares Tumble 5% as Fresh AI Risks Rattle Chip Stocks - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcm5menZwWlNUUC1XNEcwTTNtSy1nUG1TNFRZLWQwOXZyUEd0WGhMdHZGeFhMc1lOb1ZaTm81OVRqSEQ3cVlyMnF1MU9Fa2twNzBTa2dBRGp2eHR0a1dTSEItdi1MVE1xeWl3cmlUNkdQamZ6dXpVYXFSVW5VTlY0V0VsVjJGRHZrYjdKQzJWWDNIR2Vrcmc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T16:35:31+00:00"
-  },
-  {
-    "label": "BA",
-    "topic": "BA",
-    "title": "Why Boeing Stock Just Dropped - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON2h5TGVhSWhNUU0tQmdoaW1tLWdTNnRLNTRpLWxXM1FmU1RvM0VJeC0xT2hERm5DOVc0bS1CZUlYOXdTc19FRFBYbzZSckwzbXBUclp3WWtBdUtmTHpNTGxUd2JlY1RSX0tUNXhOTGVaNzV0eGNoRWx2OHZIV1h4X01HRmdZdVdrZmZfU05YZ3JDcno2OTJXdFhR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T15:44:52+00:00"
-  },
-  {
-    "label": "BWXT",
-    "topic": "BWXT",
-    "title": "Why BWX Technologies (BWXT) Is Back In The Spotlight - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT1Rtd3RjLVNyZXUwQlAzU0hSZnNYa3BPRjVIbWN1SWVZNzdTMTVneGRxX0xnTEZ6ZW5zWjhMd1FoVlhaUnNoekk5UGZxeE0tSUcyQVZYMlBTSWxHaDQ2em04ak1RSjJMQ0dNLVVKZlFBRGJINFZ0bGJpalNCQ0tRNTQ3M3ZHOFhPdlIzb3c0aEpSVVRQMlRURWV3bw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T15:08:18+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaktBdHRiMkYwUGJFN3FLeGtJVkc4dFRjclFMV05ZcmNXeGx3bnJjWmwwMEV3V2k2VXdxY21Oc1V2eS16VjlUZzBUblFqOE96NGdrWHZlczE5QVNNaFdaeWVzS2tuNlNwY0xGUlYtRlZoTkg5T2lGSVBKY28yNGFROEhUQ3NKVUxpczluaE1Ha1p0NGM?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T14:33:20+00:00"
   }
 ]
