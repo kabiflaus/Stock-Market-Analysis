@@ -1,6 +1,78 @@
 [
   {
     "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Euro zone inflation surges more than expected, keeping pressure on ECB to hike rates - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTjBZN3Zra1B6VVdIMFBGalpKbDVTYW9ZZjR2UFJDRC10V25XZHBRQndua3Brc1BVbWxPT2pZTWcwZzBYSFNIREFlX2FvLVNVOENURWZJckwyRmwyakp3X0tQd0Z5MVJVOVlrYmdxZlJ1azdLTjRvNW9WdzlJcjhYRE1YcVlYTk44V1hMSV9KZk1YdVpQdmRMTUN5bjI1QQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-02T09:57:23+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Italy scales back defence spending hike in new budget plan - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQk9FMWR2VUFlZnNHVHBWUVJ6VVYxc29ZbTdtNWNUUEx1UkwzY2c2MjhvUGVwSEM5THZKV3R5RF82VHJfRGJHSF9BT0RFalJFZ3NDeVVmT3Z3V0ZDQ183YngzN3A3R2diamNBU1RBZ1BKbldoMEVRSFRoT1M5M19mVTZxNm9VN2ZEMmkxdUszYklqNmNhVlZQdW45UXV4clZYLTRKRGpGRQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-02T08:09:43+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Global bond market steadies after sharp sell-off - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcnhubU5fNVhBN2R0UnZLX3d6ZTB5ZVhmQm1FUDNmdXMxTm5wMlF0LVgyUlJ5eE9MRWh5aVVITVJvWE1LUWk2V0VOT2cxakJvMktPWExTb3RrcWYwNHhWeGpIbVhOWk1TdTlXeF84THVFV2VjOW5sTF82MndMalVnMENuR20?oc=5",
+    "source": "Financial Times",
+    "published": "2026-10-02T05:09:09+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "Japanese yen firms on strong inflation, dollar muted before payrolls test - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTzNiOEhYME1JSVVYelo5UEQ4bm9leGxpQ3pGNnJGOTNIM05iVGt2cHl4UHRNcmNwbzZaeXVULVduOGJUS0U2NGVZV3hBTngya0FkQUpRQzlNN2JJcFU1MjZuZGRLZ1Bid1FWeEpvQ2Y0dkZpc3VlTUQxbGFSWWIwSFlaVkxjWEpJeVNvWg?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-10-02T04:10:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed's Logan calls for '50 bps or more' in rate hikes - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY25fbkF3U3FzTGZISkVoSW1IeGNCbXhTYUZIVWRzRkpIZGpWZ3FxWjNkS3c3d19fS2cyLTZHcnpVTUt3elpTQTdhMkxVd2VRM0JQaHRVOGVkV2FFS1RDc0FPbFZfcHpwNXNRUHEtcUx3VENpeWxiOWI2Q1lOb19kVFliWFptNXM1Y21rcw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-01T23:33:06+00:00"
+  },
+  {
+    "label": "MPC",
+    "topic": "MPC",
+    "title": "Marathon Petroleum Corp. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd3hrZmhodG85UUVOTm9FbFExTmdFTFg3OXZLMV9qMEZvZWhleVhOUnQ3bXVUeFJXQVE4XzA2YkFyY0lCZWFBTkFvSzJ6RUxCVkV6dVNhbkViZHo5NDlaQmN4ZE5SZnJqTTZxcDMtbVh2bmUwaTFqMFFQRlRqUWFLeElpY09jemo0N1Y4bUR1bEllakdNelo0a09DSTl5WlE5T29fcThVd2JqYWJ4Wkl5aHBnQVlYYnBNa3FwU3pPNmtCa2diMnc3YkJORU9ycDB5?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-01T20:30:00+00:00"
+  },
+  {
+    "label": "VLO",
+    "topic": "VLO",
+    "title": "Valero Energy Corp. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN0t3MmNESjlleG5OeHNEbEdoaVprejNNeXpuNzRGQUNFa3RRN1I5c01HYm1za1BjZktZS2h4WWYxejJRX2U3MElxTElMaWtWVVhDcm9ma0ZwcEE3TWN2bWJ4NzJ5SkNvNkE0dFNuOEtJejZHR2Vheko1WkZPaUNHMGhWZmdRLTdTc01EVk91ZmRWWGc0cGdrM1hEMFVsSGRxNFE5eVpVSmpsM3hkczBlQU5NQzFDVzU4U2ZIT282LU1iLUlNSDREMXR3?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-01T20:30:00+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Oil and interest rates dominated the third quarter - Axios",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xLU1FQnZtTG5TSGttVXRMZHlNS3dEekFwaWpEOFJsS0hiRHdpLUx4MnZVOGp2NjFQaTFCWWc0aGNEZ0dmSy1feVdqcUVFLTRROW12dF8wdzBpNkZWRjRxZXlZbzhmRUNkWDVyUk93?oc=5",
+    "source": "Axios",
+    "published": "2026-10-01T19:56:19+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed policymakers lean against October rate hike - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEdmemN4NUZ5RjRobklFbGFkcWZ0NENTRmZfU2hmNnFuZ1ZkRzJKY09hV3VLcjllT2V3VEVHdGg1NTFBbU1BVUJycDV1ODc5cTRxM1hCWlk5aW1RY3c0RzQ2bTNMcmsybi1VdDdoMG9RdUFrakRXSnFfb2trYmpOQzU5RmNmMXpqZlpJNUY1OEtEOGxnNXhlUjkzdmpnaWZVSVcwX1MyTHl1UQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-01T17:32:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
     "title": "Wall Street dips as surging Treasury yields outweigh software gains - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnk4Mlh4eUlVWkFMRF9fWmlKS2hacmlVZVExa09xVk5nMHllSzRCaS1rbkp4MWZPdkRMTTJSbjd1c0RCeHp4c1ROMlZCSURETU9mYWF5SXZ4c3RUSTVZY3Y2R25DRWY5VDdCM2dpQkJXZkFhcHlSVXQ0VEtLcUprSF91YlFtZTYwMEtiWjljcUwwazI5QUVF?oc=5",
@@ -58,14 +130,6 @@
   {
     "label": "Energy",
     "topic": "Energy",
-    "title": "Oil and interest rates dominated the third quarter - Axios",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xLU1FQnZtTG5TSGttVXRMZHlNS3dEekFwaWpEOFJsS0hiRHdpLUx4MnZVOGp2NjFQaTFCWWc0aGNEZ0dmSy1feVdqcUVFLTRROW12dF8wdzBpNkZWRjRxZXlZbzhmRUNkWDVyUk93?oc=5",
-    "source": "Axios",
-    "published": "2026-10-01T11:43:40+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
     "title": "Venezuela's Oil Comeback Puts These 4 Energy Stocks in Focus - Yahoo Finance Singapore",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWWxiSHhweUtkRkhaMXBZc3B5S2VsS0tCbjZ5eWFZZkVQdEs4SHAtV2NMeVRYbWRrMEw3TTk0ZnEydjFwSlJTV3RiS1RKbl9yOEZhcEhvZXRLV1FSY1ZhSVh6ekRvTk1WMk9ZOHRYMUVQVk1KdnNxcmp0QjNNdkNVZG0wSWRNZw?oc=5",
     "source": "Yahoo Finance Singapore",
@@ -88,11 +152,11 @@
     "published": "2026-10-01T10:22:21+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Bond market bust: A key rate just blew through another decades-old record - cnn.com",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Bond market bust: A key rate just blew through another decades-old record - CNN",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qREZfSFZmVExqZUtNRTd2UXZucS13d3pYOTd3ZXZROVlaLXVXYjVvZmtXclNJSWN1enNYX0JaQXZpdzJEMnREM01GU1VMczFYSFdNYWQ2eGtBT1MtRE9ZM2JqYkY3YnpGWG1Ud25lY2xaWjZIRHc?oc=5",
-    "source": "cnn.com",
+    "source": "CNN",
     "published": "2026-10-01T10:22:21+00:00"
   },
   {
@@ -146,10 +210,18 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "10-year Treasury yield climbs to a 24-year high amid relentless global bond sell-off - CNBC",
+    "title": "Treasury yields fall from multiyear highs - cnbc.com",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PM09zdU1xNE92dWFpOHlmNElQbnpGUTJvalgtNlhyVkRPaFFpcDNYZ3RHUVdQNHdVSW5Va3FQVzNxMzdveHc0cjBMLXVhdHE5V0NWNEdKREM0aWJMNEdmSzdjX280bkJHSEhz0gFwQVVfeXFMT2p0Uk1TT2ZMTV9LTkR5ai1QSTlXMFVIN2ZFSmo1d2tjNEljVExVVlBRRlRIYjBzTnh0Ri1nd2VCZzdZOXBtZFI0SlhCOWJEekI3MHZrT1Rlcnlyb1lRdHBTajlqZXN4cE5tMUs1RlA4ZA?oc=5",
-    "source": "CNBC",
+    "source": "cnbc.com",
     "published": "2026-10-01T07:57:20+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-01T06:25:00+00:00"
   },
   {
     "label": "Anleihen",
@@ -182,6 +254,14 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQktYTV9TZmlKdzFOZnkxaFR4eGFzcV82RkNJYzlrTUg0cklsRDJNdWxJbjd5LWJIaHRvUXZzaW1Qc1lsbV8xYnhBclpoTmY2Vk50REFJVEU2UXpWMVJNUnhhWmdudzFLT0FRaDMxWHIwSzlsb3QwN1RMX2ZfLTlteEwxQmJyQVBEWTIwYkQ5bGRCazNjT3pv?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-01T01:21:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcGNFYVVqQ0xkMTkyblJkMU5mMnJ6Y1RhTEhBWjJyWEhDaXdCVzg3aF9pWTFYdVkyN3d5WmpIRDdHQ283dUJhVlV4WTJzSEMwTy1uZkhwS2NNNndEZlhJY2lGTHgtRng1TjQ0XzRWdUNnUjRPQ2ZoaDg2UlJ1cTgtRGZHbTNVcUVFenI1SlIxREdDbWJJX25kWFY2ZWxxVzRyOFl3SGZzbjZUWEk2NklWOUR2UzEwanpPSzU1TnJyXzVveDRoX2c?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-01T01:10:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -246,6 +326,14 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNnRwME5HcktXckNZQW1SYlg5SHU3bjVLMkR4WUZ0TW82dDRjWVlob3NpLVFycEZhZXZ4SEo2NWEybkd3cXBoZU5QR2s0T2Z6US1YODA1OGQ0WTVzcF9xZEpVSXFGM3JONWstdDlndUliN3FnSXlRZ2lXS2I0LUNVUGxZemROYUpkTzVpcA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-30T19:26:11+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices rise by about $1/bbl on stalled US-Iran talks and tight fuel markets - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZNSGlvd0hfTjdOVTQxTEVYczRjUjdId3NlSGJDSV90UVVjTGhjaFF2OS1xckpOWElrcWRoUXNPa29WTHhsLW9yWVc2N1REdXZONl9iZ2ZUSkNOQ0xndE16LWpMa3c3T2FHWE0yajBlek1La3hVeTVnWkpLc2hhTTRNMnVILWY0RG9VbzVVZnZGV0JmM3VJWkNhVmlfNDlVMThOSVNtNlR3cFJUekNpMVZ3aE03Zw?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-30T19:19:17+00:00"
   },
   {
     "label": "NOC",
@@ -344,6 +432,14 @@
     "published": "2026-09-30T08:12:52+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices rise on stalled US-Iran talks and tight fuel markets - cnbc.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNellRcmlNbk9tbGFxRmFzTGJxRVo4bzhQSjhfZ2lfRVBsQ3NCSmlqeDBHYWgtU3Z0aHNFMl9UY0E0Zm5pUTJuSzBXVWw1TmtBZlVyZ1RFN0VadUxzRHNTOURENFdnZ0dMUHlFQmdqN3pTZUtqc2p5bnlXN2RKejNuTkllNWYtSUpuRjV4RWxiVk5XMUQ1ZWFXRXpidGxQdXlBY3BwazZCTlB1Z9IBrwFBVV95cUxQWTNmYmxSSGFIdU5nT0F3dWgtazRuWmJXaGhGbjZmSWg2cTk4VDdFRWNxV0xCa1g4NVFvN1ROeEZqb2gzNGxkTmdpVmJzOTNCei1RZVFoNzg1UW0xVXlYdWt6TTdsTm45WDRBaDBFUmhrXzBuWFRwOVVSQ1k4OHlUcU5KRG9BdGRLR0NxcmVxNmVPLVNYa3pESnVyeDU0SUtXNFc1UWlfWFAyVTNQdU1J?oc=5",
+    "source": "cnbc.com",
+    "published": "2026-09-30T02:51:00+00:00"
+  },
+  {
     "label": "000660.KS",
     "topic": "000660.KS",
     "title": "South Korea’s AI-supercharged stock market is world’s worst in third quarter - Financial Times",
@@ -368,16 +464,8 @@
     "published": "2026-09-30T01:56:06+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices rise by about $1/bbl on stalled US-Iran talks and tight fuel markets - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZNSGlvd0hfTjdOVTQxTEVYczRjUjdId3NlSGJDSV90UVVjTGhjaFF2OS1xckpOWElrcWRoUXNPa29WTHhsLW9yWVc2N1REdXZONl9iZ2ZUSkNOQ0xndE16LWpMa3c3T2FHWE0yajBlek1La3hVeTVnWkpLc2hhTTRNMnVILWY0RG9VbzVVZnZGV0JmM3VJWkNhVmlfNDlVMThOSVNtNlR3cFJUekNpMVZ3aE03Zw?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-30T01:39:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
+    "label": "Anleihen",
+    "topic": "Anleihen",
     "title": "Battered bond market braces for a new era of interest rates - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
     "source": "Reuters",
@@ -562,9 +650,9 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "30-year Treasury bond yield scales to highest level since 2002 - CNBC",
+    "title": "30-year Treasury bond yield scales to highest level since 2002 - cnbc.com",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93aHlqa1RYRElONmxCNDg5QVhVd0RpVE9MVVNKRnVpSEhYT1lPaFdmQWFSVXYxTmVmaklMRUY5QW1HanBIUHBOblJFamp0Z3VuU3FzNmgxUEc5VnVnbXZwNWFEaGlDV21iSlHSAW9BVV95cUxOU0tCbW1leGVnckp5VV9HeG5YczdXTmR4bHNSa040TWhzYzVpbTd2dlhiT2s0aTIyb0FQWjAzdzhaTW5oOGZhUkNvbDNZRGdlNEVOb3l5N013dlpCT0RGdlA0TC1Sb3NvczhHYzZQcXc?oc=5",
-    "source": "CNBC",
+    "source": "cnbc.com",
     "published": "2026-09-29T07:52:47+00:00"
   },
   {
@@ -798,165 +886,5 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ0ZRTl8tR3BSSEhfYS1GX3FrRDNwS2xpV0U0LWVoeFhPZ3Y0VXNWSnZHeUtTdnV6N3JES2VmNU15c1Bpc212VmZBTzcydDJfVU1nQVFLcUtEZjV6QS1KRGVUbG1BeHFrY1pJS2YxX3pxTExKTUo5a2NYaHpEX3NYQ0RVYUlVcE9NSEU3YldxRThROTRGMlFB?oc=5",
     "source": "CNBC",
     "published": "2026-09-28T11:29:28+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Nvidia sets biggest-ever buyback plan as AI chip competition weighs on stock performance - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTzg4UzFUbWw0cThEbUEwYVdsdF9WVVpuSDZ0RkJjLWd1UE5XdVJFWjRKazNRU2lyVkxiX2xIZFplVnkxTTl4QUhnV1NaM21SdFNxTFBMYXVJMlJVU2lobmtWYkpqa2wyWlRPLWxuZTMtTzhRUVpHZ1V6VkRLS0psbzlQTWQwcGNpVXNuSGRYSjlCQU9sU3lXcXVteXk2ZmZf?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-28T11:06:00+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Affiliate of Jefferson Energy Companies Agrees to Acquire Crude Oil Logistics Assets from USD Group - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRGlzN3hHWGFOSGJGbEVSZGZOX0NFbWdfU0pzelVFUlVkb1ExMHUtY2VGU043bndHSHVsU3l2UjR2cmxOQWhjRy1vbW5qaGpIWnNwelVHbHN2Z1RURHhDRVVGSzRvVUk1bTB6SG1HVWRsZkNqWWFzMlhtT0VtZWdQYlZzU0ttMUZRWnBjWEFNMU5uVXNEeDlFODhQNXlHVUEyWnc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T10:30:00+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "Intel's stock drops as AI fears mount, and other early market movers - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPYVRUQUkzLUwwSFQ1Z3hkNDlsYWo3SW9qRXVIcUxqOGxIMXNHWHZuYVhLRUJ5bWh1SnZxYjMwTDd5UjVaMWlGVG5OZFd3QjJVTGlRVVZRazV5aW8wVUhJTkduMy1HSUdOcDJYMWxOTlZiZVgzUV9WaDk2Y3lYeW5SajZBUk1xX0ZoaTVLQjZOUlNXcWNSR1FBSjB4STNqdjNXbWdTLVpJSkNfNGR5UG9BOUdfdXViSXJvUkJBVUt3WFpxcjV0aXBQMDlQa0xGWTU4RHQwS09VVEJabUNlUV9uU21nSFo3Mmhqb3NEcEdZR0g5R2tkM2pVWUVCa3RHTkZIQ2tidE10V1pPZ3RzaF9pSDlSUEk4aVY1VlBxRFE2eDNMMGpxM1UwX0NSbW5uRWNSTTNCNEV4eTdzVEF3Tzc3Yg?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-09-28T10:29:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil Prices Rise More Than 2% as Iran Maintains Hormuz Reopening Conditions - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUnB1YlM5cm1OcGJEeXhNRlRXMlVIRDE0cVRhYXplRnRVN3dYQ0NTRUhSSHlaSldkQkNrMXB4anVGQ1J0UjZWdmJVOFZZdG9rcnlyaDlGYXZxZV9oTGw1VEdRRHRzZUNPWWRQN1F5VElsVERFdUdVQlczV1B3cU1tRDNoVkluQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T09:47:49+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Treasury yields rise as march to multiyear highs continues - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41Z0tuczlCbWIxU0ZyYXE5N2hjV1NtU3U0LVVkRWtUUkZyZFBJRzN6cDlaYTVyZjdJVE80TG5EeUE2UHgzRmRFX3FSbVJiSENtci15Vlo1NjU3OE04SmV0U25TeWZaLTlFdThpRDdSYjZFbHF00gF6QVVfeXFMUGtkTDVNOUd5NEJQRHF2S0ltSWpnTWo4QUtEWUR1Y1dONkM4T0FOVUgtTXR4MHowZDV0WUlhcXFyRUluRzgyM3JkWFNveURoakZ3aVpaWE8tNC1ERjJhXy0tcHBUejAxdnpjd014NGhEN1FYWkxtX0Jpenc?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-28T08:49:06+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Treasury yields rise as march to multiyear highs continues - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41Z0tuczlCbWIxU0ZyYXE5N2hjV1NtU3U0LVVkRWtUUkZyZFBJRzN6cDlaYTVyZjdJVE80TG5EeUE2UHgzRmRFX3FSbVJiSENtci15Vlo1NjU3OE04SmV0U25TeWZaLTlFdThpRDdSYjZFbHF0?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-28T08:49:06+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Nasdaq, S&P 500 Futures Fall As Oil Spikes On Trump’s Snub To Iran: MU, NVDA, SKHY, SPCX, NIO Stocks In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU1poMEl1VWpXV2p6UlBOZ0FxVV9xd2hBbGk4YldCSEFYTVhfcHZRNFdOSzVMbWFyN0gyczhWSjVqald2WGhSNy1zU0plSUlXWmVaWGdrY2lVQUNHNUFYcjlJbUl6MXJldnhkQnB6RVhPSmJWVndDR0J1Zy1sajVMUkhaQW5wMVU0RXZaTHdJaVl5OW5z?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T08:36:48+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "US Stock Market Today S&P 500 Futures Rise As Jobs Data Jitters Build - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYXB3djlhVDJJekJySFB4Mk1GTUlIRl9wNEY3ZzVLUklzRXc5V0dGdWRHNGtMM3NqRXN3NG9tSUEyLXhQMDV0eExRUXdFaEgtR1AzUzFhNGNaODU3R1F1UWI4ZU15cWJjM2I1OW0ycW9qM0hPQjE2SUgxWFpBUTlCbVRJMHk4RHRqcnh1ZHZ6LXlKQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T08:07:13+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "China chipmaking stocks tumble as Beijing reportedly mulls allowing Nvidia sales - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWldkSHZoaUVhUXZRZUdERm1TanBaLWhjbV8yWTZFVFVNNmtwVU93ZTkyWENJQzV4cW9KODRkRW1hY2hLYmhPNS11VjU0bXRyMWFDNUF4Yk1TZWhCcC1fbzA5V0xuSktMdFlhYzBUelZEU2ZCLXJVdVBHWDMyRVktNVNsdDVobzFwazdHSjd1Xzk2NjlpVmNINEVSTV9tVVlQalBkVV9n?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T06:22:28+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Stock Market: Will S&P 500 Open Up or Down Today? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSlJkODdqUWp0UTNDMkRyUXg5OW81RFRDWlpiX2IteUgyRWRQOU5OTlIyaERuOUxJc1NoSUpFQmxhcHNaZnBucnRmeHp4UFV6N1ZlR3RJZzJVNWx4alY2bWFzREd4Wm1jZ2hVNWQtQWhPaFdSM3Z1MFJxVGdsRncyeUlPY1JJbFlyQXEzNWx0S2ZzZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T06:11:00+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "SKHY Stock Dips Overnight: SK Hynix’s US Subsidiary Solidigm Reportedly Plans IPO - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT3JtenVyMEdKazZra240QjY4Z3o1Zm1pQTBQZzBfMjZtMm9ORlFkakhPY2pRRVFHUHRoTzRTWFJaZ25GZ0Rfc1lIQ3E0YnJNTkx3M0t5ZUNZVmg5dnMtdW0xalVJTUVocm9Daks1bmhrVVR4M244TWVGbm50Q1lmU1VycHU0cklEdmFUWjVBd3U1dFI1Rmk3Yw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T05:26:00+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "SK Hynix (SKHY): Can Solidigm Become a Bigger Part of the Story? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSkttaXVsdE50YUNjU21IQ3FKcXFxY1lBNnI1VHhiQlVMTFRWcHdvYVFRY1ZDbHNIb1RxX2VkWHF2TmFiZVpXemlCeHU5dG92LXVzLXV6SjVmeGhIcC1rYjVGYjhYYVNYeFFBM241a09pTVBuSFBzZ0ZuRXRTOUVpc1lNYjNTVUVqYnhzNERublloYjFzRWRSQXZn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T04:17:00+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Asia chip stocks slide as OpenAI pause revives AI slowdown fears - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMVBiWkpjRi0xNkszYUNmb0liWmtGMWl1TnY0SHg3TEhEdnVSUVo0ZHlsV2w5UFRQXzMzenhTbmU1OVVTZ2x1WFNvTHJ3Y05vY2NPaEJ3WnhCQkVjQlNEdE5jcDd4QUZsNzZNeEM2Y2JtbzNOaVl6WWRzY1UzU0U2SVBLTkN6VXJkMVpOaV9aNmVhR3o4Vy15TQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T03:49:00+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "SK Hynix Shares Fall as Solidigm’s Potential US IPO Sours Mood - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeWt3eVZZVU5qZWhGSHc3MzZhb1hnM1dvQ0RuYWx1SDEyS1ZnRmFONElHaVR6Q0pTbUh0aV9lYThxaVE1MFZib1lpS0FzdklxWVBfei0waDZZNVYzNEdGaFk2ak1XeGhrVXV1VTdkOHNxZGRYNjZkdW1HckNGT3RRb3hOUjJKc1RoY1NEZ1BETVN4cUk2aS1saVdn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T03:10:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Dow, S&P 500, Nasdaq Futures Fall As Brent Tops $106 After Trump Rejects Iran Proposal: MU, SLV, QNT, META In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM21KcDNjV0trSEFSY1ZURmVDaTVtZ1JXM3RsLVBkcjkyRW9sU1VwcXdObDJnQkJrNzZtdU9zeTh1Zzh2RWY5clpnc2VBWHpmTjRoVkdNWjJQaTNuTk5Hd3lHWnI3RU8wZEFFMS1JelN0eXVDVW9SSU9BejNOaEpfRUVlRWpsVmtKNm5GU2VVdm9nWFU?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-28T03:04:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq futures down 1% after winning week on Wall Street: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfcHBSWXRJblRwTG9LU2FTa2padU81clRCNUE5aVFMSHRsMEVXNWVKd1RINFM2VjhCSFNyOUVEVTBFTkgxeG5NSVBPWXZnWkE5Zi1fWTE1c042R2diaGNaUG52Qm1Zbjc5TVlSdTRWRlFKQ21laXJF0gF8QVVfeXFMUF9sSmc0eVlfc0psUWhFVUc3WVNwWFZlSldzSUtXamRDd0VKQTRqRjMxSWNGSEdTZDJBWEVtS0JkVThUV1I5cVFCNHV4UjZxQVcwR09qRnRRVHBFeTR6Qk84WEY5Y05vZlNZNU5NQnYxV0ZTSlJsSi1VNkQtVw?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-28T01:17:02+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "BOJ",
-    "title": "Bank of Japan debated need for faster rate hikes, July minutes show - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM0Rid1RQcVo2QlNMTTZDOGEyYmRtQnFYVVJDN1pBMGpwNGxzS19vN1VBMHVXbDFtWkZHOVJhZTNxaWptMGsxbkxDQ2ZSNjZkNFdMTUQwZEhuaW1FUGhHUnJhWGU1eU5NQ1QwRWpDUURJQS1HUUdNYmFZbldSdFk4VGRXSGhUTkVPbk1QSUxzMV9ZckpvMWJYaTNPaWswYnpCTkpEUk9xNUhFMjEyVDRJek93?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-28T00:58:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices off highs after reports Saudi pipeline ramping back up - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iS25pUWtaQlhIVkNyU2oyYjg1enVuSE9EV3VvR1RnM1NkeUFBTzNoZW1WZDhkTERTQm5WZmUyYkxMczhLLUVXaExhMEhyc3RCcHlxZHMxNk5JSjNJamZmSklPTXVHWWhwVE80YWR2Y3ZZS0FKakFTQzhGQWhmd9IBgwFBVV95cUxPRkh5X0phRnhfLXYzbGtUbXU2UTA0UVowTU5hTzZKNzJEZHZ2SUZXb1VwSUR5M2lwU0x4Qk9EUU9XeW9pREVrdmRMZjVRZXM1MWZ1NFR0d2xaS0Vzc3dWUnQzVWFfUUE2WTdDcC0xSzZETm1VZ0w0N2pCQjJvbXFjLV9UNA?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-27T23:58:57+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices off highs after reports Saudi pipeline ramping back up - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iS25pUWtaQlhIVkNyU2oyYjg1enVuSE9EV3VvR1RnM1NkeUFBTzNoZW1WZDhkTERTQm5WZmUyYkxMczhLLUVXaExhMEhyc3RCcHlxZHMxNk5JSjNJamZmSklPTXVHWWhwVE80YWR2Y3ZZS0FKakFTQzhGQWhmdw?oc=5",
-    "source": "CNBC",
-    "published": "2026-09-27T23:58:57+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices settle slightly higher on supply worries as Trump rejects Iran proposal - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-27T22:18:13+00:00"
   }
 ]
