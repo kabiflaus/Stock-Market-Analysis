@@ -1,19 +1,27 @@
 [
   {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-02T22:20:30+00:00"
+  },
+  {
+    "label": "MPWR",
+    "topic": "MPWR",
+    "title": "Monolithic Power Systems Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbVdraERyZDNWRUNFSTdoTVVtRWlkVEJnTFF2bDBYWnZ6RXYwZkFNV29uU3RTdkkzd3plcnBYSWgxTDN4dmNFaDZhakpJTS16TEhiYXpqV3FadlV3ZnFnRkJWU0NEWE5jMUtSNEpjYmpGdjZ6Wjd5T05WQjU1ZFRKVF9pX0ltUks2UnY2M3BMWmhhaWVGR3dIdGNkTWE1VUFoWXVsVkpLMVJyZ1FFQUNDOHNpWWlwbVBTaDZCYVRONDI2Z2dZUnhiU3F3cUR0QjkyUTI2UURUVQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-02T20:30:00+00:00"
+  },
+  {
     "label": "S&P 500",
     "topic": "S&P 500",
     "title": "Stock market today: Dow, S&P 500, Nasdaq jump as traders pare Fed rate-hike bets after September jobs miss - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTW4zeUoxak9vX3NlMFVEZWE1U2ZxZFE4VUFRX1FTRWI2T004aUZWZWw2b0FnZlJUTnZ1UEtpeVNfczhIaS1FcElOUVJxb2tRSWFyd3Y0U0xJMjgzMW1YUlplQ09nemhSaHhPMy1WdDVnZFpZbkMycEpYN1hYLXNybkxfR1pIRU85VENnSlRnNllSQ3pUX090d2lkR3gxcVAxdk81ZGRHT05LSk9CRUJBbE9WRTJHcW91UDVySWZyMkRvMG9VaFZxbA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-02T18:04:37+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "EXCLUSIVE: G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-02T17:41:08+00:00"
   },
   {
     "label": "AI",
@@ -40,11 +48,19 @@
     "published": "2026-10-02T14:31:34+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOU1aVUFEOV9MWl9TVVdodDl4eFoyUjgxN2tLZ1QtRWYzbEUtMEpVQll0ZkhSekJFZUFVZzdNeXVqTzdUYXI3OWNMcC1YQ19XVDN2MFNTOWQzNjFLLTBDWFVvLXlWMWZRZ1R6RTRhVVRuS0dkZnJBMTd2dWhGV2hPdUg0b3hJQkZncFhCMnljc2lwYmw3TFHSAZsBQVVfeXFMTzNmZkRlUzhSSXlhMzhWV3lyN0pyeUstczZQXy1HZFNMRUh6TjNPN2Q0bGdrU2tCZjg2YkFZN3RrdndRcEs2TlAxRVlmNlhQVldRd3VZRmtZUlZock5uWTFsQ3dXdDMycWJSbXQwTDBSYVBWa1RZTG9qRWxkQTk1R1Y1WmtuUW9DSF9tUGs0NF8xdmE2RHlYQVJidFk?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-02T13:29:27+00:00"
+  },
+  {
     "label": "TSLA",
     "topic": "TSLA",
-    "title": "Tesla stock jumps 5% on better-than-expected vehicle deliveries report - cnbc.com",
+    "title": "Tesla stock jumps 5% on better-than-expected vehicle deliveries report - CNBC",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLTV2TThXeklJVmVnSl9pMDYzQnNoaWVielg0ekwyYTJVemhmRDdKdlpaekRVYXdTcndZNGRyelluczN1MUIxQ3J6M2FDWTQ4dnQwd3c1OEVURkdBUGdQLTBXaE1iUWxXOGFUVlZOLWdscVp0UkFTSEpsWkM3QTRDT3pMdkFlME41OHRn0gGQAUFVX3lxTFBoR1hCMDN2NU1mQ1ZJdFg3XzBQYWJSMzZmQk5aVnlBTTg5YnBfUi1KMm9seGMydVVOU2p1WnloTVVUV25QRXdYT1hwQ1Y4ODlvc0RBcUhwOG9VWUh3OG9CSnJ6N2ZuQUlBUjdWT0xPTnFaN3JHOTdjMk8tZnpWamkwOF9FaHNSUnZHQ1ZpQWkwZQ?oc=5",
-    "source": "cnbc.com",
+    "source": "CNBC",
     "published": "2026-10-02T13:03:51+00:00"
   },
   {
@@ -120,6 +136,14 @@
     "published": "2026-10-01T23:33:06+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Eurozone borrowing costs surge in global bond rout - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUGlVUkdYU191anlHVmJYMmFhZ05DVXRkbmtOUGVMSE9CcVNUeDJGemROM01tQjhUeVZ3TUNBOWlIRXczQkJoQUh4UHBCaEVCc3dvd0g1Q1k5elVwbHQ3WVhzLTF4cm5RWDVZUHJGUU1RM052NkhBR29vdG84VkpCZGlwUkQ?oc=5",
+    "source": "Financial Times",
+    "published": "2026-10-01T21:45:22+00:00"
+  },
+  {
     "label": "MPWR",
     "topic": "MPWR",
     "title": "Monolithic Power Systems Inc. stock outperforms competitors on strong trading day - marketwatch.com",
@@ -144,14 +168,6 @@
     "published": "2026-10-01T20:30:00+00:00"
   },
   {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Oil and interest rates dominated the third quarter - Axios",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xLU1FQnZtTG5TSGttVXRMZHlNS3dEekFwaWpEOFJsS0hiRHdpLUx4MnZVOGp2NjFQaTFCWWc0aGNEZ0dmSy1feVdqcUVFLTRROW12dF8wdzBpNkZWRjRxZXlZbzhmRUNkWDVyUk93?oc=5",
-    "source": "Axios",
-    "published": "2026-10-01T19:56:19+00:00"
-  },
-  {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "Fed may take time to make next interest rate move, Jefferson says - Yahoo Finance",
@@ -166,6 +182,22 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEdmemN4NUZ5RjRobklFbGFkcWZ0NENTRmZfU2hmNnFuZ1ZkRzJKY09hV3VLcjllT2V3VEVHdGg1NTFBbU1BVUJycDV1ODc5cTRxM1hCWlk5aW1RY3c0RzQ2bTNMcmsybi1VdDdoMG9RdUFrakRXSnFfb2trYmpOQzU5RmNmMXpqZlpJNUY1OEtEOGxnNXhlUjkzdmpnaWZVSVcwX1MyTHl1UQ?oc=5",
     "source": "Reuters",
     "published": "2026-10-01T17:32:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcGNFYVVqQ0xkMTkyblJkMU5mMnJ6Y1RhTEhBWjJyWEhDaXdCVzg3aF9pWTFYdVkyN3d5WmpIRDdHQ283dUJhVlV4WTJzSEMwTy1uZkhwS2NNNndEZlhJY2lGTHgtRng1TjQ0XzRWdUNnUjRPQ2ZoaDg2UlJ1cTgtRGZHbTNVcUVFenI1SlIxREdDbWJJX25kWFY2ZWxxVzRyOFl3SGZzbjZUWEk2NklWOUR2UzEwanpPSzU1TnJyXzVveDRoX2c?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-01T16:01:35+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Oil and interest rates dominated the third quarter - Axios",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xLU1FQnZtTG5TSGttVXRMZHlNS3dEekFwaWpEOFJsS0hiRHdpLUx4MnZVOGp2NjFQaTFCWWc0aGNEZ0dmSy1feVdqcUVFLTRROW12dF8wdzBpNkZWRjRxZXlZbzhmRUNkWDVyUk93?oc=5",
+    "source": "Axios",
+    "published": "2026-10-01T15:28:22+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -306,14 +338,14 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields fall from multiyear highs - cnbc.com",
+    "title": "Treasury yields fall from multiyear highs - CNBC",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PM09zdU1xNE92dWFpOHlmNElQbnpGUTJvalgtNlhyVkRPaFFpcDNYZ3RHUVdQNHdVSW5Va3FQVzNxMzdveHc0cjBMLXVhdHE5V0NWNEdKREM0aWJMNEdmSzdjX280bkJHSEhz0gFwQVVfeXFMT2p0Uk1TT2ZMTV9LTkR5ai1QSTlXMFVIN2ZFSmo1d2tjNEljVExVVlBRRlRIYjBzTnh0Ri1nd2VCZzdZOXBtZFI0SlhCOWJEekI3MHZrT1Rlcnlyb1lRdHBTajlqZXN4cE5tMUs1RlA4ZA?oc=5",
-    "source": "cnbc.com",
+    "source": "CNBC",
     "published": "2026-10-01T07:57:20+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
     "source": "Reuters",
@@ -326,14 +358,6 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTFVXX3JzVkRXNkJ1d1luT3pNQmJoWFdLYmJueHhVRDIzOEFVVVhyRElIeGdMLXQwUWFVbk5IbmtTVUJCWWVwRWVTcTRnX1FqMVBfUUxjUi1XbFI0b21GZXBlc2hlbHFMOGpqRkxDWFI3eVQxdXBnVUNZS2tKVGNhc20xUndlMTd4bUM5MGgtZ3J5SDZySVJ3TzI4MDN2SXNISFpV?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-01T05:09:00+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Eurozone borrowing costs surge in global bond rout - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUGlVUkdYU191anlHVmJYMmFhZ05DVXRkbmtOUGVMSE9CcVNUeDJGemROM01tQjhUeVZ3TUNBOWlIRXczQkJoQUh4UHBCaEVCc3dvd0g1Q1k5elVwbHQ3WVhzLTF4cm5RWDVZUHJGUU1RM052NkhBR29vdG84VkpCZGlwUkQ?oc=5",
-    "source": "Financial Times",
-    "published": "2026-10-01T04:18:16+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -361,19 +385,19 @@
   },
   {
     "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcGNFYVVqQ0xkMTkyblJkMU5mMnJ6Y1RhTEhBWjJyWEhDaXdCVzg3aF9pWTFYdVkyN3d5WmpIRDdHQ283dUJhVlV4WTJzSEMwTy1uZkhwS2NNNndEZlhJY2lGTHgtRng1TjQ0XzRWdUNnUjRPQ2ZoaDg2UlJ1cTgtRGZHbTNVcUVFenI1SlIxREdDbWJJX25kWFY2ZWxxVzRyOFl3SGZzbjZUWEk2NklWOUR2UzEwanpPSzU1TnJyXzVveDRoX2c?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-01T01:10:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
     "topic": "BOJ",
     "title": "BOJ debated faster rate hikes in September, government pushed back - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdzJocjN0YVk0QkZXc0dZRUc5dWgwdHhOQmxBSWNsV0JfVnBMd2JIY0U0OGwzdnh0V0VjamtrWnhQeHNSTC1abDZraUI5OGN2MTFwZDBXN2tlakJHMWNqeGZVUWFUTVJIYzhiYmMyaGNET0NZYlFaTU5OQUJZUDBuS1VGQWZYMkotb2hCZm56UThuSEpjS2FycnZUcldzdTF1Vm43bG10eVQ0S3pWc1dmdkVkN24xZFZBMDA4?oc=5",
     "source": "Reuters",
     "published": "2026-10-01T00:15:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
+    "source": "Reuters",
+    "published": "2026-09-30T23:40:02+00:00"
   },
   {
     "label": "PSX",
@@ -542,6 +566,14 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2NUTktFN0dKbWZ1N0RyRlhXbTVPeFpUSlJVWmFKNEVZUDNWVWJZQ1FObWhFeVBXYUw2aWJzaGI4RnJ5b016UENwRDFUMy1YUnQ4VTBxN3FYbjliN3dCVUNGWlZ1YlJVOHV2b1BXdWVSTEhTaFN2Yl8xZWNVcG43QVhQYkcyM2Vvbkl3ODBCVzhnUQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-09-30T08:12:52+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-year Treasury yield is higher as traders look past inflation data, await jobs report - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GQlZiZlp1SF9QQThOeTVMdlZRdzFWWmJCQTNscjM0SXpCM1N0NnFqcEI4Uk5ZdVhyak5xQkplS0xseklzSVlNS3IzdUtvRXExNUNZcG1wYU5vVDA1LUlmeVNxdm5vbG5lYXpzQWhTdUFLNTlV0gF6QVVfeXFMTVpOSXVkYm1ua3ZWMy0tUFozWW1DM20zU3h3cExyR3lVckNPb240R1RYTFhJRUNPRkMtOU5pSmpPQTVRa1VYTmNYUnVBMTdpdURWQlJTeF84d1Rsc0xYS3VLZXF1SndfTzZHTXFMeTV2aGZ4X2J6SVlzUGc?oc=5",
+    "source": "CNBC",
+    "published": "2026-09-30T06:46:19+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
