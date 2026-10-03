@@ -16,14 +16,6 @@
     "published": "2026-10-02T22:22:03+00:00"
   },
   {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-02T22:20:30+00:00"
-  },
-  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq rally as Fed rate-hike expectations fade, tech gains - Yahoo Finance",
@@ -136,6 +128,14 @@
     "published": "2026-10-02T09:57:23+00:00"
   },
   {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-02T08:21:00+00:00"
+  },
+  {
     "label": "Rüstung",
     "topic": "Rüstung",
     "title": "Italy scales back defence spending hike in new budget plan - Reuters",
@@ -241,6 +241,14 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-01T16:56:02+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "Oil jumps 4% on reports China halts fuel exports, US troops head to Middle East - Reuters",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcGNFYVVqQ0xkMTkyblJkMU5mMnJ6Y1RhTEhBWjJyWEhDaXdCVzg3aF9pWTFYdVkyN3d5WmpIRDdHQ283dUJhVlV4WTJzSEMwTy1uZkhwS2NNNndEZlhJY2lGTHgtRng1TjQ0XzRWdUNnUjRPQ2ZoaDg2UlJ1cTgtRGZHbTNVcUVFenI1SlIxREdDbWJJX25kWFY2ZWxxVzRyOFl3SGZzbjZUWEk2NklWOUR2UzEwanpPSzU1TnJyXzVveDRoX2c?oc=5",
@@ -337,6 +345,14 @@
   },
   {
     "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Bond market bust: A key rate just blew through another decades-old record - edition.cnn.com",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42NkNKQ1VvMzhVZjdwbDRlUDNDMWlQZ0tLMkV2WE4tY2szWE9QOEQzQVpCdXc2QUZLQzkyd3V4dXJvWWVZdDJITWNXenVhbG84NkFYVHBaLWR0S3dsZlJJaUJvdWIwNzFwN256Y29kUE5nUmpQNDlWTGZfbw?oc=5",
+    "source": "edition.cnn.com",
+    "published": "2026-10-01T10:22:21+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "BOJ",
     "title": "Bank of Japan’s summary of opinions points to accelerated pace of rate rises - Financial Times",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZbHlxaV9MODRSQVoyWkxjenJnblB2Q0I2VmhCMnhUUnhMcXAxYktkdlU4SjlPNXVhcHFPUkJ5cEZJZHpMXzM3Z2hGTTFTQUlvYUhZT3AwbmhUTGROb1J4RG41bmlyaGRTdDRxMVhPU1E?oc=5",
@@ -392,20 +408,20 @@
     "published": "2026-10-01T07:57:20+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-01T06:25:00+00:00"
-  },
-  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
     "title": "Bonds teeter after US Treasuries' worst quarter since 1994 - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0wxbXFYQ001R1J6N3BrM2F1bWRTLVBBeC1UMFdDSmRldFlmR3VzZWRSNEszWTZRVHBNMVdrVDhQU3NqdmNFQldKa1VMRGx1OWhRVV95empLbFQ2eVY3UVJOQ3Nzb3VabGxYRy1YcUN3SXBVREI1bHFhN3F3bWZFZndnZkZSdk9abGpoM0pTeWNKdkdMY2RTUXFUMzVVZw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-01T06:24:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "BOJ debated faster rate hikes in September, government pushed back - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdzJocjN0YVk0QkZXc0dZRUc5dWgwdHhOQmxBSWNsV0JfVnBMd2JIY0U0OGwzdnh0V0VjamtrWnhQeHNSTC1abDZraUI5OGN2MTFwZDBXN2tlakJHMWNqeGZVUWFUTVJIYzhiYmMyaGNET0NZYlFaTU5OQUJZUDBuS1VGQWZYMkotb2hCZm56UThuSEpjS2FycnZUcldzdTF1Vm43bG10eVQ0S3pWc1dmdkVkN24xZFZBMDA4?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-01T06:16:32+00:00"
   },
   {
     "label": "IFX.DE",
@@ -438,14 +454,6 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQktYTV9TZmlKdzFOZnkxaFR4eGFzcV82RkNJYzlrTUg0cklsRDJNdWxJbjd5LWJIaHRvUXZzaW1Qc1lsbV8xYnhBclpoTmY2Vk50REFJVEU2UXpWMVJNUnhhWmdudzFLT0FRaDMxWHIwSzlsb3QwN1RMX2ZfLTlteEwxQmJyQVBEWTIwYkQ5bGRCazNjT3pv?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-01T01:21:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "BOJ",
-    "title": "BOJ debated faster rate hikes in September, government pushed back - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdzJocjN0YVk0QkZXc0dZRUc5dWgwdHhOQmxBSWNsV0JfVnBMd2JIY0U0OGwzdnh0V0VjamtrWnhQeHNSTC1abDZraUI5OGN2MTFwZDBXN2tlakJHMWNqeGZVUWFUTVJIYzhiYmMyaGNET0NZYlFaTU5OQUJZUDBuS1VGQWZYMkotb2hCZm56UThuSEpjS2FycnZUcldzdTF1Vm43bG10eVQ0S3pWc1dmdkVkN24xZFZBMDA4?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-01T00:15:00+00:00"
   },
   {
     "label": "S&P 500",
@@ -750,69 +758,5 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQW15c0ZrS2lrMUlHZDZjZlpxRG5GazRlendBenpXeWZSR3NCaXBFLXA5LVBlbWNEeDNsWnRnS25CYWwxc3AzRDhrTjhUZTNZcl8xN2VDT3JtZHk1eVpHUzFaaXpVVy1HbUk1Y3hKOEtoTmxpNTVwWkJHZXVvTWl1cm5QdWVpWXhFQkxBdmt4enRJRkF3NUlxTQ?oc=5",
     "source": "Reuters",
     "published": "2026-09-29T18:01:00+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "Intel Stock Is Up 246% Over the Past Year. Here’s What This Week’s Pullback Signals - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUHplVWZoZjV4S0lrVVpweEY0Q21vVmZRUHpIR1RXcXlKQWxLN25sVk5EdUtCejNXY19FRzBIV2tidFZoeEF1NXB0ZDAwd2VZQXg4d3ZXcnJVbUlmaFNWMnNENGVKVjhtQ3lPdzdfTTBOeVpSaUdGUUF1Y2Nrb1ZOTEdpUkdUZUpBUWFhS3h6Qmhaejhr?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-29T16:31:08+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "FTSE 100 hits two-week low as energy stocks slide - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTVJhVzRZdWwtRnZ1TDBRUWZjU3F1VlNxRVdXVkJrb0lIT0x6UXFTeVp5NlFCdzRNYVB6UExPNkZCUzJrRUp0RW93MTlFS01GUW54LTFlY0NzaFRQNlRnbk1EVldFSnplRmxJRW5UWDRNWGhOMFhSS2IyMTIwSEI0bmhuQjVFTHRWZ0oxU1BnZ2YtMDhqb1B5c0dzNA?oc=5",
-    "source": "Reuters",
-    "published": "2026-09-29T16:25:59+00:00"
-  },
-  {
-    "label": "BAYN.DE",
-    "topic": "BAYN.DE",
-    "title": "Bayer (XTRA:BAYN) Stock Could Be Undervalued Following FDA Priority Review News - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWUQxTEViQWxuSHJFX1ZQTXpsMERRUlZjbWhyUkYwYnc5UHIxQ0gzTjVYSE9kQ2c3WkYyS0UzVjJ6bktPbkk1OUhvSkFGVW1pNlJDMXBYdmNrM1Naby11eTFTLTNZR3dXRHpuWUZpLTV5Qk03cnZDNU9mdkxPZ3ZZVVFzaXg4TEpfMkk3dHF2NnNuRnR1aDRV?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-29T16:05:49+00:00"
-  },
-  {
-    "label": "AMAT",
-    "topic": "AMAT",
-    "title": "Morgan Stanley resets AMAT stock price target by $79 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY3luV0tlYjlUU0N0d2tVcG1Td0wyOXloQTBMdjlLdTRnbEc2aUMxaXFWSVFOMFY3YlFaSkUxbl9VbVNERVcyNmgyanJCYVFzVlhIVDhTb3VTVTRmNjJfMGpIZHBhVXhNM3JDVGxLd3BqY3FYQk1ZdENBaE0wZmVNVWtkS2hvYkpJWmVURDFUbUxnelhQY0RYTmdRXy01QQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-29T15:07:00+00:00"
-  },
-  {
-    "label": "PSX",
-    "topic": "PSX",
-    "title": "Why Phillips 66 (PSX) is a Great Dividend Stock Right Now - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbXppd21XZk5mR05SSlJZdUxvbXAwOTZvS01QTl9xXzVLUmVWcWZGb3JSWW8zVDdjYkVpYzZBSGJTU2RPQ2UxcmhHUWZwSDU2eldEZEMwWVZDLXQxUDJ3U1VxVW9adVZvVWZISC1ha1dCZGhMWVZZb0lYdFhqWG50VnVtVEVteWphSUtFd3psN1ZGdXZJ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-29T14:45:02+00:00"
-  },
-  {
-    "label": "BAYN.DE",
-    "topic": "BAYN.DE",
-    "title": "Could Bayer (XTRA:BAYN) Gain From The FDA Priority Review For Lynkuet? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaWIzUmUwbmwyZ0lWblB1bGVvQ29JZHZadk1nQ2hUZlRMZlFmWEpPU3VjZldrODZDMDlSSDN4MTdCNC1SMkFjSF9NTVhza0U1SVljRnhubFRMODNBTENMcF9qV2FYRkl2dGFzVU5sRllTSWgwekM3NDRqMkRaSkl4NHJkbmsxQ3Eybmk2NmY3TWQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-29T13:06:10+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Are Oils-Energy Stocks Lagging Cenovus Energy (CVE) This Year? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS0I1aUxXMzlQX2lJNUZUaTlzOW93ejJ1aTRncF9HbG13UVJwZ01ScUtFV2pQQ3hacF9vTTVRV281VDktYVdwSFVPa3UybkpEYk5LVnY2a1EwQmd5VlRqdVE0ZDdmZzYzRGxoT3VJOVhNRk9PTHBObWlRS24xcEg3RWJNV1Y3amNhLTFMZkdZTGotdzJhRVZVZWNlM2MtWlNj?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-09-29T12:40:04+00:00"
-  },
-  {
-    "label": "APA",
-    "topic": "APA",
-    "title": "APA Stock Surges 74% in a Year: Should Investors Lock In Profits? - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOGpSYUtzWWFOXzdVd1Jna1BoQmZYTXh1cEpKa3dLYU1EcVpuVTlhUDBVRjBvemdqSkp6VWVDUE4wR3hHWkphUUUtcHdsa1NqSHFqRHNQMm4xODVRa1ozSGNKTGdZX2pRMXk1VkpHS3g0WE5aNWZOdGl4MF9zVy0wTWhvdUM?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-09-29T12:26:00+00:00"
   }
 ]
