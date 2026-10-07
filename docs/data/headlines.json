@@ -1,5 +1,53 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall after tech rally as Treasury yields rise - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzdzeXVFbkMwaXViZjI2SHhUTnR6V2lmRkxTcEh2ZVd2cFJNR0tvOWpfajVRWDlHSXVqeVd6ZWdUTTBOUXpiSDQxQUdPLUtaa3oySVRaazVVd25TN1ZBNEtrT3pfaXI1UUNjaGQ4OW1VVC1XTXh3OENieG42UUxmWDR5ZGZROGFEdDVab015WTBPUmpFYnhOSEdINHhZbWZtUnFtTHByNXZhTWRLWXM0?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-07T11:47:53+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields rise ahead of closely-watched 10-year auction and FOMC minutes - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBydl83WVU4amtHYUl5MkVjQnJXZmdwN1dQZnNOYTNVeFBsRDJBMGcyd3hLaHd1N0JpN0lRTGl5NkhqR2N6S3ZFSlBVdzlwZ2pxYkVWMDNhUnFXbXNoaDV5SGJfUzA3LUNZLWxfMExUUzVMVFBORjBZWHJUZDM3UdIBgwFBVV95cUxNbGdtZkRaZURkVnlOMlgwY24wQ3JTeXUwQlNyQzRhdTZ1NXZWbHRlOXlqY2lvTG9GeG1fQnZSYXVkeEQwcUdDSzhSVlhjdjZES1FQWDY0dHN1Q0dwYVBnZzVqTE83bEE2VlVpMmRIOWpXRHIyLTF2RDRqMnQ4enZLdmdscw?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-07T08:31:25+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "BOJ's dovish dissenter signals support for future rate hikes - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPR2UwTVJzRWJmT0w3NFVxUm9kUV9wOThHRUNBQm9tRUlnZWNIeXVHNlB1MjQ5ZWROekRaQjd6aFZQamVrOTYwWnpvOUlETjNiMWNkZVc3VmRSUW83bjhJMnhnWEIxeVBzRXE4bEdPMGc1amZENWRRY2NwX29pRHpGNFdHTDFSY1hvaE9tSUlXRVhZOHB1YlhFU3FTU0Z3UFZubDJscno0TWpRamRKVGR1RHZ3?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-06T23:18:26+00:00"
+  },
+  {
+    "label": "BWXT",
+    "topic": "BWXT",
+    "title": "Why Is BWX (BWXT) Stock Rocketing Higher Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcXFaeUNWOGFYQloyRVljV09aV2NmWWFSQXdsWGFiYVIwcjVzQXlVdVlQRmFjOVVudVZfRkVUN2o4SWc4Q0dhbXVpODl0THpwb2paaHk5bVVSSlh2cjRjMTdLb3dxaUhEdnhzMFdmR0dKRUw2WDVMVHF0LVJ1b0dwcmlSaVVIQzdaaC1SUm5QYjBQVU9QZW1Leg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-06T22:00:34+00:00"
+  },
+  {
+    "label": "MRVL",
+    "topic": "MRVL",
+    "title": "Marvell Lifts Its Sales Outlook on Strong AI Demand. The Stock Is Surging - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcVBTOEwtZTE4TVp6QVNmM2oydUs0OEs5UkpFOHhHXy1GcW1pTDZmUjRpWi02T2ZvRjBlRGxCUEhRUE9DTnMyODBPalNhUVJ2anduaGF4TWRQTjVsaFRVRF9XNVVPWS11eEU0VTVvenBHcDY1akVCVXp4bVJiUk9PTGUwRGZKbGJ4Wm16UE9MV3JLVkJ4T1dXZDdjeFFrME85N0ZWS3VveGFjdlhDVzFMcThUN09WWmE0bVhxbVlza3RkSWJsVVd4aUtJOU9Idw?oc=5",
+    "source": "Investopedia",
+    "published": "2026-10-06T20:11:38+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Zölle",
+    "title": "South African exports to China’s 1.4 billion-person market surge as U.S. slaps 12.5% tariffs on Africa - Business Insider Africa",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdmtMcWJ0cXR6bE1iNHgxeE55UzZKS2RnMklLSVdVOEhfdFlwc2hmZ0ZtbW9oUDE1WEJNb1hBSTJydWNtQnQtYzVpcHZCRHlQeXl2SFdOdWJYdnk4ZGhua1ROMjlIYjhsWUkzcTZkcUI5THd4QzN3anNPdDFEV1lQaFo0ME9xdEk3R1pYV3lQamdWMzJhckVPa2Rvc3BBOUZzdl9Xa1N1N2VXXzN5eDhBM2d5YjM5SzVBZ21ObUlXZDc2RlZPcUVQS240V2dkZzBaekZ3?oc=5",
+    "source": "Business Insider Africa",
+    "published": "2026-10-06T18:00:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "US EIA hikes oil price forecasts again as Iran war drains global stockpile - Reuters",
@@ -8,12 +56,20 @@
     "published": "2026-10-06T17:39:05+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq closes at fresh record as tech shares rise and traders look past higher yields - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE14VDVsamdsUnFobnR2dUhqeUtZLU55WEdZS0RzN2lfc3FrRFVkSThpUUhZY0tPWC1aYlhRaGZWZjB5emNuX0s2MElWZWxib1o4YmVfM1FxTlVWdWlvdlhDc0MwNndMVTIzVkw1VHgtem02cE1qMHJB0gF8QVVfeXFMUHJkb21SZF96VE41OFdxSDB6aDZtUURVcC13NXZpLUtHZVdmZ3ZwaFVNX2pmSVFXS2hmbS1JWjk0RlZ0azY0M3Atc3dWVVg0bHJ4dkVsbHpaY285cXJIOEVrUVhYYTU0bm1DWjlKb01DdjhQVnk1NERMb3I2QQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-06T16:02:01+00:00"
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "The world has nearly burned through its oil stockpile buffer, executives say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXpPa01RZzZ1ZlNmZS1XU1FlVnlKbTNhblkyVFU1dkttNzY2WllwRXNVdHVSNlBkV21wQi05d3NQdTFQcjQ1Vm5CcG1XQ1gtaDdZUmZiZXZaVVA1ZXBIcEpoOHBIZ0k1RnpKWXpsOVBjWWhrQzlWNW53SFM2dm5LeWJFVThkLUNHMzY2VFN1cFl0QXpqc2U5T2FvM1M1TmQyRjUwTDBBTFJ3NkRLS0ZENmY4cDNPam13OG9pRUFZUGw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-06T17:26:00+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "These 5 chip stocks are cheaper than the S&P 500 — and offer faster growth - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUU9aMUhVN1ZhdkduVzYxWGpHVXkwLVJoTWxzWDVCNjAwS19TNVYyTXpGOEI5Vk4tRXJEQktER05ZRmQ2bnRhWmlfSEoxUm1RUlRDd0IwcmFldmRPaDJCcFQwckdsTlJFd3VaUGNxN0FoN0pvUThEZW90NnNHZUwycU40WWRGNzdIbWp2MEFFRlBEY2dUWGJMSlFfeThVRUs3WVp0ODA5VEVHb0xYNExnRF8yZWFpQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-06T15:57:00+00:00"
   },
   {
     "label": "MRVL",
@@ -22,6 +78,14 @@
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTWc5MjRLSllwZ0l3WmUxdjNtLTVYdXN5QUs5RjhwVERqekZzNFVNckFrcUdKbzdady1SMW5VVUVqbWlxZE5hWi1qSm9FZXpNNE1NSDlFNFRUQTRsRmF3amx1UFg4WXAyREFLS2JFMlVRX1RsWjhRMUdCVG9pYWkxQkJaaHZMNWdEZ2gyWWtZQ3NLRFMtMTBCaU85S1Z4V1BGeUd1aVpKZG1ILWwwaTdBdnIxZ0Z3SUdnTmwtanEwSVdmcFVLZGU2eTNtX1owckRhTWxsUXp0aw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-06T15:50:38+00:00"
+  },
+  {
+    "label": "BWXT",
+    "topic": "BWXT",
+    "title": "BWX Technologies stock jumps on New Brunswick reactor selection - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXRVS2kxR01MaUxxcVZrN0VEY29IS0lCOVdCcWpNZWFPUnRfUDVTNDBJR1g5TkhMNjRaQW1QNFpKdWRQSUZubHpSUTUwUFdWZWk0TjJLZ1RKRWg2N1FDaFM1WFNBUGNXY08xX3cxNEdTcWxXeGFVUVpKWkNKb1RRWEp4ZlE5dHRPN2tQRU5zeGV0SUZDTl96NzhUUUdpVjViVHlGX1pB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-06T15:34:48+00:00"
   },
   {
     "label": "KLAC",
@@ -152,6 +216,14 @@
     "published": "2026-10-05T20:37:00+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq closes at fresh record as tech shares rise and traders look past higher yields - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE14VDVsamdsUnFobnR2dUhqeUtZLU55WEdZS0RzN2lfc3FrRFVkSThpUUhZY0tPWC1aYlhRaGZWZjB5emNuX0s2MElWZWxib1o4YmVfM1FxTlVWdWlvdlhDc0MwNndMVTIzVkw1VHgtem02cE1qMHJB0gF8QVVfeXFMUHJkb21SZF96VE41OFdxSDB6aDZtUURVcC13NXZpLUtHZVdmZ3ZwaFVNX2pmSVFXS2hmbS1JWjk0RlZ0azY0M3Atc3dWVVg0bHJ4dkVsbHpaY285cXJIOEVrUVhYYTU0bm1DWjlKb01DdjhQVnk1NERMb3I2QQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-05T20:24:00+00:00"
+  },
+  {
     "label": "BMY",
     "topic": "BMY",
     "title": "Bristol-Myers Squibb shares slide as Leerink Partners downgrades on pipeline doubt - Yahoo Finance",
@@ -246,101 +318,5 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcnNib2VYc1k4aDUxQWluSVItdERCdXpycVBpcl9NN3g1YTkxWFBSUHU3WWFxa2hJX3VkN1dVRVRSLWY2Ql9jRjItVldjWkl6SkZNRVQtWndvR0ZvZ0lNNy1VdkFhOGI3anY4MjF1d0hmVm1RYm9sa09Fd29Ra0ZKTVlWeVdUbDJHdkF2VVhlcw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-04T07:09:56+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
-    "title": "As Treasury yields touch generational highs, investors brace for the market fallout - marketwatch.com",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFdhOGNEVXNJbzQxSVVuTHF2Tk1KbFN3TE9oeFhiUFI1SndMQndzNWtkUzA0YVVhbFpJU0VRMjhnQ3FtbnJQcWZ5VE9vRjZ5YTJBN2RZOHNrazVGazhTMGxfTW0zcXhoNl9XWlgtZWd3ZVBjMGVVY2oteEF5Q1dkcTh1RHpMRFFvMVpKZXdTWmlsOURBa3RJM3VNRjdqajdxSlFxSDlRblZFUFczc1lha001R0pOeGZ1b1ZkMGRsYTF2N0E?oc=5",
-    "source": "marketwatch.com",
-    "published": "2026-10-03T11:30:00+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "3 AI Chip Stocks To Watch After Nvidia Stock Hit A Fresh All Time High - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSGtKSEV2U3hSYWE5djM3VUZKVEpqYmRZTENGZWtqT3JhMkdHLW5pYk1hY0ZoZlB3WFJGaHU1WFJ2Sm1RNHJCLV94US1JcFlPRzkyN3VPTm9SbFVFT0xQc1E1eDZjZ1hLMnV4VGd2N0xpTEd6TjhoN3h2blpUR1NGMjV1YzRXR3h5cHhxSFRDMA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-03T01:11:00+00:00"
-  },
-  {
-    "label": "IFX.DE",
-    "topic": "IFX.DE",
-    "title": "INFINEON.BD Interactive Stock Chart | INFINEON.BD,0P0001QCVC,97 Stock - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xbGZrRzdTRUxCWjZGRkVSQ3dIWnJqNmppblllbWttRk9ZYVkzdVhkeDZfdmxhbE9BdmdKcXpVWmhreVZIWXF1bnY5QTVQd185aXRtS0N3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-03T00:22:34+00:00"
-  },
-  {
-    "label": "KLAC",
-    "topic": "KLAC",
-    "title": "Analog Devices, AMD, KLA Corporation, Lam Research, and Marvell Technology Stocks Trade Up, What You Need To Know - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdmFSbjdPcWNCSGRsQ09SYTMwYzdfWGs3b0FaVHlQTmJZbFMtNWtyQ213ckVjektDQXhycVh4N19OQ3dJOHQ3X04zR1dNbFpIU2VkMXd2aEJVN3NTVjh1VEpfYjA1UWEtcnl6WVpkZXZ4aUZCZUlHRW9tS0p2a0lvZUR2SEFoTXhWamppU2dialo5Vl9MNGt6UjBocGV6eTlo?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-03T00:22:00+00:00"
-  },
-  {
-    "label": "TSLA",
-    "topic": "TSLA",
-    "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbTk1OFU1SHk2Z2daZzY2dlhmX09NbHZhSHFsREVidjhLX3pGRVUxQTh1SlRqWFRsTGJycXhydTRYalNuWjZUMlc2ZzdiUFBjR3BsaVZXNlFYOGNkcHJmTnpRUkhYU2FvVVNLaVhlWi1UWnBDMUEwUUh6TW03dWdtOHFvUjBrQ0ZoaVFOQkcyVklEOXE4OVVWb2ttLUU1bnhBalVpX0tTRUpucjVEeEo2a2p1R1Q?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-02T22:29:00+00:00"
-  },
-  {
-    "label": "MPWR",
-    "topic": "MPWR",
-    "title": "Impinj, Power Integrations, Kulicke and Soffa, Microchip Technology, and Monolithic Power Systems Shares Are Soaring, What You Need To Know - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa3QwbUctUnZ1Y0tvSFJwMW5vNk1LckdwdlJwTzJ5R3lxYmxIVzVzRGhJUHFkeUVXRVZnMkdpZ3Q4eUFQTXdGanNFU29qN0lONTNpYzFaeUVXWXl0bXpWbHJ5aWl4TTB2UF9JTjYwb1JsWmNoaEJJWUNhRzhtUkJIUG9tY0ppMTRQcmRiOXE2U05WY3Vid0h3M200RXFDdzUzdXJPSEZUQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-02T22:22:03+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq rally as Fed rate-hike expectations fade, tech gains - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTW4zeUoxak9vX3NlMFVEZWE1U2ZxZFE4VUFRX1FTRWI2T004aUZWZWw2b0FnZlJUTnZ1UEtpeVNfczhIaS1FcElOUVJxb2tRSWFyd3Y0U0xJMjgzMW1YUlplQ09nemhSaHhPMy1WdDVnZFpZbkMycEpYN1hYLXNybkxfR1pIRU85VENnSlRnNllSQ3pUX090d2lkR3gxcVAxdk81ZGRHT05LSk9CRUJBbE9WRTJHcW91UDVySWZyMkRvMG9VaFZxbA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-02T21:52:55+00:00"
-  },
-  {
-    "label": "ISRG",
-    "topic": "ISRG",
-    "title": "Intuitive Surgical Inc. stock underperforms Friday when compared to competitors - marketwatch.com",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaW84YkpIbmI4MHR4OEdTSU5ZX1E3MmdxWjFnOHhodG9Gc29Ed19YdlVqcGxQamFwaVlRQkdrTGgtZ3ZrUnFRRktpcW93VHJJNk54cmQ4bzVaa1BQNXBueTlfdWhBQVppOTEtTW54Uy1RU0NsY3BsaVE0cExpQkhDdmxsamRmM2hwUFpqaWxFTU9IMnBqN0NWS05PVnFFcWR3NHNKbEZCQVFXSk5DYWdiVVNCVUR5QWgxbVZMVERoVHFmXzVBME9ZR1U3dTdua3p3VFZMRg?oc=5",
-    "source": "marketwatch.com",
-    "published": "2026-10-02T20:37:00+00:00"
-  },
-  {
-    "label": "KLAC",
-    "topic": "KLAC",
-    "title": "KLA Corp. stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSDdZU01GeW1HbW50emdDZXcydEZDVUliVlJVb2FTc3E3MmFrb0tzVlY0QmFEX2xqbVo0YTdOcmdNLWNUdVloc1VJRWZiN2ZMbV84X29Ic0lqbDV2a2tVVW1TSUthSHlEeU9PRWc5NTNjM25PMHp4NkhnM1hVMFVUNUp3cXIxUW1panlRazgzNE14TEltMWZwellJYklzem5ET1FYYV9BRXZPTElaRW1OZW5lc1V4Ni1RaE5JRA?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-02T20:34:00+00:00"
-  },
-  {
-    "label": "MPWR",
-    "topic": "MPWR",
-    "title": "Monolithic Power Systems Inc. stock outperforms competitors on strong trading day - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbVdraERyZDNWRUNFSTdoTVVtRWlkVEJnTFF2bDBYWnZ6RXYwZkFNV29uU3RTdkkzd3plcnBYSWgxTDN4dmNFaDZhakpJTS16TEhiYXpqV3FadlV3ZnFnRkJWU0NEWE5jMUtSNEpjYmpGdjZ6Wjd5T05WQjU1ZFRKVF9pX0ltUks2UnY2M3BMWmhhaWVGR3dIdGNkTWE1VUFoWXVsVkpLMVJyZ1FFQUNDOHNpWWlwbVBTaDZCYVRONDI2Z2dZUnhiU3F3cUR0QjkyUTI2UURUVQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-02T20:30:00+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Here's how high the 10-year Treasury yield needs to rise before income investors should worry, according to UBS - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQzJGUkRNWUFpM2haZVk3aUlMd1RxXzFVRUd6ZGl0NkRjeFM2MmlaR19FaDVPYVlhaDd6Rm9oUTNTY3ZWa2xhbll5QzRRUUNteWl1dFpZS2p1ZEkwTXo4QS0wV0hjZG1HeGN2YXN1MTVZbWx6LVV6cVU0cGNxYjFESHlDcGlPOFY3VU1FVkQ0ODdmNlFfbFFiZVFpVEVXT3N2a0hoS05TZVRwaUF0amhtakdWaXRsWTVmdS01YmZvSjllc3pTTEp6TWFLRXRQd0poQ0lEQmxNNVo5Vk1RV1c0?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-02T20:10:43+00:00"
-  },
-  {
-    "label": "TSLA",
-    "topic": "TSLA",
-    "title": "Tesla Stock Jumps After Massive Operational Victory - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVTZkdGlUV0plb2lvaHF6c2dXOVhkZVhSS2NZQ1lUeDhLTjNZSC1aVjZfNURfZmdnT2Vmd2JaLW5uSEhPeV9oTXlrdnc4RXR6Y2tEWm1LSjc0WF95b0FVWS1uNEhCUmNoT2U0YmxEZ3Rnbm1LeHNLQlR1TWNYN0w2TnlLblB2U1Q3cjY5S21odWVCZ2lQLXBlU1pTTDJVcXAyUEtIbA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-02T19:57:51+00:00"
   }
 ]
