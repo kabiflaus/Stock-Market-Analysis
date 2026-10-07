@@ -1,16 +1,56 @@
 [
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall after tech rally as Treasury yields rise - Yahoo Finance",
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq fall after tech rally as bond yields, oil prices rise - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzdzeXVFbkMwaXViZjI2SHhUTnR6V2lmRkxTcEh2ZVd2cFJNR0tvOWpfajVRWDlHSXVqeVd6ZWdUTTBOUXpiSDQxQUdPLUtaa3oySVRaazVVd25TN1ZBNEtrT3pfaXI1UUNjaGQ4OW1VVC1XTXh3OENieG42UUxmWDR5ZGZROGFEdDVab015WTBPUmpFYnhOSEdINHhZbWZtUnFtTHByNXZhTWRLWXM0?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-10-07T11:59:31+00:00"
+    "published": "2026-10-07T13:41:49+00:00"
+  },
+  {
+    "label": "CW",
+    "topic": "CW",
+    "title": "Curtiss-Wright stock slips as CFO step-down follows CEO retirement plan - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQnAwS2E0T3NOOEtEUnc5ZTdSbF9ZVGM5T3RnaHZEMXZYcmhHU0VJZHM2cVZ4NzEzejdWSlhlT1Z1U1FmSGt4U3JjaHpsSS1MUmw1WHBIdUVMdmMyTmJ4dC16VHZXYUpRZmRlMmVtYkljbHRUeUl4WDZ1UHR6alFGRzNwRGoxZkF3ZFRybTRjMUMtbnR2WnFjZ044Yw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-07T13:39:50+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Are Oils-Energy Stocks Lagging ConocoPhillips (COP) This Year? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmtHTl9kaXRnVDZWZVp3RnR2UGlYNkVlNHk4YXYyTmlFVVpZeEx2M3kxS28xc3J0RnlMZTdwc0xGM3pDb2JWS2xhYXpOS3dpblRmZ2lDYnpZQkFOWVhLZVBmeEhVZk1fd0E0OTc1RTFzZG16WnU3VEh6NDVyWUdBTzdScXdaanpnSE1mRmppY1ZqX3NkaFQxUUJLS0hWMWlXanVsdUlSNVlYdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-07T12:40:04+00:00"
+  },
+  {
+    "label": "IFX.DE",
+    "topic": "IFX.DE",
+    "title": "Are Computer and Technology Stocks Lagging Infineon Technologies (IFNNY) This Year? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaW1lZHNQU2U2ZUtyai1ZVTBTUlBUVktKa05nOGJTYzIwbV84VVZ2NVpSd1B4ZXdOdmIyb0RZRktxOWZmRG9DaFZNVlJFeldVR3NTUFFlaHZOTUx3MS1ycy1YVmdURllnS3JjNDVQSXQ2dTRQLVJVVFZMUWJhRkF6NjNXcWhIOG9iM2V4bWVfLVVyRlNheGpYY0h3QXJvemZJZFY0RDNPS2tUM1Jv?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-07T12:40:03+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "J2 Ventures' Alex Harstrick on future of military spending: We're moving towards autonomous everything - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNEVtS1ZJcTJoOE5ielBWTlUtanZnbjFBQmtqekdUX1NhU0NZTmpwWU0wVExXNjV0TlNtZjItc3p5c3FFRDZDOFZ5OEtYaVJSQTB2Vlk1WVdrZ2VwU3EyZGQ2R19seERnR2FvMGNyMWo4SGJHQ1BsYk1tWVh4ZnZOZjRsQzViaGZzb0gzNTJTOWI0TWhRS0VjbUpHYVc4d0Ezb0Zpb0JTZmVQeVpJUXFoZVQtNnZqTmZHaFBTWFBVRUw0M3VvSy1LX2hwOXlVbXA2Wjk4bUlCcDFCdw?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-07T11:50:08+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed minutes could detail rate-hike decision, policy path - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaFdleVVLSGdCQUlSODJ0bVFmdlh3cl9WZFFrUG5oUHhxdGNTMUlKUW1QaDBfVXAwd2FLaE0yYk9nb1lNcGY2Z0twTXNweEtEV203X09TTUR3ai1fellVelpWUHlEWWRUYW9oVTByX0ttLXl5b1I0ZjRyQm9ZVFBldFVLR0Z3UVRScGI2b2NuVC1pblU3dzJtd1JnNHY0M1Y0SlE?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-07T11:14:31+00:00"
   },
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields rise as oil moves higher, traders await key U.S. bond sale - CNBC",
+    "title": "10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale - CNBC",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBydl83WVU4amtHYUl5MkVjQnJXZmdwN1dQZnNOYTNVeFBsRDJBMGcyd3hLaHd1N0JpN0lRTGl5NkhqR2N6S3ZFSlBVdzlwZ2pxYkVWMDNhUnFXbXNoaDV5SGJfUzA3LUNZLWxfMExUUzVMVFBORjBZWHJUZDM3UdIBgwFBVV95cUxNbGdtZkRaZURkVnlOMlgwY24wQ3JTeXUwQlNyQzRhdTZ1NXZWbHRlOXlqY2lvTG9GeG1fQnZSYXVkeEQwcUdDSzhSVlhjdjZES1FQWDY0dHN1Q0dwYVBnZzVqTE83bEE2VlVpMmRIOWpXRHIyLTF2RDRqMnQ4enZLdmdscw?oc=5",
     "source": "CNBC",
     "published": "2026-10-07T08:31:25+00:00"
@@ -24,12 +64,28 @@
     "published": "2026-10-07T02:40:00+00:00"
   },
   {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "European shares, euro slide as energy shock, fiscal worries bite - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZW5YUkkzdjhfTWJXY25aWkVLeExISGkybXo1YmFoS256Qk5DclZaVVc4ODRnejkzYlBYOTBVWWp5YTVHRDVyMmtBUDVZWHlFclVhYUtIU2d0Tm1GWmRzMnhQNlg4aVVfWEZjb21nQ0tTUzc0WjQ5bEhmWVJuNzFwX25Bdw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-07T02:40:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
     "title": "BOJ's dovish dissenter signals support for future rate hikes - Reuters",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPR2UwTVJzRWJmT0w3NFVxUm9kUV9wOThHRUNBQm9tRUlnZWNIeXVHNlB1MjQ5ZWROekRaQjd6aFZQamVrOTYwWnpvOUlETjNiMWNkZVc3VmRSUW83bjhJMnhnWEIxeVBzRXE4bEdPMGc1amZENWRRY2NwX29pRHpGNFdHTDFSY1hvaE9tSUlXRVhZOHB1YlhFU3FTU0Z3UFZubDJscno0TWpRamRKVGR1RHZ3?oc=5",
     "source": "Reuters",
     "published": "2026-10-06T23:18:26+00:00"
+  },
+  {
+    "label": "CW",
+    "topic": "CW",
+    "title": "Curtiss-Wright, Tecnoglass, AAON, Primoris, and Albany Shares Are Soaring, What You Need To Know - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVXJzZTV0YlJybW04bFV6SXNpOHR0TmNJWThCeEtjNkthbWdmd1ZkdjFodmVlbGdCc2ZheDNZWmVJaXpCdHpwZHJOaGZiVF8yMkZHbDVka1owcmMyME0yYVotaVdQdjZJSkl2Tld6Vm5YbEFVWmlRbURadHRrTm5TQl9UMjlrb3FlbHFlclZKc2VnQ3Z0V1lLSHM2WVFKMGkwR2JHUlFJVQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-06T22:40:34+00:00"
   },
   {
     "label": "BWXT",
@@ -94,6 +150,14 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXRVS2kxR01MaUxxcVZrN0VEY29IS0lCOVdCcWpNZWFPUnRfUDVTNDBJR1g5TkhMNjRaQW1QNFpKdWRQSUZubHpSUTUwUFdWZWk0TjJLZ1RKRWg2N1FDaFM1WFNBUGNXY08xX3cxNEdTcWxXeGFVUVpKWkNKb1RRWEp4ZlE5dHRPN2tQRU5zeGV0SUZDTl96NzhUUUdpVjViVHlGX1pB?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-06T15:34:48+00:00"
+  },
+  {
+    "label": "KTOS",
+    "topic": "KTOS",
+    "title": "Kratos Defense Drops 21.2% in 3 Months: Time to Buy or Stay Cautious? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR3FxMTI2MmJNcmhHdUM5MHc0b1RYVGxhWjhXWm0zT2pDU0k5Q1FZTS01SVhNUGlXSHZHX0FOM19SNUFkWVVYeW5mVmNVT2RkOTRfMVMwN1NsdTdna1o1Nk5qdnJYUzZnbTQ0UTdEMmtjNUphMFBKUExaeW1lMk9rM2RGMk5aRVlQRjUtVjR2TnZweU5r?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-06T15:11:00+00:00"
   },
   {
     "label": "KLAC",
@@ -248,8 +312,8 @@
     "published": "2026-10-05T12:58:00+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
+    "label": "Anleihen",
+    "topic": "Anleihen",
     "title": "AI Will Kill Us in 10 Years, but Bond Market Will Do It 'Next Week,' Says Strategist As Treasury Yields Hit 24-Year Highs - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV0Y2WGJNSE43NHpTeTR4VG5Za1dULUxSWG5NUzNpSmFfR2ZXVVJhRTJvbGt3R0pXNjk5MDhidTkwb0EyMWJ5cFo0Y2dEVzlSUl9idmpheXhYemsyQkhaVVNod0JqZEhPYUNVcnh6SVBTNGhTbGNBbE9pSkpmeWU4YnotMWdzMzBZMzlJTVktT284QQ?oc=5",
     "source": "Yahoo Finance",
