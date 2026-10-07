@@ -2,10 +2,34 @@
   {
     "label": "S&P 500",
     "topic": "S&P 500",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq fall after tech rally as bond yields, oil prices rise - Yahoo Finance",
+    "title": "Stock market today: Dow falls 500 points, S&P 500 and Nasdaq retreat from records as Treasury yields hit 24-year high - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzdzeXVFbkMwaXViZjI2SHhUTnR6V2lmRkxTcEh2ZVd2cFJNR0tvOWpfajVRWDlHSXVqeVd6ZWdUTTBOUXpiSDQxQUdPLUtaa3oySVRaazVVd25TN1ZBNEtrT3pfaXI1UUNjaGQ4OW1VVC1XTXh3OENieG42UUxmWDR5ZGZROGFEdDVab015WTBPUmpFYnhOSEdINHhZbWZtUnFtTHByNXZhTWRLWXM0?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-10-07T13:41:49+00:00"
+    "published": "2026-10-07T18:12:23+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Federal Reserve officials expect another rate hike will be needed this year, according to minutes - AP News",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWdTbk5oWnMwOTlyWElUT2VXeGFtY21kMWtKbWJfa3ZmTlhwWGRydkpBdWF3Y0oxY3FjX0h5d2NYYkpnZVI1endPNnR0TzlyYWswV0pWbkx1aFljYkJFVkxNanlzSExIaTdBTFZrdVZFbnFwRm9NdXUtNDBrTGN0REc2ZWVOMTFWRE9mYnBEZnNTbFNGV3dONndqSFM4QQ?oc=5",
+    "source": "AP News",
+    "published": "2026-10-07T18:05:00+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "US bonds selloff resumes as 10-year, 30-yields hit new 24-year high - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-07T16:26:23+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-year Treasury yield hits highest level since 2002 as stocks retreat: AlphaCheck - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUm1HTXRneFZUZ0IxczF1Mk9KMU1abjBhdW9HSzJfdTB1RE9wZHJad3pQSWVoTlA2bHlobkNZNWg0am9pVFEyeklrQ1ZRZTliMGNjYjdUNjBQejFFZllYbTh2dEEyZEkyNTlOenpJNmxrb21OdEx3U19wdC1BN01DcUJPcmcyaFFjRHN6LXgtNHl4NWxYLWlHSkZzcHlIQ2MyT1NGM3JZczVsRUVYaFlMZXRzc213TE5UWTdJNHlObUwzSFhoTVQ3el9NTVVCM1l5YnQyMw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-07T13:46:21+00:00"
   },
   {
     "label": "CW",
@@ -40,6 +64,14 @@
     "published": "2026-10-07T11:50:08+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Global bond sell-off resumes as 30-year Treasury yield hits highest since 2002 - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMFVOSW9Yd2Y4T29oQW1mdmxLWXpXTWpNZ2M5akMxTmQtemVMbTdPd2s3bUhBMEFXeUdiTzlwR1dOcGg2NnRQa01sdFBxTTFfdmRTV1F5Z2YyNXAzVDJsSk5aRkpKcldFeU1MRi1hc1hUTC1YeEFSM1FHMi1IdlZFZFBYcW8?oc=5",
+    "source": "Financial Times",
+    "published": "2026-10-07T11:42:07+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "Fed minutes could detail rate-hike decision, policy path - Reuters",
@@ -50,7 +82,7 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale - CNBC",
+    "title": "10-year Treasury yield falls from 24-year high after solid bond auction eases demand fears - CNBC",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBydl83WVU4amtHYUl5MkVjQnJXZmdwN1dQZnNOYTNVeFBsRDJBMGcyd3hLaHd1N0JpN0lRTGl5NkhqR2N6S3ZFSlBVdzlwZ2pxYkVWMDNhUnFXbXNoaDV5SGJfUzA3LUNZLWxfMExUUzVMVFBORjBZWHJUZDM3UdIBgwFBVV95cUxNbGdtZkRaZURkVnlOMlgwY24wQ3JTeXUwQlNyQzRhdTZ1NXZWbHRlOXlqY2lvTG9GeG1fQnZSYXVkeEQwcUdDSzhSVlhjdjZES1FQWDY0dHN1Q0dwYVBnZzVqTE83bEE2VlVpMmRIOWpXRHIyLTF2RDRqMnQ4enZLdmdscw?oc=5",
     "source": "CNBC",
     "published": "2026-10-07T08:31:25+00:00"
@@ -200,6 +232,14 @@
     "published": "2026-10-06T12:14:59+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Scott Bessent dismisses bond market backlash as 10-year Treasury yield briefly hits its highest level since 2002 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU3o2dnRwVlJwc241SHFOd2YxVlpSbmhZWkZ3MWV0MkhrMW9tNllUQnZlZ3lIQjJJMWZMb1RzRk0zV0ZCRkRFdHlZY0sycWowMXFuZEZ2MmphWlZ3SjhicXA4MHBIQ21CQkFfaTE0UTJKQkdWcUpycFJKM2F0ejV1S01BLTI5VFVudXBGS0Y3RXZUNFZiUEVzNjJDZEphWm1iMlE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-06T12:00:00+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures climb after record-breaking rally - Yahoo Finance",
@@ -312,8 +352,8 @@
     "published": "2026-10-05T12:58:00+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "AI Will Kill Us in 10 Years, but Bond Market Will Do It 'Next Week,' Says Strategist As Treasury Yields Hit 24-Year Highs - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV0Y2WGJNSE43NHpTeTR4VG5Za1dULUxSWG5NUzNpSmFfR2ZXVVJhRTJvbGt3R0pXNjk5MDhidTkwb0EyMWJ5cFo0Y2dEVzlSUl9idmpheXhYemsyQkhaVVNod0JqZEhPYUNVcnh6SVBTNGhTbGNBbE9pSkpmeWU4YnotMWdzMzBZMzlJTVktT284QQ?oc=5",
     "source": "Yahoo Finance",
