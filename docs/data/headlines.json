@@ -8,6 +8,14 @@
     "published": "2026-10-08T17:20:09+00:00"
   },
   {
+    "label": "MPC",
+    "topic": "MPC",
+    "title": "Stocks making the biggest moves midday: Chipotle, Starbucks, Skydance, Marathon Petroleum & more - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVWtxQ1drUVZNalVvSTJkN1NMSVh4ZWFDZ2JITWRmT0E1aTlsU3RUZDR2MHdnaEpuWm9BZEIzRDV6d2FDWlQ3OXVpSUxuRmlGbnFXVkd0LVN1ZXVoOU5LcWhJbml4MHBtRGp0eUNyVDl3SGp4ZVNJUGN5eU5jMDF0MjlmN1RvMFFWWWJtWENaMm5OQ0lLWi1sXw?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-08T17:14:38+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "FTSE 100 slips as bond yields hit multi-decade highs, energy shares soar - Reuters",
@@ -32,12 +40,20 @@
     "published": "2026-10-08T14:27:01+00:00"
   },
   {
+    "label": "ARM",
+    "topic": "ARM",
+    "title": "Arm Holdings (ARM): Semiconductor Sector Sell-Off and Supply Execution Questions Weigh on Stock - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEgwbzBFeEZoTE5qRkd6WGw0ZHB3MFltX3djT2VuaUdQMnhyNXZidUcxRVBiYlUzMWhpbVpqN0FMWFBxYUpZV2pudkF4NUZVVU1QRm1lWTNFRXNPZXA0QTg5WHFEODViWTEtenJkWHFvYlZNd08wbUFCZWZYX3dZNlRiSTJCYWktVWg5aHlEMGJXMG5XbmxkeDRJU1VaSVZ0UTRnNg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-08T13:09:38+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as oil rises, reviving inflation worries - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1hvWl9DMFlrdWI3MDJRYjRqb2hyeTI1eWVDSTBucWpWb2xRNTVFdk5PY0pHMWcxQ3djT2hkOHRpNks2cmEwQU5hT1F5SklzN1hTMi1maUJpN0pIaE9iaWlFS3BqcU9IbXRqYnBwaHR2NnF6Ujl1TVhKb2tzVmdRZUVHUmY0WWY3STZYLWcwaXpvQjlNTXhTbmQxdWV3Z3ZKNXcyNjgxaXVPeUdscXc?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-10-08T11:30:06+00:00"
+    "published": "2026-10-08T10:00:05+00:00"
   },
   {
     "label": "Anleihen",
@@ -86,6 +102,14 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQd2ZrUnd4aGR2bS11TWFOQ3hBcTZLMHhPOW1vMjZQRVI0NWxHWV9iUjVDWHN2WHFoUWVOVDJJYm5oRGV1bE1UN1BiTFVJZG5GY21IQ1JmMDh1anBuWV9Fd2RYbTh4aHlHU0NmR2xlc3ByWVo5b1Q4TndIRXZVbUJ2X0FmTWExMVlNMW9tWlBZcktkRnVhZnNvNzJDZTdrRVZLclBZR3JxN2lNV2ZoWTRNVA?oc=5",
     "source": "The Guardian",
     "published": "2026-10-08T04:00:00+00:00"
+  },
+  {
+    "label": "PM",
+    "topic": "PM",
+    "title": "Philip Morris International Inc. stock underperforms Wednesday when compared to competitors despite daily gains - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPbXRlT0VpSTR1M3U5ZDZFRUFJb2Y5WFlDemNsM0tMT0hyY0Q3TnZwdmdUYWtCcWRoNmlxa2UtRElmd1lPSVBlS0F2RmEwb1ctRGNxemdEU2dUUFlLdG5rVVh5bGlyMWNuVDR6bDBYclNMZkJMUnFhNEl3RGhxZFpzTkh4WmZCOG1QOG1iV2tLMmVNQlJvcnFKVTVZb0h5c2hXYUg5ZEV5cXo1ZDJxaWo5SnNla0hkRGNWQ1F3Q2VWRGozaVFUT1NJYm80REtkSHB3UjdSdnVweURnNzFNMFlaLWMtalZpaklpOFFjSTZZcldUVjUtejRGMDVVNjdGaVR3TTMyZkVvVDk1LUVxdFdfUVlxRWVfQzA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-07T20:32:00+00:00"
   },
   {
     "label": "ON",
