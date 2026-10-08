@@ -5,7 +5,7 @@
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as oil rises, reviving inflation worries - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1hvWl9DMFlrdWI3MDJRYjRqb2hyeTI1eWVDSTBucWpWb2xRNTVFdk5PY0pHMWcxQ3djT2hkOHRpNks2cmEwQU5hT1F5SklzN1hTMi1maUJpN0pIaE9iaWlFS3BqcU9IbXRqYnBwaHR2NnF6Ujl1TVhKb2tzVmdRZUVHUmY0WWY3STZYLWcwaXpvQjlNTXhTbmQxdWV3Z3ZKNXcyNjgxaXVPeUdscXc?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-10-08T11:30:06+00:00"
+    "published": "2026-10-08T10:00:05+00:00"
   },
   {
     "label": "Anleihen",
@@ -14,6 +14,14 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNF9IY0FlbFM0NmU5dU1WSVlJMUQtSTd1UEwwTGNfUFI3SVhfU3RWczRMWU5SSnNjOUhRbm15Q3EyVkw0Q1NBdm16UEF4ZktEVUl5MDVuTEs3emhON09xa2c5MDZDX3paNUZCcWl4QTNkc3ZYX0M1a3ctSlJKUDBfNEdB0gGHAUFVX3lxTFBPQ2Y1aEJEU2JUYVlGMW8wTm9mVGFtT1liT2pLZ0J4RVR0ZDN3aG9KTHJrdGEtS2FjRzdzMUhNNXE0bWhYOWhKUnVsLWt6UkVkc01WV2FXOVdUbGlmSE9NcWVocVRoQnRZWEFPTE56WTVXQ1BLRHA3RnZRaGJvN0FXTEZxY3pRNA?oc=5",
     "source": "CNBC",
     "published": "2026-10-08T09:19:44+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Why Are Nasdaq, Dow Futures Falling Premarket? MU, TSM, APLD, IONQ, HOOD, BULL, SLS In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZUNsdEN3QVhMYWNpaEx2VDBINGJPdEY0ZUw2VlM4azE0NU55T3ZDVVVfVFpsT0JtQjM3bXZjd1NCb0pqMjd0WG14Z05ZUDRuVWNiS0lvWHZlbWU1Z0FlN19acC05QzhscWFBNEdYdzNnVWdNN0ZnOFBzLXVXU2xaTVo4cU9rZEJ2S2tseXU5WUNhM3pXVkRtS2puWQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-08T08:45:53+00:00"
   },
   {
     "label": "AI",
@@ -56,12 +64,36 @@
     "published": "2026-10-07T20:30:00+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "LLY",
+    "topic": "LLY",
+    "title": "Moderna, Eli Lilly Lead Healthcare Stocks Higher on a Down Day for Markets - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVzZTQmdhRGVSdHBKVU02YUN6UHZZLWU5VlhpVXdzR3kwVXd6MFJuUVFldnBIazQ5blk3SlhfaEZTVTc4SzVud21KS3hwanBnOXROUFhETFN0SXptM1JtZ0M2eGRBeDFSMEF2Z3I5MHlWZ0JnT3czQVFnbXdhbDNOOWJWQ1dtclA2b2xrQXNSXzFxTVdRYU45aWRycUN0Tk91VzllWF9sb2R1d3hHemN4Y29qNm14aGpnVTBmaU1pdExXMEpWekVsSWFmUkliYXM?oc=5",
+    "source": "Investopedia",
+    "published": "2026-10-07T20:19:58+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "US bonds selloff eases, yields off highs, after strong 10-year note auction - Reuters",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
     "source": "Reuters",
     "published": "2026-10-07T20:05:34+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow falls, S&P 500 and Nasdaq retreat from records amid bond market jitters - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzdzeXVFbkMwaXViZjI2SHhUTnR6V2lmRkxTcEh2ZVd2cFJNR0tvOWpfajVRWDlHSXVqeVd6ZWdUTTBOUXpiSDQxQUdPLUtaa3oySVRaazVVd25TN1ZBNEtrT3pfaXI1UUNjaGQ4OW1VVC1XTXh3OENieG42UUxmWDR5ZGZROGFEdDVab015WTBPUmpFYnhOSEdINHhZbWZtUnFtTHByNXZhTWRLWXM0?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-07T20:03:52+00:00"
+  },
+  {
+    "label": "LLY",
+    "topic": "LLY",
+    "title": "Where Will Eli Lilly Stock Be in 5 Years? Follow the Pipeline Beyond Zepbound - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQi1iZkVtUzUzNXRNc2hSaWFuTk1BdE9Cem9nYlU4LVppem1LdFBYNjNiTE9pUlBQb1g1WjBweHdSTWhEQS11QThIU1VXQ3lDVHpRZnlUT0JtRlNZRVN0OEZldFVGS2Jya2VuU18wZWhGU1BGRWNBNVY2WmxDNF9LdjRUR3YybjlzcEJYWg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-07T19:38:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -78,14 +110,6 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ1VyXzlkYXZReGF2aEZDaVpiM0hTVXFLRWFjemJqUDgyRXc1VG9IeXdjcDNXNGpiWEZOVTN0MkhUeC1nbjNkdWRTVHJZelVMZks5OFBOTmJOZHNTTzhKVWhXOWkyZnFKMDh6Sl9JMWRkUTk1OHFoNDZ2bzJIbWIxTmkyZDItdXR6aU1RMDU3eUQ2NEYtMVJN?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-07T18:48:47+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Stock market today: Dow falls, S&P 500 and Nasdaq retreat from records as Treasury yields hit 24-year high - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzdzeXVFbkMwaXViZjI2SHhUTnR6V2lmRkxTcEh2ZVd2cFJNR0tvOWpfajVRWDlHSXVqeVd6ZWdUTTBOUXpiSDQxQUdPLUtaa3oySVRaazVVd25TN1ZBNEtrT3pfaXI1UUNjaGQ4OW1VVC1XTXh3OENieG42UUxmWDR5ZGZROGFEdDVab015WTBPUmpFYnhOSEdINHhZbWZtUnFtTHByNXZhTWRLWXM0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-07T18:13:50+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -110,6 +134,14 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkc3RnFQUWZoam1MOFQ4MG85elpQcFIzb0VlajVQSlZXQXhFUHJlaHI3RGlXd1hOODRxRDNfV1YzZFNJakxNMzRiRzRNZkZqdWUxVG1WWWRVSUhMdUFZQ3BhUV9OR2cwdXFTVzhGc19XOGdBSWwxaUF3MEthSkxzRDlFTlRoVTBnLUQ3SlZVSEhYNWFEOE55TGN2djlkRG1JcWN5V3hNOV82eEVkaEJR0gG0AUFVX3lxTE9hS2JuRWZra2ZHZWc2YU9kMU9zYUN3a0FwcmtDbm9pclJiS2puN1I0Zkh6WVdQUmNEbFNDVmxPQ1ZFRURoZlRsVTh6aEl6bE5lUEc1ejNSM2hxdXdhVVNHVjU5eXhsTGx0UkI4Q3VGdXFLRVF5bXQzd1pUdmNBX09acGxwZDJEYk40X3ZzeEdvV3ViMlU1WmtaNHhvZzI2NDNpSmctZmNfdmtfcVVsdlIydnNXdA?oc=5",
     "source": "CNBC",
     "published": "2026-10-07T18:00:37+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Goodbye TINA? High Treasury yields give investors an alternative to stocks - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSXZVUXZOakhMbGQzSjZwc05uRmg0amV6UE1DNk5IMmJHNUtrRHpiUUNyMXRnMzlLRl84elFPd01QZDhmc3RXcmpGbXJwXzd0ekdZcjV6QWJ1RGRzdmZ0bkFDR29aVjAwUGpxVjNJa3VpTmdFdm1IcUVvUlU3RTNPcVl30gGHAUFVX3lxTE5EdHJnRXd5ZEJCbUpQalJ4eURhVldpWjFhMnBicklzWi1KT0FBNnpiN25CSm8zWFVrMFJnUUJwRzN3SkxzYkhUd21kNGhMeVRvZkNFd0paYU5vZndLNVIzMHdSMFhXMlRMWDVVMWJZWjJWdjFNZk0ydkw0Tmx1OS1TdXNlUXd0dw?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-07T17:00:08+00:00"
   },
   {
     "label": "Energy",
@@ -456,6 +488,30 @@
     "published": "2026-10-05T20:24:00+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Global bond sell-off spreads as yields rise amid 'collection of shocks' - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTXl4YkZydmhUeHptTzRJMzJaQ0JtakZNcUsyTFQwMUpXWGdKQXZGd3dIZkx4VnBlTkhMaXNrMzZURVEzRzRJbmZBNjR5Y3d0NVpQVXdoenlueDROXzA4SW5zVHJZanlTNVJvQ1poQXJabEtIazRyWHVqaFdtSmpKOVpkMDF1Q3E3S095YXo2UzBaNGRyX0NqX0MybVhXV0V2T2RPVTJaNlhXUV94amVJNWxyNExLWDBrVzJYNUtweGRfSWVn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-05T18:08:16+00:00"
+  },
+  {
+    "label": "LLY",
+    "topic": "LLY",
+    "title": "This Small-Cap Stock Announced a Deal With Eli Lilly. Then Its Shares Doubled - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOW9HTkpTSDZVS24zcXdaRkdyOXZxMmtTVE5TOVhpTlFaRk1rWThRR0RGVVJrc2NudjBENktQbmRieGo0OEFDVUpueVZvZmQtWXJzQVFBeUNTM05XaDMzM2xMR2paQWJVdWU0NkNxNkhXVWJJM0V3eUxqZG14dElUV2JpY2tGd3pmb3F3NTd5aFpoVGJyWXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-05T16:05:02+00:00"
+  },
+  {
+    "label": "LLY",
+    "topic": "LLY",
+    "title": "Has Eli Lilly Stock Peaked? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdGp5bGNId3MxeHB4aFUzZkp5cFhwNkRpUExTYkFXVDJNdGVEdE9QcUdEUTF0dWs3WVVNblVfMHl4MW85SzVoUG9ZVURKa2RPZ212OC1aWG1CRUY4RmtZeE8zaUQ4LTRaVFhsZS1ZT2xiNWt0ekY0NVhnVkoxVU5DUm9UQXdXTk1EY05qajQ0UVg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-05T14:19:15+00:00"
+  },
+  {
     "label": "BMY",
     "topic": "BMY",
     "title": "Bristol-Myers Squibb shares slide as Leerink Partners downgrades on pipeline doubt - Yahoo Finance",
@@ -472,8 +528,8 @@
     "published": "2026-10-05T12:58:00+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "AI Will Kill Us in 10 Years, but Bond Market Will Do It 'Next Week,' Says Strategist As Treasury Yields Hit 24-Year Highs - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV0Y2WGJNSE43NHpTeTR4VG5Za1dULUxSWG5NUzNpSmFfR2ZXVVJhRTJvbGt3R0pXNjk5MDhidTkwb0EyMWJ5cFo0Y2dEVzlSUl9idmpheXhYemsyQkhaVVNod0JqZEhPYUNVcnh6SVBTNGhTbGNBbE9pSkpmeWU4YnotMWdzMzBZMzlJTVktT284QQ?oc=5",
     "source": "Yahoo Finance",
