@@ -1,5 +1,37 @@
 [
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "The 10-Year Treasury Yield Is Near a 24-Year High. History Says Stock Investors Should Do This 1 Thing. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLU5ac1U3WlJKd2kxYWtvQ3djLUNXM0F5VU9yaUdpVW1yZ25kUlk3V21WcnFQcDRtaEU1emVOYWNhWGlqa0tSMjZTbjJsX2JicEFlV3htYXUzSDVBeUx5WU5kM0Fka3ZGbmIyc2hOaVZlNndVVTdlbk1VN0cxNFpwd0RDZVB0dzJ0Z1p1TTVjUGN3OGJR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-10T09:45:02+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "3 Top Oil Stocks With At Least 2% Dividend Yield - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUpuMmtFekJ1cnIxS2NNN0s0WnMtREdCQTdKQXVBTTN2NzF0bGl5dkdLVlZ4SXM2aDVZeHN4Y01oMGFnU1JLMmpaUjlzOGhTS1pxUDdLeDlhYUNMbDg0UG1iNXFURWtwYTBMZE56M1A3cHA5ZmVQamU2SW9UdGVYakV5YUpsQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-10T05:12:00+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeGdDX19XYWJWaVFjMk4zRFo3QWVzbVZYZGpOT0RfUDFQRVBta3RuR3ZObVRqU0oyakUzdmxlNWljZVRrX1pHOTJuZFp1dE44end2UkFQLTFmVTRyRWVSM0t5VE9mYndrUnNEeVg1OHllbTNSeXpwTHdSNUxTbC1kdUppU2lucDVEYlVSU0hqMFdBN0VRd25waWlkZ3VpN1JsUlY2bVhha25EZzdnMGxUUTZQaUdKSWh5VE90alk2MA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-09T21:27:00+00:00"
+  },
+  {
+    "label": "SWKS",
+    "topic": "SWKS",
+    "title": "Skyworks Solutions Inc. stock underperforms Friday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZk1iOWVwcGZUNFp4akVnTDFUYjZhbzY1MFdWNDFyRXZzckJQY3BKRzFIVUVRcV9OaV9CeGVPTDlHM2ZRaHY3bmhwZEpFSmdGcUFlU2Y5Wm52bVlYYXFRcW1OcGdQbUxjUVJxZ2VZdER1XzFKa1gyVUU3NW9oQjJnSTRzMlNzSXBuN0lNSGhXOFkwUHRuLUlOV0t6WUZLdmpfbDJLa19mQ293bzNRVFBqbC1SZXV5WmZCcWNWVXJjbnFLbVBhOVltdkNxelZtSU4wNHY4UA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-09T20:30:00+00:00"
+  },
+  {
     "label": "TMUS",
     "topic": "TMUS",
     "title": "As AT&T, Verizon and T-Mobile shares fall, Wall Street assesses the growing SpaceX threat - MarketWatch",
@@ -16,14 +48,6 @@
     "published": "2026-10-09T17:41:24+00:00"
   },
   {
-    "label": "AI",
-    "topic": "AI",
-    "title": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeGdDX19XYWJWaVFjMk4zRFo3QWVzbVZYZGpOT0RfUDFQRVBta3RuR3ZObVRqU0oyakUzdmxlNWljZVRrX1pHOTJuZFp1dE44end2UkFQLTFmVTRyRWVSM0t5VE9mYndrUnNEeVg1OHllbTNSeXpwTHdSNUxTbC1kdUppU2lucDVEYlVSU0hqMFdBN0VRd25waWlkZ3VpN1JsUlY2bVhha25EZzdnMGxUUTZQaUdKSWh5VE90alk2MA?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-09T17:35:00+00:00"
-  },
-  {
     "label": "TMUS",
     "topic": "TMUS",
     "title": "Elon Musk's SpaceX just made a huge play to challenge the phone industry, and AT&T, T-Mobile, and Verizon stocks are getting crushed - Yahoo Finance",
@@ -34,7 +58,7 @@
   {
     "label": "TMUS",
     "topic": "TMUS",
-    "title": "Verizon stock heads for worst day since 2002 as SpaceX U.S. network plans whack telcos - CNBC",
+    "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks - CNBC",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVS1tWG42dF8wYy04V3E2Mkg2ZXNwT19wZ0lJZ0hWb3Z1WE1HSHZpcE9kYzZxWjd0MVdXWkQzQTU2ZkYwaDM5Z2ZBeWI4WVBvOGh3ZGQwd2FmdHJmaUxNeG03NERZSENmQXB5OGdQNlhtMW51VWhMdDlzZ2stUk5pODdLeUbSAYoBQVVfeXFMTmEtZWlCcTZSUFNpRzBrUTJsWW1idkpGV0RiQjRVZGtuZUZ6ZG5aeW9iYzdtR2pqZThrRVl6Mk5RaTg4U2k0b01OM3JfaV9HSmhGLUN0ek9RXzV6UDdSaXR3RHhGZXo2RHRaUGFST2JiRmx0M0x6bV85TDVydWtYLWMwVGNVbExPNE9n?oc=5",
     "source": "CNBC",
     "published": "2026-10-09T16:26:44+00:00"
@@ -62,6 +86,14 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSlFsZGRmU1c5UExBTDVobmc1d0poWUk2ZnY2YVZKdkF1RXNodGRGZXo5TXB5dEdHX0FLcC1zZkdNT0xsUW5QN2h0UjVfWFMxdFF2YndUQWhUd21FZ0N5dnd5ajdMNmE3TXE1Q1p1UTFjdlVaQUJ3QzVNMEI1dVJ6WE5PM0JKLXBYTTB3aVZ0WnYxeXZ0QkUzYnZHMA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-09T12:57:43+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "The Fed's going to take its time with rate hikes - Axios",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRbjZBYktnZmU3Y3pEZGtCQUprVkUtTk95YVVobXBfRjdXeXVna3ZUSks5VVRLN3dTdDAtMlhiR2xyRGdkOVpQSFRmYUJ6R1hKTGlZRjJMdTZhLThSMHZZYmc5V1l0c011LUc4ZXZkd1E?oc=5",
+    "source": "Axios",
+    "published": "2026-10-09T12:41:15+00:00"
   },
   {
     "label": "Energy",
@@ -160,6 +192,14 @@
     "published": "2026-10-09T06:43:00+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Dow, S&P 500, Nasdaq Futures Climb After OpenAI’s Tepid Revenue Sparks Tech Selloff: NBIS, SPCX, T, VZ Stocks In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcWIxcFBiT1Bub2FoOVpyRUJjSzMzcGllbTZzZDJrbXJIWXQ0czZMaTVqazdqbXF0Zk1YVHBidURDVVBYSHdXYUJMV2p6RGpHRXZ1VWh6R0o2WXFsUjNYTTNEd29mWWRUQ1NXanBYRV9iYTBXMk1ORjNRMF9XOTg0Y0xQSk9WVlBPRGxhVDh5eG5raDQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-09T03:30:00+00:00"
+  },
+  {
     "label": "Health",
     "topic": "Health",
     "title": "Anti-cancer drug price cap: Hospital and pharma stocks in focus; analysts see limited earnings impact - CNBC TV18",
@@ -214,6 +254,14 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOFhHOU9ES2xuX2Q1dWdTYVRjS0lGQUI4ekV5T1hzMGhzNF9mVldoSkVPTmE0QjdPakdnZ1BVeXU0bjZkSWhQMEVYNDFaSWstZUFNS2tzeUxUdFhmVWloVTFTNWJLejNKbEZOWjVCS3d5Y24tR0tFRXd5TlZGN0F2b1ZQN0NoUnE3UVhqaGhqZkNNRVRGMzZrNktSTDI3UDN5WENtdVByempvU0R6blZ3TlZIcmwwU05fcERjblBSeUNkVWk2VUd0bzNn?oc=5",
     "source": "MarketWatch",
     "published": "2026-10-08T22:08:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: S&P 500, Nasdaq fall for second day in a row as AI trade takes a hit - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1hvWl9DMFlrdWI3MDJRYjRqb2hyeTI1eWVDSTBucWpWb2xRNTVFdk5PY0pHMWcxQ3djT2hkOHRpNks2cmEwQU5hT1F5SklzN1hTMi1maUJpN0pIaE9iaWlFS3BqcU9IbXRqYnBwaHR2NnF6Ujl1TVhKb2tzVmdRZUVHUmY0WWY3STZYLWcwaXpvQjlNTXhTbmQxdWV3Z3ZKNXcyNjgxaXVPeUdscXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-08T20:04:36+00:00"
   },
   {
     "label": "Anleihen",
@@ -326,14 +374,6 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN1RGRHZZNWo2UWpwTndHWUNZam5WMlhYRFVoYzJKQ2Z5ZnRCTFE1aDVaUUhGeU9hYkxndUF1VGlHY3hYcXFGNi1lTkRxaXFURTUyOXZNcWlQVDRXbUR1QkdwT3pURE5WQV94NnE2TC1jdzZPREZ5dzdxSnVUZ0JjeWhrbjVmSmxFNTFhbWhkSjdXSXZuajMwWFFiMlM?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-08T12:43:20+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as oil rises, reviving inflation worries - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1hvWl9DMFlrdWI3MDJRYjRqb2hyeTI1eWVDSTBucWpWb2xRNTVFdk5PY0pHMWcxQ3djT2hkOHRpNks2cmEwQU5hT1F5SklzN1hTMi1maUJpN0pIaE9iaWlFS3BqcU9IbXRqYnBwaHR2NnF6Ujl1TVhKb2tzVmdRZUVHUmY0WWY3STZYLWcwaXpvQjlNTXhTbmQxdWV3Z3ZKNXcyNjgxaXVPeUdscXc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-08T10:00:05+00:00"
   },
   {
     "label": "Anleihen",
@@ -782,109 +822,5 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU3o2dnRwVlJwc241SHFOd2YxVlpSbmhZWkZ3MWV0MkhrMW9tNllUQnZlZ3lIQjJJMWZMb1RzRk0zV0ZCRkRFdHlZY0sycWowMXFuZEZ2MmphWlZ3SjhicXA4MHBIQ21CQkFfaTE0UTJKQkdWcUpycFJKM2F0ejV1S01BLTI5VFVudXBGS0Y3RXZUNFZiUEVzNjJDZEphWm1iMlE?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-06T12:00:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures climb after record-breaking rally - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVVA4dXZfTlMzdGNsZDZOM19oNng1YzJqNl9wTDE2RmhKblJZOURISlRVbEVldE1MV0huXzZUUWROdlFRRl9OWllPN2VZbmNSem5YU251WlBESy05c3lpR25hdjl2NzJ5U1BVMHBSWnBfdjlxMEdRV3o4UFNDTXVXV01HU0FXSmtMOE9DWDBsVTdYNVJkUGlpS0NpR2JrSE1SZVRkMG9SMGFxZEQ4?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-06T10:00:30+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock futures rise after Nasdaq hits new record high: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54SDBCVUlsR19iZW9vcGFvN3dtT1hLbDEwdGM0S2xkZ2pXam96MjdpaUp4RW5acS1YZWVMYlZmRVVOZ3BtVk42TklUTTg0VFlLUkVyRUl0aFVzbVBISW5DQWRkMHNEakdlUXEtOGg1RkRuemFWM3hB0gF8QVVfeXFMTmVlVWdLbGJqQklwY1NYVkNua3A3SHFvRnFjaVFjVGtrUTJTZVo3Q2R4aWxkSEFCXzg4dVh1MTJPZHdDV0dGWmd3VHlCdTgwUWhDWmhVbjZiMXBwU0hiQ3ZNa01Ic1V5SmZwSk05N21TSWNMU09SM1ItMExoLQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-06T09:41:56+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "Citi Tops Global IPO Underwriting, Overtakes Goldman Sachs After SpaceX, SK Hynix, NSE Listings - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWDRUNWRwdkNSUEpLTVMwVXJkSGdCczM5NWFmRThhWU4wYW1QQm10aG11VV9PN0oycmRNYWlLTFAyNUpNX3FjX21DbUQ3M0tmeFFJVDFHVnBjTER2NzdvS0dqN1dGdGExVXZVanN5QW9Ndk1mQ0VwMTVuYUwtVUl4bWRMTXJpbkxxcXVXMEExRzB6LVBhT2hlTVJhcFVlUEE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-06T08:44:37+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Why Are Nasdaq, Dow Futures Rising Premarket? SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSjRZSHNfYlFWZXkwWHBKOGF4eTZkNC1YcHp4TTEtb212NjJnZlByc0dFcTdRS2FSRXZfbVUtcFVRR29VZmtpdTNCcWRjQjFnVWNRWWFQTnRXalZDTVlEZVB0SXdNRmI3WmxFREIwRGszXzF4RFR0VExJVmswbUJxMDhFdGVNenhOYlVuSlZhaUZFLTJQVTdiYktR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-06T08:39:37+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "UK PM weighs delay to roadmap for higher defence spending, Times reports - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQUsycjQxd3dlb25XR0NhemR3Z3VQdk1uU1k3VjIyUzB3bEZCTk5kV1ZYTGhTN2hTekFIblBPX3dVdHdBVWRJN0dyTGFRLWl4bllZN1VYc2tlYnJranNEOFRPVHQzOHRiQzluWkxxOVNoWkZXQTVhSDg2RGQwbXo4VS1DZm8tVEVTc0k1ejRaRGRLVG9xcjh2S0kwMDFoZTh6RndadWZsQ2VTN0FId3c?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-06T08:17:44+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "US Stock Market Today: S&P 500 Futures Dip As Cooling Wages Temper Growth Hopes - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd2YxTlUyQlJMNlM0LXlIa2JaZldfcHFSekc5MFY5QVFDeXI2QVFmWnlzWEw1QmFpeWM1YS1mQ3JzZHhrbjIyVGN0SVlKTjVyVF9jRi1fRXZQNk94Y1BDanFpNkJXNmpnWDg1M29xcmlINTkxVDE5MXgwbWZxbFZyckxFZFdEaDdHSHo5ZktqWExndw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-06T08:04:51+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "Samsung, SK Hynix shares drop as Q3 earnings loom - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMkZNMHNVRnpDTldRN1I0Yi1rZFV3RWVkLUNvSWllVFkzZUVaRlBFQVlBbGpUX2o2cFpzNGxCWC1jQ0kyTDhZRDluWkM0UklmNjcwMVQ0OExCcVhRN1ZJeUR5eEk2eWFOT1F5QlQ3V1dORXZJTWRDUmNZeFl6d3N3ZVB4V3NHbGpjLXJ2Um5JaV9yVkI4OWtQQw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-06T06:22:10+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "BOJ",
-    "title": "BOJ may signal underlying inflation has hit 2% goal, sources say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2EwSzZ0dnlrOEY4dFNVczAzNlBqamI4eUwzWFByN0VVZU9qOFExTGJfLXNCRS1HN0hza0JwdXJuNUNpeExJMk9IMkI5R2gzbktldlBVejF6VWp6aG5DaVdldGdGRVVUTU4zeXBETHZJQVpobGh5RlZxTS0wQWI4WXRvcGNhQmVmdXNpd3RNT2o1aENxMmhEU2FFa25oVHJpSXRoQmR1MXd1WC02ZVQ4S1NlQnA2LWdh?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-06T04:28:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Dow, S&P 500, Nasdaq Futures Edge Higher After Nasdaq Climbs To Record High: SPCX, USAR, CEG, NVAX Stocks In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX2x2OEVRNUU1UktTVk9HWHRjZ1dsX1phU1ZPbUZ4ZGVUZTI3ZnJHcXg3YXlQZVkwdzBxTC1VdDFaRmRhOTYzTlpzc19rWmctc0w3SmRKckthVnZGRHFaSVhLMjIzRVprOTRpQloyUEFpaEM4OTZrbGZfSmF1dmwzUnItOTZrVS1YdjNrN0k5bjNXNGc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-06T02:45:00+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Jim Cramer Expects Marvell’s (MRVL) Next Move to Get the Chip Industry Talking - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR2V0T0R2dnRpUkk0X29pMjJXVFhFNng2RnZ4dVpaVk9UeF93NENfRThCUmFqX2tYQklROExfVDZiNk90VE9OZEhnX0hhajNsSy0waEQ2WlpycXBoa0lUQ3RhMXFqZFZ0NU0wcWRzVWRSSndkdzZqbzlMRk03czExRFpBTVpEb1p1ekN4Mk5QamdyZS0zME5GeFBHVQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-05T22:19:20+00:00"
-  },
-  {
-    "label": "BMY",
-    "topic": "BMY",
-    "title": "Bristol Myers (BMY) Stock is Trading Below 10 Times Forward Earnings. Here’s Why it Matters - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVTdvZHMwNlFnTWwycEtaR2p5aGRJendVckdfZ1JHY3ZWMDBhc1lIbFJXSEFzaE8tbzFMcnp3TGhjNllSSlNTOVIyZlZ2bllSZFg3WWNHajRuMzJJNDVKTmNieVNhT2hMOUQtbGFFdEEtZTc4OXpDa196dFRVNFc2em5BQlN3MGRhS0liVGFLUVV0QU9PbFg4?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-05T22:19:02+00:00"
-  },
-  {
-    "label": "BMY",
-    "topic": "BMY",
-    "title": "Bristol Myers Squibb Co. stock underperforms Monday when compared to competitors - marketwatch.com",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQeXhUWDRKdlgyRXd6RXgtZWRLbWJwQXd5MW12RE5neE1HYnU4YjlPa2ZEX2V6OGFKamt0NjBHc25DWWpnWkt3VjdqSElKV3B4VHo0UnJkMGtIQmpFVDhpZGlIMVJLWUgzNThya1g3dmhXVk92M1lkX3RPQWs0al9xWlVTUWlsWFpQdkU4N2c4Qm1iZC04S2hvRWxsdXRNS0FkY3RHZWVlYUJQWkpxSFgtY1NlYjRfLWd4VWJIZk5wc01BODhnVGliMnNadnVhcUg2NVFCWlIyc3M5OW5PVy0zV1lFLXQwQ3V2UjZ0Z2pB?oc=5",
-    "source": "marketwatch.com",
-    "published": "2026-10-05T20:37:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq closes at fresh record as tech shares rise and traders look past higher yields - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE14VDVsamdsUnFobnR2dUhqeUtZLU55WEdZS0RzN2lfc3FrRFVkSThpUUhZY0tPWC1aYlhRaGZWZjB5emNuX0s2MElWZWxib1o4YmVfM1FxTlVWdWlvdlhDc0MwNndMVTIzVkw1VHgtem02cE1qMHJB0gF8QVVfeXFMUHJkb21SZF96VE41OFdxSDB6aDZtUURVcC13NXZpLUtHZVdmZ3ZwaFVNX2pmSVFXS2hmbS1JWjk0RlZ0azY0M3Atc3dWVVg0bHJ4dkVsbHpaY285cXJIOEVrUVhYYTU0bm1DWjlKb01DdjhQVnk1NERMb3I2QQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-05T20:24:00+00:00"
   }
 ]
