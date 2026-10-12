@@ -1,5 +1,29 @@
 [
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 is little changed to start the week; Micron leads tech lower: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56cnRXR0YyTHF0YWUtQkZHYlZZb0lBTXVJVjQ5a20zSVZzU2Q0T2ZNNkdJSWQ2QWlxdWpUd21SZFhLeTdMVHhFaWVMRWhTYk1mR2FDMnNsVWhTSlVyQ3J0QVVlSWQ0Q0pWY0xEY0JpUVoyMDBQWUdr0gF8QVVfeXFMUEVZRmpuYWxmTnZpcXFhMk93UmlZRkZ1ejNQOVBlV2ZxdmNiaEVqaGJnVlZDREs0ZVBqTV9IMTJwWG51aXZDM3I0blE1QUJpRGZSZXBIYlZJNkZNQnNvRHhBblVGbUJRLWtGdm9DaUVuX3hjV2RxUnhudVFRaw?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-12T15:56:58+00:00"
+  },
+  {
+    "label": "ARM",
+    "topic": "ARM",
+    "title": "Arm Holdings (ARM) Is Helping Reshape the Future of Computing: Here’s Why - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQREF0RURHUzYzUkhJZG9TRmg0ZmZJTjRQRWUwNm1sZ3VMWmJGa2c4bUU5MTlPNFE2M3l4Nlc1ZGhPYzZxaS02X3JUR1JTQTdoT3NxdjRhOXRXV2xDSHJTUHZRV3ZtTkxPVll4aXYxdC05RzE5VVVnOGhleVR5ZXc4S090cVlmQThjLWJ1NEhNM2t6WHJKRlRBUjdSTHg3QQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-12T14:15:58+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "How to Play SK Hynix Stock Amid a Potential $10B Solidigm IPO - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZXhOVkJhcDQ3ZEdZOEV2azFrc2lnQXB4NFhJeTF0UjNDZUZ2Umo2NWJWYV84dWdzQmhrM0l6NktIdXR6aEhZY1pnSG8xdks4NzBiNk5sQVBUOHlnVVNReEJaSjUxXzZVMjVsT2JIVFFZMmQ0VUZqTnNPbWk1Qm1pX19FRUFvVm5CSWp6b1piNlRXUHM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-12T12:47:00+00:00"
+  },
+  {
     "label": "MDT",
     "topic": "MDT",
     "title": "Medtronic Announces Preliminary Results of MiniMed Group, Inc. Exchange Offer - Yahoo Finance",
@@ -8,8 +32,8 @@
     "published": "2026-10-12T12:45:00+00:00"
   },
   {
-    "label": "MU",
-    "topic": "MU",
+    "label": "000660.KS",
+    "topic": "000660.KS",
     "title": "Micron, SK Hynix stocks fall as Chinese memory maker announces progress in new design - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTGg2ZUVsU1NvcE55Wml2N3I4bFQ2RzRmakJ6dlk5eGhPZzRiQlRZbmJuaUQyTzBwWkhsZ0x0djl1OUdlQ2ZFUGNVZlBwNzd0a0EwVmc1VkY3NVp1MWhwLUt0bHpBek85N0VXckFkeU5kekplSFRBOFhuOGxQVzJ4bDVGb1NraGNkUjBOejRIUGhmN1NPY2hYS3d5bHBNMHByY1J4dHVRX0hkTTktX2xaZGdFYmsyd3JtUnpaejZUWFJnZlNZc0F2WDdrM3JyOW1MMHRZWWtMeVg?oc=5",
     "source": "Yahoo Finance",
@@ -56,9 +80,17 @@
     "published": "2026-10-12T07:01:49+00:00"
   },
   {
+    "label": "005930.KS",
+    "topic": "005930.KS",
+    "title": "Samsung, SK Hynix shares drop as China’s CXMT flags progress in memory development - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR04xV09DRGFkeF93M25pWWtBeXlYY01yYjZydjN3X040U0U1UGxqS0hubG9FUFZ6TUl6Y1Z0Y1d5VE1KTHd5UUEtYWd6QktvMUxQck1lUl95WHFDR0E1NzRZQVM4Q3dyczFBaVNQT09vNzhLNnRhUl9fLVM5cm1GWGxTTWJRUXh3Z0xaR3ZFeHBDT1VyZUxOYg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-12T05:34:08+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Inflation",
-    "title": "Gold slips from one-week high as firm US dollar weighs - Reuters",
+    "title": "Gold eases on strong dollar, oil prices; US inflation data eyed - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSTdfbFRJUWVBUW5ndjBGSlJ6aGRQYi1saWxfVU5haEdOVXJaNzFuRnlyZ1F6eGVPb2tGYVczeXlRWEI5WmVHeVFGMTVqd2I5dEZCVDNrNDBkS2N1Q2NWWlRQMzhSa3BPMlZnVElqaFhaQkRLWnJrMG1NUnlvYVE5OWZGTXZucUJoaTUzTmxJeS1mUHpRSVVNT2xlRUI5dmtoQmc?oc=5",
     "source": "Reuters",
     "published": "2026-10-12T03:13:00+00:00"
@@ -126,6 +158,22 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdVotYm9neXBRR290SUUxQU4tZElzZDRFeWtVMjJQdDRFTUx3RGVIMzgtZ0FyRlZQakp5YUttTU1oaHBPbVJkUEoyQTRjcHAwWmlRRXhSTXRpQVlzRTlIY1dXWS1sdnczY2hPdDFRUkhiUE1fRVd4T0I4OU50Vkg5TWFXRmpJR1Qya3lsUG9XSUVRYWJCeWtNRw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-10T11:45:00+00:00"
+  },
+  {
+    "label": "MPWR",
+    "topic": "MPWR",
+    "title": "Monolithic Power Systems (MPWR) Stock Could Look Fully Priced On Earnings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV09jTkhuYlR6Q0xFa0NreHNCTElPU1ZhMGJ4YVRpbGZwcVlOal9XeHEyQlhxOHNRZ1lLU1JweWNRaS1LMXdESlcwRm9CQTZqdDdkcjlfWnM3dDl2MnR5S201U2xkck5yRGRHMFpuS19QVHB3YWx2Z2ZPVUhyMk1JVXl1MTQ3WDBDeTV6X2JvcE5rM0U1dzc4LVNMa25TLVBoekE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-10T11:18:33+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Nvidia GPUs are everywhere. Here are the ways companies are accessing them - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWmtTenlrQjRUaUpoSkxKY2NrVExBSWI1ZmN5aUlWajNBZHBxd21iZlBtOURpeDEzTWRQVU9YSTVtYmN6Z191c0VwVGotdzBMeEhMSWszWGVqMUdueEtucFoyYmd4c3VZckdXRmdjby1EeXNydEpCV3kwQUxZdUw3UnRzeFZ0c0VBa0lpb3g0NkQwWHJXVjB1emRzWdIBoAFBVV95cUxNT1F3c2tTN3lVN2d2dWpuWWh1eW9adnlCWE51YlcwUVZmMHpNcUM2MjFpUFNBa1lnalZEbjRWaFNsVzJ2ZlRNRUZzV2R0NjM0dGZXNTVVU3ZFN0ZxZjJ5SHhoR0djUXgzX3NGRHpHN1hVRVM3ejkyMlNzS3RzS19uWENzaHFCRHdSM201b3dnN0dsdk5QN0doekp4MG5HRlpR?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-10T11:00:01+00:00"
   },
   {
     "label": "Anleihen",
@@ -518,45 +566,5 @@
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbWJmRGJSWUNzQTZBNjhaVW8wVTVDdWV4VmlhZ21yTUZhYlRXLXdPNGI0c3RValdQU3ptNFVScDZCTTIyM1lsN05TT2NhblVFWXFJNERiYmtVdEt0NVlyelYySjVFOEl2X2EwdWt4azM5dFAyZzM4eVpJODNiMWhYY3lBOEJ4NzdDbkJKOVkwZ1I2ckI4VjRXeTZRQmh5TEhjR3VtbnM1TUptNzFPRVBIT2dubFVZdXVXc01zeHdLYUM3dFY0UDZuUURZUGJXX0pZNWZRVVgwbw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-08T17:00:15+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "FTSE 100 slips as bond yields hit multi-decade highs, energy shares soar - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGdCOV9ocFNDcjVPNG1BLThMQkJYWjRFZHlaVnZuN2VpbmQxOEVCZHpYUVhqLWFOSEpPMlQ4Rm4ydGtzamx3SmlzQVFaSTBGTXJQT01DNmhRT3hsbFhyemF3cW90bkEtZ0U4VGsydkZDNV8xUjNMYlpEeWVrSnhQSXJXQWZHWk1EQWNVbk02X1VhZG01SThpUkI5T0pQUENGU0xGbHR0UmgxNDVU?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-08T16:34:43+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Buy 3 Momentum Anomaly Stocks as High Yields, Oil Prices Hit Markets - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVlVRT1ZHRERRV3VmZ2E2eXZRWmZnQzhyZGhSclpmRnNScTI4NThSaFoxejgtYXUycVZWb0ZGRGQxREtSanZUZ0hNWFY2UkxmMlgxUjIxVnJYXzlnRUd4RHBWRWdMZ200Ni1rcEo3enB3NlhqRFdlTGJFZHMwSjc2WUx2VWN0MnA1UU5DMjhoRFJjNk5sa3VvQmVB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-08T16:03:00+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Rapid bond yield moves have preceded nearly every major financial blowup: Chart of the Day - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcEltRWJGemx4eTIzdGkxcXJob0hZTXlmYXpCd0JLU1N1ajlwOEJma1d5M2ZyX2p0dmN1RktqSDdFVjNyZmtkWE9RUXBiUGZwNkg3R1pqUlc3ZXNxc2cwbmRlQkZVcXNXVV8yQXBaUzhNNk5PYlk5bnJ3Z3gySEdMSHc0QVJpc1FvUThXTGw0YnpSTjFseml6Mm5jSEhmcFM4SmN1bVlpNUE3NjA3LWRWZjV5MHc0RldzNGdnRlRKS25uU2o2WEx0bm55R200T1NrU2ZkcFhVTDhlVnVlOTRZ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-08T15:07:20+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Zölle",
-    "title": "Consumer prices would have fallen if not for Trump's tariffs, New York Fed says - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWXhuTkt5RzlFd2tabjVrdHdVSnQzMXU4eUZiZ1pKRWtqdGtiTmdYUm9OamowSUttUTZ3VlNncWR5REVnbE5jaEU2NFZhSERocU1sTlJGQXhYM0p2LWZMSVlrbnNNd2MzVFhRanc1elhzRGV1UUxFVHpmMkVLVW1HbkdlVjZuYW1MNC15eTlRV0Jzd1J5dFNZY2ZWZTFEYnhlT1FjZ1FqSVk1T3prS1E?oc=5",
-    "source": "Business Insider",
-    "published": "2026-10-08T14:27:01+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Zölle",
-    "title": "Consumer prices would have fallen if not for Trump's tariffs, New York Fed says - Business Insider Africa",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUlVfSnBRaEE2MmZDM1UybUNYY0xJc2FuUWFFdkxCN19hU3pnb0ZvWnpiOElYd1BQem5nMFZyNGJ0OG9kUnB1M3lHcjZWM3E5eDhRSTVWS2o0elgxc01WMFlzUVhTdHNjTzItMExSaFY3ZkV5NWFXUDNUUGptVjNUZUxQVG1uc09ESmF2TTJ6QThqU3JOVnV2bk1UY2V1dGdqNHpMT0dIa1pLdjdmVW4yMTBfMHV0UTRZTzc1TGVSdDhLM0VNQXNv?oc=5",
-    "source": "Business Insider Africa",
-    "published": "2026-10-08T14:26:43+00:00"
   }
 ]
