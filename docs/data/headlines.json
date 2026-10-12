@@ -1,5 +1,29 @@
 [
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 futures rise with big banks set to kick off earnings season - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV0thWTBRYTBYRElObFc1LVJoWVBQaFQyQWRDRHpUTEVVWXhxVE1vcmdyclZnZGFob01ad252MzBWY3ZKdGs1Z1ctR0k1T2ZDdnlTSjlISVlVSm11TlJtU1FvdmpKeGdOYnJEQ2ZDQmtHM1k4UThEMVhBNVFfVzYzMDA0MThCa05SdmtNdlg2T2JBeHRGS1E5WDNlQTZaZUF4NjVhY2dQS0NSanF0UkE?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-12T11:09:08+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "3 Energy Stocks With Fee Based Cash Flow as Oil Markets Stay Volatile - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdExBaUgtbk9qSlc2U1o0NFFCWW9IWElSSWtIZm9jVWpsNXBRNFRJX3pqM3BmZmRzYVN1ZUx5bkt3QTJnZng3YUN3YTQxMjVsc2xDU2Z3TEtPYjN2cWZSYWd4c3ExRWtVY0xRSXVSNWcwZ29wZGo2YTNLYmNoZ2diM1V1VXpScUwtQmc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-12T07:09:32+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Inflation",
+    "title": "Gold slips from one-week high as firm US dollar weighs - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSTdfbFRJUWVBUW5ndjBGSlJ6aGRQYi1saWxfVU5haEdOVXJaNzFuRnlyZ1F6eGVPb2tGYVczeXlRWEI5WmVHeVFGMTVqd2I5dEZCVDNrNDBkS2N1Q2NWWlRQMzhSa3BPMlZnVElqaFhaQkRLWnJrMG1NUnlvYVE5OWZGTXZucUJoaTUzTmxJeS1mUHpRSVVNT2xlRUI5dmtoQmc?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-12T03:13:00+00:00"
+  },
+  {
     "label": "DTE.DE",
     "topic": "DTE.DE",
     "title": "Deutsche Telekom (XTRA:DTE) Taps Bond Markets As Its Valuation Starts To Look Compelling - Yahoo Finance",
@@ -462,189 +486,5 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUlVfSnBRaEE2MmZDM1UybUNYY0xJc2FuUWFFdkxCN19hU3pnb0ZvWnpiOElYd1BQem5nMFZyNGJ0OG9kUnB1M3lHcjZWM3E5eDhRSTVWS2o0elgxc01WMFlzUVhTdHNjTzItMExSaFY3ZkV5NWFXUDNUUGptVjNUZUxQVG1uc09ESmF2TTJ6QThqU3JOVnV2bk1UY2V1dGdqNHpMT0dIa1pLdjdmVW4yMTBfMHV0UTRZTzc1TGVSdDhLM0VNQXNv?oc=5",
     "source": "Business Insider Africa",
     "published": "2026-10-08T14:26:43+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "POLL ECB to hike rates again in December as inflation almost doubles 2% target - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNVlkaVBmN0lBelRFMEktcDh1aG5GZElENVRtWngwa1VzQ0pRaFU5bU9mQnE0ZDVna3JFRVV3ZW1qZHgxYlNvRUJLWmV4WnVxbWhwWVRKLVdfVzBNbFhLSlU4NmhSMmxSQi1hYTF4U1ZJQ3dGNjRNUklHMHY5ZjJEamZ4ZXVkT3J0X3VaVGNQSkJzNWtVNVZuTlVURFZWYnRJdmdtS3hpQ0kzVl9W?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-08T13:16:56+00:00"
-  },
-  {
-    "label": "SWKS",
-    "topic": "SWKS",
-    "title": "Skyworks Solutions’ Q4 2026 Earnings: What to Expect - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRzBPVnpfSjhTUzZwMVpQOGktTHhGUEpTeEtzdDg1bjAtdnhmVE5uWjRzTVhtWkNKVEFpTW56elNFMUUwcmU3Zzl0WExzSldzZHJMb2RScDlOMF9Dd3NFaWE1dlpKY2ZNUjg3c0U3Sm50VmRHQlVfQ0RHdVRQX244U1AyM0pOcHhONC15cmJ4d1N3Y3RZOUpmSnJtbGZldnJHc3c?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-08T13:10:09+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "Arm Holdings (ARM): Semiconductor Sector Sell-Off and Supply Execution Questions Weigh on Stock - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEgwbzBFeEZoTE5qRkd6WGw0ZHB3MFltX3djT2VuaUdQMnhyNXZidUcxRVBiYlUzMWhpbVpqN0FMWFBxYUpZV2pudkF4NUZVVU1QRm1lWTNFRXNPZXA0QTg5WHFEODViWTEtenJkWHFvYlZNd08wbUFCZWZYX3dZNlRiSTJCYWktVWg5aHlEMGJXMG5XbmxkeDRJU1VaSVZ0UTRnNg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-08T13:09:38+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "Elon Musk Reaffirms Control Over Terafab AI Chip Complex As Intel Remains Involved - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN1RGRHZZNWo2UWpwTndHWUNZam5WMlhYRFVoYzJKQ2Z5ZnRCTFE1aDVaUUhGeU9hYkxndUF1VGlHY3hYcXFGNi1lTkRxaXFURTUyOXZNcWlQVDRXbUR1QkdwT3pURE5WQV94NnE2TC1jdzZPREZ5dzdxSnVUZ0JjeWhrbjVmSmxFNTFhbWhkSjdXSXZuajMwWFFiMlM?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-08T12:43:20+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Treasury yields are lower after reaching multiyear highs, traders weigh latest bond auction - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNF9IY0FlbFM0NmU5dU1WSVlJMUQtSTd1UEwwTGNfUFI3SVhfU3RWczRMWU5SSnNjOUhRbm15Q3EyVkw0Q1NBdm16UEF4ZktEVUl5MDVuTEs3emhON09xa2c5MDZDX3paNUZCcWl4QTNkc3ZYX0M1a3ctSlJKUDBfNEdB0gGHAUFVX3lxTFBPQ2Y1aEJEU2JUYVlGMW8wTm9mVGFtT1liT2pLZ0J4RVR0ZDN3aG9KTHJrdGEtS2FjRzdzMUhNNXE0bWhYOWhKUnVsLWt6UkVkc01WV2FXOVdUbGlmSE9NcWVocVRoQnRZWEFPTE56WTVXQ1BLRHA3RnZRaGJvN0FXTEZxY3pRNA?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-08T09:19:44+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Why Are Nasdaq, Dow Futures Falling Premarket? MU, TSM, APLD, IONQ, HOOD, BULL, SLS In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZUNsdEN3QVhMYWNpaEx2VDBINGJPdEY0ZUw2VlM4azE0NU55T3ZDVVVfVFpsT0JtQjM3bXZjd1NCb0pqMjd0WG14Z05ZUDRuVWNiS0lvWHZlbWU1Z0FlN19acC05QzhscWFBNEdYdzNnVWdNN0ZnOFBzLXVXU2xaTVo4cU9rZEJ2S2tseXU5WUNhM3pXVkRtS2puWQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-08T08:45:53+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "3 Chip Stocks Up Over 6,000% in a Decade: 2 to Buy Now and 1 to Avoid - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMDZTaGFSQlBGNTJBY3huVXNJQ20wODhpSHVMLU83X0RXUmRmS2daUGxjN0JaMDNMYmc3eUNZSW1nYWh0ZGZ1QjNNejBZLTJJYmlmcmM1TWtvUlFYQ0ZFY01VV3BGZ1VWZkNCdy1JaVNpLWl3Z0FzcHMwVXdZdFc5WEctc1l3dHBMdWdyazRn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-08T08:35:00+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "US Stock Market Today: S&P 500 Futures Hold Flat As Trade Deficit Worries Return - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWjNFa0tpQ19LVFFzRlliUHlrZXhxS002MEpEMWwxamlRVG16M2ZQR1ZfN0dVZ2E3STVrWGZQNTVKTHRQSWZ3NktyWkU1V3lTaTEya0g0cng5UDZNQnRaS1FVX0VlMzFySTdQcjhONzVrRVlDLVhYZzd3cFhhUk5uZmNxX2NvR214X2ZNZjhOX3J0UQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-08T08:11:28+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "3 Oil And Gas Stocks To Watch As Crude Prices Jolt Energy Markets - Yahoo Finance Australia",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53MUs0U2hESi05SmtIVnRZbXlDdllwTzZSUWhwX2I0UW9MS1dPeGhhSmdxZmhnc1RzWGk4MTNlZVlEQzNqYU1aY0g0WjMtY2J2ajlSWXdpc1Q1dk5lemVQVG1sSnlBMldnZEtqY2dUUElyd1laYzd3dW1kdw?oc=5",
-    "source": "Yahoo Finance Australia",
-    "published": "2026-10-08T08:10:06+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Germany is right to rearm. But Europe has well-founded fears about that | Paul Taylor - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQd2ZrUnd4aGR2bS11TWFOQ3hBcTZLMHhPOW1vMjZQRVI0NWxHWV9iUjVDWHN2WHFoUWVOVDJJYm5oRGV1bE1UN1BiTFVJZG5GY21IQ1JmMDh1anBuWV9Fd2RYbTh4aHlHU0NmR2xlc3ByWVo5b1Q4TndIRXZVbUJ2X0FmTWExMVlNMW9tWlBZcktkRnVhZnNvNzJDZTdrRVZLclBZR3JxN2lNV2ZoWTRNVA?oc=5",
-    "source": "The Guardian",
-    "published": "2026-10-08T04:00:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed policymakers divided over rate-hike logic in September, minutes show - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOVl1b0t4RWF0WnFRODUzeHAydHMzOFl1U0lKbEhOa3ZSbG1GdDdubllBRG9raTZ0VllPeWJsUEFmOUlLaGZKYkd1QXo0dEFyUzZCUjdKM0NQeHdCeUZWU1hBcTBNaGJIaVJwVkluZ3Y0elloSXRyRHJkek1VdUxJdkV0NV8xSXJxUFdOVjBJVmFRcm5Na3M2ZGlodGdtcEk2NFlnWnZXVUNQSlJBUUFUSmJiOA?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-07T21:33:30+00:00"
-  },
-  {
-    "label": "PM",
-    "topic": "PM",
-    "title": "Philip Morris International Inc. stock underperforms Wednesday when compared to competitors despite daily gains - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPbXRlT0VpSTR1M3U5ZDZFRUFJb2Y5WFlDemNsM0tMT0hyY0Q3TnZwdmdUYWtCcWRoNmlxa2UtRElmd1lPSVBlS0F2RmEwb1ctRGNxemdEU2dUUFlLdG5rVVh5bGlyMWNuVDR6bDBYclNMZkJMUnFhNEl3RGhxZFpzTkh4WmZCOG1QOG1iV2tLMmVNQlJvcnFKVTVZb0h5c2hXYUg5ZEV5cXo1ZDJxaWo5SnNla0hkRGNWQ1F3Q2VWRGozaVFUT1NJYm80REtkSHB3UjdSdnVweURnNzFNMFlaLWMtalZpaklpOFFjSTZZcldUVjUtejRGMDVVNjdGaVR3TTMyZkVvVDk1LUVxdFdfUVlxRWVfQzA?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-07T20:32:00+00:00"
-  },
-  {
-    "label": "ON",
-    "topic": "ON",
-    "title": "ON Semiconductor Corp. stock underperforms Wednesday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZzE1c3l3VWZ1NTZoTjVSUkJVbmtILW1OX2x0NlJCeU54NkUtcHpCZ0p4UU10OHg2d09XNTZicmJOdkNYUlpjNTR5dXlkaU1mWko2RmxwcUxjVnNMZzkyQVZlVFIxVnlZeEYtVGV4SlJ4UHJrYWtCUE1Ma2FNZzV1UzNGS2xkd0tOTmZHNkhxajZ0RW9hN09kbjZZSUhZOEFOZUhXZFlXMnpod09JNFZiWGNpbVpiZHJHMVRrc3B4cmJ1X3dlaHRvcFNIUGNLelB5Vm1KYmpnUQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-07T20:30:00+00:00"
-  },
-  {
-    "label": "LLY",
-    "topic": "LLY",
-    "title": "Moderna, Eli Lilly Lead Healthcare Stocks Higher on a Down Day for Markets - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVzZTQmdhRGVSdHBKVU02YUN6UHZZLWU5VlhpVXdzR3kwVXd6MFJuUVFldnBIazQ5blk3SlhfaEZTVTc4SzVud21KS3hwanBnOXROUFhETFN0SXptM1JtZ0M2eGRBeDFSMEF2Z3I5MHlWZ0JnT3czQVFnbXdhbDNOOWJWQ1dtclA2b2xrQXNSXzFxTVdRYU45aWRycUN0Tk91VzllWF9sb2R1d3hHemN4Y29qNm14aGpnVTBmaU1pdExXMEpWekVsSWFmUkliYXM?oc=5",
-    "source": "Investopedia",
-    "published": "2026-10-07T20:19:58+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "US bonds selloff eases, yields off highs, after strong 10-year note auction - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-07T20:05:34+00:00"
-  },
-  {
-    "label": "LLY",
-    "topic": "LLY",
-    "title": "Where Will Eli Lilly Stock Be in 5 Years? Follow the Pipeline Beyond Zepbound - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQi1iZkVtUzUzNXRNc2hSaWFuTk1BdE9Cem9nYlU4LVppem1LdFBYNjNiTE9pUlBQb1g1WjBweHdSTWhEQS11QThIU1VXQ3lDVHpRZnlUT0JtRlNZRVN0OEZldFVGS2Jya2VuU18wZWhGU1BGRWNBNVY2WmxDNF9LdjRUR3YybjlzcEJYWg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-07T19:38:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed’s minutes show no appetite for a series of interest-rate hikes - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaF9QQWc3MVFwTXJjNGdBRjd0NUZ6aExkdFpqRkxBSThxMUZteXNiSWJDak1qdTdwRXBkNkdQdDRfekQzN243ODFqNUhBQllGV0pQS3pWY090WThXMTVzZmFnc3pBbENCMGJLaVRXSF9zRUZtZ2dzZE0zelF5dzBadldsZm51dVNVaVpHQTNvVHA3Q2wzQWFmemJIOEs1RzZmQUp5N1hKZzJ1Umc?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-07T19:35:00+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "IEA to accelerate oil reserve release, says 100 million barrels still to come - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSWQwZFJidm90SFN2SzVMQVk2ZTZrVDI0LVhoWDloYnNCU2NuTE1ZUlZFM3dyZTFPaUptLXFZNlA2TTQtZFRFdXRDREdIZUtyWHhQbDQ4TDZOU1JpdjhENmxZLVdpU21ZaC1GcEFGT3MyZE5YX0FoZXJPUTM2TDNrTXpoTjRzUTh5V2VQdFlYTmFVTmtBYWIzR0hleXJ3RnZRNy1YTVRNQkxtSDF2OTZ1OUhYMkxFaGdNaUVSWnhxWQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-07T19:28:08+00:00"
-  },
-  {
-    "label": "CW",
-    "topic": "CW",
-    "title": "Why Curtiss-Wright (CW) Stock Is Falling Today - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ1VyXzlkYXZReGF2aEZDaVpiM0hTVXFLRWFjemJqUDgyRXc1VG9IeXdjcDNXNGpiWEZOVTN0MkhUeC1nbjNkdWRTVHJZelVMZks5OFBOTmJOZHNTTzhKVWhXOWkyZnFKMDh6Sl9JMWRkUTk1OHFoNDZ2bzJIbWIxTmkyZDItdXR6aU1RMDU3eUQ2NEYtMVJN?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-07T18:48:47+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "The Fed was unanimous about raising rates in September. Economic signals have since changed. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQTlWVlVDb2E1VWpneHhHanhPR1l4MS1DWndsWXhiNGtNQlhmSkppSFhqMy1kZkItaFFTSGpyMXBlT3ZDMUpiQ0xqaVBEZUpIajhtSW02UE03cGJGQWNreFNVaU5UekVvWGtiOGZyYmg3SFJjUEVRakhQV1U2WklZOVFTQXNaSHFpRlFfWVBfeWZPLUVQcGdCNmEtbFpNc29heUE2VTdzclNQdjlqZWRBeVVYQzJ6TDRGVU1jMXo1azFwcjl1eGRZcHRQVVBIbmpzdGpVQllGZjFaTTB4b0NBM1o4YlVJZGlfY3c?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-07T18:48:39+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Federal Reserve officials expect another rate hike will be needed this year, according to minutes - AP News",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWdTbk5oWnMwOTlyWElUT2VXeGFtY21kMWtKbWJfa3ZmTlhwWGRydkpBdWF3Y0oxY3FjX0h5d2NYYkpnZVI1endPNnR0TzlyYWswV0pWbkx1aFljYkJFVkxNanlzSExIaTdBTFZrdVZFbnFwRm9NdXUtNDBrTGN0REc2ZWVOMTFWRE9mYnBEZnNTbFNGV3dONndqSFM4QQ?oc=5",
-    "source": "AP News",
-    "published": "2026-10-07T18:05:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed officials see another hike coming, but no sign as to when, minutes show - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkc3RnFQUWZoam1MOFQ4MG85elpQcFIzb0VlajVQSlZXQXhFUHJlaHI3RGlXd1hOODRxRDNfV1YzZFNJakxNMzRiRzRNZkZqdWUxVG1WWWRVSUhMdUFZQ3BhUV9OR2cwdXFTVzhGc19XOGdBSWwxaUF3MEthSkxzRDlFTlRoVTBnLUQ3SlZVSEhYNWFEOE55TGN2djlkRG1JcWN5V3hNOV82eEVkaEJR?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-07T18:00:37+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed officials see another hike coming, but no sign as to when, minutes show - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkc3RnFQUWZoam1MOFQ4MG85elpQcFIzb0VlajVQSlZXQXhFUHJlaHI3RGlXd1hOODRxRDNfV1YzZFNJakxNMzRiRzRNZkZqdWUxVG1WWWRVSUhMdUFZQ3BhUV9OR2cwdXFTVzhGc19XOGdBSWwxaUF3MEthSkxzRDlFTlRoVTBnLUQ3SlZVSEhYNWFEOE55TGN2djlkRG1JcWN5V3hNOV82eEVkaEJR0gG0AUFVX3lxTE9hS2JuRWZra2ZHZWc2YU9kMU9zYUN3a0FwcmtDbm9pclJiS2puN1I0Zkh6WVdQUmNEbFNDVmxPQ1ZFRURoZlRsVTh6aEl6bE5lUEc1ejNSM2hxdXdhVVNHVjU5eXhsTGx0UkI4Q3VGdXFLRVF5bXQzd1pUdmNBX09acGxwZDJEYk40X3ZzeEdvV3ViMlU1WmtaNHhvZzI2NDNpSmctZmNfdmtfcVVsdlIydnNXdA?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-07T18:00:37+00:00"
   }
 ]
