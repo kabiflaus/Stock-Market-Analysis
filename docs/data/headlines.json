@@ -2,10 +2,42 @@
   {
     "label": "S&P 500",
     "topic": "S&P 500",
+    "title": "S&P 500 is little changed as traders mull over bank earnings; chip stocks slide: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vWkJFUkNSVTNpSXFUNGgxZWtlWUdXSmt3eC04ZllUYm9ma3UtYUNMS1ZQbDhDX0R1am5LZlZDcmx5Q2ZkR1pUTVBaOFR1WHgtY0FTakRvVkNpY1dnSDljcEp4SGpHYkw1cVF4LUhYZndrbmY5MlRR0gF8QVVfeXFMTmZhUmNzY2Z3a2tVNVlDdHVPZXUzeUQ2a3Vjc2Y4OGZuUTdmYlRvdDhSZXhVZmN0MWpoRjNkd19QYzQxZjN6RXlLcGZGYk5jLUQ1ZUdUZVpQSHp6eDh5X05pN1lWY2JpRWlpenZDNDFGQTJSdGtaOVFrczZUdQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-13T17:57:31+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq fall as earnings season kicks off - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRjVaOEtwcDZiNkJYOWQwNXhoeDdYVDdzVnRUbjRKLWRsWEp5YThyTkR0aXJhaDUyZmRzN2N2VFNyVVIwdTc1d0tyNE9nRk5PN1RCeEh6TUhVUllUTW5IeUdfRERKQU9KT25sVVJ4S3M5ZHlBcU1MYzdPWUR6bWtBRURxcW9FOUFuM1V3aWVUY1laZDR2ZEJmaHc3c0FhUU00cXNUR0RNNjYtQ3RkY2c?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-13T16:24:38+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "Micron, SK Hynix stocks tumble as chip sell-off deepens following South Korean market rout - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRFpQS1QtTW5JUU55UndqdkwxSGY2Sl93MzZsSEVLT1NpZzBDVW9fLXYtTTRCa1pYRGtfVHVZa201VkdJVm1Ec1VCVmV5TU5WWUZETTNOeHVYYzQ0VlgyRUVERk1fMzZPRUVSdVRSRVVQajY5NDVublc4ejd4S1FUd2VrazlrRVptbFpmQ1luZjJoT2RWZmg4OWNGcjN2N1NsMkhlTXlRamNhbUVuSjlIdkY2ZUpwMlV6LVNadk50RGx2MkRHUmMtYzdCWURVNllGMlNEZXRsVXNTRmM5cDZqUDlIWkhPUmxz?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-13T13:57:07+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
     "title": "S&P 500 opens lower after bank earnings; chips weigh - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdkNncVkwQU9JeFhSRFFWQ1FhcW5SUk5hY1hQMkpocmdCRlZ5b04zOGJnZ184T1lONDh1cUQwZFY3RVJxUmJzZDhpUWZ0RlhsUGluV3hoVG1TV2JWNEZtUS12R1Z0VURRQmt3SjkyUU44UkZTcmF1RnFaTm9POE9LYW5TWjY3el9jNzQwV1lOVkhaOGFDTE9Wc1NrM0RYTzJ5UFM4eF92UWV3LW03SHJ1U1I5cHF4eDNFS1liNw?oc=5",
     "source": "Reuters",
     "published": "2026-10-13T13:35:23+00:00"
+  },
+  {
+    "label": "Health",
+    "topic": "Health",
+    "title": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say in contempt claim - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4weC1zdS1oUGpLaEw1bW16Qi1pRDhzYXh0ODhqZXdxanZfWWUxUV9uRlF1UXBnYkgzUU5aZVZNbjExX1l1TjlFWTBGT1RwOFk4T0RSNUtobGZLcGt2Q0RjNE0xMEpGN0hrVzlRbWZNMjlCUmo3U0p6V185SdIBgAFBVV95cUxPaUtVNFBRZTJDOFptWWFuZGNKeDdWYWRLc295SXpvOTB3UHlfUmlOaUluQWpUZXNYTmpfbDYwSmM1bGhjdnZqQWtrLTlZdURJN1M3cUE0SWQ1aEd1b0p1eDNINkhDQUtLN0ZQdlIwQ1J3aWtwcFN1cEdablpiY2Vqcg?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-13T13:00:23+00:00"
   },
   {
     "label": "Nasdaq",
@@ -50,10 +82,26 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures trade mixed with bank earnings on deck - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRjVaOEtwcDZiNkJYOWQwNXhoeDdYVDdzVnRUbjRKLWRsWEp5YThyTkR0aXJhaDUyZmRzN2N2VFNyVVIwdTc1d0tyNE9nRk5PN1RCeEh6TUhVUllUTW5IeUdfRERKQU9KT25sVVJ4S3M5ZHlBcU1MYzdPWUR6bWtBRURxcW9FOUFuM1V3aWVUY1laZDR2ZEJmaHc3c0FhUU00cXNUR0RNNjYtQ3RkY2c?oc=5",
+    "title": "Nasdaq Futures Sink, Dow Rises Premarket As AI Chip Stocks Wobble Ahead Of Big Bank Earnings: MU, SNDK, NVTS, NVDA, SPCX, ASTS, UNH, V Stocks In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcEpYNkM1RmwzZmlDLVk2R2xQYW42N3ZER3dyRXo4dUFUVGc5Z0NGZUhyYVZ1akR1MnBrMUNGRjY2Zmh1R0ZvQzg1M1p0OVZCRjJleWtSVUZJWWJSRmoxbVhNaHdZNFUtVk5KQ1pKNkNvTEloTDlBU0I5V05Md2lGdmxxOUdQbVNFUG9acnlUNWRxdzhDb1JDcGR3?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-10-13T08:02:36+00:00"
+    "published": "2026-10-13T08:37:30+00:00"
+  },
+  {
+    "label": "005930.KS",
+    "topic": "005930.KS",
+    "title": "Chip stocks slide after Broadcom boss likens AI investing to ‘casino’ - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZTNMNERvMGJITmdiUUw5VGRoSkJjT2w1dHlxd2NPemdFMTlhUFRORXpiWUhJZU5DM0RvRG43cHNGUXpPOC1SNWlfUDI5NVBTdDNKS2M2ZGZQMjR4aVJOMmhNZ0lpejBIeFBOcG96NF9oN3pRYXJnZVNVaUpBTnlOZ2F2MFlWRFFudXhleVdyelVYY1ktOUY0?oc=5",
+    "source": "The Guardian",
+    "published": "2026-10-13T08:01:00+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "The 10-year Treasury yield falls as energy prices stabilize - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4ZHlxSG9mVUtMWVNJRGxvQ3M2cHB4bHViN2FmQkhWbE5PRl9WY19fUy1oamVTY2dPNmpMMk4tVFdRN2NFYy1QeGxHNDlORjYxVkxnOXl1cGl6bVczT1J3QXJITzFwVENQcVlHWnJRONIBdEFVX3lxTE5mYmhLcEthSnNNTjE5S1E2U1JtV2JZZlZhdTNYTEtRZlJsWHZZazV6Q19EcVAyUGhINXFKcGkzUUtQS1BjU285aEdTUmNDYktBaG1kbWE1OF8teTVVeWRXX0F2WXl2N3Y5Y2pDS1g1VWEzQ05T?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-13T07:58:17+00:00"
   },
   {
     "label": "AI",
@@ -98,10 +146,18 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "US-Inflation",
-    "title": "Gold rises on weaker dollar, lower oil ahead of US inflation data - Reuters",
+    "title": "Gold holds steady ahead of US inflation data, Warsh remarks - Reuters",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRnRSZTl3U0dwUkZRSkNlalhmeF94cE1aaGV4NjNZdll2aENMRDZTWGNTTnhjMS1BQ1hKUG9qc2hKS185eXpWTjFfUnBwN1cwdVNIUllaMnc0Tno2SnFBaXp4RGxMWkd1eFhXR1VTLV9qN25ETlIyeEVLNXNGX2NqZV80SUk5WG5IeEVDNGpRbTRfaVliMk9HVk5vQ0lyVnc?oc=5",
     "source": "Reuters",
     "published": "2026-10-13T02:23:00+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
+    "source": "Financial Times",
+    "published": "2026-10-13T02:14:02+00:00"
   },
   {
     "label": "005930.KS",
@@ -118,14 +174,6 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWXQtTWY1cWNhbC0tUDFkUld5Zmd0X0pKTGhvQ2ZKUzBGVlU2WlQySHk2WjNaMGRUQTduNG93elRxa3RnUC15SEJWREVaRGN2QUs1Y0szdUc4eGJ2M0dLYlI1TlMtZGdOc1h2a3BDSFdYLWRlSjAwTzZWVGgyRWNwQ1pBRnVRdGxsN3RWZnlKaDVGRzc0NFdnZ0pMU29RR3FBcG8xd1B4WXRRMG5XUkQzNzhn?oc=5",
     "source": "Reuters",
     "published": "2026-10-13T02:01:00+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "China faces uphill battle to wean tech firms off Nvidia chips - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
-    "source": "Financial Times",
-    "published": "2026-10-13T00:15:06+00:00"
   },
   {
     "label": "Nasdaq",
@@ -478,45 +526,5 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdmNFVEJGaFByaVNnbUNON1BBd0MwM1JiR2x6SGJvYVJ4Qm9LdXhjbTRzcXpuZlhCQzBIY1hkSmxQTGJqYkc1ckhBR0tGbUYyRk9ybFAwRTZCbVRRS0QtWE03a2RzUEtwbGlYMHItc0xEd2RJTGJCSHI5Y2xUY2dObWxPWmgzN1M4dFM2dTdXNE45WDlJOTFBWEhObXNDOEg2LTh3NllkMGZFNjQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-09T20:02:02+00:00"
-  },
-  {
-    "label": "MU",
-    "topic": "MU",
-    "title": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV29sNlQyVUhjWmFVRjNrRmNsWEtOWG1famtzQzVNMlUwRHhvb1AzNWdIckpjSFNCbzY4RzNRalRLTG90MFVYX2dPcGVHWE8wZ1U1RGhsellzR3FUajZVSDJVa01jclhOZmgzWmlQVy1lUzJQdTF2ekkzSnBRR2VSQ1duQmJVQjRHVGZJR0o4MDdIelk0SzdSR25ibGloVllsZG9pTFVKd1hOMl9QMFU5d3NDTEFjVUlVeDYtMUxB0gHDAUFVX3lxTE9jYnNNYXMzWTA4WlVlR20wcjlPRzF2SXh5djlxVTJJbnluQjFrS3UtMC12aEhMeGJSM1BnVnhmUTdURU9YMTI5Y3BiNVAzVDY4dGMwQVU1Q2R0LVdRMl9EbTNXdEQ4WTVwRVdqeENpNmJPcUpoNXdHSXFHMkVDSU5WVGdqSXczMEgzUW82Z0RObi1vQ2owcFdNMW5zbk5hZjFYcmF6VEw5WXhqX1pQV1N5aHh0XzNreGVMTDZxM1NCSEJraw?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-09T18:50:21+00:00"
-  },
-  {
-    "label": "TMUS",
-    "topic": "TMUS",
-    "title": "Why T-Mobile Stock Just Crashed - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa2dLdlNzbWJPWHNaSHhUdW5CTU81d0VJalZPUnpETjRhLVNyM3RhRTJuZWpQbE1wTGRCb0UxTVVtcFRETG9sdnlPMEZxdjA5ZVpFdjBTMm9SWnVXRVhNdTgyNTYzVkZNd3VWOW1zWlNCaFRPbGNuNHVxQXJBRHlLR2tMXzI3M295eXh3ZUVRNFVCQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-09T17:41:24+00:00"
-  },
-  {
-    "label": "TMUS",
-    "topic": "TMUS",
-    "title": "Elon Musk's SpaceX just made a huge play to challenge the phone industry, and AT&T, T-Mobile, and Verizon stocks are getting crushed - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQRzgxd1VQcHVCLUpLWXVDaGN1NmpDeEt0M09OemFRaTM2R0RzVElLTUtMd2lYR2FSanRTM21kelhzcVNMYkwzdW52NGR1NXJ6LWo1SHBubmtEaWZPcEJsVXZWMXVNa0owNVZNYmRKYmVTQ3VYVmNpdVNXVDdYcFAyM1BPbnN1bzR2aVFBcC1oVjdqYUxMSEJGWFpmQVRVWWQ3azVDTlVNUnppaTFoUWo4UnZwWXJhTE5SUnhFNXE1S2MyM2FmWXE3Y2lRTkRvTUNLZWtLNHJOeUVrSlQ5aXZlRUxtV2VKTHVyMDRjbjA1VjRPQl9RUGpDUEhOUjNZTldMSF9ETW1qN21LUWxUTXN0eGt6UE5pZUhmTERr?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-09T16:32:25+00:00"
-  },
-  {
-    "label": "TMUS",
-    "topic": "TMUS",
-    "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVS1tWG42dF8wYy04V3E2Mkg2ZXNwT19wZ0lJZ0hWb3Z1WE1HSHZpcE9kYzZxWjd0MVdXWkQzQTU2ZkYwaDM5Z2ZBeWI4WVBvOGh3ZGQwd2FmdHJmaUxNeG03NERZSENmQXB5OGdQNlhtMW51VWhMdDlzZ2stUk5pODdLeUbSAYoBQVVfeXFMTmEtZWlCcTZSUFNpRzBrUTJsWW1idkpGV0RiQjRVZGtuZUZ6ZG5aeW9iYzdtR2pqZThrRVl6Mk5RaTg4U2k0b01OM3JfaV9HSmhGLUN0ek9RXzV6UDdSaXR3RHhGZXo2RHRaUGFST2JiRmx0M0x6bV85TDVydWtYLWMwVGNVbExPNE9n?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-09T16:26:44+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
-    "title": "Four signs it is about to get uglier in the bond market as yields rise - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpPbXRYRlc0T3dINmZIZnM3VEgxWWJzS2tLRVBadmJMVnQ2ekdHaTQ1NG1SZlhfTV84VjNsM3JNR0RRSTZyVWJ1ODJFZmxpa1pxckluaktPY0d6T0d3bUVUUnRGQjlCVmwxWUNGWEs2cEo1VGV4R3MxN19PakJaZ3FUZnZfMWxqUHAzNk1nOTVFT0hr?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-09T16:18:35+00:00"
   }
 ]
