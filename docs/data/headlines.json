@@ -1,5 +1,13 @@
 [
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 opens lower after bank earnings; chips weigh - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdkNncVkwQU9JeFhSRFFWQ1FhcW5SUk5hY1hQMkpocmdCRlZ5b04zOGJnZ184T1lONDh1cUQwZFY3RVJxUmJzZDhpUWZ0RlhsUGluV3hoVG1TV2JWNEZtUS12R1Z0VURRQmt3SjkyUU44UkZTcmF1RnFaTm9POE9LYW5TWjY3el9jNzQwV1lOVkhaOGFDTE9Wc1NrM0RYTzJ5UFM4eF92UWV3LW03SHJ1U1I5cHF4eDNFS1liNw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-13T13:35:23+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Nasdaq Futures Fall as Global AI Selloff Intensifies - Yahoo Finance",
@@ -14,14 +22,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMjc0eFlwY2Z6SUg4MnNyOC1NblpXTm1FR2NnWkJNSENFNnZJM1pDVUN4MXB5aTFnV3hiNjVPaDZJc1g2NHVreUVRQ2t0bXhySV9IMEw4SmJsaWJINFB5ZjB1aVNNRkJjWldRT0pCLVRCem1peGNmM0I2MExJRG1tMG9hTHdmWk1xTXlxdFRtdlVuM1k?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-13T11:56:26+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500, Dow futures muted after big bank earnings, chip slide weighs - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdkNncVkwQU9JeFhSRFFWQ1FhcW5SUk5hY1hQMkpocmdCRlZ5b04zOGJnZ184T1lONDh1cUQwZFY3RVJxUmJzZDhpUWZ0RlhsUGluV3hoVG1TV2JWNEZtUS12R1Z0VURRQmt3SjkyUU44UkZTcmF1RnFaTm9POE9LYW5TWjY3el9jNzQwV1lOVkhaOGFDTE9Wc1NrM0RYTzJ5UFM4eF92UWV3LW03SHJ1U1I5cHF4eDNFS1liNw?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-13T11:24:22+00:00"
   },
   {
     "label": "S&P 500",
@@ -48,6 +48,14 @@
     "published": "2026-10-13T08:49:52+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures trade mixed with bank earnings on deck - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRjVaOEtwcDZiNkJYOWQwNXhoeDdYVDdzVnRUbjRKLWRsWEp5YThyTkR0aXJhaDUyZmRzN2N2VFNyVVIwdTc1d0tyNE9nRk5PN1RCeEh6TUhVUllUTW5IeUdfRERKQU9KT25sVVJ4S3M5ZHlBcU1MYzdPWUR6bWtBRURxcW9FOUFuM1V3aWVUY1laZDR2ZEJmaHc3c0FhUU00cXNUR0RNNjYtQ3RkY2c?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-13T08:02:36+00:00"
+  },
+  {
     "label": "AI",
     "topic": "AI",
     "title": "Broadcom’s AI Durability Warning Triggers Sharp Drop In SK Hynix, Samsung In Korea; Nvidia's China AI Chip Share Falls As Huawei Closes In - Yahoo Finance",
@@ -62,6 +70,14 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZUZsb2dHV3NNb1BsZ1NRcWN3ZlNGVVh5YjNsR3QzS1RqSnZDcFViWEF2eTA0eVdEZkdZVVBnQ2d4SjRIcy1PSk5IQmc1WlhWam9TbnlGTW9hVDd2UTgyNXlZa0NfWUQzeG4tbW5tWUp0cU1TTWxCbk13MVVQSS1Ld3FaNFVscV81UnJrc1lleG9MUEZJ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-13T06:15:00+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "SK Hynix Plunges 9% on China DRAM Scare: “A Clear Trigger for the Selloff” - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPakxrNU1DRWJOTEpTZVpZVDlzUXp6ZTFvOG1LUFVndjJyTHplVUg4bUYxMnQzY3plclVqWGZ2Wk9rSm1RREVxbEdaaGtqalBYZFNFNmNJc2NYcGQyZENkczlnU1dGZVZqdktlZEtOTHB2dGFTaXpXaTdKd1ZHdlBXN2RZeER1Z2RGOU5BTjlBWURyX2s?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-13T06:14:01+00:00"
   },
   {
     "label": "005930.KS",
@@ -82,7 +98,7 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "US-Inflation",
-    "title": "Gold gains as oil, dollar retreat; investors brace for US inflation test - Reuters",
+    "title": "Gold rises on weaker dollar, lower oil ahead of US inflation data - Reuters",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRnRSZTl3U0dwUkZRSkNlalhmeF94cE1aaGV4NjNZdll2aENMRDZTWGNTTnhjMS1BQ1hKUG9qc2hKS185eXpWTjFfUnBwN1cwdVNIUllaMnc0Tno2SnFBaXp4RGxMWkd1eFhXR1VTLV9qN25ETlIyeEVLNXNGX2NqZV80SUk5WG5IeEVDNGpRbTRfaVliMk9HVk5vQ0lyVnc?oc=5",
     "source": "Reuters",
     "published": "2026-10-13T02:23:00+00:00"
@@ -90,7 +106,7 @@
   {
     "label": "005930.KS",
     "topic": "005930.KS",
-    "title": "Micron, SoftBank and ASML slide as Wall Street chip rout spreads - CNBC",
+    "title": "Micron, Seagate, Western Digital sink as chip sell-off deepens - CNBC",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckowaE5BVEtNWm9RQkFrSWVMc0MzVzNHNFBubU9hWlJQM0gteG50U1RFWjdsU2w4RnJYemd0ZnIxVUhUeWgzd0VFTi1wMkN4bjczYjlib0Q4RXRyMnhmd3FUT1BhaHRsZHhsdUFVRTZUVkNGMG50RDNxTDA1Sm8yQ0Etdk5weDFOcEd6elpMRWhzWlA2Qnp4aDJWNmRCMkHSAaQBQVVfeXFMTjFRUXlfM2otZ1AwbmQ2RDVLQUtnNUJxUGlDS2V2V2owSmc0WGxUVmJINTRrRzhWejBqc1N4S0dNNjlhbnFJSzcyZnpqYWpRcEZmai01QndvdW9sWXBTbXcyWEFzZHA1d0VzWVZVdU1yUE9uaDZBZjFjNGl6aGs1SGFtWmpYS1dTUDZDVWtIOFJNM2xOdng0TE9YTmhsTHhnTk9XTzg?oc=5",
     "source": "CNBC",
     "published": "2026-10-13T02:08:00+00:00"
@@ -110,6 +126,14 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
     "source": "Financial Times",
     "published": "2026-10-13T00:15:06+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq falls ahead of earnings, economic data while oil rallies - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOck00LVRZX0lQNUw5SGlYU09FOWw1dUVTNjZTQ0p6YklVVUlRSms1eVZRcDd6VjRySF9rOEptM3Nrd19mSURMa1dmbTdIOE1VZjJKdThIR0tabGRTdjBiX0JCWkVndjJFNkZrT0w4NzZ2VWVibjlyeVZHRmszeXRraWRfT0p2SDhSQnFTY3QycG05eHpjQVVLYk9yRF9UYzZ0VmZ6Sw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-12T23:50:15+00:00"
   },
   {
     "label": "Rüstung",
@@ -134,6 +158,14 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUW9Vb1lEc0ZNcGRrRlp5anVFRlFFajRUN0Z4blJOaDNxallYN0pzTGZOMVFkS2FHMXZJa3FIVnhjb013czl6N0RHeEdIYkJjakZQREFwZ2JFYVhXYzMyUG5CTGxNbjZ6TWFJWUpBRGtlbjNobzhjb29tbWxNLXU3Z21EcWhGalo0UzA3Nko4RjZMWlBEMDRGZXBFS2o3OXJjZDE4V2R6MXoxNjZhN2FFUEFqWWlsSjhRYXlrX0t6QUpGZnd1anhjNm5qbWI3M29Memh4YWZQMzZOaTk3?oc=5",
     "source": "MarketWatch",
     "published": "2026-10-12T20:30:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iRWdUXzU4TE1qSExlakQ2Nk9qM0ljX2tRaXg2d3ZhdG56Vmc4TTJqdGMyQmE2aFNQT3l1eHRlb0tWdWgtbWJOXzk2OXJoUlVfU05TaU5TRy1QOXlVQlNpcjAtdkFPRFFiajBIOU9DY3ZEcWUwMDJWdWx30gF_QVVfeXFMT0RHU1ZWNllmUG93MHhmemF0dzQ3VHRvX2JYcGV4RmxrMHNvRnotcEZZanBJYTdjemxLS1pnNDRLZEloYXpqeEp6ZHQ0X01ZQkN1a0JtWEpXdjNqUVdsZWE2X2M2Q1dwQjFsMk8wQUw1UzllTmJmNFZHcHFzQ01rVQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-12T17:08:43+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -486,13 +518,5 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpPbXRYRlc0T3dINmZIZnM3VEgxWWJzS2tLRVBadmJMVnQ2ekdHaTQ1NG1SZlhfTV84VjNsM3JNR0RRSTZyVWJ1ODJFZmxpa1pxckluaktPY0d6T0d3bUVUUnRGQjlCVmwxWUNGWEs2cEo1VGV4R3MxN19PakJaZ3FUZnZfMWxqUHAzNk1nOTVFT0hr?oc=5",
     "source": "Reuters",
     "published": "2026-10-09T16:18:35+00:00"
-  },
-  {
-    "label": "TMUS",
-    "topic": "TMUS",
-    "title": "AT&T, Verizon and T-Mobile Stocks Sink as SpaceX Expands Cellular Ambitions - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1FxcTM3RnNrd1FqaThPZG5CM2FUVW42WU9KVWJLWHpyaFFTUDR6YkcxNEY3ZGhCczNaSDR0NEVGU1NUcDNKUWxoVGM3VDY2VW43NmpfWlVEM3dnd1ZUSTlOTnZHUmtZU3lXRm0zSHI0ZFd2NjFaOHBhaGExYmQ4T3ZYblZVNERRaTdxSmJCbGRQMHZ0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-09T13:33:24+00:00"
   }
 ]
