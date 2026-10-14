@@ -2,14 +2,6 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge higher ahead of CPI inflation data, earnings - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmNfYW1YU2h6RkdxZGI0Sk1Obko1aUlMT1FydzFhRFR6ZzJ6c2R0YllDOFlDYzBjaTVsVFlucHFDWkhSc3kzNnBpSTJWb1JXb1ZHTGg4eXRCZG42MWJfUTdSQzJic1BDc3A4cHp6MUhDQVlaRU8zWXdXVlRBT3ZybEJlVU5naE5jNjBYR2FwNWt5SE5mbUdTby1mVlZqU0lSbjZrYzV3WnBNSHpKemNZZg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-14T10:00:38+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
     "title": "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdWM3a2gxTTdFdG04OW9QRlhGTU81a19ZN0Nsb3dIcnhvTTFGOGMxY0JRSjZ3SXdjeDdlcndIcTZCVmhJV1lwZENXb2xDenlaRG9lV2hGSmNmX0J6bUlEdkVWMXFUOWp5SzQxVEpzVVJ6NlpxeDVoWVhVNHgxaFFZUHJ1aVVFWjhjbGtJUXNoS1JtVEFWc0ctVGFGWjk?oc=5",
     "source": "Yahoo Finance",
@@ -24,12 +16,28 @@
     "published": "2026-10-14T08:14:05+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge higher ahead of CPI inflation data, earnings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmNfYW1YU2h6RkdxZGI0Sk1Obko1aUlMT1FydzFhRFR6ZzJ6c2R0YllDOFlDYzBjaTVsVFlucHFDWkhSc3kzNnBpSTJWb1JXb1ZHTGg4eXRCZG42MWJfUTdSQzJic1BDc3A4cHp6MUhDQVlaRU8zWXdXVlRBT3ZybEJlVU5naE5jNjBYR2FwNWt5SE5mbUdTby1mVlZqU0lSbjZrYzV3WnBNSHpKemNZZg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-14T08:11:36+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "Diesel squeeze set to last well into 2027 as Iran war disrupts supply, IEA says - CNBC",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Da2trRjlrbnhRVmVhRVdNUTJ6V0pJalVlbkpiLS10YnpmbU1tVHhaU0VacnNSbk9SczlfTS1RUF9odEptRTVtWHdvSEpKYUVOcmNNbTQ2T3V6dHZ3S0dQWGNoeVlRRy0xYW9JZ0o1SF9Jb1lSd0tpVtIBfkFVX3lxTFBubTR0YnlNNXVmVHd6d3M2bmdsYTBOaTQ0OFQ3TEY0ckxBRHVSc2RKWkMxZ1JVaDIyYnluZlpOZksxa1JPNVh6QkxCTzhUcXF1anRIRzlwTDFXOG9hWkFLNjhCRllhbk5xTTVvckxzXzZzclBablVzSkZWeXZzQQ?oc=5",
     "source": "CNBC",
     "published": "2026-10-14T08:00:01+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "China",
+    "title": "Asia FX subdued ahead of U.S. CPI; China data, Singapore GDP in focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONVZmZjA0cUk0amR6ZEE0VDZIaXAtM2xWOXZLSzRQbnFQbUVmOWc5WUpWWmJzaXEzbWZBSHRxX0Q4UURPTFdvUlZFTUlSYVd0a0tFRTY4NkFxcjdMZF9UUjlvQ0ZGZEVLYVZuWjAxSk11blphVVFid3huMmNJUlA1eEZveGxib2Rwd0EtMk5kZUZnQW5SRFZJ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-14T04:40:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -58,7 +66,7 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
-    "title": "Oil prices rise as Iran deploys new tactics to target tankers - Reuters",
+    "title": "Oil prices surge as Iran deploys new tactics to target tankers - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
     "source": "Reuters",
     "published": "2026-10-14T01:27:00+00:00"
@@ -606,29 +614,5 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSWFyVEg4YmZPTEI0TkZNd0FrM1FYa0VKVXB5SXF0dUZrMkV4NExtYWFYcDl2Y2wxMWVKazJXZHJ3ZGVhQlNXMlp3T0hWQ0luMnl4RHc4Q3dVWmIxa1I0eHU2UE9TQTRzekpqV0hBeVdpM3BwOVFyNUFpUzN4bHBRZWRxSThJSnM?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-10T17:11:33+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "10-year Treasury yield hits 5.34% — a 24-year high now driving mortgage rates, car loans and your portfolio - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdVotYm9neXBRR290SUUxQU4tZElzZDRFeWtVMjJQdDRFTUx3RGVIMzgtZ0FyRlZQakp5YUttTU1oaHBPbVJkUEoyQTRjcHAwWmlRRXhSTXRpQVlzRTlIY1dXWS1sdnczY2hPdDFRUkhiUE1fRVd4T0I4OU50Vkg5TWFXRmpJR1Qya3lsUG9XSUVRYWJCeWtNRw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-10T11:45:00+00:00"
-  },
-  {
-    "label": "MPWR",
-    "topic": "MPWR",
-    "title": "Monolithic Power Systems (MPWR) Stock Could Look Fully Priced On Earnings - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV09jTkhuYlR6Q0xFa0NreHNCTElPU1ZhMGJ4YVRpbGZwcVlOal9XeHEyQlhxOHNRZ1lLU1JweWNRaS1LMXdESlcwRm9CQTZqdDdkcjlfWnM3dDl2MnR5S201U2xkck5yRGRHMFpuS19QVHB3YWx2Z2ZPVUhyMk1JVXl1MTQ3WDBDeTV6X2JvcE5rM0U1dzc4LVNMa25TLVBoekE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-10T11:18:33+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Nvidia GPUs are everywhere. Here are the ways companies are accessing them - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWmtTenlrQjRUaUpoSkxKY2NrVExBSWI1ZmN5aUlWajNBZHBxd21iZlBtOURpeDEzTWRQVU9YSTVtYmN6Z191c0VwVGotdzBMeEhMSWszWGVqMUdueEtucFoyYmd4c3VZckdXRmdjby1EeXNydEpCV3kwQUxZdUw3UnRzeFZ0c0VBa0lpb3g0NkQwWHJXVjB1emRzWdIBoAFBVV95cUxNT1F3c2tTN3lVN2d2dWpuWWh1eW9adnlCWE51YlcwUVZmMHpNcUM2MjFpUFNBa1lnalZEbjRWaFNsVzJ2ZlRNRUZzV2R0NjM0dGZXNTVVU3ZFN0ZxZjJ5SHhoR0djUXgzX3NGRHpHN1hVRVM3ejkyMlNzS3RzS19uWENzaHFCRHdSM201b3dnN0dsdk5QN0doekp4MG5HRlpR?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-10T11:00:01+00:00"
   }
 ]
