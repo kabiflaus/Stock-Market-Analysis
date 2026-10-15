@@ -2,10 +2,50 @@
   {
     "label": "S&P 500",
     "topic": "S&P 500",
-    "title": "S&P 500 futures fall ahead of more U.S. economic data; South Korea's Kospi plunges 7%: Live updates - CNBC",
+    "title": "S&P 500 futures slide ahead of more economic data as tech shares fall for a second day: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pUGoyb2Q2c1FvdW5RZUNXMGQ4Vk55SWZ1RGlEZ2xocGYwZkRlbGU5WUtNNzB0N1ZUdUxGank2bFFkcUpwVWtYcTNLUUhLUG12SUVpX0txZkdiamtWZXB0SHVQLW83dUM0cFI4YnpScHdmVmE3SjVv0gF8QVVfeXFMTnI4TmlaWHJ3endjbXZvUXlYOHRhV3lyb1lvNjNrYnVDVmYwUmxxQ0M4Vm42WDR2WUxZWE5CRnRhaExSY1prYkNlOUNId3R6akpzcUdlUUxfZmEzdFZCZnc4bjAwZDhYVnpVR1lBMTNHa0JGREd3NUQtaDlUeA?oc=5",
     "source": "CNBC",
-    "published": "2026-10-15T09:46:27+00:00"
+    "published": "2026-10-15T12:21:25+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: S&P 500, Nasdaq futures slip as semiconductor sell-off continues - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ3MtX0JOMkpXWTVPWEdBY1dCdnBocTRwVUFJZlVDOUM5Vm91enNCa2t6dURBc1RqYVNJdTloeVhDV25yUGt3Yi14QUxMdDF2eFE5dHZ0RXhyc1pHZlhHeTdlQk5TTnZrOThkZTlzMThvM1lQRExfd0NUODhPMVJCbGd5QktpdHdNSTV4QmctamQ1eGpfRHhJRU4xdDYtMXVGUEkzSnhUaEc1bW1CSVkzQWZKVmNncmtyRHNqam1uYlE0MlRrakFkb3pmTlgwc3Bm?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-15T12:20:56+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "Stocks making the biggest moves premarket: CoreWeave, Rocket Lab Corp, SK Hynix & more - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ2Z2T1A1Z0ttUldwQnJmQUZJU3hlRHBPcjFyakJ5X21wNU9tX2dGcm1FcEZkTUx2MjVRa2pvemlCWXhLMEdWY2puelVKUmlBa1FEWFNvSkswQjVLUmpHaVBCLTZiS3NrSW05NHROSmFDWkRRRlhFOWdRUHFpeG5EZXVfU0dOMXBWbUlMZk1sS1lxallSVmpCTg?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-15T11:44:59+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures fall as tech shares drop on fears of AI overspending; traders await more U.S. data - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbWN4T0hBNXBaMHpzSVpNamFBekxCN3RmOHNoa2U5ZEF1SDgwOTUyS2tncEpxZ3EySFBGUkV5dGtGQTVoSHpDTmh6VDFSbVRRVHJfQ0EwTGNXcXFaSVN3OXdDNF9qNmxjMzBXNDZZNm9pY1hBZ0FsVGE2NXpoYU0xOTRkcHU3c2xQSTRCV1NOcVlRSmZCSnJMYjRQanRvWmxBQXdpaFYyUXFkNV9vc3BFY1J5Wm5rNF9DOXRmTGZXYWVKQlRVd3FQZUwxLVlmTmpsMmhV?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-15T10:58:15+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures fall 1% as AI rout deepens on debt concerns - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZTRob0s4X3hCYkZQZzFfeUxuU1ZlN0tPT2hvelcwcW9QdU9yeVN1ZUZfR253ZUNoN3NjUlRHbG9aS0wzMmVGLUpNOVcyTUlHOWo3WERDX1psTXlmWGthb0JPN19GMGxnT2pkYkRWQ0R1THEyODhoWnZTd1NIQjdZbm5fLXNYb0M2c1g2YU02TENSSi1xSFZMQzRuUTc?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-15T10:34:11+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "US Stock Futures Fall as AI Valuation Concerns Offset Anthropic Revenue Growth and TSMC Record Profit: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNmRiTzNEYnJMZFhpSmtmNXRjUzc1a3diYmV6azBEa1dlOUNHY1FFR3RqUHNSc1pMVER6UHlZcjlWVlRfWmxQT0p0THp0SmR5WkJacXg3U3ZaZmp2MnczZVYwQ1dVOVUxb3JIaXdTZGFIQm9VSnViSDVqOFlNVFpqeEowUnJvcW84Umkza0k0NTh4bmM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-15T09:32:50+00:00"
   },
   {
     "label": "DAX",
@@ -24,20 +64,20 @@
     "published": "2026-10-15T08:58:23+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq futures dive 1% as AI rout deepens on debt concerns - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZTRob0s4X3hCYkZQZzFfeUxuU1ZlN0tPT2hvelcwcW9QdU9yeVN1ZUZfR253ZUNoN3NjUlRHbG9aS0wzMmVGLUpNOVcyTUlHOWo3WERDX1psTXlmWGthb0JPN19GMGxnT2pkYkRWQ0R1THEyODhoWnZTd1NIQjdZbm5fLXNYb0M2c1g2YU02TENSSi1xSFZMQzRuUTc?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-15T08:42:09+00:00"
-  },
-  {
     "label": "005930.KS",
     "topic": "005930.KS",
     "title": "Tech market sell-off deepens amid fears over US inflation and AI debt - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORElLSHBNa1VvRjk5dmRWaE5HR21Hd3JwY0tBX19SRUpOOTZTd2RlV2tDN3RVa1lPd0NZU2tUQVBCMWxtclJpeE5jZzlYNUtGaXdIeFFBR0xsSmVVQ1lreURiLTFOcjN6eTZHZzdmM19aNzZUSHB1dGFlcFlVX0gxckN6NDFMemNnbnZWOVVBYTFMZDl4QWI2cFFUQ2JpckFqSVk5eTU2cU9wcHpBQnZaQTVRYVZSTFhVbVE?oc=5",
     "source": "The Guardian",
     "published": "2026-10-15T08:39:00+00:00"
+  },
+  {
+    "label": "IFX.DE",
+    "topic": "IFX.DE",
+    "title": "Infineon Technologies (XTRA:IFX) Opens Bangkok Site On Overvalued Narrative - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX0xXR2w1ZjlrRGhLeHJUUTBIVzRiTTA1Y2tmeHhFbjhucldyM2FMcXFNZ3RXeUJsNndrSzBDSkt4Y0MxMFd3NzUtdkhkOUFEWTcyRmpTdkxpU0JxVnhXbVAxWVk0LUxCOFZ3MDl5WFZIOFVNZFBLQUtwYXU1ZXpyN2JRX2RmOGk0LWNGMkxpYTcyWU5KUVFjbi00SWdrdi1ORTl3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-15T08:14:04+00:00"
   },
   {
     "label": "S&P 500",
@@ -70,6 +110,14 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd193ZUNPc2JyaVFDV2hNU3V4MUlKYm5KWnR4VjVwckJQUkZuUkExTWRhZWRKenZodDZuXzQyck9JR1p1OUlRdUdoUjl4ZHZIY2Z6NXFOaVVpOVRxaE5iZDZlZXRGcThCRHhQNUR6MzQ5cGhvRHMtc2UyNm1oN21tTXhKLUt0dmFwUk5YRm5BMnNCMlVsN0xLdnQxUEtMU1pYTUE?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-15T07:11:32+00:00"
+  },
+  {
+    "label": "IFX.DE",
+    "topic": "IFX.DE",
+    "title": "Infineon (XTRA:IFX) Stock May Be Near Fair Value After Thailand Expansion - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVlB2NzRhZVJUcGhJZDR0MW41eUpsTkJQaUd4aE9idHNMUFRlYmM1dUIxY0lpUVJHcnY4djhxZk9oSHpkYkh3ZGh5UmJDNVdYTnJrRUo3WktLN3JQNHlRaG5mVnR5R082TUVoMHhRT1h3cWxoVFgxRTJyNjJKaWtFRkRlUUNpcnBGNHFoRks5aURhUnQ3VEEw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-15T06:15:00+00:00"
   },
   {
     "label": "KOSPI",
@@ -416,6 +464,14 @@
     "published": "2026-10-13T20:30:00+00:00"
   },
   {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "Chip stocks slide after ‘casino’ comment by Broadcom boss - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUEdnZjlUNktHX2ViUVRqZHd4ZmhjaXdkd0NMR3BVLUp6akpVOUFabEljcHk4N0wzRDloZXhuQklwaVUwWjNYSFJnYkhzQ0RQNzZFZXh6VFh2U0hEZ1FybXhxNUQ0WTVLbXZydHM4REVRLXVVbHpsd2Rnc0M1MnVMMlVJTVc?oc=5",
+    "source": "Financial Times",
+    "published": "2026-10-13T20:28:15+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "Fed's Collins sees another rate hike on the table before end of 2026 - Reuters",
@@ -656,14 +712,6 @@
     "published": "2026-10-13T03:17:00+00:00"
   },
   {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "Chip stocks slide after ‘casino’ comment by Broadcom boss - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUEdnZjlUNktHX2ViUVRqZHd4ZmhjaXdkd0NMR3BVLUp6akpVOUFabEljcHk4N0wzRDloZXhuQklwaVUwWjNYSFJnYkhzQ0RQNzZFZXh6VFh2U0hEZ1FybXhxNUQ0WTVLbXZydHM4REVRLXVVbHpsd2Rnc0M1MnVMMlVJTVc?oc=5",
-    "source": "Financial Times",
-    "published": "2026-10-13T02:59:46+00:00"
-  },
-  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Inflation",
     "title": "Gold holds steady ahead of US inflation data, Warsh remarks - Reuters",
@@ -680,8 +728,8 @@
     "published": "2026-10-13T02:14:02+00:00"
   },
   {
-    "label": "005930.KS",
-    "topic": "005930.KS",
+    "label": "000660.KS",
+    "topic": "000660.KS",
     "title": "Micron sinks, other memory-linked names dip for a second day - CNBC",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckowaE5BVEtNWm9RQkFrSWVMc0MzVzNHNFBubU9hWlJQM0gteG50U1RFWjdsU2w4RnJYemd0ZnIxVUhUeWgzd0VFTi1wMkN4bjczYjlib0Q4RXRyMnhmd3FUT1BhaHRsZHhsdUFVRTZUVkNGMG50RDNxTDA1Sm8yQ0Etdk5weDFOcEd6elpMRWhzWlA2Qnp4aDJWNmRCMkHSAaQBQVVfeXFMTjFRUXlfM2otZ1AwbmQ2RDVLQUtnNUJxUGlDS2V2V2owSmc0WGxUVmJINTRrRzhWejBqc1N4S0dNNjlhbnFJSzcyZnpqYWpRcEZmai01QndvdW9sWXBTbXcyWEFzZHA1d0VzWVZVdU1yUE9uaDZBZjFjNGl6aGs1SGFtWmpYS1dTUDZDVWtIOFJNM2xOdng0TE9YTmhsTHhnTk9XTzg?oc=5",
     "source": "CNBC",
@@ -910,21 +958,5 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY3h4alI0eHRtaTZWbWJEa1QtTkpzVW10RFBUU2cwb3NqQmVZaTM5ZWw2MjYwX3o1N3dSZjBRcDNIQlYwMkxScTgzSUR6SDM4N3FCRmtqUGVpaTRBOWl1cWE4dVJFN24zUlNsd2hxYnVTR0t0cWhYdW5YMFYwNW10SU9SdkxvbFd1dVd5NkRmOUY2X2dFLWNJWDF3NA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-11T14:16:05+00:00"
-  },
-  {
-    "label": "DTE.DE",
-    "topic": "DTE.DE",
-    "title": "Deutsche Telekom (XTRA:DTE) Stock Looks Undervalued Relative To Fair Value - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb2t6d3RjQzk4WjFvUDc5a3NSZzJMclpid2swSnFFd3RaNnFHR2hILVpNdWxFWHJPakkzOVp2dE5fWmZsT1VINDJFanNNSHVsOVgxMm9WZnNfS29LT2VyMk1pdkdoTmplMFJUbkVlc3Vtd0VxamtHUzZ2Z2dKNk1PRVdNY0dYYnc?oc=5",
-    "source": "Yahoo Finance Singapore",
-    "published": "2026-10-11T11:12:57+00:00"
-  },
-  {
-    "label": "DTE.DE",
-    "topic": "DTE.DE",
-    "title": "Deutsche Telekom (XTRA:DTE) Stock Looks Undervalued Relative To Fair Value - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOWR3UnlzcTJWMG13dV9ZdkhzU1NtS2lpWHJ1TzVnbFB6TXVnenZGYzAtLVA2UU1aU1M0OXBoUVBMUjVLRUtoX1dtU09LZG1acWZ0OEF3WmlWSEZVeUo0OWpkaU95VWhvYUZWYkhpT0hsQU5paDlJRjlaTFFTd2k3d3I4QVVzRVAtWWpGa1p3RDJwMWhLS1FCdVNsRjU?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-11T11:12:57+00:00"
   }
 ]
