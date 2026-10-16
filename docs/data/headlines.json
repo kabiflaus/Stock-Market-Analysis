@@ -1,5 +1,21 @@
 [
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 futures tick higher, but index heads for losing week: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93d3pqaDdoN1RiVVZKZnIyYl9SZ05PdXNGc3JIMjFqbmF4Um96Z1prZVJVcHBrV3g1YmR6X1ZJNEhINUUtRm5ESXVtTTFMdGUwbUs4N3BjUjNZQzhDX3pjRmhmMlY1YzVjbkFtM2RkWUZZQzhtYURJ0gF8QVVfeXFMTWxnYjlydmY0c2ZnQkdLcHo2NFZVcFpEWUNvcGUxOUZXSVhzSVE5UDJGMUc0ZGttWF95YVFTTmJZeGJpUXYyV2NicmtfdTIyTDRXdjdxemNCaDdtZlRVRzNWU18tWlVDNjdOTU5pTlNPOTZmdWJTRGUwRmE4RA?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-16T12:05:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures mixed amid volatile week - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjdQUFR1bVFaMnh2OGkwc1BVMTJXaEswWmtlWmV3UDR4YzFXQmdndkg4Y0xuS1NWazZIemdKeUYzRU8xQ3VuMllLdk5Sa3ZxQ3JsWk91bXZlcXFNSHNsSGZWc3dVR200WmdUQmpKSk83dkNZTnkydkNOT1JiS1ctT0NZa2ljQ0RMM0FfZHcySlktb2xVRHBVQ2tjeFdvd3Vpbkg2V1JwX2kybzdkZWo2S3pzeG93VkJrZ1NSNmdtVE4?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-16T11:29:39+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Treasuries head for best week since February as AI jitters halt bond rout - Financial Times",
@@ -29,14 +45,6 @@
     "title": "The Bond Market Is Flashing a Warning Not Seen in Decades, and History Says Investors Should Buckle Up - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcWZ2U3l5YV9CNUM4U09pOFZsOGRWUmlXbFBZUG0wZTFQMWhYQWwwNFVrdENJc3djbmp3TDFkaEpaZWdPQS12U19OUkFiUU9WN2lyWTkzQzlkSjhJazVJUVN5aklJa2YxLVJHQ1NTTWxZRVZha0xsODU4VVlBZFhtSGpnaUNEdkh1QjBXVjZIWHpoalVLQnlPZE13XzFkdw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-10-16T08:46:00+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500 futures are little changed as index heads for losing week: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93d3pqaDdoN1RiVVZKZnIyYl9SZ05PdXNGc3JIMjFqbmF4Um96Z1prZVJVcHBrV3g1YmR6X1ZJNEhINUUtRm5ESXVtTTFMdGUwbUs4N3BjUjNZQzhDX3pjRmhmMlY1YzVjbkFtM2RkWUZZQzhtYURJ0gF8QVVfeXFMTWxnYjlydmY0c2ZnQkdLcHo2NFZVcFpEWUNvcGUxOUZXSVhzSVE5UDJGMUc0ZGttWF95YVFTTmJZeGJpUXYyV2NicmtfdTIyTDRXdjdxemNCaDdtZlRVRzNWU18tWlVDNjdOTU5pTlNPOTZmdWJTRGUwRmE4RA?oc=5",
-    "source": "CNBC",
     "published": "2026-10-16T08:46:00+00:00"
   },
   {
@@ -304,14 +312,6 @@
     "published": "2026-10-15T07:29:15+00:00"
   },
   {
-    "label": "KOSPI",
-    "topic": "KOSPI",
-    "title": "South Korea's KOSPI closes at 6-month low as chipmakers slump on AI worries - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdWpRSjBjZzFURGRKR0VQWHlfRGlueEl6akRuam5yVExaVDJQWVYyckVBTDJ0WTlKc1F0THBUNWJBajN3bzRGa2U3TjBUSGxKS05NclZpWU14N2FVUzFoX05pQ1NwV2QtaXljRnJiUTZOc0RIaXZnMHlhX05aNmMwRmJhMmtINmRranYyVEFITFZJWnNGWFY1N2pNcEx0V3lEdTJZZWwzZnc1Y0U2ZFVpU0NnaUxydw?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-15T07:27:18+00:00"
-  },
-  {
     "label": "005930.KS",
     "topic": "005930.KS",
     "title": "Samsung Electronics (KOSE:A005930) Is Facing Fresh Pressure In Memory Chips - Yahoo Finance",
@@ -334,6 +334,14 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
     "source": "Reuters",
     "published": "2026-10-15T06:00:00+00:00"
+  },
+  {
+    "label": "KOSPI",
+    "topic": "KOSPI",
+    "title": "South Korea's KOSPI closes at 6-month low as chipmakers slump on AI worries - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdWpRSjBjZzFURGRKR0VQWHlfRGlueEl6akRuam5yVExaVDJQWVYyckVBTDJ0WTlKc1F0THBUNWJBajN3bzRGa2U3TjBUSGxKS05NclZpWU14N2FVUzFoX05pQ1NwV2QtaXljRnJiUTZOc0RIaXZnMHlhX05aNmMwRmJhMmtINmRranYyVEFITFZJWnNGWFY1N2pNcEx0V3lEdTJZZWwzZnc1Y0U2ZFVpU0NnaUxydw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-15T04:54:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -438,6 +446,14 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE05Smp5ZFZadGJvLXk5cHo5c1hBRnIwcmR1UldxOVlNRWZ0b19rLTEwT3hLRE1ZdHdWaHRoSFRMeUlsSVN3b2RvNVNRMllzTU5xZVBCd1JJcUNwWDRYTEpJeGowcHhmdmJuenduVUljM3BrUQ?oc=5",
     "source": "CNN",
     "published": "2026-10-14T20:12:17+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-14T20:01:08+00:00"
   },
   {
     "label": "MRVL",
@@ -678,14 +694,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM3BORVdqSzA0ekdnTDNtVWhTUFZKd0d2eW5meFgtdkd2MHhHRG5KUWRZSGpJZ2FKemlrSzlxME5hUVBjcE5JVHZYWnBSVk5TTDBWR3o5MnFUS3JSUmRxczEyVEQtam1maTk1T0VFZHJWeko1TkZjUk1zLWpCNnBqNVRNODhna3RKdFBna1c0XzVwckt3ZnQ1Wk5Nc2JnS1VaZEp5QVlnT0pTdw?oc=5",
     "source": "Reuters",
     "published": "2026-10-14T01:42:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-14T01:27:00+00:00"
   },
   {
     "label": "VLO",
@@ -1110,13 +1118,5 @@
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNWNSMzUteW5OdGRvZEZxTHZtZFRBZmZidVBaYmRkaGNjemUwbURBLVB5TTVsZ2Z2SDkyTWJ3OFlqSC1tYjZwako1TG9Bb19OOWk4TGZMOERDSFF2V0lqeWIzNFRUaHhWc0FiSFBYRmhwaGRVY0R5M3ZZaDdvM3pWM2pBUVJjWkVpa2xzV1F6WWxLQjRFT05qQmh3N1h3clI0dmpZbG95c3czSlY0NS1CZXdEZ2lBOFRJRU9ObURMY05pREFaR2JJRU9xdzV6RlJHOTNKM19jNFFKU2JMUHQzVjJ3?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-12T12:38:24+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500 futures rise with big banks set to kick off earnings season - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV0thWTBRYTBYRElObFc1LVJoWVBQaFQyQWRDRHpUTEVVWXhxVE1vcmdyclZnZGFob01ad252MzBWY3ZKdGs1Z1ctR0k1T2ZDdnlTSjlISVlVSm11TlJtU1FvdmpKeGdOYnJEQ2ZDQmtHM1k4UThEMVhBNVFfVzYzMDA0MThCa05SdmtNdlg2T2JBeHRGS1E5WDNlQTZaZUF4NjVhY2dQS0NSanF0UkE?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-12T11:09:08+00:00"
   }
 ]
