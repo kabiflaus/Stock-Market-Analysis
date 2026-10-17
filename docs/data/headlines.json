@@ -1,11 +1,27 @@
 [
   {
+    "label": "AI",
+    "topic": "AI",
+    "title": "TSMC Says AI Chip Demand Is Still Far Above What It Can Supply. That's Why I'd Buy Nvidia Stock. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPT2JhQVVYRlR0dWIxZjBLVVI1eEM5bWF0UWU2LUNtdXVZN19vVTJlTG50Rk9YX3hNSzdMTUxKNTBCYjFXR1FRT1pBSFBlVlBBQ3dwNmJIcTRiSGQ2QXZWRGdfUWh6YnF5RjFOcjJkMWZseVpZeDltTEdJVUJTSE9xMm1wVGQyNXdTQU9UUGpBdC1qZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-17T03:17:00+00:00"
+  },
+  {
     "label": "AXON",
     "topic": "AXON",
     "title": "Axon Stock In Focus After Federal Contract Wins - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOelA2YXlhblI4QlMyc0lEam5MUElWTUN3ZFpLQXJORzc1RmJFZFBCanFnSDBydi02V3Y0SVQzM3FzNFVaWEg3eFRNT1dEc2hYemRQR25fd3F0MjZUelVtcXhnN2duOGY3TnVMUjNkQXNQRVF4M2c3LVZKQ0k3TkdGTzVlRVRyNVVQS3V0OUJKMmFfejRmYjJCaHFkMmZUWkU?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-17T00:17:00+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "3 US Defense Stocks Riding Homeland Security Spending Growth - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNUtmbjhvalY0MmpHcFhRRzFjWmY4Tm9RQ0J3MEJlYi1yWFQwQlNtRkJTRFFWc2VTb1BZc0RGQW9fd3NkZ2x2eHZNZXp6cTFqaFlPU1ptbFZRN1ZGMFZ5MV90Mkt6ZjNvTFRGVTdzQVd4TVAtdUpHTFR2X3F4VTh4MlRTMm11b1RrZDZMSEZEaDZWei13WFE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-16T22:14:47+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -184,6 +200,14 @@
     "published": "2026-10-16T01:40:00+00:00"
   },
   {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Japan to sidestep 3.5% defence spending target despite US pressure, Asahi reports - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNenhJU1cxRFkzY0Jyb2lKaWNFYTFNZ3hmQ3hPbDlwRzFQSkdyREo3a1ZLVGNRUDdnQVVJRHpEeWpEYm4zZ2diSVZHbGFzV2xONlRqUUszYnNMYkNKWEtiT19pdFk5cUpjSXJrVnVFYXU5dlotcVNFY3BHeHVMVDFpblNjSV9UV1VYbzR5ODNhMGNNWmNVX2VudnZhQ1cyME11QVJyVk4zMlNvam9mTnViUkFpb1J2TE9DXzhmaEV5YzNTbmVJRGRBOVNB?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-15T23:41:43+00:00"
+  },
+  {
     "label": "AI",
     "topic": "AI",
     "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell - MarketWatch",
@@ -256,8 +280,8 @@
     "published": "2026-10-15T17:09:57+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "US 10-year Treasury yield levels not unprecedented, BNY CEO says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzhYSEVjZzZiS1NmeVZ6V2d6OG5oTDFuak5yWWZyb2NqeGFWZEMxTFBBTWdhV1ZMN1F5Q191M3VuZ2szMzZDT1dPS3l0bTVlWHVkQnNFSFV6YVJnZDFfdW5OYllhTmZFeTBCUTNZVkpueHlESlVzSFVRZWZwQmlSVlJCR3hPR29jNlBhM0NlLUN2c0t0Sm0zdkdYMnJ3V0VGc29QRzEwZjlwaXV0YVIwUU8xd2xEZWc?oc=5",
     "source": "Reuters",
@@ -358,6 +382,14 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORElLSHBNa1VvRjk5dmRWaE5HR21Hd3JwY0tBX19SRUpOOTZTd2RlV2tDN3RVa1lPd0NZU2tUQVBCMWxtclJpeE5jZzlYNUtGaXdIeFFBR0xsSmVVQ1lreURiLTFOcjN6eTZHZzdmM19aNzZUSHB1dGFlcFlVX0gxckN6NDFMemNnbnZWOVVBYTFMZDl4QWI2cFFUQ2JpckFqSVk5eTU2cU9wcHpBQnZaQTVRYVZSTFhVbVE?oc=5",
     "source": "The Guardian",
     "published": "2026-10-15T08:39:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures dive 1% as AI rout deepens on debt concerns - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPamFUcmJMcXowbWhGMFZUbG1tdVNLNmgtMGVGWVl2OWpkMFBpSmVtNTZxM3pUOG40cm9fb2ZXTDFVZjVsXzlpTy1SZWhiNUJKRUdhRzE5NFF3MmlmWHBYN1RQVnJUdGo1MkIzV3JSZkd0dldiRzQtWWlNUGZNdFd6WE1VeGJycDByb1lUU085eGlWdzg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-15T08:25:17+00:00"
   },
   {
     "label": "IFX.DE",
@@ -510,6 +542,14 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMndHODQzSE53STRuTnVib1hVbS02ZEtKUEFmQnlqNDRFTXVHSVRxMFh1YU9IN0lLRTlPbEZsOXhHQllMczhyQ0llSHFoX3RuQTdHNUMtQUszZlZEcWJYMDRjMDAxNG5hUGNxMXZHejlZbFg5STlZekM0Vy1VeldsVGdvRXU5SVZmZTAyVTRkT0NZOHptamRHMFVqdzdBUmNONTV2eWJzaXc?oc=5",
     "source": "Reuters",
     "published": "2026-10-14T21:40:00+00:00"
+  },
+  {
+    "label": "AXON",
+    "topic": "AXON",
+    "title": "Here's Why Axon Enterprise (AXON) Fell More Than Broader Market - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTZSWG1icmFqbExSdVcyQkpiMVlac1REWWE0TTZVWXpyQVNnZ2tnYXc0N0VISUN3amZMczk4bjllRkdkZXB3UTVnNVlTZlNOM0ZKQWZ0MUJVWkJQRExTdTBmZDlSTTMwSVI0em5QYjNCNjVPOVRublpiTk9ieFZiYkRNV2VoempvMG9tbFEzVUpyNjRHUjVIYm1RMA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-14T21:00:06+00:00"
   },
   {
     "label": "MRVL",
@@ -942,61 +982,5 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSkZTQ0gzRndhUVMzeFdnb3Zjby00R0FuX0s2LUhhWERXSzd1dnlCSmt2Q3BYd2NMQVVOWmdacTBTT3N1dmVfVTF4WWhONWhNLVRHWVBhMkgzTmVQMjlFMmJBbk9SYl9lRVU0VVo2WXdPZE5YYjE0RDByM3N5cWdSdWM3dklfNUw2aHc3dngyR3VrNHg3a1g5SGMyMUNxN0t1U1JYTmlUak00N1NRbUl3YV82MWl0bFhYM0hwUFpUblVMTjRuQjI5UGxMbVYwV2dvZFJQTVJ6STRGLWRv?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-13T16:14:50+00:00"
-  },
-  {
-    "label": "MU",
-    "topic": "MU",
-    "title": "Why Micron Stock Dropped Again on Tuesday - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTUJibjRMU1RmZXRsd2xEVDl5WTRjbktnNjc4X0JRUzM2bGp5aE5HTi1Lb2NkN3RDc1YtajkyNDlabnlka0VuRksxY2taNHN2ekFacGdGOG12Q3dvbjB1WTF2c1pubFMySklYSXhvcm8xQno4V20zNFRiZ0xMODB0UVY1cm94MzRsUGVjU0t1TXFUOGdES3BLNnpkSQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-13T15:00:17+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Saudi leads jump in OPEC+ oil output in September, despite Iran war disruption - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWWdiOFh3ZXNEdWNtbEZLVlFDZ2dJQTZaanZ3dUtaNVgycEpwX0tDZWVYVF9PQlpRX085YWNwTkdtZVNmY0R2S0hHcllmRVlxcnAyYm9fTEZQa3YtYlljLXd6ZlROZ3VOTFktSmZnNFFkdGkxUkwyRmJ0R1JiQ0FtLXUzZTdSZGY1dlJCUndmd2FjQkxrT2dWRGFvMmcteFU0VVNQMEdxQVN4eVE5QjdBYg?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-13T13:58:40+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "Micron, SK Hynix stocks tumble as chip sell-off deepens following South Korean market rout - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRFpQS1QtTW5JUU55UndqdkwxSGY2Sl93MzZsSEVLT1NpZzBDVW9fLXYtTTRCa1pYRGtfVHVZa201VkdJVm1Ec1VCVmV5TU5WWUZETTNOeHVYYzQ0VlgyRUVERk1fMzZPRUVSdVRSRVVQajY5NDVublc4ejd4S1FUd2VrazlrRVptbFpmQ1luZjJoT2RWZmg4OWNGcjN2N1NsMkhlTXlRamNhbUVuSjlIdkY2ZUpwMlV6LVNadk50RGx2MkRHUmMtYzdCWURVNllGMlNEZXRsVXNTRmM5cDZqUDlIWkhPUmxz?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-13T13:57:07+00:00"
-  },
-  {
-    "label": "Health",
-    "topic": "Health",
-    "title": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say in contempt claim - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4weC1zdS1oUGpLaEw1bW16Qi1pRDhzYXh0ODhqZXdxanZfWWUxUV9uRlF1UXBnYkgzUU5aZVZNbjExX1l1TjlFWTBGT1RwOFk4T0RSNUtobGZLcGt2Q0RjNE0xMEpGN0hrVzlRbWZNMjlCUmo3U0p6V185SdIBgAFBVV95cUxPaUtVNFBRZTJDOFptWWFuZGNKeDdWYWRLc295SXpvOTB3UHlfUmlOaUluQWpUZXNYTmpfbDYwSmM1bGhjdnZqQWtrLTlZdURJN1M3cUE0SWQ1aEd1b0p1eDNINkhDQUtLN0ZQdlIwQ1J3aWtwcFN1cEdablpiY2Vqcg?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-13T13:00:23+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Is CVR Energy (CVI) Stock Outpacing Its Oils-Energy Peers This Year? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3NnSGtlS2h4Z3NOYkNRWDhQM3Z5SnRJN25Yemt2VnBlZkRpeXV0aW45Um5JWUZ6NlQxTXJxdWNsNFV0c1RGa3phcE10TjNOT2RPbV9oOTZCbU0wXzdjU0tnaVBFa252M29zN1JNYVV0QWppRDJ6TTJ2TmRIX2VlWFhDVnpoaW81YzVRdHRqQldoX1ctVEh6UjFXZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-13T12:40:05+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq Futures Fall as Global AI Selloff Intensifies - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOS04dXdFRFVvWk4xZnRLTTVPS3lwUF9wbHZ1d3ktOTJXWHFvdHRLaW14WDUtOHJ3bVRRcmZTdWpPV2xqX2tmMzZjY00zWDA0UDlWRENqOXdHRmNRd04tT1lVeDlmU2JFdG95eW1UR3pQd2RMTXlUZEkyd3dMbE15NHZPTFU0a0NIRHBYNlc3OUNvXzczVzJEQ1Vn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-13T11:58:00+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "Advanced Micro Devices vs. SK Hynix: Which Semiconductor Stock Is a Better Buy in 2026? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMjc0eFlwY2Z6SUg4MnNyOC1NblpXTm1FR2NnWkJNSENFNnZJM1pDVUN4MXB5aTFnV3hiNjVPaDZJc1g2NHVreUVRQ2t0bXhySV9IMEw4SmJsaWJINFB5ZjB1aVNNRkJjWldRT0pCLVRCem1peGNmM0I2MExJRG1tMG9hTHdmWk1xTXlxdFRtdlVuM1k?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-13T11:56:26+00:00"
   }
 ]
