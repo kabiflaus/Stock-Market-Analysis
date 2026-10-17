@@ -24,6 +24,14 @@
     "published": "2026-10-16T20:30:00+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Nasdaq, S&P 500, Dow fall as tech stocks slide, oil climbs to $110 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjdQUFR1bVFaMnh2OGkwc1BVMTJXaEswWmtlWmV3UDR4YzFXQmdndkg4Y0xuS1NWazZIemdKeUYzRU8xQ3VuMllLdk5Sa3ZxQ3JsWk91bXZlcXFNSHNsSGZWc3dVR200WmdUQmpKSk83dkNZTnkydkNOT1JiS1ctT0NZa2ljQ0RMM0FfZHcySlktb2xVRHBVQ2tjeFdvd3Vpbkg2V1JwX2kybzdkZWo2S3pzeG93VkJrZ1NSNmdtVE4?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-16T19:15:18+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries - CNBC",
@@ -46,14 +54,6 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZFl6VlNnRU5TX2V4NEx3eEEwWDhfZGMxS3FsUVd2Z0FMZzJLcnNfOEQ1Z2xxYmc5Nk1SYVNFQkhQeFZiX21fdFJTOWZ4aEhvTU1mQTRIdEFYMms2Q093RS0xMURjb3RwTVNfQXp0cVhjTHpGUEdENzBHeERCYW84dnRkRE1DVjRuTXo5c3M5aEkzOXNkMnlFX9IBngFBVV95cUxQUjQ0SjZBMDNsSDI4cDdJVTgtUFlVdnlhQXN4ZjViU2R2bWdobHQ4RDM2cDVIc1J5RGJwOXZsNnRUQTh6QkFyVEFjbUc0blFvNUE4M2tZN1NnRTJhbnVLa1AxYkk3R0xCTUpQN1dRV0dNckx2NzFXZktaLW1QOXlCMVJmN1FfWjJNZmJma3hQcGZvQUF6NkNaZGwySWtmQQ?oc=5",
     "source": "CNBC",
     "published": "2026-10-16T15:38:44+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq mixed amid volatile week - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjdQUFR1bVFaMnh2OGkwc1BVMTJXaEswWmtlWmV3UDR4YzFXQmdndkg4Y0xuS1NWazZIemdKeUYzRU8xQ3VuMllLdk5Sa3ZxQ3JsWk91bXZlcXFNSHNsSGZWc3dVR200WmdUQmpKSk83dkNZTnkydkNOT1JiS1ctT0NZa2ljQ0RMM0FfZHcySlktb2xVRHBVQ2tjeFdvd3Vpbkg2V1JwX2kybzdkZWo2S3pzeG93VkJrZ1NSNmdtVE4?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-16T13:36:47+00:00"
   },
   {
     "label": "Energy",
@@ -112,8 +112,8 @@
     "published": "2026-10-16T08:53:19+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "The Bond Market Is Flashing a Warning Not Seen in Decades, and History Says Investors Should Buckle Up - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcWZ2U3l5YV9CNUM4U09pOFZsOGRWUmlXbFBZUG0wZTFQMWhYQWwwNFVrdENJc3djbmp3TDFkaEpaZWdPQS12U19OUkFiUU9WN2lyWTkzQzlkSjhJazVJUVN5aklJa2YxLVJHQ1NTTWxZRVZha0xsODU4VVlBZFhtSGpnaUNEdkh1QjBXVjZIWHpoalVLQnlPZE13XzFkdw?oc=5",
     "source": "Yahoo Finance",
@@ -998,29 +998,5 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMjc0eFlwY2Z6SUg4MnNyOC1NblpXTm1FR2NnWkJNSENFNnZJM1pDVUN4MXB5aTFnV3hiNjVPaDZJc1g2NHVreUVRQ2t0bXhySV9IMEw4SmJsaWJINFB5ZjB1aVNNRkJjWldRT0pCLVRCem1peGNmM0I2MExJRG1tMG9hTHdmWk1xTXlxdFRtdlVuM1k?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-13T11:56:26+00:00"
-  },
-  {
-    "label": "JNJ",
-    "topic": "JNJ",
-    "title": "J&J posts weak medical device sales, shares fall - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6eVFrUE9VUHY4WW5EVl9VWktTZkU2cE1GYldia0ItYzhxOVdDaWdrMkpFQW9uREdOcU5zWUdmU1hTMXlQbkN4c09oVWtXX3hQWUxvSk9zVlRQZUcxLXNaNHdoQ3RRRDgy0gFuQVVfeXFMTVpmUjFfNWNTMVc3ZEs0MUpNcUtRejlDckNleXQ1NHB0Ung5X2l6b05NYXloYW1DWEtwbDdSZElYZFJzUXhBbnhlQTQ0YW9PdmVaNUdTc0hpM2t6ckE1SGd4X2h5MDBZV2ZoRlo1dlE?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-13T10:52:05+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500 futures are mixed ahead of bank earnings - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUFZsenNlUzBKOVZLRjNEZnpFT09qUHlzc1Z5dVE4aDc4U2QxTkZTMFpST0VkT3M1a08tVGx6cTdoNldRc1VSWWdIcUlRV0xxQU1rY3kxWUZUT0E1MDg5MzB5Szc4ZXBLUGNyZ1liRUF4SVZSU0ZETHJ0ZmVNVlR4MWZqWEpTTHBkQ0Z6YjA2WW13MlJ6?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-13T10:48:03+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500 closes near flat, pressured by higher oil prices and memory chip stock losses - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56cnRXR0YyTHF0YWUtQkZHYlZZb0lBTXVJVjQ5a20zSVZzU2Q0T2ZNNkdJSWQ2QWlxdWpUd21SZFhLeTdMVHhFaWVMRWhTYk1mR2FDMnNsVWhTSlVyQ3J0QVVlSWQ0Q0pWY0xEY0JpUVoyMDBQWUdr0gF8QVVfeXFMUEVZRmpuYWxmTnZpcXFhMk93UmlZRkZ1ejNQOVBlV2ZxdmNiaEVqaGJnVlZDREs0ZVBqTV9IMTJwWG51aXZDM3I0blE1QUJpRGZSZXBIYlZJNkZNQnNvRHhBblVGbUJRLWtGdm9DaUVuX3hjV2RxUnhudVFRaw?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-13T10:19:48+00:00"
   }
 ]
