@@ -1,11 +1,35 @@
 [
   {
+    "label": "ARM",
+    "topic": "ARM",
+    "title": "Arm Stock Verdict Risk Grows After Qualcomm License Breach Ruling - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSFlTT0djUnhwN1JpYnRDSXQtOFdhVHoxS0h4VUtqSkx5MV9UYzluMmNWUFlVcHdZUXlLcUtjSjRQZ3ZBS1M4SXBZZGtfRVdZVTFkZ3hwS1llZzdnWVZ1bmlZazNfcjRNdzQwbzNrTFA2MzFlbjljcFhGQUtxZlp3NUJtLV9XdjBUb0hlZEtEUGdXVmhHdUpuNQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-18T13:13:10+00:00"
+  },
+  {
+    "label": "ARM",
+    "topic": "ARM",
+    "title": "Arm Holdings (ARM) Faces License Breach Questions, Is The Valuation Still Too Rich? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNlQ5MHdNbThBcHpjOWM4anJ5R3pFYXBWYnVGQmRleEE5MTZ4ZWFVeFBsUWxMaGE3YkhnZGVOamc4amlHNlpOS3RXckhTZ1VDNjBuakpqSmNDeHhhVXJmMlFDUnlaZ2EzQlMtZlc0dV9XSDNWRU12LUJ4NXJlODRjaVIweHg0cUFqSHdfWHk2ZmZXSDZ5TWFFbl9EZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-18T12:12:41+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "3 U.S. Energy Stocks With Direct Exposure to Higher Natural Gas and Oil Prices - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNG5vaDJVQzIxTjdTbnBQVE5rYjZEdkdieWdZRUEzQWhLU2RSbGlVNmJ2MFZ1SHBFb3hlQ3RJVmlEbE1KMks1WVN4MVo3LWNlbnBXUXA5cXRjb2Y1WWdOWDAzdnV3Sm5YdkxRNXJSUk93TEdVWTM5d3FNUzVNbmFQZTY3M3hmNUxi?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-18T11:09:32+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Dining across the divide: ‘He thought extra spending on defence would be wasted. He’s probably got a point’ - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVEZZQzBtanBKLVBfYS1BRUtESGxteXc0TWtqZXg0UDJHc3VNLXUxSnBDYmdGM1FOUXBfUTQ0T3FOb1lQcjhySnppV19fcm9WcEhta2JWVzZldkFXV09NLWROQ2I5d2hBZUkwTkp0R2M1RWFCVllaLWNmNGEwX1JUd1F2YmJpQ2RhU1M0RGpfaFFnd2c?oc=5",
+    "source": "The Guardian",
+    "published": "2026-10-18T11:00:00+00:00"
   },
   {
     "label": "Energy",
@@ -344,8 +368,8 @@
     "published": "2026-10-15T17:09:57+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "US 10-year Treasury yield levels not unprecedented, BNY CEO says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzhYSEVjZzZiS1NmeVZ6V2d6OG5oTDFuak5yWWZyb2NqeGFWZEMxTFBBTWdhV1ZMN1F5Q191M3VuZ2szMzZDT1dPS3l0bTVlWHVkQnNFSFV6YVJnZDFfdW5OYllhTmZFeTBCUTNZVkpueHlESlVzSFVRZWZwQmlSVlJCR3hPR29jNlBhM0NlLUN2c0t0Sm0zdkdYMnJ3V0VGc29QRzEwZjlwaXV0YVIwUU8xd2xEZWc?oc=5",
     "source": "Reuters",
@@ -488,6 +512,14 @@
     "published": "2026-10-15T07:56:34+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Nordea pauses buybacks pending ECB model review, sending shares down - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVmJsN2JLZFREcFJxekw1Mlo0RVlEZVF5ZnQtTi1rQVh4V1JGcDVGYjlJYnBLUDNubTVtdDVnRzJkc0RnSUFtNWhoVF90c3g2WjB6X214MVBJZ25zWFBtU1FpdnVKdDFpbmFIREVXMmoyWTg5NlNuMnJHRGN0NnNjZHh2SkxyRTgyS3RlWkg2TzJSVGRfWWtBSUJYdWNOSnpBSm9GNTNIdzJfbTQzUVBfLURNdw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-15T07:52:57+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Treasury yields slide as investors flee to safety of bonds amid tech rout - CNBC",
@@ -526,14 +558,6 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVlB2NzRhZVJUcGhJZDR0MW41eUpsTkJQaUd4aE9idHNMUFRlYmM1dUIxY0lpUVJHcnY4djhxZk9oSHpkYkh3ZGh5UmJDNVdYTnJrRUo3WktLN3JQNHlRaG5mVnR5R082TUVoMHhRT1h3cWxoVFgxRTJyNjJKaWtFRkRlUUNpcnBGNHFoRks5aURhUnQ3VEEw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-15T06:15:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "Nordea pauses buybacks pending ECB model review, sending shares down - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVmJsN2JLZFREcFJxekw1Mlo0RVlEZVF5ZnQtTi1rQVh4V1JGcDVGYjlJYnBLUDNubTVtdDVnRzJkc0RnSUFtNWhoVF90c3g2WjB6X214MVBJZ25zWFBtU1FpdnVKdDFpbmFIREVXMmoyWTg5NlNuMnJHRGN0NnNjZHh2SkxyRTgyS3RlWkg2TzJSVGRfWWtBSUJYdWNOSnpBSm9GNTNIdzJfbTQzUVBfLURNdw?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-15T04:43:00+00:00"
   },
   {
     "label": "000660.KS",
@@ -702,109 +726,5 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY1RPVjdGRTM5RG8ySFFZdEhFcWpRWENISndTTGpDQzJJdGJGejNFY1QyY2NwUUlHNkRrUWtCd2dCMFZ4dlFnaXRvTG1uNkZwSVgwNXZWd3VGSTEyVTlWalJndjlDazJGNjhNNUtOaVE5UEhISmtrRl8wOUtsZFFyN2hPUGhpakdwRGJYUlkweGFGeEMyYnc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-14T16:25:01+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near - AP News",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHFWOXRoc2RvT291ZElaYW5MOWYyZ01rX1I3N093NGJ4bGNxRU1JS2tLS2J5TjhHNk9WQWNfY0xyMnZvbkdoa0N1LWs2OWlGQ19tc1pCZkdJUG5qTl9mMnJJOVE4cXM3V3YweDVGRG1RNnFPeDE0U1F4NW43TjVpNzNRMVRGZkxGOXh5a25EUm1QQTdBT0YwYk5INHByWl9ILXNBQU5R?oc=5",
-    "source": "AP News",
-    "published": "2026-10-14T15:54:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "US inflation rises more than expected - here's what is happening with prices - BBC",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94cm1GbWVRWGF6Si04Sjk1aS0wRjBZYWZLbHZKbFNQTjBGRXN0S2pmZExNN2wzdEhQdmRUWlZTT19JQkdLbER4aFA2TEhBTFJqRGNLWkdYbEdIdTg?oc=5",
-    "source": "BBC",
-    "published": "2026-10-14T15:26:14+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Broadcom vs. Nvidia: If I Could Only Own One for the Next 5 Years, It Would Be This One - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcGpGTHNMZFVnX0RqcTU0QVB3NDh3ZU54dTRIM3FhYUNzOHk4ZlBCcWo4bS1OeVNka1ZsY04wRUVBTFMxZnczZTNFQ3kxX3ZBVjhaVjZYMVNQVWt3NFFHeFJIellTc25xVDVzMEFkRklYZ19sZFhxWGRvdnhOSlVvc2FMQXVSRUZtTzhtMzVaS2M3dkU2T1dpYm9n?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-14T15:20:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed rate hike call seen tight as inflation heats up - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMjl1ZWZGd2lIRXg1US1hUjNacTVDN2o5S2lIcXpCdnZ1VHBXcEpqOHV5SzJJZHJrT3RxYjdrRjRrRU03eHNGTTFRMnVCVEdZa0VfLU9BeFdSeTE1aFRrc3ZRampyOFVTczZRbWk0azFBakVndUJ1X0NjVmJmV1JmeXNXSlFkNzF0NUZKTUUyUnlHWi1sOXFpVHV5NnVvcDA?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-14T14:22:26+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "10-year Treasury yield rises following hot inflation data: AlphaCheck - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNam0xY0hUMHlEa2F4QUh1bXZrZTVZNUZHQ1ZYUnZFVGZ2WU8tZnMzMFRzdWIzQU9RWi1BN3hUVXV1MHk3Uk5RT3BtRkkzWUpUMGlGd19KZE5sNVBXajg2bTMySE45SHc5V3J6S05GRUdWVVppekwwVFV4WUlGY0ZGdk5Ob3BMcFVNRHA3ZUJ4OTlMMTBlYU0wQXVab3BOdmNSRHU3bTFMYlg5cVJ3X0I3LW4xOVJDV0VVTWQ2bnJ5NElZQ1k?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-14T13:58:15+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "AMD Is Paying $8.2 Billion to Bring In the ‘Godmother of AI.’ Here’s Why It Makes Sense - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZmlaVk1iOVN1MlM2ekZGY2dBVnJEMXBRV2l5NEFrbEVrVWVXSjVyR21mcjZldWJLNTZZYnRaTmtKb25lNmlVYk01MWltbWtNUDFrczh2cXBtYV9nV2FVVTlYWU1WZW0xdUlheFNHZGFGRUVSSWg4RTRpdHFPck9pd1l3TXhWOWh2enh2M1dNUQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-14T13:49:44+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed rate hike call seen tight as inflation heats up - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN0s5SkNXSVYyNnQ1Y1NCU3h3Z0F1MktRQnNvQlhsZkRKYUpDWUM2aEZ2dG9LcGRsVW9tNlQwTldPMDcxZlpFS1dTLWYzYlBtSTk2Sk04ZFVvMnRMY1ZfYkhvbVFqakhEdl9PckdkS1RDN1VvOUd4VnQySy1Ya3BjRlBNRUE3WDEzWXJ3QzhFbkQ1Zw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-14T13:33:47+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "Arm vs. Sandisk: Which Tech Stock Is a Better Buy in October? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR2ZRRmV2aF9IRmZYUjBvVXByaVlUajhkelVpRHEzZmpfelpVY2JWd202am1EdkpaTW93b0xDOUwta0p6a1V3UEtjX3pjWEM5bXZRQWpNa1hwVTJ2WkU5MGF6T3VXS05KVXRLWjJrS1VzNzVrUEljdjQtMy1SMEZ5TllSSENiYlNiQTRva2JnUkFWVGhp?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-14T13:19:01+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "One Stock Could Benefit as AI Spending Moves Beyond Nvidia - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZTItakdmbVN1VUNkZFVkZkdnTjlqS2VDMTRpRXFGU0pobUZCSTJlOTRRRkExYXlRV182TlVvaEVDU20wb3VNSFhWR2Y4ck9udktFeWphbTg4TjFPendXVDZSejJVVVhjRzI1RVNZOGxjX2kxR1ZmUE1tWDExYkdVLU1wRGlKd2ZHc1BMcEp4T3FXbkZKTlE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-14T12:45:30+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500 futures turn negative after Sept inflation data - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRTBjdnh6bGxYQllzN2RYM3NtbHMyZzhjTnozX1lDemlhTHhjS0xyc1VNZzJxVjFoWjVVRE1ieU9KakM4YUpXTU1DYy1lMXltbUhXTWJkNFZSRWtpdGpKTkZ5WEpwdHhxSmxaMnVfQUVEbFpPTXhOS25PYW1oQmVBQnM4YWZHYlgtX3hPZVFORDR2N25vQ09B?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-14T12:36:53+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Inflation rose to 3.7% last month in last snapshot of consumer prices before the midterms | CNN Business - CNN",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hd3dLa3hMTUR4ZW5LRDh4R2U0RzRQVzVHLTVSdllES0VXQl82LVNDSmplZERpSVd6elo0a0Z5UG9Xc2ZvT2hHcHBlS1NINndRZjFHVVR3UDlvaGlKNW9LaGQ2WmpZMHRPanBpTkpBbF8xWXc?oc=5",
-    "source": "CNN",
-    "published": "2026-10-14T12:36:05+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Inflation rose to 3.7% last month in last snapshot of consumer prices before the midterms - CNN",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFeG1lX0xKbjJ5LXQ0VmNJaXhnbzdLRTB6bjlPTzhxaWtkUEdCSGR1blAxQXpJSGtJM3AyS1d5THQ3QWpKRl9GbW84NGJqb2gySlFRWVhaV2FmMUswU1Y1OGx1V3dJdXZTRy1udW1Na29MOHhESC1mTg?oc=5",
-    "source": "CNN",
-    "published": "2026-10-14T12:35:27+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IZEUyWDE5aTVyU1VTMEhhNW9LV3pZdUkwcFI4WVlIOEhHUzBmUTZGbUlWTDVfN05zdzhFTlR4RERqUHROMDJ2T3dCN2I0UDI2dmZhOTBVTVRIYVlIYjRKQ2RZcjdNQWdWTTkyV0owQU1Xekt4U2ZHUFc4NnPSAYIBQVVfeXFMT3U1UnZTdHN4U2tIM1lZcHlGRGZLUXNaYjhDTHl4bllqdzY3ek9XYl9ZdzNBaUdJQjNndF9HSm1yci15X3ZnMEdaazNzMjVTZ204TzJ1cFJEOE81bUF0RFBJWTR6RWF2YU9BWm1PMnhTVGNWVnc5bkxNWlRpT0RuU2t2Zw?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-14T12:31:19+00:00"
   }
 ]
