@@ -2,10 +2,18 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as earnings roll in, SpaceX stock surges - Yahoo Finance",
+    "title": "Stock market today: S&P 500, Nasdaq futures rise as earnings roll in, SpaceX stock surges - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWmZkMENBd2xWRThEdm05TlljYUFQZ0h6VkZQUk82Z0xYc0FUWVdHSE5VVjNHRkhzc2VxdlhjNzZVWU5uU2c0aGN2ZTNSbWM3NFU1TEhIVkJ5RW91STlORm9zT3BFTWJ6LV9UZk1EZTZiclJKTUlKM3JtbW5QOFhqcUQ1cThnaEdiQWtyQlZhY2tNVGdjUHlVN0luc3YtbFAyeTlnckh0azhlZjc1MTQwbA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-10-21T10:00:36+00:00"
+    "published": "2026-10-21T12:15:09+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "French 10-year bond yields hit 5%, highest since 2002 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNU05dkh1MVg0RHZlaHdtQ0ppSldvcTRHc1l5ZXF1ZUZDVkVvUDlkQ0FUSTRiQUpRbS1uV1VPT2g5NlRETXMtSGtJaHl0UW52Y1IzaS1hXzFqRkZPd3RCTGVfWDltN19hamZBR3lEekFGYXZtM01KbUtaRENXRUNyS2t5Y3YwMlVpaEhEdi1NbEY5OWRP?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T09:23:36+00:00"
   },
   {
     "label": "Anleihen",
@@ -30,6 +38,14 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRWZIR3hsR2RNb0RNSkVEQjhyZXNpMjdxZVU2UUxlcHFyVmJ2a3J3ZWt2QjdTQnFybUp0TGxCOXBLTllGSTZ1R04wdXNCUkZqSVpmb3VTRDJLaGdfZGRMaE95SHNlMzhkaEhCNjBTVmNvTXV2d0RJc1ZRSWI4blVBbGZhZ0pxU1l1Qk9HQU9nemZRaXF5Q2c?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-21T03:38:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices jump $2 as Iran knocks hopes of diplomatic progress - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTdIRmp3MTB3c3JZNGxXMUl1Wk5haXFwcjdJNXgtQnJkOEM4aWVVWG5tai03TmhHSWZidkliV1VlRkRvOVJCX3Q3QXhCWVdZeXlYQmViOUdOaU85anVWMXpSWFNCOHAtVU5id3Fad1BhX1BzVEt6S1A4N2s1YjJocFh6QXFTVXhHdDJJVzZBX21WUQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-21T00:50:00+00:00"
   },
   {
     "label": "NOC",
@@ -150,6 +166,14 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
     "source": "Reuters",
     "published": "2026-10-20T11:26:25+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Federal Reserve issues chilling warning to 3.1M US homeowners and every American with a credit card — act before Oct. 28 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLTZTSUdaMURJRTdQUjFOeTFSNGpIenNnODdDMWp6RU5FUVZqUmhmTUZ1WENUZnNraGVkUzV1amRXdG5RTDNfWEhaLUJhcjhCdDlVeEdsY2xmX0YzdU13dGRkUjI3Nzl4X3Zud0hoMGlackk1cnBBUGNXdmFjQjJGT0tDWlQ5VVF5OGZFUFYzUV8zNkw2Z0hVaUZweUdkckE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-20T11:15:00+00:00"
   },
   {
     "label": "AMZN",
@@ -430,6 +454,14 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdmhWOHBPbmpydVMwNlBNb2JjeHJCMndndGp5Vl9HcVB5bWZxWU1xT1NhczBJelduZ0JUSnZ5S3lTNWZXYjFhUG9qZEhlWENybUN2TGlhMVNTbml6bVFZem9Kb2dCeWhuZ2I2VU42UkNRSlViLWs2d0pwWUU3UXN3dVI2bXBDVHYtRlRQR1g3clNyUQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-19T06:36:00+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "S.Korea says SK Hynix’s Solidigm listing could violate rules- reports - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN213TzBSSlR3TW1Mdk1tWU9ta0lRcDFjWmZFTk1qX3ltcmtvc0VraXhSU0JOeU1CeWhGZTFxYWl6cnJrRC1sUVQ0eUxUUy1HMkcwbVhYeDBPd2laUUtFajV6SjZoS3BPY054TTZPX09TM04wRkFYeFdNUDdteml3eEhUR3g4Rm56UGpHMXNnTVVKdWZZOERuSw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-19T06:33:00+00:00"
   },
   {
     "label": "Nasdaq",
