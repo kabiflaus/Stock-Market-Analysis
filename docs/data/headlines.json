@@ -1,11 +1,107 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as earnings roll in, SpaceX stock surges - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWmZkMENBd2xWRThEdm05TlljYUFQZ0h6VkZQUk82Z0xYc0FUWVdHSE5VVjNHRkhzc2VxdlhjNzZVWU5uU2c0aGN2ZTNSbWM3NFU1TEhIVkJ5RW91STlORm9zT3BFTWJ6LV9UZk1EZTZiclJKTUlKM3JtbW5QOFhqcUQ1cThnaEdiQWtyQlZhY2tNVGdjUHlVN0luc3YtbFAyeTlnckh0azhlZjc1MTQwbA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T10:00:36+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields steady as investors await jobless claims, mortgage data - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ELWVaZUY4dlY2R29keXVKQURiRkhEajBGeDhnZlc0cVA2b2lkeDIyTGc0cXRQMFExeDhDVWZ1RHZmNTNOT0R3Q2t1NHExLVR0QndhYmNCTWRubEdpaDlLb2JxTzdzaGNzWWxhUWtWb9IBdEFVX3lxTE83MEdDTnFFbnpkaHRNQ0w3cGNNLVFGd1drb0dvcnpUNmVCdmNuNEUxaThGX1I0cGNKMmtfZnVKUDJyY3RfcVJ0QWpHLWxNbHBySmV2RkdSZ0tyaG1pNGpUdzNOd2F3WTJmbVE0SF9LejN2TkR0?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-21T08:57:33+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Zölle",
+    "title": "Ken Griffin calls Trump’s tariffs on US allies 'a disaster' and predicts it will hurt Republicans in the midterms - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQjZwMzdabVpDdzJVdWJkV1VTSHJRanFZc04zNVV1WlNXbnpaQTNvcjhuSHNSUnY3d2c4WFlibzVmdVl0S3lfVHhrTTEtSTZ1elhTSEFPXzJ6YVFPQzhXVHJ1UjVMRmRaaEJ3YlBhTzJsTkRpXzIzWTVfNUYzUXhQcFNXRzlGWFhmeHZTeGdRbHE2QVpxeUctVmpqUHJzNkVScWJB?oc=5",
+    "source": "Business Insider",
+    "published": "2026-10-21T04:01:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "Nasdaq, S&P 500 Futures Climb After SpaceX’s Blowout Quarter: SMCI, NFLX, GE Stocks In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRWZIR3hsR2RNb0RNSkVEQjhyZXNpMjdxZVU2UUxlcHFyVmJ2a3J3ZWt2QjdTQnFybUp0TGxCOXBLTllGSTZ1R04wdXNCUkZqSVpmb3VTRDJLaGdfZGRMaE95SHNlMzhkaEhCNjBTVmNvTXV2d0RJc1ZRSWI4blVBbGZhZ0pxU1l1Qk9HQU9nemZRaXF5Q2c?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T03:38:00+00:00"
+  },
+  {
+    "label": "NOC",
+    "topic": "NOC",
+    "title": "Why Northrop Grumman Stock Rallied Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhUeWVwSVUzeW5GUmJlWkhxWkMzeEE1am5EVTNGd01lRldadGxSSXQ1bFFqNlR6VGc0UnVfbmdJcUdCVi0wQnFVVEhhdWJWblR5VkxJUktDMm9maTVVN3lQSjVHb1NGdWRlRjdoOElNdk5kNGhya2NmQUU1MndyLWdheHF2dWppTHB1Qmx2aW1VNlREQ21ybXlyelZfU0Vj?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T00:30:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM01keWQ2YlhOUEZEODRRcFlSQzBtYnREaldoaTh0ZkpYVTFtYVJrbURVMDVyaEFkSFFoU2hiRmtfYVlYLW83SHdVMHlNbW9aV19oR3I1OG5ERnAwOV9EdjU0NDRkRUxVSXg3R2hJZUpiTXdIeWVSNVlfc1U0bGRndHhFNlhtbXA4N2I4dUhabFRsZDFsRUZFNWNHTDc0cWJPTGJnbU01aTR5VjA?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-20T22:44:10+00:00"
+  },
+  {
+    "label": "BMY",
+    "topic": "BMY",
+    "title": "Bristol Myers Squibb Co. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWGlGcWd0NVVXemlrRHh5Vl9PU0VITTVJUGd2OHBNZHl0dGpIYVlrMVFLZGlLZTUzY1UyM2J0bno3R0RJaXEtTkpZQWItb1lyYVlTbXhxcjUtZmI5Z0RsQU1PY3FHS1BKXzZvMFFpajdoWWJaZDZfbzYyM19FREJIbEo2VFQ2NnhaRk5ESjJOTWJVdU03cjBibUJmeWNPZkJMX3JIY3l0b294STBMdTQ3S0owZG11Ym9JWlV4TjBNemxHSjVRQWVza0lvYk1jQUF6?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-20T20:30:00+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "3 U.S. Energy Stocks Retail Investors Are Watching For Oil Price Upside - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUjN1elh2eHBrRS03ZVFKQWctcVpJWWZVTE1GYTJmdG52SUFmemQyY3hTSzREVGkxNGtFbGtpZldibWlmOHBpR3ZsUG9PSXJWOGczOUtWdE5jS0FFUEJWVFBwcHhhU3JheC1UY2ZsSXVPcnNpeFViVlMxOHE5czVSenMyQ3NiX05C?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-20T20:11:17+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Yield On ‘The Most Important Financial Asset In The World’ Forecast To Stay High Through 2026 - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbEJHRnQ4cm5ORHk3aEg5NVFzRUdqYnZzUGRreXhhWV82RTZvM2w2RWdPeW1sRnlCNGhyLW5QQTM4M0pZYmNoakxwWXdpT2FWbm10NVpiYjB5MU1GMUtoaDNLSWVDZlBYWUlnSDhSSUwwVVZiWEdfR25Cekw4dFJSNVJGbjJoU3RGUkJHYkJWMWF1WFR4dExIeDlReTZkaTIxMGFXaDgybWRPZ3BMdHNocDhRZXJ5VjRsVmtzTTBHYUNudw?oc=5",
+    "source": "Investopedia",
+    "published": "2026-10-20T19:01:48+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQThhSGdLckY3MFRuaDNSQXFrSS1WWmQ1b29MNXN6a3ZJUDgtOWRPNEEybjdWeUdYal9RWm9XSk9Od2RZeV91dDAyZmtUTE9kN0R5Ul91bUFlRzVudG5TcmhfdFhuUURUbV85dHV6MWsyTTNURWRwZl9lVVJiOE9zTlNiT2xwVUROekxiWTRWQk_SAZYBQVVfeXFMTTc2a08zNV9CdTlVWGRzcWNIX0E3Qk9idS1GWDM5ejVhQ05Wa0Jvb2dhRUdKVUNQcHJsTklHWl84RjJQY2ZINk9HVEdzSmRhdWtYRzlxNFhjUW5scmlxZ1EwUHRDeVRqVHQ3TkpEOXVoSXRPRWlpeUpWcllkWFpuVGIyQXJ6ZGI3T28yRi1jTENIbGlRUVBB?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-20T17:50:11+00:00"
+  },
+  {
     "label": "AI",
     "topic": "AI",
     "title": "Chip stocks recover as AI jitters fade - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbDdoTjJDcjViQks3MFlQdURUUkJfeDE5c011VlRuT0FYQlFCdXUxTzZmbzBOd1dRZWtoY0JQTWRRc05POW5TNThvSXVLSzBsM1JaelhRTElRc3Y0bmhob25QaXBsbDlGdTREbTVVdlUyUHVCVDNKcjJ4S0RkSVI1bkZISTBlTE5yUll3bEM1cWt5REJYaTAwbkNFcw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-20T14:46:05+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "The 10-year Treasury yield is above 5%. Should savers lock in now? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNllablh6c3VxRkk5Z1FCZ1cwWThBUThOU0JLTUdNYzNEQjdWSFNSOG82QklGeUoySTZoU0xVUENZNWVENlVaUVNfd21QZ1dveWpFbm5VeGtWR3lTUndJNEVxZFdhRnZnZzU3aWtydzlBb2VUWlUyTm5hMjYwTmQtNGk4WnY5bXZuZWczekJ6QlVtbFVLVnloQnlRaUJRQUpWeDBCVjZvZTktWG9jMzlUUXRLalhnbnJQWENDU2xHLWMwX21udlM5OFVTZ3pOU0hIWlJmNHVn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-20T14:18:34+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUmNJeWEzRmp5QzkyeTJ5SVB4cjZHd2RaSzRtSTJ6SDNkVmJXNmJwUDJMT1pnZVZZQVk4YVBpVWpVUzJuOGxaU3JCTGRrLUJYdU9ZODd2SjZuNHZiWHlLZW1Zak5RVC04VDNTSkQ2dnNNVVVqaV9OQU1sVmIxM05XdU1KaTZnbnJWODhEVlJIWUE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-20T13:30:44+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -22,6 +118,22 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUk4zZzExVUd0clJHMFZTZFl5VWZSdmNRd0Y1Y3BGTldzXzB3SkZMbkRzMHFoeTV6NHNwOHB3TDBFd0JEMng3b3NWamh4TnBKQXo3dnRUUlVXUHRZQTJaVzItR084WUwzRmdqcl9yaUxZLWt4dk0xYmliZkdCY1Z3MThKX0JpQ2kyQzNIZWFiRm1qaUlMb2Q3SER0a2REbWx3VXloWFhwU1BTQWF3M1NB?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-20T13:09:23+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Chip stocks decline as AI-trade rebound fizzles - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWmxQSnFRNG1EOWNBWDVtRmJMMFJMNEVCT0pZazNTM2NaSG9PMkYwc3RxeXRkUFAxdTRrdG1JckNfYklLVXNWR0hJdWI5OER4aXcxZm5CTUMxeDRPcW12YlpranlmZUFpTERvU21YTHR6Z1d4aWpjTTZpWGprdlB4ckVqam5HdW9nbnI5VHJhUWVIX1hCN2tIdDFpVkR3dV9oUFVYSTNQOA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-20T13:04:43+00:00"
+  },
+  {
+    "label": "BMY",
+    "topic": "BMY",
+    "title": "Bristol Myers vs. Eli Lilly: Is BMY’s Deep Valuation Discount Hiding an Opportunity? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTUVSRnFhS256amJOMkRuZnVwcFc1TGVwYVI2bHFoMzlTQ2U3RGItNFNzcXhuUmtfczg3dm54OVdqNkRTamVuN0I4Njg4Snk0Rk9TcEVJQlZVNVR2cThxT3ZsYmRWZjJGX2stSjllSEFqOE1lWm5rTENlRFVkY1F2dkpIVm1hcXlOQ3BQallSb3Y?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-20T12:28:13+00:00"
   },
   {
     "label": "NOC",
@@ -64,14 +176,6 @@
     "published": "2026-10-20T09:16:06+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "The 10-year Treasury yield is above 5%. Should savers lock in now? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNllablh6c3VxRkk5Z1FCZ1cwWThBUThOU0JLTUdNYzNEQjdWSFNSOG82QklGeUoySTZoU0xVUENZNWVENlVaUVNfd21QZ1dveWpFbm5VeGtWR3lTUndJNEVxZFdhRnZnZzU3aWtydzlBb2VUWlUyTm5hMjYwTmQtNGk4WnY5bXZuZWczekJ6QlVtbFVLVnloQnlRaUJRQUpWeDBCVjZvZTktWG9jMzlUUXRLalhnbnJQWENDU2xHLWMwX21udlM5OFVTZ3pOU0hIWlJmNHVn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-20T08:55:07+00:00"
-  },
-  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Why Are Nasdaq Futures Falling Premarket? CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus - Yahoo Finance",
@@ -100,6 +204,14 @@
     "topic": "S&P 500",
     "title": "S&P 500 futures flat but tech lags after sour Asian trading - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQQXplbmN6a2c3VDlQeURYSmtWUm5IWkVVT0tkanpkTkNDNWtJUWV1TVJYRElXMHRUZ2tPSnRaeUdhalIyYzgwSS11R2pDdnZSVm83Nnh2RjdmaDFkb0ZFVGFKcHRSVEwzcFhqNDl3UV96Wl9tUldSZVpwdGZram5wMTRSbEtfa0thWkxidUFyMmpnSUtTNk5oMk5mVVVGaFhxOHgxbk1TNDNyQzZsTi1SeE1URExicTd5RU5EdUo0XzVEb3ZTdjJqOFpSbENTNGx5OXlGVTNPaFBzM0hSS1pyRWQyZS1XenY1ZHBJYm9YSE5HUWxjYTNteWVoTzJ0TXF4OTFsdmdlREw4TXdFcWt6NVBsMjJqc0kzRVdMVGtnMk16TFhnOUY4MUs2OWlKZk1VdUdRUW45dUgtZ1VkV3Z1NUJxOW1kQWl6Ny1Oak1n?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-20T07:52:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 futures flat but tech lags after sour Asian trading - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPMDltV2QwUllGaUIzUG9qaFZCQjJqWkNNbzNqTzBKcnhOOVdBaFhrcnFIQlEyUUVUQy0wbkJ1M3JBN0tkdHdfWlRyYTIzMmVVSzZLcVU3RUtsRm10c1pYdWw4ZThVTEp1Z2tkNm5wWHN0VHM4a2NSSmJHWDRCM0trMmk4Mi1nc0xsdUFZcU81MkR3SFJhcTZrczBNOVVfS3V1X000dm1VMjE4U0NaOFhFVlJxa3B5bVVmNTNaUUJhb2FadVd3bldMeDdTVEJqTlhyVi1oTGNpSTBlRWw0T1JyUGx0UW0zSW9FLVBGOWJmUU5veEpZT1JCeXcwelVxT25JUVZnMm1faDI1T1dEdFFoX1VZdW5qdWJra2huQktTbS1fUEd0aTQ1Xzh0Vm5OOVpLdXVXVThR?oc=5",
     "source": "MarketWatch",
     "published": "2026-10-20T07:52:00+00:00"
   },
@@ -136,8 +248,8 @@
     "published": "2026-10-20T01:13:00+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
+    "label": "Anleihen",
+    "topic": "Anleihen",
     "title": "The Treasury market has been acting weird lately - Axios",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GWGNSRlpEd2xJa2otR2lQbHladDJmY2dfRDA4b25kbU9LN05aandHVEhKLV9TdmYzLTNPSzZIeUVySXRaMVIxdFB5RWNJWElZNGo2WkFVVXR6RXVubmdfLVlla0h1OGhTd0RsOW9YeVVCS1V6MHVPZVZoVQ?oc=5",
     "source": "Axios",
@@ -208,6 +320,22 @@
     "published": "2026-10-19T18:28:37+00:00"
   },
   {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "SK hynix Jumps 5%, Sandisk Up 6%, Micron Up 3% as Memory Stocks Bounce Back From Selloff - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSDJYSnF2Z1RKU0xQZnVFUGUtdzhFUk1NMEoxa3hqSm9nSWZvWFdvNDd5MFAzYWttYkV6ajZaOXZRdEhXX0VuVG1HOWs2eHk2SDBwTUpjLWJmWUZxTndDYVZTWUpMZ2YtcHJ5S2otV01sSWJ4b3lyQ2lNcUhPRzN3dVIxWm4wZndQT3A1bXRqQzJCczg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-19T17:36:42+00:00"
+  },
+  {
+    "label": "005930.KS",
+    "topic": "005930.KS",
+    "title": "Samsung Stock And 2 AI Hardware Shares Retail Investors Are Watching - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeDlrVTRjeEtxem1OR2lUTXNjeTVSMXJyeWUybXJrQVAtYWRVcC0xV2tYZThRQ1pFMW4zWm5oMkdud09GMjlibzk2N0JmUFJDT2RsUmwwdWpvOW1pdUF2SXFXQW1aS2hqUUNIaGJKZmNHa2lhUmNCMTM2WEVBMG45RTRIeTlUSWw5R05IaTR5cUZjSGdROVE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-19T17:11:29+00:00"
+  },
+  {
     "label": "AMZN",
     "topic": "AMZN",
     "title": "Stocks making the biggest moves midday: Sandisk, Marvell, Datadog, Cleveland-Cliffs, Amazon & more - CNBC",
@@ -268,6 +396,14 @@
     "topic": "US-Renditen",
     "title": "Treasury yields steady as bond market calms down - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQN1ljNkEzVC1xdHJ0VG42bEFXTWY4T3oxYlJoU0VyYzdKSTlnTnJwcmZmQl9vZG5pR0oyYXZJaFZnd2xzSEZiNW81eE5OTnZyOUx1dXZQY1dMUnFVVHBDYXJvVXN6LUN5cVJGMHVLR2FtVlRlQW8xek9qd1d5VDdNSTZURWMzY1p2RnJUeWw2Z3B1YzNJbm1LZGZWOHM3T0R6YnpYNzR5SW9rc1N4TWZBelR5THZRcXlSREZBeGRSVDdoaXpwR1NuTTViRU8zM0p2VThYUXM4bC12blZ5Q3VuZzh6MDdzdDZXM0x4c0dXSnZGOElFbmZTV2JWdXJHaTUwTmlucEZaRUpKS0xBSUxTcGVHNFpzWnNRUjNvSk9BeHZkRXZLNmhQRGlyMUV4QVBJSXVfX3o5VQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-19T09:21:00+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields steady as bond market calms down - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOT0lJYzI4SlBNWEpqS0JaM2wwLUdjaE9Db1NtMnF0WVJIM0EtNXJKdEJlUEdFaHJmd3ZLeXhTd0pHOHczd1NycE9TRkxwT09BZmN6c1JieG1ISFFjdDBVbjNSN1k0S3dRQTVkMHE2TUYzZTd3b2dub0J2NVFWeVlyOHVzSUFWLVNGQ0lOSHZWd0h2ZjUzNVYxZzZwbGVUN0pieFBBbGJQWnhNT1pzaE5kWHpHMWp0NzdIUXNDa1RobUpCX0dteVgtUXJZdlNtbm5pLWVxdFJqSHVpS000Z1lQTlpsNWhFYzIwM1p2Vlg5dFhtTktycXZEbnNqX1V6dGhyMXcySVBlR25NUHBKNDJTWmN3ZWVYZzJyTkNVX0xGbw?oc=5",
     "source": "MarketWatch",
     "published": "2026-10-19T09:21:00+00:00"
   },
@@ -406,85 +542,5 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcWlsdlJ5WmtERWRFNnhQbnljNHhnVnhwWjF2dGFzVG16UUNjQzhrSldYTjRHa1RHWGxKYmswdFh6SlJDaFBDT1BXOUh0aGxkQzVuZU11R2hSN1U1N2hfSWhLMEdWSWFXd2xkZGZsWm1lSzlUc0ZDMkhCVmotLTUzN1R5b3NLWEc1Nmk3aHk5N1NOQQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-17T16:15:20+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Elite Energy Stocks To Own In October 2026 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR3BJQ3hzMy11anJ1akg4NDdHVkhlNzlGLVhmZGVpVmRRbTRkMVNnUnhxbVBtLXB6ZlBkRzA0ZFZPZ2QtUm1BSUhoVXd6RGJWX2tacF9qZVBjdWxvQnFheWlVWHFRQy1qQjBiU0JVT1hyc2ZXX01UOFAwT1VXSXlUU1oyVjZRMkxvTkY2Qk9qdDlmdw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-17T06:10:00+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "TSMC Says AI Chip Demand Is Still Far Above What It Can Supply. That's Why I'd Buy Nvidia Stock. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPT2JhQVVYRlR0dWIxZjBLVVI1eEM5bWF0UWU2LUNtdXVZN19vVTJlTG50Rk9YX3hNSzdMTUxKNTBCYjFXR1FRT1pBSFBlVlBBQ3dwNmJIcTRiSGQ2QXZWRGdfUWh6YnF5RjFOcjJkMWZseVpZeDltTEdJVUJTSE9xMm1wVGQyNXdTQU9UUGpBdC1qZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-17T03:17:00+00:00"
-  },
-  {
-    "label": "AXON",
-    "topic": "AXON",
-    "title": "Axon Stock In Focus After Federal Contract Wins - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOelA2YXlhblI4QlMyc0lEam5MUElWTUN3ZFpLQXJORzc1RmJFZFBCanFnSDBydi02V3Y0SVQzM3FzNFVaWEg3eFRNT1dEc2hYemRQR25fd3F0MjZUelVtcXhnN2duOGY3TnVMUjNkQXNQRVF4M2c3LVZKQ0k3TkdGTzVlRVRyNVVQS3V0OUJKMmFfejRmYjJCaHFkMmZUWkU?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-17T00:17:00+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "3 US Defense Stocks Riding Homeland Security Spending Growth - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNUtmbjhvalY0MmpHcFhRRzFjWmY4Tm9RQ0J3MEJlYi1yWFQwQlNtRkJTRFFWc2VTb1BZc0RGQW9fd3NkZ2x2eHZNZXp6cTFqaFlPU1ptbFZRN1ZGMFZ5MV90Mkt6ZjNvTFRGVTdzQVd4TVAtdUpHTFR2X3F4VTh4MlRTMm11b1RrZDZMSEZEaDZWei13WFE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-16T22:14:47+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
-    "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention. - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOEtYTk1yYWJKNmZxYWk4RVFDN1NfVDZ6bk8xcFBGOVRZeV9HZGgtdThzV0c0MUI1STNqUHUyTUctNFFfbEpMbkdTWHZFQzU2TU5idmgxd0ppRFE5bGtkZ3pFU2VfN0s4NDRBX3R0LUlvWHRtOFNCbjZLWWZiNnY0SGw1ZWRaLV9ZV2dUVnY0ZlR6c2tFUW90c0ZTelRzRzZncmhrb1VHYUF3d2h0U0I2dlBNbjBrcHlULWVwRnNfa254RmpEQm9GMm9oMWtJdw?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-16T21:30:00+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "High-Yield REITs vs. 10-Year Treasuries: Which Is the Better Buy? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNHJ5cV9NaDFfRHRhdlllYWd1aHlDbW5pRkRLdkNMNW5sbGJIWXRzV0pMdnZmREswNmhmSjlyd2hhclN2dEFWZENJcDZoZ1JtbjVYNy1GTkdaa0VwOWhuTFY0SmtQcENZTjFwQTRoVURwTnRjSUNpZnZLTzRlcmRLbFkxb0VQSkJTM2s0Mw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-16T20:59:00+00:00"
-  },
-  {
-    "label": "AXON",
-    "topic": "AXON",
-    "title": "Axon Enterprise Inc. stock underperforms Friday when compared to competitors - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZGZmUkQzVmh6b0NTQVdFZVNORUJqSE9RVHBwcGxTcnNhNDRvWWFkM2FKdkI4TWdzdU1qdmFlUHBpNEVkTmtzMW5xOVFqc0ZkTGUyby12bFc2MHdNb1ExdVZHMHhhbUFlWHJWRlhtdVBsUXh1LVFidGo1QWFSTXd1LXYwTmZMT2lWaGg0MDZSeE9DY3pZUWo0YXZiclFsOW5iV1k5MHIwOXVtUGRHX2ladVIwQXpYV3F2OHdUczR0RkY2eE5Iby1Od2phUmhNeEVW?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-16T20:30:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil Is Getting Through From The Middle East—Here’s Why Prices Are Still High - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYUMwcVcxVkE3a0pNa2NMVWlwXzB0UkdpOTFIZkJJSVY3blp1V2hlZDBjeXJXWGh3TDhwanQzNXZjbXc0TlpxX0otRmlSZUhnZGg1d1hrVFExT3RxdHVWZzk5THRDbEhUcTNwRW9GWHItaHJSaFktVnRoSEp1SE4wenFtSEkyRDlONTV3UlRFRGxiZTY5ZzRqVnB5dFFOR2xrTC12T191RFMwaWN0dzRUZ0tvVQ?oc=5",
-    "source": "Investopedia",
-    "published": "2026-10-16T20:18:41+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Nasdaq, S&P 500, Dow fall as tech stocks slide, oil climbs to $110 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjdQUFR1bVFaMnh2OGkwc1BVMTJXaEswWmtlWmV3UDR4YzFXQmdndkg4Y0xuS1NWazZIemdKeUYzRU8xQ3VuMllLdk5Sa3ZxQ3JsWk91bXZlcXFNSHNsSGZWc3dVR200WmdUQmpKSk83dkNZTnkydkNOT1JiS1ctT0NZa2ljQ0RMM0FfZHcySlktb2xVRHBVQ2tjeFdvd3Vpbkg2V1JwX2kybzdkZWo2S3pzeG93VkJrZ1NSNmdtVE4?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-16T19:15:18+00:00"
-  },
-  {
-    "label": "005380.KS",
-    "topic": "005380.KS",
-    "title": "Why Hyundai Motor Rose Even Though Profit Fell - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLUcxMFBvSTRZclhwMEQwdDFGcjFnZU9FX1ZQV3pnS3JmMkFJWE4yckFiVVdMUVNJX09nUTMyanpCZXRBZzRCa1BUVHlJcUpFZUxXSHhZSjJpRFRTbHlTOV9Qc2YtQ2dZaUQ5a2ZPMUJZQTJrSDhJNENLa0tsSnRHVDk1Y000SHVJNmNqV0RjU2Y2V0ZpU2JR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-16T18:12:21+00:00"
   }
 ]
