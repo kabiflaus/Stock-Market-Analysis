@@ -8,6 +8,14 @@
     "published": "2026-10-22T10:00:00+00:00"
   },
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as traders assess Tesla, Meta earnings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHkzVk1fTzlucTV0WFN6LVc0aHNGMmxBZ2VkTldvNjc3VmM2NTBXYXh1YmdVZ0QyQTVQSVV0bFNiZ2xvUVF6OWNxS3EyRFpJM01lZXN4RGhjaExidEVWZGNZdTFjV0NMVE90OUJ6UFJHbkg2UTA0cDF3UmhYd1RSUExHNUVILTVrQ0cxU01SUEYwVk1uaWRoZnYzSHVnMmtzM2xxYm90cFhaRDM4Y0g5bENfTG0wcWNWVXFydktR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-22T09:45:00+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Treasury yields fall as investors weigh Middle East tensions and await fresh jobs data - CNBC",
@@ -480,14 +488,6 @@
     "published": "2026-10-20T01:13:00+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "The Treasury market has been acting weird lately - Axios",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GWGNSRlpEd2xJa2otR2lQbHladDJmY2dfRDA4b25kbU9LN05aandHVEhKLV9TdmYzLTNPSzZIeUVySXRaMVIxdFB5RWNJWElZNGo2WkFVVXR6RXVubmdfLVlla0h1OGhTd0RsOW9YeVVCS1V6MHVPZVZoVQ?oc=5",
-    "source": "Axios",
-    "published": "2026-10-20T01:02:20+00:00"
-  },
-  {
     "label": "Energy",
     "topic": "Energy",
     "title": "3 Canadian Energy Stocks To Screen As Inflation Pushes Oil Prices Higher - Yahoo Finance",
@@ -622,6 +622,14 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNTZMbnlDY1k2cGxFTHJyYmZkcVJXbW8zbWJmUFpESEw2VUJncmdkWTRLczZfMHd1OUFUdkltUTQtcG95d1FRYWhJOEc0b0cxSEtzOXl2N1RPRVpEcWR1WWFuNk12ZnFicXpoMUR2cDk3UlFXYU9mNTFBRnFLOVRlQnJaNlZMb3JnVDctZmhMeWtTc2Ytd2gzbE9haENCQQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-19T11:37:14+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "The Treasury market has been acting weird lately - Axios",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GWGNSRlpEd2xJa2otR2lQbHladDJmY2dfRDA4b25kbU9LN05aandHVEhKLV9TdmYzLTNPSzZIeUVySXRaMVIxdFB5RWNJWElZNGo2WkFVVXR6RXVubmdfLVlla0h1OGhTd0RsOW9YeVVCS1V6MHVPZVZoVQ?oc=5",
+    "source": "Axios",
+    "published": "2026-10-19T11:24:55+00:00"
   },
   {
     "label": "Nasdaq",
