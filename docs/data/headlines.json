@@ -1,5 +1,85 @@
 [
   {
+    "label": "NFLX",
+    "topic": "NFLX",
+    "title": "Netflix is losing viewers — but they're still subscribed - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSFdhLVVocUJEQ0ZBQU9GZnhHYXBYdXF6ZEtzOFpxOEVTazBiYjlsRHEzYWpkb1RHeDU3ZW5Kb3NyYVZKRi10UElCcW9aeXN0Q09sWGhKcTUxbDkxZGNuVVNrTndHZFNFV2FzV3ljN3E3ZW5iZWlVRjR0eVJTVW9IX0tiVWlISncwNDFCQUJwRENFSkJITjA2V2F3d0VhazZIdVpidVl6VDFUclJvZnRfcGNwRng?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-22T10:00:00+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields fall as investors weigh Middle East tensions and await fresh jobs data - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44R0JKdU52c2ZGdTBUaTlIellnNmxmdjZSYklzT3VmZU84azN5T0J0eWRZWGQ4RmZFMEVkYm1zaEVRVXNIWVdUSUlCRU9ob2ZZQzdSWVhEeXVJZWxZejF1VVhhMXFFb04wZjU0UG5VSdIBdEFVX3lxTE5PR2VqMmdvZjZNcXNnNWJ0ajhTSG9qbjVXdDVhZ295N2VhdzRfeGN3WlRJQTJEb21GVDBYdE16SWlnOTg2V1ZkMGI2UG5ENGctUGRZTkRRZ3pmYlVxRE00bjZpWHA3TGw5dHg3TzdBenIzZG1H?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-22T09:31:06+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures down 1.8% as investors digest earnings from Meta and Tesla: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ROG52YzhPZGZHbTVQQjVmSGxSeHJoRlA0UW90MkdwNFR0ZThOQzFhSDBhMUFmNWpxSGo1RG9nU2FOZ1VTUGN2VjNieDNOT0M4bDB0Qlg5NVkwMHV3cy00VGxhQTNqQzg3a3FwUFB4Vy1lR3BlM1dV0gF8QVVfeXFMTjlVakFKZGpLV0RGRVNiaGUxMWdVcHJtSGlWdXNtYkJqUmhXbHM5S3dLcFgzdTZMRGx0OG9LZE40eTVsaDZ5WWRKTGZSMVN5OWptaXk4Qk5EZGNJTmZYdzBVUVRER3NVOW4xWllXa2k0RXFGWmhTcEw5QTZ2Ug?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-22T08:30:54+00:00"
+  },
+  {
+    "label": "051910.KS",
+    "topic": "051910.KS",
+    "title": "LG Chem, Ltd. (051910.KS) stock price, news, quote and history - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xZDI0cUNHdlc3ZjJIRE1XaDhfTWxQeThoSjhlWDdSQXQ5QXRVSF90VG9DYVlscktzUFdPRHFjUk5GQUNaS1ZpNlBYbGlqRDg4SDJoVWVuYWU?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-10-22T07:30:24+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "UK Energy Stocks To Watch As Oil Prices And Inflation Stay In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZXd6OHp3YWhYd096dDlnWXdONlg0WW9ydWRlSVVuNjFPejAwS2Z1ZmdkTFpFZTJ3NTN5bnBreHhKSVVoNFVGcV9Yd1ZZMTQ2dWc4NlY0VVJYOGxrX2dudFhZeGxaajRhbmVlTUdXd3E5d00wdXhia0tCc0dsQWVSYlY5Q1NkeE9KQ1Y0?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-22T04:25:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "How Are Dow, S&P 500, Nasdaq Futures Trading After META, TSLA Earnings? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON3o4R1lpRkJwUl9FR0F3RThnR2N6dEhNMkl6TFZyVUY4R0JRenhWY2xFRjR3dXA4WHVmQzZ3LXZQcTY0Q3N1ZE5TaktteXFteE1kRmhtZTlXbUNKRklOdTlWWkJXdElxM1lEX20yU3U4TlV4ck0xLUNiN1A5RjlDbE9ZMGUyY055NjNzMWthUXB2NEU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-22T03:11:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-21T23:11:13+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon. - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdUhINkV6d09DTmpHOG5sM1BaV0EzZGd0S1ZwS2pKTEZSY3JHc1h5OFRjU3NOZmNjY1dXLU5LY1V2R29IUzBCS1ZOb1p4UlVHLWl6SC1MeXh3YTgxcnFWbC1ZRDJ4WlIyTjVWLVhUQWg3TklGSEdKTUpZMkZ3VEM1WWc4QzN5WVBKRUU2TzU4WmxvNER2Y0tJQl8ta0FoRnA2ZzNCeHFCXzk4eVR5bFdnYWtONmx0WkF6ZlhrYzNhbkE1NTdXeEo5SU5aV2F5aFlWZHNDVnpsTktmS0lHZUstWUZubTdnV0hHcFp1T1hkNA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-21T21:14:00+00:00"
+  },
+  {
+    "label": "373220.KS",
+    "topic": "373220.KS",
+    "title": "LG Energy Solution, Ltd. (373220.KS) stock price, news, quote and history - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hYTZLeVJnZzJGSi0yajJ5WTNjVGRFZ0Z1QVhmdW1oaEkxNlpuMnA4TnJfQ3AtWGZoS1o5MTVrTEJSMzJseExnYVZWWWdVODJVZDUyOEVDUDA?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-10-21T20:33:59+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "$4,000 in These 4 Non-Nvidia Chip Stocks Could Be Worth This Much by 2030 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUnZ0ZXFEQmtZMW95Q2tHak0tSlk0SnJIcVQxM1J5c2dGdzZJdWpXSUdQVUxKcFhKWjNCaFdMOEdDNzYyamVPb242amlpS296bXdZSWVuMDhTV2xQU1lacExQLUlycTlCb1pBaWNKelU0OW10QTFvMDNWYVlDV1FzUTNCTlFKcFhKN29j?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T20:05:00+00:00"
+  },
+  {
     "label": "000660.KS",
     "topic": "000660.KS",
     "title": "SK Hynix (SKHY) Earns a 76% Operating Margin, but Will It Hold? - Yahoo Finance",
@@ -16,14 +96,6 @@
     "published": "2026-10-21T16:27:04+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq climbs over 1% as SpaceX, Super Micro improve AI sentiment - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-21T16:18:30+00:00"
-  },
-  {
     "label": "ABT",
     "topic": "ABT",
     "title": "Abbott Plans to Separate Nutrition Business Into Publicly Traded Company by End of 2027 - Yahoo Finance",
@@ -32,12 +104,36 @@
     "published": "2026-10-21T13:47:44+00:00"
   },
   {
+    "label": "NFLX",
+    "topic": "NFLX",
+    "title": "Netflix stock sinks as Wall Street lowers price targets following Q4 revenue forecast miss - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNEJkYUJaMXNVbEhiRTVINEhQZEptTkdWWFpkQkhDc2hDMkREQVRteGxITEZGVlYwcnZzSUdmd1ltclFkM2hBTnp2OGVWSVJEaWlub29QdHVMVC15eTRISWRPUGZLT3NaS2FiZHhwNGxtOExtUDBQUUpHejhDOFRmQ2pFQXhKRUNuN1JnM3RiR281VjlfT1ZvS1IxX2FWZ0tZQ3VjMTAzRERHQnowczhMNGJRUU1YeUFPdGNxVDNOWFFrZ0FOckdkNDdZNDFwaXhtaF81VXhJSzRLb1hVVW5JVks2Q09vVVViQ3dVN21n?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T13:39:19+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "SK Hynix And Samsung Upgrade China Memory Plants To Counter Local AI Rivals - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc0MyQjRCeWxYRVBHRTUzeVptZU1EdGpHZWstc0dxcEg5Xzd6YnFiZVk0cDdqN1JybUJkaDREZHNwbUJGU1BaQ2dQTFNLcFBmZjN2aGF5ckxHQU93dTVkQkJKUWF2UHNCcW5vcUFzR1ZUNEZwbUhUTkJ2OF9RZ2ZPSzNINktDR3ZqeGhDVUhjVWNvbXNlcGc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T13:28:05+00:00"
+  },
+  {
     "label": "ABT",
     "topic": "ABT",
     "title": "Abbott Labs’ (ABT) Solid Financial Beat Signals Long EPS Growth and Dividend Safety - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaWQ1RnY2Wl9zZjlrOUlyVklrYVhDNGFZbGJaclFfOXFFaElBRjF4LThlcHNQR2Y4RElDajFRN3RkRV9pdUl3cGtaWndFczA2b3JnWmFpel95QTJqSnNfZlBkRTRJMjFRUncwWGJPZXFyRUFVcE0zbXBjdGNSbmFuY0haTkVEazUyNWwxN1ZibHpQVFc0RmlN?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-21T13:15:23+00:00"
+  },
+  {
+    "label": "NFLX",
+    "topic": "NFLX",
+    "title": "Netflix has 2 problems behind the stock slide — and they aren't YouTube, co-CEO Ted Sarandos says - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSmVJUnB4azRpbkpPRmxaNmVSRjlld0Y3TUpvcEx0Q3kydjNVTE13VEdaTHBCRGhQYWhVa1lTUlhFR3FUX1lJZ05QZUtDaUt2b2h4OTA1bHp2U0ZPQ2VYNHhEU1RqWkF6NUR6Q2FUOGZ2RTdmdE1GYnBBLUxkT0wzaXA5V2tidExCeC1Id1pwTVY2WjBKQUZnYzdUSkw5eDh6d2hkbExyVVEzeklrY3JDZW9vUjE2Uk11Q2JTX1pxTmsyNEtZWGpLVnoyeEc0d193QW53QkQzd0RFckRtWjJQcmhYSFNkeVA5OXdlSFhmMA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T12:19:35+00:00"
   },
   {
     "label": "Nasdaq",
@@ -72,6 +168,14 @@
     "published": "2026-10-21T09:23:36+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "Eurozone Bond Yields Rise, U.S. Treasury Yields Steady - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjZaQ0ppejRjOTV4RjRkcGw0MEJ5ampIZktRVWExSzh3Wk9IdDlGeTlNOTFSQWxDV1ZpaS1FZUZhd3N2QVpBc2dNcjJKdWFldlpsTW41LXJJTy1oM1ZRQVBJeXhhYXFUYVpqZkNDWlVaQmRpSlFrS04zcTU0ZUk5dDZiendGaVJubWp2Nm40T3lhWklfSUl3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T09:14:00+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Treasury yields steady as investors await jobless claims, mortgage data - CNBC",
@@ -80,12 +184,20 @@
     "published": "2026-10-21T08:57:33+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq Futures Rise Premarket As SpaceX AI Boom Lifts Chip Stocks: SMCI, TSLA, META, IBM, CRWV, NFLX, BE In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnUwRElSUTlnMGw0SWlCbEpiSnJCSU1vSzVCRlFZa0J2eFFIWGNuWlJlaGN6SmthX2ZyZlE3U2xsbkh2WW9Lek44NkgyeFpOUXd4RDUtSWI3R1M4cXNGY1JPbXpPNm5MalRKOW9PbTg3ME45SFAyTTl2MlFwQ1k3c3VQV2gxYWUtYVktdTJSdTB2dEp4UzRXTzlPQ0RTTjNPYXZz?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T08:41:06+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Zölle",
     "title": "Ken Griffin calls Trump’s tariffs on US allies 'a disaster' and predicts it will hurt Republicans in the midterms - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQjZwMzdabVpDdzJVdWJkV1VTSHJRanFZc04zNVV1WlNXbnpaQTNvcjhuSHNSUnY3d2c4WFlibzVmdVl0S3lfVHhrTTEtSTZ1elhTSEFPXzJ6YVFPQzhXVHJ1UjVMRmRaaEJ3YlBhTzJsTkRpXzIzWTVfNUYzUXhQcFNXRzlGWFhmeHZTeGdRbHE2QVpxeUctVmpqUHJzNkVScWJB?oc=5",
     "source": "Business Insider",
-    "published": "2026-10-21T04:01:00+00:00"
+    "published": "2026-10-21T04:01:01+00:00"
   },
   {
     "label": "S&P 500",
@@ -94,6 +206,14 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRWZIR3hsR2RNb0RNSkVEQjhyZXNpMjdxZVU2UUxlcHFyVmJ2a3J3ZWt2QjdTQnFybUp0TGxCOXBLTllGSTZ1R04wdXNCUkZqSVpmb3VTRDJLaGdfZGRMaE95SHNlMzhkaEhCNjBTVmNvTXV2d0RJc1ZRSWI4blVBbGZhZ0pxU1l1Qk9HQU9nemZRaXF5Q2c?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-21T03:38:00+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Stocks rise on AI-led earnings, France's 10-year bond yield hits 5% - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMXhrSmpaMk8tc0RERnBieWlyRThFeDE5X25hNy1JYTZxX2o5Q0wyMlJ0RFZheXM0S1VPUUVVcTBobHlJR3hSa3prRjhjaUVGdXBNcGNybmU5anZLOU0zdXg2TmFoYXNqSnVuRXpxQ2dwTnBYTWpOZEdIQUtVVEVqN0h6TQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-21T02:10:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -182,6 +302,14 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbDdoTjJDcjViQks3MFlQdURUUkJfeDE5c011VlRuT0FYQlFCdXUxTzZmbzBOd1dRZWtoY0JQTWRRc05POW5TNThvSXVLSzBsM1JaelhRTElRc3Y0bmhob25QaXBsbDlGdTREbTVVdlUyUHVCVDNKcjJ4S0RkSVI1bkZISTBlTE5yUll3bEM1cWt5REJYaTAwbkNFcw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-20T14:46:05+00:00"
+  },
+  {
+    "label": "NFLX",
+    "topic": "NFLX",
+    "title": "Here’s How Much Traders See Netflix Stock Moving After Earnings - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOTBOOTBwcXFiX0NRUk9LcVJiUjhyVUh2Vm9pY0l5ZW1ORENMTlJuY1d1Y2MtM1NfVzNtU2pCY2tkaVgwd080WnpvclZDTy0ybXdnRU81M2NWdUMxZUxFWXB5WlRHNlZSamRpbG9pdzFwNXZDemhWQjU1UEhpUGRfLVlJVmM0cTVwR2Z5QzV1SlJMUWUzenBtYWQ0WGI0S0hxWmo4ZkhraGJLMDNzMHBBYjZ3N1lDRWN4TmtONFhBbUM1QQ?oc=5",
+    "source": "Investopedia",
+    "published": "2026-10-20T14:26:00+00:00"
   },
   {
     "label": "Anleihen",
@@ -456,6 +584,14 @@
     "published": "2026-10-19T16:56:45+00:00"
   },
   {
+    "label": "Konsum",
+    "topic": "Konsum",
+    "title": "4 Retail Stocks to Strengthen Your Portfolio on Surging Retail Sales - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRExXekozVEFyZnRvVk9xbHFOMU1pWU51WGN5Rm5YWWZCdUVicThUNFFITExkT21pSk5kNl8yY3B3SldPVm9FR3hrOTR4Y2c4SER5emFhZmg5bTJyWmVDdEJ2OHpPQ1haa2NvRThRNDJ1MHdyUktUcVFlZTlLX0kxeXJaU2pVLXM1QjNsX2NHbTJRVkh3dWMzMGFUMkFXa0VhM1R3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-19T14:00:00+00:00"
+  },
+  {
     "label": "AI",
     "topic": "AI",
     "title": "Intel leads chip stocks higher as investors jump back into AI trade - Yahoo Finance",
@@ -638,21 +774,5 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVEZZQzBtanBKLVBfYS1BRUtESGxteXc0TWtqZXg0UDJHc3VNLXUxSnBDYmdGM1FOUXBfUTQ0T3FOb1lQcjhySnppV19fcm9WcEhta2JWVzZldkFXV09NLWROQ2I5d2hBZUkwTkp0R2M1RWFCVllaLWNmNGEwX1JUd1F2YmJpQ2RhU1M0RGpfaFFnd2c?oc=5",
     "source": "The Guardian",
     "published": "2026-10-18T11:00:00+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "3 U.S. Energy Stocks Investors Are Watching As Oil And Gas Prices Stay High - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSE5ZRHctOEhCSnp6MTVodmh5TzlpTDFtbjVNVHpqeFZwQnE3cU1sZDJpVng2Nm05d05SS084RXJ1UWZVWXhHWlQyWlhyUFktWnFCNG5rTkVpTXZib2ZlY1lwVWh0VHRiNjNKeGMyTk54cHBPUmctNmhXeWt1OTFmbS0xekF5eFVjeHFEOA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-18T03:20:00+00:00"
-  },
-  {
-    "label": "051910.KS",
-    "topic": "051910.KS",
-    "title": "Did LG Chem's Fall Catch You Out? What Investors Missed - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0xfWUNnYUh1aTk5UFBDWXZUaUNIUXpkZExGOGpWMExjQ1lkYlJSS2dHaVFiNVh6MGt4ek1BX1BadkFJMFRKVk16ZGlmeXlrVlRjWVZ6MTYtMXdRNDZuOVh4bnY0WmFaSnF3Rl9GdUVfRFNSbk5vNXQ1SDZHajR5RkNiMVhjSDBZZDhNX2Z1d3NSUQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-18T00:17:00+00:00"
   }
 ]
