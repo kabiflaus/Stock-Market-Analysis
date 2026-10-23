@@ -1,5 +1,53 @@
 [
   {
+    "label": "FANG",
+    "topic": "FANG",
+    "title": "Oil Stocks Rally as WTI Crude Price Tops $103: Devon Energy and Diamondback Energy Gain 5%, Occidental Petroleum Rises 3% - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQakFqRHRzV1RVSTVLRWpWc2JWRjA1MXdTTWpjRm5ERUhFeXQ5NWs1SkswSTNleDNIbm1yai00S0ZhUlJOY1BUR1VKNnhDWkVfaDJhTjA3d1BTQkNPelM2S2hLZ0V6SnJ4UWlncmxXdTJsOVltUkVGUlRSS3g5UnVXVkhiUkFKVERkOFVZ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-23T17:05:32+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq falls more than 2% for worst day since June as AI spending woes, oil prices spark sell-off: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ROG52YzhPZGZHbTVQQjVmSGxSeHJoRlA0UW90MkdwNFR0ZThOQzFhSDBhMUFmNWpxSGo1RG9nU2FOZ1VTUGN2VjNieDNOT0M4bDB0Qlg5NVkwMHV3cy00VGxhQTNqQzg3a3FwUFB4Vy1lR3BlM1dV0gF8QVVfeXFMTjlVakFKZGpLV0RGRVNiaGUxMWdVcHJtSGlWdXNtYkJqUmhXbHM5S3dLcFgzdTZMRGx0OG9LZE40eTVsaDZ5WWRKTGZSMVN5OWptaXk4Qk5EZGNJTmZYdzBVUVRER3NVOW4xWllXa2k0RXFGWmhTcEw5QTZ2Ug?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-23T16:16:33+00:00"
+  },
+  {
+    "label": "TMUS",
+    "topic": "TMUS",
+    "title": "Why T-Mobile US Stock Dropped Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeE81RXJobmdqVWhfRnBmeTI3ZWtncUplbUF2enEwSjlaMDRPU3JzYS1YRHB6SnliUm9xamVibVFlVlg1dDI4Y3dUcnJpaTN1bVdVQkJnNmxyTkxRVG00Qll6UGdWU2FJakFFNjQxM1FaWjdnZUNXZ3dra0FaSTk3d0hQSzk1ZzgzcWNIYnlYSQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-23T15:55:30+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "The Bond Market Is Sending a Warning to Stocks. Here's What History Says Is Coming Next. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSUVLaHpBWnhIbnZrRnJRcWVJMGdSS3JUVVpoZjZER0dkek9meS04SDdpdHl6YWc0dmgwYURYSXdidVVicEdjSEg0U3BQbWlEaF9hZUhQMmVLYW13WktkS2hFaDdSSHcxdENuR3JLWkl4NWhaNGtIMm1TNUlDYzN6eXdjNHlQS19oTGVmQmNHSGVlaUZnM25wNi1ZZlF3VG1M?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-23T14:43:00+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Brent At $114 Puts Energy Stocks Back On The Watchlist - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOODJHaGxHcXo4YjRYYWx4eGtIbDlFcl81S1dqSzhvaDZqcktualNzMFZUTnJwbDdEWDVNRkZhTXFxUnJfVVh1R2M1NEdrRzJsSUc1cHBPdFp3a09sc2VSRnRkZDBUQ0wxVFZpdEpLZGNKN1lKQXpmMERPcDhEaFNSa3ZsZUFrY1hfc2RCNTF3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-23T12:11:03+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil price rises above $115 a barrel amid fears US will renew strikes on Iran - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbjhUWEhFUEhXV2ZVbHVLbmtmUVdDeUxTRzlsZEdYY3JYd09YdVBYOTE0RVFlYnZZUkNNSmZ2MkRTamo3c0g4bTJrNllYbWpXWXBVMHl2MnNrNnlwVGJMdWYwN3I0alFzaTE4M2FXdWM5WEp2ZXFLWHdDUGRsOGRQWG53R2hwTTg5b1RqenVCNkEyd2NzZ3lmdm8yQWRBUQ?oc=5",
+    "source": "The Guardian",
+    "published": "2026-10-23T11:35:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
     "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on. - MarketWatch",
@@ -16,28 +64,44 @@
     "published": "2026-10-23T11:00:29+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Nasdaq, Dow, S&P 500 Futures Drop Premarket: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON0pWLThkWllqVTRvcVRMY1NVeUN0UVNxa08tNkRhbzQxTUFlaTZON1BOYkh4bDEtaHB4X2d6dHk3VS1sVDhYMEhhZ0IyMVpjTXJjWVJ3WE9ZTDdWWG9paC1zdHZpbFpFNVZNTk9aYXhQRnRtWVlXRE0tZ2hOaDFmc2RIQUV5aTRBbEJaaDNsWUNxUXc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-23T10:13:48+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUFhkR0R0cmxYeWNRb2Y2LXEyNUlGQnozcWxNUW1jaWRDcUdpYnBTWVZGR3p4OWwydEdicWRMMEozdXpxUl9td1V6SVVZM2JOT25hOWU3TUFLU1h4aHk0VC1VcjQ2bkhyMGJSVzduZ9IBdEFVX3lxTE1KUjZzM3JxQnUxN2Y0LVlocU52STl2ZUIwSlNOMFNnY3hyUlJ5TGJpZjJlc3VRaS1LdDh1ZlNvSDNCYWlmdnpIMHk4ZWFTT1E3UmplVjAwRm5MNnM5V2FsSWVpZ0Z3aWVhMjNVeWhrX1lRWWtk?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-23T09:11:42+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Nasdaq falls more than 2% for worst day since June as AI spending woes, oil prices spark sell-off: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ROG52YzhPZGZHbTVQQjVmSGxSeHJoRlA0UW90MkdwNFR0ZThOQzFhSDBhMUFmNWpxSGo1RG9nU2FOZ1VTUGN2VjNieDNOT0M4bDB0Qlg5NVkwMHV3cy00VGxhQTNqQzg3a3FwUFB4Vy1lR3BlM1dV0gF8QVVfeXFMTjlVakFKZGpLV0RGRVNiaGUxMWdVcHJtSGlWdXNtYkJqUmhXbHM5S3dLcFgzdTZMRGx0OG9LZE40eTVsaDZ5WWRKTGZSMVN5OWptaXk4Qk5EZGNJTmZYdzBVUVRER3NVOW4xWllXa2k0RXFGWmhTcEw5QTZ2Ug?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-23T09:48:06+00:00"
+    "title": "Nasdaq Futures Steady as AI Selloff Pauses - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbndXR3NtOHBOaElUOFdlSGRWX0ZXWktBZGYyRUdJT21mQWs0dWpMVU9Gd2EyY1dGeE5EcjYyVGgwTVRta3RXU0d0c3k4YmtKckRNanRZY1hMUWlTV0NpR2pCN0ZoTC14STRUVlJQNFcxVFJuWUNwWW1jdGxsVlJBbjZ2dklkODlpT3dVWktBYkl2TVN2Ul92bThwY0pWdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-23T08:44:00+00:00"
   },
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields rise as traders await more economic data ahead of Fed decision - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUFhkR0R0cmxYeWNRb2Y2LXEyNUlGQnozcWxNUW1jaWRDcUdpYnBTWVZGR3p4OWwydEdicWRMMEozdXpxUl9td1V6SVVZM2JOT25hOWU3TUFLU1h4aHk0VC1VcjQ2bkhyMGJSVzduZ9IBdEFVX3lxTE1KUjZzM3JxQnUxN2Y0LVlocU52STl2ZUIwSlNOMFNnY3hyUlJ5TGJpZjJlc3VRaS1LdDh1ZlNvSDNCYWlmdnpIMHk4ZWFTT1E3UmplVjAwRm5MNnM5V2FsSWVpZ0Z3aWVhMjNVeWhrX1lRWWtk?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-23T09:11:42+00:00"
+    "title": "How the French bond drama affects U.S. markets - Axios",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CNG1BdlVuVGZrdTl4X3BoX2J3ZHF6bEM1ZFN0ZjlMa2lLRmhTWEU4UzNLNUxyeE1vZnZhRm1wMkpGSV9xM1ROMkFpdzNXa3hQTUhKdEFPNGs1YUt6XzJTZXpza0JRLVIwZHhRRWlR?oc=5",
+    "source": "Axios",
+    "published": "2026-10-23T08:12:19+00:00"
+  },
+  {
+    "label": "TMUS",
+    "topic": "TMUS",
+    "title": "How First AI Network Call Will Impact T Mobile Stock Investors - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOckl2UnNnMXJLdUZyOTh4c24tWGt5MWlYdFIxVURjSGJKUU9IZzREZUlzWTN0eS1yUm1BNldKNHpYdzZGQnp0Rmd3a1hKRXluV1RkUERGN01LOVhNWlk4QXpiTzlyOTVkTjdSaGhsakZudk9QVDlGQ29rX01qNktHZ1RIVlBaNmdfWHZkZG5SNjVXWE96VDNsWg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-23T08:09:03+00:00"
   },
   {
     "label": "Energy",
@@ -86,14 +150,6 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeVk5bXN2THRVWVBubnpudHpPQ2dreFhuVUxXSUFqZWJLa2psTU1rbjl3UktXTlVabEpvVEM0YUpuZVBUWkJQSjB4X1o1QlI5OEZYNE1fNE5QREZ1RjZqeURTcEFZSm5DbkFGYkFCLVNVYkpRNXRCQ3RMTDExMGVJdS1lUjUtdlBFVkJQY1VXdVBZTF9qVklpbU1YRXp6dHpXNWhqcHVFVFNsZUtQeXV6SGNBTnJYaHBzWlE5SF9EeFpiYllha3c?oc=5",
     "source": "Reuters",
     "published": "2026-10-23T02:17:00+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "How the French bond drama affects U.S. markets - Axios",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CNG1BdlVuVGZrdTl4X3BoX2J3ZHF6bEM1ZFN0ZjlMa2lLRmhTWEU4UzNLNUxyeE1vZnZhRm1wMkpGSV9xM1ROMkFpdzNXa3hQTUhKdEFPNGs1YUt6XzJTZXpza0JRLVIwZHhRRWlR?oc=5",
-    "source": "Axios",
-    "published": "2026-10-23T02:12:19+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -160,6 +216,14 @@
     "published": "2026-10-22T21:19:00+00:00"
   },
   {
+    "label": "FANG",
+    "topic": "FANG",
+    "title": "Diamondback Energy (FANG) Declines More Than Market: Some Information for Investors - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZUhPb2RITFVzUDRLb2VfVjk1a2EwY3JzNi01WF9kd0NzX1d2UVFxTnpiV3RHcFMxa05DQ3BadWNJXzJjM0pyWHFMWVpGMWZPZnFBLWhxbVJYcnVjdjdWRE1oMFd6X1VmQ0RWN3kxWWlRUWgwMEFKbmoxMVE3cHkxakVDY0VZOUM0NVZydzNMZWt3a2xUemJLWGRSUWVxNVppUXQwaw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-22T21:15:04+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze - MarketWatch",
@@ -198,6 +262,14 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNckxmUkJ6ejBCR2dfaEl0Qm9BOFBoVS1MdVFuM1BxZy1WNnIyQzFmQzAxVnA4aFN0aGZuTmg5dzZaSjJJOGVtZTJtZ08xOFFZUDBKN1VqNXZnMWNVQm5jYWx1TjF4SlNLb2Z3UnVoNVFHcWdkbUxqM3UxbnVubkVnODFDRU9oUDd5aE9jQmhoVFc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-22T19:17:32+00:00"
+  },
+  {
+    "label": "HAL",
+    "topic": "HAL",
+    "title": "Halliburton (HAL) Stock Slips As Q3 Earnings Fuel Cash Flow Questions - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQlNsNlJyTUFMdlN2WmczdWo3YlVadnJvN2RkYnZ5enVJNnJIYXhpOXpQN2NEZ016LTMwTkg1cy03UFFCMW1DY3FLVGZ4cldOZ2xwdFp1R29HZVhKX0VuRm5LV2dmcS1zXzNVV09idEk3ekZjSVRmd25FRTZQMTU1V1BBQjdCUl9PT2FENG1ETnJaVGtEVmUzWkRxTQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-22T18:12:11+00:00"
   },
   {
     "label": "Anleihen",
@@ -320,6 +392,14 @@
     "published": "2026-10-22T11:23:44+00:00"
   },
   {
+    "label": "APA",
+    "topic": "APA",
+    "title": "APA Corp's Dividend Analysis - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMDE4WlI0aklCWGFITlc2RG5Cby1xMkhYRm5UejJzd1ozdmtuS2JOZFdlM3hRLTNoTjhRdXkwMTM2a2NOekdJNGRwc0s1dHB4YnU2MGJUX2ZNNzZOSl9iMEhHSWJCbDNZRzJrX2owUm5zYkR4VE5GeVpWZzNtM1VLc2dIQUlGRjVNd2xDMnZhMXBxNGtLaWtZ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-22T11:01:36+00:00"
+  },
+  {
     "label": "NFLX",
     "topic": "NFLX",
     "title": "Netflix is losing viewers — but they're still subscribed - Yahoo Finance",
@@ -414,6 +494,14 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc0JaU05EWGtzNHRUOHV4ZUlPSGxhTHFVUC1Nel9ESFkwODVuWUtoMnAzdW9wcjNSSndDTUpxU1VCbUN4elhFYlNFQklrWVRMTnhjVTVOUGt0WGhfdFdGMGhsb0JhaXFTOURGODczazhIX3dnd1dkQXpEVFU4R3pTM3JpMEIyVjVDcG5NYzRUM29iMHRTeTVmakM1S2dJQnFa?oc=5",
     "source": "CNBC",
     "published": "2026-10-21T21:04:10+00:00"
+  },
+  {
+    "label": "HAL",
+    "topic": "HAL",
+    "title": "Halliburton Co. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQjBhRFZMdjZNV3p2b3NhTDNRTW9lZDZqMngzNndMZHFCQ1pBLURoU0tEbzZSZ2hpR0RaZkMwX0c0Ym1vQlh3dGk5UG52NmJpcUk1RDZnaUtDVjdjXzZRclFXWE55VVdWUng4cWlKd1VpN0owVlhDb05LcDRPeWdOclpFMGNtWG9PT1p6NTZ4MXVBbnpaZzdSeGFOM2FqdXlfRkNlWU1oc1JsWDlqcEQteVRhMFRsb054WkYwTHR1UFp1empyaHR5N01ld1UyS0RrNEU5YjJEczQ3S0tw?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-21T20:59:00+00:00"
   },
   {
     "label": "AMAT",
@@ -840,6 +928,14 @@
     "published": "2026-10-20T11:03:02+00:00"
   },
   {
+    "label": "HAL",
+    "topic": "HAL",
+    "title": "Halliburton (HAL) Surpasses Q3 Earnings and Revenue Estimates - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdUNCLVNfejNwWndCWWozcTd0WTRldHZaUjBCZTQwTjlKWE03Rk9zdHYwMV9GRVhheU83eHMxVF9xSEEtb1F6YVpIVjlnbUE2cDVtQjdUOVlnYUw4VnBJbmRMWF9mNWZNT3MwR2FhX2cyb3BKekc1enJTZVAyNGt0RHZoVXpzWnRYcXRidHd6STlHZGxIWGMwWklCWFNBbHFJVk9SZA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-20T11:00:01+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Renditen",
     "title": "French bond yields near 24-year high as new protests loom - Yahoo Finance",
@@ -1030,53 +1126,5 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSDJYSnF2Z1RKU0xQZnVFUGUtdzhFUk1NMEoxa3hqSm9nSWZvWFdvNDd5MFAzYWttYkV6ajZaOXZRdEhXX0VuVG1HOWs2eHk2SDBwTUpjLWJmWUZxTndDYVZTWUpMZ2YtcHJ5S2otV01sSWJ4b3lyQ2lNcUhPRzN3dVIxWm4wZndQT3A1bXRqQzJCczg?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-19T17:36:42+00:00"
-  },
-  {
-    "label": "005930.KS",
-    "topic": "005930.KS",
-    "title": "Samsung Stock And 2 AI Hardware Shares Retail Investors Are Watching - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeDlrVTRjeEtxem1OR2lUTXNjeTVSMXJyeWUybXJrQVAtYWRVcC0xV2tYZThRQ1pFMW4zWm5oMkdud09GMjlibzk2N0JmUFJDT2RsUmwwdWpvOW1pdUF2SXFXQW1aS2hqUUNIaGJKZmNHa2lhUmNCMTM2WEVBMG45RTRIeTlUSWw5R05IaTR5cUZjSGdROVE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-19T17:11:29+00:00"
-  },
-  {
-    "label": "AMZN",
-    "topic": "AMZN",
-    "title": "Stocks making the biggest moves midday: Sandisk, Marvell, Datadog, Cleveland-Cliffs, Amazon & more - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVGsyYklkaU02NXdOSWxKaThEUFZBMV9aNDhmSXV1V1dpa3gxeTRoWGl4VmFLNVpiTld6eDN3QUc0dkc3dHpUMWlKeWNETXVsU0dCM3dwWVI1ZnNpVEctLWJOdHVkd25rM1FCSVJDMl9EZjdWbUM1X3Y2U3FKajgxMnBwVjBYRDlkd2tMaWlQLWhZYlpKeHA2SVRrVFl6XzNC?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-19T16:56:45+00:00"
-  },
-  {
-    "label": "Konsum",
-    "topic": "Konsum",
-    "title": "4 Retail Stocks to Strengthen Your Portfolio on Surging Retail Sales - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRExXekozVEFyZnRvVk9xbHFOMU1pWU51WGN5Rm5YWWZCdUVicThUNFFITExkT21pSk5kNl8yY3B3SldPVm9FR3hrOTR4Y2c4SER5emFhZmg5bTJyWmVDdEJ2OHpPQ1haa2NvRThRNDJ1MHdyUktUcVFlZTlLX0kxeXJaU2pVLXM1QjNsX2NHbTJRVkh3dWMzMGFUMkFXa0VhM1R3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-19T14:00:00+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Intel leads chip stocks higher as investors jump back into AI trade - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTEt3a3NfQVIwNnB5bDRyMWtCdU1fVjN6YXlGOFhwVF9VdWhhVW5aSi1lTzZPSVdFVUhrOFJJWXJpM29yOEVXVWwzWVRDalJHREZqMkVsS0prYjJtYXROOGh0ejdwY2JzclFTNk1EVE9BSVdWejd6RnBJa2Z6azJFdEhYdS1UMWdmSGFKYzBtLVJ5RlYxcWQxRUZzdllGUXNibUNCNnh0VmlSdmZWNjA2QjVOQ3VuaWFwTE8wX0ZiYVRpQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-19T13:57:26+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "US defence stocks tumble as investors bet on Democratic election sweep - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTTA4clpLQkN0ZDkxX1dYY0ItRUZKNEcwblhqbmhjNGt4VjFweWlzQXFBU3REdk1lODJfeFRTY1RjV2laT2xNa2NkQXdIem10WWloM0JfMjk2WmRzYm5zZkdRMmdMY2xSVzY0QlM1MUlLak1oM1RheHppQnFySnRYanFmR0U?oc=5",
-    "source": "Financial Times",
-    "published": "2026-10-19T13:04:40+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500, Nasdaq set to open higher as AI stocks rebound ahead of earnings rush - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa1dPVUpMX284bG5SR2tYTE5ydE5DYkFBUzI1ZGoyTEJkSnNsZU9ISHd5YVlnbEZEMWNaVVBhT2QxaVN2UEQ2SFRjUEVMUDgteTV4ZWxTUlRwMWtTckhWT2dZSThiU3ZkSE4tSVFnUUsxME9ZdTZLYngxRTYyaG9rbzJoVGwwN0NHVjVCQUlLMTcybktG?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-19T13:03:54+00:00"
   }
 ]
