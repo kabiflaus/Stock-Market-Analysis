@@ -160,8 +160,8 @@
     "published": "2026-10-23T11:00:29+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
+    "label": "S&P 500",
+    "topic": "S&P 500",
     "title": "Nasdaq, Dow, S&P 500 Futures Drop Premarket: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON0pWLThkWllqVTRvcVRMY1NVeUN0UVNxa08tNkRhbzQxTUFlaTZON1BOYkh4bDEtaHB4X2d6dHk3VS1sVDhYMEhhZ0IyMVpjTXJjWVJ3WE9ZTDdWWG9paC1zdHZpbFpFNVZNTk9aYXhQRnRtWVlXRE0tZ2hOaDFmc2RIQUV5aTRBbEJaaDNsWUNxUXc?oc=5",
     "source": "Yahoo Finance",
@@ -192,8 +192,8 @@
     "published": "2026-10-23T08:44:00+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "How the French bond drama affects U.S. markets - Axios",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CNG1BdlVuVGZrdTl4X3BoX2J3ZHF6bEM1ZFN0ZjlMa2lLRmhTWEU4UzNLNUxyeE1vZnZhRm1wMkpGSV9xM1ROMkFpdzNXa3hQTUhKdEFPNGs1YUt6XzJTZXpza0JRLVIwZHhRRWlR?oc=5",
     "source": "Axios",
@@ -514,7 +514,7 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as oil climbs, investors weigh Tesla, Meta earnings - Yahoo Finance",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures tumble as oil climbs, investors weigh Tesla, Meta earnings - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdXJjNWgxTzlXaXBEejRVWmJFVFBISzd6QkFvSTZxX0x3UWllaFJaTVVlOXQtZDlQTV9XZVQ3eWhVckdpLUhJZTVJUl9PSXU3dmtoSWZfM2xSUDZ3SXFVNFN3LWRhREx2NDVmbjhhdlJuM1pETkZ1RGowUjRFaWFReWRoVXdYRVlsdm9pMmdHSFV0N01mN3RIWUhwVEp2eG5PQzdEWTBhZ3dXaFF0MTl5ZVNfblF6Y0VsUmk4Qk1B?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-22T11:23:44+00:00"
@@ -696,6 +696,14 @@
     "published": "2026-10-21T20:33:59+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
+    "title": "French Bond Yields Hit Multiyear Highs, U.S. Treasury Yields Edge Higher - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjZaQ0ppejRjOTV4RjRkcGw0MEJ5ampIZktRVWExSzh3Wk9IdDlGeTlNOTFSQWxDV1ZpaS1FZUZhd3N2QVpBc2dNcjJKdWFldlpsTW41LXJJTy1oM1ZRQVBJeXhhYXFUYVpqZkNDWlVaQmRpSlFrS04zcTU0ZUk5dDZiendGaVJubWp2Nm40T3lhWklfSUl3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-21T20:30:00+00:00"
+  },
+  {
     "label": "LRCX",
     "topic": "LRCX",
     "title": "No surprises in Lam Research’s (NASDAQ:LRCX) Q3 sales numbers but stock drops - Yahoo Finance",
@@ -806,14 +814,6 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNU05dkh1MVg0RHZlaHdtQ0ppSldvcTRHc1l5ZXF1ZUZDVkVvUDlkQ0FUSTRiQUpRbS1uV1VPT2g5NlRETXMtSGtJaHl0UW52Y1IzaS1hXzFqRkZPd3RCTGVfWDltN19hamZBR3lEekFGYXZtM01KbUtaRENXRUNyS2t5Y3YwMlVpaEhEdi1NbEY5OWRP?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-21T09:23:36+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
-    "title": "Eurozone Bond Yields Rise, U.S. Treasury Yields Steady - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjZaQ0ppejRjOTV4RjRkcGw0MEJ5ampIZktRVWExSzh3Wk9IdDlGeTlNOTFSQWxDV1ZpaS1FZUZhd3N2QVpBc2dNcjJKdWFldlpsTW41LXJJTy1oM1ZRQVBJeXhhYXFUYVpqZkNDWlVaQmRpSlFrS04zcTU0ZUk5dDZiendGaVJubWp2Nm40T3lhWklfSUl3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-21T09:14:00+00:00"
   },
   {
     "label": "Anleihen",
@@ -1054,53 +1054,5 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMWExbFYteDZjLXkzNTdrM1FYdzhBMTZJVDBWcE9zdWF3RWdsQmprN1VFbDhMbXhuQTVnaWs1YTlDb2UxaUxWTVB4LWZMempadzRxMXJ1SlVTbHNDMmR6NThQcjRGWU9IU2RySnNrR1QyX0ZCdmZ0X2RsejUzOFBQQWJDYUN4WHVRRFlMa2ZCUmQ3ckVOVEdaaDFB?oc=5",
     "source": "CNBC",
     "published": "2026-10-20T11:57:52+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq futures fall as oil prices jump, key earnings loom - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-20T11:26:25+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Federal Reserve issues chilling warning to 3.1M US homeowners and every American with a credit card — act before Oct. 28 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLTZTSUdaMURJRTdQUjFOeTFSNGpIenNnODdDMWp6RU5FUVZqUmhmTUZ1WENUZnNraGVkUzV1amRXdG5RTDNfWEhaLUJhcjhCdDlVeEdsY2xmX0YzdU13dGRkUjI3Nzl4X3Zud0hoMGlackk1cnBBUGNXdmFjQjJGT0tDWlQ5VVF5OGZFUFYzUV8zNkw2Z0hVaUZweUdkckE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-20T11:15:00+00:00"
-  },
-  {
-    "label": "AMZN",
-    "topic": "AMZN",
-    "title": "What Is Amazon Stock's Biggest Opportunity? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdG1CR29sVUlYVWJWdEtFTGVfQW4tS3pMSGZzTzBIeS1YQXBhSVFuWDNlY0d5czA0LWVpRklSR3lBdjZ4ZzdVU0tTSFVqZE9IM3YxeFVieklSZlJURE54VzgtSGFWTWFGOW9nclR3Q1JjTlJuYm1SQ3FScEFQWDJBR2g4bzJzS19panpTRVNZT2RTaTFOMVprZFZCWG0xR0U?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-20T11:03:02+00:00"
-  },
-  {
-    "label": "HAL",
-    "topic": "HAL",
-    "title": "Halliburton (HAL) Surpasses Q3 Earnings and Revenue Estimates - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdUNCLVNfejNwWndCWWozcTd0WTRldHZaUjBCZTQwTjlKWE03Rk9zdHYwMV9GRVhheU83eHMxVF9xSEEtb1F6YVpIVjlnbUE2cDVtQjdUOVlnYUw4VnBJbmRMWF9mNWZNT3MwR2FhX2cyb3BKekc1enJTZVAyNGt0RHZoVXpzWnRYcXRidHd6STlHZGxIWGMwWklCWFNBbHFJVk9SZA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-20T11:00:01+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
-    "title": "French bond yields near 24-year high as new protests loom - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcDlSVG5vNFE3Nm1Nc2ppLXFPSXdUS1VuVDBXYzBIMVl1U3ZncnNBZTRDNzBGNk1XcnR6dnhMZWxKTjd4ckJIOHhjWHNmRy1vWGlGVlB1aUNSNGxINXhBMUxQZG5MUmxWUnVaYXFIYkwwelJpWXNRaklON2l3YnRlYk5uWGMyWEhBeGlvTWlGalVrQWZGOFE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-20T10:41:19+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "The Federal Reserve Just Warned More Rate Hikes Are Likely Coming. History Has Good and Bad News for Investors - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVThfM2hDTk54bHNadkhBR0I5TWtCQ2xmSmdrVlRDcXZFVTNnMXcwZXFkMkZkV0NFTHZSN1k2WkZqb3dEYXdReDc0a1pOSTdkNjZ5MWFMQlZUY3c1OHd6dWo3YnZVOVdmV1Q3Z2hNbEJkWlRtdXU1eWw5VC11ZkY0OWdkcUw0SHJJQS03TFhnUC1qU3VHeUp1ZFZR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-20T10:22:00+00:00"
   }
 ]
