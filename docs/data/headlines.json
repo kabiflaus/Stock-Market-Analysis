@@ -1,5 +1,21 @@
 [
   {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "YieldMax® Introduces Option Income Strategy ETF on SK hynix Inc. (SKHY) - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS0lKbkVRLWtGSHhtY3V5T3QyU0hWTmZTaGlyRVJuUDhray1GTEpfM3JtcmpMUENDdzBVbGV6S2JMdXBQa0NRSHNBQ1J4bU15Y3dSWHlaa1YtT25CSURQYWNOVER5ZW82VDBDTWlyTldKaGdhWWl4aVl2cTRYMGtjNDluSS1TMnpQaXpsYlJvNWlqWkEtZHc?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-10-27T12:30:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "US Stock Market Today: S&P 500 Futures Ease As Traders Weigh Fed Path - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1RNZHdNdmVsMk5EODNxZ3J3TTdtMURZU3phR0ZhSlpCcC1fNmpJLWZkek5JQXVEWUtyYl84dkY2SjhJRUt0NVRmaGhxSW5wMTZPWVpXbC05MmVfa0JsdGk4cnZOaGV4X3Nzd1NrYUdnRmk0VVItNExybUJxaVNILVBIR2ZqQ3FDMUlQR1NNSERhZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-27T12:09:12+00:00"
+  },
+  {
     "label": "DAX",
     "topic": "DAX",
     "title": "DAX Turbo L 24708.2198 open end (VON) | Kurs, Chart, Analysen | DE000VY7D0Q6 - n-tv.de",
@@ -64,8 +80,8 @@
     "published": "2026-10-27T02:46:00+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Dow, S&P 500, Nasdaq Futures Climb As Tech Stocks Get A Boost From Anthropic IPO Listing: SOFI, BB, PYPL, CLS In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU2lDZllmMXloaklnT0JJT05vNTJOeTdyYVc0bm8tUFBjUWZXVUlaVHNSYjYtRVNySGh2eHdCY2FHeEZPN3VmN1RUdzlITzliM3BuNlNSWlROWk1iZk1UeFl1eG9wR1o1clRwdFQ1bzA1ZGhrV29sYmh3TXhmMzhSZGV5UC10RFFaVWE3M0d1dnU2Y1k?oc=5",
     "source": "Yahoo Finance",
@@ -78,6 +94,14 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc3VRRFNCaDlHTDliTGZNZ0RPWldLbXpjeWljeVducGNXVTd4VVBoRy1VaVVNX0RlLUM2UFpJQW5wUlMyMmxLZHhiSXkwZXlXU25NekNoMmx3b0hlVjF1RDNSck9GU3VHaFdCYU13OV8xaVVmRWJFbWpsX211VkkwLXBISG9XVG9UdVlCdXVQSlp0OEdpbVc2aENGdXFoQkp4R1dLU0gyc1ZGcGNCeXJabkF6bWpFZkloaU1tZXhheHB6dmVC?oc=5",
     "source": "Reuters",
     "published": "2026-10-27T02:43:00+00:00"
+  },
+  {
+    "label": "TSLA",
+    "topic": "TSLA",
+    "title": "Elon Musk Ally Jason Calacanis Targets 40% Tesla Rally — But His Nearly $1M Uber Bet Aims Higher - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFlMNlc1cW5VXzJobGxTd0h1akFrbURPS19qTjYxcmNYRUJaNF9hRzlrZ2ZSdGRWbkZHbDF3UVdTZ1IyUVFXWjY3djliVlRISHRDT0ZfSzZIUi1Kc1FYSWFLcGlBZDV0R1BIWUhGUDl2RmEyNXdiT0xNdmZzM3JUeFhDeWI4UTdvLTFhRG5WdDlyRGkxbk1HTWROYw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-27T02:30:00+00:00"
   },
   {
     "label": "000660.KS",
@@ -150,6 +174,14 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNmdGT1BrYnFObzJkOUVkRUlxaG54N0hkVldoLTNjTDNwV3A2YlhrMkRhamxTekdUNUhGbHN6TXd5T1REQ1hiZlpxRGQtQ3Z4M0liQzR3VzBGVzB3TGFWWkc4SmJISjNyT0xqLU9KdWE1eDNTWjE5LTNkZUt0RXVYMWJONHVnejJCblZDQmhDTTZQZlpSSW9QZGo2bVZwbHo2?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-26T14:57:30+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures climb, as gains in chip stocks accelerate ahead of the open - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQTnk3bzBzMjhWNGx1QWQ5Ym5TSUFrX2pHQ0VTbWxsaTdhc01oVHdlNmkwSVBQbkk4Wmd6dnRrM21fT0E1T0JnUnd6cTNkNFZGT0dDUkdoc0JILW5LbEZ4WTRfa2FRcmdyVHJiczFwUjdUWU4xV2N3NlBMLTBXbnJJWXM0ZVNwN0RaQmRaSHlRbkVacEZIaE1NbklZMzZZRF9FNFVqUzh4YWFZLXpHSXpfQUdTZklGWGxwSEVDUEo4Sko1c04yQWQzaTZ4a0tvaDVZYVowaXRIUWxEMHJWaU5Mc0JlNkZPdWoxcWltX1pyLTV3cGlDa3NnMzBCQzFKd1JnY19UTS10a2NpQTlDSVBpY1ZyUUVjQm1uaEM1dEQxWWRqT0llUU9VdlgzUVVmNW1uZnY1VGZTZkF3S0gxTVFkMldKSk91cWF5VEhibE45LTRwUm8?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-26T13:31:00+00:00"
   },
   {
     "label": "Anleihen",
@@ -254,6 +286,14 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWmdtektoYkNrYUJwc0k3RlBTOHFkY3B5S3Q4VzdNOFdLNnVobWU3dWp1bTd0azZuTW1BSEtWV3JmUVB2RVQwWWVGY0hNTmZZVmx3cXl4Zk8yTEtJXzVFZ1gxQ3RkS3o3bDVIc1hBQVZleWJRdDdoZE9uNFZMTlNaVWY2OHhTOUpwT2ZMNXVKWE1qS2NuLS1qcklQdw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-26T10:08:54+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed expected to hold rates steady this week despite hot inflation — but signal they're not done hiking - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNV1NyNS1zejVOVGJGN2lpNFRDbnRBajBKbi10NDFjNWtKWWJjNUpYdzNVTjB2cl9Cd0ZyLXJkS0tfTzFlTjBaT0YyS1d0YnJ0Q3RLYnNyaFZUd3QwS3V5Q3g1cWNrRmdEVXhobElocmVwbUg0c0FGTld3ZE53N2FqcVRfcWFMb1pVZTd5U3I2X1hVTkJIX20yOXdscGNIV21IRzNheXFtRENiZ2lhSTFQaFZzMDdILUZGWkc2NWYwOTNPcWlfbnU5SzJmUWtXMlJLTktfMVh1bzZLU0FXRHl1VHZCLWlzb0Z4RTRaMnp5MmY2eU9KSk5j?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-26T09:49:41+00:00"
   },
   {
     "label": "TSLA",
@@ -598,61 +638,5 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeW9YX2JfMVZfN2FVVGZXWmdNS181YzFZaWU5elRHeFlpMmNWZGJ3eWUtcmtPWnl1cFEzZE1aa3lZYkMxM1lYWW93WWw4dzgyQUVuRUd3ZTZiSjdhRVh0Wk0xVndjU2hLdmJHR1FrMExCdFVubWM3QXJubnpXX2NJcUpJQnB0VDFYVlo2STBjYlJ3YUtDdU1vM1Ezb1Y?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-23T13:48:38+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Surging oil prices drag Indian shares to weekly losses - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeVk5bXN2THRVWVBubnpudHpPQ2dreFhuVUxXSUFqZWJLa2psTU1rbjl3UktXTlVabEpvVEM0YUpuZVBUWkJQSjB4X1o1QlI5OEZYNE1fNE5QREZ1RjZqeURTcEFZSm5DbkFGYkFCLVNVYkpRNXRCQ3RMTDExMGVJdS1lUjUtdlBFVkJQY1VXdVBZTF9qVklpbU1YRXp6dHpXNWhqcHVFVFNsZUtQeXV6SGNBTnJYaHBzWlE5SF9EeFpiYllha3c?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-23T12:36:27+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq Futures Steady as AI Selloff Pauses - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbndXR3NtOHBOaElUOFdlSGRWX0ZXWktBZGYyRUdJT21mQWs0dWpMVU9Gd2EyY1dGeE5EcjYyVGgwTVRta3RXU0d0c3k4YmtKckRNanRZY1hMUWlTV0NpR2pCN0ZoTC14STRUVlJQNFcxVFJuWUNwWW1jdGxsVlJBbjZ2dklkODlpT3dVWktBYkl2TVN2Ul92bThwY0pWdw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-23T12:35:00+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "US Stock Market Today: S&P 500 Futures Steady On Strong Jobs And PMI Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDBOQ1dkbktOWXVmaFVma2Q0VHY3NmswODNqTUtCYVUycjdTR2pxVnNKRVFfRTE4LVBtakJtNVRZUVMtUjU1WWlCTmg4dFdrQmpqWWJKQ3NOcjBuclhNZVJaX1ppYkk0RFVvdDFjTi02V3Q3MzdHZVE2YzdWZG1xeXhxdC1SSGtuTkpYdmNrcmI3dw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-23T12:12:28+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Brent At $114 Puts Energy Stocks Back On The Watchlist - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOODJHaGxHcXo4YjRYYWx4eGtIbDlFcl81S1dqSzhvaDZqcktualNzMFZUTnJwbDdEWDVNRkZhTXFxUnJfVVh1R2M1NEdrRzJsSUc1cHBPdFp3a09sc2VSRnRkZDBUQ0wxVFZpdEpLZGNKN1lKQXpmMERPcDhEaFNSa3ZsZUFrY1hfc2RCNTF3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-23T12:11:03+00:00"
-  },
-  {
-    "label": "ADI",
-    "topic": "ADI",
-    "title": "Is Trending Stock Analog Devices, Inc. (ADI) a Buy Now? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT1dYaVZkV1dqMHNaMnA2THNlMWt4dmFScGk4ZVpqS2NVWElFOVVCQXV6cDBQWmRRZ0RTS0VNTVprTUFFeVlsQ2hHaXdkR1BpQVpLTXZHZFNIREppY3RMdUdMRm9lUTRmWUIyalEtY1ZMbkJRWHctWDNSZlNHMms2NXVOd1pyM1NSM252TzlHQWRidmhrVFphOV9YZmVxVU0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-23T12:00:03+00:00"
-  },
-  {
-    "label": "APA",
-    "topic": "APA",
-    "title": "Earnings Preview: What To Expect From APA Corporation's Report - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWjg5VzBPNWMxQnBVbDRHakRmTlFLTTRJUXg2bUdONDRfMmJBaHM3cVhucEV3WWMydXp6ZjJ4SlN6TkdkS3BzenU3Z1JwUW1NVjZXZjRJRmMzeVJHLXROZ29tenRpWERZaVBlOWwzVEhqTkZlaEEwaHdtNXZpNFp5dHhmUWpUSzJLQVYtNTZxZ21BMEpzeGtrcmpHRjN4UQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-23T11:57:44+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbjhUWEhFUEhXV2ZVbHVLbmtmUVdDeUxTRzlsZEdYY3JYd09YdVBYOTE0RVFlYnZZUkNNSmZ2MkRTamo3c0g4bTJrNllYbWpXWXBVMHl2MnNrNnlwVGJMdWYwN3I0alFzaTE4M2FXdWM5WEp2ZXFLWHdDUGRsOGRQWG53R2hwTTg5b1RqenVCNkEyd2NzZ3lmdm8yQWRBUQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-10-23T11:35:00+00:00"
   }
 ]
