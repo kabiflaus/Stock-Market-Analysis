@@ -1,5 +1,29 @@
 [
   {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Nvidia, AMD, and Micron stocks lead chip sector higher for third day in a row - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU1VRUzZlRzhNam5fWHJSdzRDNk9iM3dYN29jUGlidG5vRnV0aG4wVERiVDlPRmVOYmRBR0NZTmwyREdyT1Jtb2h6cURZUUZRbGhVMkFCSmZ1dnp0WVBYWHR6UlNTaXY4Y0NMNk13YU5QMGR3MG8yUG1CalVpYUhWVGtibnVQRXFjZWxwb0NhNzhQSVBtYjhsSWRaNmpQSV9LRGVONUd0UWRUUVBIdWd3VHREdHpaeFFEZXhtVWlURXVKN0hlS085TWJ4cjk?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-28T13:34:51+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "Stock Market Today: Dow, S&P 500 and Nasdaq set to rise with Fed decision on tap; Microsoft and Alphabet results loom; SK Hynix stock soars - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaEVsNXZzNWlCWGt1YnVOVldEcVJBMTNWTnRvbVdud2llM2RzR2ZVSHlSdjlYTFRieVBwNUh2Njg4RTUwZjNUcklYUE9nTnJsVDBacFlFLTNrUlk2YnA2Z0JUU2txNDR3dU1FMTFVTmN1bmR3dTYyX0FJZm9vZm52eS1VYllLaFVBVFBkeExWLThUbnpIaE16eFk1dnd1bzlaNldMOUZlLV96YTRxanNteFZLVFJtSUh2WlhRa0Z1VmxJSFdDc0piT2FB?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-28T13:11:53+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Fed Decision Watch - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZDB6TU1hWGNfUURNLU9FdklBSnVvYXJFdnhPa2tYWEEtZWhSNzNVRGYxVTRqNEUyX0V0ZUQ0anllNEw3eG9ya1lXdUJqbzA3TWFmWHVGTE1sclgza2JpLUc2eVYxOUFobTZaMnBfTnk3R25xeGczR2cyM2Z1Nldna1pVcnBNOFJ1LXJIOXVOWlVvZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-28T12:14:06+00:00"
+  },
+  {
     "label": "S&P 500",
     "topic": "S&P 500",
     "title": "S&P 500 futures inch higher ahead of Fed decision. Nasdaq futures gain after SK Hynix profit boom: Live updates - CNBC",
@@ -48,12 +72,28 @@
     "published": "2026-10-28T09:22:26+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow futures fall, S&P 500 and Nasdaq futures climb ahead of Fed decision, Big Tech earnings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMkpuSUVzcGt0bTd1YktkaThFSTI1elk5OG51cmhRQnZUa0VOYjJRMENGWFBpa1lKYjlIUEtILW5sVVN4cG1hSHdDd2pqc0VTZUVrUHBSX2FyTlNfdm02c2hKZkF2d2h6SXB2Nmd0VTZRYWxJMFJ5Y1A0NHhzZXlvSEVOSXg4c2VfQzF1aG5VaWMtVnE0UVpTWG9EMVBxdlZyOHhZVWZoQS0yUFhuMm9raTd3MlRZUmxsellfY215TWk3d2puMFhpTFhQU1g?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-28T09:00:22+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "Oil Stocks Facing Supply Shock as Brent Tops $115 - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHpLZmxZREEyVUEtMS1KMHZnQ1RRakRNb2tlR2VFdDI5VTdZX3dpa1VBUXVqaXFaZHdNSWZZdUZybk5VSUZnWkNmQVhTYV93UjlONTVkVmtlUnNPdFVva050Y2laSmF3dXJkUkFqemg3MFY0ZzQ5MVRkVUtxZERUbDUyLWNTQ1dHcDFaVXcxbEY?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-28T07:18:30+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "SK hynix Stock Jumps 8% as It Confirms $75 Billion in Shareholder Returns, With $26 Billion Still to Come - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcDA3X21HMWpvR0NsXzRPV3BQbTRpSVFWNUJuVE9mekI1RjFKTDdmNDlzamIzRkVlZnhkQWxlYnp1SmV6czYwcmhUMGRWNGh1cGhMOXdFS1lKd3B6di1OV1NhdFdHVmxNYWVlODhhNFFPR0NienNjbjAyTlVnNFFjcTNsZTI1clhWUGVra3M5SUg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-28T06:27:00+00:00"
   },
   {
     "label": "000660.KS",
@@ -106,18 +146,18 @@
   {
     "label": "Health",
     "topic": "Health",
-    "title": "This pharma stock successfully pivoted from its blockbuster drug. Here's why it might be a buy - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMmRuV2dFZ2JwczBERXp5ZElEY19MN0t0YkhiYlh6dHNaUEo3TEJxS0gybEFGZE5ub0ZOYjBENXhnbVppeWtydDN1UVhPOFB0TXJxU3kwcndfZ0lsdEZLT0dWTm5oT3BIa25VRHE3RXlhajh6RmZXWHUxSWc2NlR6R3JidG5PaXRSQmVpd214eXcxRWJ3aTBuUFBPLXZ6MV9wc1Jja0hJMWtEcXRuVHNJdkc1bG9ZTGV5d2w5T0VmRFByZTFUWVhQWHdnNXhfTWFs?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-27T18:00:23+00:00"
-  },
-  {
-    "label": "Health",
-    "topic": "Health",
     "title": "I just bought this pharma stock for its next generation of blockbuster drugs — and its dividend - CNBC",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGTWZjWTlYUXkySXJRUTA5RjUycTRoRHZSWkRsQ3JRU3NiVkFDZFNoWXl6VnJyNFVSLXMySm96SDlneWxGSDhYc3FmZ0JOOVhtUGdHQzlTeVBSN0xRTTdhVnBHZ1VfUjNpd0dVaEZtblJ1T3p0ZHc?oc=5",
     "source": "CNBC",
     "published": "2026-10-27T18:00:20+00:00"
+  },
+  {
+    "label": "Health",
+    "topic": "Health",
+    "title": "This pharma stock successfully pivoted from its blockbuster drug. Here's why it might be a buy - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMmRuV2dFZ2JwczBERXp5ZElEY19MN0t0YkhiYlh6dHNaUEo3TEJxS0gybEFGZE5ub0ZOYjBENXhnbVppeWtydDN1UVhPOFB0TXJxU3kwcndfZ0lsdEZLT0dWTm5oT3BIa25VRHE3RXlhajh6RmZXWHUxSWc2NlR6R3JidG5PaXRSQmVpd214eXcxRWJ3aTBuUFBPLXZ6MV9wc1Jja0hJMWtEcXRuVHNJdkc1bG9ZTGV5d2w5T0VmRFByZTFUWVhQWHdnNXhfTWFs?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-27T18:00:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -702,21 +742,5 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMVZZdm1LNU1hQXdJN2dval9rNUpjVUp4SXhONjdFOUVQc0JVZXcxaVR3QWVpVlcyVW9ZeHBJUXdxcUxSMWM0UVliN1ZnWGxTWFdDTXAwTWFDMGlvcVdHZXlyMFpWMmQ5ZXJVYnpPYlRBcGF4dUt0dFdCRDVvZzBDdHg4V2NSNnhYaXlhZ2pvaGRvMmswQmFxaw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-24T15:35:00+00:00"
-  },
-  {
-    "label": "DVN",
-    "topic": "DVN",
-    "title": "Q3 Earnings Preview Might Change The Case For Investing In Devon Energy Stock (DVN) - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHpwQXZDbjVYLXREMGR2b0lNbG1Kdmxzc21vbzVFMThUSzRUZHFSNUYtSEFHZXNEUmRRbXFlT09BQVdBYXFzVVFQUUtEcGhEQXhNblpTTVJYYkx0X2hqZUhmbFBvM196Qk1zLW1xLTh6dkJONF9qaXRYeWhBUWdpX2dxYjNDSmY3VE8xTGdRbExjTG1LakVGSmg4ZGlYQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-24T13:07:41+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
-    "title": "Evercore Outlines Key Credit and Treasury Yield Thresholds That Could Signal AI Stock Market Correction - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRjl1bEEwRXhlbUllRjhudk5fT2p6ZzFSX2RSZWh1WXRkTVpvb1k2WjhSZDJzcHpxNlplVGtQc29oWU1ocU1yckVfYWNZY3BNTEtGdW1rVjJEV0ZQdFc3VWp4UU9Day11T3c2dXEwbFJWSDBGNF9OV3lrTmg1cWEtUlcyQzRFTWg5QVBwMEFtbw?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-10-24T11:49:00+00:00"
   }
 ]
