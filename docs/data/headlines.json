@@ -2,6 +2,14 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
+    "title": "Nasdaq-100 futures fall 2% as Amazon and Intel tumble after earnings: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZVVQzRnJqelRyUjFGQjZLZlhIbGsyQUxabzc5TE1TaEx6TWRnaTRRcXVmanBTWXZ0NmhmZWpHeVZFZ3lSX1kyaEhfMnBVMnprQ0xscEpBZzhOWFZLbnZCcUtDUnJJNmdROEhxOVhSRDdFVDd4THg00gF8QVVfeXFMTmgwT1lfNnJpUlczcFVnQW9lanFWbDZzYXRadlNsNmRoS1NSVURVS1VsRjlsWGlZOGhiTkF2X3FJRzJnTllYaTAxdVRCSjgyUlduRGRQTV9kUzNDdFVyQ0VWUHQ3ODU5bW1hZ0hvS2FubEFWMEJnWnAtdUN0bg?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-30T11:08:23+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack - CNBC",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tMXZKWmdhTXNiUV9GZGxzcUNVLUtxUVZTdFFleUhzVW5WWDFNanZPYlRFS0poWDBjREp4TEtTRTV1U1h2MThVMDI5ZF9YSmx2dnQxRHVMd05STkdFcDJlalppLTY5dVI5anliVDViZjllRmg3ZzlDUGxpb1pDNVHSAYQBQVVfeXFMUDN2REVrN0hQMWtxcjRNalQ4cFB2V1ByQnNQYVR3M1NtV3lwTGtlRE9VdjRmM3dYZmNpZXg0NkJtaTBJUnhkNkJkXzdQSW5wUXlxTnN4T1ZEbE90TklEa1Q5azZIdjZRcno3RGpGUmFpdEg1LWRiendMNWpOaUhpbDd5eEwz?oc=5",
     "source": "CNBC",
@@ -38,14 +46,6 @@
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51cTBUdmJTdWRuVFN1QjQxcDh1ZzMtcElOUHNJck5hcVpNSXNzbE9yYjFOakNHMzBDa3Z6ektnUEV4MkYyU1FkNzZ3TXM1S3M?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-30T09:00:21+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq-100 futures fall 2% as Amazon and Intel tumble after earnings: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZVVQzRnJqelRyUjFGQjZLZlhIbGsyQUxabzc5TE1TaEx6TWRnaTRRcXVmanBTWXZ0NmhmZWpHeVZFZ3lSX1kyaEhfMnBVMnprQ0xscEpBZzhOWFZLbnZCcUtDUnJJNmdROEhxOVhSRDdFVDd4THg00gF8QVVfeXFMTmgwT1lfNnJpUlczcFVnQW9lanFWbDZzYXRadlNsNmRoS1NSVURVS1VsRjlsWGlZOGhiTkF2X3FJRzJnTllYaTAxdVRCSjgyUlduRGRQTV9kUzNDdFVyQ0VWUHQ3ODU5bW1hZ0hvS2FubEFWMEJnWnAtdUN0bg?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-30T08:57:25+00:00"
   },
   {
     "label": "S&P 500",
@@ -184,6 +184,14 @@
     "published": "2026-10-29T19:25:22+00:00"
   },
   {
+    "label": "MRVL",
+    "topic": "MRVL",
+    "title": "Why Marvell Stock Is Down Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcUo1LUx2YjBMMFRNRThBUmliQm05REh6VUE2c3JEVFhqTW9neWVoQkM0VmNrc2xEb2ozYUZJV3V4a2xYRy1sbEtRU3lyN0RoN3o0TnpQWmVzLTVZTlJWR0VleWFqdkJpWkFmVVNLWUVRV3dhZmxkRmRyRkRaUmdTRDVoR1B3bmtWTkpWWjZmWTZaR3hpdVhZTw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-29T19:06:02+00:00"
+  },
+  {
     "label": "GOOGL",
     "topic": "GOOGL",
     "title": "Why Alphabet’s stock is on track for its worst day ever after the latest results - MarketWatch",
@@ -222,6 +230,14 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWxxN1QzZjVTN1BseWtSQUxGVW1mQ0JEeDdOUnh3SXNWVDRBYllZR3hZS2p1MWdRVUtMdUtiSldwYnFqRm5icFgtbGpNdTl3YmwzQ1FoM3lRWDUtaG5QS0VnSmwyNU9ndi1CNDNISnE0M1lBeXdhODVGSDhkNFIxVXQyd2lrSTUzSnVaeUpsc2FZbzJjcmtOQTM3dmd5X1M4b3c?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-29T16:49:41+00:00"
+  },
+  {
+    "label": "TXT",
+    "topic": "TXT",
+    "title": "Why Textron Stock Popped on Thursday - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbzctR05Xb1FkRW9wYzhzRjFuNW9JRGRId1U0Mnk4aVVUdDJhMFducC1FVXBmcUVsblVfbUE3ZU1NS1pOWlV5LWtIRHdRbGdNaGdTRWNOdFJJUkFYSWVBZ3lLTmxJcGwtOHRiVzVxd05aYWZPREtzb2ZzdVd3NDZ3S1ozbHMwVHVVcGtVZU9BUzhtZncwY2RhT000Sm50elE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-29T16:30:58+00:00"
   },
   {
     "label": "GOOG",
@@ -1326,13 +1342,5 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY3lGeFcxYW9rYTFjaUtmYkdUOGRaWnNUbFNsMDZlYnZma3RMYy1CRURKbmRzdVhkbHI2dUIwd3BqeWFKYnA2TmxOZXJ6NUtEV2V2d0R3WGRTMVRGZGdiSm8xVkFPUkdub3BEMjIxb0xUTW1Tb3gzUWNBalphd3B2RDdfemRkZDBPUG5tcFlIMDJTSVpXV1dpVkoya0U?oc=5",
     "source": "CNBC",
     "published": "2026-10-26T11:48:22+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "What To Expect From This Week’s Federal Reserve Meeting - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR1g1MjJqM1A4WVk0SHlYMjhTTjRnZk1rdWZSeVh6QnBmbkhqeEFLMS1uQXN3OVB0VEhCMElnak05UFRLRkV2VVlmVno1YzAyOXFXbS1BanllLVRVUkI2eXI1LWRvcDd1M05nWGtLcmtwTHpjQWw0SkNDdkxhWkxiODNWek9CWmV4Mm81dTRHOTFfczJVYzRZ?oc=5",
-    "source": "Investopedia",
-    "published": "2026-10-26T11:33:00+00:00"
   }
 ]
