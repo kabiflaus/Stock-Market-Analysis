@@ -2,6 +2,22 @@
   {
     "label": "INTC",
     "topic": "INTC",
+    "title": "Intel stock plunges 29%. Analysts urge caution on buying the dip - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OVHZQSUVWSmhocUZUSUdWcjFYQ2x2VVE4c1J4Qm02Vm83MnlycEZZbkFWUGU0SjFEM05PZDJxV0JDcjd0ZlV2X2lZZFctSml2S3owcG1TbWw1ZlNxVGVVdGloMlVVOHRacmYwUC1vdjU?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-31T13:02:22+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Chevron Leads 3 Top Energy Stocks To Watch - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQXNHNWhVVGZ2dEF0dnhUWFo5eFgzallNbWdJQ1M3X0xHTTJBWGJjRHdnSkZPUDA4VHZxaUxHV0dvTjFKb0w4aWE2MmdVYUk1V3ZDRkR0MnVOa1JFSWZTTF9QeHp6TXh1RlJjOHRwYk9ITnhPRjlrblpuYk44Q1N3d01ocTlkTDlaRzNZ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-31T08:09:22+00:00"
+  },
+  {
+    "label": "INTC",
+    "topic": "INTC",
     "title": "Why Intel Stock Crashed on Friday - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV3JCcnpwZnhyTG13dWRuc0dMWXFXd0hWOWpFaTJjYmxUSEZYYWtFRHBDLTEzMHJaTDczY24xZ0w2ZGdCbnV2UTJfWGR6SlRJejlXbGg2OHRBbUQyZVlzSS1wNjBtMnhOSnlubUhZS2JnaUQ0NVVQY1BGNDc4M1BQWWNEX0ZOdThUVG1yeVhQV0t0VVd0X1pRNUpXSQ?oc=5",
     "source": "Yahoo Finance",
@@ -56,12 +72,28 @@
     "published": "2026-10-30T20:30:00+00:00"
   },
   {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "AMD’s stock slides after Intel earnings reveal two big issues - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSG1ER3NBSmVWMHJlelZ0akVNa1FTVDFlM1J3b2ZMOWZXanV1cVdDblB6dDlHRmJYZDRVZ2JKWTRfRDIyTkZaNENTZVQ2MGFJUjk2X0ZfU2ZTVjZEcm02VlJZXzQyYmlVdHY2Mm5BaEVvUmN0Tm1rQUF2NWlIQTdLMFpWNVl3QUNvX05MRlg0cmw5d1JQWjAxeUtDeHpVandzY2tDZGxn?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-30T20:28:00+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZVVQzRnJqelRyUjFGQjZLZlhIbGsyQUxabzc5TE1TaEx6TWRnaTRRcXVmanBTWXZ0NmhmZWpHeVZFZ3lSX1kyaEhfMnBVMnprQ0xscEpBZzhOWFZLbnZCcUtDUnJJNmdROEhxOVhSRDdFVDd4THg00gF8QVVfeXFMTmgwT1lfNnJpUlczcFVnQW9lanFWbDZzYXRadlNsNmRoS1NSVURVS1VsRjlsWGlZOGhiTkF2X3FJRzJnTllYaTAxdVRCSjgyUlduRGRQTV9kUzNDdFVyQ0VWUHQ3ODU5bW1hZ0hvS2FubEFWMEJnWnAtdUN0bg?oc=5",
     "source": "CNBC",
     "published": "2026-10-30T20:20:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed officials make case for rate hikes amid ongoing inflation concerns - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObTlSSnpPaC0yUGM0aTNCb3h0cUVRejBTRjg0SXVnT0MwSXNMSzBVS1NFSEpUaGxtOUpzSkZmQlRKWjFWQ2UtNEp2RUgzcWwyMEN3clpKaU1acDlRUGFhS21BTEpWQjdSVURWZjRJd19Tc19pbVVHeWYwUEZLdUlka0x6M1p5WDRMVkVjRmlLTWU?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-30T20:03:43+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -82,10 +114,10 @@
   {
     "label": "AMD",
     "topic": "AMD",
-    "title": "AMD’s stock slides after Intel earnings reveal two big issues - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSG1ER3NBSmVWMHJlelZ0akVNa1FTVDFlM1J3b2ZMOWZXanV1cVdDblB6dDlHRmJYZDRVZ2JKWTRfRDIyTkZaNENTZVQ2MGFJUjk2X0ZfU2ZTVjZEcm02VlJZXzQyYmlVdHY2Mm5BaEVvUmN0Tm1rQUF2NWlIQTdLMFpWNVl3QUNvX05MRlg0cmw5d1JQWjAxeUtDeHpVandzY2tDZGxn?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-30T14:19:00+00:00"
+    "title": "Cathie Wood’s Latest AMD Move Means Absolutely Nothing - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVW9yOHhVaGp4anhqVnRNOEJCVVA3SEpfWklNQjllR29vMzBSRTFvRzJOX1laaWtNOFhKQTFab3hCLTNhNjltNUxhdmFsZ0pvWjNyeWo4Vk9NUU5mdnBjR240OFJ4V2NrdVJMc0lrWTRIM1YyQjJpY2ZVMVprY0VGd3NJc2s1TVo5Mk1taWVWSW9FeDl0UEZB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-30T14:45:08+00:00"
   },
   {
     "label": "MRVL",
@@ -94,6 +126,22 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMXJJcXFOVHBHMDFPc3l1TkdSNE90ODRhSmZnY09lVDMyMXk3YV9NNzBGNm5tTTVXQUJZMncyU0VOM2pHRWlCbGUzNkhXaWk4YVhFS3RzUVl4QkZvbWlBdzA0ay1VR0MxVjhEc3N0LWNUdlk3X0VLemd1TkozelNLRXU4NVdidVF2MUcwc1V3X2NyRHpQV2lxaVNJak95MGpQY2hNb21R?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-30T14:10:38+00:00"
+  },
+  {
+    "label": "INTC",
+    "topic": "INTC",
+    "title": "Intel stock plunges nearly 30%, briefly on pace for its worst day since 1974 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeE9lWWYxRTlOVmpvb29sTFAzRm1vVmI1eWxQbUd4anhXdHpyNFlMSGtpWlJ6ZUpPdFFKWWFqVTZ3bUFvVXpkUWhpQVYyRHNZV2hmdUJtZ1NkWVJVdVlXRWdEQUYxdUpLb24wZGd1S1RiNjFDU2pKR3VTaHlUTFdNbHYtaWFyeUlBM3F3QTRuejZQMVpDMTlmTnNLbk1ha2o0NlRuYXVHMkdTN211N1pWZWtaX1dYclZpV1dEWno4empYbV9waVV1Qw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-30T13:55:26+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields drop as tech stocks appear set to struggle - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOeHNVTy05dWxjMFpMNDVGNjZNN09EaHZGbXdiMkoyN2xyR2t5RVdfMkZXM3BJVlBRNDFnTGNsdDVyNk9YQU9mSi11YUItQmJYSk5lZHkwSG13bVJoVUYtaU5LR3dvdElHOGpQRjdCTDRzbVBwNXVQeThWMTR4NS1DZ1BOUndrcFBZemdrdHVCS083S1NGaS0tVHRoa2s0SG83eUQzVDFVbTFCWEtlelYyZXd2S2hEWks3aFRpMTBsYjJyd0NETF9LRE9UY01IOWpWLXVXU3k2TmRVSHRmcVBKWVA3YzE3NnlldDhSSFFXX0lVYnZEUE9qZEhOOTdjeUF0Y0dsQUFnSFNBMERSc1JZT003bG9NenBKbHlPbk8yVXVlQ085T3ZVNUdPdXZ2TFBtRUE?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-10-30T13:49:00+00:00"
   },
   {
     "label": "S&P 500",
@@ -821,7 +869,7 @@
     "title": "2 Reasons I'd Buy Marvell Stock More Than 20% Below Its Record, and 1 Reason I'd Wait - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTEo1ZW8wb3BhTkZPWXk4aHJKVDcybG1nQWVkNFR0bFBwc0JmSzJHaGJQc2J0aU11U0NFTDJBX18zNUJjbUFPWGVHb3RPOVcyZVRmOG1rdW0tanlSeDJycDRZbjF0Q0FORGlwd011WTV4UUNOcWdjYVhqRnpDaFNKbzBJaVBKVHFsMFAwMFByUjJOYWc?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-10-29T06:16:00+00:00"
+    "published": "2026-10-29T06:16:02+00:00"
   },
   {
     "label": "Anleihen",
@@ -1334,69 +1382,5 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRVkxS1dnQXJieU5TX2VqVV9WMmJMbzhVLU9EdWxuM2NPY2NpVnFDLWtaU21mUEZiUEE3X0hPVG9uaEVvRk5YQTNRd3R0bmF6X201V0Jka19MdWc3M2ZkUmt2d2Rvdm5jSUVoeG9DODFGNUlvX1NGOWE4OGE0UE1GWDUxd0Q0RFpta3kyRHc4Mk5DallseDAybWVYTUpPUDR4bk1tazBFMlNMMFhhMnVsc3JUOWlQY0wyenNtNWdtSWw3NFdGcERnVw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-27T17:54:18+00:00"
-  },
-  {
-    "label": "BA",
-    "topic": "BA",
-    "title": "Boeing shares plunge on slower-than-expected 737 production, weaker free cash flow outlook - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNnZ1c1Q5Q2tSYnRpdnppV25UNEpNekRsVGhpbkdLVk95QjBkenF1Ni0tOFJFYThrcXlnYjhRbUJWMlo2WHlkLUIzNlJ5UUpoN1p3VUh3b1p5TlJlZHBpaENqVmY4RDZPVTFsRHhMZXJKQzhseUM1V2U4TjMySHdvNzZ1VE9MbnI4ajV1dklVemhwWFRrZmtYWF9qYUNjUTFLOVRMaGNVUG0wSDhHcEZMbXNjcWpHWGZqeUEzc3puMGZwd2FvVU93?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-27T17:14:05+00:00"
-  },
-  {
-    "label": "005930.KS",
-    "topic": "005930.KS",
-    "title": "Samsung Electronics Stocks Gain 4.23% With Cash-Return Decisions Approaching - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0szRmU0YzFkeU1aeVhubnU1NnYwVDNSVWdCYlhhUmx6NjVWcXFGSDdwV1NJNU1BX2tNTGlfSjdMR1QtYWtGSG5jQkxuWGNLUDQ3NV9POXZNdXhlVnJEb2RKZHZwYWZaZXBNOS1KQllkWldodXFoNWN5ckU5cDd5dmI3azFLSUNZM2x5cVNmbnc3TnhVTEVxY3RCVGRTQUk?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-27T17:10:23+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Zölle",
-    "title": "50% Tariffs Could Be ‘Catastrophic’ for the Auto Industry. 2 Dates for Investors to Circle on the Calendar. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeTRzU3hTR3ZEMWpvbllFRldTVGFFODFvMTdZRU1rd3dPVDIza1RMekZFRDZaZGF2bGVoNlRMVlR6dW5obTFoNzF4OFk4N2FwcW84SDBCaElNYmVTQ1JFNEtoYktZVlU5Rl9MX1JvejFRc0lwa3ZqZy1MNUlfQXY2SzN1X0MxOE12SkJDM0xuRU8yVjhKMFZESHUtMzlrZWtT?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-27T16:57:41+00:00"
-  },
-  {
-    "label": "LRCX",
-    "topic": "LRCX",
-    "title": "Lam Research Stock Is 45% Below Its High. How Deep Have Past Drops Gone? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcEFReHRWVFVkcURhYkswOHJfQ04taVZYYjlMc0NBUGxJNVdwR0RmLTlKU0FCWUxkbnhCcjg3czJqZDJmY2JwU0xvT1dDUl80RkgxN1V1WF8zNE1wWjFaWUIybTN0SklkZXFNSk5xekFlSjR2VVBrUGNpLXlmYmxFejZEOUYtdGE0d3hjNk5aTmc2ZjN3VURZ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-27T16:52:20+00:00"
-  },
-  {
-    "label": "BA",
-    "topic": "BA",
-    "title": "Why Did Boeing Stock Crash After Earnings? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOczRLTDRxeDktN1FyZXJrOGUwc1A1NWFncFRSbEo4M1lzR21VQzhQaWZtZFp5WndtcXdsOVV4VmNsZjlQZlNtQ0wyb1FiVGJsdXdWdkJzTFYwUnktQW5XUk9jSHpqNkRwa2lvVG1hNVdWSmhoSFRvaU9Pb1RFTXI2ZkQ3LTVPTFV4OUFSSFgyYmpsTGdaNlE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-27T16:44:40+00:00"
-  },
-  {
-    "label": "BA",
-    "topic": "BA",
-    "title": "Boeing shares slump as planemaker cuts 737 jet delivery target - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRVBFOVl1NFVFRWJrYVZhVVkxd2ZLdm5sal9VYjhkRmlEZ1h4SFROYzhTM1NKSTkwNUVwT1UyY21JMXhlS0lRQTZzQW9weWYtenZyUkZVeklBaHpfcmFRalp1Y3VPdC1XZFJIbUZ2YVA2VVFLUUVPVHd5NFdqX0NEcF8yS1I?oc=5",
-    "source": "Financial Times",
-    "published": "2026-10-27T16:00:49+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "How Broadcom’s stock can surge and overcome ‘the biggest dislocation in the market’ - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLXQ0RWN0U21hNlZWMlJMZWtXN2p5MHpyTDA5YXpSdEw5MHFBRVhBUTZCWW9YY2c5VXNNWEd1Y2MxNmNIZFphMXdQc1ktb3J0V29NTU1LX210X2Vtd1RQY2ZnT2VQRU5yc2ZuSUd4WUd3SE9XVE1aY0RYZ2k4QnMyaXNSdFJBcF9tdWlNWXFIQXBZbGVBR1ZHX0x4RnpOckpieHlyY0VTdnNDSzVFX2NDZ0lfVnZzOHRPUGZPMHdqY1U?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-27T15:02:00+00:00"
-  },
-  {
-    "label": "BA",
-    "topic": "BA",
-    "title": "Earnings live updates: Boeing stock falls on mixed Q3 turnaround picture, SoFi surges - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPa2h2c1BGNU1FMzFWSDlUbWZHMGpIOXA0SE43RlVGZW5UVTNCaEtuS21QcUZBVTFVR1hPRjM1UnJCTU13MWJfMWwtSXBsMkJRaWRZV1VhU1Jrb0ZiX0w0dzJQQmJQNjJIUDRYOXEtVnYzM3ZhckxUZWVUcndPazJQSjcwUFFkU2F0QVpRV1g2WUVOTWt3WnNkX0VvRnhwUk4zS0RUcEFVTjR3UUJSd3c1ZmMzUGE4aXVidnlzX1NlMUU2S0xWRDEtZ1BKaXRFMGNzV2VLOVE5X1RBSHVh?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-27T14:02:06+00:00"
   }
 ]
