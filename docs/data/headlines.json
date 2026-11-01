@@ -240,8 +240,8 @@
     "published": "2026-10-30T13:32:17+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Stock market today: Nasdaq futures dive, S&P 500 futures fall as Amazon, Intel earnings rattle investors - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOWhETmpSSk0wdEpDZmRLNlJEUlFnQVhsalg1cEFQc2E0S0FBTzk2cUpoTGxianRiM1Z3OG1pUXdzZ0w4c0VVMk1QYnIwa1hleE9PUUdXejM5YU9PMFJXd2JlTGdpM3c4Q0wzMEJ4ODB0SjRJVkZQQWIydnBIZmRNRFcwMVQ0SnY1NFctZGN4TDBGN1hldFF5OWpXaXBEcFIxLVV1NjBDNVNtM0pv?oc=5",
     "source": "Yahoo Finance",
@@ -310,6 +310,14 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWW9xTGRXN01JR3BTZ1YxbDFNVXg2TzFZdlA3V1BFa3ZnTFEtUktnOFIxZmRBU3djWEZIRmxieEpnVjVtWmc0M054TXgzRHFrTGhJYlo1c1VJcTJjcFhtamJ6ZUIxTzlLVXJzbjBXMDA4LS1lUEZMTm9fMGtQbG5hTmVFNFBkV2FfUENuZGMxWQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-30T10:12:44+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "BOJ declares victory in hitting price target, signals near-term hikes - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2NkbUJhYUg5ekRVRnhPRTNXcTRRekd0RU92a1RJcWhMSDNNZUVMcEJueEl6UWlaaTBYd1VrVmlPVlJrNkNHRXZZRkhDM1NtTFM1Z1E1QUF0b2VZR1N0QTFfYi1XNkNDZDB0b3lLN3hYeUZuWWszcURrbVBNcWlzYmNTeGRTazEzNUtJNnFZR1M3UTdTRExvMi1vWVZ5dw?oc=5",
+    "source": "Reuters",
+    "published": "2026-10-30T09:15:13+00:00"
   },
   {
     "label": "GOOGL",
@@ -478,14 +486,6 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWEZ3bndjSFo3c3JWelFyWmJVUy1TWmZjcTZGUUdIeG5Bd0NLTGN3UDNrSmpxaFBhU2h1WktmQ0QxSUxiSVJQVXFmWTB4dXF4em02SWZwZVN2dVg0Y1cxWjUzdlJhS25vTzJDREZZMFJkaUlEV2FBelNBSWkzeFlJRHdWaEl3YTFOckpITlZ1UUdRYThV?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-29T21:43:30+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "BOJ",
-    "title": "BOJ declares victory in hitting price target, signals near-term hikes - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2NkbUJhYUg5ekRVRnhPRTNXcTRRekd0RU92a1RJcWhMSDNNZUVMcEJueEl6UWlaaTBYd1VrVmlPVlJrNkNHRXZZRkhDM1NtTFM1Z1E1QUF0b2VZR1N0QTFfYi1XNkNDZDB0b3lLN3hYeUZuWWszcURrbVBNcWlzYmNTeGRTazEzNUtJNnFZR1M3UTdTRExvMi1vWVZ5dw?oc=5",
-    "source": "Reuters",
-    "published": "2026-10-29T21:01:00+00:00"
   },
   {
     "label": "GOOGL",
@@ -824,8 +824,8 @@
     "published": "2026-10-29T11:49:13+00:00"
   },
   {
-    "label": "GOOG",
-    "topic": "GOOG",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Alphabet drags on Nasdaq futures as the stock faces a record post-earnings loss - CNBC",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQkd5ODJ4LUh1UnY4OVhkQ3dGNkJ5OVNGWTRNS05Gay1fQU9PcHp6aTZUMWxKUFZUM3VjSTU1VnpMNmdiTjlyWTRHM0tvRG83VUIwQkpRQUtUWGN0Wmo2OE0wbVhfWkF4dkpHcndJRWtRMFBESlR3N3k2eHVsNWp6N1poTmR5TkNPRFI3MHYza9IBlAFBVV95cUxNaHN5RXlhallPM0RPNjhHMEZfRVBmRjlNQmJCWGtmQ19BMXpVbmdTZUx0TVFlNndhN0RMT1FHVHpvamhUT29veUFVOE5ZNmpUa2FXY0FmcTZVeDJMNmw5emFrdkQwQjBCTHpIT21vMGpILXBhemxwcXZlQjlPcGhJT3JiT200YXhSbHNEd1ZBS0Y0bU1x?oc=5",
     "source": "CNBC",
@@ -1134,77 +1134,5 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWjZaTW12WDVDYXhNbU5jUVFMQjFTTEtMaWE3UWxFVF93eFphaWtVV2psMmN1TC15YmY1cVpJenBGdXMzdzcwdE1GZGdiSUxYSFF6amdaM3dCWVlWYUN1OGxhb2VERWZ6OUhuQzY4T2xiaGxOZ0Vlc1dTUXpLWXFhbWFiSkcxMHFMLTdvdFdWRQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-28T18:05:13+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdFBUeFRLQWw3U1J6VVM4YzdOLXNhVUpYQU9wRUU4c2ZNaWwyd1ZoNDVOU2NHYnkxWlBzWENJU1JpVUFnUWFLM2VoNkhUYXJKUXFYM3ppQkNlclB3YmZjY3cwUmZyQ1VpcDdzd0J6djhTa2VKa0ZFTGtwYXV5OVBmTE0yT2FkQdIBiwFBVV95cUxObm5ydm5oUXhBQmNJUTZib3hNbjRuVFFoRVVHZTlxTUpDZkkzSWl3X3B6Vkp1aTZuZjF1QlAzVU9pWXkxVko2M3R3VlVnSld5T19mcHNGX0Q2MGZVUVRkN1hCaVdTN3pPM2tCREQ2R0ctREpNaUNKSTJBVDR5YnVQdmhENGJadk42N1VF?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-28T18:01:17+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed holds rates steady despite concerns over inflation - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVjFqcXcxNFVDRGhYVGxJWGRJMTlJQmxGSDB5WUtrVzVKTGdOeHJuRFlCclpaVmFYQWtuQUx5QkliT0hCY05xN2oxTEs5eFFpa1dfMHBOTkY1Q2FMa3RRYlJhdU5tc2pJQk9KRkp2c1l6bVZFak5FYzUwelRWRnlJX29B0gGHAUFVX3lxTE9YSTVNRm1qMmE1eUZDQUlLdW51bmtLeWxka1JqTDFTMG9rUnNDR21QNFJRTTIxQjZyRlliVzZoYzd2MVVRTmFuQk13bE5qVFJsazZ6S1Jyd2h0RUl5VzM0TlphMFBhU21oUFpkOGRyQjFKVEkyZjVObmVBMVl2S3FTZ0RUVTFiWQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-28T18:00:18+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "Stock Market Today: Dow up 100 points, S&P 500 and Nasdaq gain with Fed decision on tap; Microsoft and Alphabet results loom; SK Hynix stock soars - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaEVsNXZzNWlCWGt1YnVOVldEcVJBMTNWTnRvbVdud2llM2RzR2ZVSHlSdjlYTFRieVBwNUh2Njg4RTUwZjNUcklYUE9nTnJsVDBacFlFLTNrUlk2YnA2Z0JUU2txNDR3dU1FMTFVTmN1bmR3dTYyX0FJZm9vZm52eS1VYllLaFVBVFBkeExWLThUbnpIaE16eFk1dnd1bzlaNldMOUZlLV96YTRxanNteFZLVFJtSUh2WlhRa0Z1VmxJSFdDc0piT2FB?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-28T17:35:19+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "Why Arm’s Q2 Earnings Could Spur a Recovery in Its Stock - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZi1PZm1jY05mMDMzZXNNRXh0WUstaUtvSVd1ZTZLRkg4Y3JGUEgzTVZ1cUptOUk0N3FNZFNOMVNlekp0c0tLMkx1NW5TaThsOTI4dzdNdDlyZ0RoTGVjdlNJdlVTdkRUR0Q0c19veFl6clRJdFF5TzZmTjdYREppUVNmazdSVFFLbm5ZODMyV01neUVa?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-28T17:25:33+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Looking for yield? This could be one of the best times in recent market history to buy corporate bonds - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11LXROTGNDRjNfTG9EZkFLNTZYaGdOLWRFUzhENGJHdDM2d0xuMXBLa0pUNVFTdXhXSGEtWExEUVp4R1BMQ0ZNazZVcWlSdWp3Z2xOUEdkNHI5Y1lyb3RESHNEZ9IBaEFVX3lxTFA3ZGgtcDFMcnk4dm03UHpzUTZBMDFqb2tFa1NnaEN1QUtxdzlsNzI0WkdjWW1QT2x1TTg4WUxRSTlmOENBZkJKQzZrMXhEZHB5RTZJdHdDMGJmZTRQeVY2cU1TbDJqM2VL?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-28T16:19:29+00:00"
-  },
-  {
-    "label": "005930.KS",
-    "topic": "005930.KS",
-    "title": "Samsung Electronics Stocks Rally 9% Ahead of Earnings and Cash-Return Details - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWWY3R2N0Y1I1Z0hzdEltSWxTdzZaTHJqUGZyR0otSU1obWJkdlF0UVE5RHlJcjdWNm1aQ1ZnaEV0b0d2ZnFKdDdpY1JpenlRZ2haaU5hbHNkSml3aHE2UEJ3eEV0LUJQMm90OGNJaVl6M0dXSklnSjlEajVKNFUyTEdFeDNILVg4SDRiclFub3BjR2xGcV8xMkxKYmQ2U0Vf?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-28T15:42:54+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed set to hold interest rates steady in last decision before midterms - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbXpNWFREek1pS2Etd19yTGZPODI1YktUbHdXRVBub0lWS1NLZ0xGRGRMNzZDV3lzUVdvVWU5cVEzWERhcUJielk5OERUYzFXVGpJTUk1WWxMaG9wUU9qeF9HdkhfQ2EtYkN1RE9lbmo1US1tWW50T3FLdjJhZVB5a0F3?oc=5",
-    "source": "The Guardian",
-    "published": "2026-10-28T15:26:00+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "UK brings forward defense spending target, pledging billions to Ukraine - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHTEZkVzBiTnVQTDU5bzVWUE1hN0NrMGJmUV9JelNkRGdZSWMxbGN6cVMtRGU0M19NcGhuS0MxRnFyYnVSR2hwbjVUY2JEa2V0T2E0a0tRN2xYQ1IwbWZlTUk4QWg3bUNMSERZV1RiWXhMdmlxdnpz0gF8QVVfeXFMTzRZVUZWWE9wSjJrN1AtU3h6Z3p3dWRBQzlLQWNvc2dwOHREaVpiWWNYZF94WkRWSS1XaGFpMTNGUVBmQnFObkxDc3RZMllWaTI0UkptTG1jcTM3WEpZX0FYa09TM2xyWmQ3M05aV3RRWGFjUERoQ1hZQ3BsNQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-10-28T14:29:24+00:00"
-  },
-  {
-    "label": "GOOG",
-    "topic": "GOOG",
-    "title": "Alphabet Stock Is Having a Terrible Run in 2026. How Q3 Earnings Could Turn the Tide for GOOG. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ0tyaHhWVzVtYVU0SDJCQS1NOUlSZnZZajhrRS1VTzUtbnU5YXAwcFh0S1JkdFJoSUlFQ05LQ1kwTGRMbWFBUVdMaFpjN1hyUjZNRUpzeFh0ajg3dU9zVkNrS21yYXNaT3QxQ1U1YXZnbkphOFREWTZvUGxLNldGZy1mRTNIeVdKaVdKb2dXRGg2UDU4aURmb2FlWUd0SDN5?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-28T14:10:48+00:00"
   }
 ]
