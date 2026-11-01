@@ -112,6 +112,14 @@
     "published": "2026-10-30T20:20:00+00:00"
   },
   {
+    "label": "INTC",
+    "topic": "INTC",
+    "title": "Intel stock plunges nearly 30%, on pace for its worst day since 1974 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVzZhNDBiSG10QXlBZHhLRlc0OWNfamlJM2hsUnNxamNqT0pVQ3oyMnhWSEhZUmlxYndJUGo4bzRQb200djJHcmt3ZWd0ZnpxVnRRUEo2Y2VxN0lFM0NuN1BfVVAyWFBWS0RSdDFhcmlmRm01UXBQZG1UVmtFU0N1Y0djcEZpYjIwX0NueDc2UTdFMlc1eWJGSnNYVmpySWNZVUd5NWlQLXJHVmthS2x4aTVYYjdzRUxyQVdEMnhNOW4?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-30T20:05:54+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "Fed officials make case for rate hikes amid ongoing inflation concerns - Reuters",
@@ -126,6 +134,14 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN0l1dXR6NGI2OV9OZGVkZHRFdzNqcVBnSGRFamxWZlNaZTNsQmdIbXRHVXc5VE9FZzcyWUI4YU5hai1VZlVtY2ZsQTh0VDgxYmtJT1V3X0NvUEZvRjBDT2VaQUdaeDdIWkZ5MlhraUdTVHJYSlM3RFVzU3lVNjctTzU2eFMzNk5kbDBIWlR2RWJ0NkQ2Znc?oc=5",
     "source": "Reuters",
     "published": "2026-10-30T17:35:43+00:00"
+  },
+  {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "It’s Time to Revisit The Nvidia Vs. AMD Debate - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMFBhZFlXZnVGTnVRSkk4YU9FNXJDQkRXNloyckp3ODhuWGtRVE5WUzJnQ1lfMGZUb1lLN05ITHVKMTgtUDVxLUxJU2ZORTQzX1FjQkpkSWVDWmpVSkMtQTZvQ2NOWkQ4QXZiQ2lENlNrZGJkdlMyT09kR19nTFpiQ0laWGI0c215c3FNcXNJTHNQeDZ5QXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-30T16:45:33+00:00"
   },
   {
     "label": "Nasdaq",
@@ -160,6 +176,14 @@
     "published": "2026-10-30T14:10:38+00:00"
   },
   {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "AMD Expands AI Footprint With Meta: Can It Outpace NVDA & AVGO? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUpTZzVzQVN3dHRNS3Q1M2JxMklqTFhsVUxXUmptSEhPZEVFZmR1RzBpR0dKb0xHaHlJR0ZpdVJodnAyVE1XWEFiUHk2a2tmMy05X2FrRjUwR3ItVnBCbmtwM0VEXzBSaWVuSE53U0ZmRnk0Sm02bHhZZGNoZDlFV3VyTl9fNm1OcHVrczJ0OTVHeEVvUkNGOA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-30T14:05:00+00:00"
+  },
+  {
     "label": "INTC",
     "topic": "INTC",
     "title": "Intel stock plunges nearly 30%, briefly on pace for its worst day since 1974 - Yahoo Finance",
@@ -192,8 +216,8 @@
     "published": "2026-10-30T13:32:17+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
+    "label": "S&P 500",
+    "topic": "S&P 500",
     "title": "Stock market today: Nasdaq futures dive, S&P 500 futures fall as Amazon, Intel earnings rattle investors - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOWhETmpSSk0wdEpDZmRLNlJEUlFnQVhsalg1cEFQc2E0S0FBTzk2cUpoTGxianRiM1Z3OG1pUXdzZ0w4c0VVMk1QYnIwa1hleE9PUUdXejM5YU9PMFJXd2JlTGdpM3c4Q0wzMEJ4ODB0SjRJVkZQQWIydnBIZmRNRFcwMVQ0SnY1NFctZGN4TDBGN1hldFF5OWpXaXBEcFIxLVV1NjBDNVNtM0pv?oc=5",
     "source": "Yahoo Finance",
@@ -502,6 +526,14 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUXJIVVU0akhqSTY0cVZxOXNHbkk1blR6YXdGWTB4MXdUUHptMHZOazNpai1zdER4N09kVXRscGFOMjNDZXAxckxvMURrcnBOT2pMaGZHcm1fajJreTR0VE4wVi14dU9KT0RKaUF1UXhWLUNGcTJ4bXpwSndoZWpMU05mY3hFYm00bDFydHlnTmhtSGc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-29T20:11:48+00:00"
+  },
+  {
+    "label": "INTC",
+    "topic": "INTC",
+    "title": "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlczFWcC1WVTdsdENmNVdsNnJpczI0SzZqRkZuel9NLTdsUG85UlJDVEV4NllwUmRUXy1QZGV6ci1BamdFQTVtQ2hlelhiR21LNzJsQ2dCSzdTc1JCQUdDVU90bGY2a3hIeldPa043TnYtelgtZFh2b04xblrSAYIBQVVfeXFMT0lPRHpDdlR4ZlpnZWc1SS1mTHNjZGE3VVItSnA5bndoU3ByQVFPa2Rzakx2QlFoWW52ZVM1dF9aWjdlczFEby05eHhwaEQ5YllseUJlbjkwRzNva0VWdkM0Tkp3a2tZcTZydktHUXdmZEZwamdwMTBuUUNwY3hDZHRDZw?oc=5",
+    "source": "CNBC",
+    "published": "2026-10-29T20:04:08+00:00"
   },
   {
     "label": "LRCX",
