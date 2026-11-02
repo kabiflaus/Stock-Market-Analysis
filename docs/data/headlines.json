@@ -40,6 +40,22 @@
     "published": "2026-11-02T11:57:36+00:00"
   },
   {
+    "label": "DAX",
+    "topic": "DAX",
+    "title": "DAX Turbo S 27079.51396 open end (SG) | Kurs, Chart, Analysen | DE000SX1DRB4 - n-tv.de",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYmMwRlJNa1VQeDRQVzZvbjl0MW02elhGQ2tTNkl0Vk1WdmpsVWUtXzRYUXEtVUd0XzBWNGFneFhIWHFxaG5CQW5kR3RDZ09CU1ptMFNTZWJBNWJjM1RhU1dnR3RMeXo2U21HWjA1bWxHODZqMjY0TzRLQXY5WTBWbzJNa3EwVEQxTWlfMkln?oc=5",
+    "source": "n-tv.de",
+    "published": "2026-11-02T11:22:24+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Mapping the Market: Risk of rise in key US interest rate remains even after recent fall - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03TXRyYW4tX3J0eFZqREtiS1BjaDFRamlLZnBjM01ydExGSUdiYjI0R1J1d2NYV3pDeUxtRE1PcHBIOVpPSklETkZWcnpxVFdVWUNmVGZsUWdjOS1sbWhMTDNfV1psdGRhN280VjN4ZXhibXE4WWJEM1FJNjc?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-02T11:05:23+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures recover from bruising sell-off ahead of busy week - Yahoo Finance",
@@ -48,12 +64,20 @@
     "published": "2026-11-02T11:00:06+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "S&P 500, Nasdaq Futures Rise Premarket After Wall Street’s Worst Week In Months: AAPL, PLTR, GOOGL, INTC, TGTX In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM2dGUDRxakhxZlROS0didEV3ZkJmMGpSMXM5N2h4ZjF4MWlVNGNTYndOUDlDTlZBaXUydE5hNXBLZjQya2FtLVhJT1FmUEtUcWpNblJEUkJYMW1SdWYtdGNZX0kzUWN1b3BmT0w5Ym82Vm54NGtyT3hxX0U4Y09ha1A1WFVwb2VDSHhTVDBCemhQTnFY?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-02T10:18:32+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields mixed as oil prices tumble ahead of the midterms - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zeUV1S0FMQzdjaTU2S0djZmVVMjNSZ0hKMGdGdHpjU1p3NEs0ckRaNjJlemVySWtTeWZGMkNraWVmR1F5Y3RjUHhxZkxiRlpRXy1UY1VTYm9fWm5WTzhjRDlWOENzazhrWGhkZW130gFzQVVfeXFMUDNESWlyVGRXTEFHaHJxSFp1YXNkeWlQNkk2cXU4eG9maHROb3lZdzhMRzRJOWptcGF4bjZNZzlkTTE0cERiQ25vMGh1MUpvRGFHd3pMaE94N2dCcENocHJ3QlhVLWVlM1dpemVmV2QtWWhidw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-02T09:27:17+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -806,21 +830,5 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWEE4dWlUNFpuLVo5RlZEOXJkTFRXUHBBRTFiZmhTVktManRtbnhncmRuak5iUU43THE5YWJ3YURnLWN3TDJmOXNybHV1N1d4NHZkRjRCY3phMTRpbER2eEZwWmdSQS1jeGx3dWM5UURMNU4tbG83bUxvMl8yMWJ4amQzZzVjeDNXcmhPdFBWUGZEM3AwZ2tQUVhFYm9FNUk4Qnk3bGFnVm9fTXEwZXZnOHlOQm5vcDA2RnZnaEdQdHJtV2xp?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-29T13:59:45+00:00"
-  },
-  {
-    "label": "GOOGL",
-    "topic": "GOOGL",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Alphabet stock sell-off drags on tech, AI jitters return - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZng1SkZyblduakt3V2JCRG1ZRFpaVV9STzdIcXhCWm5IZ3ZFRGJ3bDIyOXVRSVg5czF6N0szY0pxTm40Q2gzM2lCMkJRTldMSF9UUFB1TzFDUDFFQndIZFExX1lFQS1sQV83Sm53WHB1SDJjTzdSVUtEMGNOZ25XYzRCTnJLR1ZyZE9XSTliOTFnM0VhVnRjT3NhVjdXMVVwT1FsWEhxQzF1dzJnd19VOWZaN2tFOHZoeWljaTI1eXpENnpadHlPazhQcDBuckxJUjMyMw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-29T13:53:05+00:00"
-  },
-  {
-    "label": "GOOGL",
-    "topic": "GOOGL",
-    "title": "Alphabet heads for a $500 billion drop in market value, the biggest in its history - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0pfRGxYakdFTWU5eXlYYTd5cGVuVmpzMDFiMDBuX2ZOQVB5aFV1Qmk1dEhXQWwtSVNtU2ZOSTNfVDMxS2NoMUpTbmJ3a0hYOGtvOGJldXlkU3k2N3djaVhDMUNGN0g5Q1J2SzRXMkhXbzI3MUxqd2t5SEszX0JEZWZPUmRSd3VZQmYyZzZZeDNvY0hKaExMcnNTbHhzeTItckpZaEJmbWxodHVla2FKTTN4cmdFY2VjWk96cjdwLUtjX3FMRmZwLVp3SHJiX2xNajBR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-29T13:48:24+00:00"
   }
 ]
