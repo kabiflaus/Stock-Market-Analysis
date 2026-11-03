@@ -1,5 +1,37 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver ahead of midterm election results, AMD earnings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWE9qREJuVE9aaTltanNmU0dLZmNqLTFMM0kxOERKRmZtRWtWQWZUTHBsYXhqQ21kbHZpZ0daRUFzTEpZdVBNOXpxRzdsTklXYmU1TXZERlZrdFZBTkViOWFra1lVVHlPRUlVaUtnQm1WdlJlQzV4Zmt1eF93aVlkYmxyeW9aR01lcTJsS0dIeUdYaFlNQUVOVS0wNzQyaFoxd2hzeDNjcmhVRDlTQjVTX3ZLLVRnVllvV3ZwanFTdVJIT3BXX3llR1dkOA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T14:11:43+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Micron, Nvidia, and AMD lead chip stocks rebound - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR241WmdKTExjbmZJcndhY3BOVG91eVFPT29xVzBLcVQ4NGQtUExYVDlray1hM1c5dENLekg3bkxyaHFramhTTVEwclZnci1uLWdvbi0zc21pbUMzazNZOFlRUEduSDF5al9jRjMxUG5FOGlTaTdTQVVKZVNRTWplRzh4UjdiYnNhZzBpTHlzS0Q4NzZLZmpfcjJLM1p3TlI3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T14:05:38+00:00"
+  },
+  {
+    "label": "LDOS",
+    "topic": "LDOS",
+    "title": "Leidos Reports Stronger Q3 Profit and Raises Earnings Outlook Despite Revenue Shortfall - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYnpkOFR6MjZldVNsdkVxY1hydS1kOFE5N29YZmtqbGN5UlhCaXdJZ2JtdDItMko4X1ZLTFlfWHZxX1Z0Uy1PdHY0M016VDdHUGU3dHJCU0VhUGg1RGYyR3FxR1duRHVQZnktMGNJOHp2OXpUWExXUnJSRjFZeGJyelp6VDlEZ3huR0g4dkJBUVVQeDY1S1FHa0ZxNE9VZjQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T13:38:47+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "US Stock Market Today: S&P 500 Futures Slip On Firm Manufacturing And Jobs Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT2lLVUtpc2JMdU9rbl9TMS00a2ZBaUNnTkJBcHBoc2M2TWJzRTRMZ0h6LVpPZVpmQTNBVVVsTXMwMHNlV2hGTEFHTGdXZXNZUFdpZUZUYldWM3lOYkZsd09Bb2tERUNMdURYS1d4VkdCMnpkVmlTZGxmbDE5NWZkaG4zQ0lCWTVmWVNPQnplR1JfZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T13:13:43+00:00"
+  },
+  {
     "label": "INTC",
     "topic": "INTC",
     "title": "Nancy Pelosi’s Family Bought Intel in July, Right Before Its Worst Day Since 1974 - Yahoo Finance",
@@ -16,12 +48,52 @@
     "published": "2026-11-03T12:32:05+00:00"
   },
   {
+    "label": "LDOS",
+    "topic": "LDOS",
+    "title": "Leidos (NYSE:LDOS) misses Q3 2026 revenue estimates - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWpwaTgwY3FsbGlTMEZFWWdLQ3JBMWktejZDRUQ1WFNvclBRSjB3Q01nVTdfelpLSmtIcFhQYkMtbHJRZ1VBRVNYMEcwMFhyUkZzWUVGSGFyZzl1QWdiWUhLNVctYWJrblhLcjludUxBdmoxUXpLM1QxZHFKaUJQLXdJVFlfOUdUREhCVUpKTUpsb0J5V2c?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T11:32:36+00:00"
+  },
+  {
+    "label": "LDOS",
+    "topic": "LDOS",
+    "title": "Leidos (LDOS) Tops Q3 Earnings Estimates - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVkNUNklhS2lhUHFjNm5SbEN5dWQ4a2ZyMEZRVVVYZk8wNjhSM2ZFMHhiS05tQ0czMFlCb0R3RFk1QkhGR0NyVG9faDdtOXJVRWY2NkdXQ0cxcmt2ZmtXdV8xQ3VqT2kyRE40bHJqTFFhY3VSdEhwVmJEMUxFZUhDb1JwSWtqbmlDbUsxUVBCMWo1ZS1uRTJtOQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T11:25:03+00:00"
+  },
+  {
+    "label": "LDOS",
+    "topic": "LDOS",
+    "title": "Leidos: Q3 Earnings Snapshot - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV2VhRU5rWWJ5d05aZW9UclNoQXN5ZlZ2NUZEVVNnY1NMUGxUVUEwbUZ2N0NoOGh3WGQxMjNBNUhxcDVXRmlOSHEwVXdIUmFYd3NNNjdaemJZZUZOWjl5TTVfR3g4X0tfZkYwN2hFd0R1UUV1elMydG1CbUxCNGEyT3R3RVlHU1ppYTlvRjFLRERiY1VTM184?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T11:11:36+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "ETFs Are Buying Advanced Micro Devices (AMD) on Friday - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOHpnTUpVNU1LZU1QbXlMeHNUbk9JMVlUM3c5LTE1dFdXUU9ocEZCdTg0c2pkUTFfR0tBWWpsNVdqTUg2V1BEeV95bmY2VXJ5clU1eXJSb1hlN25WZmdzM1dHTmZ3Q3ZHZTNrZ19zVXFFUnE3SzJyd2V1Y28wNXhGTGJ4bE5tOHFIZ0pBVENVbXNaMFYzb0V4X3RiOWtJa19U?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-03T11:01:08+00:00"
+  },
+  {
+    "label": "LDOS",
+    "topic": "LDOS",
+    "title": "Leidos Delivers Strong Third Quarter and Enhances Full-Year Guidance - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTGFlcFNHaGVqcGVfNkZZaU1mN2Y5MXlUOWN2SVNyTWxOeWNQM1V6eWMxVUdHR1hYMVRXSjkxYU1Ydk1fQ3FDWjBMa2doQU5ac08zVkROVGx0dE1EOXF6MHRBS1VXZWZVT3pKNVgydVIzelVCb0JfUzd1cDZDc3NmNnhmMWpJVnBGTWJYY0FNZVk2OEIzMFphTWV4VEVqeXNpallz?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T11:00:00+00:00"
+  },
+  {
+    "label": "BAYN.DE",
+    "topic": "BAYN.DE",
+    "title": "Bayer Shares Jump After Pharma Recovery Prompts Outlook Raise - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFRycnhaY3dTUHFuNzB0RTIyeks0OUQzSlRFRFRPSTJjQU80eWprQThvUzFkUkdNSkJrSFFBRm9kbHNIdXdPelQwLUpLVWI0aW9IWVJaOFNlbXU0clRKWnZMczNidVNxQjlhX3Y1RXVzNUVNanQ2dnlySEFtS0FkVlViNldhbzdLNmpnTmxhZFktQTNUc3JvejZR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T09:15:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -176,6 +248,14 @@
     "published": "2026-11-02T14:10:42+00:00"
   },
   {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "Marvell Technology vs. SK Hynix: Which Tech Stock Is a Better Buy for 2027? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbTFQMjBhZ25xYzF2TlVjTlVic1JteVFabFJ6SVpoRXFJUlg2c25GUU1PaG1sZ2FJWnpWY0E2bXFpZ3FaNVBMLWp3dzhqSVRkMVpXRU9pbXg5aHVDNkVJektMRHA1dTI1eFROaWEyLXNFS3dfb0xUTkxTaHRfd2l3NF8zcmc5WnNJTHBBZlNrdW5UOVdEeklHcktMSQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T13:55:02+00:00"
+  },
+  {
     "label": "MRVL",
     "topic": "MRVL",
     "title": "Marvell to Acquire Lumentum in $115 Billion All-Stock Deal as Optical Networking Demand Accelerates - Yahoo Finance",
@@ -198,6 +278,14 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUotU2RVM0hOLXh3NjJONXZBR2MyN1o3ci11dmJ3TmlaTGlNSUlFNXVJSXZ4MWRLVHozX1dzMS0xRG1zeUY2ejBHM1dDRE5PNG1pTjJSelRQWkxMQkhRWk1jZU42cHByWkFzQXFZMkxFcHdwdWJFN1ZMRWhiYXNhNnpMTGxBc3lsM2xWM0xuY2tZdw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-02T13:05:41+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "SK hynix Says Memory Demand Beats Supply Through 2030—What It Means for Micron and SanDisk - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdUJyRWNaTjBXTk4xcnRKa0UxR0lxelRJU3VSNTZsNThTN0psTzJkcUdWRV81N2VxaThWa3k1Z0UycUtnLTlkWGVHeWIxbVZrUTFWS0RuZ3Utd0VMS0xmMXhlclR0WVJ0aDdROHJTTjFwMzFWZThaZkxoRVhsaWJ5RjI1NGtYVjFJYUw3NTVXcHFVdmNfRU5B?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T13:00:00+00:00"
   },
   {
     "label": "MRVL",
@@ -350,6 +438,14 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOTZoZ0V3MlY2RzNzRkV0Q2JnajY0OG5ucjZRbHdIaVZ1aDE5cFFCbU5IYmMwcmdSS3RyOVlQZGVtVE1vSDVBbmNrcG41UTlrdlRLd2NVVUZ2VUluUkRwZDE4TFUybWRUdkd6aXNXOHFEODFEV0loNDk2OF9PamRQX0NuclJuVXEyWlNOa3gzYlJVdmdabS0ySEo1UFZPYTg?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-01T02:20:00+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "SK hynix's Solidigm Is Mulling a $45 Billion Chip Plant Investment. What This Means for SKHY Stock. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORzU4bU00UG9wdE0tNEtkQ2pXbENlc1FXa2lSekRTbFpvM1FCQWZlbEIzZDJTdHZaQUZZaXR5U0xLaDdMWkx2c2VMclhiSG4wd2xFcGdWbDdqUkd5TEEzeUl4dUpEVmZMcHpNQk5vVS11aE82TWo3ck9sb1d1SlV4Qzg3d2Q2UU94MnVyUUtWZnAxcEcx?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-10-31T18:30:03+00:00"
   },
   {
     "label": "INTC",
@@ -550,77 +646,5 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3Z6WkNPa3NRNnlFSkl2d3JPbi00UlRGY25jVjVSLXpYcF8wbW5NRHlGdHVFQ29Qdi1peXp6RU9iY3hrd2kxS2ZUcUJsMUhRQmRPcWZINHNsMTBLYjFTRDM0NUlUN3VSSlQ4NUdmU2k5dm9KTHNsZ3FoUExRRTRCbXFCTkNIb0lQWjhiN0s1RGxNQ0Q3Rm5vMWVBQVFhMUFaalB3?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-10-30T15:09:49+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "The Treasury Market Just Suffered a Historic Sell-Off. History Says the Next Move Could Surprise Investors. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNc01jTGdGLXdqTE1HSEphV1lsUk5uOGJ0Mjc3d3V1d1hrRFQ1amhpS1g1SlZBWGtjU0FvRjBZSnhtM0pFLXlNQmlOUnZxbjNxR1VVLVpUbkpJLUczZ1VNZ3NzbzluMExybGl5bXQxVTNUb2pTb2JHUktkcXdweG1RM0JOYjVzdFJ3MzJyTmZoNVc0NDEyZXk5a0hldVg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-30T14:50:00+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "Cathie Wood’s Latest AMD Move Means Absolutely Nothing - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVW9yOHhVaGp4anhqVnRNOEJCVVA3SEpfWklNQjllR29vMzBSRTFvRzJOX1laaWtNOFhKQTFab3hCLTNhNjltNUxhdmFsZ0pvWjNyeWo4Vk9NUU5mdnBjR240OFJ4V2NrdVJMc0lrWTRIM1YyQjJpY2ZVMVprY0VGd3NJc2s1TVo5Mk1taWVWSW9FeDl0UEZB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-30T14:45:08+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Is Marvell Technology (MRVL) Cheap After Its Lumentum Deal Talks Sent Shares Lower? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMXJJcXFOVHBHMDFPc3l1TkdSNE90ODRhSmZnY09lVDMyMXk3YV9NNzBGNm5tTTVXQUJZMncyU0VOM2pHRWlCbGUzNkhXaWk4YVhFS3RzUVl4QkZvbWlBdzA0ay1VR0MxVjhEc3N0LWNUdlk3X0VLemd1TkozelNLRXU4NVdidVF2MUcwc1V3X2NyRHpQV2lxaVNJak95MGpQY2hNb21R?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-30T14:10:38+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "AMD Expands AI Footprint With Meta: Can It Outpace NVDA & AVGO? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUpTZzVzQVN3dHRNS3Q1M2JxMklqTFhsVUxXUmptSEhPZEVFZmR1RzBpR0dKb0xHaHlJR0ZpdVJodnAyVE1XWEFiUHk2a2tmMy05X2FrRjUwR3ItVnBCbmtwM0VEXzBSaWVuSE53U0ZmRnk0Sm02bHhZZGNoZDlFV3VyTl9fNm1OcHVrczJ0OTVHeEVvUkNGOA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-30T14:05:00+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "Intel stock plunges nearly 30%, briefly on pace for its worst day since 1974 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeE9lWWYxRTlOVmpvb29sTFAzRm1vVmI1eWxQbUd4anhXdHpyNFlMSGtpWlJ6ZUpPdFFKWWFqVTZ3bUFvVXpkUWhpQVYyRHNZV2hmdUJtZ1NkWVJVdVlXRWdEQUYxdUpLb24wZGd1S1RiNjFDU2pKR3VTaHlUTFdNbHYtaWFyeUlBM3F3QTRuejZQMVpDMTlmTnNLbk1ha2o0NlRuYXVHMkdTN211N1pWZWtaX1dYclZpV1dEWno4empYbV9waVV1Qw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-30T13:55:26+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Treasury yields drop as tech stocks appear set to struggle - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOeHNVTy05dWxjMFpMNDVGNjZNN09EaHZGbXdiMkoyN2xyR2t5RVdfMkZXM3BJVlBRNDFnTGNsdDVyNk9YQU9mSi11YUItQmJYSk5lZHkwSG13bVJoVUYtaU5LR3dvdElHOGpQRjdCTDRzbVBwNXVQeThWMTR4NS1DZ1BOUndrcFBZemdrdHVCS083S1NGaS0tVHRoa2s0SG83eUQzVDFVbTFCWEtlelYyZXd2S2hEWks3aFRpMTBsYjJyd0NETF9LRE9UY01IOWpWLXVXU3k2TmRVSHRmcVBKWVA3YzE3NnlldDhSSFFXX0lVYnZEUE9qZEhOOTdjeUF0Y0dsQUFnSFNBMERSc1JZT003bG9NenBKbHlPbk8yVXVlQ085T3ZVNUdPdXZ2TFBtRUE?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-10-30T13:49:00+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Stock market today: Nasdaq dives, S&P 500 and Dow fall as Amazon, Intel earnings fuel tech rout - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMmNEai1SV3dYYlZwUk1QY3FtOXoxZTktbmpocFhsTzNfY0F0OVk2MHRBa2N4ZjEwUXQ3RWRyR250SlladGk0TXI5aF9wa1BHdDk4YkVacGFnTXJqaGswSTFHazB5MWxuNm5sMU1odjV4U0FXR01EQ3k5RmREM0F6d2VlQnh4U29TMXhvWG1VWmJqQjFfQWFvODZyX0djZ2ZHNjFrQzdOd0R1c0RSeHNOMEM0cUplbE5Ecm44Xzhn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-30T13:39:33+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock Market Today: Nasdaq Futures Plunge 2% as Big Tech Sells Off - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWUJhczJfdDVxRTNpd3F2aUUtMzZNNndLelA3alM2YzVjd3I3X081ckwwdVRHaFVNRUVWVlQ4M1FMYUpBUkFhSlhOVTZRY2dYNjA3SXBURHZWM1d6dzlJdzRnZDRkcE5rOTA5OEJ1QU5KZi1KR3hDQkpIVUQxbThSVHBQLUJ6b2lBdjJMcXF5UGUwSENGSTJEc2owTzhTX1k?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-30T13:32:17+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Nasdaq futures dive, S&P 500 futures fall as Amazon, Intel earnings rattle investors - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOWhETmpSSk0wdEpDZmRLNlJEUlFnQVhsalg1cEFQc2E0S0FBTzk2cUpoTGxianRiM1Z3OG1pUXdzZ0w4c0VVMk1QYnIwa1hleE9PUUdXejM5YU9PMFJXd2JlTGdpM3c4Q0wzMEJ4ODB0SjRJVkZQQWIydnBIZmRNRFcwMVQ0SnY1NFctZGN4TDBGN1hldFF5OWpXaXBEcFIxLVV1NjBDNVNtM0pv?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-10-30T13:16:09+00:00"
   }
 ]
