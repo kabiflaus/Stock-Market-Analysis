@@ -1,6 +1,78 @@
 [
   {
     "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaUxDMm5kSHl6UGRsanIwSTVsOTRSRDJUMi1VUXE3eWdhVVZtc1JzNGlkSkpPTDdhLWJRN3MwTlVKTEVRRTZvOWpKdl95MVVac1lkY2kzYy1jMnpmQ0RJZXctTEtNM19HTG9wLWZGMmx0cVl3R1JIbVJSci1RYVI4QW10RjhvNlhkTmFMNnBZb0JNejJTaVhpc2ZPUTRocm56d3dydGNDMTJ2VE1Ybk83QWJkR1FoalA2LUpFbkNFZFl3YjUtV3hHV0hHQ0J5YXQ2ZkVmUjJiYkNncDFLdTY0?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-05T12:33:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 futures steady after midterm rally; Nasdaq lags on chip weakness - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-05T11:35:38+00:00"
+  },
+  {
+    "label": "RHM.DE",
+    "topic": "RHM.DE",
+    "title": "Rheinmetall shares fall 17% as it cuts sales forecast after deal delay - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGNJa2NuRk04Q1lybEdORDlKNmRpMFFYMkYzcG5hOExGTVQ4TVU2OVpRWV8wWG1jZ1dIdGFXbHNrdUZJTG9NZUNEOVpsODJVQTRRZVlGVFdHQXRudWREb1hyMTg4Uk9LVmszMDRoNkxaSnlzTk1sYmxydEUyQ3lxNkw0eEE?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-05T10:30:35+00:00"
+  },
+  {
+    "label": "RHM.DE",
+    "topic": "RHM.DE",
+    "title": "Rheinmetall shares plunge 17% after outlook cut as military contracts stall - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMk84R0loaHlmVk5iMGU4Rm9BY05UaXlrczFBMGlCTVJJc0RBdzM1M3kzRWNxbDQzRnozSTlWZ1RTM1hCcDM0d245bDFNMktPdHpwQklTN3cyT0hfVjRjSU1yLWtCWHpZV3QwSmx1VGR4U04xLTRPTlRzcThCUC0taHFR0gGHAUFVX3lxTE9wd3M1RmtFQ1VSeXVad1JBZDBuUXRHbTlqbGRRcWdYVzQ1VG1pUUNjcXhXUG9QVEpkTkxtOXMzLWFkaTgwTVJPTUIwd2tFbWVNcDRuTEFfWVI2V1JkeXU5eG9ZdzN2S0o1VEIwdE5Sb01fYzlra0hlTHlTcXJLVWs2b1FmYlptVQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-05T07:43:03+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Oil Prices Continue to Fall as Democratic Sweep Shakes Energy Markets - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd2RtaGdSZnUtNEJJRG94X1NxeG5Ib2JpS1lvYUJJcm1SeXRKb3pyVEtMalF3RXlDNVBZNEFfYnRPZFpFZlpRUlpXb2dSVFRIaGNmSlpiQ0FXVHVaaWlWU2FPR2hyUG52SUdRU2ZXTV9DTXdWUHdNMW54SUZnTG5MNW5QYktQWFhMVUlodnY5T0NWcmFTQkdF?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T06:30:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Dow, S&P 500, Nasdaq Futures Mixed After A Democratic Sweep In Midterms: NVDA, MU, SNDK, NBIS, IREN In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObldfcGFoek5LN0JQa25GZXpDbU13VkVyZlAtSHhOdGVBZTZHQ19Cckx5MmttYVllRW5nVVdFMEMxUXN0YXlYTW9jcXVwQzVsUUxJcmp4ZVpfQWpDZ0lNd0xPMmNsNHhwb2FjVHljR2tjTW51WDNUaXM1bXVOdjNFTnVrNEpZTWNSaHdhbWNQbk5wajg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T02:55:00+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "AI stocks, oil fall as investors bet on change after US election 'blue wave' - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-05T02:35:00+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "5-star analyst resets Nvidia stock target after Intel crash - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYUcwZk1keE5vcUlBWHlZMVpBNWxpdjZ5TEZyLUdYaWRzRzFyMjliWmhxSkQzWDhRS0lRMEF5Smg0WTlnV2M4WDlubmhidGlkaDczN0c5Zko5ajNIWm4tLWZ6bUJLOEJlcWllX3N4aUU4QW5OYUNmYkFIS2pmaENhYXBiSQ?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-11-05T00:37:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices plunge after Vance post on Iran war - Axios",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZVFrN1Z2RXhoZjZ0RFROeTFYTlk2VncxYjZJTUk4TlpmbWF1V2NBbEpxb3BjZFZ6dmNOZUNXM3NxSkFzWHRtXzNhc2twMXo3dWlnWUpnYnFMeU51ZGNRWFozOU1BMExoOFJTVXVhNHhwRjM4U21oNm5Ed2VZWjdCVDB6RXR2ZWM?oc=5",
+    "source": "Axios",
+    "published": "2026-11-04T20:05:09+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
     "topic": "Zölle",
     "title": "After the US midterms, what will a lame duck Trump mean for the global economy? - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMnZRT0MyRlJQZFBrYkRoNTB5LV84MXFhZmlpeGhadldPTUtqTnpHQ0RrTDR0eXZPRzQxeURDeTFudHhha0VoUFk4MjJfZ0hjRnp0cFFGUXFGeHd4cFNXSzF4N195TWtGMGdHbkZ6NTdzVWs4bnR3bTVMOUl4MWw5a2VUaWFVaElkOS1QZnh0Z2NOWUZOak83NUNXVFljX1k?oc=5",
@@ -32,20 +104,12 @@
     "published": "2026-11-04T17:46:43+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500 snaps 3-day skid on Election Day as chip stocks rebound - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PbWNuUmM3YXpROGVjV016d1ZUZzlCQmc4a3dJaWpoLTcxeXVzTEFMbTY2bjNGWXljaUtXLWo2bE1QNzZ5NGlTMnA3M0VVQjlhaWN6eUVzOW4xS05EQnd0bEJYMEw0aXJJT3NXWklaNmcxcjVnOWVz0gF8QVVfeXFMTVAyTUQ0UV9iNzQyaThOY04yU1FlSEtRRHpLQXBXZnpvLUV5TklWSzhRaGw2ckowNEtJcXRtWldwelIxYnhDMDFSTzVJVFZwbXZ1Q2QxZWlTUHdUdzdqaW0xMGZIUHlpWlBYWHJ6UGE3cVhRWkpDdTExU29VRQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-04T17:21:30+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Defense firms fall as Democratic victory stokes fears of tighter Pentagon budget - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOFpLTThYU19RaWRwSFg1R0JZZE1lRmFFT0Z5RUxibWtVamtGNlpURUZaMHhYVUdoeWx1cUw2QzdIYWRrQlhTQTQzdFg0bWdqRTRmOHRNNnhBQmZYMk1nbmRRS2VrY0RvSVpaRm9FQ21qSElZb1lRQ2pEZDR5Vm5zZ3FFNjhkYjA1cHg1a2VpOFZGX0dXOXVhNXhHUFlGam5kNjRmd292XzlsX1Q0aldqcmZiWGFxbHRvYjJGUUJfMkU2UHE5Y2NFNVI0SjVDeWVTT3Nj?oc=5",
+    "label": "RHM.DE",
+    "topic": "RHM.DE",
+    "title": "Rheinmetall shares slide as investors question growth outlook after second guidance cut - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaG5GUUZfajZ6MnBKUXVfRWlXaVA2RmNDeUo3ZEdfRTFtUS16WDhOZnFWZ0RqeEhYQzd6OXBtaE9JWWt1UWVfSUx3eWY2NGEwWjJvb003MmdLc1hWSkhwX3dic2tGemtXUDdYNWlUTmFIT0EtT2k1MWRuWE1Ob3FRdWk1eVNSNUxtSDIzRTZ6U1NrZlMtMTBpR2ZUN0xhNGI0emNWUUt2X1lGQQ?oc=5",
     "source": "Reuters",
-    "published": "2026-11-04T17:03:43+00:00"
+    "published": "2026-11-04T17:05:00+00:00"
   },
   {
     "label": "Rüstung",
@@ -54,6 +118,14 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORnVidzc0Ujd4ZzdEdkt4a0tqR1Rxblk5NXIzaFc3U3lIbkY1ZGpWMEdQQVBiSVg3SGZTV3V1VVNlWEsxSmtieDRLY3lVblJpNW5UQ29OTEFCZmdWN0tkaXRIVTgxN1k5ZEk2TFVtWDNIbmYxRTlpX3FqY2JMZVZocnF3RGVleVg0VkpYQWdlcE1rTFFzc2NtbVNsNjRWaEZjRWE4cA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-04T17:02:09+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Defense firms fall as Democratic victory stokes fears of tighter Pentagon budget - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOFpLTThYU19RaWRwSFg1R0JZZE1lRmFFT0Z5RUxibWtVamtGNlpURUZaMHhYVUdoeWx1cUw2QzdIYWRrQlhTQTQzdFg0bWdqRTRmOHRNNnhBQmZYMk1nbmRRS2VrY0RvSVpaRm9FQ21qSElZb1lRQ2pEZDR5Vm5zZ3FFNjhkYjA1cHg1a2VpOFZGX0dXOXVhNXhHUFlGam5kNjRmd292XzlsX1Q0aldqcmZiWGFxbHRvYjJGUUJfMkU2UHE5Y2NFNVI0SjVDeWVTT3Nj?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-04T17:02:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -114,6 +186,14 @@
   {
     "label": "CVS",
     "topic": "CVS",
+    "title": "CVS announces plan to split into 2 companies, separating pharmacy from insurance - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNjd3aUJqQmNYU01LZDk0N0s2QVI4NWZ4ZzlKZTNlZW5aWkhLNnBKVXpERTltRGNteGR0c0xCVG5Ic2ZSX1RNTjZUeU1hdjFFV1hqeVdoZWFTS25KNzBCdXhwWVBJaEM0YVp0U0djMmlzRTN3MVZHcFVXdWNKVHVudmNRVW1oaEFub21xeEhPNnNlNlBBMXRzQUUwNnB0VVZFRGR2bEdUa2dYaFhPMXR4aUNkSUhhTGJjZnF6QUVQV0YxOFNybkM1UVozUUR2dy1RVGc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T12:42:51+00:00"
+  },
+  {
+    "label": "CVS",
+    "topic": "CVS",
     "title": "CVS Health's (NYSE:CVS) Q3 2026: strong sales - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPczF0R0JiTFl0Q2toV0dWX2VhOXhfdkpvX3JiWkdnSTBYdWJ0YlhWVmJjM3JLTnBWMU5uaFhmVnBxaWIzTWNTWW42SW1XNkNwWVVxY20yWXdwam1ZZ0FuUlVONWp2bjNyZkxFcTVORl9jV2JsaWpKbG5oUFdhanB2U2pIMW5LaDZvRjVJ?oc=5",
     "source": "Yahoo Finance",
@@ -140,6 +220,14 @@
     "topic": "CVS",
     "title": "CVS Health (CVS) Beats Q3 Earnings and Revenue Estimates - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVFM4Q3g4TV9mX0EwY2VmaHVMLXJXVUZhUl9aRW5ZVmtjNWZSakVxakxJZDc4WVBvT1Ezb1JETVRzaWhWZVA1VVl2UFF1dTRFNTBpUU1qM09JQ1ZNMXRrRldBOTRsd0xPN2gySjVkaEl4Yy1lMmpFV2JfaWFUc2xEcTZzYTJ1Ymc2a29OQw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T11:50:02+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "Why SK Hynix Plunged in October - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMkoxVHBma2ltS2RJeVpJZGN4dmR3aTZ6ZXlNV3pydmR5bkdSR1hDd1hKVFhqSUlVMVNBOU16WVJ5T21oREhmYmhCeHFZMHNMS1lvYll5c1Y0dnVsZTl5bTFkSkJVTnBSdUVBVngyUFVaMzZXRHg5UjlIRUN0aWo2TFlhN3lzVVgzemJVTkRkMW1fM1VfMXBLUw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-04T11:50:02+00:00"
   },
@@ -200,6 +288,14 @@
     "published": "2026-11-04T07:08:00+00:00"
   },
   {
+    "label": "KOSPI",
+    "topic": "KOSPI",
+    "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-11-04T06:50:40+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop - CNBC",
@@ -240,20 +336,28 @@
     "published": "2026-11-03T21:30:00+00:00"
   },
   {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "Nvidia vs. SK Hynix: Comparing Quarterly Revenue Trajectories - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0FsZjBrX1VnSkZldkctREh3S3hFNUhNWHdEZVNIaWNPamdCTlRzQjZkTk9vZTg3UlpDaE03MGtMd1I2bjhvdHVLTjRVQXBaTXJPeXZMQkRMenk1OHBIamRWeXFBLWlRNVppOGk1MGdUeXpFRkdNYXdfSmpkSWhXRnFjc3FJcTd4eHRUbXFXSENleTNFQ0ZPcA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T21:16:43+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 snaps 3-day skid on Election Day as chip stocks rebound - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PbWNuUmM3YXpROGVjV016d1ZUZzlCQmc4a3dJaWpoLTcxeXVzTEFMbTY2bjNGWXljaUtXLWo2bE1QNzZ5NGlTMnA3M0VVQjlhaWN6eUVzOW4xS05EQnd0bEJYMEw0aXJJT3NXWklaNmcxcjVnOWVz0gF8QVVfeXFMTVAyTUQ0UV9iNzQyaThOY04yU1FlSEtRRHpLQXBXZnpvLUV5TklWSzhRaGw2ckowNEtJcXRtWldwelIxYnhDMDFSTzVJVFZwbXZ1Q2QxZWlTUHdUdzdqaW0xMGZIUHlpWlBYWHJ6UGE3cVhRWkpDdTExU29VRQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-03T21:15:00+00:00"
+  },
+  {
     "label": "MPWR",
     "topic": "MPWR",
     "title": "25 Billionaire Investors Back This Large Cap Tech Stock: Is It a Buy? - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONkpnU3FGdGNFSkFrMFJkeU9hWkcyV2NVZzNLS0h0M2o2N2k0b0h1RGszOFczUng3bm9FUGxDb2pJVEd0d2FMVzhjakZxQ1J1Wkw2eGNVeW9EOW00czF4cXByXzZFQ3lPZnpRd0pIc0VIZFJjU25hd2tTRU5KWm1obm53MWlacUtPQUlycUJWN3BLSzhUOXAwT1lRajg?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-03T19:20:10+00:00"
-  },
-  {
-    "label": "KOSPI",
-    "topic": "KOSPI",
-    "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-11-03T18:54:07+00:00"
   },
   {
     "label": "AI",
@@ -736,6 +840,14 @@
     "published": "2026-11-02T11:57:36+00:00"
   },
   {
+    "label": "KTOS",
+    "topic": "KTOS",
+    "title": "Should You Buy, Hold or Sell KTOS Stock Ahead of Q3 Earnings Release? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVkJxVFViV20td3Bad0NzcDFhSzdySGg5YlBydFZ5dzJJdFZTOFJXSVJWS054clRDZ1pMa2xkVFVjUEdxVW9JUF9zeE1yOFNxU3BNRDNlb3ZLMmxBMDNNb05Qem5nUk1waXZpWkdadWhkSmlUTmhxS19aQ2ZjaEExVWtiME9nejVNUGFsS0Jqdm1CWFk?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T11:38:00+00:00"
+  },
+  {
     "label": "DAX",
     "topic": "DAX",
     "title": "DAX Turbo S 27079.51396 open end (SG) | Kurs, Chart, Analysen | DE000SX1DRB4 - n-tv.de",
@@ -818,7 +930,7 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
-    "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms - CNBC",
+    "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms - CNBC",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQXd1a2c2UEtTYmUxbDlrUGdYYmxXdWJJd19lbVVpa1NCZFNIT1ZpV2xBOEFmY195WVZSLXNIdktTTldXRHVlWHBYN0ZIRmhMb21lRWY0X1U2NERwSzNLSTFaVjNFTmVXWDBrM1BrNE8yTjBjVUdFWG9ET05OdGhPMUstRzljYTjSAYwBQVVfeXFMTVhDTDhNM0RuaF9EMUI4clJLbjhRWVNITUd3Z3BUX2dPaXgzOFVEYlFQajBfbTFpdGtoVzhsUm0tYkdST2VKYjZPbWZCZTNvVnJra1oyU3RWRUNkYmE2dElpVUVGRDBxLWVXYVZlOVBoUy1QNVJ6dHdnOVVJUjdSdm85QWRxWTFDUmMwTHY?oc=5",
     "source": "CNBC",
     "published": "2026-11-02T05:04:26+00:00"
@@ -862,37 +974,5 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVlkwVkNKMGk2RTFiaXlQRzVhQ1BKWkVnTzNJWnM1Rks4N19jaWFWVHJIV0RpRGhHdWRIY1hLMFdfRDQ0Y1REaGJ5OFRRcTRtUG5LUEFKS004bzJzR2stZ3U3bzRsaEI5eGNUS0tFLWYtbDZFR2hTOUo0aXIzQVdmTHJ4MTdaQ2s?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-01T17:07:34+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "SK Hynix Shares Surge. Why It's Not Too Late to Buy the Stock. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTluMFBGcTAwTHhsUGE0MEo5Nm5BdFRXNEpBSTNERUtacy1xNVRPaXJPQzRUdUprV2hPeXRSMGhsdVREcGNNQ0dyVGp0MjZ1Ql9FVUpsaDFlNWRiUVp6QkxpMElfOUFJLXp4em9aLXNKaTRRME43UHpvRVdweUp4UGlXM0xzUTR1U0ZNNDNVR2w5cWJm?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-01T11:35:00+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Trade Futures or S&P 500 Index Options? The IRS Treats 60% of Your Gains as Long-Term, Even on a Day Trade - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd2J1bEtqQzItNjlMS1Q5WE9NaGxSbWNaODBqRTNZQWN5ck81aDJteGRRamxSbXptLXljODVFVmpTbWNZTWcyQVdDY2xJTGpHSTA4eUxJTkRSaVk3cDk1TjcxRThjZjg0RGx6N3JFVE1sY1FuT19pczh0eTJ6eEJZRFNPTEhyaTZmNmloQjU0M2dhejRuVEE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-01T10:13:28+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "Prediction: This Will Be Intel's Stock Price by Year-End 2027 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOTZoZ0V3MlY2RzNzRkV0Q2JnajY0OG5ucjZRbHdIaVZ1aDE5cFFCbU5IYmMwcmdSS3RyOVlQZGVtVE1vSDVBbmNrcG41UTlrdlRLd2NVVUZ2VUluUkRwZDE4TFUybWRUdkd6aXNXOHFEODFEV0loNDk2OF9PamRQX0NuclJuVXEyWlNOa3gzYlJVdmdabS0ySEo1UFZPYTg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-01T02:20:00+00:00"
-  },
-  {
-    "label": "SYK",
-    "topic": "SYK",
-    "title": "Stryker (SYK) Stock Fair Value Falls After Analysts Reset Expectations Following Q3 Guidance - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSEZPalM4UmhpRjZteW03ZEZNWWpkc0tYdFhmZFZGZ1pLcm5QTUY2cE9DTUc0YlhGNnVjbjdHOHI3M25qQ1JVSGFRM2JkTzA4RnNsSUd1N0wzQ2RPNDlBYzNOS1JJcGRIcWZOMVFGN0g2RjlkdWFjZ1dHLWp4X0hJY3U5ajVCWEg4V011TWNqSGQ2SEdqdWRJdQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-01T00:19:00+00:00"
   }
 ]
