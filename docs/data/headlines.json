@@ -16,20 +16,20 @@
     "published": "2026-11-08T10:27:02+00:00"
   },
   {
-    "label": "KOSPI",
-    "topic": "KOSPI",
-    "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-11-08T09:24:30+00:00"
-  },
-  {
     "label": "Energy",
     "topic": "Energy",
     "title": "Devon Energy Stock And Other Oil Producers Facing Inflation Pressure - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQWFqNXdwQUJnT1Qxa3hMVWZjSWZOUzVYanRxeGsyUUF1TFk1Q0ZVV1p5RUx1OHM3WGUzSGwzYUxCbnBNTFVtNW1Qa3c3OGxRYWI4ckt2ZHp0T0dqVVgxRTc0SEtJaWh6VGhOZ004d2MxWG5hVFVhcHdGX3Q5ZVRtZzdHOHpvT045RnVLU1BR?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-07T22:14:13+00:00"
+  },
+  {
+    "label": "KOSPI",
+    "topic": "KOSPI",
+    "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-11-07T16:49:31+00:00"
   },
   {
     "label": "AMD",
@@ -536,6 +536,14 @@
     "published": "2026-11-05T17:34:50+00:00"
   },
   {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "Wedbush Has a Urgent Message for SK Hynix Stock Fans - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNloxTFJ4ZDhUMURtUGFka3BJLTBqbGJEZm1IMDZWX09jUlIxTEVfUi1fVXpHa2FEb2xDQnpxOG0xNmoxOURfTTVQYUNwNUtkS25uQkt5UURfS1k5TmNld2k4WVFzbEd4WGF6S2VWc2lyMlZ3ZDBXQVZLQ1pDbkZFS3p1YlVianZCOTJ6X1VtNXRwUmwxQ05N?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T16:39:37+00:00"
+  },
+  {
     "label": "RHM.DE",
     "topic": "RHM.DE",
     "title": "What Rheinmetall (RHM) Said on Its Q3 Earnings Call - Yahoo Finance",
@@ -886,109 +894,5 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUVFiOF80NnRVTWt2eFdMOUlSaF84SjYzUWtuMDBEQm1hY0c4am9KVTBPV0FSTzZfTjlnc1lzcEZKbWlMYV9vVXM0eXZuNmJpRDQxRmtXMi00b04tc0FhY2lySk9tb1Y3TDRBTUZuUGFNd01vVHBMNnF3QlZ0eEJoZXJfWUZmM3FIc0ZxRGRiQmY1dDNnRy1Pb04zN0RMakFNd04wdUdWUnFKMXl3bHJSZTJwcUNjZUo5S21yMEV3Zw?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-04T18:03:00+00:00"
-  },
-  {
-    "label": "CVS",
-    "topic": "CVS",
-    "title": "CVS Health Corporation Q3 2026 Earnings Call Summary - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdFhjRlkwdDFCSnQ5Tl9JUDdUbHBGelVnV3N0TEJLaEZ5TGREZUdsdTk3MnpzX0VBRjlCbUNCWFE1ODFmV2VWVnQ5THdrU0MxS0VTTUxmbS1WUXlxM0V5TmRVN180blhRU3RPa3BsT0ExRjM3QzZXUS1XczNIblNydURVN2lJN2l3MnNobHdVdmxxdGdKZHc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T17:55:09+00:00"
-  },
-  {
-    "label": "CVS",
-    "topic": "CVS",
-    "title": "Stocks making the biggest moves midday: CoreWeave, Micron, Booking Holdings, McDonald's, CVS Health & more - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQclRmZkd1WURBR2FaVmozZHdlbEdlc0wwNGFCTVI3LXZXbjVnR3FLOGR2RVlpdjM4cmVJMUxpZERENktXUHNzcEFianAtNEF2V2xUSUVMZDdFOGg1S1ZkU2VhLTczTDB0WUUycnpLWk1wRU43UVhySzd6QzJ4Wmg1dkFTQVYtY0xQNm13eW1UZ0lSSFJCREp6MTlzOE8?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-04T17:46:43+00:00"
-  },
-  {
-    "label": "TSLA",
-    "topic": "TSLA",
-    "title": "Why Shares of Elon Musk’s Tesla, SpaceX Are Sliding After the Midterm Elections - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUm9HWHhmNWRzODRQWEt4NUxubEhVRUdQRTA4cjM5bjNocFlObEVmSEN1NTZwN0lfcC1NdVUtMHQxc2M4X2lOQkstUXJLbkh0Q29LaVBvdGU1WGZXa05uSFgyWkgwUUdvWFBhaThPdXc0cW5LRDcyVlJCbmVhbnBUdFVyM3FzUUNwR2NQUHk0WWQ4V2w3ZVhPRmlqaGRmTUhLLTg5Yw?oc=5",
-    "source": "Investopedia",
-    "published": "2026-11-04T17:07:54+00:00"
-  },
-  {
-    "label": "RHM.DE",
-    "topic": "RHM.DE",
-    "title": "Rheinmetall shares slide as investors question growth outlook after second guidance cut - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaG5GUUZfajZ6MnBKUXVfRWlXaVA2RmNDeUo3ZEdfRTFtUS16WDhOZnFWZ0RqeEhYQzd6OXBtaE9JWWt1UWVfSUx3eWY2NGEwWjJvb003MmdLc1hWSkhwX3dic2tGemtXUDdYNWlUTmFIT0EtT2k1MWRuWE1Ob3FRdWk1eVNSNUxtSDIzRTZ6U1NrZlMtMTBpR2ZUN0xhNGI0emNWUUt2X1lGQQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-04T17:05:00+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Defense firms fall as Democratic victory stokes fears of tighter Pentagon budget - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORnVidzc0Ujd4ZzdEdkt4a0tqR1Rxblk5NXIzaFc3U3lIbkY1ZGpWMEdQQVBiSVg3SGZTV3V1VVNlWEsxSmtieDRLY3lVblJpNW5UQ29OTEFCZmdWN0tkaXRIVTgxN1k5ZEk2TFVtWDNIbmYxRTlpX3FqY2JMZVZocnF3RGVleVg0VkpYQWdlcE1rTFFzc2NtbVNsNjRWaEZjRWE4cA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T17:02:09+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Defense firms fall as Democratic victory stokes fears of tighter Pentagon budget - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOFpLTThYU19RaWRwSFg1R0JZZE1lRmFFT0Z5RUxibWtVamtGNlpURUZaMHhYVUdoeWx1cUw2QzdIYWRrQlhTQTQzdFg0bWdqRTRmOHRNNnhBQmZYMk1nbmRRS2VrY0RvSVpaRm9FQ21qSElZb1lRQ2pEZDR5Vm5zZ3FFNjhkYjA1cHg1a2VpOFZGX0dXOXVhNXhHUFlGam5kNjRmd292XzlsX1Q0aldqcmZiWGFxbHRvYjJGUUJfMkU2UHE5Y2NFNVI0SjVDeWVTT3Nj?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-04T17:02:00+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "Advanced Micro Devices (AMD): AI Data Center Sales Jump 107% as Helios Racks Roll Out - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR2pidFhaWmRFZ2Y3Nzg3SFB1YUIxRExMcFY1Z1RTc0NDOWVMUGh5MHBrb2xNNnd6bVBNSlRMNXE3YlpaeUtfMkZ2c2NNT1E5b0lsaVZHaml1RjdyQ3k3bnJ5SElZYmRJNEhqU2hhaUsydWVvNUVrdzhwTTlxT2pVSzFmMUlyakFDWDNSYU9Od2FDQWJlUnJsZA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T16:56:14+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Marvell Stock Has Plunged 46% Since Jensen Huang Called It the Next $1 Trillion Company. Here's Why. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdk9MTGpJeG55dVoxdEZjVWE3NzlUeTUtQ3JsV1pxV0drc1lpa3FmTzRZYzdPaU1xVGJ6bnE0NkU4T2hRb1RwV0Z5cEpOLVVvN1dDeWxNcDBERENIWW1PRFZKRGxzckp4VHZUeUFxS3VtbGxYRmJrUmJTYUlyeWpUUWRFamhKaWMySFVXc2JkN0h3WllkanJmWHNnaw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T16:50:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUUY1eDVzNHZ6MmNpdWJ1aVE4MEk5azk5QlpXV3dHTDdTYzJUeGtnc0lUdWFRNHZaY0hiOEt0Z1hGTVBjVkgycGU4ZE90OEdRUlN4czVBcXV0S2Z0RXctRlNicG5UOTFEeGNkZTZtNlBlUjJSbWVrVl9qLUJST0x5cGt4T0t5SG9E0gGOAUFVX3lxTE9ZT2lFbGJEQWs5RkRuNG9xQTBJTVM3M0hqVHJfSkpiYVBIMl9oa2JmbWNtaFZfRnVQMC1RbU9NeHFqOG5icHZyYUlBa0FSMUg0dmJqcDlBdG04czRiVVlaZlFoNnFEWEJGNjBOX01UWFI0VUtJQXdSZzdzVS0xR2JOaHl3LW1YemRhdF82WHc?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-04T16:43:16+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "Arm Stocks Move Lower as Tonight's Earnings Face a $1.38 Billion Test - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa0hyYTFMdnZuNzZDMUNwWmE1MkFoS0djdXNkUFVTWTdXS0dBcHItUDFlaVFjeVVFTEt2SHRzTDN2REpXbmVXQmRldGJFWHVuaHVpbjBwcUVKMWt1aU40bTdpTlJiMWRMVDVVaWhBWTFsck1jQjB5RkNyU3FLUm5VSTRMOHkweDZxTENiRTBNa0EtNkRSQUthTG05MA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T16:28:54+00:00"
-  },
-  {
-    "label": "AXON",
-    "topic": "AXON",
-    "title": "Should Axon Enterprise Stock be in Your Portfolio Pre-Q3 Earnings? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb0JLM3dUVU9CUURRc2RSYnBjU2R2WEtyVEFxcXM2Q2c1NUlURGtaR2I2MjNDbmxUVlg3N2JCY2h6WkQ1V0dhaEtIZkNmMmpSZkZvS0llOTlOaXJRMDhCNGdjNzJpeTEzSVUzTmZwcUJrcnZuZE9rSmNVSFRCOVd6Wkd2N0tVWGc5YzhMQTBTcXVMcFp3VlNnT3RBdEh2cXZlalE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T15:21:00+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "ARM Holdings earnings setup: Key item to watch for this oversold stock - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeVpWMzdsMGYtd0tuazZTWWJDRUFhdU5UMTJVMzg3bzJXWG9zTE5vYnBnb19ZU0c5VlRHMzJaUDJHOHBZTGlURUpiVkJuRWEtblpxUUlxdE8tR3hSTExod0NtU0h6V0tsZFRoODR4YTllWkVJZW1rdldReWVibDZjaFp1RTcwQ1JwanRwQjA2c09TdnQ0b0R6dndrZEk?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T14:50:20+00:00"
-  },
-  {
-    "label": "SYK",
-    "topic": "SYK",
-    "title": "Are Options Traders Betting on a Big Move in Stryker Stock? - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONFNUamdlMjBpc2hzZUo4eHBpMEkxaDJrWlhaMVU2UnE0cWZOcGQzWFNtUUFFaHNaSWh2LU9aV09RMDl3UE5waXN6MklhZTBITU5HX19raURYLXcxOEE4bl9kUjl1T2QzaTlkWlQzSU40R3lDeFJ4ejU3U09tUU1HQmRaLUloTUp3?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-11-04T14:30:00+00:00"
   }
 ]
