@@ -1,11 +1,123 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Nvidia stock, AI trade in focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdG53R1lmOWxNelNURjQwQjh1a25leVVnRjdkU2lrX2VDemx5VDlJdk56Y24zeXE3dzVOdGtETjlEblo1UGNxdkRXQkR6UXZrT3VVU0pNamhlM0RpMldLdXhxSEdEUnF1WXo0MVZLLW4zb28wclBSdE5ZWmJ6aWVnelpVWUxjcTZLZ1pKNGhpNUVCREExWnJJV3JDMzVFQUF0V0hud2ZYSUJnTVVRV0diNFdpanlSZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T12:57:34+00:00"
+  },
+  {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "Not AMD. Not Intel. This Is the Artificial Intelligence (AI) Chip Stock Nvidia Should Fear Most. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRnJabUV1dGNwV04yN1AtWTN4bVhYZVhvVjl6d0hhZWp5ZEhaTVczNGdoLXV5dnJRZ2ExUmFldmNvRnhwM0FpUDJzdVJLSVF3TDIwQkFOb3RxVTVtZkVRUHZ5eVV0NmU1WlFmbF9BNW1yUE9Dd2pqQWktSENMTHBVdmJPQWFPU0k4TjBEQ2tBdHoxVVhsd1RJ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T12:20:00+00:00"
+  },
+  {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "AMD shares are primed for a comeback, says Oppenheimer - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CYmI5cjRwNEFyb0VzcTdZb3Fic0Jkck9Cd1RLNURuYVdTWEpDSzktSER6TjBCNlplV3VyRkc1NmZnOThHYnBoZTRibUYwWkNkbktuUGE5d2JLM2pQNW9VdnJ5Rl92WjZ5Z0dobmdTLWdySUFSUDl1REVKdw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-09T11:54:06+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "AI Chip Stocks to Watch After TSMC and Nvidia Lift Sentiment - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMjdUbXBaVGdFUXdyemdEMjB3NzN3TnhIYTNscVdxajVQNnFmenk0cThJTnFtQ1NMRmxhdlNjU1V5U2Jfb2NmbklEM2hQVmpTM2Q3ejFnaTBIT0w3RkIyV3p1MWdWT0Zndy1XbTh6SUhBR3pONUZWX2RuX0pISXdwSkU5WmZ4N3cxdUZqLWg4OUdKM1U?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T10:08:34+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields are steady as investors await more economic data - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JVE44LUJheWlkSEJZWlBaUVRGUXR2aGVMbm9yZnNDUnR1alJLSDdlU3Y3RktFcmplWmViVjV1ME1UYU9qSDA1YTN2NUdJbTJvWmZGUU5FZ3VTMU1lV3ppbk10SXBWLWxTcHVWYjRFbw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-09T09:42:37+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Goldman says 'the pieces are in place' for a shift in Treasury yields, global 10-years - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tYTVYTm5XNDhfRVJRaE5pMW5IdTMwdk54eTVjYVZIb0VkTklrbW9QNmptbXp1ai1nQXJQendGNk5NVFFUV3ZKR3J1VFJYaXZkMXp0RTJGS240WXg0a21xTmJWRDk5Mk9uTDhxMUFSUjZma3dU?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-09T08:19:07+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "COMMENTARY: Middle East oil price war heralds post-conflict glut - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWdUbTZOMkxOdnRzOHBPdHRWSFBmNG1jZnFISWQ0MVFaWEc1MUlkTjRuNlhSQzdMQWQxaXQzYTBOTGtBd0NkYnRNTFNHaDlNZ0xwVU1JODVSMFdLZnREeGttWWlEdmE3ZnJwODdnMG5iQnJwRlZBbDZvOEU5UjczRC1UcGo5S0p4U01KZWMzcVBjNEdnWW42clRaR1U5QXpoMHh1bnE0T2phU1I1OEpUVFJJUHN2LThoMFd3WGJR?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-09T07:00:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "Dow, S&P 500, Nasdaq Futures Rebound After Sharp AI Selloff Last Week: NVDA, AMD, VIR, SNDK In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZDJTY1ZadjNGdVRsV19LTFJtd1doSGxMSWxjdWtKX3VuUlViQ2tZNW41WmFjY292ZXlESk1FM3VIaFFXRUt1Qnd5SjZZUkJGSUNLLVRxdUMzSDNWRFk2b3c2eVpRWWl3bGpVLTlJUnVUaXFoQkIwYUlvdlhWTGZ1WG0wa05hZmM0RGtNUGlOaGJqUVE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T03:48:00+00:00"
+  },
+  {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "AMD, AVGO, INTC, MU: Chip Stocks Inch Higher As Investors Look Past Midterms-Led Selloff, Nvidia Controversy - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa3R5aS1PeTV0Mm1Wc1lTeVAtWVQ3ZGI2ZFFiTDJ5WFNNNllvOUVfa1JHWHMwYXB5MzVfWTJ2aGlGVnBUZUhTSVE2X3hablZoX0MtZExqZ2pjYjBMeWZjT3NISC05eWprZGUySjIxS2VYOHQ2RUlDTHdMU1JWc0RPTGhJbVROVldyWkZwdkRYMA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T03:34:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "China",
+    "title": "China's 5.7% Factory Inflation Could Complicate the Fed Path Before US CPI - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNTg2UHZfR0x3UFZmSi1VUjV5YUZRd2Rub3A2aXcwYUlCUWp3ZmtZM0IzendQZHFWdlVXWXVLSzM2Y05sdGZUZ0Q1WTJJZndGTW15Q01mNTc0dzA5TUhtODljQVNPanpaWE52NTZQTE5YSGtJcDBFY1BiaG95QVBBZUhFN2VqMTZSdm55UG1FRzZVNnJ0YmMxcA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T03:26:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "China",
+    "title": "China wholesale inflation hits highest in more than four years as consumer measure slows - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOa3VDQVdKcnVEdTB1WDhYZFQzY3Z2b05ydE1yNnc3Nm1mTE5sa2cwUTNURjUtVXNzb1gwem9kaXhZVENaaUY4Nm9LUGp3NDctaFhtRjJCeTJZLWpsdmZkQkg3TENxekZIRUpVakVwT09GRjNva1BLMjI5b1paUW4yTGd6UQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-09T01:40:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "China",
+    "title": "China's factory-gate inflation at fastest in nearly 4-1/2 years in October, while CPI rise moderates - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdHZHeWlBMm5ScUQ3Um9LTHZLdHpkZzNXNXF0NWlKUjlMaE54NnI2VUhSNktuS3BpWEtldEk4ZklwbDFaLUVGaXcxdVY3ZllyX1o5aFNNX1R0dC03Zzc3NFVkSVdTZDl5dTg0UUF4R1lLQXNlT3NmS29zVjhqQWZPVVU5OXlpLXpWdmpSeEJCVWhrY1FUcnc0REduM3VITEs0TXRvLXRtLUxXMUZYaWl5NmYxZml3MDQzUDMxU20wbWdHWWMzbERkeVZHTQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-09T01:39:00+00:00"
+  },
+  {
+    "label": "KOSPI",
+    "topic": "KOSPI",
+    "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-11-08T21:15:44+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "The Best Energy Stock to Buy With Oil Near $105 Isn't an Oil Producer - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQmRLZDEybXZxWXhvZTV1MFhTWkV3SC1oYVlYV3ZUTmFhSWxnZzROVWhQRmcybWdGeVpSTXp3VU9aMVZGQkpHZW5sMl9DSTNRbVBTM3BiQTc5WHk0cFRJQzZ2dHF2dHhOekJMbUhwZk9tOUVmNVFJdm5EcTV5di1aQmE4alhHQl91anc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-08T13:35:00+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "3 AI Chip Stocks to Buy in November After the October Sell-Off - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObXA0YUdDQXVhemxzNUFhQ1RDaDVjS3FjWXhHZGlYV1lJc09VWGJGbTVfWl9SaXZoVFIwQmpaR2dDcmJZdHF3MTEySkZMbThuZGxTQU9YNzZBckQ1WWdPSkNxWnh1TFkxaFVJbHBMVE5YaXNPc1dPczl3VTNSSm1DMGkzQ2dtckd5eWt4WA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-08T11:05:00+00:00"
   },
   {
     "label": "AMD",
@@ -16,6 +128,14 @@
     "published": "2026-11-08T10:27:02+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOajVLcUVkaFZjT3ZNdm02b0RURTBfVFl3S1htQnF6RDJnWEVRRGgyZWhSVzkwN3VBeVlIc0t0UndNdzVNUGNaTEpweXZlSkl3NEFlcjdqLS0yR3d3QVh2QkZfNzluTE4zMnNWbTZPM3VLSEc4VV93VUU3amhqNV9YV3F0YlNlWTFUaFRGeTQyaW5kSHg0OWxaaGNkelIwRlB4?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-08T07:20:00+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "Devon Energy Stock And Other Oil Producers Facing Inflation Pressure - Yahoo Finance",
@@ -24,12 +144,12 @@
     "published": "2026-11-07T22:14:13+00:00"
   },
   {
-    "label": "KOSPI",
-    "topic": "KOSPI",
-    "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-11-07T16:49:31+00:00"
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "Yomiuri: ECB's Lagarde Hints at December Interest Rate Hike - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbHE5UDMyTTMtOE1JVHNSd2E3Qm1OZzQxTlgxMzRQa292ODZScGhCdUlyR2doTU9FMDlxcHBvbGxCZGZKaDR2Vmk3dnEtUEwzTzdrMFpQY1NyVlhwWm84RERQZ1k1SGRDUDBndmJTbjNUd3lsR25lWkVORnNtREx2WVZsaElPQ0ZCSW5wT3BPRFdEbV91VkFsdzJHZmktbWpRcjh1TnRRRzBoZzdtaUJ2WGRGLUZadGxCTkE?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-07T13:34:00+00:00"
   },
   {
     "label": "AMD",
@@ -80,8 +200,8 @@
     "published": "2026-11-06T21:30:00+00:00"
   },
   {
-    "label": "AMD",
-    "topic": "AMD",
+    "label": "AI",
+    "topic": "AI",
     "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary? - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS05rMlNIQXZwWGRFbUlERjJ6bXlobEFuV19nckJuSlpWZlpKYmJvd1c0Z0FiOGtqc0FaeTItWDBsUkZJY044ZnV0emk5dlBjcVFtNkxBM2xGbzhmRi1adk9XNXpIZVpYNXRubUcwOVNYcHZJVjFzMEducG1pMXFscE9rX0xJazdhaHh0UDZUN3gzZ19aRm4xOG1acE5ONXBVeUVKM1dBb0ZYRjdrUGZNTzBhaEs?oc=5",
     "source": "MarketWatch",
@@ -214,6 +334,14 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbTVOalNJYXNVdEVGNXFzdkM1SWFfS2VEUXZYVnNqUjAzelJlQ2o0TUVPTWdfaWdHZkZWbkFSU2F6M01GbEVoR29IejFVWkhweHJ0TXFGaktRQzNqOE1PS3I5RmplYUloWnpLWTVHRVZOaWZESGxNX3k2WW5FUVcxOHgyY3ZWWFdpemMtR0hFNDlKOVhWN1d2UzJ5VkVYeDRu?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-06T11:45:20+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq Futures Climb as Chip Stocks Bounce After Rout; Key U.S. Jobs Report in Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZGZhdGt2dVpmcDFsMHRqYzJwaEdQNWYxYkxMdEtqWXB6MU5IS0J1VldjZ0Q0MENXVHVJLXFKcEU2QTR6MkNxUkthRVU0Wkd4dW4weUFoTGM3Nll4Vkp6cGxkbGtPZ2JXZjN5aERNM0tHancxYm9lZTVCM2xHSEoxWm90d2p0TFRZQ0IzSUs5R0gyMndwSElFNXVJay1lZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T11:33:55+00:00"
   },
   {
     "label": "Anleihen",
@@ -358,6 +486,14 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwSklwR0ROYnpSbTk3dUZ4WUpNWDRfRjRzYjVGcE90U3VuNmFJRXdwXzFlTVplcEJzT3R5dUV5S21vY1JjRWZYVERSTlg4WHdGMW1hRjdvODg5R3I0MmRLQ2ZOYzFKNnJNRHZLc3dON19tUURZWGF4cUkwQUoybjg?oc=5",
     "source": "CNBC",
     "published": "2026-11-06T00:59:00+00:00"
+  },
+  {
+    "label": "KOSPI",
+    "topic": "KOSPI",
+    "title": "Trading of KOSPI stocks suspended amid tech sell-off - Yonhap News Agency",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91MVRCdnRaend1ZzI4MzdRRFhVOXlFZUpEZTVxdHM4clowNzVDZFFaUXRtbFBaRnl4V2kzTnIzNzZmYWIwckM2clRjdHRCd0hHT3B5NmdlVkw1UQ?oc=5",
+    "source": "Yonhap News Agency",
+    "published": "2026-11-06T00:08:08+00:00"
   },
   {
     "label": "LRCX",
@@ -606,285 +742,5 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEZaWEtSWXFFb2N4RUNSdXRrbktjX1JvWnoyWGM2c1p2dnNrWGMzeTAwdkU3UDlmV2g3aDJvZVVxdG5BZ09RbU1DZWs3MmxodWRka0NXSE1YQmNOMjViTzhKbE9Qa1Y4SExQQzROdkFzWnJJeExoZ0h0aFNFRWdHU0NxM2Y4SXFMYlF3V2UxaTN2aXRTOHVvdVdoNGQ?oc=5",
     "source": "CNBC",
     "published": "2026-11-05T14:29:28+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "Qualcomm, Micron, and Arm Holdings stocks sink, leading chip sector lower - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1V3SHFuWkhMcHVRTGdVUUM1ODctZTZESFNFWXlVSUhkUHRoMUdwOXY2M2IzMG9kMHE2ZjJnMGV5S1dMUFNTNlpyemliSUNvSUdvSlJyanU2a2RoeVFULWt4UWRiSUx3V2NVY05WVnJCSUtOMUlkbUxHX01kRHZxRS1NTjgwS2VEZ3hUTWpxS3BRY3BKckNLN0V6ZVMzWjRuUmIyNE56N2FLcmwyUE9EWg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T13:31:00+00:00"
-  },
-  {
-    "label": "RHM.DE",
-    "topic": "RHM.DE",
-    "title": "Breakingviews - COMMENTARY: Rheinmetall crash-lands to a more grounded reality - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcDRaWlYwYlAtZVZkQ3RkM3RSSzhCNk1rMmZLRjZ3ZTVMb0Q4NUV5dFFJY2hnQmRpZXFLeUZ5aTVjM25yZDBUWDctZkFVRmF5TFZmeXlLdjNCSTFaOTZIRXpxVmtld1RzZVNKUV9ONjFUZGR0NTRsT3dQSEw0aURxcnhsTlJnVWFPUUd5eWpvTmdya296a0IxVWw0ZUJMb0QzQzJTb3NiZTg2Zw?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T13:16:02+00:00"
-  },
-  {
-    "label": "MRCY",
-    "topic": "MRCY",
-    "title": "Curious about Mercury Systems (MRCY) Q1 Performance? Explore Wall Street Estimates for Key Metrics - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbjN5aVVNaUlHMmJqSktxbmZ3ek1LZXlVWjhVRkR0NmhpcTBBdFQtaEdtRllWQzNvOEZDTk42Q3B4RGtHM0hWa1pDSEJtLTlVUUZOUk5jdDExb2NVMkFjOElkV25PX0x0QlkycFhDYlJ0VVowbkJ0MDdjenVwRnB3VGtJMEREWjVrY2VZZHM4UEFwWFFwVHA4dW9HX3I?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T13:15:10+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaUxDMm5kSHl6UGRsanIwSTVsOTRSRDJUMi1VUXE3eWdhVVZtc1JzNGlkSkpPTDdhLWJRN3MwTlVKTEVRRTZvOWpKdl95MVVac1lkY2kzYy1jMnpmQ0RJZXctTEtNM19HTG9wLWZGMmx0cVl3R1JIbVJSci1RYVI4QW10RjhvNlhkTmFMNnBZb0JNejJTaVhpc2ZPUTRocm56d3dydGNDMTJ2VE1Ybk83QWJkR1FoalA2LUpFbkNFZFl3YjUtV3hHV0hHQ0J5YXQ2ZkVmUjJiYkNncDFLdTY0?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-05T12:33:00+00:00"
-  },
-  {
-    "label": "AMAT",
-    "topic": "AMAT",
-    "title": "Was The Run In Applied Materials Stock Hiding In Plain Sight? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVEt4dVV4bTZNUGExaHJqbW5DOXc4TDB6eUhNUTRZX29LMGZNT0ZDbmREcDVoRjBlU2xJZWs2cEl1dV9JME8yVkF4cExlZ1dHVS11aXhnelIyc2F2bklmQ0VLRm5kMC1sUkFsbXNhaTdDR2wwLTdIZWRUMzdXYUk4djA2SUpUTFVISzRKcHpUelpHdndmMWVoa3VOMkI0dV9o?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T12:32:37+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "AMD Faces Nvidia Software Hurdle, While Intel Could Reclaim PC Market Share, Morningstar Says - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYU5icGJUZnI0R2tWdm9CVlVJYVFMVDZwbFV6Z0FULURmRl9uUG5JSUFaVDFUN1JMQkdNYm1FQ3FET3JUSjBxN0NTM2txUkZLWG5SdVRiTS1CbnpROWhVTktuWTg1THJJVkFON1hlMks5akFRR1lFQmtnanR0cFNPSlhCTG4yVFdFMUlpeVZibEs1MEg5RmlrbA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T11:34:36+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "Arm Shares Fall as Third-Quarter Outlook Offers Limited Upside Despite Earnings Beat - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQalFKYzZFOVllQld6LWl0NTZRT0VISlhMbHdPQ0NHdkZhYlVFcVF2bFp1dkx0eWZYanlTalZZRGQwaG1acm5EX2FBcVMwQmd0VWJqMFNuRjg4Qzd3ZVVpcmlpSzR0TWFoZGFTaEJWOUtCWXFNcFlCZW90ZF82UjJFN0pvaE1XUnkxZ1prSF9xbHZrTktfVXdCa2JR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T11:32:38+00:00"
-  },
-  {
-    "label": "RHM.DE",
-    "topic": "RHM.DE",
-    "title": "Germany's Rheinmetall posts Q3 earnings rise but lowers 2026 outlook - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVUh1RVVXZVZvS2NKR0x2TGdKMEg0V193Tk1xelFCWW1nWWRWT0NhQkQxcmxRYmNTMjZNSzg3OUJpd21yU1NIMHo2RUN6YzlfbjFtU0RqSmU2Z1F4LXlrOFZDMWFvdG1Ud0ZOZDF1ZEJJVTdaRExoNHBTY0dISXBhcDh6R2l5UTZoa2preXd6N1RDbW10WDMwSkQxM2s1MmVSTXI1U01B?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T11:18:34+00:00"
-  },
-  {
-    "label": "DAX",
-    "topic": "DAX",
-    "title": "DAX MiniFuture L 25320 open end (MST) | Kurs, Chart, Analysen | DE000MT0LF42 - n-tv.de",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUW13cjBjS1pXWW02RWRDWjFhRGl1R0M1MXZrSFhHano4S0RpTXpMdjhrRnBlOVlIM1R4eWRqdDZwYXA5Wnh0Rm9taUZHRlBybjd0cUVNMGtzQ2ZiVU1mUUpUb05QRjNZRDBBaGNFT1FVZ3pUaC1WUF9NTDhFY0dMclJyeV9ENm9UNGZHUEE1VQ?oc=5",
-    "source": "n-tv.de",
-    "published": "2026-11-05T11:09:21+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500 futures steady after midterm rally; Nasdaq lags on chip weakness - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzVWaXFxcUlNc2ptUV9uQl9xQjdLS3lfRjRER1ZFVnFIV3BGSkNoX0hPYmZLRkdFRUVSZU5iUktTeUsxUUpoLXNhR1lScnVKNlZNcTg2d0d5MmFRdXdmZkJPS0dUZThtaTJzVGZ6azd4VUZmOUtFeUY0bklvOTlHMUdPZHh0OG9YOElENjRCMzhFckhrdHpEaw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T10:58:38+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq posts biggest daily drop in 19 months on fears of AI regulations - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T10:54:00+00:00"
-  },
-  {
-    "label": "LRCX",
-    "topic": "LRCX",
-    "title": "What Has The Market Missed In Lam Research Stock's Drop? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVnFQeFo1dHplX0E0T2U5X3NZNkFnTnQzcHl0NWJvMVk0ZDdteGVEd0cxR2ZlSm1NTTlhVDBqYTZUMEphdE44OWI4dUVvQVNfZmJKZV90UGpjaEpHZzdRNHZKQi1sUHg2TXlRX1Z0cXl0RGdwZjlUb2RfSHBxYVZnMXl5c3R3WFM4bWh3dXM3T3E1aThMRncwR1prZjdhZ0k?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T10:35:18+00:00"
-  },
-  {
-    "label": "RHM.DE",
-    "topic": "RHM.DE",
-    "title": "Rheinmetall shares fall 17% as it cuts sales forecast after deal delay - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGNJa2NuRk04Q1lybEdORDlKNmRpMFFYMkYzcG5hOExGTVQ4TVU2OVpRWV8wWG1jZ1dIdGFXbHNrdUZJTG9NZUNEOVpsODJVQTRRZVlGVFdHQXRudWREb1hyMTg4Uk9LVmszMDRoNkxaSnlzTk1sYmxydEUyQ3lxNkw0eEE?oc=5",
-    "source": "Financial Times",
-    "published": "2026-11-05T10:30:35+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Zölle",
-    "title": "Democrats gain influence over trade agenda, but tariff repeals to hit Trump veto wall - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTzNLUjBwZFJZSVE0U0NxbTVYbVotU0R1ak1zb2g1LTR2a0MtYkxVcGZFOFhZNkcza1hhTlpobGN4bU1hVmZhUGs5UFk5TC1kYWdXS181NHdZZlJGdEJMc0NNcHl5dndpaHo2SXpJcUxjeHkwVkZQTkhBX2xVVlg0eWNkZXRkcGx6NEpRQlFiLWtXdElVcllTWHhGZWxvUEREWXEzM2RocjFjbXBIbm1wOVhUSkEzOGFCb3ZMZ21WdElEU3l3em15cGZtZkdUQQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T10:17:51+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "10-year Treasury rises as investors exit tech stocks, look ahead to jobs data - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwRFU3SzVLNDJOd1p3SDRNMkE0QjBMRms2d1RJaDZEMlZaSGQzUUN1Qjc4eW90Z2NDTmZITmh0QnZIbU1uc3hlUFRZV2NvYTRkQ2I1eHZ3dGpJSVFQRUpWZ1YycWJZYy1iZnZzdTNiQ0x2Wi1WQ2RkNmpuUm1vd9IBgwFBVV95cUxNNHdYYnNDYV9CX1JxUEl4bGJBSmtGSXNGTWN0NURsdkpHRHZqcVBmUGhHWUxlZ19ab0VfdjFiTjIwZkpCX3ZZaWVSNXdLUWY3eU43ekw1N0Z2WC1qWVYxUHFKZ3Z1Y01ON1B6N1Y5RlVoNUJWbmZ6YjZQN1B0ZTk1RjNhQQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-05T09:38:43+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "10-year Treasury rises as investors exit tech stocks, look ahead to jobs data - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwRFU3SzVLNDJOd1p3SDRNMkE0QjBMRms2d1RJaDZEMlZaSGQzUUN1Qjc4eW90Z2NDTmZITmh0QnZIbU1uc3hlUFRZV2NvYTRkQ2I1eHZ3dGpJSVFQRUpWZ1YycWJZYy1iZnZzdTNiQ0x2Wi1WQ2RkNmpuUm1vdw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-05T09:38:43+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Midterms markets: green energy stocks win, oil and AI shares slide - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CSTBxY0xWV3dCU1NGd3JBWUhFcFI5U3hnNEhIVXcyNkRrMjFNaHVmSENMMTRDbEdZQ2lub1E3TUdZOEZHRGltQ2FwVXJiSDQtRDRNOGpqemdlc0pqWG4wQ1FXNk04SEU?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T08:59:31+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "High debt, rise of non-banks risk tying ECB's hands, Schnabel says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSEoxRWFmbGZTMEo1VjM3R1hUcEF1MzIxTm0zcm5UWDdNQW83YURsNV95YUt5alBCcnE4T0xIenc2RWpNV3k5VlBxR2ZQb0ZhMkRkV2V6MWJZNGZZOHE3ZGg1dEZxU1ViRl9HOE5ydzZLdW9KbEY5ajdXVGlEOUl0TDJ1RUFUcVQxcnZFeElybG9GUjVOeVZxQkQ0WEt3b1JEZXMzcklfSUM5a2l1NmRFclhvSVpxZ2M?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T08:04:39+00:00"
-  },
-  {
-    "label": "RHM.DE",
-    "topic": "RHM.DE",
-    "title": "Rheinmetall shares plunge 17% after outlook cut as military contracts stall - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMk84R0loaHlmVk5iMGU4Rm9BY05UaXlrczFBMGlCTVJJc0RBdzM1M3kzRWNxbDQzRnozSTlWZ1RTM1hCcDM0d245bDFNMktPdHpwQklTN3cyT0hfVjRjSU1yLWtCWHpZV3QwSmx1VGR4U04xLTRPTlRzcThCUC0taHFR0gGHAUFVX3lxTE9wd3M1RmtFQ1VSeXVad1JBZDBuUXRHbTlqbGRRcWdYVzQ1VG1pUUNjcXhXUG9QVEpkTkxtOXMzLWFkaTgwTVJPTUIwd2tFbWVNcDRuTEFfWVI2V1JkeXU5eG9ZdzN2S0o1VEIwdE5Sb01fYzlra0hlTHlTcXJLVWs2b1FmYlptVQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-05T07:43:03+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Oil Prices Continue to Fall as Democratic Sweep Shakes Energy Markets - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd2RtaGdSZnUtNEJJRG94X1NxeG5Ib2JpS1lvYUJJcm1SeXRKb3pyVEtMalF3RXlDNVBZNEFfYnRPZFpFZlpRUlpXb2dSVFRIaGNmSlpiQ0FXVHVaaWlWU2FPR2hyUG52SUdRU2ZXTV9DTXdWUHdNMW54SUZnTG5MNW5QYktQWFhMVUlodnY5T0NWcmFTQkdF?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T06:30:00+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Marvell Technology (MRVL) Stock Sees Fair Value Cut After Mixed Lumentum Deal Views - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWlpJRzNldmU5VWlWWi1DNVpYQUZCSkxIbWxKUDgtMFdPNjZtWS0xY1BQaHVicWlzN2Nqekt5SDNSWXBBMHB2WTdMc0NyT2NBU0VPYWtiRnh2Q05raS1uZEFnS0RmZzBJNVE0SW1CNW1Kc2VzQUd1eHBldEdLZHluV204MDNGdFB3UmpGYW1PWTE1RDdDcld0aFJFRUYtX1lW?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T04:38:00+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "ASML vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy Going into 2027? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUjVYNzZ6UTlSWTNQOHpCLXZWZEE4VldKSFlKVFVXV1pYUW1SajdRY1NtNWhBM091MEJSSDczUF91V19zMXNONDBGdHpjMGg0NVZDUjdNRXhlY0xIU3hNRkduQ1pZYjdXM3RYN052M015ZnJfN1VuU2xnbWVoVjdkalh3VHJzaTZ6WUd2ejUxcVZZdk9uNW9fMXdaZ1E0V0VvMlhv?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T02:59:15+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Dow, S&P 500, Nasdaq Futures Mixed After A Democratic Sweep In Midterms: NVDA, MU, SNDK, NBIS, IREN In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObldfcGFoek5LN0JQa25GZXpDbU13VkVyZlAtSHhOdGVBZTZHQ19Cckx5MmttYVllRW5nVVdFMEMxUXN0YXlYTW9jcXVwQzVsUUxJcmp4ZVpfQWpDZ0lNd0xPMmNsNHhwb2FjVHljR2tjTW51WDNUaXM1bXVOdjNFTnVrNEpZTWNSaHdhbWNQbk5wajg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T02:55:00+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "AI stocks fall, oil bounces back after 'blue wave' drop - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T02:35:00+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Is Broadcom Stock a Buy After Marvell's $115 Billion Deal? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQjdpcExLSzBnbXZYVFAzRUlmRGtMNEZ6dEFIRDZGaXF0TDRHb0NuSFE0cWJKdWV3cVdNaE1WQ3ZVU1VMTnhoZzQ1X1ZrYXdpV29DT2dPQ1g0dFNyc1Fzc3FBZjJSallXQkp0VjB5NmxJNXhrZzI5cVdDemZNOHVWelZrcTg1NXptdUJEN3hPLTRYQThrRENPUFFnUmM?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T01:54:47+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "SK Hynix Sheds Nearly 8% While Dow Jumps: What Is Seoul Pricing In? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOXzhubG0tM0ZoVHhEZkZTUWptWHJxbkVNbVpXemg2MEszZ0hUa3djbkdZTEw4OGE1Z1d1TG1zak13ZUN0NnRzUHlvVG1iYVZpXzdDZkZRSEk2WG0ydlRKYk91MmxlMS1EeHh1V3FDNkFJMHpFSTJ6UzBqdHR5eTA4cmlVS2JoaGtFb09GeXhEeWNBQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T01:37:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq closes in correction territory on Wall Street’s worst day since April 2025 - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSnFudzA3Q3pyVThmXzVBYXpKa3VDNUp3a2NROFBpNnpGMmxNVklIbHFCcU1TczdYdG9xMjQxS1liN1M2Uk1EMTB0ZlZkVXZmY1UzczN3QVhocU1COW9LVVlDTDFFTjI1NTAzVHZ5QUZjQzRTb1M3eGJrRWxBZDFhVkg5cGdrVTA?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-11-05T01:14:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq futures slide over 1% as election rally gives way to weak chip earnings - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRU9FUDZONjZ3UjFRamdoZm9PbXhOX2F3Z0x3LTRYel9mbElUaUF4dHlicmdkdE10QzE1TWkxZEFsamFpUHc4YWpMNTZXV2VlRlQzb2NCcXpTamc2Mzg0NmJnREhKY2xXeVRHOXFoWnRuMlhDVU8yOWpUNlRIVkZOLW5YWGhuRHBfbkJSSXdUd18xc0RwcEtpUw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T01:11:00+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "5-star analyst resets Nvidia stock target after Intel crash - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYUcwZk1keE5vcUlBWHlZMVpBNWxpdjZ5TEZyLUdYaWRzRzFyMjliWmhxSkQzWDhRS0lRMEF5Smg0WTlnV2M4WDlubmhidGlkaDczN0c5Zko5ajNIWm4tLWZ6bUJLOEJlcWllX3N4aUU4QW5OYUNmYkFIS2pmaENhYXBiSQ?oc=5",
-    "source": "Yahoo Finance Singapore",
-    "published": "2026-11-05T00:37:00+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "Arm (ARM) Stock Looks About Right After Its 254% Run - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQemxDNFNGb2Qya1YxaXJqMV90c1NBcmNmMWl2U3FwT0UtUWt0bjdnY2RIYWpBYVl5dllhQVYzS0l6Y1lrb1NXMEVON0JDRkpxNTNCaEVsMDJGSXcta09heHNuTDFaQTBLaFhKaVk1TUxBN0pVMEJCNTRpeWRSSGdLTnY0TFU2Q1NIdTZkQnY0QkJuUQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T00:25:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "BOJ",
-    "title": "BOJ debated need for more rate hikes, scope for faster moves, September minutes show - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMGtjWlBTY0pHaGtXZXZ5SnhvXzkyREVPdWJmcU5YRWpRcktiSTc5NnExRXlZbC13WE9aLVdOWktKUGdpSXk0VlE4aTBkbmg0RHhDa2x4YXpDdHhxQTJDMzU2OThrbVFKVTlWVkpfYWF4TEVCYi1yaWJzMFMwcUdkSnN6Q0lwU2FQYVMyYXU2MDFjckNlWC1LbWZPQ2JPaGlSaDNKMUdRRnh4dWJvX2gwWEdaQmttbDIwQ2hlYmtFT0Q?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T00:05:00+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "Arm Holdings plc Reports Results for the Second Quarter of the Fiscal Year Ending 2027 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNazNKZUw2b2ZmRGc0RFpNVU52U2NXb25ERnBJd1BzVmhsbHU5bTF3QlZIaVVQRWQyNkpLOFVWcV85bTZsTnpOZGJEMUJHTDZTSjZnTzJJb0UzaXRDdUNVWEliZWllay1rZS11TnZydlV0dk5lNUIyaXlDOGZNSmdCR29xdGxKejV6ZjNqSmZRWHBLa1V3OU5jMjBEdU5Zdw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T21:04:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices plunge after Vance post on Iran war - Axios",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZVFrN1Z2RXhoZjZ0RFROeTFYTlk2VncxYjZJTUk4TlpmbWF1V2NBbEpxb3BjZFZ6dmNOZUNXM3NxSkFzWHRtXzNhc2twMXo3dWlnWUpnYnFMeU51ZGNRWFozOU1BMExoOFJTVXVhNHhwRjM4U21oNm5Ed2VZWjdCVDB6RXR2ZWM?oc=5",
-    "source": "Axios",
-    "published": "2026-11-04T20:05:09+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Zölle",
-    "title": "After the US midterms, what will a lame duck Trump mean for the global economy? - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMnZRT0MyRlJQZFBrYkRoNTB5LV84MXFhZmlpeGhadldPTUtqTnpHQ0RrTDR0eXZPRzQxeURDeTFudHhha0VoUFk4MjJfZ0hjRnp0cFFGUXFGeHd4cFNXSzF4N195TWtGMGdHbkZ6NTdzVWs4bnR3bTVMOUl4MWw5a2VUaWFVaElkOS1QZnh0Z2NOWUZOak83NUNXVFljX1k?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-04T18:41:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Zölle",
-    "title": "Trump's midterm drubbing could give trade partners room to resist - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1l2eFV1eVp6bE01NW40RDUtcmU2REdDOUZDRU5JSmdDN0MtNElwaUZXQ3VVUUVqV0tuSFZNb3RaeTBNd2JXanAyRlJ6UUU0S1pPMVdzYjV6OUpyRW1yc1hST1o4SFozN0JZYzU4dldLSXNkc05VeUwyV0E5TXotUC1lYXhEN2FtaTBXN3hOdHR2T1FaSE1Kc2ZHdnExcFZuWUpxVWwxQQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-04T18:36:31+00:00"
   }
 ]
