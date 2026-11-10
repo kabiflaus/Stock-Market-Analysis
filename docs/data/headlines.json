@@ -1,5 +1,21 @@
 [
   {
+    "label": "AI",
+    "topic": "AI",
+    "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pMHBsV3hBRFluY0c0SGo1NFBBTjFRR3hPbFE4bHRfT0R3T0NKOVRzd29TQmdpMHVWYU1JZ2xJU203VWJETkZuYmx2M1Y2VC1GM1BKV044a3o0SjNQdjNUbHRkcTR1WGJEOFpNZzlYdHBPT0hCZkhxMg?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T13:19:13+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Key CPI Focus - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YV1c2UVNWX2ZsVUdtZzAtRkFISUJzZVZrbnFkOTh4RzN2R3FXMFV5emZ4dTdseFFYZkJjOUk5VEtSR0NZM1BUeVFNUFFOUEhtOU5pSzhtU0JQaGVCcElMaU9Bb2tUaFNGQWJlSUQxMkhuQ0swUjZxM1ZJa1A?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-11-10T13:10:15+00:00"
+  },
+  {
     "label": "S&P 500",
     "topic": "S&P 500",
     "title": "S&P 500 futures drop after higher-than-expected CPI reignites inflation concern: Live updates - CNBC",
@@ -64,6 +80,14 @@
     "published": "2026-11-10T10:38:49+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields edge higher as traders await CPI inflation data - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00TGg2Rk5HQzViV3NxTHZvREFib0dkOURuR3VIUHZJbjZHWTRzOERZelY0WVZlcVZSNGhCS094UTJDXzM2b3NLeVFSMG5jckhkMndFeG9pc0VvM0JnTUsxN2pTckFuQ3NTMTNZWnQ2MA?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T10:25:50+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran - Financial Times",
@@ -110,6 +134,14 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXJnQV9qN3hzblgybEhvTU5aRkpmOTF4NmpQN2JZamxzWUxJd0lSR0dvU0tuMzd4MldpZXMtMmVoTS1wc3JJSzJibjZqNVVTQlZxYlliMUtOMjVoNkVlVWE1OTI1bTZfeEwwLVdUcXhZMVloTGRSdnZZUEljakJWRVpwSXVyRG9yNWVnOEdyR2xnVEg4NnFnYy1hYnZqTExRNEM1TEtn?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-10T03:45:00+00:00"
+  },
+  {
+    "label": "006400.KS",
+    "topic": "006400.KS",
+    "title": "Samsung SDI Co Ltd (006400.KQ) stock price, news, quote and history - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vNnV0bWpBcEswemt0UHRqbXMxWUVxcHNOeXJuR094STdBRVJBakE2WXV2Mm1PSk00VE90UlB2SlpIN0wyYnBRWUItcEJYNWhtcEJJZGhvR0ZiTzBta041NHN1aHNNRnd1?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-11-10T03:35:29+00:00"
   },
   {
     "label": "MPWR",
@@ -240,6 +272,14 @@
     "published": "2026-11-09T14:02:47+00:00"
   },
   {
+    "label": "AMAT",
+    "topic": "AMAT",
+    "title": "Applied Materials (AMAT) Stock Looks Above Fair Value After Its 127% Run - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT0p5cE5fOHZydmRvMHNLZjhSLTZibnNSbnRiLWtSLVd1ajNwNkZQcFZqYlFQaGJxM2Y4SmZDRUo2aWdmRXljdUV4U2lGMjByM1ZDaDNfMTMwZUVxaWNFZjZKeUVRVzBVeDZkc3lOa2t1OUxMVldBQzg5RzA1Mm9Fa01DRVZCZ2p6azlHV0NJUDFZMXYtY24zeWlhdVo2U0tX?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T13:10:21+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "Not AMD. Not Intel. This Is the Artificial Intelligence (AI) Chip Stock Nvidia Should Fear Most. - Yahoo Finance",
@@ -312,8 +352,8 @@
     "published": "2026-11-09T06:20:00+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Dow, S&P 500, Nasdaq Futures Rebound After Sharp AI Selloff Last Week: NVDA, AMD, VIR, SNDK In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZDJTY1ZadjNGdVRsV19LTFJtd1doSGxMSWxjdWtKX3VuUlViQ2tZNW41WmFjY292ZXlESk1FM3VIaFFXRUt1Qnd5SjZZUkJGSUNLLVRxdUMzSDNWRFk2b3c2eVpRWWl3bGpVLTlJUnVUaXFoQkIwYUlvdlhWTGZ1WG0wa05hZmM0RGtNUGlOaGJqUVE?oc=5",
     "source": "Yahoo Finance",
@@ -606,21 +646,5 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc2VDQVlTbHhaTXJZWkhOWkdvcWk5LW84LXlCc1NyTGZZSWZlT0hRd3NQc3lwQTByRHRVU0VfVmJKU1pTWWlFTUZmT2EzS2ExS3haNHRfZ3pFaFd3TDB4NmZ0WXVFVFBxUFJiU3VTUmhsWEIzeFJwb2NRUEw3V210dXhsUjZZWU4xZk9zNkp3U3dSSFM5cTc0WW5CVUJwZ2FfV25KQjBnSFRTb2RmejRqejJsRjFsT002THJqNg?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-06T13:59:53+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "US Treasuries Stumble as Strong Labor Market Lifts Fed-Hike Bets - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOU9UaWNYNDlNd054V2hkUEp5ZGtoR081VW5XWWVLNDJhZm1tTzdLV0lVajRtZ3JhZ2RxdlRnWXJ1NTJxcFhCZ2JCUkIwbk5rY080N24yRHdkaGdWU19lY2dGSEp2M3NxV1g3SnZZckdTV2I5ZkluVHVkUi1aOWFtZnF4WEJCbjZJRjZsS3BMaHBQaWZPTEVJaDNuUFd2R2dt?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T13:47:33+00:00"
-  },
-  {
-    "label": "AXON",
-    "topic": "AXON",
-    "title": "Axon Enterprise Q3 Earnings Miss Estimates as Margins Narrow - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPckM3SUFvM2R1MkpEeXA3UjZ2OGJkZW04ZmRQYVNQaEhYWmVESlZXLWVyT3JkZDVmWnVVWTlGTlU2UnBITE5YWDBuQUNxcHBwa1RabVFCRUxuaGZvY2xvbkNoOXZPektBcEJWT2pSeDFUaEdEckZCUTA5bzFtaTFWUFFubWRtN184a2xBUXVQcGluNFdqS3UyOFljQ21DUQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T13:42:00+00:00"
   }
 ]
