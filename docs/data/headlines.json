@@ -1,11 +1,59 @@
 [
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 falls slightly after hot CPI as tech shares try to keep comeback going: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VWk50RzlXYlZaV1pUOVFBLXNSUjFaOVhYSUpvQ25CVm5UWE1EMkE3bjRYSWNqVVRKUC16T3pId3BLLTQzcW9KRTJOUHVseDZJT3JwQ195cnZjX0IyODU3MHZNeVBtYVd3V2dxMlR5ZEphWnhBeERj?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T15:23:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Inflation",
+    "title": "US inflation rose 0.4% in October as price increases cooled and gas costs dipped - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UMUtoVXdvYjhUN2JkS3JvSzJGNlotWUJQZF9jSnNuTDNfRk9DTVE0SXNxWWFENUw1N1hhSXAwYkR6NEZmOVA1RzBXdmN4djlDdGppbjRYSlNFN0Q3M3Z3MXlMTWprRVdxM2lNMVVOS3JNLUx5TnNjTERFdHVGdw?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-10T14:29:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Dow surges 1,100 points, Nasdaq climbs more than 2% as tech rebounds from last week’s tumult: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FVDc3UlZHcHBOWVJmWWs2YWxla3J5NkpsVmNlTERMM2lQNm1MdlRteDEyeUFGcGFKVHEzV0JGalFMZXlvV3o2R3dmb2dGWUh5WlpMOWxiYkdlb1c1RzB4WlNhQzRoTF9qM3lfaUlKeUhqQUFtWkdj?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T14:19:17+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Trump Said Resuming the Iran war is 'Highly Unlikely.' Oil Prices Fell Below a Key Threshold. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMW5LdDRkNmFMRVdwMVl6eHFoNm14NzVjQjRQMmVMdVFDNmppVjBTUDk3Vmsxa2xQMVZfZUxLNWl0a201bFBiZkRCMEk1ZGlGcllKTjhwTFA2NXZJelBYNlUxb2FCeUVLbG45eUNQZFhYSFJ3UVZuMXRxaU1IVkY4M2pIN2NsYUJEV2pyaThB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T13:39:22+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Inflation",
+    "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sRXhidGNwejMxdTlFZnRZRzRxSWI2R2w4MzRUcnRIWmhqdUlHMmZaN0ZlaHpNbFp5RzFNQlZfU2hJOWNtVjU2ZzZybU5jYk9lOGtwUFg3dHhDTTVaeUFWdlhNTS11aHVTQV9wZ3k0S3JscjBIZnhNeFlB?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T13:31:08+00:00"
+  },
+  {
     "label": "AI",
     "topic": "AI",
     "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal - CNBC",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pMHBsV3hBRFluY0c0SGo1NFBBTjFRR3hPbFE4bHRfT0R3T0NKOVRzd29TQmdpMHVWYU1JZ2xJU203VWJETkZuYmx2M1Y2VC1GM1BKV044a3o0SjNQdjNUbHRkcTR1WGJEOFpNZzlYdHBPT0hCZkhxMg?oc=5",
     "source": "CNBC",
     "published": "2026-11-10T13:19:13+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaGgwYzFvYzY1cndpc3FZRGZjLXRQTFp0WlktcmQwS2d6T1VhVVRBWkdpclUxd3Bvd1A4bWZOendzNXdhdmdtTnJ6S3AxMVNJN0hUbnRDZEF0NHE5QWtOZFUxc2JuZm1qbklMRjBtb2xmWlVSWVdNckxNSFQ3cnZLeC1KU1lrb2lBTFNKN2J1Uy1OYmRSczRoQmZsZlBtaHZPYzdnM1NSZTR5ODdsbEVV?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-10T13:14:14+00:00"
   },
   {
     "label": "S&P 500",
@@ -16,14 +64,6 @@
     "published": "2026-11-10T13:10:15+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "S&P 500 futures drop after higher-than-expected CPI reignites inflation concern: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VWk50RzlXYlZaV1pUOVFBLXNSUjFaOVhYSUpvQ25CVm5UWE1EMkE3bjRYSWNqVVRKUC16T3pId3BLLTQzcW9KRTJOUHVseDZJT3JwQ195cnZjX0IyODU3MHZNeVBtYVd3V2dxMlR5ZEphWnhBeERj?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-10T13:01:32+00:00"
-  },
-  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus - Reuters",
@@ -32,20 +72,20 @@
     "published": "2026-11-10T12:44:43+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcDdSR2JEV3JnaGdSRDlzeEdYQVpFODhCUE4xZWhwX0p4V2NjWXhlOWNhVGY2NW1jMTRHRjFjdjVEc0ZKeVBXTWR3aFlzbUE2VHJ4NXpvQS1GRWtxZ1lUZjhIXzF2ZzlWd1BoOEo0MUpXRzZudFExR2tnMlhRUzBOOGE5M2MzZ0xLSTFSZjF6SFBkUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T12:44:15+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
     "title": "First Thing: Oil price relief as Trump says US war on Iran ‘ending fairly soon’ - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWRuMnJLWDducThsUU1nZTMydzQxamhDZWgzRi1qQ1BGZE9XZW9NVjRiTTJIMzlQRklseXdxbEtNS3NMem90UHVfTlB2aXdRRng2OWF3TTZxbmVJY25pbE1peDZtWVRlY3plSWhTTHRONURPYXhTTWhlckhLZmNNR0dnTnRuTTdoQnU3djhsYUtqQngteWlvcWlMUlZ4RVo4cXU0blZZRDUybVVWc1FRSnFtQQ?oc=5",
     "source": "The Guardian",
     "published": "2026-11-10T12:39:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Dow surges 1,100 points, Nasdaq climbs more than 2% as tech rebounds from last week’s tumult: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FVDc3UlZHcHBOWVJmWWs2YWxla3J5NkpsVmNlTERMM2lQNm1MdlRteDEyeUFGcGFKVHEzV0JGalFMZXlvV3o2R3dmb2dGWUh5WlpMOWxiYkdlb1c1RzB4WlNhQzRoTF9qM3lfaUlKeUhqQUFtWkdj?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-10T11:31:32+00:00"
   },
   {
     "label": "006400.KS",
@@ -82,7 +122,7 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields edge higher as traders await CPI inflation data - CNBC",
+    "title": "10-year Treasury yield jumps after hot CPI, Waller half-point hike comment - CNBC",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00TGg2Rk5HQzViV3NxTHZvREFib0dkOURuR3VIUHZJbjZHWTRzOERZelY0WVZlcVZSNGhCS094UTJDXzM2b3NLeVFSMG5jckhkMndFeG9pc0VvM0JnTUsxN2pTckFuQ3NTMTNZWnQ2MA?oc=5",
     "source": "CNBC",
     "published": "2026-11-10T10:25:50+00:00"
@@ -158,6 +198,14 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU2s2a1Fheng0N1Jsel9uVENjeEQteDFNVWtCQUQ5aVM5d19zbXN0ZTR5WDlmTEhhR3VYalBsd2tqeV9ZMnZjRDA3Qm1yU3ZJeURNOGJvMmxqU1NjbDZ2c2N3czdfQmNyeUhmZ2ZfT2VXSkxjdE1nUThYdGl2WElZTDdBRlFIQklwaHlkVkJabVFYeWVBbVhlUnl1a1hKcXlC?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-10T02:37:00+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "SoftBank Group shares surge 14% as Asian tech stocks track Wall Street rebound - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ2RpVTBmUG56SEduSVlsbWVJNWRHOGtuX1o5QUVKdnJ1NlFZTGxHQXhBbVdZOXhwTkdPS3k2X1dZVG1YaWdHMXYzV0N4cUdIVkYzNnZ1azZ6Q1hZS3NqZkV2SGxwTHBnNkowc19HaFZqQ0RRN0x6Mm55OG4wWVJFa2gyOVNCbmpUYXB6UmJzc0VGUzQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T00:42:00+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -318,6 +366,14 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JVE44LUJheWlkSEJZWlBaUVRGUXR2aGVMbm9yZnNDUnR1alJLSDdlU3Y3RktFcmplWmViVjV1ME1UYU9qSDA1YTN2NUdJbTJvWmZGUU5FZ3VTMU1lV3ppbk10SXBWLWxTcHVWYjRFbw?oc=5",
     "source": "CNBC",
     "published": "2026-11-09T09:42:37+00:00"
+  },
+  {
+    "label": "000660.KS",
+    "topic": "000660.KS",
+    "title": "TSMC, SK Hynix, Samsung: Asian Chip Stocks Rise Even As Nvidia CEO Jensen Huang’s Controversy Tests Investor Confidence - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0g4OU1GZ2YzZkc0bHdIem14VDlDREFpb20yMTdGcTliampSRGhrSElReGpNZ0lERUVueEJEM25LLTRpanV4LXMxWmZKdFRLRlhGM3gwNGt2bVItNEhzQ1FldjV4eVBQQmtWRmtlbDdyazVUX3FrdFlhQUtUSE8xREw4WXBpQ3NHbnZkVGoxUVJwOGFsV01j?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T08:35:20+00:00"
   },
   {
     "label": "Anleihen",
@@ -598,53 +654,5 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOHZBTnltS1dIZ29WWHUzMnpLZHIwM1ZkdmxJMVhQdUxiV0EycG14UXU0aldrd1BhU250TGk1R1RUM2tNZ1l2ZU9PQVZQS25INWJWeEVYSm9sVFp2TTlDd1pqUmZQNkFjdDNQZVpyMjNjMUdTZDQyVHY5Qm1vSTlxSGRIcDAxYTBOUHRmR2FwOUdtTW40?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-06T16:20:15+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "VIEW Strong October jobs report sends yields higher - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTnpMd1ZuR2N2T2ZIelhxU25lLVpES1EteXlqbW4zVXM1V2M3SkppUlRRZkctZ181TzNsYnhPdFV4OXhzejdscG5TRHJWbGx6M0hrMXZmLS03MDFaQ2VGU0xjaHA1UDhZQ3lsUTNyVVFGODdjR253T2ZGVlNieDZ5dWRwQ3dqa0pqR21pYi1FNUlWOFpMTjZ0VEU4VGc?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-06T14:45:22+00:00"
-  },
-  {
-    "label": "AMAT",
-    "topic": "AMAT",
-    "title": "Why Did Applied Materials Stock Fall? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRkRjVWFnTXp6R2N4YVNzWmZITnNCTDBJMmx2M3dlRE1XV21IMlZvWjk3VHpxN1lBeEl5UVprZGxPMEpzNUR6dEhTQ3ZiTnRDU1ljSDduOWRJRnNtSVoyNm53Zk1GZlJ0alRPT296UnRqbUp1ak0tM0N2ZllVZkFRRU5vQmY0dG5TRy1QeGE0RnBvLXBGLVpRd3BvanE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T14:41:58+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq Futures Rebound After Wall Street Rout as Strong US Jobs Report Divides Investors: Dow Jones, S&P - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVMtMVVhQWRlTXlGS2pxRU83VWY5Y0xseTEzY3NFcGtBVHctUVJ3cG1tZ1AwQWt2Smp2TEJIZVBKZjFYek9UOTZwN3h2ckk2bWVMZ2ZrZ0RLYlZqaWNEWUNMQUN4dVlMbkNqMWVqLUZKLW0tQWF1VXV5eU5LVEJrenV5OVBFV044Mmlz?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-11-06T14:13:53+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "AMD Jumps 8%, Intel and NVIDIA Climb 5% as Chip Stocks Rebound From Worst Sell-Off Since 2020 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMW1ORFRuT241UWRmRjRmYTlsWWFNV3dYUm9EMGU3dy1qdTVnRnRrODJOVnRZeFltam1icENSd1Z4UWlyRlhUT1dmQ2s3SGhkSTVSRmpmTFNBVDZPYlNic0VnRlo2UEpCVDlRV0pUUGxrcnJUcVlMbDZ0R3UxcHhLbmxWdDRXWGxLbVJpaDZaaFdvemc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T14:05:02+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Nasdaq futures rebound after brutal sell-off, Dow and S&P 500 wobble as US adds 165K jobs - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczRsWEFTT09RbmU4ZGVBX1lFYlBqdTdJREZ3OGFvaHJuSkMzYk4yWE1wQmx4SnhoV2lTMnB6TW52ZmR6ZHVlN0x6UjQwWUNicHYwN1ZhX3U0Qll1S0dJanBCdG9QNGVDOVd5VkR3RmcxRVZBdHB0ZVFZRzdkdkZTWVg2SFZ0QTNjUm1GUGlJcGhkbnlqbG11TTU3RFhKTXl3dnc1ZXlZT2txYUlsa3ZKdVA4TkE5OHJ4VkZCaGhqVnRuUThUaHZSTQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T13:59:53+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Nasdaq futures rebound after brutal sell-off, Dow and S&P 500 wobble as US adds 165K jobs - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc2VDQVlTbHhaTXJZWkhOWkdvcWk5LW84LXlCc1NyTGZZSWZlT0hRd3NQc3lwQTByRHRVU0VfVmJKU1pTWWlFTUZmT2EzS2ExS3haNHRfZ3pFaFd3TDB4NmZ0WXVFVFBxUFJiU3VTUmhsWEIzeFJwb2NRUEw3V210dXhsUjZZWU4xZk9zNkp3U3dSSFM5cTc0WW5CVUJwZ2FfV25KQjBnSFRTb2RmejRqejJsRjFsT002THJqNg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T13:59:53+00:00"
   }
 ]
