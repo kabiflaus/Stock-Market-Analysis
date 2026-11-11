@@ -1,5 +1,13 @@
 [
   {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Nvidia, chip stocks rebound premarket after CoreWeave lifts revenue outlook - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNG1aaGJzX0JORkF6cVdTUFdBdGJlUDlTeTVNQVhYU2g3dmhWYi1WUzBhWnJoazcyeXF2M1J6dlZ5Ul9xNm1GZ3VNZ1FyS04yQ21fcUdmdm9pbHlfcWdrUmFsQ0xzUlFPUWRIRmdBYW44UnRBUVJ6cGRELWJmS3J3WDZFcVl5Qm10NkhnNDd4bDlSakp0ejRzbmpUdV9udw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T12:00:06+00:00"
+  },
+  {
     "label": "IFX.DE",
     "topic": "IFX.DE",
     "title": "Infineon stock target lowered at BofA on growing AI concerns - Yahoo Finance",
@@ -56,6 +64,14 @@
     "published": "2026-11-11T07:07:00+00:00"
   },
   {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Nvidia spy scandal exposes Singapore’s role in China’s AI chip trade - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWc2RWkwdFhTMDdpYjlfY1pQcWNnVkVDYXBYZmtEUEJVQkVpYmtZZlNpNmRIa2duTy1zeUtONHZ4eGx1UmgzbkctUHhxNERXSTJCVWhhU1BkVmhxc1FRalBONUdZS3lzc0ZTMlBZOXhUbVVzUFBXb29qOVp6N2hickhiOXU?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-11T05:00:41+00:00"
+  },
+  {
     "label": "000660.KS",
     "topic": "000660.KS",
     "title": "Intel vs. SK Hynix: Which Technology Stock Is a Better Buy? - Yahoo Finance",
@@ -102,6 +118,14 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VWk50RzlXYlZaV1pUOVFBLXNSUjFaOVhYSUpvQ25CVm5UWE1EMkE3bjRYSWNqVVRKUC16T3pId3BLLTQzcW9KRTJOUHVseDZJT3JwQ195cnZjX0IyODU3MHZNeVBtYVd3V2dxMlR5ZEphWnhBeERj?oc=5",
     "source": "CNBC",
     "published": "2026-11-10T21:35:00+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia’s Sell-Off Is Accelerating. What’s Next for the Stock? - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUJ3Y1RzVzBwZU1Vck1lcTFLRjRrVEtZa3d1aFNid1pyS214cktXeG5fMEFxeG9UcEVjZUhqMEJ4enBKNGNLZDRKTFJoaGNGLUI0cnZTRUlYVGR2RFZieXlIcmowdzY1T3dhY1VfaU0xbVBnNGRhYUJ6aGJsMUVQOXF6M3dCVi1hNlA4MHdkX2FDSF80bEJDbmZBMTUxT244UTBZMzBR?oc=5",
+    "source": "Investopedia",
+    "published": "2026-11-10T20:25:02+00:00"
   },
   {
     "label": "NVDA",
@@ -192,6 +216,14 @@
     "published": "2026-11-10T15:09:55+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds: AlphaCheck - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSFhDdjVxTWJmWm01bXNsTjFQekNveDhWSGJ5VUJCaFEtSG9pWnlMUnpacVBiLU5EQTBVcThjQThxWkpNSU5IWjdGempETVhna0JQNWpnZkhiVGxNOGcxZWFXOUZkQnJrOF9HTWVJR2NjWW1tTkZlYVlNNXRGcU9VbUtBYTZWbnY0ZHUxREpSRkhUc1pNVi1uU1pUZ2RyYjY0WTBhVFYxeFg5OWhLbDh2cVZHaC1SY2x4SVNvVlJRS0FMWk10Wmd4SGc1ci05R2NnWGxKWTBDY1NvRV9YLWJjZQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T14:41:20+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters",
@@ -256,8 +288,8 @@
     "published": "2026-11-10T13:31:08+00:00"
   },
   {
-    "label": "NVDA",
-    "topic": "NVDA",
+    "label": "AI",
+    "topic": "AI",
     "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal - CNBC",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pMHBsV3hBRFluY0c0SGo1NFBBTjFRR3hPbFE4bHRfT0R3T0NKOVRzd29TQmdpMHVWYU1JZ2xJU203VWJETkZuYmx2M1Y2VC1GM1BKV044a3o0SjNQdjNUbHRkcTR1WGJEOFpNZzlYdHBPT0hCZkhxMg?oc=5",
     "source": "CNBC",
@@ -542,6 +574,14 @@
     "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNNXVNb2N3WGFURXF3Xy1kbDZzbnRsZkFaU0lxOHIybFIxbW9pWFV4ajEwRUJSaVVpUFZteEY1WGtmeU9nRmk5Q3VubTg0aHdJb3FFYXpBeHdJQUNpZlZFQ3RJSnh1MFpSWWZzdWdna0xaQl9rS0pONkNFdjFzYXUxSGVIa2lsZTNaNnBORkJ2S2JCUGc1S0F2dnFSbnlDYTJlZzduN2pHY0ExeE9WRFRJemUzZmZTTExmdGotcXdUMlZicE5Sd0RDWi15SXktUXBNN1dRdDFPeGg2SXYtODlRX2R3Q3F4bVhBYkotdThZZ3piTE5yZUc3QVhDUDBmNVVWal96dG1EbVg1blV0cVh6Rjc5S2paNEphWUo5d0tsa1M2QWFTVnBMd21sWFNOVXhxZ1RBSnB1bmdoUW1DTnJ1NjNnRmlNaEdydkhaSWgzdFduaE1BX0lab19SUQ?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-09T15:45:00+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia stock falls after investigation into CEO, bucking market rally - CNN",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE50WjBIUUkwd0ZNMkFYTzZjQjRnOFZoc2lPTFVORzZtU0ZwOV9SNldqdUxPZ0NsUEFLZ3lDdzh3RV9ZTWZ4ek9KaWR4aENKVEFtdFIybjhqUkxvTHRFYWFocVgta1ZKRWJYYTFIZ1JpaE5uTVBfNzMzb3VkUC1iUQ?oc=5",
+    "source": "CNN",
+    "published": "2026-11-09T14:37:49+00:00"
   },
   {
     "label": "AMAT",
