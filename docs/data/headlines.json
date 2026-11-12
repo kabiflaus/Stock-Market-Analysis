@@ -1,5 +1,13 @@
 [
   {
+    "label": "AI",
+    "topic": "AI",
+    "title": "AI stocks pare losses as investors assess fallout of Nvidia CEO's exit - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDc4NU9Ycko1b01GTVdRT1lMVzJWaEhrLS1OSU92el9GTTRMSEhyTW5VbThOZEhoVGNCbHNBU19EZS1UUlNiTW0wVU41RUdBVkJpQlNRazBvaHJFQ2VnT2FJU183NE9ub1RKQU5wMFp6N1luX3lrMFZubFVIaHJ0TWhZRVkyUzhJVjBsaDRlMEpKNUFLeWtITVhLRVhqOERFMzh0azNJeVlqVzI0ZUowcnV4Z3VYMUdXcFY0?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T20:06:07+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "Equities little changed, Nvidia drop offsets lift in energy shares - Reuters",
@@ -14,6 +22,14 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTI3RVVkdlJNR2tVVTNfRnJsd2JqUTd2Z3hIeWNNSEhRZ0NpQU4xekZKeTVVN2tJenp3MVh4RU9oTW5EcU9mNVNzTHlnY0pSVmFvT29NaEtETUFmakVPU1o3bUNVYlc3OUFBTVNDS05LYVFmeXdobF81V2paa1cycF96N1l5QW12dzNXMExYcG41c2U4VnRXa09YLXdKcnJVcEprZXNLOTBYQQ?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-12T19:29:00+00:00"
+  },
+  {
+    "label": "KDP",
+    "topic": "KDP",
+    "title": "Keurig Dr Pepper plans $2 billion stock offering to cut debt ahead of split - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZHhrbG02Z2dDUVJ6WnZjQWFTM2xlYXMyWjRERGxSdHJkb1hiR3pLM0x5X05rM1VNN245Snd3dUZWeXg3anZsMGVFSmhIdFBSQ2d3dUVVdlBBXy1ET1lydzNPZExUV2s3RUwxUHUtTVlKUlVBODVHQVpHRGhZeDdQdC1PSHFTNXY2UlR1R3NpV1dkUEo3cktyc0dsU3QxSGZzWE5xdl9zZTlmcDVUTFVlOHdpRUo0T3NXdlhMOU1iMlFMZw?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T18:36:51+00:00"
   },
   {
     "label": "AVGO",
@@ -32,9 +48,17 @@
     "published": "2026-11-12T18:24:01+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWlF0NTdyNlg3YzhrMXU5RjhKTjB5UGdOQ3RQM1lHQXdzclJpMS1iVTQzTzd3eElndENaWXpnYmpSU2VCZ2dEYXRRelN1SmliTzYwWF9NeTJkRWZxbGFqQ0gta0hFN2t4ZF9jbEtmd0V2WFU3MHlaRHRneWZDd2lHcmJzVnZJRE1GRjhkZFdPbWJOeVRtOWJSLV9GazFfcU81Y29aSUJKQVVVdzF6LU5mYl9aeE9OcTdpUXkzYUw2LUtGdWc?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-12T17:48:43+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Nasdaq wavers as traders weigh Nvidia CEO exit, AMD climbs: Live updates - CNBC",
+    "title": "Nasdaq falters as Nvidia shares fall on CEO exit, oil prices rise: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00cTdQYjhOUVlzVEZnQndNN1NKNzBJSjIta1lDWVlVXzhDcXkwWWpVRnE3c1VMTVF2bkZ5WnhHU2NSd2ZRZlI4RVRjREJvbG9xWDZJRF9QMG1MNE40ZGdESkpmZXhsOUhCTUcyZGZiOGhfTjdiSUk4?oc=5",
     "source": "CNBC",
     "published": "2026-11-12T17:28:56+00:00"
@@ -58,10 +82,26 @@
   {
     "label": "AVGO",
     "topic": "AVGO",
+    "title": "Chip stocks AMD and Broadcom are the top performers in the S&P 500 - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQS0FDQ25GbzVCTUlDdkRSVmNsclBnbm5DZHVqM1I5bkFXbWkwMDZ0akNkejlGVW5MQ2hfTVJrSDBtaTNkWkctbEpoeDJTNTgtR2dlMkxMZktSdXNUQXA1RklJUUZFUG5lUTRqRHRkSlZaQm5oN1lvU3lfSnk1cVlkelBmT0FWV2hwZnltZUVoTl9UTE00RW1nZDlyOU1pWEtGV2pRY3RKd0Y1OFJ6RGhMb1ZxSDVjYm5EbDNtWUo5X3JiZ0prdUpXbl82QVNKNmo1dGZlMG1rN3JoRnZMS2pxNHdSZVdtbFVxRHUtajdpYklGYlJJX09XejQzX2NzOEJ3MWxVZTJfTmtqTGhrWnBidklkZkNVdk5RcXI0UFhpdkNYUk5NVVRBei1tMG93NFJvWXBnd1VDcmV4bkpwNHlrNGFfOA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-12T16:38:00+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
     "title": "Broadcom, AMD stock outlook after Huang’s exit from Nvidia - Yahoo Finance Singapore",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdGNWTEVUM0phSU44V3RiaExqUGJvOGU0dWhHbk12d1doNFB6WDdzbGFNalRnclJxN2JYeUJ4Q3YtWXJpX0Vwb0ZVWWptSVVTYk92SkJjd0pzWWVxb1ZEdXdoVFJLVENxb3JwMjYybE9uRjBoN0h1cERMbFpBX2JHaEQtdDlfMkM1?oc=5",
     "source": "Yahoo Finance Singapore",
     "published": "2026-11-12T15:32:31+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed's Hammack signals support for gradual rate-hike path - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWi1FbTBFZzFKNzU2S1UweWQ3Vk56U2NXRlRhbHgwSVdYN3NiOEhvOXgxOFh6ckNVbXZabEtCeVNDZzZIYkNud0N0OXd0dV9UY2dCdlpDQkZhX0VER2xpZ2xISmFIUUZIdEQzMDYxQ2s1Mkg5cW9LVWVwQ3d2QXl1dktYMHlpcDZoNHYwYmh1WHZWSDFneWgzeHZlbVc3cG8?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T15:28:30+00:00"
   },
   {
     "label": "AVGO",
@@ -80,16 +120,8 @@
     "published": "2026-11-12T14:24:05+00:00"
   },
   {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Global AI stocks sink as Nvidia CEO's exit deepens sector selloff - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDc4NU9Ycko1b01GTVdRT1lMVzJWaEhrLS1OSU92el9GTTRMSEhyTW5VbThOZEhoVGNCbHNBU19EZS1UUlNiTW0wVU41RUdBVkJpQlNRazBvaHJFQ2VnT2FJU183NE9ub1RKQU5wMFp6N1luX3lrMFZubFVIaHJ0TWhZRVkyUzhJVjBsaDRlMEpKNUFLeWtITVhLRVhqOERFMzh0azNJeVlqVzI0ZUowcnV4Z3VYMUdXcFY0?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-12T14:10:50+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures sink as Nvidia CEO Jensen Huang resigns, stock tanks - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmFPRDZxNWZrTmpxMHpldTQ3YTU1cHpucFNzbGhPcFJVREszVWJ4UjBwU1ZNMUF2eC1maTZYaTgxSXp1TzhVOGxWXzdlTHVoZlFsdkVkZTdXa3k2cFM1WkZXX0VsWXN6N05QTXZyYUdhXzJSdXFFSVNKX2FYMVRRR2NVRFNUQkszUjY5MTZfUHozbTJNLXJYeXdRMjNhbFlGTDlvWmpmZzlVSVUtYkRYenJTNG5SMFY4VEtaTmhsV08xa0k?oc=5",
     "source": "Yahoo Finance",
@@ -118,6 +150,14 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmFBT0JCaW9uU0lsVUZTVUJJdmQ3Yy1aQy1GcFFBdGFLQjZoUU1xamxZSU1HTHI0T0lvR0tiRl9aV1NTQXptRS1CalphMEJNTG5fM1hyakx3TkxDd0pWMXZVaU1GNVBJODM0M08xZ0JCUkRNYmR3eHd4TlhQdVh1QXA5b252dElLU0o3aG5WS2ZsREwzRlduaUpjRTRCaTEwUWt3?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-12T12:48:32+00:00"
+  },
+  {
+    "label": "KDP",
+    "topic": "KDP",
+    "title": "Keurig Dr Pepper Announces Proposed Public Offering of Common Stock - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMEk2RVIzZnNyeVdEU1JhT3VPaXcxc3l3N3BBM0k0SW1yVDduLWc1MlQzZkhmVGotWkh1dVRzaXBZVDlWNzkxUFdtbXVQQlhVMVVMRWc0SXp5akt1Mm5mM1EyX0pOUVp6aFh4R3VsUjhXbjBvOFlwZ0J0YW9wYjQtTHFYNk1qRHFab3BuUllIRDc2SGZOMWoyaDMtXzczVm5fMHc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T12:41:00+00:00"
   },
   {
     "label": "INTC",
@@ -166,6 +206,14 @@
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
     "source": "Yahoo Finance UK",
     "published": "2026-11-12T10:03:04+00:00"
+  },
+  {
+    "label": "AMAT",
+    "topic": "AMAT",
+    "title": "Applied Materials Stock At $395: Can It Do What CoreWeave Did? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeFp4bXJMN2hFblo5akxoOHNPVWpObXJxZlFkMXd4TVF1aWxLUWNqZFZjSUZ2WXo3TDM3VGpvUzA2SWZTMlRyeUFqRG5VTHUtOFlTRHJoeFdoS2tUZklHTXZ6dG93bEZlaVZSVHhoUXRKQk5UWUUtVnBnX1VDNXlmb25VZTdtWEV4Zjg1dTdVYmltLVRCdndHWGRmZTJyQUJsMURuNg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T09:42:40+00:00"
   },
   {
     "label": "MUV2.DE",
@@ -244,6 +292,14 @@
     "topic": "MPWR",
     "title": "Monolithic Power Systems Inc. stock outperforms competitors on strong trading day - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNFdTQVhDQ2JPV2FkSWlSQk1zZ05WZzZERi1NM1owOXF5VnVqR3c3S0NzSFB4Y2YwWWttVFVVNm1ETXdDaGtXQ1F1WEhaVmJWTV9jUWRqS3licHZGRXNJTjBnQmxoMnpJNTZ5Z19zXzFra2VSZ3R0SHExaElIRDRwa0MzeWd3WUFMQVowZnV1NWJ2M2dlN2ZUQUVUT2l5bjhhMC1XM19Jak5LRFJlODVCclE3RmlMbHJycTZOMGE1UG56ajZITDk5REtsWlFUeGJiLVhvVjZNNA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-11T21:30:00+00:00"
+  },
+  {
+    "label": "AMAT",
+    "topic": "AMAT",
+    "title": "Applied Materials Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNLTdSQVd0S1FFRnMzWWRFUFpfdkYyMm1mMFlnMVM3akZZSGFKVHpiWUFPeGRVZVByY3psY05nU1lRRUJFZTA1ZUZtSG96R19wbDZDTkN5SXdJaVp3TGRUcmpQbjhLSmk2Wjd1SW1NVUp6ZXdvd1hJbzM0Nk8yVjVqYkhMZzUxRUVCR1NMamRYMGF6cjg4RUlpY0xXd1dBUW1JX0d2SlMzODVKNHVudjA4UTQyUDZwY0RPZ0NYSElaMUJwdncyZjRxckdkTDFtUQ?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-11T21:30:00+00:00"
   },
@@ -1342,13 +1398,5 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdHZHeWlBMm5ScUQ3Um9LTHZLdHpkZzNXNXF0NWlKUjlMaE54NnI2VUhSNktuS3BpWEtldEk4ZklwbDFaLUVGaXcxdVY3ZllyX1o5aFNNX1R0dC03Zzc3NFVkSVdTZDl5dTg0UUF4R1lLQXNlT3NmS29zVjhqQWZPVVU5OXlpLXpWdmpSeEJCVWhrY1FUcnc0REduM3VITEs0TXRvLXRtLUxXMUZYaWl5NmYxZml3MDQzUDMxU20wbWdHWWMzbERkeVZHTQ?oc=5",
     "source": "Reuters",
     "published": "2026-11-09T01:39:00+00:00"
-  },
-  {
-    "label": "INTC",
-    "topic": "INTC",
-    "title": "Intel Stock Faces a New Threat That No One Saw Coming - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeHBPOVNrREI0cmp2QUpxZURGUU1DQWM3RzdmRjFGUjdHTE1SMGtWQkdtQ0VRVk1iMGttZzJlRFZ5VE1tdFAwaXVMcjJqeGlNWWFVNmlMTWF6QVBtZW1EMVdkQlF3TFBTUVdFVmMtbVRJLWFXTlpJYzU5RThrQ3JwY0dZbUIzYmNYT2RxUmNaSUZfXzhwNXkw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-08T20:30:03+00:00"
   }
 ]
