@@ -1,27 +1,75 @@
 [
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmFPRDZxNWZrTmpxMHpldTQ3YTU1cHpucFNzbGhPcFJVREszVWJ4UjBwU1ZNMUF2eC1maTZYaTgxSXp1TzhVOGxWXzdlTHVoZlFsdkVkZTdXa3k2cFM1WkZXX0VsWXN6N05QTXZyYUdhXzJSdXFFSVNKX2FYMVRRR2NVRFNUQkszUjY5MTZfUHozbTJNLXJYeXdRMjNhbFlGTDlvWmpmZzlVSVUtYkRYenJTNG5SMFY4VEtaTmhsV08xa0k?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T13:29:43+00:00"
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Broadcom, AMD stock outlook after Huang’s exit from Nvidia - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdGNWTEVUM0phSU44V3RiaExqUGJvOGU0dWhHbk12d1doNFB6WDdzbGFNalRnclJxN2JYeUJ4Q3YtWXJpX0Vwb0ZVWWptSVVTYk92SkJjd0pzWWVxb1ZEdXdoVFJLVENxb3JwMjYybE9uRjBoN0h1cERMbFpBX2JHaEQtdDlfMkM1?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-11-12T15:32:31+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Stock Market Today: Nasdaq, S&P 500 Futures Fall as Nvidia Shares Plunge on Reports CEO Jensen Huang Could Be Ousted - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeG1QWHF4NDNyMmxacHRPb1A3UFJWeElfa3hBZ3g4VjYzclBBNVBtZFNKR3otbVFuN3BsTFlHSDMtcWI3VE5aUmlKRVd1Y1NUZGlMOVJNdHR2bTRwV3JaMHVNd1dvNkZFQUxFcloxbnpjeHkwVkpienVRWjRtcWNWR05QVFJxZ2cxb0FLdHd1N19saUlfX0pnSTN3?oc=5",
-    "source": "Investopedia",
-    "published": "2026-11-12T13:18:05+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks - Reuters",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "S&P 500, Nasdaq fall as Nvidia CEO's exit rattles AI stocks - Reuters",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
     "source": "Reuters",
-    "published": "2026-11-12T12:26:36+00:00"
+    "published": "2026-11-12T15:26:58+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVkIxWkJDaHpKZmg4emJ3RW9FVWRleFBqSU9fckJzb1JCN3FBY25PblRkTmg4UG53VWRJSERhMHp5eUlqNmphQkh5cXRJcE1oWjVxUUNuVkZIOWpGLWw2YS1JQ0JGV0FYS3JwWHVKcU9CeHFLX3JJelVIZXI3cWRNcWhOZ2Z0TkRZYk0yX281dVlPX2d5b2hnblIxdnRwdjRSZDhYZ3FHMFg0UTJpMXhvdUFYWFZPbmM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T14:52:41+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Broadcom shares lead S&P 500 gainers in the face of Nvidia turmoil - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbHIzSGc4TU5vX1FlZkFINlNraUR5ZUNYSXBOc2NYU29lajVINEFKY2ZPM3hMVWlTcjNoRGJiY05GdG9tWGpqUE1ZRjlqcFlTOHppdTl4eHQ4YXdwTWRZbXc4R1pfdzlRT2MyNE15ZTVjXy15cG9fWnF2SXdWNEhyNDU1VngxaTdPZjFydEY5SXdBaWQxajl2dUZOX09nSGZSMzZsUW05WjZ0Z1NZVUI1Yk5md2E1aThVX0lCQjd5X19iQnZlRUNtM1dqQWVKY2F1ODdCdGRyZDdpazNHcU5NYldTYlFzRmh3NkVTSXY5dTNnNGp2N3JOd19rb01hWXd3Y2hkUmVtWUVMWWs?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-12T14:41:00+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "Stock Market Today: Nasdaq, S&P 500 Poised to Open Lower as Nvidia Plunges on News CEO Jensen Huang Is Stepping Down - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeG1QWHF4NDNyMmxacHRPb1A3UFJWeElfa3hBZ3g4VjYzclBBNVBtZFNKR3otbVFuN3BsTFlHSDMtcWI3VE5aUmlKRVd1Y1NUZGlMOVJNdHR2bTRwV3JaMHVNd1dvNkZFQUxFcloxbnpjeHkwVkpienVRWjRtcWNWR05QVFJxZ2cxb0FLdHd1N19saUlfX0pnSTN3?oc=5",
+    "source": "Investopedia",
+    "published": "2026-11-12T14:24:05+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Global AI stocks sink as Nvidia CEO's exit deepens sector selloff - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDc4NU9Ycko1b01GTVdRT1lMVzJWaEhrLS1OSU92el9GTTRMSEhyTW5VbThOZEhoVGNCbHNBU19EZS1UUlNiTW0wVU41RUdBVkJpQlNRazBvaHJFQ2VnT2FJU183NE9ub1RKQU5wMFp6N1luX3lrMFZubFVIaHJ0TWhZRVkyUzhJVjBsaDRlMEpKNUFLeWtITVhLRVhqOERFMzh0azNJeVlqVzI0ZUowcnV4Z3VYMUdXcFY0?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T14:10:50+00:00"
+  },
+  {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures sink as Nvidia CEO Jensen Huang resigns, stock tanks - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmFPRDZxNWZrTmpxMHpldTQ3YTU1cHpucFNzbGhPcFJVREszVWJ4UjBwU1ZNMUF2eC1maTZYaTgxSXp1TzhVOGxWXzdlTHVoZlFsdkVkZTdXa3k2cFM1WkZXX0VsWXN6N05QTXZyYUdhXzJSdXFFSVNKX2FYMVRRR2NVRFNUQkszUjY5MTZfUHozbTJNLXJYeXdRMjNhbFlGTDlvWmpmZzlVSVUtYkRYenJTNG5SMFY4VEtaTmhsV08xa0k?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T14:08:09+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "Are Oils-Energy Stocks Lagging Excelerate Energy (EE) This Year? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSTh2azNJOGJTMlZlRXY2cVZCNDdyX0tUZ19kb2hLUG94YS1TYVV6Z2NRaEVfNEhHeXdhZWpEMkQxRUJ2dUt6LTkxc241cU81ang1WWFncFZWSV81MHpuRGdIRkg1c1RoTmpDMXhvamJuSmRaSmRsM1g0dWJ2ajhLLXVKLWxRMG9uOFYzVC1VNUFWUU9BMVJabkRUQW9DbWpZWmYtLQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T13:40:03+00:00"
+  },
+  {
+    "label": "MUV2.DE",
+    "topic": "MUV2.DE",
+    "title": "Munich Re lifts profit guidance despite lower Q3 net result - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmFBT0JCaW9uU0lsVUZTVUJJdmQ3Yy1aQy1GcFFBdGFLQjZoUU1xamxZSU1HTHI0T0lvR0tiRl9aV1NTQXptRS1CalphMEJNTG5fM1hyakx3TkxDd0pWMXZVaU1GNVBJODM0M08xZ0JCUkRNYmR3eHd4TlhQdVh1QXA5b252dElLU0o3aG5WS2ZsREwzRlduaUpjRTRCaTEwUWt3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T12:48:32+00:00"
   },
   {
     "label": "INTC",
@@ -32,8 +80,8 @@
     "published": "2026-11-12T12:15:43+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
+    "label": "S&P 500",
+    "topic": "S&P 500",
     "title": "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVWJOVUNfczJuRFhCMUJkNHMtMWplYV8zdDN3ZXdNaVotam9MOTZHY3lFWVpLbzc5Qm9uOFpaaXF2bmVBNjVseEdYQmV2aUJCaEJVT3JNaTJneTB4TVpRUFVlcGZReTFST0YtYXZHOGdFNXFYZEVDR3dwTXNPUmdZX0d4X2ppTE9DTGpDNWFNU3hHVGdwbjFQYlB0OHUweF9s?oc=5",
     "source": "Yahoo Finance",
@@ -48,6 +96,22 @@
     "published": "2026-11-12T10:03:04+00:00"
   },
   {
+    "label": "MUV2.DE",
+    "topic": "MUV2.DE",
+    "title": "Munich Re profit beats consensus as P&C reinsurance drives Q3 result - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOE43MHZQU2lQMUZkbXdfemVYcUU3c1M2cHh2dGhlY0J4ODVmZXdsb3NGUFRQNUVWRVZwT21FMG1aQ3NLS19wU0NYODlSLTdzOWlaSXdibG1LN2RZZ2FfdzFfT2xjRkJMaDVxNFViQzNwZTZ5Q1ZCT1hRS1JZU1Vwa1BzNXM2Z00?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-11-12T08:30:15+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPODFpb01oaGZGanh5Njc3RFlNOTFqaTlIY3A1THoydTdUVmtrSEdaU0h3UzkzX3RMdVE4aTZzS3dsRW5CVTBqN3VPYlR4NExyeGd5aXNVVVZKemlkUmNvMWZUemVhTGtYMzQwMms5b3R1cUxNM0tVVUxlM3NyajJZNWZMaURIR3hzQU9YU0xpejZfTXl4dkdNcmh3S2djT3VxODBPLWZEbmJTWExINFhWWHcwaWRQczdOWjdiOWpISXk?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-12T04:41:00+00:00"
+  },
+  {
     "label": "MRVL",
     "topic": "MRVL",
     "title": "Advanced Micro Devices vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy Going into 2027? - Yahoo Finance",
@@ -58,10 +122,26 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "BOJ",
+    "title": "Dovish BOJ policymaker Asada pushes back against early rate hike calls - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeENTRVhOUVoxRTN2ZUVkU1JSZk05VXhuUjBUMVh5LU9xbElxdlBOOFFEdlJiQTNSc2JPemZZcVdTeDcyOGRzeXZoTHlOenhOVDlYUFppNlpzNWg5dWduekJiN0pWT1NsUGtoZUZxMWJrRE5oa3c2cUZqRkE5cm0zZHVVVnlrZnVNT3RxQmxlZnJ0UjhnQkhBeTJZMzc4UDl0Vmc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T03:39:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
     "title": "Dovish BOJ policymaker Asada pushes back against early rate hike calls - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUm1LbmxiVXptVmZNY3hIbG9rSU5ja0lHejBkNEpxSGFQSGxtQ0hfd0VScXhuUG40LWhvQkE1TFhNekZnMEw0Rnhwal8zem1iZVp6UHpvT2ZuYm1LSmxPeDkyQWJGcHpRZkZyZTd3WHZ5YUFMLS1wYS14V091U2RvNm96b21XZnZ4STJLNW1TbEh6RlRIZGdkZm9CZ01SWHNFeFFCRkJXSGlHNy1QOHI5dTRxVHZzejBqRzNv?oc=5",
     "source": "Reuters",
     "published": "2026-11-12T02:20:00+00:00"
+  },
+  {
+    "label": "SWKS",
+    "topic": "SWKS",
+    "title": "Skyworks Solutions Inc. stock outperforms competitors on strong trading day - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNb29hSkU3MXV5OTJjVGpkR3hNR3FVSDNvalVBQWxwX1c2RWR6ejQ2SUo4TUk0Tm9Jb1VSWnhHcWtTX19TeXNhU0JzUUZna2tmdy1vWnZDaWNMNGdyZ3ZLUVNDYWVaV1dKVHdXaDhHdzFGTnZJRkJNZXNuT2poQ2pQdXpvZUc1ek1XNEJ4M0FaVG9JZW9IWS1jaGt4ZmlyeVZRSW9VZDd5SWpNcWljd0hHX1FkcS02VUNPRWtUcmhXeVNTM0pHdXdsdi1VWlhNcjFIazYtNnBCa1pNNkF5eEgtd3pQMTF3bmc?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-11T22:09:00+00:00"
   },
   {
     "label": "MU",
@@ -472,6 +552,14 @@
     "published": "2026-11-10T20:00:37+00:00"
   },
   {
+    "label": "SWKS",
+    "topic": "SWKS",
+    "title": "Skyworks Solutions, Inc. (SWKS) stock price, news, quote and history - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tU0Iza09TbFNkRHc2VjE0Q214VWt1ZFVTRTFZRHp5emlGc2hxWDdTOGtXS3BTUk5BeDA3UVJHTlVmVXlnai1oS1JCaVV5RC1SdUE?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-11-10T19:49:29+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "EZB",
     "title": "ECB’s Lane says rate decisions hinge on wage, price spillovers - Yahoo Finance Singapore",
@@ -542,6 +630,14 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa25KYnV0YmpVV3hxYXM3WHU3YWR0aDlydW9XTDFvcm5mMldHaUNsc2lTdWYwU3M0UWROeEppbTBEdGJ0WU1TclZndU9xbW9PNWkwczBqZm9lQndRcWg2bkk0cjNtR0FnWkx3NFlvS21VZXo2dmQwemxoWnVPMG9NekpSNXFEZ3BaNGRaNVI3b3hfUVJxQURXNTdWdVJaUF9naWJkTWljWnhEUk0?oc=5",
     "source": "AP News",
     "published": "2026-11-10T15:55:00+00:00"
+  },
+  {
+    "label": "SWKS",
+    "topic": "SWKS",
+    "title": "symbol__ Stock Quote Price and Forecast - CNN",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yZ2xUNGIxQVBoMTFTbTFERjdGdVppSklTT2ZianowNHFMeGpPd2VZUjVUbUU2dVJvYnpwb0czd21xV1lqQnM0OFZ6YTVWdVZQ?oc=5",
+    "source": "CNN",
+    "published": "2026-11-10T15:49:44+00:00"
   },
   {
     "label": "000660.KS",
@@ -718,6 +814,14 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNako4QXd4RlJIc01Dc0JXY2xtaWJIUUZFRVJIUjhUUXI5VHRmSDNXYVp4MEtLRnFLaVRrcG03d1VIeW1yTVhScjB3b05tNXBLa29kMVZiZUs1R0RuNXBEZnNYZnpPVXQ3SDZLeTFCUUlDZkZvcXZPUktLZWJ5S1hMMkZpNnN4d3Q4ZWtHWlBYVHg3Z2JlWGxsR0s4X0E?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-10T11:02:15+00:00"
+  },
+  {
+    "label": "SWKS",
+    "topic": "SWKS",
+    "title": "Is Wall Street Bullish or Bearish on Skyworks Stock? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOODZBZVdMWHBlN0tjbVZuN0ZHMENMMXVqVTE0RWFvRlp0TEpNOU5haFdwVjdKc1BHUHhnZ3ZxYmZEenBTSjl3N3lNZlNoa0FNNk9GVE9ocy1KNDB4WUE0b292NnI3c1NaLVc3ZjBDTFc1WmI3ajhKa2JMQlhPWVd2TFdQaEluX08yVnpfanlvMTU5RVBjMEh5cDViSUtNOWdjdGdF?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T10:46:30+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -1126,21 +1230,5 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeHBPOVNrREI0cmp2QUpxZURGUU1DQWM3RzdmRjFGUjdHTE1SMGtWQkdtQ0VRVk1iMGttZzJlRFZ5VE1tdFAwaXVMcjJqeGlNWWFVNmlMTWF6QVBtZW1EMVdkQlF3TFBTUVdFVmMtbVRJLWFXTlpJYzU5RThrQ3JwY0dZbUIzYmNYT2RxUmNaSUZfXzhwNXkw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-08T20:30:03+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Trump’s $1.5 Trillion Defense Budget to Be Blocked by Democrats - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOODlvVE50RGZyXzVMbjYzSkJuUXo1OTR1bGFaYURUSWNiZHlBZENTSVRzZFVUbG1NOUNWM2xlQjNyanFiZGR5Mkt0czU4Z3Y3YzhJX0d3cHhZUExjZmhyRXFqSHByMk5LbXhTSVdmRWtxV2JaXzJkcFVya0FCM3pzYWxWOC1XQm1LcnVGUi1GR2pZV2tKZkE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-08T14:40:26+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "Lisa Su Expects 80% Revenue Growth in 2027. AMD Stock Is Still a Strong Buy, But It Demands Flawless Execution. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWHFtTlVvRHlWRkhUR19QaTZFZkFjWWdCTkZZemJHRUxMZ2tFZXhTbENFS2l1Nm5zMkx0NHF1WTBlQ2R6Y2hrSDdJSE95TTZrTVFQSnF2bDBrU2dwYnR1QkUzMFlLVFRWQjVBQmZjTDZvTUI4MVlqZGNLQ0R2WkxEOXcyUHpEdHNhd3daejFmMzZ3YVFT?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-08T14:26:11+00:00"
   }
 ]
