@@ -1,11 +1,131 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge higher as Nvidia tumult deepens - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUlFnOGhDYjBhQ1U3Y2IxUFI2c3cwTEZGS19OU2M4SG5ZNmJiTjkwWnJibFZBV0tGUFF2b0t2VXBSY1pKVV9HNENTaWJVaDg4X2MxNnhtNXBBQll6UGJuZjM0VGlyRmN6YlVuZG50M1VVSk9YNDRxcDBydTZ5andqMENtWEcwa0JDTlNreWxnNnU0UkItaEllY1ZESGVxNGlSaXRNdDllbGN0ZEZ0bmpUTV9xQ25xRzg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T12:15:41+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Nvidia crisis sends AMD up 30%, Broadcom up 24% - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUXFtZm1jeWg0ZTBZZUtZcHNvVEw4eFZfZ1cyeWNxX28zRHlGQlNFUzZpUERsemotQmMxRWZ2R1diZ2pNWVZ4UE5wZTFQNmdEMnViZDZkQWRUQ1QybExOU1lQZVpiYzNVRE9DalZWalptQVNWNFpBeVYwZVptbHpkSlNTNEg0V2U1aDA0OHk1S0c?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T12:02:19+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures dip as Nvidia tumult keeps investors on edge - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0xIRkJ1T2xEOU9abUNDYi1vTlpmRWJzd0MyQkFqa2NSb1BkMEdUNDROMmVmaXo3bDVRdThuRDFRaWZySXAyRjN5d1NDNjhCclFJUDVxdG9CQ1dyWWpDbUEwVHVRaHpNWUg5SjdreUtMeHNHXy1feGNBVkFLN3Z4cGNTcGtyYXg2bXFHdlpZQWtneFJDSWVreFROZ09oamc?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-13T11:33:16+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq Composite slides as Nvidia shares tumble on Jensen Huang’s exit; oil prices jump - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00cTdQYjhOUVlzVEZnQndNN1NKNzBJSjIta1lDWVlVXzhDcXkwWWpVRnE3c1VMTVF2bkZ5WnhHU2NSd2ZRZlI4RVRjREJvbG9xWDZJRF9QMG1MNE40ZGdESkpmZXhsOUhCTUcyZGZiOGhfTjdiSUk40gF8QVVfeXFMTWN0NjJIZlNoTmVNdFV3NUVBOXBZTVdvWWJYU2ZteENJN0ZvVDE1d3BlaGV2NWhLZHVoWnhtaEVIWDJjWWx0LU9rbm5qMWh4RUV3amJrMG93Q3RfVFVNa0p5WEl1emJ1NDJPSXZCekt0Mk5LdEtQZ3hWWG0wTQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-13T11:29:08+00:00"
+  },
+  {
+    "label": "KDP",
+    "topic": "KDP",
+    "title": "Keurig Dr Pepper Shares Decline 1.1% Premarket Following Pricing of $2 Billion Share Offering - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcXFacU1KZ0lXU3p3b1F3VW94U09rNkIwZTBQb1VGNVdhUlRvb2ZiNkdJUmxnVUxrTUJZMHBjY05aTUZISUU5X1JSb1hNX1VNSEJHem13cnQxUHdOSnN3NllsWVZLTGdKS2YxaUZlZWpxLTk4R3RaWUtzRHJzZi14R05PWnQ4VWVrekE2dWZFcHJ2VnJMRWhHODltMjk?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T11:09:00+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "ETFs Are Buying Broadcom (AVGO) on Nov. 11 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeUFiX1Q2VDV1SDNWYjlCS1ZrOUZPb3NWSkV1UFkyNVA5MUpZZ0NjZHctLXpldFVCNFRvdHJOeWtHQ29qOUV4MXN2cVlXV3NsSVJmdm9hTW1PY2k0RW9pYWZqMmpIVG5QUEh2akN2emVIQU5jLTl5d1UyUGtlYkppN0N4Uml3Y2xhWDc4VnRSTl8zZ2wtTEhoU3B3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T11:00:51+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "US Treasuries set for worst week since Trump’s ‘liberation day’ - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb0FUTktDMERPRkR0VWQyeFdYUXZEZUpGYjFMdFlCekF4YTBVRkJNZzZFY1Fsc2VPeUgzekJnc3Z1XzhaVXZQRTRMWmNGUlJGeEFDNGZlMDc3d2syWDZNRndBeDl2RkY5MnpBM09sUjNSTkVHYWExNU9VSVBUQnhXWjFkaW4?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-13T10:57:36+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Zölle",
+    "title": "Trump’s tariffs face a new threat: Republicans - CNN",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNbmJUVFdDTUN5ZXd6cm9BYnAwV0dyMzVVSTJucUQ2dW0wd3RBR1ExY3ZTSlVFaFlpaHdkeTlzaXp4ajFZNlBqMURSdWczZENmcFhva2ZoR0dxazRtbllOMFluOEtyRjlTeTViRG5jYlRmdw?oc=5",
+    "source": "CNN",
+    "published": "2026-11-13T10:00:15+00:00"
+  },
+  {
+    "label": "Energy",
+    "topic": "Energy",
+    "title": "3 Oil And Gas Stocks With Cash Flow Leverage As Crude Prices Swing - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeDFhTDU5U2tVYlVyMThwV2lXX1dwZU1pblQ0RjVyS0xzbEQ1MUdZU3U4MjZrUmltZUJ2cDE5REZpbWJMdXNZLS1ickwxSkI1dzJwbjFsWDFiQzhmbTdlMHZySk52Vm5FNzFRMkZpNTIwSkIxWW9obmpGZ2xjMEhsb0NvdEc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T06:33:45+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX2YyRTZFMWhVUzZfU0hiQTlZR3U4M3MxbG5Hbk83cHJUYThyWnNYcWY5RlBtcW1jOHpVN1ltbzRsSFlndjhYMXE1TEp1N2RoMU1OYkRESlNpclVST3haa25hQ183bDQ5Y01jTXpFTTFaUDVTSGlkUG9QOXlrX2N0Y1YxUHJ3dVltS2fSAY8BQVVfeXFMTWRwQjNxWEtubmFzbms0UTJNTUZVMi1NNDY3NXJMQWpwNnlDMDluRXZUemNkZE1fS2w0M3hJQS1DVHFTUzA2YVRmM3ZqcHVraTJaVHdZd3hVT1JDd2J6dWNyRnNPR3FmbTRvSnRGRlQ4TEQtSGRnc3QwT0l5NjIyR1BreVQwQzNScC1ZQ2ROWVU?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-13T03:58:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0ZTUUtQbXVySmRXLWtEc2xtZDk5RWkwa29OWlEyQjN3UXVzMkZTYzF3ajVoNkVXZnBnODVRTkN0b1ZwaVk4VE5KOXFqZktYbG1PN1RwdEtwS1ZEb3BBUEkxM2JtUl91NkxCMWpjbmxWV3RScndxMjJUcjh4dEpZM256Nl8tY19iWmp4OExndnRRaXQwdFRpMGRYRDFnNGQ1eEFhNEVrZjZwaW0tamJkLXFYa1I3V1EzbVE?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-13T03:01:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed's Williams says central bank has 'work to do' to get inflation back on target - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGRuWWM4eDJNZlg0NWlDTF9Xc1E2c3lBb0NzY3YwSGg4bnlqMnd6X2RnbmhkTk9lUnY0UC1iQVdBdzR2TUUyZVZ6UXRtcExlejMyQzZlTDV3c0V0a0ExRWlsaENJVzZ5LVVvb1FyZENmTG9VVWl5V1BQR2diUF9JdzhLU3g4RDc0OG9ld05FMFhWTnFKUWZaeW9zUUZOektDSC1GejczRzFOWkRUcDJJMDJabjA?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-13T01:35:00+00:00"
+  },
+  {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "Meet Lisa Su, Jensen Huang's cousin, who's CEO of Nvidia rival AMD - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOejlTQVJ5OEhaeG9HMzBhekk2Vk1RYnc0eUNLN2MyOExiR21kYjR5YjIyQUo4M29zNVl6T0trSWl2Y1JmUEVSbjN1UUxHZWltRmxETzBxU0tyUlhZRFcyZ2szSVZ3SVNmbXFwUXlWOURvbmNSRDBmSnFEdkMtalE5ZVRRemduVUVU?oc=5",
+    "source": "Business Insider",
+    "published": "2026-11-12T20:59:00+00:00"
+  },
+  {
     "label": "AI",
     "topic": "AI",
     "title": "AI stocks pare losses as investors assess fallout of Nvidia CEO's exit - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDc4NU9Ycko1b01GTVdRT1lMVzJWaEhrLS1OSU92el9GTTRMSEhyTW5VbThOZEhoVGNCbHNBU19EZS1UUlNiTW0wVU41RUdBVkJpQlNRazBvaHJFQ2VnT2FJU183NE9ub1RKQU5wMFp6N1luX3lrMFZubFVIaHJ0TWhZRVkyUzhJVjBsaDRlMEpKNUFLeWtITVhLRVhqOERFMzh0azNJeVlqVzI0ZUowcnV4Z3VYMUdXcFY0?oc=5",
     "source": "Reuters",
-    "published": "2026-11-12T20:06:07+00:00"
+    "published": "2026-11-12T20:57:12+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "The bond market now has an even bigger fear than AI fallout - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTI3RVVkdlJNR2tVVTNfRnJsd2JqUTd2Z3hIeWNNSEhRZ0NpQU4xekZKeTVVN2tJenp3MVh4RU9oTW5EcU9mNVNzTHlnY0pSVmFvT29NaEtETUFmakVPU1o3bUNVYlc3OUFBTVNDS05LYVFmeXdobF81V2paa1cycF96N1l5QW12dzNXMExYcG41c2U4VnRXa09YLXdKcnJVcEprZXNLOTBYQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-12T20:44:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Zölle",
+    "title": "Trump's White House Refuses to Retreat on Tariffs Despite Republican Midterm Defeat, Declares ‘We Are Just Getting Started’ - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd2ktR0dKVEc5Mlc5bUZnWWpUN3AteFRUWl9FZjJNaEJ0VjRTeVNxaGxMQl9heHRyak1MWjB0MXR0RUl5WEhrdnlsTFdNTklSV3JuMWN1VzlXYlNvcmpNSzEzd28wWHJ3Vkp5Wi1DMW5TdUVucGdSM3dHeTNJOHVDYzhiREE1alR4ZnBfMmN0MVBFUEtoQjRqRFZDbGZRS3ha?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T20:30:08+00:00"
   },
   {
     "label": "Energy",
@@ -14,22 +134,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
     "source": "Reuters",
     "published": "2026-11-12T19:55:07+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "The bond market now has an even bigger fear than AI fallout - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTI3RVVkdlJNR2tVVTNfRnJsd2JqUTd2Z3hIeWNNSEhRZ0NpQU4xekZKeTVVN2tJenp3MVh4RU9oTW5EcU9mNVNzTHlnY0pSVmFvT29NaEtETUFmakVPU1o3bUNVYlc3OUFBTVNDS05LYVFmeXdobF81V2paa1cycF96N1l5QW12dzNXMExYcG41c2U4VnRXa09YLXdKcnJVcEprZXNLOTBYQQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-12T19:29:00+00:00"
-  },
-  {
-    "label": "KDP",
-    "topic": "KDP",
-    "title": "Keurig Dr Pepper plans $2 billion stock offering to cut debt ahead of split - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZHhrbG02Z2dDUVJ6WnZjQWFTM2xlYXMyWjRERGxSdHJkb1hiR3pLM0x5X05rM1VNN245Snd3dUZWeXg3anZsMGVFSmhIdFBSQ2d3dUVVdlBBXy1ET1lydzNPZExUV2s3RUwxUHUtTVlKUlVBODVHQVpHRGhZeDdQdC1PSHFTNXY2UlR1R3NpV1dkUEo3cktyc0dsU3QxSGZzWE5xdl9zZTlmcDVUTFVlOHdpRUo0T3NXdlhMOU1iMlFMZw?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-12T18:36:51+00:00"
   },
   {
     "label": "AVGO",
@@ -52,6 +156,14 @@
     "topic": "Fed",
     "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWlF0NTdyNlg3YzhrMXU5RjhKTjB5UGdOQ3RQM1lHQXdzclJpMS1iVTQzTzd3eElndENaWXpnYmpSU2VCZ2dEYXRRelN1SmliTzYwWF9NeTJkRWZxbGFqQ0gta0hFN2t4ZF9jbEtmd0V2WFU3MHlaRHRneWZDd2lHcmJzVnZJRE1GRjhkZFdPbWJOeVRtOWJSLV9GazFfcU81Y29aSUJKQVVVdzF6LU5mYl9aeE9OcTdpUXkzYUw2LUtGdWc?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-12T17:48:43+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWlF0NTdyNlg3YzhrMXU5RjhKTjB5UGdOQ3RQM1lHQXdzclJpMS1iVTQzTzd3eElndENaWXpnYmpSU2VCZ2dEYXRRelN1SmliTzYwWF9NeTJkRWZxbGFqQ0gta0hFN2t4ZF9jbEtmd0V2WFU3MHlaRHRneWZDd2lHcmJzVnZJRE1GRjhkZFdPbWJOeVRtOWJSLV9GazFfcU81Y29aSUJKQVVVdzF6LU5mYl9aeE9OcTdpUXkzYUw2LUtGdWfSAcgBQVVfeXFMTjFzV2JqQVZZeTFuLWQ3U1Z0V1hvNWFacE1JUFRsX1Y4OG81SXgwaXVxbnJ4VS1FZUt6YkRuUEE2OE9CeGlkSWJWZFB6dk1aVDNSaDFiYkk1bUVXWFpVc3BnMG9RRXdLcHpDNF9XS1NiOWNBTkxHYzBKbGRjbEttTElCdk9pbG1PVEREN08tSzhHbS1QOHAyRGY4YWVYcUw1d3Z5UENNRkw4elNBYTd4YjVTNkxqZ2FEM3FqMWwxbHIxdDJjeWliUU0?oc=5",
     "source": "CNBC",
     "published": "2026-11-12T17:48:43+00:00"
   },
@@ -120,12 +232,28 @@
     "published": "2026-11-12T14:24:05+00:00"
   },
   {
+    "label": "KDP",
+    "topic": "KDP",
+    "title": "Keurig Dr Pepper raises $2 billion stock offering to cut debt ahead of split - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZHhrbG02Z2dDUVJ6WnZjQWFTM2xlYXMyWjRERGxSdHJkb1hiR3pLM0x5X05rM1VNN245Snd3dUZWeXg3anZsMGVFSmhIdFBSQ2d3dUVVdlBBXy1ET1lydzNPZExUV2s3RUwxUHUtTVlKUlVBODVHQVpHRGhZeDdQdC1PSHFTNXY2UlR1R3NpV1dkUEo3cktyc0dsU3QxSGZzWE5xdl9zZTlmcDVUTFVlOHdpRUo0T3NXdlhMOU1iMlFMZw?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T14:13:00+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures sink as Nvidia CEO Jensen Huang resigns, stock tanks - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmFPRDZxNWZrTmpxMHpldTQ3YTU1cHpucFNzbGhPcFJVREszVWJ4UjBwU1ZNMUF2eC1maTZYaTgxSXp1TzhVOGxWXzdlTHVoZlFsdkVkZTdXa3k2cFM1WkZXX0VsWXN6N05QTXZyYUdhXzJSdXFFSVNKX2FYMVRRR2NVRFNUQkszUjY5MTZfUHozbTJNLXJYeXdRMjNhbFlGTDlvWmpmZzlVSVUtYkRYenJTNG5SMFY4VEtaTmhsV08xa0k?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-12T14:08:09+00:00"
+  },
+  {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "AMD upgraded because it will benefit from Nvidia's 'leadership vacuum' - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbVhXYllGX18xWDVaQV84dXBzeDRMYU9XRFJhYXpHa3Y1blVUVnZkTUlTZ2Z3dlk3ZDhXaHZJX3VLaXQ3bGtlOG43cWRjR2F3WVVxaE9nMUpZTlhvNl9TTl94TVBSMFJ2c3ZoQjU2MHhtOC1aMVZxeXlkdjYzbjh6aDNnaUlydDJlMk9HdnNBNGVNVUppU3J6cmRWVndKNkZVWEdtN1dLZw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-12T13:56:56+00:00"
   },
   {
     "label": "Energy",
@@ -144,12 +272,28 @@
     "published": "2026-11-12T13:24:25+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait' - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ3JPLXo4cE9pTTBQdTFHcEpvaU9BSTlpVU1CZ0FHMndhNG9GcWJOaHNWX1FhaTlyT0k4YllBV3lFMEYwdkhlMGo1YTV4YTVMZnh3eWU2SXpQb3lJNjZMaTJleWllT05kMFpqRHJBSTBSanZMNkJLb1FlaU5GWUlERzV5OWc1VThFSzI1bDQxWGViUkZ6cE5WR3kxdFc4WmVNZkdFX0oyODJjcFdHY2daWdIBtgFBVV95cUxOT1gzb1h4N0I0VkpfdldjdENNbEtWaFlWdEUtamVBQzN5eDFJMmtCcWFjLUlnaEtyaHJIcUhlZWg1WVVoRFRRbzJvRkFxM3FQZ2s1ZEdzdDlEMkVMUHIzNFNldHl6TURfZDQ5TEw5NUdVWnRqR2FrOWFSRWREdDEzcnVHempma1liU01lMktJTzZ0SkIxMVdzam5aU1dNejUyY3BDZV9uV0NPSUlNbmZKeGxVNG83QQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-12T13:24:25+00:00"
+  },
+  {
     "label": "MUV2.DE",
     "topic": "MUV2.DE",
     "title": "Munich Re lifts profit guidance despite lower Q3 net result - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmFBT0JCaW9uU0lsVUZTVUJJdmQ3Yy1aQy1GcFFBdGFLQjZoUU1xamxZSU1HTHI0T0lvR0tiRl9aV1NTQXptRS1CalphMEJNTG5fM1hyakx3TkxDd0pWMXZVaU1GNVBJODM0M08xZ0JCUkRNYmR3eHd4TlhQdVh1QXA5b252dElLU0o3aG5WS2ZsREwzRlduaUpjRTRCaTEwUWt3?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-12T12:48:32+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc1hXaEpuRUhpTnBKTGNYQU9CNnJhRFBYNHdTb2VIOUVyU1VoNmNYcjhNRXdJVTZEQUR4Sm5neEFMOWhwRjF3UW9PLXJuRFNwNG5CSEF5d1hKUTNuQVM0ZXQ5cDBsR04tVDVaT2tGU0VVQWtsZmlNdjROS0ZNdXBUZWF1ZUFTbXZicUE4b0Z0RXo4M3Z6SzFsMXVfZV9QVGMxM1BuMFFZNXktTlloT2dvclB6MA?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T12:46:50+00:00"
   },
   {
     "label": "KDP",
@@ -200,14 +344,6 @@
     "published": "2026-11-12T10:27:55+00:00"
   },
   {
-    "label": "KOSPI",
-    "topic": "KOSPI",
-    "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-11-12T10:03:04+00:00"
-  },
-  {
     "label": "AMAT",
     "topic": "AMAT",
     "title": "Applied Materials Stock At $395: Can It Do What CoreWeave Did? - Yahoo Finance",
@@ -222,6 +358,14 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOE43MHZQU2lQMUZkbXdfemVYcUU3c1M2cHh2dGhlY0J4ODVmZXdsb3NGUFRQNUVWRVZwT21FMG1aQ3NLS19wU0NYODlSLTdzOWlaSXdibG1LN2RZZ2FfdzFfT2xjRkJMaDVxNFViQzNwZTZ5Q1ZCT1hRS1JZU1Vwa1BzNXM2Z00?oc=5",
     "source": "Yahoo Finance Singapore",
     "published": "2026-11-12T08:30:15+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kS2N1QmprS3IzX3ZuTHRrNlBkaERHTlNMTEdzMkk3bUR3eXo5cDcyMGpiSF9xUVpPQzZHaDBZN2NrbHdFVGpmWTZ1ZXAxMXBuOHlkdzNEcEdRQU44Rm14a3llS1VOUFhPaTByWThqa9IBdEFVX3lxTE5OUnhZZGZVQnFtc2lvNXpxdE9iMDJnV3MyYU1iQmpaYnRRaVQ3aWg1LW5ReWZmR0tTeWVSWlE2ZHRXZnBwLXRMWU5VaGF2Wk9HTlhOVkcxR0lJSnZVLVFSSHR6TmJaWTZjVktaZk5WRjV5RHRX?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-12T07:38:45+00:00"
   },
   {
     "label": "AI",
@@ -480,6 +624,14 @@
     "published": "2026-11-11T11:15:57+00:00"
   },
   {
+    "label": "KOSPI",
+    "topic": "KOSPI",
+    "title": "KOSPI Composite Index (^KS11) charts, data and news - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0WDZfZW9SRXkxVUpxWWdxMjhCYkp3aEZrTktOTjZDb21McUVoZzJ4VFNXcmNZZzgwR1RuY0tMUEpuUno1azlwVnpRcWpoOXhUcmpiWWdB?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-11-11T11:07:36+00:00"
+  },
+  {
     "label": "MU",
     "topic": "MU",
     "title": "US High Relative Profitability (DUHP) Adds Broadcom and Micron on Nov. 9 - Yahoo Finance",
@@ -638,6 +790,14 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRkExNUpuUTF0QkJKOTlEakU2Qm84UGJTVTZuRUl5dkJ5LURSWExtUW1OenlYamRKM0tkZlhsaHphTjhBblFqWkpDMTNGX0JHRUtJM2VkVkR0WEszYWJRSVljdDdNSjNNeGpDVm9JM05TV2VUSEdXMlhSaXBFVVRsaUp0eU1Va2o1Qy1CNA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-10T22:43:11+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Bond yields surge most in 19 months as traders brace for Fed rate hikes - CNN",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90VXBidVIzOGQ1UEpWNEZyYmdEWGs5b1czWmUtOEYxNzhxZEJVODlMVEJsOTZYSHRKWHdjWWFGTzltYWtZaVk3dGhfR0hyaVFuTXk5cEpMWDZZYmsxVG9rVF9ZT3VLYnQ4T2NCQllBVHVmT1lw?oc=5",
+    "source": "CNN",
+    "published": "2026-11-10T22:14:47+00:00"
   },
   {
     "label": "NVDA",
@@ -904,6 +1064,14 @@
     "published": "2026-11-10T13:31:08+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Inflation",
+    "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sRXhidGNwejMxdTlFZnRZRzRxSWI2R2w4MzRUcnRIWmhqdUlHMmZaN0ZlaHpNbFp5RzFNQlZfU2hJOWNtVjU2ZzZybU5jYk9lOGtwUFg3dHhDTTVaeUFWdlhNTS11aHVTQV9wZ3k0S3JscjBIZnhNeFlB0gF_QVVfeXFMUFotOHdWZDUxTmpjRVplMUpNLWhuMGhic1JjQ0xZN3d6bnZ2VnJFX3E0ZkxxYkJ5aHByWWtrOWN0ZmYyNnFVYTZYdGFUazdBRkgxMkgxQ0ZFNkVmeFZUSGNqNlcwWVZEbVA5SExIV2xZMlVkVXdoaUk4cmU4TXEyQQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T13:31:08+00:00"
+  },
+  {
     "label": "AI",
     "topic": "AI",
     "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal - CNBC",
@@ -1004,6 +1172,14 @@
     "topic": "Anleihen",
     "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations - CNBC",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00TGg2Rk5HQzViV3NxTHZvREFib0dkOURuR3VIUHZJbjZHWTRzOERZelY0WVZlcVZSNGhCS094UTJDXzM2b3NLeVFSMG5jckhkMndFeG9pc0VvM0JnTUsxN2pTckFuQ3NTMTNZWnQ2MA?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T10:25:50+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00TGg2Rk5HQzViV3NxTHZvREFib0dkOURuR3VIUHZJbjZHWTRzOERZelY0WVZlcVZSNGhCS094UTJDXzM2b3NLeVFSMG5jckhkMndFeG9pc0VvM0JnTUsxN2pTckFuQ3NTMTNZWnQ2MNIBdEFVX3lxTFBpNm5kTU1ZaEZNSm41cmJmOFR5MjZmbzdiRkE4QWhhMjhGam5UWEZEZExIOWpwVDBQeHM3VVczTEJMN3c4QzhIY1Y4MFZlTXh6Nlk2MnNhVEtnNTJRUFc3bzBRbFYtZDlKWGFwTkZKRi1uV2Nq?oc=5",
     "source": "CNBC",
     "published": "2026-11-10T10:25:50+00:00"
   },
@@ -1262,141 +1438,5 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQk5FWEZpcXpSQkZqLVZPWkROeDhmckNrMnpWSkt2aktESDhjX3pva0pxT1RTZ0Q5dkRfOWpHaGV6RVhWZFJxY0NVN0RrWDJERDRjbkFDTUhjcW9WYk82YXdlUjluM2lvQmdiU3hHUG4yTmdrVDdXakJtV3cxNUFhUFRmWHN5OTZ3SXgtV21LZlNrNWxfd0pCendBZkpsTUJlWnY0?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-09T14:02:47+00:00"
-  },
-  {
-    "label": "AMAT",
-    "topic": "AMAT",
-    "title": "Applied Materials (AMAT) Stock Looks Above Fair Value After Its 127% Run - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT0p5cE5fOHZydmRvMHNLZjhSLTZibnNSbnRiLWtSLVd1ajNwNkZQcFZqYlFQaGJxM2Y4SmZDRUo2aWdmRXljdUV4U2lGMjByM1ZDaDNfMTMwZUVxaWNFZjZKeUVRVzBVeDZkc3lOa2t1OUxMVldBQzg5RzA1Mm9Fa01DRVZCZ2p6azlHV0NJUDFZMXYtY24zeWlhdVo2U0tX?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T13:10:21+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "Not AMD. Not Intel. This Is the Artificial Intelligence (AI) Chip Stock Nvidia Should Fear Most. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRnJabUV1dGNwV04yN1AtWTN4bVhYZVhvVjl6d0hhZWp5ZEhaTVczNGdoLXV5dnJRZ2ExUmFldmNvRnhwM0FpUDJzdVJLSVF3TDIwQkFOb3RxVTVtZkVRUHZ5eVV0NmU1WlFmbF9BNW1yUE9Dd2pqQWktSENMTHBVdmJPQWFPU0k4TjBEQ2tBdHoxVVhsd1RJ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T12:20:00+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "AMD shares are primed for a comeback, says Oppenheimer - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CYmI5cjRwNEFyb0VzcTdZb3Fic0Jkck9Cd1RLNURuYVdTWEpDSzktSER6TjBCNlplV3VyRkc1NmZnOThHYnBoZTRibUYwWkNkbktuUGE5d2JLM2pQNW9VdnJ5Rl92WjZ5Z0dobmdTLWdySUFSUDl1REVKdw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-09T11:54:06+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Marvell Stock Fell 58% From Its Record. History Says What Followed Its Last 4 Drops This Deep. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUjJNVUtqYlFET1JDUjB3VEgwWk1raWEtTnJ5czh0bTZEOFJnQW12dXlOaG1KclRXLWV4NFp2ek8yX05vdkZsaTk3a29oU0c4eHRaWTAyLUU0ZDIxZVFDdnhORkU0dk5CY29hSHVQcHF5LS1tUGdmR2xWYmJ5ajZJeEE0aHM0eUVWNnNWWmFTY2dzWm1qWEEzOQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T11:01:02+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "AI Chip Stocks to Watch After TSMC and Nvidia Lift Sentiment - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMjdUbXBaVGdFUXdyemdEMjB3NzN3TnhIYTNscVdxajVQNnFmenk0cThJTnFtQ1NMRmxhdlNjU1V5U2Jfb2NmbklEM2hQVmpTM2Q3ejFnaTBIT0w3RkIyV3p1MWdWT0Zndy1XbTh6SUhBR3pONUZWX2RuX0pISXdwSkU5WmZ4N3cxdUZqLWg4OUdKM1U?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T10:08:34+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Treasury yields rise as investors await October CPI and producer prices - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JVE44LUJheWlkSEJZWlBaUVRGUXR2aGVMbm9yZnNDUnR1alJLSDdlU3Y3RktFcmplWmViVjV1ME1UYU9qSDA1YTN2NUdJbTJvWmZGUU5FZ3VTMU1lV3ppbk10SXBWLWxTcHVWYjRFbw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-09T09:42:37+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "COMMENTARY: Middle East oil price war heralds post-conflict glut - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWdUbTZOMkxOdnRzOHBPdHRWSFBmNG1jZnFISWQ0MVFaWEc1MUlkTjRuNlhSQzdMQWQxaXQzYTBOTGtBd0NkYnRNTFNHaDlNZ0xwVU1JODVSMFdLZnREeGttWWlEdmE3ZnJwODdnMG5iQnJwRlZBbDZvOEU5UjczRC1UcGo5S0p4U01KZWMzcVBjNEdnWW42clRaR1U5QXpoMHh1bnE0T2phU1I1OEpUVFJJUHN2LThoMFd3WGJR?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-09T09:04:24+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "TSMC, SK Hynix, Samsung: Asian Chip Stocks Rise Even As Nvidia CEO Jensen Huang’s Controversy Tests Investor Confidence - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0g4OU1GZ2YzZkc0bHdIem14VDlDREFpb20yMTdGcTliampSRGhrSElReGpNZ0lERUVueEJEM25LLTRpanV4LXMxWmZKdFRLRlhGM3gwNGt2bVItNEhzQ1FldjV4eVBQQmtWRmtlbDdyazVUX3FrdFlhQUtUSE8xREw4WXBpQ3NHbnZkVGoxUVJwOGFsV01j?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T08:35:20+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Goldman says 'the pieces are in place' for a shift in Treasury yields, global 10-years - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tYTVYTm5XNDhfRVJRaE5pMW5IdTMwdk54eTVjYVZIb0VkTklrbW9QNmptbXp1ai1nQXJQendGNk5NVFFUV3ZKR3J1VFJYaXZkMXp0RTJGS240WXg0a21xTmJWRDk5Mk9uTDhxMUFSUjZma3dU?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-09T08:19:07+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdHRpc3ZUQVNjOV9KTEhiNDFYMEFkNEVBUnZ2RG04X0k5T3FYRTB5dEg1ajF0cUp0bEFheTZkTENqODUwcExNT1d5TURFdXhVY1NZRmxIN1NTd2xDbkY4NjJhcnlIX21EQTZIYmpSQ0tRelN1MVY0cFBVM0VNQXlCdVlWN1E3VUhFN010aGs0LWEwc01jYkp1NQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T06:20:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Zölle",
-    "title": "China Extends Pause on 24% US Tariffs to January, Keeps 10% Rate - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZTE5VFprcnF6YTMxUkFqZzlfUE41Uk9iUmx1Y3NTdkIxLWJiSUVLaDlOVGlDR2hYT0pFbEVPaVBtR2p4SF9qYXZ6SG91YnBDcHJJbjRiWmw5QzR5ajJkQS1pdUo1WVJGV2lMZ0xvc2JFdmVJeVBJM2EtRU9mUnd5WnNMMGpZQU11M2xsdlhvQktlLUQ2?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T04:36:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Dow, S&P 500, Nasdaq Futures Rebound After Sharp AI Selloff Last Week: NVDA, AMD, VIR, SNDK In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZDJTY1ZadjNGdVRsV19LTFJtd1doSGxMSWxjdWtKX3VuUlViQ2tZNW41WmFjY292ZXlESk1FM3VIaFFXRUt1Qnd5SjZZUkJGSUNLLVRxdUMzSDNWRFk2b3c2eVpRWWl3bGpVLTlJUnVUaXFoQkIwYUlvdlhWTGZ1WG0wa05hZmM0RGtNUGlOaGJqUVE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T03:48:00+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "AMD, AVGO, INTC, MU: Chip Stocks Inch Higher As Investors Look Past Midterms-Led Selloff, Nvidia Controversy - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa3R5aS1PeTV0Mm1Wc1lTeVAtWVQ3ZGI2ZFFiTDJ5WFNNNllvOUVfa1JHWHMwYXB5MzVfWTJ2aGlGVnBUZUhTSVE2X3hablZoX0MtZExqZ2pjYjBMeWZjT3NISC05eWprZGUySjIxS2VYOHQ2RUlDTHdMU1JWc0RPTGhJbVROVldyWkZwdkRYMA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T03:34:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "China",
-    "title": "China's 5.7% Factory Inflation Could Complicate the Fed Path Before US CPI - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNTg2UHZfR0x3UFZmSi1VUjV5YUZRd2Rub3A2aXcwYUlCUWp3ZmtZM0IzendQZHFWdlVXWXVLSzM2Y05sdGZUZ0Q1WTJJZndGTW15Q01mNTc0dzA5TUhtODljQVNPanpaWE52NTZQTE5YSGtJcDBFY1BiaG95QVBBZUhFN2VqMTZSdm55UG1FRzZVNnJ0YmMxcA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T03:26:00+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Nvidia slides as CEO Huang faces board scrutiny over affair with alleged spy - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUVlREFfdFVvdmk1OXFEamNOcFVZTGJFX1gxZkhjYjhXNTFnZkJqUmpLLTliVmRCZUNtRGdHSDZ2cVBvRXlLdldZSG1rVmFfMFk5M1dKNnBnVnNnUzZ1NmVSNkRWakkyNktBZmhGbzJwYkh5YTZBekVPY3pyUU9lTXY1WGt4TkhLcHVPTldJb1k3MGVPdzBLcTIyVzNuRUpyRGt5cDJpMV91QzdjcWFtQy1MekMwU3lkRlNXUFNn?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-09T02:27:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "China",
-    "title": "China wholesale inflation hits highest in more than four years as consumer measure slows - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOa3VDQVdKcnVEdTB1WDhYZFQzY3Z2b05ydE1yNnc3Nm1mTE5sa2cwUTNURjUtVXNzb1gwem9kaXhZVENaaUY4Nm9LUGp3NDctaFhtRjJCeTJZLWpsdmZkQkg3TENxekZIRUpVakVwT09GRjNva1BLMjI5b1paUW4yTGd6UQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-09T01:40:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "China",
-    "title": "China's factory-gate inflation at fastest in nearly 4-1/2 years in October, while CPI rise moderates - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdHZHeWlBMm5ScUQ3Um9LTHZLdHpkZzNXNXF0NWlKUjlMaE54NnI2VUhSNktuS3BpWEtldEk4ZklwbDFaLUVGaXcxdVY3ZllyX1o5aFNNX1R0dC03Zzc3NFVkSVdTZDl5dTg0UUF4R1lLQXNlT3NmS29zVjhqQWZPVVU5OXlpLXpWdmpSeEJCVWhrY1FUcnc0REduM3VITEs0TXRvLXRtLUxXMUZYaWl5NmYxZml3MDQzUDMxU20wbWdHWWMzbERkeVZHTQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-09T01:39:00+00:00"
   }
 ]
