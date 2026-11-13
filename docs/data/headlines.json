@@ -1,11 +1,27 @@
 [
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq slides on Friday as Nvidia keeps sliding, but major averages are up for week: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DUGhtX3RkQk1tTVc3WFZQOGhSalVKd2RzNks0R1dHRlFMSUd1bUhOeVVmNTQxS09JQjhaaTBQVWVnY3RBblNRRlc3a21TVEJJUnZmVm9pYmJMSVNWazl5bU9lZkdyOVpSSXhoSUlfeEx1ZUdvakVR0gF8QVVfeXFMUEZVRDFwUjNBQ01QTjdQX0h5WXU5R3BqdDZwVFJiNU9obl9qYk1lWC1XTWUxbDhFaGR4V2x0cERQdDAyNFlJQk1fNXBqdFItb3FaTDdyV2R6WklkbExBZHNnQ3k1WFR4X0FaeGpRM09SZHprem0zajZXbEx6Vg?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-13T15:06:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock Market Today: Dow, S&P 500 and Nasdaq futures jump on PPI report; stocks set to bounce back from Nvidia turmoil - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSmg4NHJ5V24yXzQ2TFZvRlVSeEJJSGFhUm5uYUUxTXhMVWhLdzlkOFhfUktLVDBrV2VkTnVwZnUxN3MzZlhYbUdCY3JhRkJWTEd2MW9IZDVJc0xOVjVsN2ppZS1vX3Zia2pYd0xablc5YnZhTnZvUE95eVdKY0Y4Sm9jZ1JyRE1RTHI5Nk92SDgtQjE3c0Z6LU9WdEVEVzFfUUQzZUNUd0h1MDcyQ1YxalFfOGxFNkx5VEdKcDR4eWc3OW41dmN6aQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-13T14:31:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge higher as Nvidia tumult deepens - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUlFnOGhDYjBhQ1U3Y2IxUFI2c3cwTEZGS19OU2M4SG5ZNmJiTjkwWnJibFZBV0tGUFF2b0t2VXBSY1pKVV9HNENTaWJVaDg4X2MxNnhtNXBBQll6UGJuZjM0VGlyRmN6YlVuZG50M1VVSk9YNDRxcDBydTZ5andqMENtWEcwa0JDTlNreWxnNnU0UkItaEllY1ZESGVxNGlSaXRNdDllbGN0ZEZ0bmpUTV9xQ25xRzg?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T12:54:10+00:00"
+    "published": "2026-11-13T13:27:18+00:00"
   },
   {
     "label": "AVGO",
@@ -14,6 +30,14 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUXFtZm1jeWg0ZTBZZUtZcHNvVEw4eFZfZ1cyeWNxX28zRHlGQlNFUzZpUERsemotQmMxRWZ2R1diZ2pNWVZ4UE5wZTFQNmdEMnViZDZkQWRUQ1QybExOU1lQZVpiYzNVRE9DalZWalptQVNWNFpBeVYwZVptbHpkSlNTNEg0V2U1aDA0OHk1S0c?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-13T12:02:19+00:00"
+  },
+  {
+    "label": "AMAT",
+    "topic": "AMAT",
+    "title": "Applied Materials Logs Record Quarter as DRAM Tool Sales Climb - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd2Exb092alBXbEZuQk9VVHd0MFd1dHhzWTY2cTdzeG40dDlXWldnblpNaU9Na3JON1VBLWZiZ3ZNN3R3alcwRGFzY3BuaHVqVUZfWnVfdnN2MTE0VUZQcFpoNld4QmdUTlZabWRsbW1welhDa1UzWWV4czZicHBVcWVXZmhZdVkzcjQ0cnVud3IySnFWTGVrWHh5MjUyNmVWbTRDRQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T11:35:35+00:00"
   },
   {
     "label": "Nasdaq",
@@ -30,6 +54,14 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00cTdQYjhOUVlzVEZnQndNN1NKNzBJSjIta1lDWVlVXzhDcXkwWWpVRnE3c1VMTVF2bkZ5WnhHU2NSd2ZRZlI4RVRjREJvbG9xWDZJRF9QMG1MNE40ZGdESkpmZXhsOUhCTUcyZGZiOGhfTjdiSUk40gF8QVVfeXFMTWN0NjJIZlNoTmVNdFV3NUVBOXBZTVdvWWJYU2ZteENJN0ZvVDE1d3BlaGV2NWhLZHVoWnhtaEVIWDJjWWx0LU9rbm5qMWh4RUV3amJrMG93Q3RfVFVNa0p5WEl1emJ1NDJPSXZCekt0Mk5LdEtQZ3hWWG0wTQ?oc=5",
     "source": "CNBC",
     "published": "2026-11-13T11:29:08+00:00"
+  },
+  {
+    "label": "CSCO",
+    "topic": "CSCO",
+    "title": "Why Is Cisco Stock Falling Today Despite Higher Quarterly Revenue and Earnings? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZEtLNlRVZjNjdGxidVlFbThGLTdKVWpsWlJHSTVIY0F2LVAzMFJPbExEUzdVN3FnLUcxUGRkLWNscDNpRXFBaDVzNUc3VTV1MmtsZVJSTkx0UE4xbUEwMWhRTnhwTUZMOWhtSDNmTE1mem5rTXNrMTZvUW1UMVQ0S0dZSnFXU1ZDdDl0T0pfU2FDcXM1b0g1M0Jn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T11:15:03+00:00"
   },
   {
     "label": "KDP",
@@ -64,6 +96,14 @@
     "published": "2026-11-13T10:00:15+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields rise as traders strengthen Fed rate hike bets - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iVEhaNGZvZDlvWlBGMldrUE5jUlVpUXp2d0YwdEFzZU5ScmVUOTk0ZDdORVhuMjhvRWZTWVQtR0JXWUlWVWVGVHlfOG4wdWZiZVVQNGZXTzByQ2tCRU5LQmFGajY3VDdtVnZIam9MSdIBdEFVX3lxTE1HYkdxR2dlMXVleXNjckE4Nm4xS1JNU1lQMC1JMGtkQ1FwRU0zWXNsSU45UnpYRjNqeVZkZEVwbmxZYmdnLTlfQkVNRW9iV210ZWtPYjdvRGVUc0ZDSDFMNy1FY2JiLTVjTlJ2eEc1VUxpbGZu?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-13T08:43:24+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "3 Oil And Gas Stocks With Cash Flow Leverage As Crude Prices Swing - Yahoo Finance",
@@ -96,6 +136,14 @@
     "published": "2026-11-13T01:35:00+00:00"
   },
   {
+    "label": "AMAT",
+    "topic": "AMAT",
+    "title": "Applied Materials forecasts quarterly revenue above estimates on strong AI chip demand - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeVJYSC1hal9odmptblkwc25YV0pZQXBaaTd0SGFyMW5tT1ZtNzZaTlN0OGFnY2I0dnI3ZmZRaXpwUThvZW5kay1tMElieklOVVZLTDFBTmtQbkpiSWpUZzlLNnZPRmlJSkxoWVZhZGlveTdzNjVsN0ZtZUVMMnk2REQtYmRHRzQwMDhNMVBYQXVQbjBpcHNNYnFWWldTbUItYV9pT1hMYkwwZi1jS0pvZXp4eHJhbHE4OEp6RW13?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T23:44:38+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "Meet Lisa Su, Jensen Huang's cousin, who's CEO of Nvidia rival AMD - Business Insider",
@@ -112,8 +160,8 @@
     "published": "2026-11-12T20:57:12+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
+    "label": "Anleihen",
+    "topic": "Anleihen",
     "title": "The bond market now has an even bigger fear than AI fallout - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTI3RVVkdlJNR2tVVTNfRnJsd2JqUTd2Z3hIeWNNSEhRZ0NpQU4xekZKeTVVN2tJenp3MVh4RU9oTW5EcU9mNVNzTHlnY0pSVmFvT29NaEtETUFmakVPU1o3bUNVYlc3OUFBTVNDS05LYVFmeXdobF81V2paa1cycF96N1l5QW12dzNXMExYcG41c2U4VnRXa09YLXdKcnJVcEprZXNLOTBYQQ?oc=5",
     "source": "MarketWatch",
@@ -220,6 +268,14 @@
     "topic": "AVGO",
     "title": "Broadcom shares lead S&P 500 gainers in the face of Nvidia turmoil - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbHIzSGc4TU5vX1FlZkFINlNraUR5ZUNYSXBOc2NYU29lajVINEFKY2ZPM3hMVWlTcjNoRGJiY05GdG9tWGpqUE1ZRjlqcFlTOHppdTl4eHQ4YXdwTWRZbXc4R1pfdzlRT2MyNE15ZTVjXy15cG9fWnF2SXdWNEhyNDU1VngxaTdPZjFydEY5SXdBaWQxajl2dUZOX09nSGZSMzZsUW05WjZ0Z1NZVUI1Yk5md2E1aThVX0lCQjd5X19iQnZlRUNtM1dqQWVKY2F1ODdCdGRyZDdpazNHcU5NYldTYlFzRmh3NkVTSXY5dTNnNGp2N3JOd19rb01hWXd3Y2hkUmVtWUVMWWs?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-12T14:41:00+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Broadcom shares lead S&P 500 gainers in the face of Nvidia turmoil - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWnZSVE0zU0paTUNlSHFhbkJTV1lIZVZleng5ZTgtYXprNmdrZ2lTWjh2TEdybkk4dzFGVkt2MFh0Y0JNSG1FcmF4Wm9lX1ZwSmRtWGI1X3E2Q0FjeUZsMllBUEdHR2F3SHZJalBnbS1mVEZQWVJwVE9naXQxYVU1dHRBU2Y4dFNFcFM2T0RCbUxIRFpMVDFfRV9WS0tkRUhRdWJvYXo0WUlhMVV3TGxXUFc0NC1xb2JDUDJPRV9UNnc5bWdsbGVyRndyZHhNS05EbjVIanllM2d6S2FwZkd1YjRTWC0wZmFDOTU5WG12SVh5LXNNQzF6QmdWS3paZw?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-12T14:41:00+00:00"
   },
@@ -406,6 +462,14 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUm1LbmxiVXptVmZNY3hIbG9rSU5ja0lHejBkNEpxSGFQSGxtQ0hfd0VScXhuUG40LWhvQkE1TFhNekZnMEw0Rnhwal8zem1iZVp6UHpvT2ZuYm1LSmxPeDkyQWJGcHpRZkZyZTd3WHZ5YUFMLS1wYS14V091U2RvNm96b21XZnZ4STJLNW1TbEh6RlRIZGdkZm9CZ01SWHNFeFFCRkJXSGlHNy1QOHI5dTRxVHZzejBqRzNv?oc=5",
     "source": "Reuters",
     "published": "2026-11-12T02:20:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Öl & Iran",
+    "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T01:52:00+00:00"
   },
   {
     "label": "MRCY",
@@ -1422,21 +1486,5 @@
     "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNNXVNb2N3WGFURXF3Xy1kbDZzbnRsZkFaU0lxOHIybFIxbW9pWFV4ajEwRUJSaVVpUFZteEY1WGtmeU9nRmk5Q3VubTg0aHdJb3FFYXpBeHdJQUNpZlZFQ3RJSnh1MFpSWWZzdWdna0xaQl9rS0pONkNFdjFzYXUxSGVIa2lsZTNaNnBORkJ2S2JCUGc1S0F2dnFSbnlDYTJlZzduN2pHY0ExeE9WRFRJemUzZmZTTExmdGotcXdUMlZicE5Sd0RDWi15SXktUXBNN1dRdDFPeGg2SXYtODlRX2R3Q3F4bVhBYkotdThZZ3piTE5yZUc3QVhDUDBmNVVWal96dG1EbVg1blV0cVh6Rjc5S2paNEphWUo5d0tsa1M2QWFTVnBMd21sWFNOVXhxZ1RBSnB1bmdoUW1DTnJ1NjNnRmlNaEdydkhaSWgzdFduaE1BX0lab19SUQ?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-09T15:45:00+00:00"
-  },
-  {
-    "label": "NVDA",
-    "topic": "NVDA",
-    "title": "Nvidia stock falls after investigation into CEO, bucking market rally - CNN",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE50WjBIUUkwd0ZNMkFYTzZjQjRnOFZoc2lPTFVORzZtU0ZwOV9SNldqdUxPZ0NsUEFLZ3lDdzh3RV9ZTWZ4ek9KaWR4aENKVEFtdFIybjhqUkxvTHRFYWFocVgta1ZKRWJYYTFIZ1JpaE5uTVBfNzMzb3VkUC1iUQ?oc=5",
-    "source": "CNN",
-    "published": "2026-11-09T14:37:49+00:00"
-  },
-  {
-    "label": "AMAT",
-    "topic": "AMAT",
-    "title": "Applied Materials Stock Outlook: Is Wall Street Bullish or Bearish? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQk5FWEZpcXpSQkZqLVZPWkROeDhmckNrMnpWSkt2aktESDhjX3pva0pxT1RTZ0Q5dkRfOWpHaGV6RVhWZFJxY0NVN0RrWDJERDRjbkFDTUhjcW9WYk82YXdlUjluM2lvQmdiU3hHUG4yTmdrVDdXakJtV3cxNUFhUFRmWHN5OTZ3SXgtV21LZlNrNWxfd0pCendBZkpsTUJlWnY0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T14:02:47+00:00"
   }
 ]
