@@ -2,10 +2,58 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Nasdaq slides on Friday as Nvidia keeps sliding, but major averages are up for week: Live updates - CNBC",
+    "title": "Nasdaq Composite slides as Nvidia shares tumble on Jensen Huang’s exit; oil prices jump - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00cTdQYjhOUVlzVEZnQndNN1NKNzBJSjIta1lDWVlVXzhDcXkwWWpVRnE3c1VMTVF2bkZ5WnhHU2NSd2ZRZlI4RVRjREJvbG9xWDZJRF9QMG1MNE40ZGdESkpmZXhsOUhCTUcyZGZiOGhfTjdiSUk40gF8QVVfeXFMTWN0NjJIZlNoTmVNdFV3NUVBOXBZTVdvWWJYU2ZteENJN0ZvVDE1d3BlaGV2NWhLZHVoWnhtaEVIWDJjWWx0LU9rbm5qMWh4RUV3amJrMG93Q3RfVFVNa0p5WEl1emJ1NDJPSXZCekt0Mk5LdEtQZ3hWWG0wTQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-13T19:39:44+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq falls on Friday as Nvidia keeps sliding, but major averages are up for week: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DUGhtX3RkQk1tTVc3WFZQOGhSalVKd2RzNks0R1dHRlFMSUd1bUhOeVVmNTQxS09JQjhaaTBQVWVnY3RBblNRRlc3a21TVEJJUnZmVm9pYmJMSVNWazl5bU9lZkdyOVpSSXhoSUlfeEx1ZUdvakVR0gF8QVVfeXFMUEZVRDFwUjNBQ01QTjdQX0h5WXU5R3BqdDZwVFJiNU9obl9qYk1lWC1XTWUxbDhFaGR4V2x0cERQdDAyNFlJQk1fNXBqdFItb3FaTDdyV2R6WklkbExBZHNnQ3k1WFR4X0FaeGpRM09SZHprem0zajZXbEx6Vg?oc=5",
     "source": "CNBC",
-    "published": "2026-11-13T15:06:00+00:00"
+    "published": "2026-11-13T19:39:00+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "How Investors May Respond To Broadcom (AVGO) As Nvidia Rivals Gain Attention - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX0xWSnBueFFzSXBQWHpGdGNBY1NPYW1uMnA4aWFzSkhTXy04WTh2SmZoSU95LThlZ254RmZhRTk5NFNHSXcyRlJmT2Vwd094T3ZFa1JUYkx0ZmtBSGl1Mnp4eUtPNzRDeTJraWhjMWpfTEs4T0lwRUNfUUJPa0ZJcEIxNU45akFkTXJ1czVLVHVHNzZqRnItTVJBUHE4RktPZUE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T19:10:37+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Why Broadcom Stock Dove Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWDRKQkJNS2RGdmRMNmNocnc4MGRuTm1KWEhfNFRDV3lhRDVqVWlOOEx4bUZKSXJXcFZORjJJWHRXN29jNjJvRGhaTWwxZ1R5ckZwUWtlY25qZVdDUEZZM3NNd0k4U1BKaXpWQXByX0NsZW5BajA4Y1FvSDR0RG5MaHowUjltT0c1R3lmZ1A0Njh2ZzRRcFE2RnFn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T18:20:06+00:00"
+  },
+  {
+    "label": "ARM",
+    "topic": "ARM",
+    "title": "Arm shares slide as Nvidia succession search puts CEO Rene Haas in spotlight - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUGJmb3A5eHptTGZTcnBicHhJZjB1WjE1VmF4WjV3T0R3bjJaZlVtQmMzRC03SEZWdTYtTVRSN1pPdnA1bzVta2ZEWXR5REdLTDFKR2FFX2ZVTjFnamdPcmFCQ1RYZGl1bjc2VjNRczh0eVhSZnNGRHRnN2lldXp3Qk0tdUNJZ041QndHb2dBcVN5cUk5NWw1UjdtazN5cGMy?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T17:37:56+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Broadcom Stocks Fall 4.59% as 24% Weekly Rally Cools Before Nvidia Results - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwdTJPSTloWUtfZkVrS3JUQjJlWkZUNDVxcnd2NUVybTRIWkJKR3NGbzMzNFBpM21VYl9ZUmZveTZEaVBoYTcwcGVzM0ZJM1VjUU14dmx4czlKLV96UzNPZERmbGVMQzl1T1cxaFlqTDE2T2lDeHBJaXBpSHIwMVk?oc=5",
+    "source": "Yahoo Finance UK",
+    "published": "2026-11-13T17:22:17+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "10-Year Treasury yield spikes on hot inflation read, Nvidia leads chip stocks lower: AlphaCheck - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU1M5NjNPTHpWd3gyWEVnX05BY0ljQzRaQUxoS0VEWlN0WGJKb3JTZWJqTTBXUVVIXzZ3blBQUVJMVGlUUGdRaExTZ05BeEtkMXR0YUJhRnVueDlIdjdyYjEzVzVyWXVlbUVzZmdJTzhMcVZfUEV1Y1NLZmRFYm93V2hUOFRaQ2Ftdjltb2NQb3Y0ZVVvQlpIMDJyVW5EeVFhZjFoUGo4anlpU3FNUW1ndVVWSFRuWlFwdHBn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T15:06:55+00:00"
   },
   {
     "label": "Nasdaq",
@@ -18,10 +66,18 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge higher as Nvidia tumult deepens - Yahoo Finance",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge higher after wholesale inflation grows, Nvidia stock rebounds - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUlFnOGhDYjBhQ1U3Y2IxUFI2c3cwTEZGS19OU2M4SG5ZNmJiTjkwWnJibFZBV0tGUFF2b0t2VXBSY1pKVV9HNENTaWJVaDg4X2MxNnhtNXBBQll6UGJuZjM0VGlyRmN6YlVuZG50M1VVSk9YNDRxcDBydTZ5andqMENtWEcwa0JDTlNreWxnNnU0UkItaEllY1ZESGVxNGlSaXRNdDllbGN0ZEZ0bmpUTV9xQ25xRzg?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T13:27:18+00:00"
+    "published": "2026-11-13T14:14:51+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures subdued as Nvidia upheaval roils AI trade - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzBOQUVtbkVkek5raFFhaFJ3MTczWHlJdWgzZC1yZnB2TTAxbC1sUDJYeXBqcXdyYzFiTVljTDRETUNCTFhscDV6YXJJeDV4WHAzdEdUZl9IZXU5V2xPMkJfa0p6RDVqLTRFUVFCclFsOVU3LWVmNkd4Qk1GWWhMSEVLRnlDYWhpOFJUd2tSemhDV0piNkJtczdFTzV5Zw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T12:11:03+00:00"
   },
   {
     "label": "AVGO",
@@ -46,14 +102,6 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0xIRkJ1T2xEOU9abUNDYi1vTlpmRWJzd0MyQkFqa2NSb1BkMEdUNDROMmVmaXo3bDVRdThuRDFRaWZySXAyRjN5d1NDNjhCclFJUDVxdG9CQ1dyWWpDbUEwVHVRaHpNWUg5SjdreUtMeHNHXy1feGNBVkFLN3Z4cGNTcGtyYXg2bXFHdlpZQWtneFJDSWVreFROZ09oamc?oc=5",
     "source": "Reuters",
     "published": "2026-11-13T11:33:16+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq Composite slides as Nvidia shares tumble on Jensen Huang’s exit; oil prices jump - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00cTdQYjhOUVlzVEZnQndNN1NKNzBJSjIta1lDWVlVXzhDcXkwWWpVRnE3c1VMTVF2bkZ5WnhHU2NSd2ZRZlI4RVRjREJvbG9xWDZJRF9QMG1MNE40ZGdESkpmZXhsOUhCTUcyZGZiOGhfTjdiSUk40gF8QVVfeXFMTWN0NjJIZlNoTmVNdFV3NUVBOXBZTVdvWWJYU2ZteENJN0ZvVDE1d3BlaGV2NWhLZHVoWnhtaEVIWDJjWWx0LU9rbm5qMWh4RUV3amJrMG93Q3RfVFVNa0p5WEl1emJ1NDJPSXZCekt0Mk5LdEtQZ3hWWG0wTQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-13T11:29:08+00:00"
   },
   {
     "label": "CSCO",
@@ -98,7 +146,7 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields rise as traders strengthen Fed rate hike bets - CNBC",
+    "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report - CNBC",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iVEhaNGZvZDlvWlBGMldrUE5jUlVpUXp2d0YwdEFzZU5ScmVUOTk0ZDdORVhuMjhvRWZTWVQtR0JXWUlWVWVGVHlfOG4wdWZiZVVQNGZXTzByQ2tCRU5LQmFGajY3VDdtVnZIam9MSdIBdEFVX3lxTE1HYkdxR2dlMXVleXNjckE4Nm4xS1JNU1lQMC1JMGtkQ1FwRU0zWXNsSU45UnpYRjNqeVZkZEVwbmxZYmdnLTlfQkVNRW9iV210ZWtPYjdvRGVUc0ZDSDFMNy1FY2JiLTVjTlJ2eEc1VUxpbGZu?oc=5",
     "source": "CNBC",
     "published": "2026-11-13T08:43:24+00:00"
@@ -122,7 +170,7 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
-    "title": "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Reuters",
+    "title": "Oil prices set for second straight weekly decline on growing signs of supply surplus - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0ZTUUtQbXVySmRXLWtEc2xtZDk5RWkwa29OWlEyQjN3UXVzMkZTYzF3ajVoNkVXZnBnODVRTkN0b1ZwaVk4VE5KOXFqZktYbG1PN1RwdEtwS1ZEb3BBUEkxM2JtUl91NkxCMWpjbmxWV3RScndxMjJUcjh4dEpZM256Nl8tY19iWmp4OExndnRRaXQwdFRpMGRYRDFnNGQ1eEFhNEVrZjZwaW0tamJkLXFYa1I3V1EzbVE?oc=5",
     "source": "Reuters",
     "published": "2026-11-13T03:01:00+00:00"
@@ -144,6 +192,14 @@
     "published": "2026-11-12T23:44:38+00:00"
   },
   {
+    "label": "CSCO",
+    "topic": "CSCO",
+    "title": "Cisco lifts annual revenue forecast on strong AI networking demand - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcDgteG5IeXZjU1k1UDdhbFkyZlVCaHI1d0pPdGp2elFReVRRclN6dWhTM2NuSUk3cGdUSnRRU2c4aWpCcS14blFsN3hLTTNCSktQbXpTUVgxRjVJV1R1YldHdEVYMXJvVHg3TzJiOXhEM0owM08ySlI1bmNkMG5GQXhnQl9iVExNWlN1Z0ZweFk3YldGWDltNFpnekdDZWpVcTJ3QTFlUUxNWXlLX0NjLUhvTjRtNzlrYnlXdXJiTmc?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T23:18:33+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "Meet Lisa Su, Jensen Huang's cousin, who's CEO of Nvidia rival AMD - Business Insider",
@@ -160,8 +216,8 @@
     "published": "2026-11-12T20:57:12+00:00"
   },
   {
-    "label": "Anleihen",
-    "topic": "Anleihen",
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Renditen",
     "title": "The bond market now has an even bigger fear than AI fallout - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTI3RVVkdlJNR2tVVTNfRnJsd2JqUTd2Z3hIeWNNSEhRZ0NpQU4xekZKeTVVN2tJenp3MVh4RU9oTW5EcU9mNVNzTHlnY0pSVmFvT29NaEtETUFmakVPU1o3bUNVYlc3OUFBTVNDS05LYVFmeXdobF81V2paa1cycF96N1l5QW12dzNXMExYcG41c2U4VnRXa09YLXdKcnJVcEprZXNLOTBYQQ?oc=5",
     "source": "MarketWatch",
@@ -1010,6 +1066,14 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "US-Inflation",
+    "title": "Here's the inflation breakdown for October 2026 — in one chart - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Oa3M0cjFOY1RxUkhtUTc2X19DUUVxTEU3UWhNX1AzSG5ndVQzVTk1ZVd0LThhQi1BU0hxZnY1T21lOEp0YTlnWDNjUHpGeUlZbFZTOFJPMi1ISmZqZ3RRTXNtSUpLTXBKMVZOMzRiTkQ2RUFNZVQ2ZVNOajNPUdIBgwFBVV95cUxPTm14RlFBN3NCamJZY3BrU3F4WVBOd3lIbXhrYkJfQi1NZ1REZXVkbURCemFCcUY4QjQ3NVk3NklRamRnTTZ6LXFFWG9aMkdpZW5JbG9yRzl0bjZYdFhEQ1VDZ1hQOXlmRW9fZk9JRk9ibVBGTGlaNVZ5bHgtSFV4SGRycw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T16:18:20+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "US-Inflation",
     "title": "'Not great': October CPI inflation rises 0.4% as food and rent costs spike - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMXBDMy0wcHctM2JTNXIzWHBBZUJMSWhzUFI4WDVWcXRPNy1Qby1GaDR4VTl1NFdpb1ZfMXdkaDZnR0kyMk9rek1sMExiWlhBQ1A4a1B6S281RnNmSWc1bXd1Zi1qQlpGVXp5WlBDb1dsOHRMeVBPNjFSSkJGU1dCN201SXVXVFY3MC1hQk1YMXNaM0N2M0Z4TkZUOWwzWmVPNDFQaTRSVmRVWndwSmEyS3hudmZudHJMT21Hcmw3N3ZKd1pIeFJFU00welk1bmc0elhDc0J6ZURtS0lqN3hSZnlDTi1oN00?oc=5",
     "source": "Yahoo Finance",
@@ -1232,6 +1296,14 @@
     "published": "2026-11-10T10:38:49+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "Zölle",
+    "title": "Trump Trade Adviser Says ‘We Are Quadrupling Down On Tariffs’ After The GOP Lost Congress. Here’s What Yale Budget Lab Says Tariffs Cost The Average American Household - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdUpNb1RpZy1MdmhadmxMMkxoX0xNVm1GdE1JRmF1OS1EUnVoRVU5RTBZX2w3Vl9nMjFiTFhpcFdBS2lUR2lyMWNjRmM0dTROX0EyakgtcUt6RXJkWU1wU0s5UDh3QVdWc3VwREdIbjFRMjV1VVYtaWcyWXBBaHNFSDJ6TGRvbFpiVnFvcHlFV1V6dXA0VWwwdXRFSlA3TThidEFF?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T10:36:39+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations - CNBC",
@@ -1328,6 +1400,14 @@
     "published": "2026-11-10T02:37:00+00:00"
   },
   {
+    "label": "Makro & Weltpolitik",
+    "topic": "BOJ",
+    "title": "Bank of Japan debated need for faster rate hikes, October summary shows - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT2pzelNtZ2drT2dQY0NjZUxEOG9OUVFseWxXRTdqRHJIeFp1LXZnY3ROVEw5Q1M0RkdvcEJXeVBIdXJyN0p5dlQzM2NEV081dXhaVVM0RFYzVDE5OWFPdlowczZmZ0stOXZQMW5JSU1NUmxCcEs3UGhqREhSN2YweWtLMGI0Ty0tdktuemJpN0NUSDZNcjNlQXdNOA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T01:58:31+00:00"
+  },
+  {
     "label": "000660.KS",
     "topic": "000660.KS",
     "title": "SoftBank Group shares surge 14% as Asian tech stocks track Wall Street rebound - CNBC",
@@ -1422,69 +1502,5 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UNm1JTGhxR1lJbWlXTEpySG04ZGtxa0hvTUhUbEpwcEV1V200R1ctZk9zZmlwT2Q2bjVGZkhBcXVBTDJFMTRIdjVwUmpvR3F3aEZpRENBbU1aNE1mMDZ4OGRCdDBsbnZ5c0NQdDFpekUzQzJQRVR2THd3TQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-09T20:01:27+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Marvell (MRVL) Stock Looks Undervalued After Its 166% Three Year Run - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM0R6Q2VrWDQ0RTZSbE5VZjd1YkZIZ2lvZlhkSk5LWjhQdDQzQTFsck1BX1BzSE9ZWGJldWdzVjVsZF9RNEdIYmlHeHFpb0VXWVhidVJqZ2l0T2xkX3VsaUQ1TlZCV3Z5RWlPSnMwcHR6XzcwM2hNQ21GSlltZERhOS1KbVpNbE16X3lvMTBQQXBQdHJnYVNSNWtmU3dObHNleHM4?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T19:16:47+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Think the bond market is broken? History says a massive turnaround could be coming. - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORmNsYlJNeFlXblRVcTRNU2I4eFNEYjNGNmM1UDZlUmJ5VnFjM3Fic0hVTTczNkZ1eFVfQW1HdElCWUJKTERxcXhMdFV5VG5CQ0hMZmVzTTFOQWRTTEs4QWFBNkotU3JaLVZuVW5XcG1iOGdKTklFa0V2Tm44bDk0N0hMbnpORXFaT3haYzFiOHRiZGh0Wkc4VDhlT0Znb2F4dExidnd3TFhhaW9CMmlfeDNVOWdhN1JXYW02TnRHTE5BZw?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-09T18:26:00+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Will a Federal Reserve Interest Rate Hike Trigger a Recession? Here's What History Says. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLWRsYnpDZXZZUUNKTFFqcS1OQmFFZUg2RnRlLXM4SDhoVDdkX242aWZLQUg5eE56T05rdlVWWlVWVXJ6X2hjejF0bzhzbkE1eVFwMUFBeUpLUVI5Z3Z1TFdwUFRMV1pqZGlKN3dtT2dsZHk4VllrMTlCRjFVbkpsUTl2VUJQVC0taDg5TGJvOFM4ZjVYdmVTUmxkd295cWNS?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T18:20:00+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Nvidia Stock Shock Has Investors Looking At AI Chip Alternatives - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclhVbzBYc1psb25EUG1ZOUVaSGFhb2FoZkpXRUlQQ19hWDNCRlUzQTA3QUREQ1g2N1BJc1RWXy1MRDF6NW80T0JrankxNjdLLXBIVm40T3hDX0JkbFJzdG41VG9lMHZoWFBiazR6Z1Z0SEZmaVphVkxyb3BVZ2ZzUjQ3T1prdnFGRExhOVIxbS1xdHJpZFdqTGpuQ0J1QnJ5VWc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T18:09:22+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices hit 10-week low after Donald Trump says strikes on Iran ‘highly unlikely’ - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVdMbllYT0JtVGNxZ2ZKdlpxUjBLMWJESlU0emF1eDk0NDdweHBndXV1MEtYV0I3UlZVTTljS1NoUnBLX1VpMVUwVE5jNmM2OU9iMEV5WklTUENZdTlqTUpGMS1nRlNpNzVyclZxbTJGM3B2ODcwem5xNVhVX1I4NldLVUs?oc=5",
-    "source": "Financial Times",
-    "published": "2026-11-09T16:35:18+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Öl & Iran",
-    "title": "Oil prices fall to two-month low as Trump says new Iran strikes ‘unlikely’ - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yQlFvcWo3UHNWaUhXck0wc3diQ2ZicEw5VlBSOUJ1R3l6SzFlemppblp6d3djMlVwYXByOVhwang5T3EwTkFVTzNrV2RLY1JDLTlsaTlSaVoyUFZuUUxnS1VfSHFLcGphUzJUcWI5enhLUExPZTlUaHdUd1dkM0E?oc=5",
-    "source": "Yahoo Finance UK",
-    "published": "2026-11-09T16:27:57+00:00"
-  },
-  {
-    "label": "AVGO",
-    "topic": "AVGO",
-    "title": "Broadcom Faltered for a Year, Dropping Nearly 20%: This Wall Street Analyst Team Says 140% Gains Materialize Within 12 Months - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcHFZNkRsZE85anFCUUpMeHhjbmNNYVVoTDIwcVQ2dkRnV1dwNHNuSmVQOWZzOFlZRlZHZURGZklVZU9PZGlxX3BnNDRsVkhXbVFKSmhLdTI4SDlZRGxkdXVQaHpRRlZpS3QweEdubnhvVkRja2FXaGY3QW1CMTM2bjJBa29uVU5NLVNsVDliQWJWcDZoREhqNTkxdk1HNW1lQm5J?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T15:45:27+00:00"
-  },
-  {
-    "label": "AVGO",
-    "topic": "AVGO",
-    "title": "Broadcom, CoreWeave and chip stocks rally despite Nvidia pressures - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNNXVNb2N3WGFURXF3Xy1kbDZzbnRsZkFaU0lxOHIybFIxbW9pWFV4ajEwRUJSaVVpUFZteEY1WGtmeU9nRmk5Q3VubTg0aHdJb3FFYXpBeHdJQUNpZlZFQ3RJSnh1MFpSWWZzdWdna0xaQl9rS0pONkNFdjFzYXUxSGVIa2lsZTNaNnBORkJ2S2JCUGc1S0F2dnFSbnlDYTJlZzduN2pHY0ExeE9WRFRJemUzZmZTTExmdGotcXdUMlZicE5Sd0RDWi15SXktUXBNN1dRdDFPeGg2SXYtODlRX2R3Q3F4bVhBYkotdThZZ3piTE5yZUc3QVhDUDBmNVVWal96dG1EbVg1blV0cVh6Rjc5S2paNEphWUo5d0tsa1M2QWFTVnBMd21sWFNOVXhxZ1RBSnB1bmdoUW1DTnJ1NjNnRmlNaEdydkhaSWgzdFduaE1BX0lab19SUQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-09T15:45:00+00:00"
   }
 ]
