@@ -1,5 +1,13 @@
 [
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Wall Street is watching a troubling move in Treasury yields - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRWItYzhfNUxySGUtV1lESUN2c3N6OGFrdjNRQVR3bWhGT09ubWxhLTgzNmRtUnVhQmVwbjdiNndsV0daRXFFelF0Q3NNV0ZGRTN2TkIzY3ljVW5ZdEpfSmQ4MUJZcWluXzBmcGgzNXo5NWktUFN6QXdfNDFlaTlNZjdUR3Z2RVkyZFp3bXpsQ3dJX1BBamwteDU3MlpDY2g2dFE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-14T17:03:00+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "Why Advanced Micro Devices Stock Surged This Week - Yahoo Finance",
@@ -728,6 +736,14 @@
     "published": "2026-11-11T17:12:34+00:00"
   },
   {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Broadcom Stocks Climb 5.18% as Goldman Calls Chips Oversold and Anthropic Stake Lands - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZXhzdG1Id0VPOVc0Ynk1SnE1Qkk3Y3dJWXp5U0FWZkQzT3ZkX0dqQVpGSUVVSHJHcl9UQ25iZ1Y3elIydWpXYl9fRlZjTjBLS3hTOVQyZldjVmxDWVFWWEQybDBQcFNjaXZoOWRyWmNEb1hTN3BMaEUtLUFGMVpSc1RLNFJJeHA2MlNSU19RMVk0WTE0OHc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T16:59:20+00:00"
+  },
+  {
     "label": "INTC",
     "topic": "INTC",
     "title": "Jim Cramer's plan for our Intel position. Plus, a rotation loser to buy here - CNBC",
@@ -1126,13 +1142,5 @@
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tU0Iza09TbFNkRHc2VjE0Q214VWt1ZFVTRTFZRHp5emlGc2hxWDdTOGtXS3BTUk5BeDA3UVJHTlVmVXlnai1oS1JCaVV5RC1SdUE?oc=5",
     "source": "Yahoo Finance UK",
     "published": "2026-11-10T19:49:29+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "ECB’s Lane says rate decisions hinge on wage, price spillovers - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN1dRaGZVRjYzNTRwTUF6bmYzNFpTQUNOTnhEZVZ2cVJBeGlBQm5xbHBBYk9qU2dwU0ZwWnd2V0cteDdhVnZ2a0hycndZOGhCdGtKTklvQlpWMmU4NS0zWHl2dEdRR1k2MzJwZ1lvMFhDbjJhUzRDeUhGNGIzVnFVTW1UQQ?oc=5",
-    "source": "Yahoo Finance Singapore",
-    "published": "2026-11-10T18:25:40+00:00"
   }
 ]
