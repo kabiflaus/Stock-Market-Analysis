@@ -253,7 +253,7 @@
     "title": "What Cisco Systems (CSCO) Said on Its Q1 Earnings Call - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR2dtSnNvQVpZSWNvTjRodmZ1Q1phWkhicVM4Wjd1VE5BWTRwNjZkX2dCdnpfLV8za2NMU3AzWHlCb3h6NEtwRjZuV1pOanlCYU1uM2x0ZFZFcmo0T25oN21iZjlNekJWZ1U0YUVXdEo0QXZGUFpuTGpBZjdsNVpPZjM5elNDa2Y0b091X1ZpanNRV2ZRbUE?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T01:29:09+00:00"
+    "published": "2026-11-13T01:14:00+00:00"
   },
   {
     "label": "AMAT",
@@ -344,8 +344,8 @@
     "published": "2026-11-12T19:55:07+00:00"
   },
   {
-    "label": "AVGO",
-    "topic": "AVGO",
+    "label": "AMD",
+    "topic": "AMD",
     "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVkIxWkJDaHpKZmg4emJ3RW9FVWRleFBqSU9fckJzb1JCN3FBY25PblRkTmg4UG53VWRJSERhMHp5eUlqNmphQkh5cXRJcE1oWjVxUUNuVkZIOWpGLWw2YS1JQ0JGV0FYS3JwWHVKcU9CeHFLX3JJelVIZXI3cWRNcWhOZ2Z0TkRZYk0yX281dVlPX2d5b2hnblIxdnRwdjRSZDhYZ3FHMFg0UTJpMXhvdUFYWFZPbmM?oc=5",
     "source": "Yahoo Finance",
@@ -1088,6 +1088,14 @@
     "published": "2026-11-10T21:35:00+00:00"
   },
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 falls, dragged down by Nvidia sell-off and rate-hike fears after hot inflation data: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VWk50RzlXYlZaV1pUOVFBLXNSUjFaOVhYSUpvQ25CVm5UWE1EMkE3bjRYSWNqVVRKUC16T3pId3BLLTQzcW9KRTJOUHVseDZJT3JwQ195cnZjX0IyODU3MHZNeVBtYVd3V2dxMlR5ZEphWnhBeERj0gF8QVVfeXFMTlgzR0RqNWpkMmYyZFZyajVWTEZjeXphTlhxM2ZkcmVKYVBMMGdPQnZQaUVtVjJNSFltY3J2LWFBMG5vS1R0c1pkdEc2cndpNHVMbm14YTNMV2gxbllEbHdVRm5BU2JsbUJrcjQ0MXhSTVA4TTlBR0hCWVRmMw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T21:35:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "US-Inflation",
     "title": "US consumer prices rise briskly for third straight month - Reuters",
@@ -1126,117 +1134,5 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN1dRaGZVRjYzNTRwTUF6bmYzNFpTQUNOTnhEZVZ2cVJBeGlBQm5xbHBBYk9qU2dwU0ZwWnd2V0cteDdhVnZ2a0hycndZOGhCdGtKTklvQlpWMmU4NS0zWHl2dEdRR1k2MzJwZ1lvMFhDbjJhUzRDeUhGNGIzVnFVTW1UQQ?oc=5",
     "source": "Yahoo Finance Singapore",
     "published": "2026-11-10T18:25:40+00:00"
-  },
-  {
-    "label": "MRCY",
-    "topic": "MRCY",
-    "title": "Defense Sector Concerns Weigh on Mercury Systems (MRCY) Shares - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOY2FNbDR3RDlJaWI1YlJWSzZLYlVNcU1lUG50VXUxN1N2X1A2aUVsUWRPbVQ1YkI3UU9nMFhhLU1XMlpLbWFkeUFOYjNMaHRUUncxcG8zc2xjTkVMVU5EZHJKbWUxanAtaDBfNGFLamFZbnRuWFRyeUpyY0duNnhZTVRueC02c084a19ibFJTMnR2UVBzWlhIekM5dVdQeVFVSTI0TQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T18:12:02+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "EZB",
-    "title": "ECB's rate path hinges on how far inflation spreads, Lane says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNi1BQm93NlpxZHNuaGE4a0dxNWRmN0VSaDd5YTFFQTlxSEY3bFJWNUpGcFQ0cVZfRjRuMl9sV1NNclBfejJQb0RkUHlQcG45VzZNTW1CWktsTExSMmhWMHJCdU1uTUhLLTU2ZUJOTlRPLVgtWkJqWnRKN3JheXM2OThWRjRYVUJFR2l2b2VOY3puS18wdjBTVXh2WlJZZ1VValZGdTRPWWJLQjlkaENN?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-10T17:53:43+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "SK hynix Stocks Jump 6.69% as Seoul Chip Rally Lifts KOSPI 4.39% - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRHNwV0RNN1M3RGJZNnJzS2FnTWFDNEFibUdwVkFPSGJzb0oxRFdjTjhJRGFDM3ZPTDROa1luanR6MW5sNGNUd2FyMXRZVEs4UXM2OHptZG9EV0Yyck9zT0Q1Tkp3dXF4Q3ZuUzhRN2FsR1ZlM1BkLWY5aFR0NUtYR2w4MWF5ZlR0WmduMFVkVC0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T17:29:48+00:00"
-  },
-  {
-    "label": "MU",
-    "topic": "MU",
-    "title": "Micron stock is a screaming buy at current valuation levels: Goldman Sachs - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeFhwV0t4S3ZpR0F5Y2JiYVRDamgzV0xSOXlVM0ZpM1lkajE2ckVGLThFaloyY3VNLUhjSVhvUkZ6UFp0d0RYdDd1Y1IyYUs1VGx2VXRlYk5RY0wxWU0tT1VJeDB5WjdHV0Q5S2gwT3l6YmE0V1lqd1VJeU1LVHVob2R2dVBfZ2o1Y0VoUGhYLTRHZkZOeG9NWUYtNnVxWUc0NGF5UlFMT0c0YmwzRy02bW01dWJ4bl9TaC1jbnhnZ0FaVEIwVE9RSGFFdjhsaGFib1E0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T17:28:52+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "Arm Holdings plc (ARM) Was Bought Back After a Sharp Sell-Off: What’s Driving the Renewed Interest? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcEVaTUZzOW9DOVBURGJWSjhQQ0hrMzUwNy1TcXl0MzhfaDVEQjdCU0YtMURqbHVtVGdYV0U0TUloSFZIaXBHR1NCdWFWWWRKLTN3MXlJQWNZMGNfVUE4QmJaTlB2TFV4TTljeDJxaThyY2xYVDlwNk9mY1pURGM4dktoSlUtMHh1WWNicXI3cU9Hd3g2WW5N?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T16:21:37+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Here's the inflation breakdown for October 2026 — in one chart - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Oa3M0cjFOY1RxUkhtUTc2X19DUUVxTEU3UWhNX1AzSG5ndVQzVTk1ZVd0LThhQi1BU0hxZnY1T21lOEp0YTlnWDNjUHpGeUlZbFZTOFJPMi1ISmZqZ3RRTXNtSUpLTXBKMVZOMzRiTkQ2RUFNZVQ2ZVNOajNPUQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-10T16:18:20+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Here's the inflation breakdown for October 2026 — in one chart - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Oa3M0cjFOY1RxUkhtUTc2X19DUUVxTEU3UWhNX1AzSG5ndVQzVTk1ZVd0LThhQi1BU0hxZnY1T21lOEp0YTlnWDNjUHpGeUlZbFZTOFJPMi1ISmZqZ3RRTXNtSUpLTXBKMVZOMzRiTkQ2RUFNZVQ2ZVNOajNPUdIBgwFBVV95cUxPTm14RlFBN3NCamJZY3BrU3F4WVBOd3lIbXhrYkJfQi1NZ1REZXVkbURCemFCcUY4QjQ3NVk3NklRamRnTTZ6LXFFWG9aMkdpZW5JbG9yRzl0bjZYdFhEQ1VDZ1hQOXlmRW9fZk9JRk9ibVBGTGlaNVZ5bHgtSFV4SGRycw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-10T16:18:20+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "Inflation runs hotter than expected as higher prices extend beyond the gas station - AP News",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa25KYnV0YmpVV3hxYXM3WHU3YWR0aDlydW9XTDFvcm5mMldHaUNsc2lTdWYwU3M0UWROeEppbTBEdGJ0WU1TclZndU9xbW9PNWkwczBqZm9lQndRcWg2bkk0cjNtR0FnWkx3NFlvS21VZXo2dmQwemxoWnVPMG9NekpSNXFEZ3BaNGRaNVI3b3hfUVJxQURXNTdWdVJaUF9naWJkTWljWnhEUk0?oc=5",
-    "source": "AP News",
-    "published": "2026-11-10T15:55:00+00:00"
-  },
-  {
-    "label": "SWKS",
-    "topic": "SWKS",
-    "title": "symbol__ Stock Quote Price and Forecast - CNN",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yZ2xUNGIxQVBoMTFTbTFERjdGdVppSklTT2ZianowNHFMeGpPd2VZUjVUbUU2dVJvYnpwb0czd21xV1lqQnM0OFZ6YTVWdVZQ?oc=5",
-    "source": "CNN",
-    "published": "2026-11-10T15:49:44+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "SK hynix (NasdaqGS:SKHY) Stock Looks Cheap Following A 20% Slide - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXYwaGoyOW1pQlZjTWw4S2Q1WEFVTktSV2Nya2JrSjJMVTJOWVJoQ09PVDJCTnhvd3ZrMmZOa3F1M092dXBDN2pXYUFwNEtRckxpVFJfRGZ2UzJrOC1NaVA2S19EeWs5d2o4NWpWeGYxN0hUMEc3eUxyc0EyX1ozV0xFUUE0Y2xIb20wb0tNV1FHVVY3QWZJMw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T15:09:55+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-10T14:51:00+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "10-year Treasury yield jumps as hot inflation lifts rate-hike odds: AlphaCheck - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSFhDdjVxTWJmWm01bXNsTjFQekNveDhWSGJ5VUJCaFEtSG9pWnlMUnpacVBiLU5EQTBVcThjQThxWkpNSU5IWjdGempETVhna0JQNWpnZkhiVGxNOGcxZWFXOUZkQnJrOF9HTWVJR2NjWW1tTkZlYVlNNXRGcU9VbUtBYTZWbnY0ZHUxREpSRkhUc1pNVi1uU1pUZ2RyYjY0WTBhVFYxeFg5OWhLbDh2cVZHaC1SY2x4SVNvVlJRS0FMWk10Wmd4SGc1ci05R2NnWGxKWTBDY1NvRV9YLWJjZQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T14:41:20+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaGgwYzFvYzY1cndpc3FZRGZjLXRQTFp0WlktcmQwS2d6T1VhVVRBWkdpclUxd3Bvd1A4bWZOendzNXdhdmdtTnJ6S3AxMVNJN0hUbnRDZEF0NHE5QWtOZFUxc2JuZm1qbklMRjBtb2xmWlVSWVdNckxNSFQ3cnZLeC1KU1lrb2lBTFNKN2J1Uy1OYmRSczRoQmZsZlBtaHZPYzdnM1NSZTR5ODdsbEVV?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-10T14:35:08+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Inflation",
-    "title": "'Not great': October CPI inflation data comes in hotter than expected as food and rent costs spike - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMXBDMy0wcHctM2JTNXIzWHBBZUJMSWhzUFI4WDVWcXRPNy1Qby1GaDR4VTl1NFdpb1ZfMXdkaDZnR0kyMk9rek1sMExiWlhBQ1A4a1B6S281RnNmSWc1bXd1Zi1qQlpGVXp5WlBDb1dsOHRMeVBPNjFSSkJGU1dCN201SXVXVFY3MC1hQk1YMXNaM0N2M0Z4TkZUOWwzWmVPNDFQaTRSVmRVWndwSmEyS3hudmZudHJMT21Hcmw3N3ZKd1pIeFJFU00welk1bmc0elhDc0J6ZURtS0lqN3hSZnlDTi1oN00?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T14:23:23+00:00"
   }
 ]
