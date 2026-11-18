@@ -1,5 +1,37 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Dow slides 500 points, Nasdaq seesaws as Nvidia earnings bounce fizzles: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwTDVScDA1ZzNHQi1GT1RaRFVzYTJPa2lHVVJyVzR6RlhfaGZNbG5Va1BFblNtYm54eG82YWl4dlA3SkltcC1WSmdCVEUtMlVKNXlCVDNVcG8wRnBaNkc0UVctakctUDdZUDJsNEp4dWN0Z0Vsczlv0gF8QVVfeXFMT014TXpKZ2hKbVhJT0dVekl1Z2tCbjE3MnMtLWhMUG1DaUc3UUd0emE1R2xPd2pDZXMzVXhGbHFVRmdWRm1iRWJnejN6YjJJYlpDWkxJOVhDS3RuRGUyQkhHZ2wzSzJJdnVrNDVqcHQxb2ZXVkUwSVRJcjE4RA?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-18T20:28:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock Market Today: Nasdaq Inches Higher, Dow Drops 400 Points as Investors Digest Nvidia Results, Await Anthropic IPO - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSVUxeDdRem5Zb0VyQ01uYl9PZTY1dnJTS2I2dmNSdW5nNG1QN0dLUGJyUkh0dGJvcU5XeHFyYlBsdGQ4eG84ckFlT1pHcDhGNS1rWURPVFJSNnd6TWs3TzllbjZvQ01uUjBYaWZVOEhUcWtFNWdWWl8zLWFrWlVLaUNpSV9ZZE5RVHpxcUlxTnRrOHYwdUszM01B?oc=5",
+    "source": "Investopedia",
+    "published": "2026-11-18T18:09:36+00:00"
+  },
+  {
+    "label": "UNH",
+    "topic": "UNH",
+    "title": "UnitedHealth and other insurance stocks drag down the Dow after CMS proposes new anti-fraud rule - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTGxORnNpTklJSlJwbTBHQWVxSFBMTGZoalQzMnhtY0M4MFgxUWhPZU90SFVXVThaT25qTjVhZV9pSVRtT3NqcEhpOXFlUFdGa1hXeWY0REhZaEJPRlVxUjVPNV9hcGoxSzg0dkxiQ1I2OER5VW0yWnd3Y2xyVmxJUnpxV3V1UHliNFkzZHM0T3ZZT21XRnRVVXBfLVhha3FubWd3cl91a0hCVkRNSWVWQkZZbnpaWFBrd29IVnZWOFFHQmNxSDZ5MW9NVzZ3Y19RS09XVG9yMWdqSWJ4V2N2QlhkaFlOekpUZXd4ag?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-18T17:38:51+00:00"
+  },
+  {
+    "label": "Health",
+    "topic": "Health",
+    "title": "Why Recursion Pharmaceuticals Stock Is Up Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUl1Uk1kTk5XeXBFLUxQejVzeDFSN1RMdE16QmtvVlhvbnlLV2p3RmJDMWJFakl0TDhZRlRBanROdWlvOGJVNXBoc0NnR0hqZW9xbDdqb2xOTlFOdHpDWk80VGtLZXRmZnQyNGtNcDFQYnBXeHBoOWxjU1lvRW54YWdFcUlFcDVKaTVSeEdRc3BXbUEyU1BNU3hHYW5UaFd2V1h2MXFRUDJtdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-18T17:23:01+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "Dollar higher as hawkish Waller backs aggressive Fed action - Yahoo Finance",
@@ -8,28 +40,12 @@
     "published": "2026-11-18T16:00:16+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Dow slides 600 points, Nasdaq seesaws as Nvidia earnings bounce fizzles: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwTDVScDA1ZzNHQi1GT1RaRFVzYTJPa2lHVVJyVzR6RlhfaGZNbG5Va1BFblNtYm54eG82YWl4dlA3SkltcC1WSmdCVEUtMlVKNXlCVDNVcG8wRnBaNkc0UVctakctUDdZUDJsNEp4dWN0Z0Vsczlv0gF8QVVfeXFMT014TXpKZ2hKbVhJT0dVekl1Z2tCbjE3MnMtLWhMUG1DaUc3UUd0emE1R2xPd2pDZXMzVXhGbHFVRmdWRm1iRWJnejN6YjJJYlpDWkxJOVhDS3RuRGUyQkhHZ2wzSzJJdnVrNDVqcHQxb2ZXVkUwSVRJcjE4RA?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-18T15:46:41+00:00"
-  },
-  {
     "label": "AI",
     "topic": "AI",
     "title": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-18T15:12:33+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock Market Today: Nasdaq Rises as Investors Digest Nvidia Earnings, Await Anthropic IPO; Dow Drops 400 Points - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSVUxeDdRem5Zb0VyQ01uYl9PZTY1dnJTS2I2dmNSdW5nNG1QN0dLUGJyUkh0dGJvcU5XeHFyYlBsdGQ4eG84ckFlT1pHcDhGNS1rWURPVFJSNnd6TWs3TzllbjZvQ01uUjBYaWZVOEhUcWtFNWdWWl8zLWFrWlVLaUNpSV9ZZE5RVHpxcUlxTnRrOHYwdUszM01B?oc=5",
-    "source": "Investopedia",
-    "published": "2026-11-18T15:11:44+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -130,7 +146,7 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields hold steady as investors look ahead to Fed minutes - CNBC",
+    "title": "2-year Treasury note yield is little changed as Waller warns that Fed may need to ‘shock people’ with half-point rate hike - CNBC",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Hc0tPVG9tRHRYTVBHa2ZvTWQ2ODQ4NTJONXdHLTU4dGJmVjNvMTRFLWpDNG1OdmVIWk5INUxFV2V0dzZpNDUxWWVDNi1XVGtxa19jYkQ0OEFLeTJnQkJLOGxCeExfbUNmWVhtWkh3Y9IBdEFVX3lxTE1OTTltQng1Ukh2QnI2TkdkUGI5VWpLYi1Nb0VDS1A2d0xyOFpZTHN4dnIwbUlRS09sZWlTY1gzNkxJYVpqdWEteW5lbjJTZW5neXRGZkpWbEc0VEwyTkZDVVJUNlRjb0lPVkVKMGpNZ3FvdTFP?oc=5",
     "source": "CNBC",
     "published": "2026-11-18T09:32:43+00:00"
@@ -238,6 +254,14 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORU82dFhCQTJRZFJ3LV93YWl2RzlHSVZ5ZndmYXBOcTkxNjR4bmJQaDJyTUZUd1UwUmhNNjNVYTNOd2tDNUJIeV9pa1owcnQ0QnFTU09XUHBFaW90VzVpMWNkemE4eFBacjJxaGtndEV0MXZ2MTBLOFc4VnQ2VEItT1Azdlo0em9QU2k2YWFZU3NkVjQwMU1GYTJ3?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-17T17:34:51+00:00"
+  },
+  {
+    "label": "ELV",
+    "topic": "ELV",
+    "title": "ELV Stock Quote Price and Forecast - CNN",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9McnA0d3Y0YTlfTVpTRVltU3VYaUs3X0VhSmZVSDhWd1JfWFdEZTNhbnZabkpucVhiWDZrNVhCbG9sTS1aR0wzbHZkVnpacU0?oc=5",
+    "source": "CNN",
+    "published": "2026-11-17T17:07:52+00:00"
   },
   {
     "label": "DBK.DE",
@@ -648,6 +672,14 @@
     "published": "2026-11-16T11:10:59+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2ppQWhNd3BCUHl0amwxSm9PRGJNekVOUFk5ZTcxZkFvcGJ3LVpnS3AwV1BkR3NEcmdaS2QtV1pSMFUxNmlTN05OeVhSRnVCVEkzWjctNDMyb291VGl2UHlQTTdSMU11MnNreVFnNVVMQUx2Z1d4NG5EYV9OVlJ6eVUtU0ZTaXZZODVKa1IzclpBMEU1QlE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-16T10:43:51+00:00"
+  },
+  {
     "label": "MU",
     "topic": "MU",
     "title": "Should You Really Buy Micron Stock Right Now? Wall Street Has a Clear Answer for Investors. - Yahoo Finance",
@@ -838,37 +870,5 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbGl1amtuaHR1OGl1a1FkY211eWlMdUxVSzRoSXhnb2dvZVl3U0wxYU1Od0JUbEdFbkV0RkdPZVB5YkNzVlhWY0lZUWJBR0hUYnBzUnVPWkx4cld3UWh4ZGhJTzFDV0p5QmlrQndMRlFESE5aT0NPYU5OS0FLY3dHWUpUa05uSlEzMVljWDRnQUF3cFd3UnplMTRLMVZjOHNDUDBoOFhNSkVwTXUxVVFGTGw3ckVDeTllTGdOYWtpQVBnRlZRd1hJLVFINUtYcmN6?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-14T21:03:01+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNFljaWVtdURHQzgxcERTYjY3V1c0cnI2ZkRJLTBsc0tZbnBBY292UV82dk1JM0dXLWxfMnJDUnRGUG5EZkNVdzh6S0gyU3pGdXFxUjA1bmg1ZmpzbzFBWG9UQ0Q3T2VIMEJxYldFUTQ0TTRxRU1fRmtVWXJkd1ZoMGVRLWp6M2R1REVoWDVzdTNMQ1U?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-14T20:06:56+00:00"
-  },
-  {
-    "label": "MU",
-    "topic": "MU",
-    "title": "Micron Technology (MU): Does a Low Earnings Multiple Understate Its AI Opportunity? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmFxb0NFNGNaVzBRdzExcGJ6a2Jremg4N1JFQk1lRHlQME04V3NnQ2ZocVlBR2RkeVpVWmwzQ3BaVmZSZjhrTFZZTndQSTJNR2hieUtXSzdaNUdraVFlU3ZUNllBRFpNTUtTZUFJeTg3TTdIWGtib0ZKZmROZGk1NHVSeERfLXZoOHNGNmY1TTlqZGpVWjl2Sg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-14T19:30:08+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Marvell Technology (MRVL): Can Its $20 Billion Revenue Outlook Justify the Valuation? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTjRnV19hQmNqZlZlRlNiUzh0dXQwazRmc3dxRFc1bUNkX1RGUHN2OEd6MzFESE9pWmRYWlozSXUzUk1OTFV0TXVxdTU4U3dfemNRMWhCaGU4dzR6Q2Y5eWlENTV6VndtN24yS1RPbVZqaDBvWFp0WHB4aXBCN2NfNGx3eHRLbktMR0dyS01GNjJqYXNWY0RJUDMyQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-14T19:25:33+00:00"
-  },
-  {
-    "label": "Anleihen",
-    "topic": "Anleihen",
-    "title": "Wall Street is watching a troubling move in Treasury yields - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRWItYzhfNUxySGUtV1lESUN2c3N6OGFrdjNRQVR3bWhGT09ubWxhLTgzNmRtUnVhQmVwbjdiNndsV0daRXFFelF0Q3NNV0ZGRTN2TkIzY3ljVW5ZdEpfSmQ4MUJZcWluXzBmcGgzNXo5NWktUFN6QXdfNDFlaTlNZjdUR3Z2RVkyZFp3bXpsQ3dJX1BBamwteDU3MlpDY2g2dFE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-14T17:03:00+00:00"
   }
 ]
