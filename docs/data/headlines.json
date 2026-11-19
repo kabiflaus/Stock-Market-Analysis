@@ -1,5 +1,21 @@
 [
   {
+    "label": "WWD",
+    "topic": "WWD",
+    "title": "Woodward (WWD) Sets January 2027 Leadership Changes Tied To Its Transformation - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMnJDbjlqaUZsSDFfVGxLbHJObl9nblpYdEwwT3l3UW1SUUowVVR3ZWxZNXllaS1lbUhiVEdFbzFkWlBiZEJrR2U5Vnp0dTRTelJFZWZwaWpqMjZvYmUzN04tLWVVN2RST01hTkhBemg4MVIxMHFtRlZsalhMNndQZU1YVDR1dw?oc=5",
+    "source": "Yahoo Finance Singapore",
+    "published": "2026-11-19T20:17:15+00:00"
+  },
+  {
+    "label": "UNH",
+    "topic": "UNH",
+    "title": "UnitedHealth’s stock keeps plunging after government signals crackdown on Medicare Advantage fraud - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZVJDMWJSb25wRGpVaEZtNDBMQ0NaeGxucHdZMXozUjE0NENVdmZBZFZ0OGNUOF9iaS1PLW1VM1YyM1RvbTVDX1NVSEdoVU9WQU5uOHBla2lRVEdFVEZIdElLR3V4dXFDbkFQcVMxOEd1WWJpcVR1OExkQjlIb2JDZ0JfS3VlU0JFbkE0UWZiVXlKclZTS2pBbTNTNnNnRFNQOEVfVVpTdi1ESlBkeW5MR0hYbFhCWFdoN3Y2ZU1zaThyd1VxUVdvbExzU2dRUHdoRWdiR2hYQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-19T18:03:00+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "Why AMD Stock Was Plunging on Thursday - Yahoo Finance",
@@ -14,6 +30,14 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNamxpaV9pd09BZHBwY2dkTF9NMUttWDFlQS16Q2MwOFl3d3VxX1BrR0J4aEtlQXM2TG5XUlN0eXBfMExna25BSzNOdTUxNG1DdG5ZQ2NNaWtqTjJpTnQ3S25xeXpBSzk5cWp4MUExWmk3RE1GWExWalJINFNOX3FjYWphSHFsOVR1SHppYkxvU0Uyek5zU2hCcUMzZ9IBoAFBVV95cUxNelFseGlBTTJCNTlhVlhxSzVvTjd4Y29iNzkxUE9USXk5YnQ3bEVNWl9yRmpnOHVhYzhyLUp3WXQtQjRoSmVDMUVqcDR5bFBMQmxuUzJ1VnRVaTloYTlMQnhnZTZ6QU9ybDdGSzJpWjhOTjRYT3ZyVk5LSmd6a3dKbTMyU3hNckEyeU5YVHhiNmV1N0VTaDh0emN1bDJPYjZW?oc=5",
     "source": "CNBC",
     "published": "2026-11-19T16:24:53+00:00"
+  },
+  {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "Shares of AMD fall after Hunterbrook discloses short position - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQVJGa0VlRGhKNzdQdnMyYWtMRXBWbFJLVDJLMWJiSlBlS1RISzZJcmpNUFRLUmJOUzJQOHZDUlQzWlZVYW5TOTI1VEVSMTVCQUlkRU9JdHJ6SFZsamhaUFZabFBaVXJjdVN2T0poWDZETHJkUmtWUmtDb1Z5Q0xXME5jT1JMY2prel9RN3FTYkdSV0FiM0ljazRZWG1PYWg5ZHZYY0Q2SQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-19T16:00:26+00:00"
   },
   {
     "label": "Nasdaq",
@@ -46,6 +70,14 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObnZkVFQ2QmtIbncxNnNfZHRvMTZuMTlLUzZhNkFxckg1V1BMUm1xRnNxQ3dhREROVzZULXlReHlBNVB3NGtqZFRNWnZSaU5hTTV4eXJ4T01ZZktqSG9GQkRkM1AxV0JWNC1OODc1TmIxSE5XNWxpMGhnc2FteTdReklsNzVXbm50SXZwSHJ3dk1JRDFYTi1qZGRkUEhpUQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-19T13:40:04+00:00"
+  },
+  {
+    "label": "MRVL",
+    "topic": "MRVL",
+    "title": "Marvell (MRVL) Stock Gets Fair Value Trim As Analysts Split On Lumentum Deal - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQUhOYW4wQlB5TENFNjZvYUNNMlpQeklkdmFPaTJ2Y1hwdkg1V1RKbE5WUzZWS0RzNmhMbXUzVndsVmw5MC12UFlEZWFIcWZJcE9UbFRNcTFUUlotQjZ1VTlaU2NsemxYSVBfMHVyQTRrajcybnlfNlBWc3hSUzlFMkM5TE55RmkxcFRvOThnZnI0ZWpnMTREZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-19T13:14:07+00:00"
   },
   {
     "label": "Nasdaq",
@@ -134,6 +166,14 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05Um1NdEdUSk5QVXZMWjVfNWZSbjMwWDBDUS1CSU14T3dUaVZXUWVQdFhGYUV3cS1BbmpTVHV2bC1LRldBbl96eVJGWXhHZW0zR0RPRXFiZW15dktuQW9ESE54Y1luQVJJNkdmS1N5QnNNRTFUQlFhVdIBfkFVX3lxTFBFVWo1RldiN1N3VGZFclp6VEpDN1ExYmY5UGxuR3g4bTNhTnFSTzlhQXJsVi1yeDZTMms2RUFMOU5RLWp2aVd6U2dJVkx5cGQ4NUI1WnV2blA2WHFRNHFRN2dtaXRqdDI5SHRNeml0cGttTGxpSUtJbjRUaUxGdw?oc=5",
     "source": "CNBC",
     "published": "2026-11-19T01:05:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd2Q1ZnpsMjBsaWNUMEJIVUxmTTNSeUYyOWphQWtydFJKbDIzN3JiUXpvcEQ0dnhBcFVhRHdGWTR4dTRCQW5FNi1BVE8ycGtnTXEtWkZJMS1COGc5M25oUmNWb1hMemNpZ0p3MlRGSjBRLU1rX2cwRUlrbjNCWEcxazRkazhVd2dTUUFuWU1KN1RiVHBURHc?oc=5",
+    "source": "AP News",
+    "published": "2026-11-18T22:48:00+00:00"
   },
   {
     "label": "S&P 500",
