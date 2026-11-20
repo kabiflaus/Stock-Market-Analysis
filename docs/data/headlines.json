@@ -1,19 +1,19 @@
 [
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "S&P 500 and Dow enter correction, Nasdaq wipes out 2026 gain as Anthropic leads AI sell-off: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tY1RiS3BadWcwVVMwU2oteTAzRVdyVEpSeUwtUGJOU3RZV3BmOEJQRmtrT25udndSRVUxRDVpSkRCLUdCS2lDc3dTRm9Ja19qNzh3MlNXVDVDM0UwQXItVWgyMUJnaV9xY2RlWEJmbnBCWWE1ZEdz0gF8QVVfeXFMUDFCSzhsWkpPUEpfV1BiOTNJUkJCbGNwaFVlUmtCcm42WTNmaXF6RVdpbnNwcWJOV1V6QWRtSjVMdFBuLU5kSmFwM0Q5S0ZQOVdPdVVlMGh3dVQyQnAtY0lXcU9xbjN0NE5pYUU1MEM5cU1WN25lc3pYUmpJaQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-20T20:29:00+00:00"
-  },
-  {
-    "label": "AVGO",
-    "topic": "AVGO",
+    "label": "NVDA",
+    "topic": "NVDA",
     "title": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-20T20:21:19+00:00"
+  },
+  {
+    "label": "INTU",
+    "topic": "INTU",
+    "title": "Intuit: 3 Key Takeaways for Long-Term Investors - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTXI2ZENtWnNVaGlUeUhpS2lqVmIxUnR5T09aTUhtVDc1SmM3ZXk0VUNwOG53UjBmLVNCUGsycHBQczFGLXNBNVZlS1RWRmZwTlRvWlVnWHRMbEhSdjhwSjdSa0tQVnBDMzZEQ3ZNbGVQbTVIZG5VMHRIeEZYTWFzSHVPdmR3a0pUeFFUOUZ0S09LeHV6R0VF?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T20:18:32+00:00"
   },
   {
     "label": "NVDA",
@@ -30,6 +30,22 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS25iVW9uNHFsc3lYdkNPRTJyTUhYcWRVbjhOZlR4QUpLZGs4RkE0d1lSLTEtN2x6N0ZxZnlZdE9KaTQxeS1TbWRFaGFpd0hGc0ZKWmF5OEVRdnFDX1NNWFlBTl9rdVRUVFlxSVRIelpPNmluWVdUVElhQzh1NWtjemJaUnlhRnJ2N3Q2dDNVYlhVYWtXbkswbXhYLWdiOHE0V1dkQ2xjNjFsTlpEQ0hzRDBja0RqV0VFX0FZaXdKRVZ2RHdGVUUtS2VzanJrTkhiSVcxeGVCRXNlUUhSVWJ3?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-20T19:43:37+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia stock plunges 12%, rides longest weekly losing streak since 2008 financial crisis - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSXJZbEJSVExtUGxySHJ5eFBaLTRFV0dTRWFjY244NWdhVTZ5cENMNXBqcVhBS08xLS1oSG5jbVJTME9QdWZKcXlzOXpTN3ZmMFZrREtNVzhHUVFMZXBmTndDUklLWFFrOGlpNTc5Y3dQR25mMjhXdGlSbl9SNVBfbFVOVXhCZTg3a3gtVUwyN1FWOVZ6NWIwRXUxZTdReG56V1MxeGdIONIBrAFBVV95cUxNN3pqQmZoNHdVc1M2SHpMWERNaDNHOUVyRGNDM3dlVzdGR19IaVdyRG5mQ0p6SzBZYlpWemdoZDN1M3NzZVpVVWpNVkFGa2ZpT3g0YVR1aFBLb0RoWm5mM0EwMkRkdmEtNndicG9iTHNLTGU4VUg4XzdPNWpDd0tYMWItNFM1NDNuMTN5OHEwbWFBNUloZEh6ekdsYW5WY2FXSHZjcmgxS3M5Tmx0?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-20T19:26:29+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "S&P 500 and Dow enter correction, Nasdaq wipes out 2026 gain as Anthropic leads AI sell-off: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tY1RiS3BadWcwVVMwU2oteTAzRVdyVEpSeUwtUGJOU3RZV3BmOEJQRmtrT25udndSRVUxRDVpSkRCLUdCS2lDc3dTRm9Ja19qNzh3MlNXVDVDM0UwQXItVWgyMUJnaV9xY2RlWEJmbnBCWWE1ZEdz0gF8QVVfeXFMUDFCSzhsWkpPUEpfV1BiOTNJUkJCbGNwaFVlUmtCcm42WTNmaXF6RVdpbnNwcWJOV1V6QWRtSjVMdFBuLU5kSmFwM0Q5S0ZQOVdPdVVlMGh3dVQyQnAtY0lXcU9xbjN0NE5pYUU1MEM5cU1WN25lc3pYUmpJaQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-20T19:07:43+00:00"
   },
   {
     "label": "AMD",
@@ -72,6 +88,14 @@
     "published": "2026-11-20T16:50:27+00:00"
   },
   {
+    "label": "INTU",
+    "topic": "INTU",
+    "title": "Intuit stock falls on weaker outlook, Mailchimp sale to Bending Spoons - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYWkxcHZSY210YklPRW9RX3MxX1VTcU45Sjk3UEJ1UmhQV0pwN3RjT1hkRjF1bWh4SGEtN2k2OXNHNXRCYURZQ09MMUxZREtZNzZNN2FJVTRHYzVRZjREWVVnZmRySEx6Ynl3aUUtSW5FRTZGR0ljMzFHZVVUSzFlMlRHLU9YVWZKeVFmWk5uQW42MXhjOGxMZ3lHaWthWUR0NWJ5aHVKcEsySFBQYlBIeXphUEh6QzlJZUtveGdLN2NOcUtuRHFfZjM5VU5vQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T16:06:41+00:00"
+  },
+  {
     "label": "AVGO",
     "topic": "AVGO",
     "title": "Why Redburn Downgraded Broadcom (AVGO) Despite 221% AI Growth - Yahoo Finance Australia",
@@ -80,12 +104,20 @@
     "published": "2026-11-20T15:24:21+00:00"
   },
   {
-    "label": "AI",
-    "topic": "AI",
+    "label": "NVDA",
+    "topic": "NVDA",
     "title": "'Big Short' Michael Burry says he 'tried to warn' about Nvidia, CoreWeave, Nebius stocks - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMkZVMDlacnZFTUdQWmc0dGpKNUl5UFpTdjBPM1ZXdWFsN1RNazJabnpwYnk3WE9fM3Vrb1dSdFF2QkIwSzZPdGRJaW9TOFhKUzFQZml6UU4zSlAwXy1aMW5VTlZhN1RMdjJsNWdXR2VmSTdpRjh4enRBUHl3Rjc1N0c2UWxiTVVzcTRhWXdLRTFvd1c3M2hqOUJ0Z25WU3BvTndDTQ?oc=5",
     "source": "Business Insider",
     "published": "2026-11-20T14:59:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CZGVYYlZTODBOZUpYNkFCQWloR3JjOGhRTWwxR3N5R3diQ3Y0Ql9lcm5HYS1jUl9ld2lKbF9PaC04bXZDN3EyWV9pOTdka0pZNVJJRWxsMDV3SVZBcWlOTEotc3Q1QmhkWXA4dHNjNTAzOXE2RUp1ODlSa0x1bGfSAYQBQVVfeXFMT0ptTzRIZzNaUW9ZSkY1akd4VWx6QjBXaE5jN3BTckZ6WElXWE1iQW9ieURtMmptenhNbm1BeFBDTE5FdVM4UkpDSVQ1NEJwRkE1Ym5fUnRiRHNmWUNPcUdzdC1XRlRVREg1N05jZ09GaDI5clM5UVlweGtabWFKYWNRNERH?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-20T14:58:46+00:00"
   },
   {
     "label": "AI",
@@ -176,6 +208,14 @@
     "published": "2026-11-20T10:21:03+00:00"
   },
   {
+    "label": "INTU",
+    "topic": "INTU",
+    "title": "TurboTax maker Intuit has been hit with a string of recent executive departures - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOajVPSDViXzJjZWR5MHlSbnozOFZnREFFbWtCdVF0RzFFM2tKTkpQU1F1YW12Qk8tUHhwUU9oVThZRlZJMGtCanRkbGRpVThLOV82eFZaRTBXMFQyM2QwMTNwQlhkV2NKb2JTUnQ2SlpOUUhpUDhoRzVyZkF2MVJKWlhHVi1sd1lST0pr?oc=5",
+    "source": "Business Insider",
+    "published": "2026-11-20T10:00:00+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "Anthropic stock falls 9% to open first full day of trading amid AI sell-off - CNBC",
@@ -226,10 +266,26 @@
   {
     "label": "MU",
     "topic": "MU",
+    "title": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWEhhTnU4WlVySDlWdzRGTHlaZlg1U1ZMd19LRk1tcUd3b25qTmVuekxNbDBXQ044dEpzRGZwcG85dlUtZGJNSTk2bHI1UDNXS1BnQWE1bmw0WEE3ZUh0UEdQV1JnU0wya2J3OFlxVmh2Xzc4M2V3X05femQzcGJ6VS1pd01OS0ZIbV9BdzlJc09Za0xBZFY5aDE3VlNLRXp2V1YzdUgxR2ZxLUYzLWl3?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-19T21:27:00+00:00"
+  },
+  {
+    "label": "MU",
+    "topic": "MU",
     "title": "Nvidia, Broadcom, and Micron stocks decline as Anthropic goes public - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnFiUEhueFNuXzRVcWt0NUlDWXY3b0MwVnYzN0YxYzZBZkoyRnZRQmJqeTJUdlJuaG1ubUdoQkk0Yk5KcHk3N2FTWm5rX2ZqQ2dPeml5dnBHUVZpNFVhdVdWdEZVLVNiRnFpNm15RUktZUdmUV9oV1ZFVWd4VVZwQlYwa19wc3cyMFMzbGRrVXdiYndLeVFUSUhrVTJBSUVmTGR1ZmVsd3QzZ05HTTVabktzRS02aEdDdnhJ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-19T21:21:28+00:00"
+  },
+  {
+    "label": "INTU",
+    "topic": "INTU",
+    "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UcXJmMEF4emcwYy1hVlVNd3NpSE84aXozd2JVcUx3OUJxNmJhNUNmeEVYX09razlCUWZUZ3AyTm1VVVc2a3VEcDJZN2xfb1FRMVZvelN0T05iOEY5UXNqR0w5R2FGOFFOaC1wSEJDc1NzR1JjNG5TSlJyMC1Nd9IBgwFBVV95cUxOX3N3cFpZX05Qem1UeGx3MUVKUzBpcUFOdUFqQnJoU1VZbGFCWnRYa095ZEVGamd4c1lNeHdZbzFmRGhEZXlZVm5wTzFEQm1iRFNCYlphWHVsS1ZYYUs3LVJ0OVBUb3NDUzAwdnNEM3F1MUM1b0phMllLYmktU05yOUVnNA?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-19T21:06:39+00:00"
   },
   {
     "label": "WWD",
@@ -238,6 +294,14 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMnJDbjlqaUZsSDFfVGxLbHJObl9nblpYdEwwT3l3UW1SUUowVVR3ZWxZNXllaS1lbUhiVEdFbzFkWlBiZEJrR2U5Vnp0dTRTelJFZWZwaWpqMjZvYmUzN04tLWVVN2RST01hTkhBemg4MVIxMHFtRlZsalhMNndQZU1YVDR1dw?oc=5",
     "source": "Yahoo Finance Singapore",
     "published": "2026-11-19T20:17:15+00:00"
+  },
+  {
+    "label": "INTU",
+    "topic": "INTU",
+    "title": "Stocks making the biggest moves Thursday: Intuit, Gap, Anthropic, Ross Stores & more - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNnM1LXV0d0JUbjQ3eDd2QmtPSVdMZUU4aGZUM2E5cDdvYnAzczlzRUh4OF8ySDRnR2plWmpwT1hvR0NZbGFGUHY5RTl3a2JHejdRTTk0SjBQQW0tNElvNEdqZlBaSE1GNERsNU1SZlFORTE4ZUdNc1lfcUhHVkt3amM4ZFfSAYoBQVVfeXFMTmd4QzlTZmM0THZwc0lHajZHTjNqUzgwZlIyaVkwQ0sxUC15aVFNVGc1RU5NYXJyd3JienBEa2c0dHZGejVnZXYycW10NkNHUWJZdjRrb1R4OEYwZXU5TzlfelpCZXZhWkMxZjVQakFsRDNjakw2YXh6RUJSZU5tN1YwWkVKX0ZuUGV3?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-19T19:28:45+00:00"
   },
   {
     "label": "NVDA",
@@ -1118,13 +1182,5 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdUN3ZmtDX0wzTDNaVnlUdmtuMzJvc1pRSUo0VzhWenhhSTNVN1luVkZBUE5mS3RzSklKNXVBR1lkRHFGNHhJbDFxdW1rZ0x2Wmwxd3EySVpWRlNWNHlha1NlTzRnTUY4ZVJmV2oyUGJrTUhnUnVZNzdnNnczVFEyUEdCaWVPVmhHWlZxLUppcHBBenlsR1JpTkdfVQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-16T21:06:32+00:00"
-  },
-  {
-    "label": "Health",
-    "topic": "Health",
-    "title": "Pharmaceutical Retailers Stock Performance - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4ZUpJQV96cGRWZWhRaENEdFZZMHpkaU85Vkt3ZE0zd1dlRHc2VFBxdWoyM3M3R29Ob3JCTzZPTkhkR3U1Tk1UM0huMFFDWHZPblNKaHRqWkhiX0ZFZmt2N1dfV0dwSkFfMnVocHBxM2FQc0RJenJkX2tn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-16T20:53:22+00:00"
   }
 ]
