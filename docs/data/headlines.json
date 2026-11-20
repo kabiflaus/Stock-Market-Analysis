@@ -2,10 +2,26 @@
   {
     "label": "Nasdaq",
     "topic": "Nasdaq",
-    "title": "Nasdaq futures drop as Anthropic shares tumble; Dow nears correction territory: Live updates - CNBC",
+    "title": "Nasdaq drops as Anthropic falls, Dow bounces after nearing correction territory: Live updates - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tY1RiS3BadWcwVVMwU2oteTAzRVdyVEpSeUwtUGJOU3RZV3BmOEJQRmtrT25udndSRVUxRDVpSkRCLUdCS2lDc3dTRm9Ja19qNzh3MlNXVDVDM0UwQXItVWgyMUJnaV9xY2RlWEJmbnBCWWE1ZEdz0gF8QVVfeXFMUDFCSzhsWkpPUEpfV1BiOTNJUkJCbGNwaFVlUmtCcm42WTNmaXF6RVdpbnNwcWJOV1V6QWRtSjVMdFBuLU5kSmFwM0Q5S0ZQOVdPdVVlMGh3dVQyQnAtY0lXcU9xbjN0NE5pYUU1MEM5cU1WN25lc3pYUmpJaQ?oc=5",
     "source": "CNBC",
-    "published": "2026-11-20T14:10:00+00:00"
+    "published": "2026-11-20T15:41:00+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Why Redburn Downgraded Broadcom (AVGO) Despite 221% AI Growth - Yahoo Finance Australia",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWDlvYkZHbXpndG9PMmVoUmRrQUlEOTU1ODFvTVZmTll4TjR5eFpqVVlaM2NrT29Pa1FWRl9OSzVwb19RVkpSZXZ4djFQbzRSY1NXR2JKYU5kMjZoREdNS1M0LUwxaFlwc2NlV2tQU2dGOE54eERxemJlUGJFVkJkczJnU0UzVTQtbkZqQmNR?oc=5",
+    "source": "Yahoo Finance Australia",
+    "published": "2026-11-20T15:24:21+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T14:01:16+00:00"
   },
   {
     "label": "AI",
@@ -16,12 +32,12 @@
     "published": "2026-11-20T13:53:14+00:00"
   },
   {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures continue to sell-off after Anthropic IPO fails to quell AI worries - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeWViejhVSlZHX0hIdXQyU3NWM2E5bWJXdTFOQTNFYm1yMldJWk9PeEtWTEdmZnc3WHoySGtadjM3a2hxQzZWdUx1YW92aVRva2J1QmVUalZJaTNGVVVhaWdYS2duN1hXUXRvU3ZZY1JOMEU0VnBzd1Vvd3Y0Nm1OSVBpVHBYckdueTJJNUczWjUwZmdWblROcks4ekRPR1pwSC1FRWtEZUc1N2tCc0RjTE9hTEUxNS1WaHFJOHB2bDVtVkJzUGdaZkVqblExTENpdzRN?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-20T13:36:58+00:00"
+    "published": "2026-11-20T12:47:55+00:00"
   },
   {
     "label": "Rüstung",
@@ -72,17 +88,9 @@
     "published": "2026-11-20T10:21:03+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures continue to sell-off after Anthropic IPO fails to quell AI worries - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeWViejhVSlZHX0hIdXQyU3NWM2E5bWJXdTFOQTNFYm1yMldJWk9PeEtWTEdmZnc3WHoySGtadjM3a2hxQzZWdUx1YW92aVRva2J1QmVUalZJaTNGVVVhaWdYS2duN1hXUXRvU3ZZY1JOMEU0VnBzd1Vvd3Y0Nm1OSVBpVHBYckdueTJJNUczWjUwZmdWblROcks4ekRPR1pwSC1FRWtEZUc1N2tCc0RjTE9hTEUxNS1WaHFJOHB2bDVtVkJzUGdaZkVqblExTENpdzRN?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-20T09:28:27+00:00"
-  },
-  {
     "label": "AMD",
     "topic": "AMD",
-    "title": "Anthropic shares fall 8% in premarket amid AI selloff as Nvidia, AMD shares drop - CNBC",
+    "title": "Anthropic stock falls 9% to open first full day of trading amid AI sell-off - CNBC",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50RzRKZlFQNVc5QjdpUWRtYjlWSWVfSm0xeTY5WjFxWkJ3bUFzVzF2RExQNkgwa0ZpUHBvb0gzVG1uRkkwMFpmVU1ET0ozZVJEcWZwSFNLZmZsM0xKOUNHNVg1TUsxZmpGRlpzYVFYOXFYdVkt0gF6QVVfeXFMTWNYWWtkSnZJbkpvWFNBSmVKNTM3aFlCakNSb1BlMWVRMF8tTUlidTdNbWZoSUNyQ2hGNHEwckNsa3VGWUFuYldEc2MweXJsdXc3Yzd0OENTNGlBa1JRYmJZMVEwbmVncmJuVnRvQU9OamlpaDNaU3FVbHc?oc=5",
     "source": "CNBC",
     "published": "2026-11-20T09:06:36+00:00"
@@ -94,6 +102,30 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYzNPaXJSMlJ5TmlTU0lXNWlDTkRwRzh5WVpvSTdVQkFDcFlpZU5rMkJtZDM2RVNaSmJxbnpHeEZyV0FIY3RMV202X3A5N2NRVWxtVFpNeHJqWllUZF9Sc1VkSTl1VHlUYUhDcF9fMS1jTk1sMllwM0NEZ0U3SGtBSF9oMk4?oc=5",
     "source": "Financial Times",
     "published": "2026-11-20T07:55:18+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Is Broadcom (AVGO) Stock Stretched Or Still Reasonable On Cash Flow? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZjZRb3BVRWlxSV81OUVmZGVjb3dLSlVtS3ZXS3A4cmgxU2pHN1NRWEFlUlpyMUFCSWw4ME9VNnNWeUNXclJfOHRVTmlwR09PVERtRUpfSXlFMFhleFZBdWx6TklXUUo5UDFDaGNib0FVR2FkVFBJTnZBeTZYX3ZXWER6ZHlUdDZBNUhFUHVQQ0pBNHVudGRORnNMaVZZcWdkaUE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T03:13:00+00:00"
+  },
+  {
+    "label": "MRVL",
+    "topic": "MRVL",
+    "title": "Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQlVvT1J3eGlRdDEtX2RvMk1SNU0wNlMtV0FBT1FYRDNNWlJZZXVzMmZzUzZ5X0VqSTdibXdKUjBwQXFaQXZSaUpoTzB3dEozUGFJd2duWS1TeTJmUlRQTVB6bEdBSjBxSE1CLW5mNlVXYzBiRm1aTks5WkF1WVJYT053VmRubnhXSHfSAY8BQVVfeXFMTjZmXzdKTDN5THRFMDlMU3lvdzJRSVpHbl9qZ3BFUEM5Y3RQT0ZvRkFZYmVPLWlpcVR6T2RucExTRWpoUlVRaWpGa005Qnlnc1AwMjJteVZ4b1I3d2U4SnVoLVRLR0s2QV9qSF84YVMxWFVSczlDWkVzRWk5U3d0NHo2OWJsZG9fQTAySzZlekk?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-19T23:47:42+00:00"
+  },
+  {
+    "label": "AVGO",
+    "topic": "AVGO",
+    "title": "Nvidia, Broadcom, and Micron stocks decline as Anthropic goes public - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnFiUEhueFNuXzRVcWt0NUlDWXY3b0MwVnYzN0YxYzZBZkoyRnZRQmJqeTJUdlJuaG1ubUdoQkk0Yk5KcHk3N2FTWm5rX2ZqQ2dPeml5dnBHUVZpNFVhdVdWdEZVLVNiRnFpNm15RUktZUdmUV9oV1ZFVWd4VVZwQlYwa19wc3cyMFMzbGRrVXdiYndLeVFUSUhrVTJBSUVmTGR1ZmVsd3QzZ05HTTVabktzRS02aEdDdnhJ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-19T21:21:28+00:00"
   },
   {
     "label": "WWD",
@@ -150,6 +182,14 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFZfNjZyS0cyZm16d0VJcGFBdWxINlRka0VXZVJOQXlUU0pfR0FpVXlZZVlwS2ZWcEpKcUF0UlpoY2E5UEpNRlVoQVhYa0lzV3VqMlM4VWl6QUsxTTBQZnBweEo2Y1dBanEyUjVEQXpzakZ3NGxlcFB0ZzlyOElTcTFTbk9DMWd0cXJIOGkwVExVd283?oc=5",
     "source": "Business Insider",
     "published": "2026-11-19T15:50:00+00:00"
+  },
+  {
+    "label": "MU",
+    "topic": "MU",
+    "title": "Why Micron Stock Finally Popped Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUWE2bnZnX0JWQ1BBejlfX1JlMnFBZl9UQUx5M0hPdnhwMFA5eGxOdzdPcll6RVJmSFEtdC1xM3FvcGpPVGN3YzRQdS02MFY4cU9nNTAzZ2NORXVqMG5rNlJrZUt0X2hZNkxwblV6aDZPRkcxTFRGX3plZ2ZtN29yWFJMQ01KamtSQ1ltdUlURzl6REZnOHZTR3ZabU0?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-19T15:23:16+00:00"
   },
   {
     "label": "Nasdaq",
@@ -1054,37 +1094,5 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQm1pRzVJd0lQc2F6aUtMUGIzUnVtazZTRFQtUndVeHZCSzhTTkVTSEJJRnIyN0JhVnN0eTVuZkFiVEN5a0xWbk54cjlXejFPTjlkb3JhTDdjQnNNMXFvblF0S3ZNUmtiTmFDdEd2NkdpZmtLSG01eldfYWZDT3lIcldSc2VlZnNQSGRkWmRmYmh3b195WDY1bnNoU25neEFTc3dwX21yTkRGdkRiSW5FMDZrdmpRZTdDZUpHaw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-16T16:28:47+00:00"
-  },
-  {
-    "label": "SAP.DE",
-    "topic": "SAP.DE",
-    "title": "SAP SE (SAP): Post-Earnings Rally Signals Growing Investor Confidence in Cloud Growth Runway - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1FqZzJjZTR1ZHkyUWJiUlBFMGpmY3F5MmJDbTVzbVM4QmJleURSZWhlYW5LbDRSMmc5c3I3dDc5TVYwYnFXU2VwU1pXSDJqVFBLbnpKMm1JMmNCSkp0TThpM21IZWE1azRwbHNkZTU4bHRRbUpVMTNPdGZHNHUwM0lqNVRJZFR4RXBGM21kVWd3T0U?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-16T15:31:05+00:00"
-  },
-  {
-    "label": "VLO",
-    "topic": "VLO",
-    "title": "Is Wall Street Bullish or Bearish on Valero Energy Stock? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR2ZHSkE1c19YRmxoVDhNTzFYVGFQdmJGM09OTUdRNnVhc2p1VlNFMEJSd2pVbmdiYmdiX0REck9DZFI0UTAxM1Y5ckdPbVgtM0JPcDJMT1ZQWVk1SjloMGxmZWJWSkU1dTN2SWNVcDFoX0NZWjk0alNGUWd5SEQyX1ZlazduU09xQkNvcHpQTlg5V3ZuWDlFUWtJYWY5VGI0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-16T14:44:37+00:00"
-  },
-  {
-    "label": "ARM",
-    "topic": "ARM",
-    "title": "Arm Stock Could Be Worth Much More if These 3 Catalysts Materialize - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZmFkLUZtVlFaQ3NRZHF2cDVBOElCaTFTLVdfZ0pmMVI2Ti1CcVJBUHFEOEdyYVNHMl9yRW0yX3dlVFRBRmpzLXNEcnN0S0RsUXpiY3RfUE1aUXQ2d2JDbElsRGpqUGJiUnhEZG8xQ3k2bzNhcC14UzdnT1V1Q1ozUnl3Ti1UX3R3TzhSdHNkWm85RGxCTnc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-16T14:33:39+00:00"
-  },
-  {
-    "label": "000660.KS",
-    "topic": "000660.KS",
-    "title": "SK hynix Down 23.1% in Three Months: Should You Buy, Hold or Sell? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX004YjM5bHQwQ0pjc2JoMEtYeUtLVTlBTmlJbFRKS0Q5OVVuYW1NRzY0SnJmaTZVMHdkTng3TlBncWZOdkFTRERDQlc3c2J6RElVWUd0YkEtTGhaZUZWQ3cyVEw3ajF6a0tlSVRjRVNuemVLaW1sSUNkZVZhNlBtSm14QWp3RXhqRG1J?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-16T14:28:00+00:00"
   }
 ]
