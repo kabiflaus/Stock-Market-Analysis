@@ -1,5 +1,37 @@
 [
   {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Marvell Just Dropped 22% in a Week as Nvidia’s Turmoil Hit AI Chips. Sell, or Load Up Before Dec. 1? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSVhaSC1TYjB4aTNLWlNPWXdrVkx3OHQ4WEhNd1VENERXY05fNDEzWXNHNGwxaWMzbWRoa0c3ZmFlN1lwLTVEa09Ud1FqVDQ0em1nMUx5YUM0UFFPdk9WZGtTSWw4aEN1cEpMdWNRUEZybTRQX2I3b2tvTVRhMjFNY1Qtd1pDeHo5ODdlaGN4RUpvbUhoYVF0RQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-21T18:20:37+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "3 AI Chip Stocks Retail Investors Are Watching After The Nvidia Selloff - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOejlycTNOTWVaLXBObmZzQ29NbHBmT0ZMMDhJUVB1Tm85VXhCRjRKRWdpUHlYM2Mxc0xPZHZacEt2a05BUEFLaHM1c3FqU3doWVN6anJJOW84QjVleU1aRGNzV2RKM0k2R2tvY1JUTk9kbWh0VEdrYzg4YS1nWEZGUTQ4WEV3NlU2T3NxQVdFWjg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-21T18:08:06+00:00"
+  },
+  {
+    "label": "MU",
+    "topic": "MU",
+    "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONFBQTHoyOUt3Zi1vMFh5ZFN3ejlKb0tXSjlQQnkzQkZweXJZdEtRTFVKcll5LTVIQWQxbWQtSFRJanVXbThPbU16NUNQTUVFYVdvSTIySi1NMk9YTmkyYmtlcV9hQzV2SXJ1RzZfd0xqQ3NJY1otQ2ZrZ2VWMEU2azNkdXVDcG55SFJfRy1GQmpwQzM0eGw3dUNFbVZVQUZ4QVQyYVpHWnhWY3BLSDVPcnA1ZkFRcnlGdVB6b2ZDcUNVRVNQdTM5OWMzdkRyTXBGa3c?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-21T15:35:00+00:00"
+  },
+  {
+    "label": "MU",
+    "topic": "MU",
+    "title": "Prediction: This Will Be Micron’s Stock Price by the End of 2028 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSXhyRGVlNXphSnNRNjlFMFZiN0hLTHpYa2NtQ2Y1dnFQdUNSb1hFT0ctb0JFQjBEVEQ0ZWVneTItY05Oc2JJRzJ0a2ZNWnNRYXFNQjVaVWpROWFsTGdDcTg5ZVZyaE5LNW10bXZtNERRRC1xWDZiMmlha3ZteXNQcWtpRFlnYmQzcWRqTnNuSWZ2dzQxUjl4Q2ViT3lxWFU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-21T14:35:02+00:00"
+  },
+  {
     "label": "AMD",
     "topic": "AMD",
     "title": "AMD’s Data Center Sales Jumped 97%. Is the Stock a Buy? - Yahoo Finance",
@@ -64,6 +96,14 @@
     "published": "2026-11-21T05:18:08+00:00"
   },
   {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLW9ZM3F2c2phdDRwLURNU0NzTHpXRjJTY28yTTdNT0xiVjZOczIxQXNYcTJmemMyN2Vod09MYUdnZUZaSl9saFhHdFBuWWlZRHFVOXFqSkVUSlNJSERBdEdETmxnNnZNeHktR1NpZldpRjVtWmtIQk16WHZLa3VrZUpmcUl6WnNzV3RfRmpobVpSbVBwMFQ5UUJkalFyQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-21T00:02:00+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam - CNBC",
@@ -80,28 +120,20 @@
     "published": "2026-11-20T22:40:02+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Tech leads global stocks rout, Treasury yields fall - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSjlpWS1YQTlya1VJSTJGT0tCMHZjbzBEYVdsSGhqLWdlOVk3eF8yS003U0ptdW1EcGpqbWx0NnZWSC1Qck95NVlRcDhMN0w5cWg4V19JelZqaVNxRDA1VGVON205SVNQUFhaZ2YwM3g2dDVPdENpNUVKd05ubzFNQVFydHBPMnVURW9UY2VlYWh5SGdfaVR6dDRsWTVSUlNodGc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T22:33:44+00:00"
+  },
+  {
     "label": "NVDA",
     "topic": "NVDA",
     "title": "Michael Burry warns AI stocks mirror 1929 and 2000 crashes — and singles out Nvidia's risky deals - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOUppLWR4d2dnRV9rVHBJVTRhWlpVSjBWUWM2T2ZfeFZOeGVHYk13LUY0T1ZNX1M1VTMxUWlkV0s3ZGhScHhJZ2ZaTUVCSm9kZEd2Qm9Bb3BxczJmVW5mQng2eGZOUll6T0xQb2VVQlhDdTRqT3Z2SzlRR3R2R0lUdFFIVDVFR0kzSnhoaWxQMEZobERjN3JiZzVR?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-20T22:30:00+00:00"
-  },
-  {
-    "label": "MU",
-    "topic": "MU",
-    "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONFBQTHoyOUt3Zi1vMFh5ZFN3ejlKb0tXSjlQQnkzQkZweXJZdEtRTFVKcll5LTVIQWQxbWQtSFRJanVXbThPbU16NUNQTUVFYVdvSTIySi1NMk9YTmkyYmtlcV9hQzV2SXJ1RzZfd0xqQ3NJY1otQ2ZrZ2VWMEU2azNkdXVDcG55SFJfRy1GQmpwQzM0eGw3dUNFbVZVQUZ4QVQyYVpHWnhWY3BLSDVPcnA1ZkFRcnlGdVB6b2ZDcUNVRVNQdTM5OWMzdkRyTXBGa3c?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-20T21:36:00+00:00"
-  },
-  {
-    "label": "NVDA",
-    "topic": "NVDA",
-    "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS25iVW9uNHFsc3lYdkNPRTJyTUhYcWRVbjhOZlR4QUpLZGs4RkE0d1lSLTEtN2x6N0ZxZnlZdE9KaTQxeS1TbWRFaGFpd0hGc0ZKWmF5OEVRdnFDX1NNWFlBTl9rdVRUVFlxSVRIelpPNmluWVdUVElhQzh1NWtjemJaUnlhRnJ2N3Q2dDNVYlhVYWtXbkswbXhYLWdiOHE0V1dkQ2xjNjFsTlpEQ0hzRDBja0RqV0VFX0FZaXdKRVZ2RHdGVUUtS2VzanJrTkhiSVcxeGVCRXNlUUhSVWJ3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-20T21:35:24+00:00"
   },
   {
     "label": "AMD",
@@ -126,6 +158,14 @@
     "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNZnRpQ3JmR0FwSFZQZGg0QnRJdzFmalhXWkkzRElBU0t2Q0VULW1uRUpqR1lEcnBILWpEQnVOeE9xOVVNR21HX0FQUThobHhiZ3Qxb2FIMEVTcnRuNU5mZWM2UGlfQU9vanpvdGVMd3dqc2xwVUMxNnVZXy1oSVhLZUcyRUNZVUNQRXhpOUdqWUdsNVp0dHpJYTdzY2g3QnRfSHJ5SlBBOTRKVFA1NGhPeFNOSFB3bGZzSUgxcnMweXlOd3JieGpMMVEzemZZczA3VGgyZ0ticXhHeW94b3l4M2Y5eGpkTWRaQjhfTEhzMzBTSE1yWjduejh3ZHBzZ3RPTEk3cVo2NjdycWxGNkpKR3NkSmQwNllHdUh0S2xaOUFkYzJVaFNzME42NEF5bGNRdF9IdlVPT3VoejZvcnc4?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-20T19:51:00+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia stock extends $2.5 trillion rout as SEC probe reportedly investigates its accounting - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS25iVW9uNHFsc3lYdkNPRTJyTUhYcWRVbjhOZlR4QUpLZGs4RkE0d1lSLTEtN2x6N0ZxZnlZdE9KaTQxeS1TbWRFaGFpd0hGc0ZKWmF5OEVRdnFDX1NNWFlBTl9rdVRUVFlxSVRIelpPNmluWVdUVElhQzh1NWtjemJaUnlhRnJ2N3Q2dDNVYlhVYWtXbkswbXhYLWdiOHE0V1dkQ2xjNjFsTlpEQ0hzRDBja0RqV0VFX0FZaXdKRVZ2RHdGVUUtS2VzanJrTkhiSVcxeGVCRXNlUUhSVWJ3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T19:43:37+00:00"
   },
   {
     "label": "NVDA",
@@ -176,6 +216,14 @@
     "published": "2026-11-20T18:04:55+00:00"
   },
   {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields head for daily lows, as safe-haven bond buying picks up - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNbjg4azVxbUJXaEdtMHY1LVpYNlVwS2dzM2lPaFUtQ2JhTGVNU1F4NkhCclVydnFnUm1XZFMybVNUZklLNUtmazFydzBpdktTMUZHTjE4OFFIb3luTVpJVXZSNVQtR19GME9oU1JOeEtlQk9XZUhKeFZhcmRkSlo3VGp4SUs4eU5EMi1hLUtSbEVfaEZPUnVlNmp6c0MtbnBVd2xTUXFpdW9KWlE0ZC1zVnpxcGJFZ1A5S3NMWkE0eVJfZ3ltcWV6N3lBWjVvaDBPZUFkNjVwTmNUS2NvT3Yta1R6NHU4TnJoRkxPMmtrWEYwTDFRMXUtR3hRd3AzbWtyTTZfS0xBOTNkeHpUVDBlTW1fbG9mTWtlNFJoVm9adS1iVUt0T2ZWR3F0MGVYNFluSUE?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-20T17:47:00+00:00"
+  },
+  {
     "label": "Makro & Weltpolitik",
     "topic": "Fed",
     "title": "Fed's Cook says rate hikes needed to lower high inflation - Reuters",
@@ -214,6 +262,14 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWDlvYkZHbXpndG9PMmVoUmRrQUlEOTU1ODFvTVZmTll4TjR5eFpqVVlaM2NrT29Pa1FWRl9OSzVwb19RVkpSZXZ4djFQbzRSY1NXR2JKYU5kMjZoREdNS1M0LUwxaFlwc2NlV2tQU2dGOE54eERxemJlUGJFVkJkczJnU0UzVTQtbkZqQmNR?oc=5",
     "source": "Yahoo Finance Australia",
     "published": "2026-11-20T15:24:21+00:00"
+  },
+  {
+    "label": "MU",
+    "topic": "MU",
+    "title": "What Happens To Micron Stock If Prices Stop Rising? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObk5iRnVzODc4ZmoyT3h1TWVXdzVOOUFJNGNwQ2J1Z1pNYkd3bFdzOVdXdWZSODN5a0RaSG1KWGhwWkxIVExRYUtudF95cHp6bzV4VWdOcG5IMjAyOTEyTGVDMHNVTVM5QXhMLUxacVVWLW85OGcwb3k0YUJudnlBZTQxZG9vV1VULVNnTVVKbXdqRm00UVg1SVFqNE9Ydw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T15:01:47+00:00"
   },
   {
     "label": "NVDA",
@@ -260,6 +316,14 @@
     "topic": "AMD",
     "title": "Nvidia and AMD continue to slide as chip stocks weaken - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQdDlldG93VnhpT2hKaThEZml2NjBHd21TWFdLeG9iUEpGQ01YZF94ZXlyM2c2b19EaUlhTlI5bThReE9uaWdpbTJZTmt5LUpCc3loNzF1S1NQWUFYOXV6ejRFX2w3d3RGUGg2RnZXWU5lanJGMld2YnplM3otNVlNS0dvdW9zT1JzcmVhaGNNcWpzOUpKNTlXbF9sYWFWS2JaSHNneHVNUklaZHp1eW9ORXktOEtvZG1ySlBPUmlPS3ViX2ZsNEZ4RkdVS2M5QkxSXzhHUDB3WVFnOWdhQnpYTTFZc1dqUERjeXp4Y3FmY3V3R1Vkbm1ZVkYtdFVfVFJ4SzdtTm1WY1NaV05Ndzk1T0FCMzdpeFlxUUlkUFZaQTk5THpjQ1JRMzln?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-20T12:42:00+00:00"
+  },
+  {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "Nvidia and AMD continue to slide as chip stocks weaken - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNUDIzUkpQSDRkYkI5RXZybWlUd09YdDdaZUpIU1BsQ1NaQ1owYV8tYkgxMUJ3N3dMbUgtT3psdUV4WVBiUy10YmljbkYxQ2xFNHE2VzAwRUh4UHFuQWl6X2ZOVzdQdEdwR2tjdlhfWUdNUHpDajJTMDU1S3ZWZ1RZUDhQT0d6ZTcwVlh3cDR3LXN4d0hUQVplSkQ3aG9QMlNQekVzRU51b0ZiaDBIT2hNU3NFMnE1NTNSaHFodjRvRVVoNVM4bzExR1FCX3RSZ21hU3d2NjJCQll5ak01a1JjbzlnZUgwLXlkS2laRUIwLWlfenJMQWYwVUl4S0tDQzFHTi01Q0szUWZCRVlhSldMTThEOWg4dFlBUUQ3Sg?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-20T12:42:00+00:00"
   },
@@ -1022,45 +1086,5 @@
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaHo1blpDcm5OM19ramhMeHYyU3kyNHh1b010NXJQRWZYOE5FZFItY0tmbEZaMGplR2hETnZvU1pBTDFwUjMtTGtPTmdmcGNKeWkxbFhLZzV6WmVZZkl3MjJqM1huWm9QWklXSTBST0YzTy1kTXFSSG5odEU5WFJ1cFdLcUh4S2dIaWhJckZVbWEya1IwN1FmQkFkZFNNNmhkZW5jY01RWlpQNk50emNuTVV0bEEwTmJSLUhEZ0J2RjNjVVlfZ05YT1ZwMXRzalhNQkplZE5fOWFnZHRXY3B2LUE3c2Eya0d6?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-17T21:38:00+00:00"
-  },
-  {
-    "label": "UNH",
-    "topic": "UNH",
-    "title": "Is UnitedHealth Group (UNH) Cheap As Board Changes Put Valuation Back In Focus? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR25mNUJuak0tVkNBUHBHWmx1YTVlUDRpWDBXcURlUXdBN2dKcW53dEtqdmUydFpLdm9aRWh4YV9CT2RWTUZsbXVGV0gxdlVFVXpXUW5WU2lieU1iY0NLR09nWVg3ZmlMMzVjNElWc1hVN1JXTW1UaDZLTTdfSVVwTVhUcGZPYXlRczZtRlNVZzlCZlpMdkx3WHotWQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-17T19:09:08+00:00"
-  },
-  {
-    "label": "ENR.DE",
-    "topic": "ENR.DE",
-    "title": "Siemens Energy AG (ENR.DE) stock price, news, quote and history - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyazVqbGtrUk0zWE1NRUJsRWxGZFlOUU5UWTA5YndnSXhMQlJWbk1EYVJpM081LU84Z3JCaklZY3R3bWtteEtfQ2I0LWtaZEVtNEZEaA?oc=5",
-    "source": "Yahoo Finance Singapore",
-    "published": "2026-11-17T17:45:32+00:00"
-  },
-  {
-    "label": "INTU",
-    "topic": "INTU",
-    "title": "Why Intuit Stock Is Falling Fast Today - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORU82dFhCQTJRZFJ3LV93YWl2RzlHSVZ5ZndmYXBOcTkxNjR4bmJQaDJyTUZUd1UwUmhNNjNVYTNOd2tDNUJIeV9pa1owcnQ0QnFTU09XUHBFaW90VzVpMWNkemE4eFBacjJxaGtndEV0MXZ2MTBLOFc4VnQ2VEItT1Azdlo0em9QU2k2YWFZU3NkVjQwMU1GYTJ3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-17T17:34:51+00:00"
-  },
-  {
-    "label": "ELV",
-    "topic": "ELV",
-    "title": "ELV Stock Quote Price and Forecast - CNN",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9McnA0d3Y0YTlfTVpTRVltU3VYaUs3X0VhSmZVSDhWd1JfWFdEZTNhbnZabkpucVhiWDZrNVhCbG9sTS1aR0wzbHZkVnpacU0?oc=5",
-    "source": "CNN",
-    "published": "2026-11-17T17:07:52+00:00"
-  },
-  {
-    "label": "DBK.DE",
-    "topic": "DBK.DE",
-    "title": "3 European Bank Stocks With Strong Compliance Records as Deutsche Bank Scrutiny Grows - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkZtenZnVFBMdkJZdHBUdWtHY1hfQlZEbDQ3UzRER1Z6MTVQNURUYlZCb1VzMEFEb0NYcmlHaEVjTXRLcmtkN1FBckRUNHhKNnp5VjFDMDF5Z1FKem1Ja00tQXBaRXBsYUxpak51VjVXUndwbVluR016T0RpUUlyNWY3Tmk3aWpPclltejB4UUxBNmlOSi1WTDZR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-17T15:14:44+00:00"
   }
 ]
