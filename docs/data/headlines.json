@@ -16,14 +16,6 @@
     "published": "2026-11-21T10:15:02+00:00"
   },
   {
-    "label": "NVDA",
-    "topic": "NVDA",
-    "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff - Axios",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lT3pUcFhra290UDVtQVlwcVBjeDdBX1NLX1lPMGVjM3lPRHZDZk04eHI3cDk1STFLejBDODdHZWYtVFJzRnd3Q2ZDLW5EdjN1RTZzT3ZLblNoa004bmN6bjRSWXF4Y0RoQWs1UGR4UThYR004a1hWcw?oc=5",
-    "source": "Axios",
-    "published": "2026-11-21T08:40:41+00:00"
-  },
-  {
     "label": "Energy",
     "topic": "Energy",
     "title": "3 European Energy Stocks For Investors Watching Oil And Gas Prices - Yahoo Finance",
@@ -32,12 +24,28 @@
     "published": "2026-11-21T06:14:00+00:00"
   },
   {
+    "label": "ARM",
+    "topic": "ARM",
+    "title": "Arm Holdings plc (ARM) Stock Forecasts - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUko0WFpHMnA4WHJNWC0waXVUNHJtdFJRVlFhbmVuN0JRRGl5a0RaZ0E5d0E5clBQSU50YVYzdk43d2RfUXRvZU9lWjg2blhFdUFHUTl1elBkSUlSV09kZGljVWlEaXNRRU5TY2QyZzY3OXJ4NVBoNDhyYnhQT2ZxNUdtdUVzaFVRSk1ZZA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-21T05:18:08+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tY1RiS3BadWcwVVMwU2oteTAzRVdyVEpSeUwtUGJOU3RZV3BmOEJQRmtrT25udndSRVUxRDVpSkRCLUdCS2lDc3dTRm9Ja19qNzh3MlNXVDVDM0UwQXItVWgyMUJnaV9xY2RlWEJmbnBCWWE1ZEdz0gF8QVVfeXFMUDFCSzhsWkpPUEpfV1BiOTNJUkJCbGNwaFVlUmtCcm42WTNmaXF6RVdpbnNwcWJOV1V6QWRtSjVMdFBuLU5kSmFwM0Q5S0ZQOVdPdVVlMGh3dVQyQnAtY0lXcU9xbjN0NE5pYUU1MEM5cU1WN25lc3pYUmpJaQ?oc=5",
     "source": "CNBC",
     "published": "2026-11-20T23:46:00+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff - Axios",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lT3pUcFhra290UDVtQVlwcVBjeDdBX1NLX1lPMGVjM3lPRHZDZk04eHI3cDk1STFLejBDODdHZWYtVFJzRnd3Q2ZDLW5EdjN1RTZzT3ZLblNoa004bmN6bjRSWXF4Y0RoQWs1UGR4UThYR004a1hWcw?oc=5",
+    "source": "Axios",
+    "published": "2026-11-20T22:40:02+00:00"
   },
   {
     "label": "NVDA",
@@ -326,6 +334,14 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZzhqSlVrT0NoakxQc21pNV9aUGtMNzRxemp6cFpXLVl6UHRkbk5HOEJyQmRqbjV1SGRPaUh2VGNEUVdZWWF2Tk01UTZpU2o4YU1EVTlEZm9leU1jUmdraGF6dHlHMjZpWU5HMHB6UHB3dVFSRk5KcTFReG9FMFlfUnl5YUZBbHg0bWN0Tm1SaHhtb0k?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-20T02:48:00+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Why Nvidia's sell-off could be a buying opportunity (with a catch) - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU2VjaXpVcGM0N3puRHB0b0JRcGJvTDh1TjhqS0NlUlRJU3daMlFPdm5XZWxxaktIQk9FYVpYVU01RER3UVJERXRFT1NCb1l0YmxFemJOTm9BTUxad2txY2hCWjA3bUFhOVE2TmhtTTJlcGNuWDlkaXJTS0NhejN4Vllid1ItdEkwamxBMWplOHVmWlBlS3c?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T01:25:00+00:00"
   },
   {
     "label": "MRVL",
@@ -1046,29 +1062,5 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUXNycGZWSnlJWnBKeWhYUkdMbUhqM1NFZFFPWnNHSC1UMWJ6ZmRVT3dtcEpKQXp0S3JQb3daNDZ2eWhWU1lndWVLaHg0aXhMUFlFTy1NOTZWWlNzemZBWWpUWjlKTzRwUGJ0dXcycndOaXpoZndqNkpKR1hjeHgwZjJJWG9IMDhZamx3WkpES2Rib3cxRW53R09B?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-17T14:14:03+00:00"
-  },
-  {
-    "label": "UNH",
-    "topic": "UNH",
-    "title": "Is UnitedHealth Group (UNH) Stock Outpacing Its Medical Peers This Year? - Yahoo Finance Australia",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYUN2bmZfLW9RQnBIVEdpd3VSbnVwdmNiZHFmY3hWaV8zMTRNaGdac2VRSG1BNVpDM0lCZVc0b1NUZFVaMkRCSmJTSjBOSFhQMHlwbUp6MzlFdTNxTmpOakNBM0RvY3JVbXJBeUJMS0xoVFVpV0J0MVdES05fMEIySlRRZkI3MDY3R1F6TjRjVXQ?oc=5",
-    "source": "Yahoo Finance Australia",
-    "published": "2026-11-17T13:40:04+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Are Oils-Energy Stocks Lagging TotalEnergies (TTE) This Year? - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMlVONldWVndKdDVCU0tJb0laQl9oc29ER0FISml2dFF1OVZITTUyZlhvSjgzREstMVlrbWQyMDMwbERKSnMyYlBZSzkyX21HY1BCU3M4aHBDMF9DbFV3cGVjMlVZdnU3Q0pzdm1DUUlRMUFHbXZEc2JvTlpPVTU5MXNyb0JGM2h4WmhrU3F1aWgybVU?oc=5",
-    "source": "Yahoo Finance Singapore",
-    "published": "2026-11-17T13:40:03+00:00"
-  },
-  {
-    "label": "Energy",
-    "topic": "Energy",
-    "title": "Are Oils-Energy Stocks Lagging TotalEnergies (TTE) This Year? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNFFHUnNCVW1CYXM0Q29QbWpzMmRQZVdDZ0RDTlc1STg0RS1rZnppZ0ZWVFN4YTRoYnJqWFUxRmoyblZzeG1haGk5MTVWMUlkSFFCRjcwMWdENUZoMnJSUDVCZEZTZEFxSm9BOGhMbV9sLXdYT2FNSkhjaVRqbmluR1VHbGREWGJTRE5FSkFEX3BKTzVPa1FJZDhJRzNWdTM0Z2tYWG1HS0o?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-17T13:40:03+00:00"
   }
 ]
