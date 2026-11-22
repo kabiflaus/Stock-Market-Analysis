@@ -1,5 +1,29 @@
 [
   {
+    "label": "INTU",
+    "topic": "INTU",
+    "title": "TurboTax parent's $12 billion bet ends with a costly twist - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU0tXbEU5OWpvVTFTMzh2Zkxpdm1OX1NHNTJ6WWt6MlFOM1NOQmFSOVlZSlFaMmFRN1ltVVkxUzNwWVpwWndhcWlIckFNOEtjNkVubDdZb011T3RPSzFjZXhmOEhkbExDbWlZU2lPeUdTTmhEYnNQY0hqVmVXZFpYU0g4cWhyVmpQYXV6c1lhT2NxdF9mZk9XenJKblA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-22T18:07:00+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Scoop: The Pentagon's case for Canada to \"get serious\" on defense - Axios",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRFFwRnFSYzA5SjZLSmVqR1NjVUUzalNjdjJQZFRWWU5EUlBCM21SbzdFX0NHV241RldSZU1KXzVObkd3djVKdHZrbm1xQ0I0RkF4ZHJtR1F5Mm11dDkyazMyQkgyYlFVRkpoQXNCZGJMRHZGT05uWDVoSlVmeFRjcFJZS2lKN00?oc=5",
+    "source": "Axios",
+    "published": "2026-11-22T17:05:38+00:00"
+  },
+  {
+    "label": "AMD",
+    "topic": "AMD",
+    "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOUZUTmFNWGdrZXVXZkhPTzJhR3g1YXFmN3ZIbGxsWTd6WVZlZTdvOUx1ZVB2OFJiTXRmdFpwN1NET29tMWhCOWxxY29WeGJoSlNXXzVUaXRPOFFiOFlUcnpHTUxPd2VwTGYwU1hQMGZ1YkZvbko2V0RFU1hEVHpDbnVIMmg3Y1FSX2U3enNUNlB6ZHM1bmJxUTg4X1RIeGZK?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-22T16:04:02+00:00"
+  },
+  {
     "label": "NVDA",
     "topic": "NVDA",
     "title": "China Switched to Making Its Own Chips “At All Costs.” That Shrinks Nvidia’s China Upside - Yahoo Finance",
@@ -384,8 +408,8 @@
     "published": "2026-11-20T13:53:14+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
     "title": "Stock market today: Dow, S&P 500, Nasdaq futures continue to sell-off after Anthropic IPO fails to quell AI worries - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeWViejhVSlZHX0hIdXQyU3NWM2E5bWJXdTFOQTNFYm1yMldJWk9PeEtWTEdmZnc3WHoySGtadjM3a2hxQzZWdUx1YW92aVRva2J1QmVUalZJaTNGVVVhaWdYS2duN1hXUXRvU3ZZY1JOMEU0VnBzd1Vvd3Y0Nm1OSVBpVHBYckdueTJJNUczWjUwZmdWblROcks4ekRPR1pwSC1FRWtEZUc1N2tCc0RjTE9hTEUxNS1WaHFJOHB2bDVtVkJzUGdaZkVqblExTENpdzRN?oc=5",
     "source": "Yahoo Finance",
@@ -582,6 +606,14 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMnJDbjlqaUZsSDFfVGxLbHJObl9nblpYdEwwT3l3UW1SUUowVVR3ZWxZNXllaS1lbUhiVEdFbzFkWlBiZEJrR2U5Vnp0dTRTelJFZWZwaWpqMjZvYmUzN04tLWVVN2RST01hTkhBemg4MVIxMHFtRlZsalhMNndQZU1YVDR1dw?oc=5",
     "source": "Yahoo Finance Singapore",
     "published": "2026-11-19T20:17:15+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TbEk0NDY0UEtDbGFEY3hpX0lQWXY4RUMzNllqWllsTmQ5Wl8xeXpFVTdmQmpvX3hLZXkxUWpabzBaUHFieXkydmFtODZxVnctTDBZTkhYWHFDVWlsZF9HYTE1Q0NoQzdEWmtZLXRkdENBRjNVOG1zSGNwUHg3UdIBgwFBVV95cUxPalZ2a1NfTW5MM3ItZWxEbmlRODJpc0FwVE5KSmExazY4WlhGMEotZ1htWTduNVB1S0JibUVMSnVwc3BjSzBzdVFhdVdSc1NSMElhd3NNQ3laXzRiU2JkRmRHMkFjZlVWeTQ1dWtRcHFzTF96dlV0R3lreFhENWZUcGtUWQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-19T19:55:41+00:00"
   },
   {
     "label": "INTU",
@@ -878,77 +910,5 @@
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTDFIcXN2WXhLWlRORzhBZHZUaDRwbzNQYU13eFNPbTNsbmEzdjdHcWRkX2U5dTdZS0FMRlZoX2hIRlJqWnN6UmNTTnI4ZkxUN18yMWU4ZmVhSmQ2dDRoaUFtalkwZmlDRDBSZTRtS1cyWkpBWXRiS2tQM2lFVFl4aldNQk54emFkcVZmcG1xX1ZPc3JhUzBXTkg0ZUsxY1JIc0pEYmIwdDNGcUlORnN3VGJLY0M1eWV3X3R1VVlsM1hGY29xczZRTldQRmZ3R1N1VncxX0RaZm9hRGY0ci1reFZQQW8?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-18T19:57:19+00:00"
-  },
-  {
-    "label": "UNH",
-    "topic": "UNH",
-    "title": "UnitedHealth Sinks 12% on CMS Fraud Rule as Warren Says Giants “Take a Cut at Every Step” - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT3A5bXBQM0Y5a1h1Rjlrb1k2c1JhZTlLejBwYU5rdm5rbEI3U1dkZjEtcm1scHMtUjluSHpqNzlwUW9QRk5UMzdzcnlialUtZlhPNUNEd05pczRreEdOeGY2Y29CZmFWNl9zcE1Dbzl5OTdaVTFZaUl4aXVqUk9PMUZmU1dQUHVLMXF2S2lZQWw3STMxY0dn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-18T19:41:16+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed minutes: Higher interest rates needed in December as inflation worries mount - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTG5CYklaaUZzc2Vjb1JFX3RLM1VKZTdHb2o2c1JRQ2lQeWhQV1FCVEpZczBkOWdKYUZ0ZjgxTlRqTXBBOU1GVkpvTGlCekxFRzhVbUI0djBGaEZWNTFzY1UtX3l1ZVQxYkV3YlRzTU1famd3cVlmVkR0dWQ4dk1ZMm5FY1hSbGxBTDFScE10cDY1eEt0dTI3ZGV0aEFyQUk?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-18T19:09:32+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91OXNXQ0tPMEw4dmRsaGVzS2ZoSXNmS1pOMWxRbWpMRlhPR0h6bHdVWWZaQS0xeXJZNTV4RUlFMTdHNFpyaEY1bkFHYTN1RWV2WTNXOG9KTDNzTTZCbDFIZzF6aDd6Zm5McGJtS09R0gFzQVVfeXFMTW1hd2NYMG1mYzRnUUxHVHBLMXNVT0dyQTVVUHM2LUpsOWdHYXdfRDRKM2UweUdDbUlaNzZnQ2YxU19ha1o2R3BsUHA5MUFkQ1JwTGpwb0d0Z2hjNDZ3Rk44OVZUbVE3clJrT2VmenhEQjBfUQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-18T19:00:50+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Fed's Barr says rate rises likely lie ahead for economy - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSm12UHZCU3VxTVdaUEZkTFVrcllfdGw3ejc3STVZM3U0cXByUWR5Y1R3ZDRhZmxQVjNiWXI0Qm9hTURNNlE4YTAxU2hYZVNNSm1JNENPd0tPYlE4VWtNNHZTQTZ5Q1JJMVE2SzYyNTE1UFVjSWRHUlpEZVB0dmhYbzlEdkNzc1dFUmJyaFEtNE42djVKTU5sN1RvZw?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-18T18:38:00+00:00"
-  },
-  {
-    "label": "QCOM",
-    "topic": "QCOM",
-    "title": "Baird cuts Qualcomm estimates over potential loss of ByteDance chip business - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeTFPX0h5R01IbnRzdTlZQWZ3YTBraHJnTlM3MERkOXFuc041WXBxWWZxTW5ubmc5aGdQNVBNbS0tdGFvYXdZWGhKRmYxUmhUdTB6dnhKT0ZUOWs4RmRiYkM0LWFrdV9pQkdGYWRwNGVrTk9TRTR5T013d09SVlJhM0Y0WGR5eTVJRmpIWDFZQk45dHphem9JQ1JCN0pGR2M?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-18T18:28:00+00:00"
-  },
-  {
-    "label": "Health",
-    "topic": "Health",
-    "title": "Why Recursion Pharmaceuticals Stock Is Up Today - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUl1Uk1kTk5XeXBFLUxQejVzeDFSN1RMdE16QmtvVlhvbnlLV2p3RmJDMWJFakl0TDhZRlRBanROdWlvOGJVNXBoc0NnR0hqZW9xbDdqb2xOTlFOdHpDWk80VGtLZXRmZnQyNGtNcDFQYnBXeHBoOWxjU1lvRW54YWdFcUlFcDVKaTVSeEdRc3BXbUEyU1BNU3hHYW5UaFd2V1h2MXFRUDJtdw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-18T17:23:01+00:00"
-  },
-  {
-    "label": "AXON",
-    "topic": "AXON",
-    "title": "Axon Enterprise, Inc. (AXON) stock price, news, quote and history - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIRDlEVVllQ19EZHhZcl9QR0hFT0ItN05XRGp3RkZ0YUhmdGFjLTdQSTRpLWwzOFVZNFp3c3Joc0YyQlRWYlZ3aHhVeWZBTm9vT3c?oc=5",
-    "source": "Yahoo Finance Singapore",
-    "published": "2026-11-18T17:13:01+00:00"
-  },
-  {
-    "label": "Makro & Weltpolitik",
-    "topic": "Fed",
-    "title": "Dollar higher as hawkish Waller backs aggressive Fed action - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRS1EYUhITWsxV1EyUmc5V21qQzNLaVoyTmN2Mm9ieGRFVTEzQ05XdzB1TVdxdFF4YS0zdUVnTFN2SE8xVlRlRUplUnVDUGZQRFIxSnJTNFFZbXgtWF92MTRTc1dpS0w4ejVtMUNia3NmREJBTDZNajZxRVp2eTZSbUdEbERxdTZDRklQWGlWM1lHN1dSVmNXVmlDZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-18T16:00:16+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-18T15:12:33+00:00"
   }
 ]
