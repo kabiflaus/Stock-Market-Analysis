@@ -1,5 +1,29 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNMUU4TU5rZk5fRHVMMnZyVVJSU2ctQWFjR0tYVlNaZUp2d1cwOXp5bGlyWm9sZmRzWHlCUmdEU3JwZ3Z5LW12TXR5cW5QY3pCNUxKT2tUbEQ2d2NnMlg3bDdkSWVTWEJCYVFvQVBXX05ESU5UMzV2aXJ5eThVbXBZcVU5NFltaFpFcDdLS3RfV2g3QUUxclV4TGVzcGM0VGpiNDVCYldhSmpnQ0U4ZmdvU2ZNTkhvdU0xWTlBbzBqQ096dDRwSFlGY0FGRHBiUGphVXd3U0dOQVVMMnF1blR6T2NuYzhNUXh2eUd5c1NVbE1EcWV3XzFV?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-23T16:25:06+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Stock market today: Nvidia stock soars after company reinstates Jensen Huang as CEO; Dow, S&P 500, Nasdaq surge - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTi1HY2VadmRPMGtuUF96MGItMWhqSFlzWlR2SGp5RHUxbFVXVHppNkhOU2IwUEtQTEtXTDBaQnNqdTh4Q0hkcDN6bWlGT0NacXdFREs0ZXJSMVZyT1pwQksyS2R3eEd0M3BJcnlENnNvb0FxWWdpc3lrTEJ4RlJUdW9TSjlWQmJEYU82SzB0djRFbVhEUU9aQlpVcklGYXRKMmJUdEhQTThrQnpaakprc2NJTTlSU01iWmZpRGx3UnpSR09uc2sxWEQ4b3hpeWExcGNoS18zZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-23T16:12:37+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Stock Market Today: Nasdaq surges 7%, S&P 500 and Dow jump after Nvidia reinstates Jensen Huang; Nvidia shares up 30% — live updates - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMnlFY2RjMXEwMk83LVpKcEY1QmhtTk03YmRoSUhkS0FUTkhpYnlIR3drVUNnVDJPLXJRR0RHR2VkNGk0R1AyUmpPZEQwUlFqeWUwSUtQME00YkxQcDRIbERLSXZoU2xMcmF4VVRwMkVLaG52d2RpSjR0eFZqMWZwOWVQQ3JkYTFYRkZ1ZldlS3ZVSGRPYXlxQnBGQ1JuT0QxVGJhLXY1MHhSdmMtdFE?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-23T16:02:00+00:00"
+  },
+  {
     "label": "MU",
     "topic": "MU",
     "title": "Why Micron Stock Is Up Today - Yahoo Finance",
@@ -56,12 +80,28 @@
     "published": "2026-11-23T14:04:12+00:00"
   },
   {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 33% - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9McnlkOWZjTEROTXNrdGgtS19oWmNzcTFQSFBwUUdmbzBkOVFYQWY4R2JSdloweTM0V0F1a1gyZExpV2ktdC0zcTExdGxlbVgzaFRGTFR0cjViMTZkeTdyQzMtQ0JYMmJPQUNReNIBckFVX3lxTE00WXNRTHAtbXVYeEpKUVFhaExjRzNtSVg4VWphUk04cWIxOUpRY0VQeWNtdHdCT0Y4dXRZc3pqbDRQWkZ0UFk3S3NVRTFXazFOY3pyLWgwcVZFcWFMZUQ0b2Qzd1dDQjZWV0lGd2tvaDhiQQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-23T13:59:23+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "Are Oils-Energy Stocks Lagging Canadian Natural Resources Limited (CNQ) This Year? - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMUc5V1VYeVFuYUFmT25NSjNPLXRKajdNLTA4bXVpX3VBaFNRZTB6eFJvY2Zrbkw0OEVGWWZZajhQTGl0VGVzem9OVF9INDY2Nk03aFNZLXdsaFJzQlFTTFF2ZGxwQlFsS3RfMjVkNVhZblh6NVkzRVRWTS1RUTNvWmVrVmJGaXplLWd2TkVUb2IyaG1TMkRacndmQ081a016TVE?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-23T13:40:03+00:00"
+  },
+  {
+    "label": "TSM",
+    "topic": "TSM",
+    "title": "Is Trending Stock Taiwan Semiconductor Manufacturing Company Ltd. (TSM) a Buy Now? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVnFQVHNkWVBBYzM1bTVkQXBrMHdVbC0xOHdmLXk2Z0Ztb2NmSjRnX1lndE40bTdfNGR6dUx6Y1VGeEkxeTQ1cVRlVm12RWVCUGZUZEFYWEJrMHRkMDBLMzdZYnJLaFdVcXdHMW5TWElSalRwZS1JLWdtdm1BMFZ1cl9BN0tzblJuUDE2U3Jwa2l5ZDNGQTV3aHNhT3Y5QVhDTmY3NzB2YlIzUVVCeGh4eEJRMDI?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-23T13:00:06+00:00"
   },
   {
     "label": "Energy",
@@ -78,6 +118,14 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa3V1T1pFS0tQMk4zekFHRHpmcUxWMElMNWh0Vjd2MHpodkh2N2dMMV9VRHc0cC1UWEN2aGZ2S0lhRGxiaGhqYWxzNWFIZGFoc0U3X3ZCOVU4QlRwblFMZlFpZ2VHTVQzanNRTE5iMUo0d2tQMTczYVlMRU1FREJ5Yk5xT3NaLXFGcjJiUVFoaG96RDZVanFhRnJ1SDFuR05KWWR3LXcwbw?oc=5",
     "source": "Business Insider",
     "published": "2026-11-23T10:30:00+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields jump as stock futures rebound, investors await New York Fed President Williams speech - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QemJ4Zi1KUVFXdk1NTDJLQWtnQmpPSnBiZTY3ZFV3SmRwZmFFay1kLTZoNk1MclNIZW5SVzh4MzlfRHBZTWR5N003aU9udHVCczNUd3R5SWxmMnIzb3QyS0R6akhuUzFJMlkyT2ZUd9IBdEFVX3lxTE1EVlVKZHJ6WUhjRGtoM2RrSjMtT0ZaanpZeThYZXNkdHRyY2FtNFc3SGJiREt5Rm5fc29DWWtMZ0FKVzNES09RMHBOVjVMY0Y4R0xHdW5ybW9fVW9CenRxWGtwYnRnVUZJQlNJR1RpUk9lbzNU?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-23T10:15:19+00:00"
   },
   {
     "label": "Rüstung",
@@ -128,6 +176,14 @@
     "published": "2026-11-23T02:24:00+00:00"
   },
   {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Scoop: The Pentagon's case for Canada to \"get serious\" on defense - Axios",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRFFwRnFSYzA5SjZLSmVqR1NjVUUzalNjdjJQZFRWWU5EUlBCM21SbzdFX0NHV241RldSZU1KXzVObkd3djVKdHZrbm1xQ0I0RkF4ZHJtR1F5Mm11dDkyazMyQkgyYlFVRkpoQXNCZGJMRHZGT05uWDVoSlVmeFRjcFJZS2lKN00?oc=5",
+    "source": "Axios",
+    "published": "2026-11-22T20:59:03+00:00"
+  },
+  {
     "label": "INTU",
     "topic": "INTU",
     "title": "TurboTax parent's $12 billion bet ends with a costly twist - Yahoo Finance",
@@ -136,20 +192,20 @@
     "published": "2026-11-22T18:07:00+00:00"
   },
   {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Scoop: The Pentagon's case for Canada to \"get serious\" on defense - Axios",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRFFwRnFSYzA5SjZLSmVqR1NjVUUzalNjdjJQZFRWWU5EUlBCM21SbzdFX0NHV241RldSZU1KXzVObkd3djVKdHZrbm1xQ0I0RkF4ZHJtR1F5Mm11dDkyazMyQkgyYlFVRkpoQXNCZGJMRHZGT05uWDVoSlVmeFRjcFJZS2lKN00?oc=5",
-    "source": "Axios",
-    "published": "2026-11-22T17:54:05+00:00"
-  },
-  {
     "label": "AMD",
     "topic": "AMD",
     "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028 - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOUZUTmFNWGdrZXVXZkhPTzJhR3g1YXFmN3ZIbGxsWTd6WVZlZTdvOUx1ZVB2OFJiTXRmdFpwN1NET29tMWhCOWxxY29WeGJoSlNXXzVUaXRPOFFiOFlUcnpHTUxPd2VwTGYwU1hQMGZ1YkZvbko2V0RFU1hEVHpDbnVIMmg3Y1FSX2U3enNUNlB6ZHM1bmJxUTg4X1RIeGZK?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-22T16:04:02+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "The 10-Year Treasury Now Pays 5%. These 3 Dividend Stocks Still Pay More - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQTNtN2lTTC0xYWZ0bWFfSkhXSGNhUWNiVzBNT0Y4MFRjNU92OU9ZQ2NjNHNMempXX3llMTBxUUpkWjZvVUFWakM0WWRRNzRLOUZRdXNuZk1NMVY5aWVMcDllSGhvMmlzdllnZVJ4Znh4RDZnZ3U3M1ZQZUdGcVlxbDB4U3JmOC1BNGoyLXdMcUI?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-22T14:32:00+00:00"
   },
   {
     "label": "NVDA",
@@ -680,6 +736,14 @@
     "published": "2026-11-20T05:05:43+00:00"
   },
   {
+    "label": "TSM",
+    "topic": "TSM",
+    "title": "Taiwan Semiconductor Manufactur (TSM) Stock Forecasts - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbGYxakpEc2pJQjFHdkFSc3U3ckpOajc2Q3p6TmpBdVFRVzlSTGtHcVhkQmVMY3pQSjJBMWI1WDJBcDJSbHc3LWlCdFp5VFNYTmUxUjgyS1RrcUpkV1g4b2R0MlVEckdWZ2MwYkNVWVFVdXU2QV92b28ydUV3OUMzX21GeXczZGJvY1VtQXRB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-20T04:21:06+00:00"
+  },
+  {
     "label": "AVGO",
     "topic": "AVGO",
     "title": "Is Broadcom (AVGO) Stock Stretched Or Still Reasonable On Cash Flow? - Yahoo Finance",
@@ -790,13 +854,5 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd2tVS3ktQThQZmhzbFBGVmwzRDlycmtudVhLTk1vLWpJeDlQMFBqV1J3bFZXNGtTT0VfRGJaWUxBeWNWck0tblgzbTJsQmM4SXNRbUVXZEo1Nk1UdWpONURjY1I5RnJsVmRuRzdra2VFSVlyYnJUTnhjUXNjNUJKU2YtWDBfQkZuWFV2d3FJZTdFSzZKdHgyM242QzVReUJENE52TEtXaWlfMnNlNGZkejlzRGR3TnM?oc=5",
     "source": "Reuters",
     "published": "2026-11-19T17:17:27+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "AMD dives on short seller report of alleged China exposure - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNamxpaV9pd09BZHBwY2dkTF9NMUttWDFlQS16Q2MwOFl3d3VxX1BrR0J4aEtlQXM2TG5XUlN0eXBfMExna25BSzNOdTUxNG1DdG5ZQ2NNaWtqTjJpTnQ3S25xeXpBSzk5cWp4MUExWmk3RE1GWExWalJINFNOX3FjYWphSHFsOVR1SHppYkxvU0Uyek5zU2hCcUMzZ9IBoAFBVV95cUxNelFseGlBTTJCNTlhVlhxSzVvTjd4Y29iNzkxUE9USXk5YnQ3bEVNWl9yRmpnOHVhYzhyLUp3WXQtQjRoSmVDMUVqcDR5bFBMQmxuUzJ1VnRVaTloYTlMQnhnZTZ6QU9ybDdGSzJpWjhOTjRYT3ZyVk5LSmd6a3dKbTMyU3hNckEyeU5YVHhiNmV1N0VTaDh0emN1bDJPYjZW?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-19T16:24:53+00:00"
   }
 ]
