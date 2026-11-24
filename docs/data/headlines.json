@@ -1,5 +1,21 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55Qzd6R1BVMkNsU2hwVWc4OElya24tNzEwcjFjd1NyVkczM2dDTHk2WnNzdkxlR2huZW1IcTgtMDBTUVU3WWxZNW1PeFQyaHgwdGl3LTlaVjV1cEtWa0JSQmNuQ3hnQmViVG5XYndIVEFaRFVEUzJ30gF8QVVfeXFMTWJnbFVGZ0NXUU1Xb04xRi1tMnlKazVMVWxSOUpYSWtBV2dHVHZycUpyUk1XX24zQ2o4bHFEVDEyaklmcktGaTFvMHlualhDckJrZ25tMDB5VnEzbTRYQmhEOThhNDZSWWtMSDYya2ZHckRQLUtEZGl0Tmp2TQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-24T16:20:15+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq declines as Nvidia slides, giving back part of Monday’s rally: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11bVhzTUlmU0hLLW0wRklRekw2eURvelhVMlZ3YThhUm5kNkctUE81eHlyNkRVQkRqTkc1enU3TWZZT0RKY2I1YWNTTmVpaDZkdlJYRGtqYkhFSGViT2NQN1A2MEVxNXEwbkNRMXlaejlRbzhtY2g40gF8QVVfeXFMTzg5Wkp0R2RYWWl3cUFWVjR1MzhPYlcwbzBsTGFFZVN0Z1QybjdvcThKTzBSd2NoOG51TU1JbkpKbUoyaWYtMGVGN2JKMWFkOWc2X3ZFODBBT3VBYkhzTmN3ZXNNTnlfUE5hRlZlM3pEaUgycEtwbWdNNlhuVw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-24T15:52:31+00:00"
+  },
+  {
     "label": "S&P 500",
     "topic": "S&P 500",
     "title": "Stock market today: Dow, S&P 500, Nasdaq fall as chip stocks tumble, investors test Nvidia-fueled rally - Yahoo Finance",
@@ -8,28 +24,12 @@
     "published": "2026-11-24T15:40:46+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55Qzd6R1BVMkNsU2hwVWc4OElya24tNzEwcjFjd1NyVkczM2dDTHk2WnNzdkxlR2huZW1IcTgtMDBTUVU3WWxZNW1PeFQyaHgwdGl3LTlaVjV1cEtWa0JSQmNuQ3hnQmViVG5XYndIVEFaRFVEUzJ30gF8QVVfeXFMTWJnbFVGZ0NXUU1Xb04xRi1tMnlKazVMVWxSOUpYSWtBV2dHVHZycUpyUk1XX24zQ2o4bHFEVDEyaklmcktGaTFvMHlualhDckJrZ25tMDB5VnEzbTRYQmhEOThhNDZSWWtMSDYya2ZHckRQLUtEZGl0Tmp2TQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-24T15:29:43+00:00"
-  },
-  {
     "label": "AI",
     "topic": "AI",
     "title": "Nasdaq, S&P 500 ease as Nvidia-driven AI rally fizzles - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSTdTSVk1YVg0WC1SRVJKVW1XYTZJbjRhRVctYkNzZHZRcW5TaVE3MVdSd2JfYUNaV3otX1FzR1lxYkwyWWZtbS1ONDdiem9UVUI0ckV6c2tiOEt0TGViNlUxZFdSeDV0aVJ4cjZkSkE5Nk9veE1UTmxad0xxaXhScndGMV9IdWVrNUpOQnY0Y0hXVmpZVFgwbTFQMDZiX0NqdExaejlYMzJnbjg?oc=5",
     "source": "Reuters",
     "published": "2026-11-24T15:26:58+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq declines as Nvidia slides, giving back part of Monday’s rally: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11bVhzTUlmU0hLLW0wRklRekw2eURvelhVMlZ3YThhUm5kNkctUE81eHlyNkRVQkRqTkc1enU3TWZZT0RKY2I1YWNTTmVpaDZkdlJYRGtqYkhFSGViT2NQN1A2MEVxNXEwbkNRMXlaejlRbzhtY2g40gF8QVVfeXFMTzg5Wkp0R2RYWWl3cUFWVjR1MzhPYlcwbzBsTGFFZVN0Z1QybjdvcThKTzBSd2NoOG51TU1JbkpKbUoyaWYtMGVGN2JKMWFkOWc2X3ZFODBBT3VBYkhzTmN3ZXNNTnlfUE5hRlZlM3pEaUgycEtwbWdNNlhuVw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-24T15:22:31+00:00"
   },
   {
     "label": "Makro & Weltpolitik",
@@ -128,6 +128,22 @@
     "published": "2026-11-24T12:00:05+00:00"
   },
   {
+    "label": "S&P 500",
+    "topic": "S&P 500",
+    "title": "S&P 500 futures down around session lows as Monday rally fizzles - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOMUNnYVBrdUtyZ1k3RUgxVmpJRDhiaW1BSDZPTE5oWDR2dFZKQWFBNnBRNHkzVmh1STRNRXJVWUlvaXVqNHpQc2UwZGFTcUZzUU4zMEduOGtwUnNMUzZrWktid0JNOS1DRnh2SlB5anBDTmpIdGNqSUNlWFV5Y0FPTGRPb3ZnVGVRVVNzNmR4V0VtMHVlSWswdDNOMHFGZ1ZucjNOeUk0cm9vUlZNa21zczR2MDRLcXlkZF9QX0Q0Z0lSZUpqSXBER3NxUm5aZzlCYk16UHFlQ0IwMzVjUHlDOXRUNnFtOWpXR1Z4eVc0cjVXaUZXXzhxUTVNcmdXck1pSlFHT2ZKV1prc21CYkxyWUItWlEtbFlxaVZTRDFpQjlhb1cyanZaeWxmRVhWNDhPbTlJSDJvQmNiMU0tS3Vkc3k2blI1dWwydExFa1YzNXJDaXlWZmZPWGxOTQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-24T11:05:00+00:00"
+  },
+  {
+    "label": "AI",
+    "topic": "AI",
+    "title": "3 Chip Stocks Riding Nvidia AI Supply Chain Demand - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLTVnWlNLVlYwX3l1dUFDUWFremxlbmdUY3ZBWExia3JWTS00cVNuNTZaTzJQU0RwTmpxVGRXR3pSWDRvdGRGXzZPa1FlS25OYk5VWVdEc3F2aDR6aUZnSjdvQS1aR0EwNmNvOTdmczBFcmJOdEt5R2ZsdF9kNjFJeGljeEpadHc4TFEteGJDaVZLZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-24T10:10:01+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Treasury yields lower after inflation warning from New York Fed's Williams, investors await 5-year auction - CNBC",
@@ -150,6 +166,14 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLXZFWm9jYWRHVHhoRUMwUjdERjBNakV6ZVdjT2tYdEFRX2tOMUNydnY0VG1obkpwRHZ4TjdQT2o5QlEzelQ2QVBiV3lqTnpsMlVSYUJrT1VGUnRWVzJORmJnWndETXdwLW5yYUJIc3cyRTF4WlozOG12MjlRTi1HTEhuZHRnRzVpOEMtWmNnZ3ZmUTdMYmc?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-24T08:01:09+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Pentagon sharply rebukes Canada over defense spending and the F-35 fighter jet review - AP News",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb1V4Q2RIZXNodGFmRE1kM214cmZ2eEFScHNJU0NhN21pQUJvTWQtTGZxXzBjYXpwNW5WN21kZ0tRdmc3VmRXNTJhckxrcmFZd0lESDZlYWFZZ05XRjNFQ05zSUpySEtqUC1yZGpTS1Rjb29QX0xXa2FucUFUelI0b0ZGcmVEaXlWZFR0VVplYjlUNS1YTlFtc0phTkFHaXVwTi04bjdn?oc=5",
+    "source": "AP News",
+    "published": "2026-11-24T04:46:00+00:00"
   },
   {
     "label": "AMD",
@@ -216,8 +240,8 @@
     "published": "2026-11-23T21:30:00+00:00"
   },
   {
-    "label": "NVDA",
-    "topic": "NVDA",
+    "label": "AI",
+    "topic": "AI",
     "title": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXQxeWtYZkw0VGdES0pzRTNhc1h5aW9VNWNkRU0zeVE0QzBBYk12VmM1cjFkWEJSUmwzQndzZHVJaGF3bGdvSGI1UEtwWXBzZ1NuZExiejR2bkFsVl9ZWl9hS1FEekV3TS1ZV1hnZnNSVU9ybGRJTkF5b193dXVPLUs1ZDRJMWY3X25UYV8wNEU0RTliTXk4NFNDUElmWjZhSFJXVy1MSmlsbXZEajY5MEJoVmpBWEt1a3g0SFRFalpZSmdXWjVZYw?oc=5",
     "source": "Yahoo Finance",
@@ -872,8 +896,8 @@
     "published": "2026-11-20T17:19:43+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
+    "label": "Anleihen",
+    "topic": "Anleihen",
     "title": "Treasury yields fall as bond market tracks risk assets, not Fed rhetoric - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdURuX3U4alhaS1ZoWExaNk16cUk4bS1Sdm5qc191UWVLUkphRHpVbVVyTENfZk95ZDROYWJzUjlieGxoekNtcWtPWEpGTFdGNFQ4eHFVaUdnUUZYT2NLN25Idy11NGg3V1pmMUF4RnByRFplekZWQnVyRmRiaVRpaVYyTzQ?oc=5",
     "source": "Yahoo Finance",
@@ -886,13 +910,5 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSTFhR2JyQkh2Q0xLVzc1dlNlblBVeTIxZ3pXVTZiZXgyNzJ6NldHQW82NVhrbTUzVFFnaGQxNmE2Tm9wVnNkUHkzRzFBdV85NTRweks2TDJsVDNPMnI5bVJtcUlqTExFT3RJREw3YzBLb0FnU0hMc1RNX2s3b3M3UGtjZWwzQnZjdmpCUGhjNEdzajhpMUxFakVWZThTVjB3c19ncThR?oc=5",
     "source": "n-tv.de",
     "published": "2026-11-20T16:50:27+00:00"
-  },
-  {
-    "label": "INTU",
-    "topic": "INTU",
-    "title": "Intuit stock falls on weaker outlook, Mailchimp sale to Bending Spoons - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYWkxcHZSY210YklPRW9RX3MxX1VTcU45Sjk3UEJ1UmhQV0pwN3RjT1hkRjF1bWh4SGEtN2k2OXNHNXRCYURZQ09MMUxZREtZNzZNN2FJVTRHYzVRZjREWVVnZmRySEx6Ynl3aUUtSW5FRTZGR0ljMzFHZVVUSzFlMlRHLU9YVWZKeVFmWk5uQW42MXhjOGxMZ3lHaWthWUR0NWJ5aHVKcEsySFBQYlBIeXphUEh6QzlJZUtveGdLN2NOcUtuRHFfZjM5VU5vQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-20T16:06:41+00:00"
   }
 ]
