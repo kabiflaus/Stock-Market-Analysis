@@ -1,5 +1,69 @@
 [
   {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia live updates: Nvidia stock climbs more than 31% as board reinstates Jensen Huang as CEO - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSWh4SkxkZkVEYVE0bHF3bzR2azhpV1pRbVJVSzJ2dHYyTEFwcFNFNFlLb25Qa0NnekRUTUlOcXd3SDBfZlJsdDVtOFNTd0VQS0RCWC1WaWZJdURybFFnZFRCM2h1SHA2RXNpWjQzLXNNMURST3dULWp4QVBKMVkycGVmeXN1eXJCWEZkaXg5YmVaTlp2SlpfM0pidU1ZaVExbGxKZXc4VG1vLVZDQTVYSTF3R2RGalo0LWVvcmtzdzVscHl0OEpsUF9RQU1wM0MyRHhQcEQ2ZEg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-24T00:00:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55Qzd6R1BVMkNsU2hwVWc4OElya24tNzEwcjFjd1NyVkczM2dDTHk2WnNzdkxlR2huZW1IcTgtMDBTUVU3WWxZNW1PeFQyaHgwdGl3LTlaVjV1cEtWa0JSQmNuQ3hnQmViVG5XYndIVEFaRFVEUzJ30gF8QVVfeXFMTWJnbFVGZ0NXUU1Xb04xRi1tMnlKazVMVWxSOUpYSWtBV2dHVHZycUpyUk1XX24zQ2o4bHFEVDEyaklmcktGaTFvMHlualhDckJrZ25tMDB5VnEzbTRYQmhEOThhNDZSWWtMSDYya2ZHckRQLUtEZGl0Tmp2TQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-23T23:50:30+00:00"
+  },
+  {
+    "label": "MRVL",
+    "topic": "MRVL",
+    "title": "Why Marvell Technology Stock Crushed it Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWk40YWZ5bkFCZkkxeE82RmxNSEV4UVFRelpiVDJHWHFzbzFjRE1qRGMta0VxYUdzNGFVWVNlRUZHNnF3dHFJTTRySldSVzhBT3dkX25TeGVCUmtpcWlCbDJDOV9zS3FWaXdPQ295Z0ROT3ZheDZ5N2RlbDdNSTEzQU8tZTIwdWRVUEJNb1RFaTVQZEQ2ZGF1TVp6T1lxSlVnR3hn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-23T22:06:45+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXQxeWtYZkw0VGdES0pzRTNhc1h5aW9VNWNkRU0zeVE0QzBBYk12VmM1cjFkWEJSUmwzQndzZHVJaGF3bGdvSGI1UEtwWXBzZ1NuZExiejR2bkFsVl9ZWl9hS1FEekV3TS1ZV1hnZnNSVU9ybGRJTkF5b193dXVPLUs1ZDRJMWY3X25UYV8wNEU0RTliTXk4NFNDUElmWjZhSFJXVy1MSmlsbXZEajY5MEJoVmpBWEt1a3g0SFRFalpZSmdXWjVZYw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-23T21:14:26+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia just posted its biggest single-day stock rally since 2003 after Jensen Huang's comeback - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdml1dzBFbTNyWnBYRWtfSGQ3b3lwU2VhQk1VeEdTSFhFYkRZZWw5VW5RV0U3U2E1cGNHZDBwNzlOQUhUUkVUVjRPcUxaOWNDbTg3OHdhNURiNUNLaFdzN3VWR2JEUWgtcmxhWVNxWXkwMU0xcVRTQzhhWHRkMW9hMDl1akU0ZVhRWGJUc2Job09YejJteURxLWpjVzVVbWc?oc=5",
+    "source": "Business Insider",
+    "published": "2026-11-23T21:03:00+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "Fed",
+    "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTEpFREZWNnVpcVBFY3pxbHBnbkFJTWRxZjlBOHNLdFkxb1JEVWdUX2VfWlJhU0dwZEFJc0RUY2w2THFBaWVjbkxpSGRubWxQdHdSYWJFdmc2VVhUX0F1S1gwYXYxcUlsQUY0T0pIQnhhNkNFRXFCWHA3M2xVZWRITtIBhgFBVV95cUxNN0wxOFpVd01FWG9EWlppMC02d1RtcG5wZ1V1a3N1bklHZGFHWDYzUk80cnMwa00yblpXZUdfQV9SMk1fVVRrM0c0OWZuSDlGWjQtN0hUWW1mMTNHVTZObmhSeTllcDZIUE85S2duamlXdE5hNExsamtsaDU2LUJveEF0Q1ZIQQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-23T21:00:01+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Axios Future of Defense Summit: What leaders say is needed to supercharge U.S. military readiness - Axios",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOEtOQVoxS09RTG9IUHNaUGR2UXZoaFUwbFVxelRUWmE3dWlfaHQ4WjlWb0ZSME90V1Z1c0pnaVdRRnFFMUd2TWVPa1N5c2dDSGc2bzduTkNISkdfYmt6VVl6UG1DcVpwdURuTnIwRmtRZHRTSVBQSW1oYUUxdzR6dXRnOWg3cnE4WXJjTnpEbVh0aF8wLVdoZHMzTWtIWGtjVmtGRlBkdWZ3UHNqYmNRR1EySWZ6NldWQ25tdDh4OWJ2bHVEMlE?oc=5",
+    "source": "Axios",
+    "published": "2026-11-23T18:22:45+00:00"
+  },
+  {
+    "label": "MRVL",
+    "topic": "MRVL",
+    "title": "Should You Buy Marvell Technology Stock Before Dec. 1? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSzNKYldMNEdnTnZsZzVxUXpLaDBsc0x2dkZ5SjlCcUtmSVAyb0lXOWJNU1VLSG84U3o2eDhGR1FXVUxMUDZiaHNDVlB1UDUzLU5nclVKQTdXTHZlYmkyeTJIdmFFclpmdWZNX0xhY3JEcGxkOV9HRW1qTDMxcTJyMWxKU1Q4dFdSWkxXUDVRbGVzb2JDU1cwbWI1VDhHdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-23T17:54:02+00:00"
+  },
+  {
     "label": "Nasdaq",
     "topic": "Nasdaq",
     "title": "Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia - Yahoo Finance",
@@ -32,12 +96,28 @@
     "published": "2026-11-23T15:47:02+00:00"
   },
   {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Nasdaq roars back by 7% as Nvidia soars on Huang’s return, S&P 500 rebounds 5%: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55Qzd6R1BVMkNsU2hwVWc4OElya24tNzEwcjFjd1NyVkczM2dDTHk2WnNzdkxlR2huZW1IcTgtMDBTUVU3WWxZNW1PeFQyaHgwdGl3LTlaVjV1cEtWa0JSQmNuQ3hnQmViVG5XYndIVEFaRFVEUzJ30gF8QVVfeXFMTWJnbFVGZ0NXUU1Xb04xRi1tMnlKazVMVWxSOUpYSWtBV2dHVHZycUpyUk1XX24zQ2o4bHFEVDEyaklmcktGaTFvMHlualhDckJrZ25tMDB5VnEzbTRYQmhEOThhNDZSWWtMSDYya2ZHckRQLUtEZGl0Tmp2TQ?oc=5",
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNTE3UTJiTDJBdGEteFJpU1RwQjQ3NW56dVJyc2ZXcTd0M0V5b3hfMDZEdnEzaW9GNmJjV25iYl9Gb01jallBT2VMaDgxWndBdnU4WERzcXo5TEpKTU1EUGJXTTRxWFoyZ0dmSUJFenZrdG81ZWNkN0pXNmo5SDhWOHFuRkYyMHZjWmlDck1nS2toS0dhMnlmRWhWRFIyU2gyZ0lIaktGVEVjMDRoMkFzcWVyRkt4blFjRVpCOHNsb2s?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-23T15:15:00+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Trump sealed deal for Nvidia to rehire Jensen Huang as CEO - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ab2habU9pTTllNmRCRDdqTjgwQ3hsVFZDX1hhVkJxaVVCWHNhYjRHLXFMaWtnME41NGZ1Z1REMkh1d2Y0NUJGamJSdVJQcV9rZEV1aW9nUlhHQWN1WkFSU3RRMnZrNEpobEp5bVBoY9IBdEFVX3lxTFBXNkNGSW1MaGlybGVOX0YtaVI0YVFfd3NYMi1BenZKN2Ewd1JJT3NMMjdpaElsRF9jSThyVzBHYlg4dUxocjBjYnV1dml4czdrWHR4akNId1g3SVJYa0oyRkdEUHJPMnRUVFpkbUpxWHRtWUxE?oc=5",
     "source": "CNBC",
-    "published": "2026-11-23T15:35:58+00:00"
+    "published": "2026-11-23T15:08:28+00:00"
+  },
+  {
+    "label": "NVDA",
+    "topic": "NVDA",
+    "title": "Nvidia’s share price skyrockets as Jensen Huang returns as CEO - CNN",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOREdTMDhsYVhubG5MMzNPeFVyaXRhMy1xZmVOcFdTOWRZVmxQSlpIZTFFNEZUcExNQVEtRXVZanhhYk52ZlpaMnRRcDc3Rk5NR1BPWHJRdVZPOEtVazhtNnUxUWNRQjFmM1draENiMWV2c1M0V0ZCTEJXdy1vVklPZEZoczZfajNmQ0JB?oc=5",
+    "source": "CNN",
+    "published": "2026-11-23T15:00:41+00:00"
   },
   {
     "label": "Nasdaq",
@@ -88,6 +168,14 @@
     "published": "2026-11-23T13:59:23+00:00"
   },
   {
+    "label": "INTC",
+    "topic": "INTC",
+    "title": "Intel Stock Could Have More Upside Than Its Current Valuation Suggests - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeGh0ZFd1TFVUMVRMeXdRTDhtN0FyT1BrOW95LUNqRVV5azhucnNfYlAyY1dOZFJZN0JZeVlrMFg3YUNpUmMxd1NMQkNJdW91YnBpWkJCbE00NzM4d0JzMnZhUTdROXljcGxOQXVKbjBXenVUUUtQenp1Z0FzR1VYTVhOblVwWTEtS2JoNUMzbzhBWnE2SkZUT0hn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-23T13:47:17+00:00"
+  },
+  {
     "label": "Energy",
     "topic": "Energy",
     "title": "Are Oils-Energy Stocks Lagging Canadian Natural Resources Limited (CNQ) This Year? - Yahoo Finance",
@@ -122,10 +210,18 @@
   {
     "label": "Anleihen",
     "topic": "Anleihen",
-    "title": "Treasury yields jump as stock futures rebound, investors await New York Fed President Williams speech - CNBC",
+    "title": "2-year Treasury yield jumps as stocks rebound, investors await New York Fed President Williams speech - CNBC",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QemJ4Zi1KUVFXdk1NTDJLQWtnQmpPSnBiZTY3ZFV3SmRwZmFFay1kLTZoNk1MclNIZW5SVzh4MzlfRHBZTWR5N003aU9udHVCczNUd3R5SWxmMnIzb3QyS0R6akhuUzFJMlkyT2ZUd9IBdEFVX3lxTE1EVlVKZHJ6WUhjRGtoM2RrSjMtT0ZaanpZeThYZXNkdHRyY2FtNFc3SGJiREt5Rm5fc29DWWtMZ0FKVzNES09RMHBOVjVMY0Y4R0xHdW5ybW9fVW9CenRxWGtwYnRnVUZJQlNJR1RpUk9lbzNU?oc=5",
     "source": "CNBC",
     "published": "2026-11-23T10:15:19+00:00"
+  },
+  {
+    "label": "Makro & Weltpolitik",
+    "topic": "EZB",
+    "title": "December rate hike may not be enough but not in a rush to move again: ECB's Simkus - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRFlkZVZKRk9QVlZVX0hUNXZSMWNqTG1oVXZ2cmw4V1VOMUMxV2NVS0djLTQ1M18wLXp6cE5iWkxSMzNwd0lyVHhETVNQY2Ffd25LVzQ1TUctV3E4YWRLZkNpSEhCZTJwMVBkc2RTZDgwSU9OX0lSOTFwY0xFd2hQVHdwVnhIeHhhWXJRZmtlNllyLUs3ZGJmakNCUTBGWGJ6Wk1za2IxMkIzZXhuUFk3eVIzQUpVVEFM?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-23T09:01:41+00:00"
   },
   {
     "label": "Rüstung",
@@ -170,18 +266,10 @@
   {
     "label": "Makro & Weltpolitik",
     "topic": "Öl & Iran",
-    "title": "Oil prices fall on increased flows from Middle East, Libyan oil pipeline restart - Reuters",
+    "title": "Oil slumps to 3-month low on increased Middle East flows, Libyan pipeline restart - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb016TW1Rc3N2Q0h6TVJZUFBSeXZqWklRWXgwZ2QyUnRCa0tnWnI4b0Z2YkVVZlVGWTJwa0E3SEVqNnotSE4zOFpOdjJUSE5GcjB5RHJxaklsM0I2U1owemZ4aUJmYkRhUUM2VjVFd09paWhIWHhFUWxmcmhzT3Y5RWhCTENfNE00a3RaYnhnOGgweEJoNEVtNTVKS0pLTWNiY2ZfM1pvbFNieG5DbWpGcUdOM19xZFF5QXl5LWZXNVRrZw?oc=5",
     "source": "Reuters",
     "published": "2026-11-23T02:24:00+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Scoop: The Pentagon's case for Canada to \"get serious\" on defense - Axios",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRFFwRnFSYzA5SjZLSmVqR1NjVUUzalNjdjJQZFRWWU5EUlBCM21SbzdFX0NHV241RldSZU1KXzVObkd3djVKdHZrbm1xQ0I0RkF4ZHJtR1F5Mm11dDkyazMyQkgyYlFVRkpoQXNCZGJMRHZGT05uWDVoSlVmeFRjcFJZS2lKN00?oc=5",
-    "source": "Axios",
-    "published": "2026-11-22T20:59:03+00:00"
   },
   {
     "label": "INTU",
@@ -190,6 +278,14 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU0tXbEU5OWpvVTFTMzh2Zkxpdm1OX1NHNTJ6WWt6MlFOM1NOQmFSOVlZSlFaMmFRN1ltVVkxUzNwWVpwWndhcWlIckFNOEtjNkVubDdZb011T3RPSzFjZXhmOEhkbExDbWlZU2lPeUdTTmhEYnNQY0hqVmVXZFpYU0g4cWhyVmpQYXV6c1lhT2NxdF9mZk9XenJKblA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-22T18:07:00+00:00"
+  },
+  {
+    "label": "Rüstung",
+    "topic": "Rüstung",
+    "title": "Scoop: The Pentagon's case for Canada to \"get serious\" on defense - Axios",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRFFwRnFSYzA5SjZLSmVqR1NjVUUzalNjdjJQZFRWWU5EUlBCM21SbzdFX0NHV241RldSZU1KXzVObkd3djVKdHZrbm1xQ0I0RkF4ZHJtR1F5Mm11dDkyazMyQkgyYlFVRkpoQXNCZGJMRHZGT05uWDVoSlVmeFRjcFJZS2lKN00?oc=5",
+    "source": "Axios",
+    "published": "2026-11-22T16:41:39+00:00"
   },
   {
     "label": "AMD",
@@ -374,6 +470,14 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUko0WFpHMnA4WHJNWC0waXVUNHJtdFJRVlFhbmVuN0JRRGl5a0RaZ0E5d0E5clBQSU50YVYzdk43d2RfUXRvZU9lWjg2blhFdUFHUTl1elBkSUlSV09kZGljVWlEaXNRRU5TY2QyZzY3OXJ4NVBoNDhyYnhQT2ZxNUdtdUVzaFVRSk1ZZA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-21T05:18:08+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTHNQSUdWb2VZOGVaWnNJUldnY2RZNTE5aUJtS0VpNkZCSE1kUjE4cXFwczlMSEdrWUlCT1ZKdXJfM3U0alg4VjNXOW9Tak1seW5hWEN3VWdnQkZVcjVudVdLUEp5alJjYS1SN0c0Sk9aRlJMb1haaTl0X0ZlSGF6T0I5bzZpandFUnpadFNqdW11cXk2S0dRcjJWckxubENNRkk4?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-21T00:16:00+00:00"
   },
   {
     "label": "NVDA",
@@ -766,61 +870,5 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU2VjaXpVcGM0N3puRHB0b0JRcGJvTDh1TjhqS0NlUlRJU3daMlFPdm5XZWxxaktIQk9FYVpYVU01RER3UVJERXRFT1NCb1l0YmxFemJOTm9BTUxad2txY2hCWjA3bUFhOVE2TmhtTTJlcGNuWDlkaXJTS0NhejN4Vllid1ItdEkwamxBMWplOHVmWlBlS3c?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-20T01:25:00+00:00"
-  },
-  {
-    "label": "MRVL",
-    "topic": "MRVL",
-    "title": "Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQlVvT1J3eGlRdDEtX2RvMk1SNU0wNlMtV0FBT1FYRDNNWlJZZXVzMmZzUzZ5X0VqSTdibXdKUjBwQXFaQXZSaUpoTzB3dEozUGFJd2duWS1TeTJmUlRQTVB6bEdBSjBxSE1CLW5mNlVXYzBiRm1aTks5WkF1WVJYT053VmRubnhXSHfSAY8BQVVfeXFMTjZmXzdKTDN5THRFMDlMU3lvdzJRSVpHbl9qZ3BFUEM5Y3RQT0ZvRkFZYmVPLWlpcVR6T2RucExTRWpoUlVRaWpGa005Qnlnc1AwMjJteVZ4b1I3d2U4SnVoLVRLR0s2QV9qSF84YVMxWFVSczlDWkVzRWk5U3d0NHo2OWJsZG9fQTAySzZlekk?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-19T23:47:42+00:00"
-  },
-  {
-    "label": "MU",
-    "topic": "MU",
-    "title": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWEhhTnU4WlVySDlWdzRGTHlaZlg1U1ZMd19LRk1tcUd3b25qTmVuekxNbDBXQ044dEpzRGZwcG85dlUtZGJNSTk2bHI1UDNXS1BnQWE1bmw0WEE3ZUh0UEdQV1JnU0wya2J3OFlxVmh2Xzc4M2V3X05femQzcGJ6VS1pd01OS0ZIbV9BdzlJc09Za0xBZFY5aDE3VlNLRXp2V1YzdUgxR2ZxLUYzLWl3?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-19T21:27:00+00:00"
-  },
-  {
-    "label": "MU",
-    "topic": "MU",
-    "title": "Nvidia, Broadcom, and Micron stocks decline as Anthropic goes public - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnFiUEhueFNuXzRVcWt0NUlDWXY3b0MwVnYzN0YxYzZBZkoyRnZRQmJqeTJUdlJuaG1ubUdoQkk0Yk5KcHk3N2FTWm5rX2ZqQ2dPeml5dnBHUVZpNFVhdVdWdEZVLVNiRnFpNm15RUktZUdmUV9oV1ZFVWd4VVZwQlYwa19wc3cyMFMzbGRrVXdiYndLeVFUSUhrVTJBSUVmTGR1ZmVsd3QzZ05HTTVabktzRS02aEdDdnhJ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-19T21:21:28+00:00"
-  },
-  {
-    "label": "INTU",
-    "topic": "INTU",
-    "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UcXJmMEF4emcwYy1hVlVNd3NpSE84aXozd2JVcUx3OUJxNmJhNUNmeEVYX09razlCUWZUZ3AyTm1VVVc2a3VEcDJZN2xfb1FRMVZvelN0T05iOEY5UXNqR0w5R2FGOFFOaC1wSEJDc1NzR1JjNG5TSlJyMC1Nd9IBgwFBVV95cUxOX3N3cFpZX05Qem1UeGx3MUVKUzBpcUFOdUFqQnJoU1VZbGFCWnRYa095ZEVGamd4c1lNeHdZbzFmRGhEZXlZVm5wTzFEQm1iRFNCYlphWHVsS1ZYYUs3LVJ0OVBUb3NDUzAwdnNEM3F1MUM1b0phMllLYmktU05yOUVnNA?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-19T21:06:39+00:00"
-  },
-  {
-    "label": "WWD",
-    "topic": "WWD",
-    "title": "Woodward (WWD) Sets January 2027 Leadership Changes Tied To Its Transformation - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMnJDbjlqaUZsSDFfVGxLbHJObl9nblpYdEwwT3l3UW1SUUowVVR3ZWxZNXllaS1lbUhiVEdFbzFkWlBiZEJrR2U5Vnp0dTRTelJFZWZwaWpqMjZvYmUzN04tLWVVN2RST01hTkhBemg4MVIxMHFtRlZsalhMNndQZU1YVDR1dw?oc=5",
-    "source": "Yahoo Finance Singapore",
-    "published": "2026-11-19T20:17:15+00:00"
-  },
-  {
-    "label": "AI",
-    "topic": "AI",
-    "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TbEk0NDY0UEtDbGFEY3hpX0lQWXY4RUMzNllqWllsTmQ5Wl8xeXpFVTdmQmpvX3hLZXkxUWpabzBaUHFieXkydmFtODZxVnctTDBZTkhYWHFDVWlsZF9HYTE1Q0NoQzdEWmtZLXRkdENBRjNVOG1zSGNwUHg3UdIBgwFBVV95cUxPalZ2a1NfTW5MM3ItZWxEbmlRODJpc0FwVE5KSmExazY4WlhGMEotZ1htWTduNVB1S0JibUVMSnVwc3BjSzBzdVFhdVdSc1NSMElhd3NNQ3laXzRiU2JkRmRHMkFjZlVWeTQ1dWtRcHFzTF96dlV0R3lreFhENWZUcGtUWQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-19T19:55:41+00:00"
-  },
-  {
-    "label": "INTU",
-    "topic": "INTU",
-    "title": "Stocks making the biggest moves Thursday: Intuit, Gap, Anthropic, Ross Stores & more - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNnM1LXV0d0JUbjQ3eDd2QmtPSVdMZUU4aGZUM2E5cDdvYnAzczlzRUh4OF8ySDRnR2plWmpwT1hvR0NZbGFGUHY5RTl3a2JHejdRTTk0SjBQQW0tNElvNEdqZlBaSE1GNERsNU1SZlFORTE4ZUdNc1lfcUhHVkt3amM4ZFfSAYoBQVVfeXFMTmd4QzlTZmM0THZwc0lHajZHTjNqUzgwZlIyaVkwQ0sxUC15aVFNVGc1RU5NYXJyd3JienBEa2c0dHZGejVnZXYycW10NkNHUWJZdjRrb1R4OEYwZXU5TzlfelpCZXZhWkMxZjVQakFsRDNjakw2YXh6RUJSZU5tN1YwWkVKX0ZuUGV3?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-19T19:28:45+00:00"
   }
 ]
