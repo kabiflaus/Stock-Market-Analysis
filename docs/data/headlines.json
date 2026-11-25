@@ -1,11 +1,27 @@
 [
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq, S&P 500 end down, but well off lows as investors buy bargains - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-25T22:04:08+00:00"
+  },
+  {
     "label": "AXON",
     "topic": "AXON",
     "title": "Axon Enterprise Inc. stock outperforms competitors on strong trading day - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVW16dUp4TjU4SUJsSUR2WTF5NTJ2T3puaXJiejZhY0NpVFFqZW1yU28xX1hQQ2pLVXdUdTYycmNSYVVPS29yNFNmZUtxMnVPNU9VakdWU0JYZEp5YUNpelQ0SUR1czAyVzFzUUJHSXh5S1Z0cmppUlJVXzgySU5yU1JIT3NlRTFVLTRLcTgydkVCWkNmOEFRNTVPUEtLNHMzV01oeS1oaU5tLWZoTE1Kc1VVcnhlMndVLUhLSVpCQXRxVTVhNE5wbFllMA?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-25T21:30:00+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11bVhzTUlmU0hLLW0wRklRekw2eURvelhVMlZ3YThhUm5kNkctUE81eHlyNkRVQkRqTkc1enU3TWZZT0RKY2I1YWNTTmVpaDZkdlJYRGtqYkhFSGViT2NQN1A2MEVxNXEwbkNRMXlaejlRbzhtY2g40gF8QVVfeXFMTzg5Wkp0R2RYWWl3cUFWVjR1MzhPYlcwbzBsTGFFZVN0Z1QybjdvcThKTzBSd2NoOG51TU1JbkpKbUoyaWYtMGVGN2JKMWFkOWc2X3ZFODBBT3VBYkhzTmN3ZXNNTnlfUE5hRlZlM3pEaUgycEtwbWdNNlhuVw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-25T21:17:30+00:00"
   },
   {
     "label": "000660.KS",
@@ -22,22 +38,6 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSmpqa3JOQVdHanlfMGU2Zk8xUllBMnVMYkwyOF9wbWtyd2I3U3dFTUNwV1R0ZDlvcm1rZ0ppb1hsOUllRXJqOWluYXVja09rTC1JRTllQWFpald0eUdRMk9waHNVWkVXWjNkLWdUbkxWUi1laTc5Y2tfT0M4VEUzMDB1dzEyV3ZjdTJ2dVI4blhDMUNm?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-25T21:12:00+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11bVhzTUlmU0hLLW0wRklRekw2eURvelhVMlZ3YThhUm5kNkctUE81eHlyNkRVQkRqTkc1enU3TWZZT0RKY2I1YWNTTmVpaDZkdlJYRGtqYkhFSGViT2NQN1A2MEVxNXEwbkNRMXlaejlRbzhtY2g40gF8QVVfeXFMTzg5Wkp0R2RYWWl3cUFWVjR1MzhPYlcwbzBsTGFFZVN0Z1QybjdvcThKTzBSd2NoOG51TU1JbkpKbUoyaWYtMGVGN2JKMWFkOWc2X3ZFODBBT3VBYkhzTmN3ZXNNTnlfUE5hRlZlM3pEaUgycEtwbWdNNlhuVw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-25T20:40:26+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq, S&P 500 ease, but off lows of the day as investors seek bargains - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-25T20:04:52+00:00"
   },
   {
     "label": "Anleihen",
@@ -136,8 +136,8 @@
     "published": "2026-11-25T13:14:55+00:00"
   },
   {
-    "label": "Makro & Weltpolitik",
-    "topic": "US-Renditen",
+    "label": "Anleihen",
+    "topic": "Anleihen",
     "title": "The bond market never bought it - Axios",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TRUtueFI0ay1JYTZOT1Qzdnk0Rkw4UnIxUUR2NTNuZTNGcDMyYzRpWjNzOWF5S2NhUHJ4ODA0eTh4RE5SM3lFeU8yZFM1SGY0MkJTMEdDcmZwRDVtdWJQU2FTSlVwQQ?oc=5",
     "source": "Axios",
@@ -278,14 +278,6 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNndyR0VJNnlJZm5UR2tJRjUzalBvR1E0R245TVNfU0xWT3NxNk1pOU1SZkRJd2ZaTkY4T1RzZ1VLZ0V3SmpQZDZpeGhwcmVVRFFsekl0RE9pUkJ3Q2t5UUpXZkhRWkRlM2hzUVgtaE5GRDlfUWVZODR0cmlJamFQMHNkZXp0RFJQeHlFQ0tiTjlkcWczdjJ4ZVlzQXRxYjVfQ0VMX01sWQ?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-24T18:47:44+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55Qzd6R1BVMkNsU2hwVWc4OElya24tNzEwcjFjd1NyVkczM2dDTHk2WnNzdkxlR2huZW1IcTgtMDBTUVU3WWxZNW1PeFQyaHgwdGl3LTlaVjV1cEtWa0JSQmNuQ3hnQmViVG5XYndIVEFaRFVEUzJ30gF8QVVfeXFMTWJnbFVGZ0NXUU1Xb04xRi1tMnlKazVMVWxSOUpYSWtBV2dHVHZycUpyUk1XX24zQ2o4bHFEVDEyaklmcktGaTFvMHlualhDckJrZ25tMDB5VnEzbTRYQmhEOThhNDZSWWtMSDYya2ZHckRQLUtEZGl0Tmp2TQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-24T18:30:37+00:00"
   },
   {
     "label": "Anleihen",
@@ -590,6 +582,14 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXQxeWtYZkw0VGdES0pzRTNhc1h5aW9VNWNkRU0zeVE0QzBBYk12VmM1cjFkWEJSUmwzQndzZHVJaGF3bGdvSGI1UEtwWXBzZ1NuZExiejR2bkFsVl9ZWl9hS1FEekV3TS1ZV1hnZnNSVU9ybGRJTkF5b193dXVPLUs1ZDRJMWY3X25UYV8wNEU0RTliTXk4NFNDUElmWjZhSFJXVy1MSmlsbXZEajY5MEJoVmpBWEt1a3g0SFRFalpZSmdXWjVZYw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-23T21:14:26+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55Qzd6R1BVMkNsU2hwVWc4OElya24tNzEwcjFjd1NyVkczM2dDTHk2WnNzdkxlR2huZW1IcTgtMDBTUVU3WWxZNW1PeFQyaHgwdGl3LTlaVjV1cEtWa0JSQmNuQ3hnQmViVG5XYndIVEFaRFVEUzJ30gF8QVVfeXFMTWJnbFVGZ0NXUU1Xb04xRi1tMnlKazVMVWxSOUpYSWtBV2dHVHZycUpyUk1XX24zQ2o4bHFEVDEyaklmcktGaTFvMHlualhDckJrZ25tMDB5VnEzbTRYQmhEOThhNDZSWWtMSDYya2ZHckRQLUtEZGl0Tmp2TQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-23T21:10:00+00:00"
   },
   {
     "label": "NVDA",
