@@ -48,10 +48,26 @@
     "published": "2026-11-25T23:37:12+00:00"
   },
   {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Stock market today: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground amid AI sell-off - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEhyLTdac1NBTVdPT1QyLUJKck4wUUJkNjlXQWFHTG1peDJyeDRqNklFSkVpek9JbmEyQ0gya1R6dGZicmpfbkFIS1BjR3lDeGhFMmpIYU90ajhxZ2lwYW5sLW93TmdZcXR3Q2p3akUxc1JBRVRmbEpVQW5LM3pDaXhNZWx6a0txT19rUTQ3R2xVejJWQkh0TzdSRmlOY0lDa05oNklJOE1fVV9CY1FuRXJMNHJrVG8zQzdTX0pjYmNwanNhd0VJcTVkRQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-25T22:52:19+00:00"
+  },
+  {
     "label": "AXON",
     "topic": "AXON",
     "title": "Axon Enterprise Inc. stock outperforms competitors on strong trading day - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVW16dUp4TjU4SUJsSUR2WTF5NTJ2T3puaXJiejZhY0NpVFFqZW1yU28xX1hQQ2pLVXdUdTYycmNSYVVPS29yNFNmZUtxMnVPNU9VakdWU0JYZEp5YUNpelQ0SUR1czAyVzFzUUJHSXh5S1Z0cmppUlJVXzgySU5yU1JIT3NlRTFVLTRLcTgydkVCWkNmOEFRNTVPUEtLNHMzV01oeS1oaU5tLWZoTE1Kc1VVcnhlMndVLUhLSVpCQXRxVTVhNE5wbFllMA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-25T21:30:00+00:00"
+  },
+  {
+    "label": "LRCX",
+    "topic": "LRCX",
+    "title": "Lam Research Corp. stock underperforms Wednesday when compared to competitors - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZWMxcDEtZU5Bck1Mb2JDMndaNWVoLUI3OGFONFNtWUh0VC11bkNlLVEtS0t4VUo5bjVSczRDQkZOVmNtLXRBcVlOQVQ4TmF2RHYwQ1A4dkxvV2ZoN2dYUVZjSkMzMGJETzRFTUFuU3JLYkNSdUszb0otWmFPRE93LXFrSkhWaXl3cWg2SWVvdjcyQXRKZTZXMTVITm01aXZkUERJYXRaUTF4MXRmRWVHaGlaNUlOdDYtbzFGM3pEeUVKTWVUTGs1ZktrMklPSjNpTGc?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-25T21:30:00+00:00"
   },
@@ -62,14 +78,6 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVk9mVUxsUll4NmpxRklUb1dFaHduU3ZURXZRV2ktV0pDM2ZMNElPb3RrV0NiS0JlLTVXQXJKNnpTV1JmV1k2NGMtdzNLa0F0c2tsY2xRMmJKZHhwY1dueWZXb0l4VXhWNkl4NmJ6QUlTNjBpZUItN0xkX21JUXJ5WGlUbWdON0E0V2FOT2lGYkozcm9VSjlXVjR3SDc5WWQ3VzJhWm5mb29YbjBQSU1hQURkYw?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-25T21:18:06+00:00"
-  },
-  {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
-    "title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11bVhzTUlmU0hLLW0wRklRekw2eURvelhVMlZ3YThhUm5kNkctUE81eHlyNkRVQkRqTkc1enU3TWZZT0RKY2I1YWNTTmVpaDZkdlJYRGtqYkhFSGViT2NQN1A2MEVxNXEwbkNRMXlaejlRbzhtY2g40gF8QVVfeXFMTzg5Wkp0R2RYWWl3cUFWVjR1MzhPYlcwbzBsTGFFZVN0Z1QybjdvcThKTzBSd2NoOG51TU1JbkpKbUoyaWYtMGVGN2JKMWFkOWc2X3ZFODBBT3VBYkhzTmN3ZXNNTnlfUE5hRlZlM3pEaUgycEtwbWdNNlhuVw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-25T21:17:30+00:00"
   },
   {
     "label": "000660.KS",
@@ -88,6 +96,14 @@
     "published": "2026-11-25T21:12:00+00:00"
   },
   {
+    "label": "LRCX",
+    "topic": "LRCX",
+    "title": "Lam Research (LRCX) Stock Dropped, So What Is Driving Attention Now? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRUVSU3IzSFkyd0hJNFY5SzdOWVZJTVNwUVhmOFJZTW12WXQ5TllIc1J3Tm9Rb3MxbGdsdWFTZU9hdzBJVVU5bV82VEhVRG1YbWpXYUVMaEVOaGZ0Ty00Z1RqLXNfcWlzT2FhYVFiT095X1FyajJmbW92dVB4b0VrRzZYZ0s4S0toZGxmZXBfbHBhRHg3RlY2aGY4S3M?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-25T21:11:00+00:00"
+  },
+  {
     "label": "Anleihen",
     "topic": "Anleihen",
     "title": "Treasury yields haven't seen quite the bounce that stocks have, as investors remain cautious - MarketWatch",
@@ -102,14 +118,6 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcjZ1MUw5RG5fdk0tUjNTRFNIRzl5amR0VklFSzdTOUlUS2hxNWk5aV9xcm5VWmQtZGRkdXVKMWZ3Um5qZHluSFp4MGNIdHNETlZPck1RcmJmUC1oZHFtWFdYT29PbkdjUU1IbjQyWE9GRFJZdXFwTVFRMEtDcl81bXpDS3RHSHNka3VSbGlHNmNFV09uMTE1aExBRVkxUldZUmpwX3hYdGduS1BJcW1QRlY4ZjdyYkZyWTI0dVBB?oc=5",
     "source": "Reuters",
     "published": "2026-11-25T18:55:31+00:00"
-  },
-  {
-    "label": "S&P 500",
-    "topic": "S&P 500",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq sink on hot inflation, new Trump tariffs as chip rout continues - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEhyLTdac1NBTVdPT1QyLUJKck4wUUJkNjlXQWFHTG1peDJyeDRqNklFSkVpek9JbmEyQ0gya1R6dGZicmpfbkFIS1BjR3lDeGhFMmpIYU90ajhxZ2lwYW5sLW93TmdZcXR3Q2p3akUxc1JBRVRmbEpVQW5LM3pDaXhNZWx6a0txT19rUTQ3R2xVejJWQkh0TzdSRmlOY0lDa05oNklJOE1fVV9CY1FuRXJMNHJrVG8zQzdTX0pjYmNwanNhd0VJcTVkRQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-25T17:25:18+00:00"
   },
   {
     "label": "Rüstung",
@@ -198,6 +206,14 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNakd5YkhEMWtNbHc1eVYxX1RBU1JDY1U3MXdIZEVaR1pRUE04YTRJbDNfT2pxRFlYYURxS3ZzLWFOdjhaVGN4UmVoYTBXQ1ZxVFdiUkd4MHRfS25xbTlxcV9tQ2tlTmlkcUVhNkMwaUlMSk44NGE4dlgwTXJ1cWpfclY2bzh1amdGYW4tLTJWUHFoWkQ5R3JfZ0JVWG9iRUdGN0phWWNkWG5lSzRBaU9Ga2w0Qm9qc3NkU2h4TzZMaTB1aG8?oc=5",
     "source": "CNBC",
     "published": "2026-11-25T12:03:19+00:00"
+  },
+  {
+    "label": "Anleihen",
+    "topic": "Anleihen",
+    "title": "Treasury yields slide as risk-off mood trumps tariff fears - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQWC1xQWtUNnRUelBycGY3N0dtblFoNDlnMGdPUmE2aDdwZnp1TXMyM3JfblFQWlAyQ3k5b0RkNkREUUdLVE5hd0tIblpCZWczdHRtVDFfUHpMeDJzTXk2VWF6OXk4V3ZFMktaQkVKMGhQMHNMUGphZmlCZDhaZ1NoUy1iV2NzSm1nZFVOaEdldjcyYm1RS2RUMjNPTWVVYUtlTDVHM3B3bUlQU0JiTUNnU3otaGtsMEdYYnBpZUF0STFsWTFmYnNEUUR3TU1naE9hMkFaUmZ6U01pQnEtTEg1WEpEZVE0YUdaYkJYdjNTNnFpeldCOTJoQUdPT01uRW1FM1VZSjZpN0h3QXgwbWdNVnN6TllZb25ha2N3ZVNpbzdNZ1R3R0E?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-25T10:26:00+00:00"
   },
   {
     "label": "Nasdaq",
@@ -302,6 +318,14 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa1dVRFZXa0NvckdLd1lsRVlaLXBPekpHOUU2bGRHa3I1b3JhVUt6SFhmWG9JWWxtZmd4VFpIUXZLZjlCVC1HVUs1cmFjVzJjd3lNNGtsUF8wZjVGMHhRTUNIU2l3cnBDZm5RT0xvdGwwU3JUNG4yZXFaVDU4Y1JTa21nOWxKSW5ZS2pVVnh1TUxqbWRhMF9FdDRR?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-24T21:46:48+00:00"
+  },
+  {
+    "label": "Nasdaq",
+    "topic": "Nasdaq",
+    "title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11bVhzTUlmU0hLLW0wRklRekw2eURvelhVMlZ3YThhUm5kNkctUE81eHlyNkRVQkRqTkc1enU3TWZZT0RKY2I1YWNTTmVpaDZkdlJYRGtqYkhFSGViT2NQN1A2MEVxNXEwbkNRMXlaejlRbzhtY2g40gF8QVVfeXFMTzg5Wkp0R2RYWWl3cUFWVjR1MzhPYlcwbzBsTGFFZVN0Z1QybjdvcThKTzBSd2NoOG51TU1JbkpKbUoyaWYtMGVGN2JKMWFkOWc2X3ZFODBBT3VBYkhzTmN3ZXNNTnlfUE5hRlZlM3pEaUgycEtwbWdNNlhuVw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-24T21:16:00+00:00"
   },
   {
     "label": "Rüstung",
@@ -480,8 +504,8 @@
     "published": "2026-11-24T11:05:00+00:00"
   },
   {
-    "label": "Nasdaq",
-    "topic": "Nasdaq",
+    "label": "AI",
+    "topic": "AI",
     "title": "Nasdaq, S&P 500 slip following Monday's Nvidia-fueled rally - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSTdTSVk1YVg0WC1SRVJKVW1XYTZJbjRhRVctYkNzZHZRcW5TaVE3MVdSd2JfYUNaV3otX1FzR1lxYkwyWWZtbS1ONDdiem9UVUI0ckV6c2tiOEt0TGViNlUxZFdSeDV0aVJ4cjZkSkE5Nk9veE1UTmxad0xxaXhScndGMV9IdWVrNUpOQnY0Y0hXVmpZVFgwbTFQMDZiX0NqdExaejlYMzJnbjg?oc=5",
     "source": "Reuters",
@@ -958,21 +982,5 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU0tXbEU5OWpvVTFTMzh2Zkxpdm1OX1NHNTJ6WWt6MlFOM1NOQmFSOVlZSlFaMmFRN1ltVVkxUzNwWVpwWndhcWlIckFNOEtjNkVubDdZb011T3RPSzFjZXhmOEhkbExDbWlZU2lPeUdTTmhEYnNQY0hqVmVXZFpYU0g4cWhyVmpQYXV6c1lhT2NxdF9mZk9XenJKblA?oc=5",
     "source": "Yahoo Finance",
     "published": "2026-11-22T18:07:00+00:00"
-  },
-  {
-    "label": "Rüstung",
-    "topic": "Rüstung",
-    "title": "Scoop: The Pentagon's case for Canada to \"get serious\" on defense - Axios",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRFFwRnFSYzA5SjZLSmVqR1NjVUUzalNjdjJQZFRWWU5EUlBCM21SbzdFX0NHV241RldSZU1KXzVObkd3djVKdHZrbm1xQ0I0RkF4ZHJtR1F5Mm11dDkyazMyQkgyYlFVRkpoQXNCZGJMRHZGT05uWDVoSlVmeFRjcFJZS2lKN00?oc=5",
-    "source": "Axios",
-    "published": "2026-11-22T16:41:39+00:00"
-  },
-  {
-    "label": "AMD",
-    "topic": "AMD",
-    "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOUZUTmFNWGdrZXVXZkhPTzJhR3g1YXFmN3ZIbGxsWTd6WVZlZTdvOUx1ZVB2OFJiTXRmdFpwN1NET29tMWhCOWxxY29WeGJoSlNXXzVUaXRPOFFiOFlUcnpHTUxPd2VwTGYwU1hQMGZ1YkZvbko2V0RFU1hEVHpDbnVIMmg3Y1FSX2U3enNUNlB6ZHM1bmJxUTg4X1RIeGZK?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-22T16:04:02+00:00"
   }
 ]
